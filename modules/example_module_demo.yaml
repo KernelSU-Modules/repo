@@ -1,19 +1,23 @@
 id: example_module_demo
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1413800395
+  ownerId: 340597895
+  fullName: KernelSU-Modules/example-module
+  manifestPath: module.yaml
+review:
   submissionId: 4cee4lan6b
   kind: submit
-  source:
-    host: github
-    repositoryId: 1413800395
-    ownerId: 340597895
-    fullName: KernelSU-Modules/example-module
-    manifestPath: module.yaml
   submittedBy: 30978685
-  submittedByLogin: Ylarod
   submittedAt: 2026-10-11T01:37:02.257Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: telegram
+  decidedAt: 2026-10-11T01:37:24.716Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64163
 createdAt: 2026-10-11T01:37:02.257Z
-updatedAt: 2026-10-11T01:37:02.257Z
+updatedAt: 2026-10-11T01:37:24.716Z
