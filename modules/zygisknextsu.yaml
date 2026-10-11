@@ -1,19 +1,23 @@
 id: zygisknextsu
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1348255159
+  ownerId: 245651649
+  fullName: VeryBaaad/ZygiskNextNext
+  manifestPath: module.yaml
+review:
   submissionId: k3vz3m8cof
   kind: submit
-  source:
-    host: github
-    repositoryId: 1348255159
-    ownerId: 245651649
-    fullName: VeryBaaad/ZygiskNextNext
-    manifestPath: module.yaml
   submittedBy: 245651649
-  submittedByLogin: VeryBaaad
   submittedAt: 2026-10-11T08:02:48.953Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: telegram
+  decidedAt: 2026-10-11T08:57:15.837Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64227
 createdAt: 2026-10-11T08:02:48.953Z
-updatedAt: 2026-10-11T08:02:48.953Z
+updatedAt: 2026-10-11T08:57:15.837Z
