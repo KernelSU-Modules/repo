@@ -107,21 +107,17 @@
       "fullName": "Rouyashiki/YukiZygisk",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-11T11:30:45.343Z",
+      "maxVersionCode": 10099,
       "message": null,
       "repositoryId": 1297024368,
-      "request": {
-        "checkedAt": "2026-10-11T11:29:25.802Z",
-        "commit": "773a02fa649a2c8adf581b9cc2b852b1b56b88b9",
-        "issues": [],
-        "latestTag": "ci-38135296301",
-        "ok": true,
-        "releaseId": 409624375,
-        "repositoryId": 1297024368,
-        "submissionId": "3950h7clxo"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-11T11:25:49Z",
+        "tag": "ci-38135296301",
+        "version": "v0.2.0-10099",
+        "versionCode": 10099
+      }
     },
     "zygisknextsu": {
       "contentCommit": "c1e927c8d0181dae7957db4750ee184d88235c8a",

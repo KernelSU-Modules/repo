@@ -914,6 +914,183 @@
         "verified": "self"
       }
     },
+    "yukizygisk": {
+      "content": {
+        "blobs": {
+          "README.md": "cce72081df0c471f5a004e3e85e5009b42613750",
+          "module.yaml": "570de8b93b5a7a85c6d9d7da9295320d4a8baaa1"
+        },
+        "commit": "773a02fa649a2c8adf581b9cc2b852b1b56b88b9",
+        "fetchedAt": "2026-10-11T11:30:45.343Z",
+        "files": {
+          "README.md": "2dc06dd817c0c688371247e1c68a1b17a4ed4d7a15c8baf793cd02b8c3714e9e",
+          "module.yaml": "1b221f0b12147776791d63ae17b5334d315af5d1321247822ce28435fd72177b"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "Rouyashiki/YukiZygisk",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-11T11:30:45.343Z",
+        "lastSuccessAt": "2026-10-11T11:30:45.343Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "yukizygisk",
+      "installationId": 170233846,
+      "maxStableVersionCode": 10099,
+      "maxVersionCode": 10099,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:5fa5c4b9bfafc8075965aae630c0b44c2e5083d5b0247c96f213d48a63b513ac",
+            "id": 630566242,
+            "name": "YukiZygisk-v0.2.0-10099-all-kmi-arm64-v8a.zip",
+            "sha256": "5fa5c4b9bfafc8075965aae630c0b44c2e5083d5b0247c96f213d48a63b513ac",
+            "size": 2732995,
+            "url": "https://github.com/Rouyashiki/YukiZygisk/releases/download/ci-38135296301/YukiZygisk-v0.2.0-10099-all-kmi-arm64-v8a.zip"
+          },
+          "body": "Automated all-KMI module build.\n\n- Version: `v0.2.0-10099`\n- Version code: `10099`\n- Ref: `main`\n- Commit: `773a02fa649a2c8adf581b9cc2b852b1b56b88b9`\n- Build: https://github.com/Rouyashiki/YukiZygisk/actions/runs/38135296301\n",
+          "htmlUrl": "https://github.com/Rouyashiki/YukiZygisk/releases/tag/ci-38135296301",
+          "immutable": true,
+          "name": "YukiZygisk v0.2.0-10099 (CI 48)",
+          "prerelease": false,
+          "prop": {
+            "author": "Anatdx",
+            "description": "Standalone kernel-level Zygisk",
+            "id": "yukizygisk",
+            "name": "YukiZygisk",
+            "updateJson": "https://ci.yukizygisk.anatdx.com/update.json",
+            "version": "v0.2.0-10099",
+            "versionCode": "10099"
+          },
+          "publishedAt": "2026-10-11T11:25:49Z",
+          "releaseId": 409624375,
+          "tag": "ci-38135296301",
+          "tagCommit": "773a02fa649a2c8adf581b9cc2b852b1b56b88b9",
+          "version": "v0.2.0-10099",
+          "versionCode": 10099
+        }
+      ],
+      "repositoryId": 1297024368,
+      "seen": {
+        "401542579": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "401545427": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "401556674": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "402663989": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "402677023": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "402678981": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "402712008": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "402772292": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "402921716": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "403162456": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "404119406": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "405412027": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "409624375": {
+          "checkedAt": "2026-10-11T11:30:45.343Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:5fa5c4b9bfafc8075965aae630c0b44c2e5083d5b0247c96f213d48a63b513ac",
+          "id": 630566242,
+          "name": "YukiZygisk-v0.2.0-10099-all-kmi-arm64-v8a.zip",
+          "sha256": "5fa5c4b9bfafc8075965aae630c0b44c2e5083d5b0247c96f213d48a63b513ac",
+          "size": 2732995,
+          "url": "https://github.com/Rouyashiki/YukiZygisk/releases/download/ci-38135296301/YukiZygisk-v0.2.0-10099-all-kmi-arm64-v8a.zip"
+        },
+        "body": "Automated all-KMI module build.\n\n- Version: `v0.2.0-10099`\n- Version code: `10099`\n- Ref: `main`\n- Commit: `773a02fa649a2c8adf581b9cc2b852b1b56b88b9`\n- Build: https://github.com/Rouyashiki/YukiZygisk/actions/runs/38135296301\n",
+        "htmlUrl": "https://github.com/Rouyashiki/YukiZygisk/releases/tag/ci-38135296301",
+        "immutable": true,
+        "name": "YukiZygisk v0.2.0-10099 (CI 48)",
+        "prerelease": false,
+        "prop": {
+          "author": "Anatdx",
+          "description": "Standalone kernel-level Zygisk",
+          "id": "yukizygisk",
+          "name": "YukiZygisk",
+          "updateJson": "https://ci.yukizygisk.anatdx.com/update.json",
+          "version": "v0.2.0-10099",
+          "versionCode": "10099"
+        },
+        "publishedAt": "2026-10-11T11:25:49Z",
+        "releaseId": 409624375,
+        "tag": "ci-38135296301",
+        "tagCommit": "773a02fa649a2c8adf581b9cc2b852b1b56b88b9",
+        "version": "v0.2.0-10099",
+        "versionCode": 10099
+      },
+      "stars": {
+        "count": 30,
+        "fetchedAt": "2026-10-11T11:30:45.343Z",
+        "fullName": "Rouyashiki/YukiZygisk",
+        "repositoryId": 1297024368,
+        "verified": "self"
+      }
+    },
     "zygisknextsu": {
       "content": {
         "blobs": {
