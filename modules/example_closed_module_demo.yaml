@@ -1,0 +1,19 @@
+id: example_closed_module_demo
+status: pending
+request:
+  submissionId: 9t6sxgc3k5
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1413837320
+    ownerId: 340597895
+    fullName: KernelSU-Modules/example-closed-module-dist
+    manifestPath: module.yaml
+  submittedBy: 30978685
+  submittedByLogin: Ylarod
+  submittedAt: 2026-10-11T02:23:28.828Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64165
+createdAt: 2026-10-11T02:23:28.828Z
+updatedAt: 2026-10-11T02:23:28.828Z
