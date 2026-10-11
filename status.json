@@ -1,32 +1,21 @@
 {
   "modules": {
     "KernelSU-Tuner": {
-      "contentCommit": "1176a0ee3eabbc7e6078c2a45e15f39671c68852",
+      "contentCommit": "3665219b0a16002d8b2912d0b13393c192013943",
       "fullName": "ylh440104/KernelSU-Tuner",
-      "health": "error",
+      "health": "ok",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-id-mismatch: module.yaml id \"ksu_tuner\" differs from the registered id \"KernelSU-Tuner\".",
+      "message": null,
       "repositoryId": 1414095668,
       "request": {
-        "checkedAt": "2026-10-11T08:36:09.297Z",
-        "commit": "1176a0ee3eabbc7e6078c2a45e15f39671c68852",
-        "issues": [
-          {
-            "code": "manifest-id-mismatch",
-            "message": "module.yaml id \"ksu_tuner\" differs from the registered id \"KernelSU-Tuner\".",
-            "severity": "error"
-          },
-          {
-            "code": "prop-id-mismatch",
-            "message": "module.prop id \"ksu_tuner\" does not equal the registered ID \"KernelSU-Tuner\".",
-            "severity": "error"
-          }
-        ],
-        "latestTag": "v3.0.2",
-        "ok": false,
-        "releaseId": 409535071,
+        "checkedAt": "2026-10-11T08:45:55.731Z",
+        "commit": "3665219b0a16002d8b2912d0b13393c192013943",
+        "issues": [],
+        "latestTag": "v3.0.3",
+        "ok": true,
+        "releaseId": 409545621,
         "repositoryId": 1414095668,
         "submissionId": "rgzszf0g19"
       },
