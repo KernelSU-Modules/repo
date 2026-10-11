@@ -213,6 +213,289 @@
         "repositoryId": 1413800395,
         "verified": "self"
       }
+    },
+    "hybrid_mount": {
+      "content": {
+        "blobs": {
+          "README.md": "71ea8c55de987d3a4ef8003fd4c3148cbf371376",
+          "icon.png": "0ec70554129f0f518100a4eab1b04c8a4926dc9c",
+          "module.yaml": "9995ef14e920bf5e239907bf54919ba11989b343"
+        },
+        "commit": "b7e928831cbca5a10cc0d1e671081aeb1e9efb1e",
+        "fetchedAt": "2026-10-11T06:14:43.181Z",
+        "files": {
+          "README.md": "b211603616ae5910e585575a4b5b12076101a1385aea5b59844172d56315eef9",
+          "icon.png": "b3a933b89393bb5f3662157d14c3aeb6bdb380fabb5befeef0523431850c0f3e",
+          "module.yaml": "26e4eaf7ec1536d02918cfcfc06d32f814746c4c6b817e171d156013a43ce741"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "Hybrid-Mount/meta-hybrid_mount",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-11T06:14:43.181Z",
+        "lastSuccessAt": "2026-10-11T06:14:43.181Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "hybrid_mount",
+      "installationId": 170149812,
+      "maxStableVersionCode": 602003999,
+      "maxVersionCode": 602003999,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:10ca8b21e55705050a5e2ad56777190279c8aae582fed5ad5b1a4dfddae91e23",
+            "id": 629807829,
+            "name": "Hybrid-Mount-6.2.3-2090.zip",
+            "sha256": "10ca8b21e55705050a5e2ad56777190279c8aae582fed5ad5b1a4dfddae91e23",
+            "size": 4923231,
+            "url": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.3/Hybrid-Mount-6.2.3-2090.zip"
+          },
+          "body": "\n## v6.2.3\n\n\n### <!-- 2 --> Fixes\n\n- `config` Accept retired partitions during upgrades\n\n- `vfs` Port upstream inode lifecycle hardening\n\n\n\n### <!-- 5 --> Miscellaneous\n\n- `vfs` Refresh the prebuilt hybridmount modules\n\n- `ksu` Replace crate with direct ioctl transport\n\n\n\n",
+          "htmlUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/tag/v6.2.3",
+          "immutable": true,
+          "name": "v6.2.3",
+          "prerelease": false,
+          "prop": {
+            "author": "Hybrid Mount Developers",
+            "description": "Hybrid Mount: mixed OverlayFS, Magic Mount, and VFS for KernelSU and APatch",
+            "id": "hybrid_mount",
+            "metamodule": "1",
+            "name": "Hybrid Mount",
+            "updateJson": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/dev/update.json",
+            "version": "6.2.3",
+            "versionCode": "602003999"
+          },
+          "publishedAt": "2026-10-11T04:49:47Z",
+          "releaseId": 409422447,
+          "tag": "v6.2.3",
+          "tagCommit": "b7e928831cbca5a10cc0d1e671081aeb1e9efb1e",
+          "version": "6.2.3",
+          "versionCode": 602003999
+        }
+      ],
+      "repositoryId": 1103029590,
+      "seen": {
+        "310892387": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "313600351": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "313775560": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "318549140": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "320042633": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "320142758": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "321294877": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "321304608": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "321332949": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "323756552": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "327843912": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "330377053": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "345742020": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "377038376": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "377120667": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "378845477": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "379051615": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "379060416": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "379251091": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "382465728": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387532228": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392062006": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392690210": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392707646": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392969052": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "399310217": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "399449813": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "400060869": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "402246352": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "409422447": {
+          "checkedAt": "2026-10-11T06:14:43.181Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:10ca8b21e55705050a5e2ad56777190279c8aae582fed5ad5b1a4dfddae91e23",
+          "id": 629807829,
+          "name": "Hybrid-Mount-6.2.3-2090.zip",
+          "sha256": "10ca8b21e55705050a5e2ad56777190279c8aae582fed5ad5b1a4dfddae91e23",
+          "size": 4923231,
+          "url": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.3/Hybrid-Mount-6.2.3-2090.zip"
+        },
+        "body": "\n## v6.2.3\n\n\n### <!-- 2 --> Fixes\n\n- `config` Accept retired partitions during upgrades\n\n- `vfs` Port upstream inode lifecycle hardening\n\n\n\n### <!-- 5 --> Miscellaneous\n\n- `vfs` Refresh the prebuilt hybridmount modules\n\n- `ksu` Replace crate with direct ioctl transport\n\n\n\n",
+        "htmlUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/tag/v6.2.3",
+        "immutable": true,
+        "name": "v6.2.3",
+        "prerelease": false,
+        "prop": {
+          "author": "Hybrid Mount Developers",
+          "description": "Hybrid Mount: mixed OverlayFS, Magic Mount, and VFS for KernelSU and APatch",
+          "id": "hybrid_mount",
+          "metamodule": "1",
+          "name": "Hybrid Mount",
+          "updateJson": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/dev/update.json",
+          "version": "6.2.3",
+          "versionCode": "602003999"
+        },
+        "publishedAt": "2026-10-11T04:49:47Z",
+        "releaseId": 409422447,
+        "tag": "v6.2.3",
+        "tagCommit": "b7e928831cbca5a10cc0d1e671081aeb1e9efb1e",
+        "version": "6.2.3",
+        "versionCode": 602003999
+      },
+      "stars": {
+        "count": 1699,
+        "fetchedAt": "2026-10-11T06:14:43.181Z",
+        "fullName": "Hybrid-Mount/meta-hybrid_mount",
+        "repositoryId": 1103029590,
+        "verified": "self"
+      }
     }
   },
   "schemaVersion": 1

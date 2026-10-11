@@ -39,21 +39,17 @@
       "fullName": "Hybrid-Mount/meta-hybrid_mount",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-11T06:14:43.181Z",
+      "maxVersionCode": 602003999,
       "message": null,
       "repositoryId": 1103029590,
-      "request": {
-        "checkedAt": "2026-10-11T04:51:45.369Z",
-        "commit": "b7e928831cbca5a10cc0d1e671081aeb1e9efb1e",
-        "issues": [],
-        "latestTag": "v6.2.3",
-        "ok": true,
-        "releaseId": 409422447,
-        "repositoryId": 1103029590,
-        "submissionId": "ycxcp356s5"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-11T04:49:47Z",
+        "tag": "v6.2.3",
+        "version": "6.2.3",
+        "versionCode": 602003999
+      }
     }
   },
   "schemaVersion": 1
