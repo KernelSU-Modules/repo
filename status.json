@@ -5,21 +5,17 @@
       "fullName": "KernelSU-Modules/example-module",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-11T01:38:10.702Z",
+      "maxVersionCode": 100,
       "message": null,
       "repositoryId": 1413800395,
-      "request": {
-        "checkedAt": "2026-10-11T01:37:33.640Z",
-        "commit": "7836e073f2a13a495dc510ce201819c93ed4e7f5",
-        "issues": [],
-        "latestTag": "v1.0.0",
-        "ok": true,
-        "releaseId": 409319448,
-        "repositoryId": 1413800395,
-        "submissionId": "4cee4lan6b"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-11T01:26:58Z",
+        "tag": "v1.0.0",
+        "version": "v1.0.0",
+        "versionCode": 100
+      }
     }
   },
   "schemaVersion": 1
