@@ -1,0 +1,19 @@
+id: SvcHub
+status: pending
+request:
+  submissionId: w438kqz7g9
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1353509468
+    ownerId: 74402876
+    fullName: LimpidMo/SvcHub
+    manifestPath: module.yaml
+  submittedBy: 74402876
+  submittedByLogin: LimpidMo
+  submittedAt: 2026-10-11T09:15:58.558Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64230
+createdAt: 2026-10-11T09:15:58.558Z
+updatedAt: 2026-10-11T09:15:58.558Z
