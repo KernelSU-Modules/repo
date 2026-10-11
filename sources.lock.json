@@ -1,5 +1,105 @@
 {
   "modules": {
+    "example_closed_module_demo": {
+      "content": {
+        "blobs": {
+          "DESCRIPTION.md": "d5f451e1f1a75733f7546952aa40c8bce72aa2b9",
+          "assets/icon.png": "d818401889e4864ba278b91dca3c585d6c128c45",
+          "module.yaml": "6fcf43d2b90fb1e4b15bdd7e99220d2f37490642"
+        },
+        "commit": "5f6b7cdf1fd21ca32eb1756cae66452eb3666d5f",
+        "fetchedAt": "2026-10-11T02:24:34.108Z",
+        "files": {
+          "DESCRIPTION.md": "8e74ff04d04a519ed427a1de2e7941d34e214374882b535e758fca8dd7b2cf3e",
+          "assets/icon.png": "2ebaa6f72c2ac3a7c040fb407984e6d0e90d66075df6dcc562df51214f052bc5",
+          "module.yaml": "d113ec4ab09730511054c607792fc3baa6124934c664bb6501343adbf2685d0a"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "KernelSU-Modules/example-closed-module-dist",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-11T02:24:34.108Z",
+        "lastSuccessAt": "2026-10-11T02:24:34.108Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "example_closed_module_demo",
+      "installationId": 170114643,
+      "maxStableVersionCode": 100,
+      "maxVersionCode": 100,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:ac673b445c0c0f206f0e6e49d6a6dc0254d7c25c0c6f0d23bca02b1f7e351701",
+            "id": 629546101,
+            "name": "example_closed_module_demo-100-v1.0.0.zip",
+            "sha256": "ac673b445c0c0f206f0e6e49d6a6dc0254d7c25c0c6f0d23bca02b1f7e351701",
+            "size": 976,
+            "url": "https://github.com/KernelSU-Modules/example-closed-module-dist/releases/download/v1.0.0/example_closed_module_demo-100-v1.0.0.zip"
+          },
+          "body": "First release of the closed-source example.\n\n- Demonstrates publishing from a source repository to a public release repository.",
+          "htmlUrl": "https://github.com/KernelSU-Modules/example-closed-module-dist/releases/tag/v1.0.0",
+          "immutable": true,
+          "name": "v1.0.0",
+          "prerelease": false,
+          "prop": {
+            "author": "KernelSU-Modules contributors",
+            "description": "Shows how a closed-source module publishes to KernelSU Modules. It does nothing on the device.",
+            "id": "example_closed_module_demo",
+            "name": "Example Closed Module Demo",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/example_closed_module_demo/update.json",
+            "version": "v1.0.0",
+            "versionCode": "100"
+          },
+          "publishedAt": "2026-10-11T02:18:50Z",
+          "releaseId": 409342708,
+          "tag": "v1.0.0",
+          "tagCommit": "5f6b7cdf1fd21ca32eb1756cae66452eb3666d5f",
+          "version": "v1.0.0",
+          "versionCode": 100
+        }
+      ],
+      "repositoryId": 1413837320,
+      "seen": {
+        "409342708": {
+          "checkedAt": "2026-10-11T02:24:34.108Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:ac673b445c0c0f206f0e6e49d6a6dc0254d7c25c0c6f0d23bca02b1f7e351701",
+          "id": 629546101,
+          "name": "example_closed_module_demo-100-v1.0.0.zip",
+          "sha256": "ac673b445c0c0f206f0e6e49d6a6dc0254d7c25c0c6f0d23bca02b1f7e351701",
+          "size": 976,
+          "url": "https://github.com/KernelSU-Modules/example-closed-module-dist/releases/download/v1.0.0/example_closed_module_demo-100-v1.0.0.zip"
+        },
+        "body": "First release of the closed-source example.\n\n- Demonstrates publishing from a source repository to a public release repository.",
+        "htmlUrl": "https://github.com/KernelSU-Modules/example-closed-module-dist/releases/tag/v1.0.0",
+        "immutable": true,
+        "name": "v1.0.0",
+        "prerelease": false,
+        "prop": {
+          "author": "KernelSU-Modules contributors",
+          "description": "Shows how a closed-source module publishes to KernelSU Modules. It does nothing on the device.",
+          "id": "example_closed_module_demo",
+          "name": "Example Closed Module Demo",
+          "updateJson": "https://modules.kernelsu.org/api/v1/modules/example_closed_module_demo/update.json",
+          "version": "v1.0.0",
+          "versionCode": "100"
+        },
+        "publishedAt": "2026-10-11T02:18:50Z",
+        "releaseId": 409342708,
+        "tag": "v1.0.0",
+        "tagCommit": "5f6b7cdf1fd21ca32eb1756cae66452eb3666d5f",
+        "version": "v1.0.0",
+        "versionCode": 100
+      }
+    },
     "example_module_demo": {
       "content": {
         "blobs": {
