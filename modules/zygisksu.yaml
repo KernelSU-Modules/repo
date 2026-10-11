@@ -1,19 +1,23 @@
 id: zygisksu
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1377039457
+  ownerId: 75879071
+  fullName: LSPosed/ZygiskNext
+  manifestPath: module.yaml
+review:
   submissionId: 8d7at1lhii
   kind: submit
-  source:
-    host: github
-    repositoryId: 1377039457
-    ownerId: 75879071
-    fullName: LSPosed/ZygiskNext
-    manifestPath: module.yaml
   submittedBy: 56485584
-  submittedByLogin: 5ec1cff
   submittedAt: 2026-10-11T08:48:58.480Z
+  decision: approved
+  decidedBy: 56485584
+  decidedVia: portal
+  decidedAt: 2026-10-11T08:49:18.586Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64229
 createdAt: 2026-10-11T08:48:58.480Z
-updatedAt: 2026-10-11T08:48:58.480Z
+updatedAt: 2026-10-11T08:49:18.586Z
