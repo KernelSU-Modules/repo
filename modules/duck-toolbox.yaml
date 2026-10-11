@@ -1,19 +1,23 @@
 id: duck-toolbox
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1196357682
+  ownerId: 248451253
+  fullName: eltavine/Duck-ToolBox
+  manifestPath: module.yaml
+review:
   submissionId: 85n2go4ibp
   kind: submit
-  source:
-    host: github
-    repositoryId: 1196357682
-    ownerId: 248451253
-    fullName: eltavine/Duck-ToolBox
-    manifestPath: module.yaml
   submittedBy: 248451253
-  submittedByLogin: eltavine
   submittedAt: 2026-10-11T07:05:27.725Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-10-11T08:57:47.398Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64219
 createdAt: 2026-10-11T07:05:27.725Z
-updatedAt: 2026-10-11T07:05:27.725Z
+updatedAt: 2026-10-11T08:57:47.398Z
