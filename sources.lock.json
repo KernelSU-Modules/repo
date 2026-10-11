@@ -98,6 +98,13 @@
         "tagCommit": "5f6b7cdf1fd21ca32eb1756cae66452eb3666d5f",
         "version": "v1.0.0",
         "versionCode": 100
+      },
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-10-11T02:58:32.685Z",
+        "fullName": "KernelSU-Modules/example-closed-module-dist",
+        "repositoryId": 1413837320,
+        "verified": "self"
       }
     },
     "example_module_demo": {
@@ -198,6 +205,13 @@
         "tagCommit": "7836e073f2a13a495dc510ce201819c93ed4e7f5",
         "version": "v1.0.0",
         "versionCode": 100
+      },
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-10-11T02:58:32.685Z",
+        "fullName": "KernelSU-Modules/example-module",
+        "repositoryId": 1413800395,
+        "verified": "self"
       }
     }
   },
