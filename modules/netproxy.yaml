@@ -1,19 +1,23 @@
 id: netproxy
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1414363922
+  ownerId: 98313711
+  fullName: Fanju6/NetProxy-Releases
+  manifestPath: module.yaml
+review:
   submissionId: n9ou4o6fel
   kind: submit
-  source:
-    host: github
-    repositoryId: 1414363922
-    ownerId: 98313711
-    fullName: Fanju6/NetProxy-Releases
-    manifestPath: module.yaml
   submittedBy: 98313711
-  submittedByLogin: Fanju6
   submittedAt: 2026-10-11T14:30:15.431Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: telegram
+  decidedAt: 2026-10-11T14:42:37.889Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64285
 createdAt: 2026-10-11T14:30:15.431Z
-updatedAt: 2026-10-11T14:30:15.431Z
+updatedAt: 2026-10-11T14:42:37.889Z
