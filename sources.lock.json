@@ -1017,6 +1017,147 @@
         "verified": "self"
       }
     },
+    "oh_my_keymint": {
+      "content": {
+        "blobs": {
+          "README.md": "84c69f09c8a3b3fbb769f3de0b193a8113909d42",
+          "module.yaml": "a8bd33a5d30a38bfd5d7acb3f1a439d33b3886ca"
+        },
+        "commit": "0ec0dcbdb1defe68b54a1167610baa63678c9230",
+        "fetchedAt": "2026-10-11T14:28:58.072Z",
+        "files": {
+          "README.md": "cc7796246c3b864caaf2b960832d9dfb00716651a7a16a5f879db9f17c5bf5fd",
+          "module.yaml": "2244bb3fe5d6ccba573897bf9b7e4ba8d5519daed68577bcc886873e22101e1f"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "master"
+      },
+      "fullName": "qwq233/OhMyKeymint",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-11T14:28:58.072Z",
+        "lastSuccessAt": "2026-10-11T14:28:58.072Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "oh_my_keymint",
+      "installationId": 170250658,
+      "maxStableVersionCode": 155,
+      "maxVersionCode": 155,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:0d672020b1e20b88636af4afcde65cd18ff5294813b7f7d007bcdee5ee6cd9ac",
+            "id": 568028419,
+            "name": "OhMyKeymint-release-arm64-v8a-1.2.0-a1f3241.zip",
+            "sha256": "0d672020b1e20b88636af4afcde65cd18ff5294813b7f7d007bcdee5ee6cd9ac",
+            "size": 4854133,
+            "url": "https://github.com/qwq233/OhMyKeymint/releases/download/1.2.0-preview-a1f3241/OhMyKeymint-release-arm64-v8a-1.2.0-a1f3241.zip"
+          },
+          "body": "# This is a preview version and it's NOT stable\r\n\r\nThis preview release primarily switches the hooking backend; I am not entirely confident in its stability, so I am holding off on pushing the code for now to ensure everything is working correctly.\r\n\r\nIf you insist on using only packages that are FOSS and verified via attestation, you may want to skip this version.\r\n\r\nIf you encounter any issues, please open an issue or leave comments on discussion zone.\r\n\r\n-----\r\nUpdate 1: fix some issues for newer kernel.",
+          "htmlUrl": "https://github.com/qwq233/OhMyKeymint/releases/tag/1.2.0-preview-a1f3241",
+          "immutable": true,
+          "name": "1.2.0-a1f3241",
+          "prerelease": false,
+          "prop": {
+            "author": "James Clef",
+            "description": "Custom keystore implementation for Android Keystore Spoofer",
+            "id": "oh_my_keymint",
+            "name": "Oh My Keymint",
+            "updateJson": "https://raw.githubusercontent.com/qwq233/OhMyKeymint/changelog/update.json",
+            "version": "1.2.0-a1f3241",
+            "versionCode": "155"
+          },
+          "publishedAt": "2026-09-16T04:16:54Z",
+          "releaseId": 389074732,
+          "tag": "1.2.0-preview-a1f3241",
+          "tagCommit": "a1f3241f614948a0c17d9d127474878600d596f1",
+          "version": "1.2.0-a1f3241",
+          "versionCode": 155
+        }
+      ],
+      "repositoryId": 1068442938,
+      "seen": {
+        "257036166": {
+          "checkedAt": "2026-10-11T14:28:58.072Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "262484909": {
+          "checkedAt": "2026-10-11T14:28:58.072Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "318517045": {
+          "checkedAt": "2026-10-11T14:28:58.072Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "328309457": {
+          "checkedAt": "2026-10-11T14:28:58.072Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "328851685": {
+          "checkedAt": "2026-10-11T14:28:58.072Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "340393844": {
+          "checkedAt": "2026-10-11T14:28:58.072Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "389074732": {
+          "checkedAt": "2026-10-11T14:28:58.072Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:0d672020b1e20b88636af4afcde65cd18ff5294813b7f7d007bcdee5ee6cd9ac",
+          "id": 568028419,
+          "name": "OhMyKeymint-release-arm64-v8a-1.2.0-a1f3241.zip",
+          "sha256": "0d672020b1e20b88636af4afcde65cd18ff5294813b7f7d007bcdee5ee6cd9ac",
+          "size": 4854133,
+          "url": "https://github.com/qwq233/OhMyKeymint/releases/download/1.2.0-preview-a1f3241/OhMyKeymint-release-arm64-v8a-1.2.0-a1f3241.zip"
+        },
+        "body": "# This is a preview version and it's NOT stable\r\n\r\nThis preview release primarily switches the hooking backend; I am not entirely confident in its stability, so I am holding off on pushing the code for now to ensure everything is working correctly.\r\n\r\nIf you insist on using only packages that are FOSS and verified via attestation, you may want to skip this version.\r\n\r\nIf you encounter any issues, please open an issue or leave comments on discussion zone.\r\n\r\n-----\r\nUpdate 1: fix some issues for newer kernel.",
+        "htmlUrl": "https://github.com/qwq233/OhMyKeymint/releases/tag/1.2.0-preview-a1f3241",
+        "immutable": true,
+        "name": "1.2.0-a1f3241",
+        "prerelease": false,
+        "prop": {
+          "author": "James Clef",
+          "description": "Custom keystore implementation for Android Keystore Spoofer",
+          "id": "oh_my_keymint",
+          "name": "Oh My Keymint",
+          "updateJson": "https://raw.githubusercontent.com/qwq233/OhMyKeymint/changelog/update.json",
+          "version": "1.2.0-a1f3241",
+          "versionCode": "155"
+        },
+        "publishedAt": "2026-09-16T04:16:54Z",
+        "releaseId": 389074732,
+        "tag": "1.2.0-preview-a1f3241",
+        "tagCommit": "a1f3241f614948a0c17d9d127474878600d596f1",
+        "version": "1.2.0-a1f3241",
+        "versionCode": 155
+      },
+      "stars": {
+        "count": 452,
+        "fetchedAt": "2026-10-11T14:28:58.072Z",
+        "fullName": "qwq233/OhMyKeymint",
+        "repositoryId": 1068442938,
+        "verified": "self"
+      }
+    },
     "yukizygisk": {
       "content": {
         "blobs": {
