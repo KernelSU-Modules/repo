@@ -1,0 +1,19 @@
+id: netproxy
+status: pending
+request:
+  submissionId: n9ou4o6fel
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1414363922
+    ownerId: 98313711
+    fullName: Fanju6/NetProxy-Releases
+    manifestPath: module.yaml
+  submittedBy: 98313711
+  submittedByLogin: Fanju6
+  submittedAt: 2026-10-11T14:30:15.431Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64285
+createdAt: 2026-10-11T14:30:15.431Z
+updatedAt: 2026-10-11T14:30:15.431Z
