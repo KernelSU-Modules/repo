@@ -1,0 +1,19 @@
+id: hybrid_mount
+status: pending
+request:
+  submissionId: ycxcp356s5
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1103029590
+    ownerId: 252548852
+    fullName: Hybrid-Mount/meta-hybrid_mount
+    manifestPath: module.yaml
+  submittedBy: 94628337
+  submittedByLogin: YuzakiKokuban
+  submittedAt: 2026-10-11T04:51:21.048Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64181
+createdAt: 2026-10-11T04:51:21.048Z
+updatedAt: 2026-10-11T04:51:21.048Z
