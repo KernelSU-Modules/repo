@@ -1,7 +1,7 @@
 {
   "modules": {
     "KernelSU-Tuner": {
-      "contentCommit": "5b0f71073b0ed77024256ac73473ed27ca03439b",
+      "contentCommit": "1176a0ee3eabbc7e6078c2a45e15f39671c68852",
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": "error",
       "installation": "present",
@@ -10,8 +10,8 @@
       "message": "manifest-id-mismatch: module.yaml id \"ksu_tuner\" differs from the registered id \"KernelSU-Tuner\".",
       "repositoryId": 1414095668,
       "request": {
-        "checkedAt": "2026-10-11T08:25:56.675Z",
-        "commit": "5b0f71073b0ed77024256ac73473ed27ca03439b",
+        "checkedAt": "2026-10-11T08:36:09.297Z",
+        "commit": "1176a0ee3eabbc7e6078c2a45e15f39671c68852",
         "issues": [
           {
             "code": "manifest-id-mismatch",
