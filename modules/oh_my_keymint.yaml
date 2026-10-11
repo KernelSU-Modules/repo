@@ -1,19 +1,23 @@
 id: oh_my_keymint
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1068442938
+  ownerId: 20317838
+  fullName: qwq233/OhMyKeymint
+  manifestPath: module.yaml
+review:
   submissionId: vz146lovo6
   kind: submit
-  source:
-    host: github
-    repositoryId: 1068442938
-    ownerId: 20317838
-    fullName: qwq233/OhMyKeymint
-    manifestPath: module.yaml
   submittedBy: 20317838
-  submittedByLogin: qwq233
   submittedAt: 2026-10-11T14:19:04.551Z
+  decision: approved
+  decidedBy: 5022927
+  decidedVia: telegram
+  decidedAt: 2026-10-11T14:28:31.064Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64284
 createdAt: 2026-10-11T14:19:04.551Z
-updatedAt: 2026-10-11T14:19:04.551Z
+updatedAt: 2026-10-11T14:28:31.064Z
