@@ -1,27 +1,32 @@
 {
   "modules": {
     "KernelSU-Tuner": {
-      "contentCommit": "db2f88c8d557e8feae744cd50ee1d65ee6de4a6f",
+      "contentCommit": "5b0f71073b0ed77024256ac73473ed27ca03439b",
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at db2f88c.",
+      "message": "manifest-id-mismatch: module.yaml id \"ksu_tuner\" differs from the registered id \"KernelSU-Tuner\".",
       "repositoryId": 1414095668,
       "request": {
-        "checkedAt": "2026-10-11T08:13:15.744Z",
-        "commit": "db2f88c8d557e8feae744cd50ee1d65ee6de4a6f",
+        "checkedAt": "2026-10-11T08:23:28.903Z",
+        "commit": "5b0f71073b0ed77024256ac73473ed27ca03439b",
         "issues": [
           {
-            "code": "manifest-missing",
-            "message": "module.yaml does not exist at db2f88c.",
+            "code": "manifest-id-mismatch",
+            "message": "module.yaml id \"ksu_tuner\" differs from the registered id \"KernelSU-Tuner\".",
+            "severity": "error"
+          },
+          {
+            "code": "asset-none",
+            "message": "Release v3.0.1 has no asset matching \"KernelSU-Tuner-*.zip\".",
             "severity": "error"
           }
         ],
-        "latestTag": "v3.0.0",
+        "latestTag": "v3.0.1",
         "ok": false,
-        "releaseId": 409525484,
+        "releaseId": 409533766,
         "repositoryId": 1414095668,
         "submissionId": "rgzszf0g19"
       },
