@@ -1,5 +1,290 @@
 {
   "modules": {
+    "CertBridge": {
+      "content": {
+        "blobs": {
+          "README.zh-CN.md": "b4fe13a841e0ea9d0a08362ab0114d01193bd1f0",
+          "module.yaml": "68025c6143ce7a5f3f12a68507b46852a50a3f8a",
+          "module/icon.png": "fc563aa2474302367cb14d32a5f2fa9092167925"
+        },
+        "commit": "5487b58937039a8e9910525b397188222d8acdb0",
+        "fetchedAt": "2026-10-11T17:51:03.255Z",
+        "files": {
+          "README.zh-CN.md": "ba28c2b2bfce3a7d7eac8f65316545106175851617a9bb37df9afde5c0243701",
+          "module.yaml": "e70e0ba0a5d18b7beb59b9290a9b464f27b9c5c7d0a8ac287e180388ee126fc0",
+          "module/icon.png": "2ed88922ec2dff12ce35d4270040f728cc779af18338c3fe739ece71dd4ccad5"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "master"
+      },
+      "fullName": "Eikeitsu/CertBridge",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-11T17:51:03.255Z",
+        "lastSuccessAt": "2026-10-11T17:51:03.255Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "CertBridge",
+      "installationId": 170267359,
+      "maxStableVersionCode": 50107,
+      "maxVersionCode": 50107,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:f7d338bd25d57cf2310464fdf7b1fa2619ff071e5e2630d3ad8da520e76d5d87",
+            "id": 631201084,
+            "name": "CertBridge_v5.1.2_arm64.zip",
+            "sha256": "f7d338bd25d57cf2310464fdf7b1fa2619ff071e5e2630d3ad8da520e76d5d87",
+            "size": 5606814,
+            "url": "https://github.com/Eikeitsu/CertBridge/releases/download/v5.1.2/CertBridge_v5.1.2_arm64.zip"
+          },
+          "body": "## 更新说明\n\n- **KernelSU Next 模块横幅**：`module.prop` 增加 `banner=banner.png`，打包打入根目录背景图（管理器模块卡片背景）\n- **KernelSU Modules 清单**：仓库根目录增加 `module.yaml`（`assetPattern` 指向 `CertBridge_*_arm64.zip`）\n- **修复 Found KSU 回归**：收回会放大痕迹的探测——`hide_allow=0` 时 status 不再跑 ksud/SuSFS CLI；`detect_root_impl` 只报 Root 大类；默认不执行 `ksud -V`（需 `CERTBRIDGE_PROBE_KSUD=1`）；Action 只用大类；`--quick` 跳过 flavor。另减开机 nsenter：`late_inject=0` 时状态校验读 mountinfo；orphan / generation_busy 少进 ns；隐藏登记默认不扫 zygote\n\n\n**Full Changelog**: https://github.com/Eikeitsu/CertBridge/compare/v5.1.1...v5.1.2",
+          "htmlUrl": "https://github.com/Eikeitsu/CertBridge/releases/tag/v5.1.2",
+          "immutable": true,
+          "name": "KSU Module",
+          "prerelease": false,
+          "prop": {
+            "actionIcon": "icon.png",
+            "author": "许小墨",
+            "banner": "banner.png",
+            "description": "[arm64|内置 OpenSSL] 系统信任抓包 CA。兼容 Magisk / KernelSU / APatch",
+            "id": "CertBridge",
+            "maxApi": "36",
+            "minApi": "24",
+            "name": "证书桥 (arm64)",
+            "updateJson": "https://eikeitsu.github.io/CertBridge/update.json",
+            "version": "v5.1.2",
+            "versionCode": "50107",
+            "webuiIcon": "icon.png"
+          },
+          "publishedAt": "2026-10-11T16:18:27Z",
+          "releaseId": 409778436,
+          "tag": "v5.1.2",
+          "tagCommit": "cd0fe66ad9e83937a589f3f6591037409b18d569",
+          "version": "v5.1.2",
+          "versionCode": 50107
+        }
+      ],
+      "repositoryId": 1306329220,
+      "seen": {
+        "356645396": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "357117106": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "357166296": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "357779984": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "357815449": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "358717872": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "359128552": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "359720169": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "368365889": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "368632797": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "389071367": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "389735249": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "391261642": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "391443889": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392029931": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392038777": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392292039": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392362915": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "393136728": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "393476351": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "393788098": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "394648676": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "396237381": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "396368341": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "397280871": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "406710811": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "408813541": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "408882030": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "409778436": {
+          "checkedAt": "2026-10-11T17:51:03.255Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:f7d338bd25d57cf2310464fdf7b1fa2619ff071e5e2630d3ad8da520e76d5d87",
+          "id": 631201084,
+          "name": "CertBridge_v5.1.2_arm64.zip",
+          "sha256": "f7d338bd25d57cf2310464fdf7b1fa2619ff071e5e2630d3ad8da520e76d5d87",
+          "size": 5606814,
+          "url": "https://github.com/Eikeitsu/CertBridge/releases/download/v5.1.2/CertBridge_v5.1.2_arm64.zip"
+        },
+        "body": "## 更新说明\n\n- **KernelSU Next 模块横幅**：`module.prop` 增加 `banner=banner.png`，打包打入根目录背景图（管理器模块卡片背景）\n- **KernelSU Modules 清单**：仓库根目录增加 `module.yaml`（`assetPattern` 指向 `CertBridge_*_arm64.zip`）\n- **修复 Found KSU 回归**：收回会放大痕迹的探测——`hide_allow=0` 时 status 不再跑 ksud/SuSFS CLI；`detect_root_impl` 只报 Root 大类；默认不执行 `ksud -V`（需 `CERTBRIDGE_PROBE_KSUD=1`）；Action 只用大类；`--quick` 跳过 flavor。另减开机 nsenter：`late_inject=0` 时状态校验读 mountinfo；orphan / generation_busy 少进 ns；隐藏登记默认不扫 zygote\n\n\n**Full Changelog**: https://github.com/Eikeitsu/CertBridge/compare/v5.1.1...v5.1.2",
+        "htmlUrl": "https://github.com/Eikeitsu/CertBridge/releases/tag/v5.1.2",
+        "immutable": true,
+        "name": "KSU Module",
+        "prerelease": false,
+        "prop": {
+          "actionIcon": "icon.png",
+          "author": "许小墨",
+          "banner": "banner.png",
+          "description": "[arm64|内置 OpenSSL] 系统信任抓包 CA。兼容 Magisk / KernelSU / APatch",
+          "id": "CertBridge",
+          "maxApi": "36",
+          "minApi": "24",
+          "name": "证书桥 (arm64)",
+          "updateJson": "https://eikeitsu.github.io/CertBridge/update.json",
+          "version": "v5.1.2",
+          "versionCode": "50107",
+          "webuiIcon": "icon.png"
+        },
+        "publishedAt": "2026-10-11T16:18:27Z",
+        "releaseId": 409778436,
+        "tag": "v5.1.2",
+        "tagCommit": "cd0fe66ad9e83937a589f3f6591037409b18d569",
+        "version": "v5.1.2",
+        "versionCode": 50107
+      },
+      "stars": {
+        "count": 26,
+        "fetchedAt": "2026-10-11T17:51:03.255Z",
+        "fullName": "Eikeitsu/CertBridge",
+        "repositoryId": 1306329220,
+        "verified": "self"
+      }
+    },
     "KernelSU-Tuner": {
       "content": {
         "blobs": {
