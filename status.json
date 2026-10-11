@@ -71,6 +71,27 @@
         "version": "6.2.3",
         "versionCode": 602003999
       }
+    },
+    "zygisknextsu": {
+      "contentCommit": "9940daf9c6058cbe7d33c894c2bf6453e329f142",
+      "fullName": "VeryBaaad/ZygiskNextNext",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1348255159,
+      "request": {
+        "checkedAt": "2026-10-11T08:03:15.425Z",
+        "commit": "9940daf9c6058cbe7d33c894c2bf6453e329f142",
+        "issues": [],
+        "latestTag": "v1.7.2",
+        "ok": true,
+        "releaseId": 409521306,
+        "repositoryId": 1348255159,
+        "submissionId": "k3vz3m8cof"
+      },
+      "stable": null
     }
   },
   "schemaVersion": 1
