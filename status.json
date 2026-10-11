@@ -34,6 +34,27 @@
         "versionCode": 30040
       }
     },
+    "ReSuSFS": {
+      "contentCommit": "9a6bdb7ad78ebb77b4578ce797f25a7eaf2b814b",
+      "fullName": "ahmed-alnassif/ReSuSFS",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1352101411,
+      "request": {
+        "checkedAt": "2026-10-11T19:39:06.269Z",
+        "commit": "9a6bdb7ad78ebb77b4578ce797f25a7eaf2b814b",
+        "issues": [],
+        "latestTag": "v26.10.11",
+        "ok": true,
+        "releaseId": 409878070,
+        "repositoryId": 1352101411,
+        "submissionId": "55kgn8445z"
+      },
+      "stable": null
+    },
     "SvcHub": {
       "contentCommit": "d28cef4f1541381c91ba0e1e005a66ca2ab6a571",
       "fullName": "LimpidMo/SvcHub",
