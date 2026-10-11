@@ -98,11 +98,11 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "9940daf9c6058cbe7d33c894c2bf6453e329f142",
+      "contentCommit": "24bcae6bfa2b5a99cd4f3ea891a60c94d41260f8",
       "fullName": "VeryBaaad/ZygiskNextNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-11T08:57:43.363Z",
+      "lastSuccessAt": "2026-10-11T09:33:39.690Z",
       "maxVersionCode": 96,
       "message": null,
       "repositoryId": 1348255159,
