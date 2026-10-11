@@ -1,19 +1,23 @@
 id: yukizygisk
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1297024368
+  ownerId: 321190465
+  fullName: Rouyashiki/YukiZygisk
+  manifestPath: module.yaml
+review:
   submissionId: 3950h7clxo
   kind: submit
-  source:
-    host: github
-    repositoryId: 1297024368
-    ownerId: 321190465
-    fullName: Rouyashiki/YukiZygisk
-    manifestPath: module.yaml
   submittedBy: 10851902
-  submittedByLogin: Anatdx
   submittedAt: 2026-10-11T11:28:54.220Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: telegram
+  decidedAt: 2026-10-11T11:30:19.218Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64234
 createdAt: 2026-10-11T11:28:54.220Z
-updatedAt: 2026-10-11T11:28:54.220Z
+updatedAt: 2026-10-11T11:30:19.218Z
