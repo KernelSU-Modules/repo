@@ -1,5 +1,26 @@
 {
   "modules": {
+    "example_closed_module_demo": {
+      "contentCommit": "5f6b7cdf1fd21ca32eb1756cae66452eb3666d5f",
+      "fullName": "KernelSU-Modules/example-closed-module-dist",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1413837320,
+      "request": {
+        "checkedAt": "2026-10-11T02:23:54.673Z",
+        "commit": "5f6b7cdf1fd21ca32eb1756cae66452eb3666d5f",
+        "issues": [],
+        "latestTag": "v1.0.0",
+        "ok": true,
+        "releaseId": 409342708,
+        "repositoryId": 1413837320,
+        "submissionId": "9t6sxgc3k5"
+      },
+      "stable": null
+    },
     "example_module_demo": {
       "contentCommit": "7836e073f2a13a495dc510ce201819c93ed4e7f5",
       "fullName": "KernelSU-Modules/example-module",
