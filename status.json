@@ -113,6 +113,27 @@
         "submissionId": "k3vz3m8cof"
       },
       "stable": null
+    },
+    "zygisksu": {
+      "contentCommit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
+      "fullName": "LSPosed/ZygiskNext",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1377039457,
+      "request": {
+        "checkedAt": "2026-10-11T08:49:23.931Z",
+        "commit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
+        "issues": [],
+        "latestTag": "v1.5.0",
+        "ok": true,
+        "releaseId": 392309435,
+        "repositoryId": 1377039457,
+        "submissionId": "8d7at1lhii"
+      },
+      "stable": null
     }
   },
   "schemaVersion": 1
