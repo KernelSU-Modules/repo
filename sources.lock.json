@@ -20,17 +20,47 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-11T08:57:43.363Z",
-        "lastSuccessAt": "2026-10-11T08:57:43.363Z",
+        "lastAttemptAt": "2026-10-11T11:43:04.298Z",
+        "lastSuccessAt": "2026-10-11T11:43:04.298Z",
         "message": null,
         "status": "ok"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
-      "maxStableVersionCode": 30003,
-      "maxVersionCode": 30003,
+      "maxStableVersionCode": 30010,
+      "maxVersionCode": 30010,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:d6af54c9eecf77ca5e604a8dce8cef732af2644f4578647def369f7689a8539c",
+            "id": 630602831,
+            "name": "KernelSU-Tuner-30010-v3.1.0.zip",
+            "sha256": "d6af54c9eecf77ca5e604a8dce8cef732af2644f4578647def369f7689a8539c",
+            "size": 36076,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.1.0/KernelSU-Tuner-30010-v3.1.0.zip"
+          },
+          "body": "Drop the zip into the KernelSU manager under Modules - Install from storage, then reboot.\n\nNew in this build:\n\n**CPU frequency limits** - profiles now set scaling_max_freq and scaling_min_freq, not just the governor. The range is picked from the frequencies your kernel actually exposes, so nothing is hardcoded. Toggle with the CPU 频率上下限 switch.\n\n**Boot-failure rollback** - the module counts boots. If the system does not come up three times in a row, it rolls back every kernel and custom parameter it changed, writes the disable flag and turns itself off. This is what protects you when a custom parameter turns out to be wrong.\n\n**Wipe protection** - a new guard with three modes:\n- 增强模式: kills the process the moment a wipe command is seen\n- 普通模式: pauses and asks you first, through the WebUI\n- 不防护: logs only\n\nIt watches running processes and boot scripts for rm -rf on system paths, mkfs, dd to block devices, fastboot wipe/erase/format and shred. Temporary paths such as /tmp, /cache and /data/local/tmp are deliberately left alone.\n\nAlso: updateJson is now set, so the manager can tell you about new versions.\n\nEverything from before is unchanged: four profiles, adaptive switching, charge limiting, app standby management, per-app policies, custom parameters, display tuning, initrc services and the WebUI.",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.1.0",
+          "immutable": true,
+          "name": "v3.1.0",
+          "prerelease": false,
+          "prop": {
+            "author": "Operit",
+            "description": "内核调优全家桶：四档预设、CPU 频率上下限、GPU/IO/VM/网络/DNS/显示调优、智能驾驶、电池守护、应用待机管理、per-app 策略、自定义参数、防砖自动回滚、防格机三模式防护，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+            "version": "v3.1.0",
+            "versionCode": "30010"
+          },
+          "publishedAt": "2026-10-11T11:42:41Z",
+          "releaseId": 409632236,
+          "tag": "v3.1.0",
+          "tagCommit": "1abd8c2a4a001dffa12daeff14874f4933c6f5d8",
+          "version": "v3.1.0",
+          "versionCode": 30010
+        },
         {
           "asset": {
             "digest": "sha256:858c59ee201a7899689e597f9c367d6deff026c9232b556c52a66be23c3658a1",
@@ -78,36 +108,41 @@
         "409545621": {
           "checkedAt": "2026-10-11T08:57:43.363Z",
           "ok": true
+        },
+        "409632236": {
+          "checkedAt": "2026-10-11T11:43:04.298Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:858c59ee201a7899689e597f9c367d6deff026c9232b556c52a66be23c3658a1",
-          "id": 630248025,
-          "name": "KernelSU-Tuner-30003-v3.0.3.zip",
-          "sha256": "858c59ee201a7899689e597f9c367d6deff026c9232b556c52a66be23c3658a1",
-          "size": 31324,
-          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.0.3/KernelSU-Tuner-30003-v3.0.3.zip"
+          "digest": "sha256:d6af54c9eecf77ca5e604a8dce8cef732af2644f4578647def369f7689a8539c",
+          "id": 630602831,
+          "name": "KernelSU-Tuner-30010-v3.1.0.zip",
+          "sha256": "d6af54c9eecf77ca5e604a8dce8cef732af2644f4578647def369f7689a8539c",
+          "size": 36076,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.1.0/KernelSU-Tuner-30010-v3.1.0.zip"
         },
-        "body": "Drop the zip into the KernelSU manager under Modules - Install from storage, then reboot.\n\n**If you had v3.0.2 installed, uninstall it first.** The module id changed from `ksu_tuner` to\n`KernelSU-Tuner` to match the registered id, so the manager treats them as two different modules.\n\nWhat changed in this build:\n\n- `module.prop` and `module.yaml` now use `id=KernelSU-Tuner`, matching the registered id\n- module paths follow the id, so the module now lives at `/data/adb/modules/KernelSU-Tuner`\n- the initrc file and its service names were renamed to match\n- the runtime data directory intentionally stays at `/data/adb/ksu_tuner` so existing configuration survives\n\nEverything else is unchanged from v3.0.2:\n\n- Four profiles (powersave / balanced / performance / gaming) driving CPU governor, GPU levels, IO scheduler and readahead, VM tunables, network stack, DNS and ZRAM compression\n- Adaptive switching based on temperature, screen state and charging, with hysteresis\n- Charge limiting with automatic resume\n- App Standby Bucket management with a per-app whitelist\n- Per-app profiles driven by whichever app is in the foreground\n- Custom sysfs and proc parameter editor, every change backed up first\n- Refresh rate and touch sampling tuning\n- initrc services\n- WebUI console, no external dependencies",
-        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.0.3",
+        "body": "Drop the zip into the KernelSU manager under Modules - Install from storage, then reboot.\n\nNew in this build:\n\n**CPU frequency limits** - profiles now set scaling_max_freq and scaling_min_freq, not just the governor. The range is picked from the frequencies your kernel actually exposes, so nothing is hardcoded. Toggle with the CPU 频率上下限 switch.\n\n**Boot-failure rollback** - the module counts boots. If the system does not come up three times in a row, it rolls back every kernel and custom parameter it changed, writes the disable flag and turns itself off. This is what protects you when a custom parameter turns out to be wrong.\n\n**Wipe protection** - a new guard with three modes:\n- 增强模式: kills the process the moment a wipe command is seen\n- 普通模式: pauses and asks you first, through the WebUI\n- 不防护: logs only\n\nIt watches running processes and boot scripts for rm -rf on system paths, mkfs, dd to block devices, fastboot wipe/erase/format and shred. Temporary paths such as /tmp, /cache and /data/local/tmp are deliberately left alone.\n\nAlso: updateJson is now set, so the manager can tell you about new versions.\n\nEverything from before is unchanged: four profiles, adaptive switching, charge limiting, app standby management, per-app policies, custom parameters, display tuning, initrc services and the WebUI.",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.1.0",
         "immutable": true,
-        "name": "v3.0.3",
+        "name": "v3.1.0",
         "prerelease": false,
         "prop": {
           "author": "Operit",
-          "description": "内核调优全家桶：四档预设、CPU/GPU/IO/VM/网络/DNS/显示调优、智能驾驶(温度息屏充电自适应)、电池守护(充电上限)、应用待机管理、per-app 性能策略、自定义内核参数、initrc 常驻服务，全部可逆",
+          "description": "内核调优全家桶：四档预设、CPU 频率上下限、GPU/IO/VM/网络/DNS/显示调优、智能驾驶、电池守护、应用待机管理、per-app 策略、自定义参数、防砖自动回滚、防格机三模式防护，全部可逆",
           "id": "KernelSU-Tuner",
           "name": "KernelSU Tuner",
-          "version": "v3.0.3",
-          "versionCode": "30003"
+          "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+          "version": "v3.1.0",
+          "versionCode": "30010"
         },
-        "publishedAt": "2026-10-11T08:45:35Z",
-        "releaseId": 409545621,
-        "tag": "v3.0.3",
-        "tagCommit": "3665219b0a16002d8b2912d0b13393c192013943",
-        "version": "v3.0.3",
-        "versionCode": 30003
+        "publishedAt": "2026-10-11T11:42:41Z",
+        "releaseId": 409632236,
+        "tag": "v3.1.0",
+        "tagCommit": "1abd8c2a4a001dffa12daeff14874f4933c6f5d8",
+        "version": "v3.1.0",
+        "versionCode": 30010
       },
       "stars": {
         "count": 0,

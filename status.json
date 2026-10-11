@@ -5,16 +5,16 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-11T08:57:43.363Z",
-      "maxVersionCode": 30003,
+      "lastSuccessAt": "2026-10-11T11:43:04.298Z",
+      "maxVersionCode": 30010,
       "message": null,
       "repositoryId": 1414095668,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-11T08:45:35Z",
-        "tag": "v3.0.3",
-        "version": "v3.0.3",
-        "versionCode": 30003
+        "publishedAt": "2026-10-11T11:42:41Z",
+        "tag": "v3.1.0",
+        "version": "v3.1.0",
+        "versionCode": 30010
       }
     },
     "SvcHub": {
