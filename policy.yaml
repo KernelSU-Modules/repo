@@ -1,0 +1,31 @@
+# KernelSU Modules policy. Written only by the KernelSU Modules Bot (Portal admin). Initial values = DEFAULT_POLICY in @kernelsu-modules/schema.
+schemaVersion: 1
+id:
+  reservedPrefixes:
+    - org.kernelsu.
+    - me.weishu.
+  reservedIds:
+    - ksu
+    - kernelsu
+    - magisk
+    - apatch
+    - test
+    - example
+    - module
+limits:
+  zipMaxBytes: 104857600
+  uncompressedMaxBytes: 536870912
+  maxCompressionRatio: 200
+  maxEntries: 20000
+  modulePropMaxBytes: 65536
+  manifestMaxBytes: 65536
+  docMaxBytes: 524288
+  imageMaxBytes: 5242880
+  imagesMaxPerModule: 40
+  imagesMaxTotalBytes: 41943040
+  imageMaxRedirects: 3
+  changelogMaxBytes: 65536
+history:
+  keepReleases: 10
+pending:
+  expireDays: 30
