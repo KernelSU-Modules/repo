@@ -1,10 +1,36 @@
-# KernelSU Modules maintainers. Identity = GitHub user id (logins are informational).
-# telegram.id must be the numeric Telegram user id; only listed ids may approve/reject in the review group.
-# Edited through the Portal admin page (written by the KernelSU Modules Bot).
+# KernelSU Modules maintainers. Identity = GitHub user id (logins are informational, refreshed on Portal writes).
+# telegram.id is the numeric Telegram user id; only listed ids may use the review buttons and bot commands.
+# Edited through the Portal (Maintainers page), written by the KernelSU Modules Bot.
 maintainers:
   - github:
       id: 30978685
       login: Ylarod
     telegram:
       id: 819401657
-      username: Ylarod
+  - github:
+      id: 4233744
+      login: tiann
+  - github:
+      id: 5022927
+      login: yujincheng08
+  - github:
+      id: 18079988
+      login: aviraxp
+  - github:
+      id: 52071314
+      login: Dr-TSNG
+  - github:
+      id: 70465933
+      login: YuKongA
+  - github:
+      id: 244865617
+      login: KernelSU-Bot
+  - github:
+      id: 40033067
+      login: Howard20181
+  - github:
+      id: 56485584
+      login: 5ec1cff
+  - github:
+      id: 185127155
+      login: KOWX712
