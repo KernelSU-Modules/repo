@@ -1,5 +1,122 @@
 {
   "modules": {
+    "KernelSU-Tuner": {
+      "content": {
+        "blobs": {
+          "README.md": "255ea6f344ce0e433f08acb864ab1323115e0cbf",
+          "assets/icon.png": "1adce114883bffb96cd16c693973592ea295d17d",
+          "module.yaml": "4e75ae665c4b2ffc4ed09cd2672c19c68356df81"
+        },
+        "commit": "3665219b0a16002d8b2912d0b13393c192013943",
+        "fetchedAt": "2026-10-11T08:57:43.363Z",
+        "files": {
+          "README.md": "38c8ddf22294409b09123cd71a9eac7eed2bc3c62c94238ebc0f3aa7ff5c7b86",
+          "assets/icon.png": "b5e57153d1e723506b2322ab3d8fd8a4274536a2508634dff3dfbd62fd775fe6",
+          "module.yaml": "2274ff9b8312d157804c99930adede42c49ba4b9a76e67bb6a3528d6a882d2c1"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "ylh440104/KernelSU-Tuner",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-11T08:57:43.363Z",
+        "lastSuccessAt": "2026-10-11T08:57:43.363Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "KernelSU-Tuner",
+      "installationId": 170195272,
+      "maxStableVersionCode": 30003,
+      "maxVersionCode": 30003,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:858c59ee201a7899689e597f9c367d6deff026c9232b556c52a66be23c3658a1",
+            "id": 630248025,
+            "name": "KernelSU-Tuner-30003-v3.0.3.zip",
+            "sha256": "858c59ee201a7899689e597f9c367d6deff026c9232b556c52a66be23c3658a1",
+            "size": 31324,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.0.3/KernelSU-Tuner-30003-v3.0.3.zip"
+          },
+          "body": "Drop the zip into the KernelSU manager under Modules - Install from storage, then reboot.\n\n**If you had v3.0.2 installed, uninstall it first.** The module id changed from `ksu_tuner` to\n`KernelSU-Tuner` to match the registered id, so the manager treats them as two different modules.\n\nWhat changed in this build:\n\n- `module.prop` and `module.yaml` now use `id=KernelSU-Tuner`, matching the registered id\n- module paths follow the id, so the module now lives at `/data/adb/modules/KernelSU-Tuner`\n- the initrc file and its service names were renamed to match\n- the runtime data directory intentionally stays at `/data/adb/ksu_tuner` so existing configuration survives\n\nEverything else is unchanged from v3.0.2:\n\n- Four profiles (powersave / balanced / performance / gaming) driving CPU governor, GPU levels, IO scheduler and readahead, VM tunables, network stack, DNS and ZRAM compression\n- Adaptive switching based on temperature, screen state and charging, with hysteresis\n- Charge limiting with automatic resume\n- App Standby Bucket management with a per-app whitelist\n- Per-app profiles driven by whichever app is in the foreground\n- Custom sysfs and proc parameter editor, every change backed up first\n- Refresh rate and touch sampling tuning\n- initrc services\n- WebUI console, no external dependencies",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.0.3",
+          "immutable": true,
+          "name": "v3.0.3",
+          "prerelease": false,
+          "prop": {
+            "author": "Operit",
+            "description": "内核调优全家桶：四档预设、CPU/GPU/IO/VM/网络/DNS/显示调优、智能驾驶(温度息屏充电自适应)、电池守护(充电上限)、应用待机管理、per-app 性能策略、自定义内核参数、initrc 常驻服务，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "version": "v3.0.3",
+            "versionCode": "30003"
+          },
+          "publishedAt": "2026-10-11T08:45:35Z",
+          "releaseId": 409545621,
+          "tag": "v3.0.3",
+          "tagCommit": "3665219b0a16002d8b2912d0b13393c192013943",
+          "version": "v3.0.3",
+          "versionCode": 30003
+        }
+      ],
+      "repositoryId": 1414095668,
+      "seen": {
+        "409525484": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "409535071": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "409545621": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:858c59ee201a7899689e597f9c367d6deff026c9232b556c52a66be23c3658a1",
+          "id": 630248025,
+          "name": "KernelSU-Tuner-30003-v3.0.3.zip",
+          "sha256": "858c59ee201a7899689e597f9c367d6deff026c9232b556c52a66be23c3658a1",
+          "size": 31324,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.0.3/KernelSU-Tuner-30003-v3.0.3.zip"
+        },
+        "body": "Drop the zip into the KernelSU manager under Modules - Install from storage, then reboot.\n\n**If you had v3.0.2 installed, uninstall it first.** The module id changed from `ksu_tuner` to\n`KernelSU-Tuner` to match the registered id, so the manager treats them as two different modules.\n\nWhat changed in this build:\n\n- `module.prop` and `module.yaml` now use `id=KernelSU-Tuner`, matching the registered id\n- module paths follow the id, so the module now lives at `/data/adb/modules/KernelSU-Tuner`\n- the initrc file and its service names were renamed to match\n- the runtime data directory intentionally stays at `/data/adb/ksu_tuner` so existing configuration survives\n\nEverything else is unchanged from v3.0.2:\n\n- Four profiles (powersave / balanced / performance / gaming) driving CPU governor, GPU levels, IO scheduler and readahead, VM tunables, network stack, DNS and ZRAM compression\n- Adaptive switching based on temperature, screen state and charging, with hysteresis\n- Charge limiting with automatic resume\n- App Standby Bucket management with a per-app whitelist\n- Per-app profiles driven by whichever app is in the foreground\n- Custom sysfs and proc parameter editor, every change backed up first\n- Refresh rate and touch sampling tuning\n- initrc services\n- WebUI console, no external dependencies",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.0.3",
+        "immutable": true,
+        "name": "v3.0.3",
+        "prerelease": false,
+        "prop": {
+          "author": "Operit",
+          "description": "内核调优全家桶：四档预设、CPU/GPU/IO/VM/网络/DNS/显示调优、智能驾驶(温度息屏充电自适应)、电池守护(充电上限)、应用待机管理、per-app 性能策略、自定义内核参数、initrc 常驻服务，全部可逆",
+          "id": "KernelSU-Tuner",
+          "name": "KernelSU Tuner",
+          "version": "v3.0.3",
+          "versionCode": "30003"
+        },
+        "publishedAt": "2026-10-11T08:45:35Z",
+        "releaseId": 409545621,
+        "tag": "v3.0.3",
+        "tagCommit": "3665219b0a16002d8b2912d0b13393c192013943",
+        "version": "v3.0.3",
+        "versionCode": 30003
+      },
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-10-11T08:57:43.363Z",
+        "fullName": "ylh440104/KernelSU-Tuner",
+        "repositoryId": 1414095668,
+        "verified": "self"
+      }
+    },
     "example_closed_module_demo": {
       "content": {
         "blobs": {
@@ -494,6 +611,225 @@
         "fetchedAt": "2026-10-11T06:14:43.181Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
+        "verified": "self"
+      }
+    },
+    "zygisknextsu": {
+      "content": {
+        "blobs": {
+          "README.md": "832ab6ee22ae1a755868a92f57ef695ff01b140d",
+          "module.yaml": "e88dd9ebb3427694ac3936dbd6cd2e68e59c1fb9"
+        },
+        "commit": "9940daf9c6058cbe7d33c894c2bf6453e329f142",
+        "fetchedAt": "2026-10-11T08:57:43.363Z",
+        "files": {
+          "README.md": "ea1259b6808219dac169d4c9ce3c03b88db55815b2f6a11b2ef53be20d23d5bc",
+          "module.yaml": "a90fda671ec5913c50beaa91fede83171c48127b4e729f6dac5cc02eb7615608"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "master"
+      },
+      "fullName": "VeryBaaad/ZygiskNextNext",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-11T08:57:43.363Z",
+        "lastSuccessAt": "2026-10-11T08:57:43.363Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "zygisknextsu",
+      "installationId": 170184418,
+      "maxStableVersionCode": 96,
+      "maxVersionCode": 96,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:f35113c09a0bb9d09ab7be8312d78eb1efc9f54600e0152ed0969f779fede6ac",
+            "id": 630160206,
+            "name": "Zygisk-Next-Next-v1.7.2-96-9940daf-release.zip",
+            "sha256": "f35113c09a0bb9d09ab7be8312d78eb1efc9f54600e0152ed0969f779fede6ac",
+            "size": 3449034,
+            "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.7.2/Zygisk-Next-Next-v1.7.2-96-9940daf-release.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.7.1...v1.7.2\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.7.2",
+          "immutable": true,
+          "name": "v1.7.2",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "Zygisk Next Next",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
+            "version": "v1.7.2 (96-9940daf-release)",
+            "versionCode": "96"
+          },
+          "publishedAt": "2026-10-11T08:01:30Z",
+          "releaseId": 409521306,
+          "tag": "v1.7.2",
+          "tagCommit": "9940daf9c6058cbe7d33c894c2bf6453e329f142",
+          "version": "v1.7.2 (96-9940daf-release)",
+          "versionCode": 96
+        }
+      ],
+      "repositoryId": 1348255159,
+      "seen": {
+        "378895132": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "379207599": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "379559285": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "383427177": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "383427800": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "383537238": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "383618540": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "384761061": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "384817564": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "384886193": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387782095": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "391904417": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "393102988": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "394768198": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "395745401": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "397262248": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "401513214": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "402969642": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "405382891": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "409521306": {
+          "checkedAt": "2026-10-11T08:57:43.363Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:f35113c09a0bb9d09ab7be8312d78eb1efc9f54600e0152ed0969f779fede6ac",
+          "id": 630160206,
+          "name": "Zygisk-Next-Next-v1.7.2-96-9940daf-release.zip",
+          "sha256": "f35113c09a0bb9d09ab7be8312d78eb1efc9f54600e0152ed0969f779fede6ac",
+          "size": 3449034,
+          "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.7.2/Zygisk-Next-Next-v1.7.2-96-9940daf-release.zip"
+        },
+        "body": "**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.7.1...v1.7.2\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.7.2",
+        "immutable": true,
+        "name": "v1.7.2",
+        "prerelease": false,
+        "prop": {
+          "author": "VeryBaaad",
+          "description": "Standalone Zygisk Next module loader.",
+          "id": "zygisknextsu",
+          "name": "Zygisk Next Next",
+          "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
+          "version": "v1.7.2 (96-9940daf-release)",
+          "versionCode": "96"
+        },
+        "publishedAt": "2026-10-11T08:01:30Z",
+        "releaseId": 409521306,
+        "tag": "v1.7.2",
+        "tagCommit": "9940daf9c6058cbe7d33c894c2bf6453e329f142",
+        "version": "v1.7.2 (96-9940daf-release)",
+        "versionCode": 96
+      },
+      "stars": {
+        "count": 43,
+        "fetchedAt": "2026-10-11T08:57:43.363Z",
+        "fullName": "VeryBaaad/ZygiskNextNext",
+        "repositoryId": 1348255159,
         "verified": "self"
       }
     },
