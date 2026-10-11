@@ -119,21 +119,17 @@
       "fullName": "LSPosed/ZygiskNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-11T08:50:01.932Z",
+      "maxVersionCode": 843,
       "message": null,
       "repositoryId": 1377039457,
-      "request": {
-        "checkedAt": "2026-10-11T08:49:23.931Z",
-        "commit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
-        "issues": [],
-        "latestTag": "v1.5.0",
-        "ok": true,
-        "releaseId": 392309435,
-        "repositoryId": 1377039457,
-        "submissionId": "8d7at1lhii"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-09-20T04:19:50Z",
+        "tag": "v1.5.0",
+        "version": "1.5.0 (843-5217106-release)",
+        "versionCode": 843
+      }
     }
   },
   "schemaVersion": 1

@@ -496,6 +496,111 @@
         "repositoryId": 1103029590,
         "verified": "self"
       }
+    },
+    "zygisksu": {
+      "content": {
+        "blobs": {
+          "README.md": "95d62a57965445d264d3abd01c7fa4bca57424af",
+          "module.yaml": "50a49b873f7c4c3aac7a70ac0749102ff1d83e6c"
+        },
+        "commit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
+        "fetchedAt": "2026-10-11T08:50:01.932Z",
+        "files": {
+          "README.md": "1b36b860a9b741a82354afcd10dc5af1e3d895f5207dfa42884a8f3269ee2606",
+          "module.yaml": "9f34457ea4ca743999d7c86823fc964274933bd6a665bf7cd23de864dec40734"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "LSPosed/ZygiskNext",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-11T08:50:01.932Z",
+        "lastSuccessAt": "2026-10-11T08:50:01.932Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "zygisksu",
+      "installationId": 170198192,
+      "maxStableVersionCode": 843,
+      "maxVersionCode": 843,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:474d58abc208c0779e7f8f1d8449db755a874d475c13b9cf8decf74bc171933b",
+            "id": 576092083,
+            "name": "Zygisk-Next-1.5.0-843-5217106-release.zip",
+            "sha256": "474d58abc208c0779e7f8f1d8449db755a874d475c13b9cf8decf74bc171933b",
+            "size": 7529581,
+            "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.0/Zygisk-Next-1.5.0-843-5217106-release.zip"
+          },
+          "body": "2026.08.26\r\n\r\n---\r\n\r\n- 适配 Android 17 QPR2 Beta 3\r\n- 新增 [HyperOS Runtime 支持](https://github.com/LSPosed/ZygiskNext/blob/main/docs/hyos_runtime.md)\r\n- 修复部分情况下 Zygisk 功能意外失效的问题\r\n- 修复 32 位 ARM 设备上的潜在异常\r\n- 调整 WebView 子进程 umount 方式，交由 Root 方案统一管理\r\n\r\n---\r\n\r\n- Supports Android 17 QPR2 Beta 3\r\n- Adds [HyperOS Runtime support](https://github.com/LSPosed/ZygiskNext/blob/main/docs/hyos_runtime.md)\r\n- Fixed an issue where Zygisk functionality would unexpectedly fail in some cases\r\n- Fixed potential anomalies on 32-bit ARM devices\r\n- Adjusted the WebView child process umount mechanism, now managed by Root solution.\r\n\r\n---\r\n\r\nSHA256: 474d58abc208c0779e7f8f1d8449db755a874d475c13b9cf8decf74bc171933b",
+          "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.0",
+          "immutable": true,
+          "name": "v1.5.0",
+          "prerelease": false,
+          "prop": {
+            "author": "5ec1cff, Nullptr, aviraxp",
+            "description": "Standalone implementation of Zygisk.",
+            "id": "zygisksu",
+            "name": "Zygisk Next",
+            "updateJson": "https://lsposed.zip/zygisk-next/update.json",
+            "version": "1.5.0 (843-5217106-release)",
+            "versionCode": "843"
+          },
+          "publishedAt": "2026-09-20T04:19:50Z",
+          "releaseId": 392309435,
+          "tag": "v1.5.0",
+          "tagCommit": "cddf38d5b1501d0cbf08393767afed09ac478b14",
+          "version": "1.5.0 (843-5217106-release)",
+          "versionCode": 843
+        }
+      ],
+      "repositoryId": 1377039457,
+      "seen": {
+        "392309435": {
+          "checkedAt": "2026-10-11T08:50:01.932Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:474d58abc208c0779e7f8f1d8449db755a874d475c13b9cf8decf74bc171933b",
+          "id": 576092083,
+          "name": "Zygisk-Next-1.5.0-843-5217106-release.zip",
+          "sha256": "474d58abc208c0779e7f8f1d8449db755a874d475c13b9cf8decf74bc171933b",
+          "size": 7529581,
+          "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.0/Zygisk-Next-1.5.0-843-5217106-release.zip"
+        },
+        "body": "2026.08.26\r\n\r\n---\r\n\r\n- 适配 Android 17 QPR2 Beta 3\r\n- 新增 [HyperOS Runtime 支持](https://github.com/LSPosed/ZygiskNext/blob/main/docs/hyos_runtime.md)\r\n- 修复部分情况下 Zygisk 功能意外失效的问题\r\n- 修复 32 位 ARM 设备上的潜在异常\r\n- 调整 WebView 子进程 umount 方式，交由 Root 方案统一管理\r\n\r\n---\r\n\r\n- Supports Android 17 QPR2 Beta 3\r\n- Adds [HyperOS Runtime support](https://github.com/LSPosed/ZygiskNext/blob/main/docs/hyos_runtime.md)\r\n- Fixed an issue where Zygisk functionality would unexpectedly fail in some cases\r\n- Fixed potential anomalies on 32-bit ARM devices\r\n- Adjusted the WebView child process umount mechanism, now managed by Root solution.\r\n\r\n---\r\n\r\nSHA256: 474d58abc208c0779e7f8f1d8449db755a874d475c13b9cf8decf74bc171933b",
+        "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.0",
+        "immutable": true,
+        "name": "v1.5.0",
+        "prerelease": false,
+        "prop": {
+          "author": "5ec1cff, Nullptr, aviraxp",
+          "description": "Standalone implementation of Zygisk.",
+          "id": "zygisksu",
+          "name": "Zygisk Next",
+          "updateJson": "https://lsposed.zip/zygisk-next/update.json",
+          "version": "1.5.0 (843-5217106-release)",
+          "versionCode": "843"
+        },
+        "publishedAt": "2026-09-20T04:19:50Z",
+        "releaseId": 392309435,
+        "tag": "v1.5.0",
+        "tagCommit": "cddf38d5b1501d0cbf08393767afed09ac478b14",
+        "version": "1.5.0 (843-5217106-release)",
+        "versionCode": 843
+      },
+      "stars": {
+        "count": 752,
+        "fetchedAt": "2026-10-11T08:50:01.932Z",
+        "fullName": "LSPosed/ZygiskNext",
+        "repositoryId": 1377039457,
+        "verified": "self"
+      }
     }
   },
   "schemaVersion": 1
