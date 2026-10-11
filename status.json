@@ -107,21 +107,17 @@
       "fullName": "Fanju6/NetProxy-Releases",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-11T14:43:04.897Z",
+      "maxVersionCode": 1080,
       "message": null,
       "repositoryId": 1414363922,
-      "request": {
-        "checkedAt": "2026-10-11T14:30:38.515Z",
-        "commit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
-        "issues": [],
-        "latestTag": "v8.5.2",
-        "ok": true,
-        "releaseId": 409717805,
-        "repositoryId": 1414363922,
-        "submissionId": "n9ou4o6fel"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-11T14:28:06Z",
+        "tag": "v8.5.2",
+        "version": "v8.5.2",
+        "versionCode": 1080
+      }
     },
     "oh_my_keymint": {
       "contentCommit": "0ec0dcbdb1defe68b54a1167610baa63678c9230",

@@ -1017,6 +1017,116 @@
         "verified": "self"
       }
     },
+    "netproxy": {
+      "content": {
+        "blobs": {
+          ".github/kernelsu/README.md": "d813729794b1cdc461c6a02654c3691a30de058a",
+          ".github/kernelsu/icon.png": "254e22882aebd2be8cc7fb43add4c500edaf8bf9",
+          "module.yaml": "7670ea2e39a237018388ee7ce823bb776c0c7388"
+        },
+        "commit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
+        "fetchedAt": "2026-10-11T14:43:04.897Z",
+        "files": {
+          ".github/kernelsu/README.md": "c92e6213e1d680ddc4a5f6b8646a37cbd10e13c6bb4fcc3096646b2eb7b356fd",
+          ".github/kernelsu/icon.png": "4bef947f9024d913659019df00d0345166417ee42c06e16877adc7899f4874c0",
+          "module.yaml": "9090e878cbe913033affd74f99761bce0769e0f1014c8210975072bc1c6de7fc"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "Fanju6/NetProxy-Releases",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-11T14:43:04.897Z",
+        "lastSuccessAt": "2026-10-11T14:43:04.897Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "netproxy",
+      "installationId": 170175059,
+      "maxStableVersionCode": 1080,
+      "maxVersionCode": 1080,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:672575e66282aa7ac1d143c5a8da5191dcca8caca3bf376e9ab9ea470bf084f3",
+            "id": 630952831,
+            "name": "netproxy-1080-v8.5.2.zip",
+            "sha256": "672575e66282aa7ac1d143c5a8da5191dcca8caca3bf376e9ab9ea470bf084f3",
+            "size": 26919219,
+            "url": "https://github.com/Fanju6/NetProxy-Releases/releases/download/v8.5.2/netproxy-1080-v8.5.2.zip"
+          },
+          "body": "## 版本 8.5.2（2026-10-11）\n\n### 应用代理\n\n- 代理模式关闭时保留搜索框；切换模式不再清空关键词或退出搜索，重新启用后可继续筛选应用。\n\n### 模块分发\n\n- 适配新版 KernelSU Modules 仓库，正式模块包通过独立仓库的不可变 Release 分发；主仓库继续提供 nightly 开发包。\n\n* * *\n\n\n[源码提交](https://github.com/Fanju6/NetProxy-Magisk/commit/2ad1d67bd57a142fd58d565b6d128d2b45e54c7a)\n\nSHA-256: `672575e66282aa7ac1d143c5a8da5191dcca8caca3bf376e9ab9ea470bf084f3`\n",
+          "htmlUrl": "https://github.com/Fanju6/NetProxy-Releases/releases/tag/v8.5.2",
+          "immutable": true,
+          "name": "v8.5.2",
+          "prerelease": false,
+          "prop": {
+            "author": "Fanju",
+            "description": "基于 sing-box 内核的透明代理工具",
+            "id": "netproxy",
+            "name": "NetProxy",
+            "updateJson": "https://github.com/Fanju6/NetProxy-Magisk/releases/latest/download/update.json",
+            "version": "v8.5.2",
+            "versionCode": "1080",
+            "webuiIcon": "webroot/netproxy/favicon.svg"
+          },
+          "publishedAt": "2026-10-11T14:28:06Z",
+          "releaseId": 409717805,
+          "tag": "v8.5.2",
+          "tagCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
+          "version": "v8.5.2",
+          "versionCode": 1080
+        }
+      ],
+      "repositoryId": 1414363922,
+      "seen": {
+        "409717805": {
+          "checkedAt": "2026-10-11T14:43:04.897Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:672575e66282aa7ac1d143c5a8da5191dcca8caca3bf376e9ab9ea470bf084f3",
+          "id": 630952831,
+          "name": "netproxy-1080-v8.5.2.zip",
+          "sha256": "672575e66282aa7ac1d143c5a8da5191dcca8caca3bf376e9ab9ea470bf084f3",
+          "size": 26919219,
+          "url": "https://github.com/Fanju6/NetProxy-Releases/releases/download/v8.5.2/netproxy-1080-v8.5.2.zip"
+        },
+        "body": "## 版本 8.5.2（2026-10-11）\n\n### 应用代理\n\n- 代理模式关闭时保留搜索框；切换模式不再清空关键词或退出搜索，重新启用后可继续筛选应用。\n\n### 模块分发\n\n- 适配新版 KernelSU Modules 仓库，正式模块包通过独立仓库的不可变 Release 分发；主仓库继续提供 nightly 开发包。\n\n* * *\n\n\n[源码提交](https://github.com/Fanju6/NetProxy-Magisk/commit/2ad1d67bd57a142fd58d565b6d128d2b45e54c7a)\n\nSHA-256: `672575e66282aa7ac1d143c5a8da5191dcca8caca3bf376e9ab9ea470bf084f3`\n",
+        "htmlUrl": "https://github.com/Fanju6/NetProxy-Releases/releases/tag/v8.5.2",
+        "immutable": true,
+        "name": "v8.5.2",
+        "prerelease": false,
+        "prop": {
+          "author": "Fanju",
+          "description": "基于 sing-box 内核的透明代理工具",
+          "id": "netproxy",
+          "name": "NetProxy",
+          "updateJson": "https://github.com/Fanju6/NetProxy-Magisk/releases/latest/download/update.json",
+          "version": "v8.5.2",
+          "versionCode": "1080",
+          "webuiIcon": "webroot/netproxy/favicon.svg"
+        },
+        "publishedAt": "2026-10-11T14:28:06Z",
+        "releaseId": 409717805,
+        "tag": "v8.5.2",
+        "tagCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
+        "version": "v8.5.2",
+        "versionCode": 1080
+      },
+      "stars": {
+        "count": 1239,
+        "fetchedAt": "2026-10-11T14:43:04.897Z",
+        "fullName": "Fanju6/NetProxy-Magisk",
+        "repositoryId": 981411467,
+        "requested": "Fanju6/NetProxy-Magisk",
+        "verified": "owner"
+      }
+    },
     "oh_my_keymint": {
       "content": {
         "blobs": {
