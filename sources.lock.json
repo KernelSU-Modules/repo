@@ -20,17 +20,47 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-11T12:58:54.823Z",
-        "lastSuccessAt": "2026-10-11T12:58:54.823Z",
+        "lastAttemptAt": "2026-10-11T12:59:38.357Z",
+        "lastSuccessAt": "2026-10-11T12:59:38.357Z",
         "message": null,
         "status": "ok"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
-      "maxStableVersionCode": 30020,
-      "maxVersionCode": 30020,
+      "maxStableVersionCode": 30030,
+      "maxVersionCode": 30030,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:8a2bbfc40f2dbecd1ce4aef32398f4e6c3939f3ef2f31ffe8378942f0f9c5a17",
+            "id": 630759466,
+            "name": "KernelSU-Tuner-30030-v3.3.0.zip",
+            "sha256": "8a2bbfc40f2dbecd1ce4aef32398f4e6c3939f3ef2f31ffe8378942f0f9c5a17",
+            "size": 44390,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.3.0/KernelSU-Tuner-30030-v3.3.0.zip"
+          },
+          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**License** - the repo now carries the GPL-3.0 text that module.yaml was already claiming.\n\n**Custom presets** - save your own named profile on top of one of the four built-ins. Names are validated, and you cannot shadow a built-in.\n\n**Per-app parameters** - a node and value can be bound to a package and written only while that package is in the foreground. Range checking applies. Useful for capping one game's clocks without slowing everything else.\n\n**Dry-run preview** - before applying anything, ask what would change. It prints every node with its current and target value and writes nothing at all.\n\n**Also in this build**\n- CHANGELOG.md covering every release so far\n- English readme, linked from the Chinese one\n- a tools tab in the WebUI for backup, presets, per-app parameters and the preview, 9 tabs total\n\n**Fixed**\n- app-revert silently restored nothing: it looked up backups by the unprefixed path while the writer stored them with the KSU_SYS prefix\n- the per-app code was initially inserted inside another function and broke the script; custom.sh was rewritten with all functions at top level\n\nEverything from earlier versions is unchanged: four profiles, adaptive switching, charge limiting, app standby management, custom parameters, display tuning, boot-failure rollback, wipe protection and config export/import.",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.3.0",
+          "immutable": true,
+          "name": "v3.3.0",
+          "prerelease": false,
+          "prop": {
+            "author": "Operit",
+            "description": "内核调优全家桶：四档预设、CPU 频率上下限、GPU/IO/VM/LMK/ZRAM/网络/DNS/显示调优、温控分区解锁、智能驾驶(含省电联动与定时切换)、电池守护、应用待机管理、per-app 策略与参数、自定义参数(带范围校验)、自定义预设、配置导入导出、变更预览、防砖回滚、防格机三模式，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+            "version": "v3.3.0",
+            "versionCode": "30030"
+          },
+          "publishedAt": "2026-10-11T12:58:59Z",
+          "releaseId": 409667290,
+          "tag": "v3.3.0",
+          "tagCommit": "fba7d3a611769805c50a3694447d5500571dce85",
+          "version": "v3.3.0",
+          "versionCode": 30030
+        },
         {
           "asset": {
             "digest": "sha256:2fc35935b2d3f56b3c0295d1e9f2abf54ab8553d55d13df1e43d2d66f0d9bb0b",
@@ -146,37 +176,41 @@
         "409658938": {
           "checkedAt": "2026-10-11T12:40:35.449Z",
           "ok": true
+        },
+        "409667290": {
+          "checkedAt": "2026-10-11T12:59:38.357Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:2fc35935b2d3f56b3c0295d1e9f2abf54ab8553d55d13df1e43d2d66f0d9bb0b",
-          "id": 630718928,
-          "name": "KernelSU-Tuner-30020-v3.2.0.zip",
-          "sha256": "2fc35935b2d3f56b3c0295d1e9f2abf54ab8553d55d13df1e43d2d66f0d9bb0b",
-          "size": 41138,
-          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.2.0/KernelSU-Tuner-30020-v3.2.0.zip"
+          "digest": "sha256:8a2bbfc40f2dbecd1ce4aef32398f4e6c3939f3ef2f31ffe8378942f0f9c5a17",
+          "id": 630759466,
+          "name": "KernelSU-Tuner-30030-v3.3.0.zip",
+          "sha256": "8a2bbfc40f2dbecd1ce4aef32398f4e6c3939f3ef2f31ffe8378942f0f9c5a17",
+          "size": 44390,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.3.0/KernelSU-Tuner-30030-v3.3.0.zip"
         },
-        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThis build is mostly about the things that were missing rather than new switches on top of old ones.\n\n**Config export and import** - everything you have configured (options, per-app rules, custom parameters, whitelist) goes into one JSON file on your storage. Import merges rather than replaces, so keys the backup does not contain are left alone. Useful when moving to a new device or sharing a setup.\n\n**CPU frequency limits** - the profiles used to change the governor and nothing else. They now set scaling_max_freq and scaling_min_freq too, snapped to frequencies your kernel actually advertises. Ranges are 10-45 percent for powersave up to 60-100 for gaming.\n\n**Range checking for custom parameters** - if a node has min and max files next to it, a value outside that range is refused before it is ever written. There is a force option if you know what you are doing.\n\n**LMK and memory pressure** - min_free_kbytes scaled by installed RAM, lowmemorykiller minfree per profile, watermark tuning. This is usually the real reason background apps get killed, and it was not covered before.\n\n**ZRAM sizing** - if zram0 has no size yet it gets 75 percent of RAM, with mkswap and swapon. Existing sizes are left alone.\n\n**Thermal zone selection** - unlocking thermal no longer disables every zone blindly. You choose which ones, cpu and gpu by default. A new zones command lists every zone with its type, mode and temperature.\n\n**Autopilot** - follows the system battery saver and can force a profile during a time window, including windows that cross midnight.\n\nEverything from earlier versions is still there: four profiles, adaptive switching, charge limiting, app standby management, per-app policies, display tuning, boot-failure rollback, wipe protection and the WebUI, now with 8 tabs.",
-        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.2.0",
+        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**License** - the repo now carries the GPL-3.0 text that module.yaml was already claiming.\n\n**Custom presets** - save your own named profile on top of one of the four built-ins. Names are validated, and you cannot shadow a built-in.\n\n**Per-app parameters** - a node and value can be bound to a package and written only while that package is in the foreground. Range checking applies. Useful for capping one game's clocks without slowing everything else.\n\n**Dry-run preview** - before applying anything, ask what would change. It prints every node with its current and target value and writes nothing at all.\n\n**Also in this build**\n- CHANGELOG.md covering every release so far\n- English readme, linked from the Chinese one\n- a tools tab in the WebUI for backup, presets, per-app parameters and the preview, 9 tabs total\n\n**Fixed**\n- app-revert silently restored nothing: it looked up backups by the unprefixed path while the writer stored them with the KSU_SYS prefix\n- the per-app code was initially inserted inside another function and broke the script; custom.sh was rewritten with all functions at top level\n\nEverything from earlier versions is unchanged: four profiles, adaptive switching, charge limiting, app standby management, custom parameters, display tuning, boot-failure rollback, wipe protection and config export/import.",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.3.0",
         "immutable": true,
-        "name": "v3.2.0",
+        "name": "v3.3.0",
         "prerelease": false,
         "prop": {
           "author": "Operit",
-          "description": "内核调优全家桶：四档预设、CPU 频率上下限、GPU/IO/VM/LMK/ZRAM/网络/DNS/显示调优、温控分区解锁、智能驾驶(含省电联动与定时切换)、电池守护、应用待机管理、per-app 策略、自定义参数(带范围校验)、配置导入导出、防砖回滚、防格机三模式，全部可逆",
+          "description": "内核调优全家桶：四档预设、CPU 频率上下限、GPU/IO/VM/LMK/ZRAM/网络/DNS/显示调优、温控分区解锁、智能驾驶(含省电联动与定时切换)、电池守护、应用待机管理、per-app 策略与参数、自定义参数(带范围校验)、自定义预设、配置导入导出、变更预览、防砖回滚、防格机三模式，全部可逆",
           "id": "KernelSU-Tuner",
           "name": "KernelSU Tuner",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-          "version": "v3.2.0",
-          "versionCode": "30020"
+          "version": "v3.3.0",
+          "versionCode": "30030"
         },
-        "publishedAt": "2026-10-11T12:40:13Z",
-        "releaseId": 409658938,
-        "tag": "v3.2.0",
-        "tagCommit": "1f897e17fff1c5a2e77149f7f5cdeea3a80e35ad",
-        "version": "v3.2.0",
-        "versionCode": 30020
+        "publishedAt": "2026-10-11T12:58:59Z",
+        "releaseId": 409667290,
+        "tag": "v3.3.0",
+        "tagCommit": "fba7d3a611769805c50a3694447d5500571dce85",
+        "version": "v3.3.0",
+        "versionCode": 30030
       },
       "stars": {
         "count": 0,
