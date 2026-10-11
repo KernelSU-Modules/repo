@@ -1,19 +1,23 @@
 id: CertBridge
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1306329220
+  ownerId: 85948645
+  fullName: Eikeitsu/CertBridge
+  manifestPath: module.yaml
+review:
   submissionId: ktnc0sdgdj
   kind: submit
-  source:
-    host: github
-    repositoryId: 1306329220
-    ownerId: 85948645
-    fullName: Eikeitsu/CertBridge
-    manifestPath: module.yaml
   submittedBy: 85948645
-  submittedByLogin: Eikeitsu
   submittedAt: 2026-10-11T16:19:26.744Z
+  decision: approved
+  decidedBy: 5022927
+  decidedVia: telegram
+  decidedAt: 2026-10-11T17:50:37.416Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64295
 createdAt: 2026-10-11T16:19:26.744Z
-updatedAt: 2026-10-11T16:19:26.744Z
+updatedAt: 2026-10-11T17:50:37.416Z
