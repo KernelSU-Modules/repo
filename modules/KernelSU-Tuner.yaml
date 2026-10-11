@@ -1,0 +1,19 @@
+id: KernelSU-Tuner
+status: pending
+request:
+  submissionId: rgzszf0g19
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1414095668
+    ownerId: 135683413
+    fullName: ylh440104/KernelSU-Tuner
+    manifestPath: module.yaml
+  submittedBy: 135683413
+  submittedByLogin: ylh440104
+  submittedAt: 2026-10-11T08:12:49.552Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64228
+createdAt: 2026-10-11T08:12:49.552Z
+updatedAt: 2026-10-11T08:12:49.552Z
