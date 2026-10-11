@@ -102,6 +102,27 @@
         "versionCode": 602003999
       }
     },
+    "oh_my_keymint": {
+      "contentCommit": "0ec0dcbdb1defe68b54a1167610baa63678c9230",
+      "fullName": "qwq233/OhMyKeymint",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1068442938,
+      "request": {
+        "checkedAt": "2026-10-11T14:19:26.253Z",
+        "commit": "0ec0dcbdb1defe68b54a1167610baa63678c9230",
+        "issues": [],
+        "latestTag": "v1.2.0-67dc5e7",
+        "ok": true,
+        "releaseId": 340393844,
+        "repositoryId": 1068442938,
+        "submissionId": "vz146lovo6"
+      },
+      "stable": null
+    },
     "yukizygisk": {
       "contentCommit": "773a02fa649a2c8adf581b9cc2b852b1b56b88b9",
       "fullName": "Rouyashiki/YukiZygisk",
