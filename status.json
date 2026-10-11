@@ -1,20 +1,20 @@
 {
   "modules": {
     "KernelSU-Tuner": {
-      "contentCommit": "fba7d3a611769805c50a3694447d5500571dce85",
+      "contentCommit": "12dc3479d7736a74d368f61342a468224ba5ff99",
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-11T12:59:38.357Z",
-      "maxVersionCode": 30030,
+      "lastSuccessAt": "2026-10-11T15:36:56.308Z",
+      "maxVersionCode": 30040,
       "message": null,
       "repositoryId": 1414095668,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-11T12:58:59Z",
-        "tag": "v3.3.0",
-        "version": "v3.3.0",
-        "versionCode": 30030
+        "publishedAt": "2026-10-11T15:36:29Z",
+        "tag": "v3.4.0",
+        "version": "v3.4.0",
+        "versionCode": 30040
       }
     },
     "SvcHub": {

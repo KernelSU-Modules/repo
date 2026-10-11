@@ -3,14 +3,14 @@
     "KernelSU-Tuner": {
       "content": {
         "blobs": {
-          "README.md": "5ebc209db824a3207a72c25893055330eeec33dd",
+          "README.md": "4718acc0663a412871cc25e955138c9c0c5b3b18",
           "assets/icon.png": "1adce114883bffb96cd16c693973592ea295d17d",
           "module.yaml": "4e75ae665c4b2ffc4ed09cd2672c19c68356df81"
         },
-        "commit": "fba7d3a611769805c50a3694447d5500571dce85",
-        "fetchedAt": "2026-10-11T12:58:54.823Z",
+        "commit": "12dc3479d7736a74d368f61342a468224ba5ff99",
+        "fetchedAt": "2026-10-11T15:36:56.308Z",
         "files": {
-          "README.md": "dbb5969599e268cddb3c349ad677c66fe2c0ecd3b50e55832b430f0aac6f07ce",
+          "README.md": "7bea08f97afb9a36b0c7d4c9e019122b3f7435fd27c6c6f7da30f05db1605d56",
           "assets/icon.png": "b5e57153d1e723506b2322ab3d8fd8a4274536a2508634dff3dfbd62fd775fe6",
           "module.yaml": "2274ff9b8312d157804c99930adede42c49ba4b9a76e67bb6a3528d6a882d2c1"
         },
@@ -20,17 +20,47 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-11T12:59:38.357Z",
-        "lastSuccessAt": "2026-10-11T12:59:38.357Z",
+        "lastAttemptAt": "2026-10-11T15:36:56.308Z",
+        "lastSuccessAt": "2026-10-11T15:36:56.308Z",
         "message": null,
         "status": "ok"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
-      "maxStableVersionCode": 30030,
-      "maxVersionCode": 30030,
+      "maxStableVersionCode": 30040,
+      "maxVersionCode": 30040,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:31c534b53951743834bc408f0c1cb787d3170937f2a7ecad45d481d9c23881fc",
+            "id": 631111076,
+            "name": "KernelSU-Tuner-30040-v3.4.0.zip",
+            "sha256": "31c534b53951743834bc408f0c1cb787d3170937f2a7ecad45d481d9c23881fc",
+            "size": 53132,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.0/KernelSU-Tuner-30040-v3.4.0.zip"
+          },
+          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**Kernel extensions.** A new `kernel.sh` covers the areas this module had not touched: devfreq bus and memory-controller clocks, KSM deduplication, transparent hugepages, `schedtune` boost, the full three-value TCP buffers, touch boost, and the filesystem ceilings (inotify, file-max, nr_open). Each section has its own switch and all of them are off by default.\n\n**Config versioning.** Config writes now go through a temp file and an atomic rename rather than `sed -i`, so an interrupted write can no longer leave a half-written file. There is a `SCHEMA` field and a migration path that fills in new keys on existing installs without disturbing what is already set.\n\n**SELinux.** The module now ships `sepolicy.rule` with 184 rules covering the nodes it writes. Previously some writes could be silently blocked on enforcing devices.\n\n**Watchdog.** `watchdog.sh` checks autopilot, guard, appwatch and wipeshield every five minutes and restarts anything that died. They used to fail silently.\n\n**Also**\n- periodic TRIM, interval in days\n- switch to powersave automatically below a battery level you choose\n- dry run now reports what the kernel extensions would change\n- WebUI: kernel extension switches, watchdog controls, devfreq listing\n\n**Fixed**\n- safe mode appended `SAFEGUARD=0` to the config, creating a duplicate key. It rewrites in place now\n- the boot-failure counter was left as an empty file when cleared\n\nEverything from earlier versions is unchanged.",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.0",
+          "immutable": true,
+          "name": "v3.4.0",
+          "prerelease": false,
+          "prop": {
+            "author": "Operit",
+            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+            "version": "v3.4.0",
+            "versionCode": "30040"
+          },
+          "publishedAt": "2026-10-11T15:36:29Z",
+          "releaseId": 409755685,
+          "tag": "v3.4.0",
+          "tagCommit": "12dc3479d7736a74d368f61342a468224ba5ff99",
+          "version": "v3.4.0",
+          "versionCode": 30040
+        },
         {
           "asset": {
             "digest": "sha256:8a2bbfc40f2dbecd1ce4aef32398f4e6c3939f3ef2f31ffe8378942f0f9c5a17",
@@ -180,37 +210,41 @@
         "409667290": {
           "checkedAt": "2026-10-11T12:59:38.357Z",
           "ok": true
+        },
+        "409755685": {
+          "checkedAt": "2026-10-11T15:36:56.308Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:8a2bbfc40f2dbecd1ce4aef32398f4e6c3939f3ef2f31ffe8378942f0f9c5a17",
-          "id": 630759466,
-          "name": "KernelSU-Tuner-30030-v3.3.0.zip",
-          "sha256": "8a2bbfc40f2dbecd1ce4aef32398f4e6c3939f3ef2f31ffe8378942f0f9c5a17",
-          "size": 44390,
-          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.3.0/KernelSU-Tuner-30030-v3.3.0.zip"
+          "digest": "sha256:31c534b53951743834bc408f0c1cb787d3170937f2a7ecad45d481d9c23881fc",
+          "id": 631111076,
+          "name": "KernelSU-Tuner-30040-v3.4.0.zip",
+          "sha256": "31c534b53951743834bc408f0c1cb787d3170937f2a7ecad45d481d9c23881fc",
+          "size": 53132,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.0/KernelSU-Tuner-30040-v3.4.0.zip"
         },
-        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**License** - the repo now carries the GPL-3.0 text that module.yaml was already claiming.\n\n**Custom presets** - save your own named profile on top of one of the four built-ins. Names are validated, and you cannot shadow a built-in.\n\n**Per-app parameters** - a node and value can be bound to a package and written only while that package is in the foreground. Range checking applies. Useful for capping one game's clocks without slowing everything else.\n\n**Dry-run preview** - before applying anything, ask what would change. It prints every node with its current and target value and writes nothing at all.\n\n**Also in this build**\n- CHANGELOG.md covering every release so far\n- English readme, linked from the Chinese one\n- a tools tab in the WebUI for backup, presets, per-app parameters and the preview, 9 tabs total\n\n**Fixed**\n- app-revert silently restored nothing: it looked up backups by the unprefixed path while the writer stored them with the KSU_SYS prefix\n- the per-app code was initially inserted inside another function and broke the script; custom.sh was rewritten with all functions at top level\n\nEverything from earlier versions is unchanged: four profiles, adaptive switching, charge limiting, app standby management, custom parameters, display tuning, boot-failure rollback, wipe protection and config export/import.",
-        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.3.0",
+        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**Kernel extensions.** A new `kernel.sh` covers the areas this module had not touched: devfreq bus and memory-controller clocks, KSM deduplication, transparent hugepages, `schedtune` boost, the full three-value TCP buffers, touch boost, and the filesystem ceilings (inotify, file-max, nr_open). Each section has its own switch and all of them are off by default.\n\n**Config versioning.** Config writes now go through a temp file and an atomic rename rather than `sed -i`, so an interrupted write can no longer leave a half-written file. There is a `SCHEMA` field and a migration path that fills in new keys on existing installs without disturbing what is already set.\n\n**SELinux.** The module now ships `sepolicy.rule` with 184 rules covering the nodes it writes. Previously some writes could be silently blocked on enforcing devices.\n\n**Watchdog.** `watchdog.sh` checks autopilot, guard, appwatch and wipeshield every five minutes and restarts anything that died. They used to fail silently.\n\n**Also**\n- periodic TRIM, interval in days\n- switch to powersave automatically below a battery level you choose\n- dry run now reports what the kernel extensions would change\n- WebUI: kernel extension switches, watchdog controls, devfreq listing\n\n**Fixed**\n- safe mode appended `SAFEGUARD=0` to the config, creating a duplicate key. It rewrites in place now\n- the boot-failure counter was left as an empty file when cleared\n\nEverything from earlier versions is unchanged.",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.0",
         "immutable": true,
-        "name": "v3.3.0",
+        "name": "v3.4.0",
         "prerelease": false,
         "prop": {
           "author": "Operit",
-          "description": "内核调优全家桶：四档预设、CPU 频率上下限、GPU/IO/VM/LMK/ZRAM/网络/DNS/显示调优、温控分区解锁、智能驾驶(含省电联动与定时切换)、电池守护、应用待机管理、per-app 策略与参数、自定义参数(带范围校验)、自定义预设、配置导入导出、变更预览、防砖回滚、防格机三模式，全部可逆",
+          "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
           "id": "KernelSU-Tuner",
           "name": "KernelSU Tuner",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-          "version": "v3.3.0",
-          "versionCode": "30030"
+          "version": "v3.4.0",
+          "versionCode": "30040"
         },
-        "publishedAt": "2026-10-11T12:58:59Z",
-        "releaseId": 409667290,
-        "tag": "v3.3.0",
-        "tagCommit": "fba7d3a611769805c50a3694447d5500571dce85",
-        "version": "v3.3.0",
-        "versionCode": 30030
+        "publishedAt": "2026-10-11T15:36:29Z",
+        "releaseId": 409755685,
+        "tag": "v3.4.0",
+        "tagCommit": "12dc3479d7736a74d368f61342a468224ba5ff99",
+        "version": "v3.4.0",
+        "versionCode": 30040
       },
       "stars": {
         "count": 0,
