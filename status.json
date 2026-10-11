@@ -1,5 +1,26 @@
 {
   "modules": {
+    "CertBridge": {
+      "contentCommit": "cd0fe66ad9e83937a589f3f6591037409b18d569",
+      "fullName": "Eikeitsu/CertBridge",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1306329220,
+      "request": {
+        "checkedAt": "2026-10-11T16:19:54.363Z",
+        "commit": "cd0fe66ad9e83937a589f3f6591037409b18d569",
+        "issues": [],
+        "latestTag": "v5.1.2",
+        "ok": true,
+        "releaseId": 409778436,
+        "repositoryId": 1306329220,
+        "submissionId": "ktnc0sdgdj"
+      },
+      "stable": null
+    },
     "KernelSU-Tuner": {
       "contentCommit": "12dc3479d7736a74d368f61342a468224ba5ff99",
       "fullName": "ylh440104/KernelSU-Tuner",
