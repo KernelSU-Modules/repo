@@ -112,12 +112,12 @@
       "message": null,
       "repositoryId": 1068442938,
       "request": {
-        "checkedAt": "2026-10-11T14:19:26.253Z",
+        "checkedAt": "2026-10-11T14:22:17.430Z",
         "commit": "0ec0dcbdb1defe68b54a1167610baa63678c9230",
         "issues": [],
-        "latestTag": "v1.2.0-67dc5e7",
+        "latestTag": "1.2.0-preview-a1f3241",
         "ok": true,
-        "releaseId": 340393844,
+        "releaseId": 389074732,
         "repositoryId": 1068442938,
         "submissionId": "vz146lovo6"
       },
