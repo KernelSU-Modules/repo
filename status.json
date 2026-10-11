@@ -22,20 +22,11 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-11T08:58:31.713Z",
+      "maxVersionCode": 57,
       "message": null,
       "repositoryId": 1196357682,
-      "request": {
-        "checkedAt": "2026-10-11T07:05:49.749Z",
-        "commit": "ea38b083bcc311c880cf597762943a6615e9952b",
-        "issues": [],
-        "latestTag": "nightly-ea38b083-20261011T070347249885Z",
-        "ok": true,
-        "releaseId": 409490894,
-        "repositoryId": 1196357682,
-        "submissionId": "85n2go4ibp"
-      },
+      "request": null,
       "stable": null
     },
     "example_closed_module_demo": {

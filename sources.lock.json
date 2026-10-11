@@ -117,6 +117,111 @@
         "verified": "self"
       }
     },
+    "duck-toolbox": {
+      "content": {
+        "blobs": {
+          "README.md": "50b073589b920668ba02cf02c14539466c65e6d7",
+          "module.yaml": "895e6462e2734743a77d85ad998c0fbb73ce828d"
+        },
+        "commit": "ea38b083bcc311c880cf597762943a6615e9952b",
+        "fetchedAt": "2026-10-11T08:58:31.713Z",
+        "files": {
+          "README.md": "f19de868d6fde89ff19c71cd3ae3ff6be777de638335c507aec6516bf611b02a",
+          "module.yaml": "11c9f688d565ba2b7310a01599ce6d0535f217781bf03d2ac022bf8e3d422e21"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "eltavine/Duck-ToolBox",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-11T08:58:31.713Z",
+        "lastSuccessAt": "2026-10-11T08:58:31.713Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "duck-toolbox",
+      "installationId": 170179902,
+      "maxStableVersionCode": null,
+      "maxVersionCode": 57,
+      "prerelease": {
+        "asset": {
+          "digest": "sha256:a899c237fc80cdb11f335721c2fc9c70b07d12af51ab53b6442165b603591efa",
+          "id": 630050959,
+          "name": "duck-toolbox-v0.0.1-beta-57-canary.zip",
+          "sha256": "a899c237fc80cdb11f335721c2fc9c70b07d12af51ab53b6442165b603591efa",
+          "size": 4021242,
+          "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-ea38b083-20261011T070347249885Z/duck-toolbox-v0.0.1-beta-57-canary.zip"
+        },
+        "body": "Canary module built from commit ea38b083bcc311c880cf597762943a6615e9952b.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/38120003995\n",
+        "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-ea38b083-20261011T070347249885Z",
+        "immutable": true,
+        "name": "nightly-ea38b083-20261011T070347249885Z",
+        "prerelease": true,
+        "prop": {
+          "author": "Eltavine & KOW & MhmRdd",
+          "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and Qualcomm device ID provisioning, in one WebUI.",
+          "id": "duck-toolbox",
+          "name": "Duck ToolBox",
+          "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
+          "version": "v0.0.1-beta (57-canary)",
+          "versionCode": "57"
+        },
+        "publishedAt": "2026-10-11T07:03:49Z",
+        "releaseId": 409490894,
+        "tag": "nightly-ea38b083-20261011T070347249885Z",
+        "tagCommit": "ea38b083bcc311c880cf597762943a6615e9952b",
+        "version": "v0.0.1-beta (57-canary)",
+        "versionCode": 57
+      },
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:a899c237fc80cdb11f335721c2fc9c70b07d12af51ab53b6442165b603591efa",
+            "id": 630050959,
+            "name": "duck-toolbox-v0.0.1-beta-57-canary.zip",
+            "sha256": "a899c237fc80cdb11f335721c2fc9c70b07d12af51ab53b6442165b603591efa",
+            "size": 4021242,
+            "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-ea38b083-20261011T070347249885Z/duck-toolbox-v0.0.1-beta-57-canary.zip"
+          },
+          "body": "Canary module built from commit ea38b083bcc311c880cf597762943a6615e9952b.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/38120003995\n",
+          "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-ea38b083-20261011T070347249885Z",
+          "immutable": true,
+          "name": "nightly-ea38b083-20261011T070347249885Z",
+          "prerelease": true,
+          "prop": {
+            "author": "Eltavine & KOW & MhmRdd",
+            "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and Qualcomm device ID provisioning, in one WebUI.",
+            "id": "duck-toolbox",
+            "name": "Duck ToolBox",
+            "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
+            "version": "v0.0.1-beta (57-canary)",
+            "versionCode": "57"
+          },
+          "publishedAt": "2026-10-11T07:03:49Z",
+          "releaseId": 409490894,
+          "tag": "nightly-ea38b083-20261011T070347249885Z",
+          "tagCommit": "ea38b083bcc311c880cf597762943a6615e9952b",
+          "version": "v0.0.1-beta (57-canary)",
+          "versionCode": 57
+        }
+      ],
+      "repositoryId": 1196357682,
+      "seen": {
+        "409490894": {
+          "checkedAt": "2026-10-11T08:58:31.713Z",
+          "ok": true
+        }
+      },
+      "stable": null,
+      "stars": {
+        "count": 78,
+        "fetchedAt": "2026-10-11T08:58:31.713Z",
+        "fullName": "eltavine/Duck-ToolBox",
+        "repositoryId": 1196357682,
+        "verified": "self"
+      }
+    },
     "example_closed_module_demo": {
       "content": {
         "blobs": {
