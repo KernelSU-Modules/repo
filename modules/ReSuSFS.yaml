@@ -1,0 +1,19 @@
+id: ReSuSFS
+status: pending
+request:
+  submissionId: 55kgn8445z
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1352101411
+    ownerId: 106261231
+    fullName: ahmed-alnassif/ReSuSFS
+    manifestPath: module.yaml
+  submittedBy: 106261231
+  submittedByLogin: ahmed-alnassif
+  submittedAt: 2026-10-11T19:38:37.711Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64296
+createdAt: 2026-10-11T19:38:37.711Z
+updatedAt: 2026-10-11T19:38:37.711Z
