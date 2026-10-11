@@ -10,7 +10,7 @@
       "message": "manifest-id-mismatch: module.yaml id \"ksu_tuner\" differs from the registered id \"KernelSU-Tuner\".",
       "repositoryId": 1414095668,
       "request": {
-        "checkedAt": "2026-10-11T08:23:28.903Z",
+        "checkedAt": "2026-10-11T08:24:36.549Z",
         "commit": "5b0f71073b0ed77024256ac73473ed27ca03439b",
         "issues": [
           {
@@ -19,14 +19,14 @@
             "severity": "error"
           },
           {
-            "code": "asset-none",
-            "message": "Release v3.0.1 has no asset matching \"KernelSU-Tuner-*.zip\".",
+            "code": "release-not-immutable",
+            "message": "Release v3.0.0 is not immutable. Enable release immutability and publish a new release.",
             "severity": "error"
           }
         ],
-        "latestTag": "v3.0.1",
+        "latestTag": "v3.0.0",
         "ok": false,
-        "releaseId": 409533766,
+        "releaseId": 409525484,
         "repositoryId": 1414095668,
         "submissionId": "rgzszf0g19"
       },
