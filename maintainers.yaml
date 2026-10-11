@@ -10,6 +10,8 @@ maintainers:
   - github:
       id: 4233744
       login: tiann
+    telegram:
+      id: 450585329
   - github:
       id: 5022927
       login: yujincheng08
