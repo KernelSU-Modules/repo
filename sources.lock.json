@@ -917,13 +917,13 @@
     "zygisknextsu": {
       "content": {
         "blobs": {
-          "README.md": "832ab6ee22ae1a755868a92f57ef695ff01b140d",
+          "README.md": "37d0015948724ffd2ca3a502fdfd741bf8a2f144",
           "module.yaml": "5f01314be14fb62a90ce4588b08e364fde06bb7f"
         },
-        "commit": "24bcae6bfa2b5a99cd4f3ea891a60c94d41260f8",
-        "fetchedAt": "2026-10-11T09:33:39.690Z",
+        "commit": "c1e927c8d0181dae7957db4750ee184d88235c8a",
+        "fetchedAt": "2026-10-11T11:29:25.802Z",
         "files": {
-          "README.md": "ea1259b6808219dac169d4c9ce3c03b88db55815b2f6a11b2ef53be20d23d5bc",
+          "README.md": "13f54e8aea07527863832145005e05a5e5d6329d6020de6bb49d8fc385880f77",
           "module.yaml": "95ffd10bae1af1ecee1ae5303b897b2418e2fda1a249cde2a063f102c00f9a98"
         },
         "manifestPath": "module.yaml",
@@ -932,8 +932,8 @@
       "fullName": "VeryBaaad/ZygiskNextNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-11T09:41:10.469Z",
-        "lastSuccessAt": "2026-10-11T09:41:10.469Z",
+        "lastAttemptAt": "2026-10-11T11:29:25.802Z",
+        "lastSuccessAt": "2026-10-11T11:29:25.802Z",
         "message": null,
         "status": "ok"
       },
@@ -1160,8 +1160,8 @@
         "versionCode": 99
       },
       "stars": {
-        "count": 44,
-        "fetchedAt": "2026-10-11T09:33:39.690Z",
+        "count": 45,
+        "fetchedAt": "2026-10-11T11:29:25.802Z",
         "fullName": "VeryBaaad/ZygiskNextNext",
         "repositoryId": 1348255159,
         "verified": "self"

@@ -102,12 +102,33 @@
         "versionCode": 602003999
       }
     },
+    "yukizygisk": {
+      "contentCommit": "773a02fa649a2c8adf581b9cc2b852b1b56b88b9",
+      "fullName": "Rouyashiki/YukiZygisk",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1297024368,
+      "request": {
+        "checkedAt": "2026-10-11T11:29:25.802Z",
+        "commit": "773a02fa649a2c8adf581b9cc2b852b1b56b88b9",
+        "issues": [],
+        "latestTag": "ci-38135296301",
+        "ok": true,
+        "releaseId": 409624375,
+        "repositoryId": 1297024368,
+        "submissionId": "3950h7clxo"
+      },
+      "stable": null
+    },
     "zygisknextsu": {
-      "contentCommit": "24bcae6bfa2b5a99cd4f3ea891a60c94d41260f8",
+      "contentCommit": "c1e927c8d0181dae7957db4750ee184d88235c8a",
       "fullName": "VeryBaaad/ZygiskNextNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-11T09:41:10.469Z",
+      "lastSuccessAt": "2026-10-11T11:29:25.802Z",
       "maxVersionCode": 99,
       "message": null,
       "repositoryId": 1348255159,
