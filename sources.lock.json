@@ -539,6 +539,215 @@
         "verified": "self"
       }
     },
+    "ReSuSFS": {
+      "content": {
+        "blobs": {
+          "README.md": "4bd66d3b67f47086931a0af48f01927c5c14ff92",
+          "docs/banner.png": "c5a5eab79b26005bf8853a8b1b2ad540afcd6282",
+          "module.yaml": "28e2f01f115a31632ecb79c396adfb84996557ef"
+        },
+        "commit": "1d48e43d9f126db7cbddcd1cf0c7992e6060ef6d",
+        "fetchedAt": "2026-10-11T21:41:02.271Z",
+        "files": {
+          "README.md": "bfdf7f6a5e5cfe42fd661df3ceec1138a06dfec398cdd7501640164b3c86b575",
+          "docs/banner.png": "f3703ef36a7d2932b6a41fccd06be4486a028af9b1a2bf9ade342acf9290dcb1",
+          "module.yaml": "a6271bf893515aaf68d2931d7a406a5875c77929e5f458d009d2deb90bc3a26e"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "dev"
+      },
+      "fullName": "ahmed-alnassif/ReSuSFS",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-11T21:41:02.271Z",
+        "lastSuccessAt": "2026-10-11T21:41:02.271Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "ReSuSFS",
+      "installationId": 170358391,
+      "maxStableVersionCode": 18,
+      "maxVersionCode": 18,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:a11b39f3eee411fa6ed2008f3581329436f2b6a5733e96fa1a226b052d05c7e9",
+            "id": 631623871,
+            "name": "ReSuSFS.zip",
+            "sha256": "a11b39f3eee411fa6ed2008f3581329436f2b6a5733e96fa1a226b052d05c7e9",
+            "size": 275665,
+            "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.11/ReSuSFS.zip"
+          },
+          "body": "## ReSuSFS v26.10.11 Changelog\n\n### ✨ Features\n\n- add module.yaml to add ReSuSFS to KernelSU manger (@ahmed-alnassif)\n\n### 🔧 Fixes\n\n- back button now works correctly for menus and dialogs (@ahmed-alnassif)\n- one asset per release (@ahmed-alnassif)\n\n### 📚 Documentation\n\n- migrate ReSukiSU to BakaSU (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.11 (@ahmed-alnassif)\n",
+          "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.11",
+          "immutable": true,
+          "name": "ReSuSFS v26.10.11",
+          "prerelease": false,
+          "prop": {
+            "author": "ahmed-alnassif",
+            "description": "The easiest way to use SuSFS on KernelSU. Strong hiding by default with built-in spoofing and hiding scripts, config files and toggle switches for everyday use, a built-in script manager for power users.",
+            "id": "ReSuSFS",
+            "name": "ReSuSFS",
+            "updateJson": "https://raw.githubusercontent.com/ahmed-alnassif/ReSuSFS/master/update.json",
+            "version": "v26.10.11",
+            "versionCode": "18"
+          },
+          "publishedAt": "2026-10-11T19:36:12Z",
+          "releaseId": 409878070,
+          "tag": "v26.10.11",
+          "tagCommit": "9a6bdb7ad78ebb77b4578ce797f25a7eaf2b814b",
+          "version": "v26.10.11",
+          "versionCode": 18
+        }
+      ],
+      "repositoryId": 1352101411,
+      "seen": {
+        "379662579": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "380143773": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "381965652": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "382269771": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "382761287": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "382801929": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "383118600": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "383273877": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "383663167": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "385748018": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "386860901": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387621192": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "394312600": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "396579275": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "402559383": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "403711920": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "403985436": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "409878070": {
+          "checkedAt": "2026-10-11T21:41:02.271Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:a11b39f3eee411fa6ed2008f3581329436f2b6a5733e96fa1a226b052d05c7e9",
+          "id": 631623871,
+          "name": "ReSuSFS.zip",
+          "sha256": "a11b39f3eee411fa6ed2008f3581329436f2b6a5733e96fa1a226b052d05c7e9",
+          "size": 275665,
+          "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.11/ReSuSFS.zip"
+        },
+        "body": "## ReSuSFS v26.10.11 Changelog\n\n### ✨ Features\n\n- add module.yaml to add ReSuSFS to KernelSU manger (@ahmed-alnassif)\n\n### 🔧 Fixes\n\n- back button now works correctly for menus and dialogs (@ahmed-alnassif)\n- one asset per release (@ahmed-alnassif)\n\n### 📚 Documentation\n\n- migrate ReSukiSU to BakaSU (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.11 (@ahmed-alnassif)\n",
+        "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.11",
+        "immutable": true,
+        "name": "ReSuSFS v26.10.11",
+        "prerelease": false,
+        "prop": {
+          "author": "ahmed-alnassif",
+          "description": "The easiest way to use SuSFS on KernelSU. Strong hiding by default with built-in spoofing and hiding scripts, config files and toggle switches for everyday use, a built-in script manager for power users.",
+          "id": "ReSuSFS",
+          "name": "ReSuSFS",
+          "updateJson": "https://raw.githubusercontent.com/ahmed-alnassif/ReSuSFS/master/update.json",
+          "version": "v26.10.11",
+          "versionCode": "18"
+        },
+        "publishedAt": "2026-10-11T19:36:12Z",
+        "releaseId": 409878070,
+        "tag": "v26.10.11",
+        "tagCommit": "9a6bdb7ad78ebb77b4578ce797f25a7eaf2b814b",
+        "version": "v26.10.11",
+        "versionCode": 18
+      },
+      "stars": {
+        "count": 37,
+        "fetchedAt": "2026-10-11T21:41:02.271Z",
+        "fullName": "ahmed-alnassif/ReSuSFS",
+        "repositoryId": 1352101411,
+        "verified": "self"
+      }
+    },
     "SvcHub": {
       "content": {
         "blobs": {

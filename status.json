@@ -35,25 +35,21 @@
       }
     },
     "ReSuSFS": {
-      "contentCommit": "9a6bdb7ad78ebb77b4578ce797f25a7eaf2b814b",
+      "contentCommit": "1d48e43d9f126db7cbddcd1cf0c7992e6060ef6d",
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-11T21:41:02.271Z",
+      "maxVersionCode": 18,
       "message": null,
       "repositoryId": 1352101411,
-      "request": {
-        "checkedAt": "2026-10-11T19:39:06.269Z",
-        "commit": "9a6bdb7ad78ebb77b4578ce797f25a7eaf2b814b",
-        "issues": [],
-        "latestTag": "v26.10.11",
-        "ok": true,
-        "releaseId": 409878070,
-        "repositoryId": 1352101411,
-        "submissionId": "55kgn8445z"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-11T19:36:12Z",
+        "tag": "v26.10.11",
+        "version": "v26.10.11",
+        "versionCode": 18
+      }
     },
     "SvcHub": {
       "contentCommit": "d28cef4f1541381c91ba0e1e005a66ca2ab6a571",
