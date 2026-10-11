@@ -3,14 +3,14 @@
     "KernelSU-Tuner": {
       "content": {
         "blobs": {
-          "README.md": "255ea6f344ce0e433f08acb864ab1323115e0cbf",
+          "README.md": "5ebc209db824a3207a72c25893055330eeec33dd",
           "assets/icon.png": "1adce114883bffb96cd16c693973592ea295d17d",
           "module.yaml": "4e75ae665c4b2ffc4ed09cd2672c19c68356df81"
         },
-        "commit": "3665219b0a16002d8b2912d0b13393c192013943",
-        "fetchedAt": "2026-10-11T08:57:43.363Z",
+        "commit": "fba7d3a611769805c50a3694447d5500571dce85",
+        "fetchedAt": "2026-10-11T12:58:54.823Z",
         "files": {
-          "README.md": "38c8ddf22294409b09123cd71a9eac7eed2bc3c62c94238ebc0f3aa7ff5c7b86",
+          "README.md": "dbb5969599e268cddb3c349ad677c66fe2c0ecd3b50e55832b430f0aac6f07ce",
           "assets/icon.png": "b5e57153d1e723506b2322ab3d8fd8a4274536a2508634dff3dfbd62fd775fe6",
           "module.yaml": "2274ff9b8312d157804c99930adede42c49ba4b9a76e67bb6a3528d6a882d2c1"
         },
@@ -20,8 +20,8 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-11T12:40:35.449Z",
-        "lastSuccessAt": "2026-10-11T12:40:35.449Z",
+        "lastAttemptAt": "2026-10-11T12:58:54.823Z",
+        "lastSuccessAt": "2026-10-11T12:58:54.823Z",
         "message": null,
         "status": "ok"
       },

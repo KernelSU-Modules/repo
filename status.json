@@ -1,11 +1,11 @@
 {
   "modules": {
     "KernelSU-Tuner": {
-      "contentCommit": "3665219b0a16002d8b2912d0b13393c192013943",
+      "contentCommit": "fba7d3a611769805c50a3694447d5500571dce85",
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-11T12:40:35.449Z",
+      "lastSuccessAt": "2026-10-11T12:58:54.823Z",
       "maxVersionCode": 30020,
       "message": null,
       "repositoryId": 1414095668,
