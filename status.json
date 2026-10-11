@@ -1,5 +1,32 @@
 {
   "modules": {
+    "KernelSU-Tuner": {
+      "contentCommit": "db2f88c8d557e8feae744cd50ee1d65ee6de4a6f",
+      "fullName": "ylh440104/KernelSU-Tuner",
+      "health": "error",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": "manifest-missing: module.yaml does not exist at db2f88c.",
+      "repositoryId": 1414095668,
+      "request": {
+        "checkedAt": "2026-10-11T08:13:15.744Z",
+        "commit": "db2f88c8d557e8feae744cd50ee1d65ee6de4a6f",
+        "issues": [
+          {
+            "code": "manifest-missing",
+            "message": "module.yaml does not exist at db2f88c.",
+            "severity": "error"
+          }
+        ],
+        "latestTag": "v3.0.0",
+        "ok": false,
+        "releaseId": 409525484,
+        "repositoryId": 1414095668,
+        "submissionId": "rgzszf0g19"
+      },
+      "stable": null
+    },
     "duck-toolbox": {
       "contentCommit": "ea38b083bcc311c880cf597762943a6615e9952b",
       "fullName": "eltavine/Duck-ToolBox",
