@@ -1517,6 +1517,114 @@
         "verified": "self"
       }
     },
+    "device_faker": {
+      "content": {
+        "blobs": {
+          "README.md": "14f85e81d7c7cbacce99ad5ddf5e42b756ddb5be",
+          "assets/icon.svg": "30ccfe1dfe22c1753dbfca7102d72d98904a1e51",
+          "module.yaml": "3bed59064eb43f4bd8d830ee64cab8d2445a896a"
+        },
+        "commit": "5b7932b19c21d3d393c6004957766e6a8278aad0",
+        "fetchedAt": "2026-10-12T10:09:46.582Z",
+        "files": {
+          "README.md": "04c8fc764b39522161e30b2fd16cba2ba01b95639a4f2f83ed5f3f0bbd9c1b58",
+          "assets/icon.svg": "5c19a8a44260f8f46345274b1568c115f68f626cfb78e24a6a00638bd37848a1",
+          "module.yaml": "1fe3dbc328ddafa135cb767204855d3ce5a9582a5619ed657a1b1a6e006105b7"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "Seyud/device_faker_release",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-12T10:09:46.582Z",
+        "lastSuccessAt": "2026-10-12T10:09:46.582Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "device_faker",
+      "installationId": 170474861,
+      "maxStableVersionCode": 20260926,
+      "maxVersionCode": 20260926,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:0d7b717ba25d541b3ae064b93ffd618b330af32f1f55c9abebfaf8a560f9be12",
+            "id": 633369380,
+            "name": "device_faker_v1.6.0.zip",
+            "sha256": "0d7b717ba25d541b3ae064b93ffd618b330af32f1f55c9abebfaf8a560f9be12",
+            "size": 969705,
+            "url": "https://github.com/Seyud/device_faker_release/releases/download/v1.6.0/device_faker_v1.6.0.zip"
+          },
+          "body": "### 🆕 新功能\r\r\n- 🏷️ Build层新增 Build.BOARD / Build.SOC_MODEL 伪装\r\r\n- 📅 新增 security_patch 安全补丁日期伪装字段\r\r\n- 🆔 新增 display_id / incremental 专用伪装字段\r\r\n- 📐 新增按应用 DPI 伪装支持\r\r\n- ✏️ WebUI 自定义属性伪装开放编辑\r\r\n- 📦 安装脚本 Zygisk 检测兼容独特 Zygisk 实现\r\r\n- 🔗 关注模块弹窗新增官网入口\r\r\n\r\r\n### 🐛 修复\r\r\n- 🔄 修复前台门控两类失效 — 应用首启竞态与 packages.list 快照过期\r\r\n- 🌐 修复在线模板库大量加载失败\r\r\n- 🧹 修复开关改回默认后键值残留问题\r\r\n- 🎯 修复多开包名「已配置」状态误判\r\r\n- 🔒 属性区改用进程私有副本，消除 maps 中的 rw-p 指纹\r\r\n- ⏱️ 切后台恢复提速至 0.5 秒\r\r\n\r\r\n### ⚡ 改进\r\r\n- 🏎️ 长属性值支持原地更新，无需删除重建\r\r\n- 🤖 rsbinder 升级至 0.10，适配 Android 10~17\r\r\n- 🗑️ 移除 CPU 伪装功能\r\r\n- 🔇 非 debug 模式下模块与 companion 完全静默\r\r\n- 🚀 WebUI 首屏路径瘦身与应用列表性能优化\r\r\n- 💾 安装脚本默认保留已有配置",
+          "htmlUrl": "https://github.com/Seyud/device_faker_release/releases/tag/v1.6.0",
+          "immutable": true,
+          "name": "v1.6.0",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@瓦力喀/GitHub@Seyud",
+            "description": "使用Zygisk实现自定义配置对应用伪装机型",
+            "id": "device_faker",
+            "name": "Device Faker",
+            "updateJson": "https://gitee.com/Seyud/device_faker/raw/master/Update.json",
+            "version": "v1.6.0",
+            "versionCode": "20260926"
+          },
+          "publishedAt": "2026-10-12T09:57:40Z",
+          "releaseId": 410458358,
+          "tag": "v1.6.0",
+          "tagCommit": "5b7932b19c21d3d393c6004957766e6a8278aad0",
+          "version": "v1.6.0",
+          "versionCode": 20260926
+        }
+      ],
+      "repositoryId": 1415363370,
+      "seen": {
+        "410458358": {
+          "checkedAt": "2026-10-12T10:09:46.582Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:0d7b717ba25d541b3ae064b93ffd618b330af32f1f55c9abebfaf8a560f9be12",
+          "id": 633369380,
+          "name": "device_faker_v1.6.0.zip",
+          "sha256": "0d7b717ba25d541b3ae064b93ffd618b330af32f1f55c9abebfaf8a560f9be12",
+          "size": 969705,
+          "url": "https://github.com/Seyud/device_faker_release/releases/download/v1.6.0/device_faker_v1.6.0.zip"
+        },
+        "body": "### 🆕 新功能\r\r\n- 🏷️ Build层新增 Build.BOARD / Build.SOC_MODEL 伪装\r\r\n- 📅 新增 security_patch 安全补丁日期伪装字段\r\r\n- 🆔 新增 display_id / incremental 专用伪装字段\r\r\n- 📐 新增按应用 DPI 伪装支持\r\r\n- ✏️ WebUI 自定义属性伪装开放编辑\r\r\n- 📦 安装脚本 Zygisk 检测兼容独特 Zygisk 实现\r\r\n- 🔗 关注模块弹窗新增官网入口\r\r\n\r\r\n### 🐛 修复\r\r\n- 🔄 修复前台门控两类失效 — 应用首启竞态与 packages.list 快照过期\r\r\n- 🌐 修复在线模板库大量加载失败\r\r\n- 🧹 修复开关改回默认后键值残留问题\r\r\n- 🎯 修复多开包名「已配置」状态误判\r\r\n- 🔒 属性区改用进程私有副本，消除 maps 中的 rw-p 指纹\r\r\n- ⏱️ 切后台恢复提速至 0.5 秒\r\r\n\r\r\n### ⚡ 改进\r\r\n- 🏎️ 长属性值支持原地更新，无需删除重建\r\r\n- 🤖 rsbinder 升级至 0.10，适配 Android 10~17\r\r\n- 🗑️ 移除 CPU 伪装功能\r\r\n- 🔇 非 debug 模式下模块与 companion 完全静默\r\r\n- 🚀 WebUI 首屏路径瘦身与应用列表性能优化\r\r\n- 💾 安装脚本默认保留已有配置",
+        "htmlUrl": "https://github.com/Seyud/device_faker_release/releases/tag/v1.6.0",
+        "immutable": true,
+        "name": "v1.6.0",
+        "prerelease": false,
+        "prop": {
+          "author": "酷安@瓦力喀/GitHub@Seyud",
+          "description": "使用Zygisk实现自定义配置对应用伪装机型",
+          "id": "device_faker",
+          "name": "Device Faker",
+          "updateJson": "https://gitee.com/Seyud/device_faker/raw/master/Update.json",
+          "version": "v1.6.0",
+          "versionCode": "20260926"
+        },
+        "publishedAt": "2026-10-12T09:57:40Z",
+        "releaseId": 410458358,
+        "tag": "v1.6.0",
+        "tagCommit": "5b7932b19c21d3d393c6004957766e6a8278aad0",
+        "version": "v1.6.0",
+        "versionCode": 20260926
+      },
+      "stars": {
+        "count": 824,
+        "fetchedAt": "2026-10-12T10:09:46.582Z",
+        "fullName": "Seyud/device_faker",
+        "repositoryId": 1086377826,
+        "requested": "Seyud/device_faker",
+        "verified": "owner"
+      }
+    },
     "duck-toolbox": {
       "content": {
         "blobs": {
