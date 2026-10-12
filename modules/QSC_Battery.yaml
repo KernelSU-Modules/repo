@@ -1,0 +1,19 @@
+id: QSC_Battery
+status: pending
+request:
+  submissionId: w9oigrf7h2
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1302628725
+    ownerId: 85948645
+    fullName: Eikeitsu/QSC-Battery
+    manifestPath: module.yaml
+  submittedBy: 85948645
+  submittedByLogin: Eikeitsu
+  submittedAt: 2026-10-12T03:41:51.206Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64318
+createdAt: 2026-10-12T03:41:51.206Z
+updatedAt: 2026-10-12T03:41:51.206Z
