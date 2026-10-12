@@ -1,19 +1,23 @@
 id: zygisk-sui
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1415623276
+  ownerId: 110387028
+  fullName: XiaoTong6666/zygisk-sui
+  manifestPath: module.yaml
+review:
   submissionId: b1gqf6pshz
   kind: submit
-  source:
-    host: github
-    repositoryId: 1415623276
-    ownerId: 110387028
-    fullName: XiaoTong6666/zygisk-sui
-    manifestPath: module.yaml
   submittedBy: 110387028
-  submittedByLogin: XiaoTong6666
   submittedAt: 2026-10-12T14:32:39.045Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: telegram
+  decidedAt: 2026-10-12T22:51:06.453Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64328
 createdAt: 2026-10-12T14:32:39.045Z
-updatedAt: 2026-10-12T14:32:39.045Z
+updatedAt: 2026-10-12T22:51:06.453Z
