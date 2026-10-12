@@ -289,14 +289,14 @@
       "content": {
         "blobs": {
           "README.md": "6781df8dbc70798300ed8ab0c14f0712e2993a8d",
-          "logo.png": "869056007fc77ca572e08f2eb8f5a3b99f5caddf",
+          "logo.png": "beeb482a617d4d6b4c5a01fc6dcb83c7ab8e05de",
           "module.yaml": "329ab1d4f64fd12cd151f88b99de2589d839c704"
         },
-        "commit": "0b3559578cf9dac50f4749ef3192fc1d5102bcf0",
-        "fetchedAt": "2026-10-12T09:19:47.073Z",
+        "commit": "23fefce4029d7a4e9b5a9c583acd068ac38af46a",
+        "fetchedAt": "2026-10-12T10:06:11.284Z",
         "files": {
           "README.md": "f4ebd24c91d5361e6a17ffb76754a68cda2b040d03a34aaf8495233b1a1544c6",
-          "logo.png": "5c20846825e4e75ce53178d802dd2c9adaaa288b9ceb4e60b6502b793f5da67e",
+          "logo.png": "86fe640cbee594cb346ae8cea38f40ccefcb4535e7c9e447b7e0d64ba8723019",
           "module.yaml": "fa9b790a641604fde31500978295b64c6a11de1d88c7e9d2002aae7a66fab2d9"
         },
         "manifestPath": "module.yaml",
@@ -305,8 +305,8 @@
       "fullName": "Seyud/FreePPS_release",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-12T09:19:47.073Z",
-        "lastSuccessAt": "2026-10-12T09:19:47.073Z",
+        "lastAttemptAt": "2026-10-12T10:06:11.284Z",
+        "lastSuccessAt": "2026-10-12T10:06:11.284Z",
         "message": null,
         "status": "ok"
       },

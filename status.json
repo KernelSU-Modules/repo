@@ -18,11 +18,11 @@
       }
     },
     "FreePPS": {
-      "contentCommit": "0b3559578cf9dac50f4749ef3192fc1d5102bcf0",
+      "contentCommit": "23fefce4029d7a4e9b5a9c583acd068ac38af46a",
       "fullName": "Seyud/FreePPS_release",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-12T09:19:47.073Z",
+      "lastSuccessAt": "2026-10-12T10:06:11.284Z",
       "maxVersionCode": 20260821,
       "message": null,
       "repositoryId": 1415308966,
