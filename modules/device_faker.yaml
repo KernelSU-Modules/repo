@@ -1,19 +1,23 @@
 id: device_faker
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1415363370
+  ownerId: 97807424
+  fullName: Seyud/device_faker_release
+  manifestPath: module.yaml
+review:
   submissionId: v0yfks0yzh
   kind: submit
-  source:
-    host: github
-    repositoryId: 1415363370
-    ownerId: 97807424
-    fullName: Seyud/device_faker_release
-    manifestPath: module.yaml
   submittedBy: 97807424
-  submittedByLogin: Seyud
   submittedAt: 2026-10-12T10:03:09.466Z
+  decision: approved
+  decidedBy: 5022927
+  decidedVia: telegram
+  decidedAt: 2026-10-12T10:09:19.358Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64323
 createdAt: 2026-10-12T10:03:09.466Z
-updatedAt: 2026-10-12T10:03:09.466Z
+updatedAt: 2026-10-12T10:09:19.358Z
