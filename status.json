@@ -17,6 +17,27 @@
         "versionCode": 50107
       }
     },
+    "FreePPS": {
+      "contentCommit": "3a7afb62060d664c0c831980f83d5810c4620da9",
+      "fullName": "Seyud/FreePPS_release",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1415308966,
+      "request": {
+        "checkedAt": "2026-10-12T09:04:35.292Z",
+        "commit": "3a7afb62060d664c0c831980f83d5810c4620da9",
+        "issues": [],
+        "latestTag": "v1.7.0",
+        "ok": true,
+        "releaseId": 410403301,
+        "repositoryId": 1415308966,
+        "submissionId": "n6nquolf2t"
+      },
+      "stable": null
+    },
     "KernelSU-Tuner": {
       "contentCommit": "12dc3479d7736a74d368f61342a468224ba5ff99",
       "fullName": "ylh440104/KernelSU-Tuner",
