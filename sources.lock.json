@@ -539,6 +539,295 @@
         "verified": "self"
       }
     },
+    "QSC_Battery": {
+      "content": {
+        "blobs": {
+          "README.md": "3357d6ee6a857d884123be361756a61546966d4c",
+          "docs/public/screenshots/webui-config.png": "ac1e7a925a022253604a389c9b93886ccdb8e7e5",
+          "docs/public/screenshots/webui-log.png": "68ac03da74bbad0f76a172e72e63d34afbcdf0b9",
+          "docs/public/screenshots/webui-more.png": "e53f0bc60883b04d02d1d624679d695b2dc94b7f",
+          "docs/public/screenshots/webui-overview.png": "4637212f185343205e9172664efd085a7172eb0e",
+          "module.yaml": "9ccd1e17007d6f35fef08d4c529189e98875dc8e",
+          "module/icon.png": "4be08ff11dff3a0cf150c2b0ff5879e4baddfc5c"
+        },
+        "commit": "01a74170c68e7a994960a63bfbe49575a7c86aa0",
+        "fetchedAt": "2026-10-12T03:46:14.857Z",
+        "files": {
+          "README.md": "6f310301ba94d3ce6209e0bc93796fda3e5ea002eee178bac9522be17856d88c",
+          "docs/public/screenshots/webui-config.png": "ba01d1c8d4cd5c19f5e73b477c9c26da901bf0e2bdf4d7abf2d5cd910f7dfb39",
+          "docs/public/screenshots/webui-log.png": "e708ff14eddd1e019d4105c24346474ffe4186ddeec9e18b45ffcf95e67f3cf7",
+          "docs/public/screenshots/webui-more.png": "8ab4ef031b11cfad07b510448230044c15c1aa87ac5eb87e5cb10347aafcec8a",
+          "docs/public/screenshots/webui-overview.png": "f022d83fb11ab4bd8ad38c649f5b927a28be9b4739922a62677d399fe35c4afa",
+          "module.yaml": "b4482b8888b4f4621a668ce0d85dea467086dd84d6d0c230bf810c514690d536",
+          "module/icon.png": "4f63d92c815e1177b61a1f33a4dd7b20b06ae77b460203506981436171366f77"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "Eikeitsu/QSC-Battery",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-12T03:46:14.857Z",
+        "lastSuccessAt": "2026-10-12T03:46:14.857Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "QSC_Battery",
+      "installationId": 170267359,
+      "maxStableVersionCode": 2026101201,
+      "maxVersionCode": 2026101201,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:0ea39c92d699be7cb55ca60eb39756fe499ea84d7773702be3b1cc594c1d9e3a",
+            "id": 632562276,
+            "name": "QSC-Battery_v2026.10.12-full.zip",
+            "sha256": "0ea39c92d699be7cb55ca60eb39756fe499ea84d7773702be3b1cc594c1d9e3a",
+            "size": 4604817,
+            "url": "https://github.com/Eikeitsu/QSC-Battery/releases/download/v2026.10.12/QSC-Battery_v2026.10.12-full.zip"
+          },
+          "body": "## 下载哪个？\n\n- **多数人**：`QSC-Battery_v*-full.zip`（双守护 + WebUI，可内嵌伴侣 APP；在线更新也指向它）\n- **只要脚本、包要小**：`…-lite.zip`（无 WebUI / 无内嵌 APK / 无守护）\n- **其它模块包**：`-rust` / `-c` 只带对应守护；`-sh` 有 WebUI、守护可后装\n- **`QSC-Battery_v*.apk`**：伴侣 APP；非 lite 模块刷入时也可选装，不必单独下\n- **`qscd-rust-*` / `qscd-c-*`**：事件守护单文件；一般由 full 自带或 WebUI 下载，**不要当模块刷**\n\n完整说明：[安装与升级](https://eikeitsu.github.io/QSC-Battery/guide/install.html)\n\n## 更新说明\n\n- **KernelSU Next 模块横幅**：增加模块背景横幅，使用ksu next管理器开启模块背景横幅可以给模块增加图片背景；\n- **KernelSU 模块仓库**：仓库根目录增加 `module.yaml`（便于提交 modules.kernelsu.org），为将模块提交至ksu官方模块仓库做准备\n- **音量键 volkey**：`bin/volkey`（`EVIOCGRAB`）供安装 customize 与 Action 共用，避免 BakaSU 等管理器不吞键时弹出系统音量条；SukiSU 管理器常自吞 KeyEvent。缺二进制时回退 `getevent`\n- **Lint**：接入 `lint:py`（ruff）、`lint:clang`、`lint:rust`、`lint:kotlin`（缺工具本机跳过 / CI 强制）；`format:all` 与 lint-staged 覆盖 py / C / Rust / Kotlin\n\n<!-- qsc:versionCode=2026101201 -->\nversionCode=2026101201\n\n\n**Full Changelog**: https://github.com/Eikeitsu/QSC-Battery/compare/v2026.10.08...v2026.10.12",
+          "htmlUrl": "https://github.com/Eikeitsu/QSC-Battery/releases/tag/v2026.10.12",
+          "immutable": true,
+          "name": "KernelSU Module",
+          "prerelease": false,
+          "prop": {
+            "actionIcon": "icon.png",
+            "author": "top大佬, 许小墨",
+            "banner": "banner.png",
+            "description": "[🔎启动中 | 等待开机就绪] 电量/温度停充；电流控制为安装时可选。配置：config/config.conf，日志：data/log.log。",
+            "id": "QSC_Battery",
+            "name": "充电控制",
+            "updateJson": "https://eikeitsu.github.io/QSC-Battery/update.json",
+            "version": "2026.10.12",
+            "versionCode": "2026101201",
+            "webuiIcon": "icon.png"
+          },
+          "publishedAt": "2026-10-12T03:39:23Z",
+          "releaseId": 410130279,
+          "tag": "v2026.10.12",
+          "tagCommit": "a235a48fb69c150d07f51db7192056f5aec4c719",
+          "version": "2026.10.12",
+          "versionCode": 2026101201
+        }
+      ],
+      "repositoryId": 1302628725,
+      "seen": {
+        "355088380": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "355526527": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "357117450": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "357779355": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "357814511": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "358468229": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "359141069": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367259397": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367642384": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "369008299": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "369964615": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "370441841": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "376314365": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "377645439": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "378239840": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "378275701": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "378417115": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "378985920": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "379285510": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "380190156": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387685371": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387761002": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "388172858": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "389779138": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "391600009": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392869715": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "396372124": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "406397151": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "410130279": {
+          "checkedAt": "2026-10-12T03:46:14.857Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:0ea39c92d699be7cb55ca60eb39756fe499ea84d7773702be3b1cc594c1d9e3a",
+          "id": 632562276,
+          "name": "QSC-Battery_v2026.10.12-full.zip",
+          "sha256": "0ea39c92d699be7cb55ca60eb39756fe499ea84d7773702be3b1cc594c1d9e3a",
+          "size": 4604817,
+          "url": "https://github.com/Eikeitsu/QSC-Battery/releases/download/v2026.10.12/QSC-Battery_v2026.10.12-full.zip"
+        },
+        "body": "## 下载哪个？\n\n- **多数人**：`QSC-Battery_v*-full.zip`（双守护 + WebUI，可内嵌伴侣 APP；在线更新也指向它）\n- **只要脚本、包要小**：`…-lite.zip`（无 WebUI / 无内嵌 APK / 无守护）\n- **其它模块包**：`-rust` / `-c` 只带对应守护；`-sh` 有 WebUI、守护可后装\n- **`QSC-Battery_v*.apk`**：伴侣 APP；非 lite 模块刷入时也可选装，不必单独下\n- **`qscd-rust-*` / `qscd-c-*`**：事件守护单文件；一般由 full 自带或 WebUI 下载，**不要当模块刷**\n\n完整说明：[安装与升级](https://eikeitsu.github.io/QSC-Battery/guide/install.html)\n\n## 更新说明\n\n- **KernelSU Next 模块横幅**：增加模块背景横幅，使用ksu next管理器开启模块背景横幅可以给模块增加图片背景；\n- **KernelSU 模块仓库**：仓库根目录增加 `module.yaml`（便于提交 modules.kernelsu.org），为将模块提交至ksu官方模块仓库做准备\n- **音量键 volkey**：`bin/volkey`（`EVIOCGRAB`）供安装 customize 与 Action 共用，避免 BakaSU 等管理器不吞键时弹出系统音量条；SukiSU 管理器常自吞 KeyEvent。缺二进制时回退 `getevent`\n- **Lint**：接入 `lint:py`（ruff）、`lint:clang`、`lint:rust`、`lint:kotlin`（缺工具本机跳过 / CI 强制）；`format:all` 与 lint-staged 覆盖 py / C / Rust / Kotlin\n\n<!-- qsc:versionCode=2026101201 -->\nversionCode=2026101201\n\n\n**Full Changelog**: https://github.com/Eikeitsu/QSC-Battery/compare/v2026.10.08...v2026.10.12",
+        "htmlUrl": "https://github.com/Eikeitsu/QSC-Battery/releases/tag/v2026.10.12",
+        "immutable": true,
+        "name": "KernelSU Module",
+        "prerelease": false,
+        "prop": {
+          "actionIcon": "icon.png",
+          "author": "top大佬, 许小墨",
+          "banner": "banner.png",
+          "description": "[🔎启动中 | 等待开机就绪] 电量/温度停充；电流控制为安装时可选。配置：config/config.conf，日志：data/log.log。",
+          "id": "QSC_Battery",
+          "name": "充电控制",
+          "updateJson": "https://eikeitsu.github.io/QSC-Battery/update.json",
+          "version": "2026.10.12",
+          "versionCode": "2026101201",
+          "webuiIcon": "icon.png"
+        },
+        "publishedAt": "2026-10-12T03:39:23Z",
+        "releaseId": 410130279,
+        "tag": "v2026.10.12",
+        "tagCommit": "a235a48fb69c150d07f51db7192056f5aec4c719",
+        "version": "2026.10.12",
+        "versionCode": 2026101201
+      },
+      "stars": {
+        "count": 41,
+        "fetchedAt": "2026-10-12T03:46:14.857Z",
+        "fullName": "Eikeitsu/QSC-Battery",
+        "repositoryId": 1302628725,
+        "verified": "self"
+      }
+    },
     "ReSuSFS": {
       "content": {
         "blobs": {
