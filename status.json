@@ -136,6 +136,27 @@
         "versionCode": 100
       }
     },
+    "device_faker": {
+      "contentCommit": "5b7932b19c21d3d393c6004957766e6a8278aad0",
+      "fullName": "Seyud/device_faker_release",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1415363370,
+      "request": {
+        "checkedAt": "2026-10-12T10:03:36.525Z",
+        "commit": "5b7932b19c21d3d393c6004957766e6a8278aad0",
+        "issues": [],
+        "latestTag": "v1.6.0",
+        "ok": true,
+        "releaseId": 410458358,
+        "repositoryId": 1415363370,
+        "submissionId": "v0yfks0yzh"
+      },
+      "stable": null
+    },
     "duck-toolbox": {
       "contentCommit": "c573b6fa74a1d6eab1bc6ef6828857069e0c7457",
       "fullName": "eltavine/Duck-ToolBox",
