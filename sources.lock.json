@@ -1521,17 +1521,17 @@
       "content": {
         "blobs": {
           "README.md": "dfdb98dc3df2eede5343cec7e0d3192beabb8f2c",
-          "assets/icon.svg": "30ccfe1dfe22c1753dbfca7102d72d98904a1e51",
+          "assets/icon.png": "bd3467d5f8e1b677e2ae0bc2231450b52fdc3f37",
           "logo.png": "5cc2dc97d44d16010c374d18425ee9c59baeebe6",
-          "module.yaml": "3bed59064eb43f4bd8d830ee64cab8d2445a896a"
+          "module.yaml": "e9fa7352702adb6759f112bc1b5f3f3d3dc91611"
         },
-        "commit": "7b8c185f9e4f313653db84b2085ec27519b03b5f",
-        "fetchedAt": "2026-10-12T10:14:12.472Z",
+        "commit": "164ae0b7c38f5241e28b4c5f1ee43c7a66da5e8a",
+        "fetchedAt": "2026-10-12T10:44:58.332Z",
         "files": {
           "README.md": "90f13efb2cbd5a01621e3559f1b29e57bf50ea4d80733710d09ba46647a8fcc6",
-          "assets/icon.svg": "5c19a8a44260f8f46345274b1568c115f68f626cfb78e24a6a00638bd37848a1",
+          "assets/icon.png": "f385b3354a656eabafa5f784c93e341c7a3448a341e513184ff456c907c5826b",
           "logo.png": "03aadb019a96f95f841df1d9ff3548fcbf89197d7526944a780a8861894b1273",
-          "module.yaml": "1fe3dbc328ddafa135cb767204855d3ce5a9582a5619ed657a1b1a6e006105b7"
+          "module.yaml": "a3907f26f83b52ed1092f1d52e3057525639d8a4c12592b063c27d09e67adc26"
         },
         "manifestPath": "module.yaml",
         "ref": "main"
@@ -1539,8 +1539,8 @@
       "fullName": "Seyud/device_faker_release",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-12T10:14:12.472Z",
-        "lastSuccessAt": "2026-10-12T10:14:12.472Z",
+        "lastAttemptAt": "2026-10-12T10:44:58.332Z",
+        "lastSuccessAt": "2026-10-12T10:44:58.332Z",
         "message": null,
         "status": "ok"
       },

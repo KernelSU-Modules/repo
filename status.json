@@ -137,11 +137,11 @@
       }
     },
     "device_faker": {
-      "contentCommit": "7b8c185f9e4f313653db84b2085ec27519b03b5f",
+      "contentCommit": "164ae0b7c38f5241e28b4c5f1ee43c7a66da5e8a",
       "fullName": "Seyud/device_faker_release",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-12T10:14:12.472Z",
+      "lastSuccessAt": "2026-10-12T10:44:58.332Z",
       "maxVersionCode": 20260926,
       "message": null,
       "repositoryId": 1415363370,
