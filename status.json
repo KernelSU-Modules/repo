@@ -287,21 +287,17 @@
       "fullName": "KOWX712/PlayIntegrityFix",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-12T14:02:40.954Z",
+      "maxVersionCode": 480,
       "message": null,
       "repositoryId": 908441330,
-      "request": {
-        "checkedAt": "2026-10-12T14:01:37.942Z",
-        "commit": "56766ca985130c8b88734a0e673a92c28d6568d7",
-        "issues": [],
-        "latestTag": "v4.8-inject-s",
-        "ok": true,
-        "releaseId": 410655436,
-        "repositoryId": 908441330,
-        "submissionId": "frutx9ldd9"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-12T13:56:06Z",
+        "tag": "v4.8-inject-s",
+        "version": "v4.8-inject-s",
+        "versionCode": 480
+      }
     },
     "yukizygisk": {
       "contentCommit": "773a02fa649a2c8adf581b9cc2b852b1b56b88b9",
