@@ -119,6 +119,33 @@
         "versionCode": 8
       }
     },
+    "VexZygisk": {
+      "contentCommit": "371ac4d0253cf71836555952bd09dfd171d536f7",
+      "fullName": "Lxiaoyao077/VexZygisk",
+      "health": "error",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": "manifest-missing: module.yaml does not exist at 371ac4d.",
+      "repositoryId": 1305247883,
+      "request": {
+        "checkedAt": "2026-10-12T11:47:59.430Z",
+        "commit": "371ac4d0253cf71836555952bd09dfd171d536f7",
+        "issues": [
+          {
+            "code": "manifest-missing",
+            "message": "module.yaml does not exist at 371ac4d.",
+            "severity": "error"
+          }
+        ],
+        "latestTag": "v2.2.0",
+        "ok": false,
+        "releaseId": 398076781,
+        "repositoryId": 1305247883,
+        "submissionId": "5wlmy63ttv"
+      },
+      "stable": null
+    },
     "aegis_firewall": {
       "contentCommit": "aff947e9444a02c79fc9df1b67e7e61896be9fba",
       "fullName": "kreza6173-pixel/aegis-firewall",
