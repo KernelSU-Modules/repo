@@ -1,0 +1,19 @@
+id: FreePPS
+status: pending
+request:
+  submissionId: n6nquolf2t
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1415308966
+    ownerId: 97807424
+    fullName: Seyud/FreePPS_release
+    manifestPath: module.yaml
+  submittedBy: 97807424
+  submittedByLogin: Seyud
+  submittedAt: 2026-10-12T09:03:58.354Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64322
+createdAt: 2026-10-12T09:03:58.354Z
+updatedAt: 2026-10-12T09:03:58.354Z
