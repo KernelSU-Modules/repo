@@ -34,6 +34,27 @@
         "versionCode": 30040
       }
     },
+    "QSC_Battery": {
+      "contentCommit": "01a74170c68e7a994960a63bfbe49575a7c86aa0",
+      "fullName": "Eikeitsu/QSC-Battery",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1302628725,
+      "request": {
+        "checkedAt": "2026-10-12T03:42:16.930Z",
+        "commit": "01a74170c68e7a994960a63bfbe49575a7c86aa0",
+        "issues": [],
+        "latestTag": "v2026.10.12",
+        "ok": true,
+        "releaseId": 410130279,
+        "repositoryId": 1302628725,
+        "submissionId": "w9oigrf7h2"
+      },
+      "stable": null
+    },
     "ReSuSFS": {
       "contentCommit": "1d48e43d9f126db7cbddcd1cf0c7992e6060ef6d",
       "fullName": "ahmed-alnassif/ReSuSFS",
