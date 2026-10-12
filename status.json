@@ -18,11 +18,11 @@
       }
     },
     "FreePPS": {
-      "contentCommit": "3a7afb62060d664c0c831980f83d5810c4620da9",
+      "contentCommit": "0b3559578cf9dac50f4749ef3192fc1d5102bcf0",
       "fullName": "Seyud/FreePPS_release",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-12T09:05:30.104Z",
+      "lastSuccessAt": "2026-10-12T09:19:47.073Z",
       "maxVersionCode": 20260821,
       "message": null,
       "repositoryId": 1415308966,
@@ -52,11 +52,11 @@
       }
     },
     "Mediatek_Mali_GPU_Governor": {
-      "contentCommit": "00a3f990515fc86c1d777365262d48f2d4c69c0c",
+      "contentCommit": "5e7ab7cfb5d2f14d6a7d6582cf654d4f28e6ebc2",
       "fullName": "Seyud/Mediatek_Mali_GPU_Governor_release",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-12T04:47:49.269Z",
+      "lastSuccessAt": "2026-10-12T09:19:47.073Z",
       "maxVersionCode": 20261012,
       "message": null,
       "repositoryId": 1414978843,

@@ -290,14 +290,14 @@
         "blobs": {
           "README.md": "6781df8dbc70798300ed8ab0c14f0712e2993a8d",
           "logo.png": "869056007fc77ca572e08f2eb8f5a3b99f5caddf",
-          "module.yaml": "a646e231a15c63445b2b707b7ff2c67c51ecee62"
+          "module.yaml": "329ab1d4f64fd12cd151f88b99de2589d839c704"
         },
-        "commit": "3a7afb62060d664c0c831980f83d5810c4620da9",
-        "fetchedAt": "2026-10-12T09:05:30.104Z",
+        "commit": "0b3559578cf9dac50f4749ef3192fc1d5102bcf0",
+        "fetchedAt": "2026-10-12T09:19:47.073Z",
         "files": {
           "README.md": "f4ebd24c91d5361e6a17ffb76754a68cda2b040d03a34aaf8495233b1a1544c6",
           "logo.png": "5c20846825e4e75ce53178d802dd2c9adaaa288b9ceb4e60b6502b793f5da67e",
-          "module.yaml": "84394889af1e782f139fc83a67ae01b4d80a8017bb59d03b248e8e858796f631"
+          "module.yaml": "fa9b790a641604fde31500978295b64c6a11de1d88c7e9d2002aae7a66fab2d9"
         },
         "manifestPath": "module.yaml",
         "ref": "main"
@@ -305,8 +305,8 @@
       "fullName": "Seyud/FreePPS_release",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-12T09:05:30.104Z",
-        "lastSuccessAt": "2026-10-12T09:05:30.104Z",
+        "lastAttemptAt": "2026-10-12T09:19:47.073Z",
+        "lastSuccessAt": "2026-10-12T09:19:47.073Z",
         "message": null,
         "status": "ok"
       },
@@ -652,14 +652,14 @@
         "blobs": {
           "README.md": "4517a7d44124dfdd6089a1e1885f79f2000d04f4",
           "assets/icon.png": "1763edad59b3c31ad0fd8c381f87b83734bb24bf",
-          "module.yaml": "e6f78d17c48755f2a67b5d3b8ac1a3d749e6f710"
+          "module.yaml": "95a9945c0a7db3297825e8043ed0f7ae23dd5f30"
         },
-        "commit": "00a3f990515fc86c1d777365262d48f2d4c69c0c",
-        "fetchedAt": "2026-10-12T04:47:49.269Z",
+        "commit": "5e7ab7cfb5d2f14d6a7d6582cf654d4f28e6ebc2",
+        "fetchedAt": "2026-10-12T09:19:47.073Z",
         "files": {
           "README.md": "6415926e256302b2a5e80a2512baa016a994729694bab6292277a18e185174d9",
           "assets/icon.png": "f784b1d7dff06d0a5786ace55a84a17b9d4e9bd0e7939921eddc82f20b186b2b",
-          "module.yaml": "7c9c508403ea088ec8944dcec217dacec8a8638124b7a59e70ac19d592a83c15"
+          "module.yaml": "d6143239e69df5f50c8a37f8fdc8bc0cf83fb9eacab987f02695f8fdd68213f4"
         },
         "manifestPath": "module.yaml",
         "ref": "main"
@@ -667,8 +667,8 @@
       "fullName": "Seyud/Mediatek_Mali_GPU_Governor_release",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-12T04:47:49.269Z",
-        "lastSuccessAt": "2026-10-12T04:47:49.269Z",
+        "lastAttemptAt": "2026-10-12T09:19:47.073Z",
+        "lastSuccessAt": "2026-10-12T09:19:47.073Z",
         "message": null,
         "status": "ok"
       },
