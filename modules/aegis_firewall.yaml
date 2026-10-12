@@ -1,19 +1,23 @@
 id: aegis_firewall
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1415269514
+  ownerId: 289786585
+  fullName: kreza6173-pixel/aegis-firewall
+  manifestPath: module.yaml
+review:
   submissionId: ok2bk2xf0v
   kind: submit
-  source:
-    host: github
-    repositoryId: 1415269514
-    ownerId: 289786585
-    fullName: kreza6173-pixel/aegis-firewall
-    manifestPath: module.yaml
   submittedBy: 289786585
-  submittedByLogin: kreza6173-pixel
   submittedAt: 2026-10-12T08:34:30.703Z
+  decision: approved
+  decidedBy: 5022927
+  decidedVia: telegram
+  decidedAt: 2026-10-12T08:35:32.159Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64321
 createdAt: 2026-10-12T08:34:30.703Z
-updatedAt: 2026-10-12T08:34:30.703Z
+updatedAt: 2026-10-12T08:35:32.159Z
