@@ -539,6 +539,114 @@
         "verified": "self"
       }
     },
+    "Mediatek_Mali_GPU_Governor": {
+      "content": {
+        "blobs": {
+          "README.md": "4517a7d44124dfdd6089a1e1885f79f2000d04f4",
+          "assets/icon.png": "1763edad59b3c31ad0fd8c381f87b83734bb24bf",
+          "module.yaml": "e6f78d17c48755f2a67b5d3b8ac1a3d749e6f710"
+        },
+        "commit": "00a3f990515fc86c1d777365262d48f2d4c69c0c",
+        "fetchedAt": "2026-10-12T04:47:49.269Z",
+        "files": {
+          "README.md": "6415926e256302b2a5e80a2512baa016a994729694bab6292277a18e185174d9",
+          "assets/icon.png": "f784b1d7dff06d0a5786ace55a84a17b9d4e9bd0e7939921eddc82f20b186b2b",
+          "module.yaml": "7c9c508403ea088ec8944dcec217dacec8a8638124b7a59e70ac19d592a83c15"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "Seyud/Mediatek_Mali_GPU_Governor_release",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-12T04:47:49.269Z",
+        "lastSuccessAt": "2026-10-12T04:47:49.269Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "Mediatek_Mali_GPU_Governor",
+      "installationId": 170474861,
+      "maxStableVersionCode": 20261012,
+      "maxVersionCode": 20261012,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:d636a9ab8bf3dbfedc6648a95d12a1ef6139836a2ff4012d38c3d71142c44876",
+            "id": 632677965,
+            "name": "Mediatek_Mali_GPU_Governor_v2.12.5.zip",
+            "sha256": "d636a9ab8bf3dbfedc6648a95d12a1ef6139836a2ff4012d38c3d71142c44876",
+            "size": 975589,
+            "url": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/download/v2.12.5/Mediatek_Mali_GPU_Governor_v2.12.5.zip"
+          },
+          "body": "##  v2.12.3 → v2.12.5\n<details>\n<summary><strong>📝 更新日志</strong></summary>\n\n\n## ⬆️ v2.12.3 → v2.12.5 (2026-10-12)\n\n### 🔧 功能改进\n\n- **移除废弃宏并消除 unsafe 代码** 🦀\n  - 清理废弃宏并移除 unsafe 代码，提升代码安全性。\n\n### 🪲 问题修复\n\n- **修复配置解析无法读取整数型浮点** ⚙️\n  - 修复 `config.toml` 中 `1.0` 这类整数型浮点参数被忽略、不生效的问题。\n\n- **修复 WebUI 保存配置时整数字段被序列化为浮点** 🌐\n  - 保存后配置文件不再出现 `40.0` 这类写法，与手动编辑的结果保持一致。\n\n\n</details>\n\n<details>\n<summary><strong>📝 CHANGELOG</strong></summary>\n\n\n## ⬆️ v2.12.3 → v2.12.5 (October 12, 2026)\n\n### 🔧 Improvements\n\n- **Remove deprecated macros and eliminate unsafe code** 🦀\n  - Cleaned up deprecated macros and removed unsafe code for better safety.\n\n### 🐛 Bug Fixes\n\n- **Fix integer-valued floats being unreadable during config parsing** ⚙️\n  - Values such as `1.0` in `config.toml` are no longer ignored, so those parameters now take effect.\n\n- **Fix integer fields being serialized as floats when saving from the WebUI** 🌐\n  - Saved configuration no longer contains values like `40.0`, matching the result of editing the file by hand.\n\n\n</details>\n\n**Full Changelog**: https://github.com/Seyud/Mediatek_Mali_GPU_Governor/compare/v2.12.3...v2.12.5\n",
+          "htmlUrl": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/tag/v2.12.5",
+          "immutable": true,
+          "name": "v2.12.5",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@瓦力喀/GitHub@Seyud, Tools-cx-app",
+            "description": "适用于Mediatek_Mali_GPU的GPU动态调速器，优化高负载场景下的功耗与性能平衡",
+            "id": "Mediatek_Mali_GPU_Governor",
+            "name": "天玑GPU调速器",
+            "updateJson": "https://gitee.com/Seyud/MMGG_deploy/raw/master/Update.json",
+            "version": "v2.12.5",
+            "versionCode": "20261012"
+          },
+          "publishedAt": "2026-10-12T04:39:36Z",
+          "releaseId": 410168819,
+          "tag": "v2.12.5",
+          "tagCommit": "00a3f990515fc86c1d777365262d48f2d4c69c0c",
+          "version": "v2.12.5",
+          "versionCode": 20261012
+        }
+      ],
+      "repositoryId": 1414978843,
+      "seen": {
+        "410168819": {
+          "checkedAt": "2026-10-12T04:47:49.269Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:d636a9ab8bf3dbfedc6648a95d12a1ef6139836a2ff4012d38c3d71142c44876",
+          "id": 632677965,
+          "name": "Mediatek_Mali_GPU_Governor_v2.12.5.zip",
+          "sha256": "d636a9ab8bf3dbfedc6648a95d12a1ef6139836a2ff4012d38c3d71142c44876",
+          "size": 975589,
+          "url": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/download/v2.12.5/Mediatek_Mali_GPU_Governor_v2.12.5.zip"
+        },
+        "body": "##  v2.12.3 → v2.12.5\n<details>\n<summary><strong>📝 更新日志</strong></summary>\n\n\n## ⬆️ v2.12.3 → v2.12.5 (2026-10-12)\n\n### 🔧 功能改进\n\n- **移除废弃宏并消除 unsafe 代码** 🦀\n  - 清理废弃宏并移除 unsafe 代码，提升代码安全性。\n\n### 🪲 问题修复\n\n- **修复配置解析无法读取整数型浮点** ⚙️\n  - 修复 `config.toml` 中 `1.0` 这类整数型浮点参数被忽略、不生效的问题。\n\n- **修复 WebUI 保存配置时整数字段被序列化为浮点** 🌐\n  - 保存后配置文件不再出现 `40.0` 这类写法，与手动编辑的结果保持一致。\n\n\n</details>\n\n<details>\n<summary><strong>📝 CHANGELOG</strong></summary>\n\n\n## ⬆️ v2.12.3 → v2.12.5 (October 12, 2026)\n\n### 🔧 Improvements\n\n- **Remove deprecated macros and eliminate unsafe code** 🦀\n  - Cleaned up deprecated macros and removed unsafe code for better safety.\n\n### 🐛 Bug Fixes\n\n- **Fix integer-valued floats being unreadable during config parsing** ⚙️\n  - Values such as `1.0` in `config.toml` are no longer ignored, so those parameters now take effect.\n\n- **Fix integer fields being serialized as floats when saving from the WebUI** 🌐\n  - Saved configuration no longer contains values like `40.0`, matching the result of editing the file by hand.\n\n\n</details>\n\n**Full Changelog**: https://github.com/Seyud/Mediatek_Mali_GPU_Governor/compare/v2.12.3...v2.12.5\n",
+        "htmlUrl": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/tag/v2.12.5",
+        "immutable": true,
+        "name": "v2.12.5",
+        "prerelease": false,
+        "prop": {
+          "author": "酷安@瓦力喀/GitHub@Seyud, Tools-cx-app",
+          "description": "适用于Mediatek_Mali_GPU的GPU动态调速器，优化高负载场景下的功耗与性能平衡",
+          "id": "Mediatek_Mali_GPU_Governor",
+          "name": "天玑GPU调速器",
+          "updateJson": "https://gitee.com/Seyud/MMGG_deploy/raw/master/Update.json",
+          "version": "v2.12.5",
+          "versionCode": "20261012"
+        },
+        "publishedAt": "2026-10-12T04:39:36Z",
+        "releaseId": 410168819,
+        "tag": "v2.12.5",
+        "tagCommit": "00a3f990515fc86c1d777365262d48f2d4c69c0c",
+        "version": "v2.12.5",
+        "versionCode": 20261012
+      },
+      "stars": {
+        "count": 81,
+        "fetchedAt": "2026-10-12T04:47:49.269Z",
+        "fullName": "Seyud/Mediatek_Mali_GPU_Governor",
+        "repositoryId": 974629540,
+        "requested": "Seyud/Mediatek_Mali_GPU_Governor",
+        "verified": "owner"
+      }
+    },
     "QSC_Battery": {
       "content": {
         "blobs": {

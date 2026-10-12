@@ -39,21 +39,17 @@
       "fullName": "Seyud/Mediatek_Mali_GPU_Governor_release",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-12T04:47:49.269Z",
+      "maxVersionCode": 20261012,
       "message": null,
       "repositoryId": 1414978843,
-      "request": {
-        "checkedAt": "2026-10-12T04:45:38.515Z",
-        "commit": "00a3f990515fc86c1d777365262d48f2d4c69c0c",
-        "issues": [],
-        "latestTag": "v2.12.5",
-        "ok": true,
-        "releaseId": 410168819,
-        "repositoryId": 1414978843,
-        "submissionId": "h0d49kijiu"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-12T04:39:36Z",
+        "tag": "v2.12.5",
+        "version": "v2.12.5",
+        "versionCode": 20261012
+      }
     },
     "QSC_Battery": {
       "contentCommit": "01a74170c68e7a994960a63bfbe49575a7c86aa0",
