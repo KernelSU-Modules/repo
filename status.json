@@ -34,6 +34,27 @@
         "versionCode": 30040
       }
     },
+    "Mediatek_Mali_GPU_Governor": {
+      "contentCommit": "00a3f990515fc86c1d777365262d48f2d4c69c0c",
+      "fullName": "Seyud/Mediatek_Mali_GPU_Governor_release",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1414978843,
+      "request": {
+        "checkedAt": "2026-10-12T04:45:38.515Z",
+        "commit": "00a3f990515fc86c1d777365262d48f2d4c69c0c",
+        "issues": [],
+        "latestTag": "v2.12.5",
+        "ok": true,
+        "releaseId": 410168819,
+        "repositoryId": 1414978843,
+        "submissionId": "h0d49kijiu"
+      },
+      "stable": null
+    },
     "QSC_Battery": {
       "contentCommit": "01a74170c68e7a994960a63bfbe49575a7c86aa0",
       "fullName": "Eikeitsu/QSC-Battery",
