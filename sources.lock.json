@@ -278,8 +278,8 @@
         "versionCode": 50107
       },
       "stars": {
-        "count": 26,
-        "fetchedAt": "2026-10-11T17:51:03.255Z",
+        "count": 28,
+        "fetchedAt": "2026-10-12T19:57:34.968Z",
         "fullName": "Eikeitsu/CertBridge",
         "repositoryId": 1306329220,
         "verified": "self"
@@ -640,8 +640,8 @@
         "versionCode": 30040
       },
       "stars": {
-        "count": 0,
-        "fetchedAt": "2026-10-11T08:57:43.363Z",
+        "count": 1,
+        "fetchedAt": "2026-10-12T19:57:34.968Z",
         "fullName": "ylh440104/KernelSU-Tuner",
         "repositoryId": 1414095668,
         "verified": "self"
@@ -1047,15 +1047,17 @@
     "ReSuSFS": {
       "content": {
         "blobs": {
-          "README.md": "4bd66d3b67f47086931a0af48f01927c5c14ff92",
-          "docs/banner.png": "c5a5eab79b26005bf8853a8b1b2ad540afcd6282",
+          "README.md": "3888979e84ec7c197013334232f418b3287e1dec",
+          "docs/banner.png": "b0a62d9e523d16d63bf1424f0ed8d1fc078998f6",
+          "docs/logo.png": "dbee57fdbdd0ec8902b8d0826f95a3975251509a",
           "module.yaml": "28e2f01f115a31632ecb79c396adfb84996557ef"
         },
-        "commit": "1d48e43d9f126db7cbddcd1cf0c7992e6060ef6d",
-        "fetchedAt": "2026-10-11T21:41:02.271Z",
+        "commit": "0aa8a0d79293582d53000f9a77bd8b759b0e2b63",
+        "fetchedAt": "2026-10-12T19:57:34.968Z",
         "files": {
-          "README.md": "bfdf7f6a5e5cfe42fd661df3ceec1138a06dfec398cdd7501640164b3c86b575",
-          "docs/banner.png": "f3703ef36a7d2932b6a41fccd06be4486a028af9b1a2bf9ade342acf9290dcb1",
+          "README.md": "6019dbb3cbd452b9673c025291e6416b643e3ef8668a17a06df1bd0cb9404b6d",
+          "docs/banner.png": "b71ee05ef8b84881b89be5b38dffea16b42e0ea2ec2e694e9e14c6ab0c9809f7",
+          "docs/logo.png": "7f88231eb1397e0e8a9c2b0019d1ed3411abe1bfaed706c9b46c273637c66e4a",
           "module.yaml": "a6271bf893515aaf68d2931d7a406a5875c77929e5f458d009d2deb90bc3a26e"
         },
         "manifestPath": "module.yaml",
@@ -1064,8 +1066,8 @@
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-11T21:41:02.271Z",
-        "lastSuccessAt": "2026-10-11T21:41:02.271Z",
+        "lastAttemptAt": "2026-10-12T19:57:34.968Z",
+        "lastSuccessAt": "2026-10-12T19:57:34.968Z",
         "message": null,
         "status": "ok"
       },
@@ -1246,8 +1248,8 @@
         "versionCode": 18
       },
       "stars": {
-        "count": 37,
-        "fetchedAt": "2026-10-11T21:41:02.271Z",
+        "count": 40,
+        "fetchedAt": "2026-10-12T19:57:34.968Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
