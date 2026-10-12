@@ -316,6 +316,33 @@
         "versionCode": 10100
       }
     },
+    "zygisk-sui": {
+      "contentCommit": "795f4a82d1955dbb0ba14ce4b573ad78e5cd9529",
+      "fullName": "XiaoTong6666/zygisk-sui",
+      "health": "error",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": "release-none: The repository has no published release yet.",
+      "repositoryId": 1415623276,
+      "request": {
+        "checkedAt": "2026-10-12T14:33:08.851Z",
+        "commit": "795f4a82d1955dbb0ba14ce4b573ad78e5cd9529",
+        "issues": [
+          {
+            "code": "release-none",
+            "message": "The repository has no published release yet.",
+            "severity": "error"
+          }
+        ],
+        "latestTag": null,
+        "ok": false,
+        "releaseId": null,
+        "repositoryId": 1415623276,
+        "submissionId": "b1gqf6pshz"
+      },
+      "stable": null
+    },
     "zygisknextsu": {
       "contentCommit": "c1e927c8d0181dae7957db4750ee184d88235c8a",
       "fullName": "VeryBaaad/ZygiskNextNext",
