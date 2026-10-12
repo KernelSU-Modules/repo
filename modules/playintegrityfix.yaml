@@ -1,0 +1,19 @@
+id: playintegrityfix
+status: pending
+request:
+  submissionId: frutx9ldd9
+  kind: submit
+  source:
+    host: github
+    repositoryId: 908441330
+    ownerId: 185127155
+    fullName: KOWX712/PlayIntegrityFix
+    manifestPath: module.yaml
+  submittedBy: 185127155
+  submittedByLogin: KOWX712
+  submittedAt: 2026-10-12T14:01:12.115Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64327
+createdAt: 2026-10-12T14:01:12.115Z
+updatedAt: 2026-10-12T14:01:12.115Z
