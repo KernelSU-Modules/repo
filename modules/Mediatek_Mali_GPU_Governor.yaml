@@ -1,0 +1,19 @@
+id: Mediatek_Mali_GPU_Governor
+status: pending
+request:
+  submissionId: h0d49kijiu
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1414978843
+    ownerId: 97807424
+    fullName: Seyud/Mediatek_Mali_GPU_Governor_release
+    manifestPath: module.yaml
+  submittedBy: 97807424
+  submittedByLogin: Seyud
+  submittedAt: 2026-10-12T04:45:08.301Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64320
+createdAt: 2026-10-12T04:45:08.301Z
+updatedAt: 2026-10-12T04:45:08.301Z
