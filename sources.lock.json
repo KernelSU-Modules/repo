@@ -1048,17 +1048,19 @@
       "content": {
         "blobs": {
           "README.md": "3888979e84ec7c197013334232f418b3287e1dec",
+          "assets/icon.png": "4c36f50699cc406e221820950bbf6269c63c0730",
           "docs/banner.png": "b0a62d9e523d16d63bf1424f0ed8d1fc078998f6",
           "docs/logo.png": "dbee57fdbdd0ec8902b8d0826f95a3975251509a",
-          "module.yaml": "28e2f01f115a31632ecb79c396adfb84996557ef"
+          "module.yaml": "acea77bf754a5c22f50ecb934e925639121e12f7"
         },
-        "commit": "0aa8a0d79293582d53000f9a77bd8b759b0e2b63",
-        "fetchedAt": "2026-10-12T19:57:34.968Z",
+        "commit": "5cd2b268fe45a870386d56b32f1a5a3aedb6074c",
+        "fetchedAt": "2026-10-12T20:14:49.011Z",
         "files": {
           "README.md": "6019dbb3cbd452b9673c025291e6416b643e3ef8668a17a06df1bd0cb9404b6d",
+          "assets/icon.png": "23e4db86a36bc2cdffac69242dd784a19f39375a9996d9c78ddb74ed39ed961c",
           "docs/banner.png": "b71ee05ef8b84881b89be5b38dffea16b42e0ea2ec2e694e9e14c6ab0c9809f7",
           "docs/logo.png": "7f88231eb1397e0e8a9c2b0019d1ed3411abe1bfaed706c9b46c273637c66e4a",
-          "module.yaml": "a6271bf893515aaf68d2931d7a406a5875c77929e5f458d009d2deb90bc3a26e"
+          "module.yaml": "66e13aa13b2e31fd318c9d6593279c9fa3f626390ad6eef05a73f22e9726b46b"
         },
         "manifestPath": "module.yaml",
         "ref": "dev"
@@ -1066,8 +1068,8 @@
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-12T19:57:34.968Z",
-        "lastSuccessAt": "2026-10-12T19:57:34.968Z",
+        "lastAttemptAt": "2026-10-12T20:14:49.011Z",
+        "lastSuccessAt": "2026-10-12T20:14:49.011Z",
         "message": null,
         "status": "ok"
       },
