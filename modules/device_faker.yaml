@@ -1,0 +1,19 @@
+id: device_faker
+status: pending
+request:
+  submissionId: v0yfks0yzh
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1415363370
+    ownerId: 97807424
+    fullName: Seyud/device_faker_release
+    manifestPath: module.yaml
+  submittedBy: 97807424
+  submittedByLogin: Seyud
+  submittedAt: 2026-10-12T10:03:09.466Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64323
+createdAt: 2026-10-12T10:03:09.466Z
+updatedAt: 2026-10-12T10:03:09.466Z
