@@ -317,26 +317,20 @@
       }
     },
     "zygisk-sui": {
-      "contentCommit": "9534dadf8ed3b626db77c5ff1037e23610b3f535",
+      "contentCommit": "6186ced54a86bcd0ab17237f53801e3e2409bda7",
       "fullName": "XiaoTong6666/zygisk-sui",
-      "health": "error",
+      "health": "ok",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "asset-none: Release v561-ff124fb has no asset matching \"zygisk-sui-*.zip\".",
+      "message": null,
       "repositoryId": 1415623276,
       "request": {
-        "checkedAt": "2026-10-12T14:35:21.311Z",
-        "commit": "9534dadf8ed3b626db77c5ff1037e23610b3f535",
-        "issues": [
-          {
-            "code": "asset-none",
-            "message": "Release v561-ff124fb has no asset matching \"zygisk-sui-*.zip\".",
-            "severity": "error"
-          }
-        ],
+        "checkedAt": "2026-10-12T14:44:42.980Z",
+        "commit": "6186ced54a86bcd0ab17237f53801e3e2409bda7",
+        "issues": [],
         "latestTag": "v561-ff124fb",
-        "ok": false,
+        "ok": true,
         "releaseId": 410699556,
         "repositoryId": 1415623276,
         "submissionId": "b1gqf6pshz"
