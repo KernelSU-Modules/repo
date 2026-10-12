@@ -285,6 +285,114 @@
         "verified": "self"
       }
     },
+    "FreePPS": {
+      "content": {
+        "blobs": {
+          "README.md": "6781df8dbc70798300ed8ab0c14f0712e2993a8d",
+          "logo.png": "869056007fc77ca572e08f2eb8f5a3b99f5caddf",
+          "module.yaml": "a646e231a15c63445b2b707b7ff2c67c51ecee62"
+        },
+        "commit": "3a7afb62060d664c0c831980f83d5810c4620da9",
+        "fetchedAt": "2026-10-12T09:05:30.104Z",
+        "files": {
+          "README.md": "f4ebd24c91d5361e6a17ffb76754a68cda2b040d03a34aaf8495233b1a1544c6",
+          "logo.png": "5c20846825e4e75ce53178d802dd2c9adaaa288b9ceb4e60b6502b793f5da67e",
+          "module.yaml": "84394889af1e782f139fc83a67ae01b4d80a8017bb59d03b248e8e858796f631"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "Seyud/FreePPS_release",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-12T09:05:30.104Z",
+        "lastSuccessAt": "2026-10-12T09:05:30.104Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "FreePPS",
+      "installationId": 170474861,
+      "maxStableVersionCode": 20260821,
+      "maxVersionCode": 20260821,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:8b76c0c6483ab40eff6eb556661349d6c3a392afa467de4aa2c354cb51647d28",
+            "id": 633234858,
+            "name": "FreePPS_v1.7.0.zip",
+            "sha256": "8b76c0c6483ab40eff6eb556661349d6c3a392afa467de4aa2c354cb51647d28",
+            "size": 213346,
+            "url": "https://github.com/Seyud/FreePPS_release/releases/download/v1.7.0/FreePPS_v1.7.0.zip"
+          },
+          "body": "## [v1.7.0] - 🗓️ 2026-08-21\r\n\r\n### 🚀 新增\r\n- ⚡ 新增金标动画支持，公版PPS充电头满血档解锁100W金标显示\r\n- 📺 亮屏时超级岛显示\"100W MAX\"等动画，补齐快充功率可视化\r\n- 🩹 支持新高通机型MIPPS与PPS充电协议共存\r\n\r\n### 🔧 修复\r\n- 🔧 修复极限场景free切换时pd节点未按插电状态设置的问题\r\n\r\n### ✨ 优化\r\n- 🔋 free=0时零周期唤醒、暂停期间零uevent唤醒，重构为纯事件驱动，降低开销",
+          "htmlUrl": "https://github.com/Seyud/FreePPS_release/releases/tag/v1.7.0",
+          "immutable": true,
+          "name": "v1.7.0",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@瓦力喀/GitHub@Seyud",
+            "description": "解锁并启用米系设备的公版 PPS 快充协议支持。（感谢“酷安@低线阻狂魔”、“酷安@花橋桥”提供节点）",
+            "id": "FreePPS",
+            "name": "FreePPS",
+            "updateJson": "https://gitee.com/Seyud/FreePPS/raw/master/Update.json",
+            "version": "v1.7.0",
+            "versionCode": "20260821"
+          },
+          "publishedAt": "2026-10-12T09:00:55Z",
+          "releaseId": 410403301,
+          "tag": "v1.7.0",
+          "tagCommit": "3a7afb62060d664c0c831980f83d5810c4620da9",
+          "version": "v1.7.0",
+          "versionCode": 20260821
+        }
+      ],
+      "repositoryId": 1415308966,
+      "seen": {
+        "410403301": {
+          "checkedAt": "2026-10-12T09:05:30.104Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:8b76c0c6483ab40eff6eb556661349d6c3a392afa467de4aa2c354cb51647d28",
+          "id": 633234858,
+          "name": "FreePPS_v1.7.0.zip",
+          "sha256": "8b76c0c6483ab40eff6eb556661349d6c3a392afa467de4aa2c354cb51647d28",
+          "size": 213346,
+          "url": "https://github.com/Seyud/FreePPS_release/releases/download/v1.7.0/FreePPS_v1.7.0.zip"
+        },
+        "body": "## [v1.7.0] - 🗓️ 2026-08-21\r\n\r\n### 🚀 新增\r\n- ⚡ 新增金标动画支持，公版PPS充电头满血档解锁100W金标显示\r\n- 📺 亮屏时超级岛显示\"100W MAX\"等动画，补齐快充功率可视化\r\n- 🩹 支持新高通机型MIPPS与PPS充电协议共存\r\n\r\n### 🔧 修复\r\n- 🔧 修复极限场景free切换时pd节点未按插电状态设置的问题\r\n\r\n### ✨ 优化\r\n- 🔋 free=0时零周期唤醒、暂停期间零uevent唤醒，重构为纯事件驱动，降低开销",
+        "htmlUrl": "https://github.com/Seyud/FreePPS_release/releases/tag/v1.7.0",
+        "immutable": true,
+        "name": "v1.7.0",
+        "prerelease": false,
+        "prop": {
+          "author": "酷安@瓦力喀/GitHub@Seyud",
+          "description": "解锁并启用米系设备的公版 PPS 快充协议支持。（感谢“酷安@低线阻狂魔”、“酷安@花橋桥”提供节点）",
+          "id": "FreePPS",
+          "name": "FreePPS",
+          "updateJson": "https://gitee.com/Seyud/FreePPS/raw/master/Update.json",
+          "version": "v1.7.0",
+          "versionCode": "20260821"
+        },
+        "publishedAt": "2026-10-12T09:00:55Z",
+        "releaseId": 410403301,
+        "tag": "v1.7.0",
+        "tagCommit": "3a7afb62060d664c0c831980f83d5810c4620da9",
+        "version": "v1.7.0",
+        "versionCode": 20260821
+      },
+      "stars": {
+        "count": 297,
+        "fetchedAt": "2026-10-12T09:05:30.104Z",
+        "fullName": "Seyud/FreePPS",
+        "repositoryId": 1063205512,
+        "requested": "Seyud/FreePPS",
+        "verified": "owner"
+      }
+    },
     "KernelSU-Tuner": {
       "content": {
         "blobs": {
