@@ -107,21 +107,17 @@
       "fullName": "kreza6173-pixel/aegis-firewall",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-12T08:35:58.290Z",
+      "maxVersionCode": 100,
       "message": null,
       "repositoryId": 1415269514,
-      "request": {
-        "checkedAt": "2026-10-12T08:35:02.532Z",
-        "commit": "aff947e9444a02c79fc9df1b67e7e61896be9fba",
-        "issues": [],
-        "latestTag": "v1.0.0",
-        "ok": true,
-        "releaseId": 410364507,
-        "repositoryId": 1415269514,
-        "submissionId": "ok2bk2xf0v"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-12T08:21:56Z",
+        "tag": "v1.0.0",
+        "version": "v1.0.0",
+        "versionCode": 100
+      }
     },
     "duck-toolbox": {
       "contentCommit": "c573b6fa74a1d6eab1bc6ef6828857069e0c7457",

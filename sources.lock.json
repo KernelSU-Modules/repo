@@ -1306,6 +1306,109 @@
         "verified": "self"
       }
     },
+    "aegis_firewall": {
+      "content": {
+        "blobs": {
+          "README.md": "0bd12e33d64ace29fc0fd1f6b685f3713f7ba11c",
+          "module.yaml": "d7f4dfd72fa974c8a7dba17e20aebe4490fde8c6"
+        },
+        "commit": "aff947e9444a02c79fc9df1b67e7e61896be9fba",
+        "fetchedAt": "2026-10-12T08:35:58.290Z",
+        "files": {
+          "README.md": "34ae936862e3869cbd72a99767bcec2a0c313d578ff695ce22f52c9e243e6b44",
+          "module.yaml": "809959e42a3a9423534e8fd4a216ef680072894da4d6f7035b34c2fbc6890ef0"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "kreza6173-pixel/aegis-firewall",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-12T08:35:58.290Z",
+        "lastSuccessAt": "2026-10-12T08:35:58.290Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "aegis_firewall",
+      "installationId": 170529658,
+      "maxStableVersionCode": 100,
+      "maxVersionCode": 100,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:c32f4ee337ddfe5ae6e88c2387a1cfa6e4d0393ed190a40c395a6e46babaaeca",
+            "id": 633145829,
+            "name": "aegis_firewall-100-v1.0.0.zip",
+            "sha256": "c32f4ee337ddfe5ae6e88c2387a1cfa6e4d0393ed190a40c395a6e46babaaeca",
+            "size": 31194,
+            "url": "https://github.com/kreza6173-pixel/aegis-firewall/releases/download/v1.0.0/aegis_firewall-100-v1.0.0.zip"
+          },
+          "body": "## AEGIS // FIREWALL v1.0.0\n\nFirst public release.\n\n- Blacklist and whitelist modes, each with its own rule set\n- Per-app control for Wi-Fi, mobile data, VPN, LAN and roaming, IPv4 and IPv6\n- Host rules: block or allow a domain, IP or CIDR, optionally per port and protocol, per app or for all apps\n- Temporary access (15 min, 1 h, 8 h) that reverts on its own\n- Screen-off blocking with a configurable delay\n- Rules for every Android user: Dual apps, Second space, work profiles\n- Rules applied at boot, before the device is unlocked, in one atomic iptables-restore per address family\n- Watchdog that restores the OUTPUT hook if the system removes it\n- Live connections per app with one-tap address blocking\n- Per-app blocked counters on any kernel, plus kernel LOG when available\n- Profiles, backup and restore\n- Lockdown kill switch in the WebUI and on the module Action button\n- Diagnostics: kernel capability probe, hook state, daemon log, restore errors\n\nRequires a kernel with the iptables owner match (all GKI kernels). The installer checks this and aborts if it is missing.\n",
+          "htmlUrl": "https://github.com/kreza6173-pixel/aegis-firewall/releases/tag/v1.0.0",
+          "immutable": true,
+          "name": "v1.0.0",
+          "prerelease": false,
+          "prop": {
+            "author": "kreza6173-pixel",
+            "description": "Kernel-level per-app firewall with WebUI. Wi-Fi, mobile, VPN, LAN and roaming rules, per-app host rules, screen-off blocking, live connections.",
+            "id": "aegis_firewall",
+            "name": "AEGIS // FIREWALL",
+            "version": "v1.0.0",
+            "versionCode": "100"
+          },
+          "publishedAt": "2026-10-12T08:21:56Z",
+          "releaseId": 410364507,
+          "tag": "v1.0.0",
+          "tagCommit": "aff947e9444a02c79fc9df1b67e7e61896be9fba",
+          "version": "v1.0.0",
+          "versionCode": 100
+        }
+      ],
+      "repositoryId": 1415269514,
+      "seen": {
+        "410364507": {
+          "checkedAt": "2026-10-12T08:35:58.290Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:c32f4ee337ddfe5ae6e88c2387a1cfa6e4d0393ed190a40c395a6e46babaaeca",
+          "id": 633145829,
+          "name": "aegis_firewall-100-v1.0.0.zip",
+          "sha256": "c32f4ee337ddfe5ae6e88c2387a1cfa6e4d0393ed190a40c395a6e46babaaeca",
+          "size": 31194,
+          "url": "https://github.com/kreza6173-pixel/aegis-firewall/releases/download/v1.0.0/aegis_firewall-100-v1.0.0.zip"
+        },
+        "body": "## AEGIS // FIREWALL v1.0.0\n\nFirst public release.\n\n- Blacklist and whitelist modes, each with its own rule set\n- Per-app control for Wi-Fi, mobile data, VPN, LAN and roaming, IPv4 and IPv6\n- Host rules: block or allow a domain, IP or CIDR, optionally per port and protocol, per app or for all apps\n- Temporary access (15 min, 1 h, 8 h) that reverts on its own\n- Screen-off blocking with a configurable delay\n- Rules for every Android user: Dual apps, Second space, work profiles\n- Rules applied at boot, before the device is unlocked, in one atomic iptables-restore per address family\n- Watchdog that restores the OUTPUT hook if the system removes it\n- Live connections per app with one-tap address blocking\n- Per-app blocked counters on any kernel, plus kernel LOG when available\n- Profiles, backup and restore\n- Lockdown kill switch in the WebUI and on the module Action button\n- Diagnostics: kernel capability probe, hook state, daemon log, restore errors\n\nRequires a kernel with the iptables owner match (all GKI kernels). The installer checks this and aborts if it is missing.\n",
+        "htmlUrl": "https://github.com/kreza6173-pixel/aegis-firewall/releases/tag/v1.0.0",
+        "immutable": true,
+        "name": "v1.0.0",
+        "prerelease": false,
+        "prop": {
+          "author": "kreza6173-pixel",
+          "description": "Kernel-level per-app firewall with WebUI. Wi-Fi, mobile, VPN, LAN and roaming rules, per-app host rules, screen-off blocking, live connections.",
+          "id": "aegis_firewall",
+          "name": "AEGIS // FIREWALL",
+          "version": "v1.0.0",
+          "versionCode": "100"
+        },
+        "publishedAt": "2026-10-12T08:21:56Z",
+        "releaseId": 410364507,
+        "tag": "v1.0.0",
+        "tagCommit": "aff947e9444a02c79fc9df1b67e7e61896be9fba",
+        "version": "v1.0.0",
+        "versionCode": 100
+      },
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-10-12T08:35:58.290Z",
+        "fullName": "kreza6173-pixel/aegis-firewall",
+        "repositoryId": 1415269514,
+        "verified": "self"
+      }
+    },
     "duck-toolbox": {
       "content": {
         "blobs": {
