@@ -1421,13 +1421,13 @@
     "aegis_firewall": {
       "content": {
         "blobs": {
-          "README.md": "0bd12e33d64ace29fc0fd1f6b685f3713f7ba11c",
+          "README.md": "3b931c58b690bfdc356478eaeddd1b053148a754",
           "module.yaml": "d7f4dfd72fa974c8a7dba17e20aebe4490fde8c6"
         },
-        "commit": "aff947e9444a02c79fc9df1b67e7e61896be9fba",
-        "fetchedAt": "2026-10-12T08:35:58.290Z",
+        "commit": "9366066031750ed2332cf45580b4a043e2bbd7d1",
+        "fetchedAt": "2026-10-13T01:19:56.260Z",
         "files": {
-          "README.md": "34ae936862e3869cbd72a99767bcec2a0c313d578ff695ce22f52c9e243e6b44",
+          "README.md": "1e6c81aa434823dea8dd0d77dfec5e86e897b776c7a1d475c04806a9730adb21",
           "module.yaml": "809959e42a3a9423534e8fd4a216ef680072894da4d6f7035b34c2fbc6890ef0"
         },
         "manifestPath": "module.yaml",
@@ -1436,8 +1436,8 @@
       "fullName": "kreza6173-pixel/aegis-firewall",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-12T08:35:58.290Z",
-        "lastSuccessAt": "2026-10-12T08:35:58.290Z",
+        "lastAttemptAt": "2026-10-13T01:19:56.260Z",
+        "lastSuccessAt": "2026-10-13T01:19:56.260Z",
         "message": null,
         "status": "ok"
       },
