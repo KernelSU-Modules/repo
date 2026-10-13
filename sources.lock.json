@@ -1102,17 +1102,47 @@
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-12T20:14:49.011Z",
-        "lastSuccessAt": "2026-10-12T20:14:49.011Z",
+        "lastAttemptAt": "2026-10-13T16:22:07.084Z",
+        "lastSuccessAt": "2026-10-13T16:22:07.084Z",
         "message": null,
         "status": "ok"
       },
       "id": "ReSuSFS",
       "installationId": 170358391,
-      "maxStableVersionCode": 18,
-      "maxVersionCode": 18,
+      "maxStableVersionCode": 19,
+      "maxVersionCode": 19,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:257cb2f944c1bad27afb068530bcca32c9e02348a2940ddb3c5d9d88f5e2ddc9",
+            "id": 637581571,
+            "name": "ReSuSFS.zip",
+            "sha256": "257cb2f944c1bad27afb068530bcca32c9e02348a2940ddb3c5d9d88f5e2ddc9",
+            "size": 295626,
+            "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.13/ReSuSFS.zip"
+          },
+          "body": "## ReSuSFS v26.10.13 Changelog\n\n### 🌐 WebUI\n\n- **fix:** route all editor close paths through one dirty-check, fixes back gesture skipping the unsaved-changes prompt and the title staying stuck after closing (fix: #23) (@ahmed-alnassif)\n- **l10n:** update translations (#21) (@weblate)\n- **fix:** stop the unsaved changes prompt from showing twice (@ahmed-alnassif)\n- **fix:** keep the unsaved changes prompt from exiting the module on back (@ahmed-alnassif)\n\n### ✨ Features\n\n- add an icon for KernelSU modules (@ahmed-alnassif)\n\n### 🔧 Fixes\n\n- add icon metadata to module.yaml (@ahmed-alnassif)\n\n### 📚 Documentation\n\n- update banner image (@ahmed-alnassif)\n- add a new logo (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.13 (@ahmed-alnassif)\n\n### 🤖 Automated\n\n- webui(deps): Bump the webui-deps group in /webui with 7 updates (#24)\n",
+          "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.13",
+          "immutable": true,
+          "name": "ReSuSFS v26.10.13",
+          "prerelease": false,
+          "prop": {
+            "author": "ahmed-alnassif",
+            "description": "The easiest way to use SuSFS on KernelSU. Strong hiding by default with built-in spoofing and hiding scripts, config files and toggle switches for everyday use, a built-in script manager for power users.",
+            "id": "ReSuSFS",
+            "name": "ReSuSFS",
+            "updateJson": "https://raw.githubusercontent.com/ahmed-alnassif/ReSuSFS/master/update.json",
+            "version": "v26.10.13",
+            "versionCode": "19"
+          },
+          "publishedAt": "2026-10-13T16:21:42Z",
+          "releaseId": 411879759,
+          "tag": "v26.10.13",
+          "tagCommit": "9afbb271a785c8511b092b6b520ad1de1c870228",
+          "version": "v26.10.13",
+          "versionCode": 19
+        },
         {
           "asset": {
             "digest": "sha256:a11b39f3eee411fa6ed2008f3581329436f2b6a5733e96fa1a226b052d05c7e9",
@@ -1251,21 +1281,25 @@
         "409878070": {
           "checkedAt": "2026-10-11T21:41:02.271Z",
           "ok": true
+        },
+        "411879759": {
+          "checkedAt": "2026-10-13T16:22:07.084Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:a11b39f3eee411fa6ed2008f3581329436f2b6a5733e96fa1a226b052d05c7e9",
-          "id": 631623871,
+          "digest": "sha256:257cb2f944c1bad27afb068530bcca32c9e02348a2940ddb3c5d9d88f5e2ddc9",
+          "id": 637581571,
           "name": "ReSuSFS.zip",
-          "sha256": "a11b39f3eee411fa6ed2008f3581329436f2b6a5733e96fa1a226b052d05c7e9",
-          "size": 275665,
-          "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.11/ReSuSFS.zip"
+          "sha256": "257cb2f944c1bad27afb068530bcca32c9e02348a2940ddb3c5d9d88f5e2ddc9",
+          "size": 295626,
+          "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.13/ReSuSFS.zip"
         },
-        "body": "## ReSuSFS v26.10.11 Changelog\n\n### ✨ Features\n\n- add module.yaml to add ReSuSFS to KernelSU manger (@ahmed-alnassif)\n\n### 🔧 Fixes\n\n- back button now works correctly for menus and dialogs (@ahmed-alnassif)\n- one asset per release (@ahmed-alnassif)\n\n### 📚 Documentation\n\n- migrate ReSukiSU to BakaSU (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.11 (@ahmed-alnassif)\n",
-        "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.11",
+        "body": "## ReSuSFS v26.10.13 Changelog\n\n### 🌐 WebUI\n\n- **fix:** route all editor close paths through one dirty-check, fixes back gesture skipping the unsaved-changes prompt and the title staying stuck after closing (fix: #23) (@ahmed-alnassif)\n- **l10n:** update translations (#21) (@weblate)\n- **fix:** stop the unsaved changes prompt from showing twice (@ahmed-alnassif)\n- **fix:** keep the unsaved changes prompt from exiting the module on back (@ahmed-alnassif)\n\n### ✨ Features\n\n- add an icon for KernelSU modules (@ahmed-alnassif)\n\n### 🔧 Fixes\n\n- add icon metadata to module.yaml (@ahmed-alnassif)\n\n### 📚 Documentation\n\n- update banner image (@ahmed-alnassif)\n- add a new logo (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.13 (@ahmed-alnassif)\n\n### 🤖 Automated\n\n- webui(deps): Bump the webui-deps group in /webui with 7 updates (#24)\n",
+        "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.13",
         "immutable": true,
-        "name": "ReSuSFS v26.10.11",
+        "name": "ReSuSFS v26.10.13",
         "prerelease": false,
         "prop": {
           "author": "ahmed-alnassif",
@@ -1273,19 +1307,19 @@
           "id": "ReSuSFS",
           "name": "ReSuSFS",
           "updateJson": "https://raw.githubusercontent.com/ahmed-alnassif/ReSuSFS/master/update.json",
-          "version": "v26.10.11",
-          "versionCode": "18"
+          "version": "v26.10.13",
+          "versionCode": "19"
         },
-        "publishedAt": "2026-10-11T19:36:12Z",
-        "releaseId": 409878070,
-        "tag": "v26.10.11",
-        "tagCommit": "9a6bdb7ad78ebb77b4578ce797f25a7eaf2b814b",
-        "version": "v26.10.11",
-        "versionCode": 18
+        "publishedAt": "2026-10-13T16:21:42Z",
+        "releaseId": 411879759,
+        "tag": "v26.10.13",
+        "tagCommit": "9afbb271a785c8511b092b6b520ad1de1c870228",
+        "version": "v26.10.13",
+        "versionCode": 19
       },
       "stars": {
-        "count": 40,
-        "fetchedAt": "2026-10-12T19:57:34.968Z",
+        "count": 44,
+        "fetchedAt": "2026-10-13T16:22:07.084Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
