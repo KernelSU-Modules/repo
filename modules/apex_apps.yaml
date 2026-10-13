@@ -1,19 +1,23 @@
 id: apex_apps
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1416068592
+  ownerId: 289786585
+  fullName: kreza6173-pixel/apex-apps
+  manifestPath: module.yaml
+review:
   submissionId: leoswtltbw
   kind: submit
-  source:
-    host: github
-    repositoryId: 1416068592
-    ownerId: 289786585
-    fullName: kreza6173-pixel/apex-apps
-    manifestPath: module.yaml
   submittedBy: 289786585
-  submittedByLogin: kreza6173-pixel
   submittedAt: 2026-10-13T01:19:33.282Z
+  decision: approved
+  decidedBy: 5022927
+  decidedVia: telegram
+  decidedAt: 2026-10-13T01:21:09.582Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64329
 createdAt: 2026-10-13T01:19:33.282Z
-updatedAt: 2026-10-13T01:19:33.282Z
+updatedAt: 2026-10-13T01:21:09.582Z
