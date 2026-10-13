@@ -413,17 +413,47 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-11T15:36:56.308Z",
-        "lastSuccessAt": "2026-10-11T15:36:56.308Z",
+        "lastAttemptAt": "2026-10-13T10:52:29.245Z",
+        "lastSuccessAt": "2026-10-13T10:52:29.245Z",
         "message": null,
         "status": "ok"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
-      "maxStableVersionCode": 30040,
-      "maxVersionCode": 30040,
+      "maxStableVersionCode": 30041,
+      "maxVersionCode": 30041,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:e03c1edb5187ed6e1654af26ef867390717edb5110ed4ae8580187a27a974ca0",
+            "id": 636733638,
+            "name": "KernelSU-Tuner-30041-v3.4.1.zip",
+            "sha256": "e03c1edb5187ed6e1654af26ef867390717edb5110ed4ae8580187a27a974ca0",
+            "size": 53024,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.1/KernelSU-Tuner-30041-v3.4.1.zip"
+          },
+          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**This fixes the WebUI not loading.** In 3.4.0 the string assigned to the wipe-protection command display was split across three lines. That is not valid JavaScript, so the entire script failed to parse and the interface never appeared. The newline is escaped now.\n\n**Also corrected.** The duplicate cleanup in 3.4.0 went too far: it removed the only copy of the kernel-extension and watchdog script block, which left those nine switches unrendered and six buttons dead. It also took out the live-monitor pane opening tag and the dry-run card. The script block is back, the live monitor is its own pane again, and the dry-run card with its button is restored.\n\n**Still removed:** the two genuinely duplicated rows (`CPU_FREQ`, `zoneRow`) and one copy each of the kernel-extension and watchdog cards.\n\n**Verified with** `node --check` on the extracted script, a headless run of the whole script against a DOM stub with no runtime errors, and a pass confirming all 124 ids the script references exist and all 43 buttons have listeners.\n\nEverything else is unchanged from 3.4.0.",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.1",
+          "immutable": true,
+          "name": "v3.4.1",
+          "prerelease": false,
+          "prop": {
+            "author": "Operit",
+            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+            "version": "v3.4.1",
+            "versionCode": "30041"
+          },
+          "publishedAt": "2026-10-13T10:52:08Z",
+          "releaseId": 411571389,
+          "tag": "v3.4.1",
+          "tagCommit": "da6548b6e7062ff338fb537f2a54bfb0e31eb1ab",
+          "version": "v3.4.1",
+          "versionCode": 30041
+        },
         {
           "asset": {
             "digest": "sha256:31c534b53951743834bc408f0c1cb787d3170937f2a7ecad45d481d9c23881fc",
@@ -607,21 +637,25 @@
         "409755685": {
           "checkedAt": "2026-10-11T15:36:56.308Z",
           "ok": true
+        },
+        "411571389": {
+          "checkedAt": "2026-10-13T10:52:29.245Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:31c534b53951743834bc408f0c1cb787d3170937f2a7ecad45d481d9c23881fc",
-          "id": 631111076,
-          "name": "KernelSU-Tuner-30040-v3.4.0.zip",
-          "sha256": "31c534b53951743834bc408f0c1cb787d3170937f2a7ecad45d481d9c23881fc",
-          "size": 53132,
-          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.0/KernelSU-Tuner-30040-v3.4.0.zip"
+          "digest": "sha256:e03c1edb5187ed6e1654af26ef867390717edb5110ed4ae8580187a27a974ca0",
+          "id": 636733638,
+          "name": "KernelSU-Tuner-30041-v3.4.1.zip",
+          "sha256": "e03c1edb5187ed6e1654af26ef867390717edb5110ed4ae8580187a27a974ca0",
+          "size": 53024,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.1/KernelSU-Tuner-30041-v3.4.1.zip"
         },
-        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**Kernel extensions.** A new `kernel.sh` covers the areas this module had not touched: devfreq bus and memory-controller clocks, KSM deduplication, transparent hugepages, `schedtune` boost, the full three-value TCP buffers, touch boost, and the filesystem ceilings (inotify, file-max, nr_open). Each section has its own switch and all of them are off by default.\n\n**Config versioning.** Config writes now go through a temp file and an atomic rename rather than `sed -i`, so an interrupted write can no longer leave a half-written file. There is a `SCHEMA` field and a migration path that fills in new keys on existing installs without disturbing what is already set.\n\n**SELinux.** The module now ships `sepolicy.rule` with 184 rules covering the nodes it writes. Previously some writes could be silently blocked on enforcing devices.\n\n**Watchdog.** `watchdog.sh` checks autopilot, guard, appwatch and wipeshield every five minutes and restarts anything that died. They used to fail silently.\n\n**Also**\n- periodic TRIM, interval in days\n- switch to powersave automatically below a battery level you choose\n- dry run now reports what the kernel extensions would change\n- WebUI: kernel extension switches, watchdog controls, devfreq listing\n\n**Fixed**\n- safe mode appended `SAFEGUARD=0` to the config, creating a duplicate key. It rewrites in place now\n- the boot-failure counter was left as an empty file when cleared\n\nEverything from earlier versions is unchanged.",
-        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.0",
+        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**This fixes the WebUI not loading.** In 3.4.0 the string assigned to the wipe-protection command display was split across three lines. That is not valid JavaScript, so the entire script failed to parse and the interface never appeared. The newline is escaped now.\n\n**Also corrected.** The duplicate cleanup in 3.4.0 went too far: it removed the only copy of the kernel-extension and watchdog script block, which left those nine switches unrendered and six buttons dead. It also took out the live-monitor pane opening tag and the dry-run card. The script block is back, the live monitor is its own pane again, and the dry-run card with its button is restored.\n\n**Still removed:** the two genuinely duplicated rows (`CPU_FREQ`, `zoneRow`) and one copy each of the kernel-extension and watchdog cards.\n\n**Verified with** `node --check` on the extracted script, a headless run of the whole script against a DOM stub with no runtime errors, and a pass confirming all 124 ids the script references exist and all 43 buttons have listeners.\n\nEverything else is unchanged from 3.4.0.",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.1",
         "immutable": true,
-        "name": "v3.4.0",
+        "name": "v3.4.1",
         "prerelease": false,
         "prop": {
           "author": "Operit",
@@ -629,19 +663,19 @@
           "id": "KernelSU-Tuner",
           "name": "KernelSU Tuner",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-          "version": "v3.4.0",
-          "versionCode": "30040"
+          "version": "v3.4.1",
+          "versionCode": "30041"
         },
-        "publishedAt": "2026-10-11T15:36:29Z",
-        "releaseId": 409755685,
-        "tag": "v3.4.0",
-        "tagCommit": "12dc3479d7736a74d368f61342a468224ba5ff99",
-        "version": "v3.4.0",
-        "versionCode": 30040
+        "publishedAt": "2026-10-13T10:52:08Z",
+        "releaseId": 411571389,
+        "tag": "v3.4.1",
+        "tagCommit": "da6548b6e7062ff338fb537f2a54bfb0e31eb1ab",
+        "version": "v3.4.1",
+        "versionCode": 30041
       },
       "stars": {
-        "count": 1,
-        "fetchedAt": "2026-10-12T19:57:34.968Z",
+        "count": 2,
+        "fetchedAt": "2026-10-13T10:52:29.245Z",
         "fullName": "ylh440104/KernelSU-Tuner",
         "repositoryId": 1414095668,
         "verified": "self"
@@ -1726,8 +1760,8 @@
         "versionCode": 20260926
       },
       "stars": {
-        "count": 824,
-        "fetchedAt": "2026-10-12T10:09:46.582Z",
+        "count": 826,
+        "fetchedAt": "2026-10-13T10:52:29.245Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -1866,8 +1900,8 @@
         "versionCode": 58
       },
       "stars": {
-        "count": 88,
-        "fetchedAt": "2026-10-12T10:03:36.525Z",
+        "count": 90,
+        "fetchedAt": "2026-10-13T10:52:29.245Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"

@@ -39,16 +39,16 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-11T15:36:56.308Z",
-      "maxVersionCode": 30040,
+      "lastSuccessAt": "2026-10-13T10:52:29.245Z",
+      "maxVersionCode": 30041,
       "message": null,
       "repositoryId": 1414095668,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-11T15:36:29Z",
-        "tag": "v3.4.0",
-        "version": "v3.4.0",
-        "versionCode": 30040
+        "publishedAt": "2026-10-13T10:52:08Z",
+        "tag": "v3.4.1",
+        "version": "v3.4.1",
+        "versionCode": 30041
       }
     },
     "Mediatek_Mali_GPU_Governor": {
@@ -120,21 +120,21 @@
       }
     },
     "VexZygisk": {
-      "contentCommit": "adb7c395820a81c445748b656e30cf79f5631b5f",
+      "contentCommit": "d9cc87a9b62c3943a0efed77389d32cffcb01402",
       "fullName": "Lxiaoyao077/VexZygisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at adb7c39.",
+      "message": "manifest-missing: module.yaml does not exist at d9cc87a.",
       "repositoryId": 1305247883,
       "request": {
-        "checkedAt": "2026-10-13T09:18:50.026Z",
-        "commit": "adb7c395820a81c445748b656e30cf79f5631b5f",
+        "checkedAt": "2026-10-13T10:52:29.245Z",
+        "commit": "d9cc87a9b62c3943a0efed77389d32cffcb01402",
         "issues": [
           {
             "code": "manifest-missing",
-            "message": "module.yaml does not exist at adb7c39.",
+            "message": "module.yaml does not exist at d9cc87a.",
             "severity": "error"
           }
         ],
