@@ -120,21 +120,21 @@
       }
     },
     "VexZygisk": {
-      "contentCommit": "594b76ff17d4f5db8443b744271dd43ead442584",
+      "contentCommit": "d5602cdda54ae6350c881a7f201b919264bdec4c",
       "fullName": "Lxiaoyao077/VexZygisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at 594b76f.",
+      "message": "manifest-missing: module.yaml does not exist at d5602cd.",
       "repositoryId": 1305247883,
       "request": {
-        "checkedAt": "2026-10-13T14:24:27.452Z",
-        "commit": "594b76ff17d4f5db8443b744271dd43ead442584",
+        "checkedAt": "2026-10-13T14:25:58.907Z",
+        "commit": "d5602cdda54ae6350c881a7f201b919264bdec4c",
         "issues": [
           {
             "code": "manifest-missing",
-            "message": "module.yaml does not exist at 594b76f.",
+            "message": "module.yaml does not exist at d5602cd.",
             "severity": "error"
           }
         ],
@@ -406,16 +406,16 @@
       "fullName": "LSPosed/ZygiskNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-12T14:35:21.311Z",
-      "maxVersionCode": 862,
+      "lastSuccessAt": "2026-10-13T14:25:58.907Z",
+      "maxVersionCode": 864,
       "message": null,
       "repositoryId": 1377039457,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-12T14:34:55Z",
-        "tag": "v1.5.1",
-        "version": "1.5.1 (862-56ae062-release)",
-        "versionCode": 862
+        "publishedAt": "2026-10-13T14:24:46Z",
+        "tag": "v1.5.2",
+        "version": "1.5.2 (864-a4a72ce-release)",
+        "versionCode": 864
       }
     }
   },

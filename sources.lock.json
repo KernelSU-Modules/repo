@@ -3810,17 +3810,47 @@
       "fullName": "LSPosed/ZygiskNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-12T14:35:21.311Z",
-        "lastSuccessAt": "2026-10-12T14:35:21.311Z",
+        "lastAttemptAt": "2026-10-13T14:25:58.907Z",
+        "lastSuccessAt": "2026-10-13T14:25:58.907Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisksu",
       "installationId": 170198192,
-      "maxStableVersionCode": 862,
-      "maxVersionCode": 862,
+      "maxStableVersionCode": 864,
+      "maxVersionCode": 864,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
+            "id": 637267849,
+            "name": "Zygisk-Next-1.5.2-864-a4a72ce-release.zip",
+            "sha256": "ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
+            "size": 6714344,
+            "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.2/Zygisk-Next-1.5.2-864-a4a72ce-release.zip"
+          },
+          "body": "- 修复某些系统上导致应用崩溃的问题\r\n\r\n---\r\n\r\n- Fixed an issue that caused the app to crash on certain systems.\r\n\r\n---\r\n\r\nSHA256: ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
+          "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.2",
+          "immutable": true,
+          "name": "v1.5.2",
+          "prerelease": false,
+          "prop": {
+            "author": "LSPosed Developers",
+            "description": "Standalone implementation of Zygisk.",
+            "id": "zygisksu",
+            "name": "Zygisk Next",
+            "updateJson": "https://lsposed.zip/zygisk-next/update.json",
+            "version": "1.5.2 (864-a4a72ce-release)",
+            "versionCode": "864"
+          },
+          "publishedAt": "2026-10-13T14:24:46Z",
+          "releaseId": 411764538,
+          "tag": "v1.5.2",
+          "tagCommit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
+          "version": "1.5.2 (864-a4a72ce-release)",
+          "versionCode": 864
+        },
         {
           "asset": {
             "digest": "sha256:17c506ffea119f03e5e9d9c70acd400efdd804f35d8968d0d56a5d66fea9f3ab",
@@ -3891,21 +3921,25 @@
         "410695642": {
           "checkedAt": "2026-10-12T14:35:21.311Z",
           "ok": true
+        },
+        "411764538": {
+          "checkedAt": "2026-10-13T14:25:58.907Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:17c506ffea119f03e5e9d9c70acd400efdd804f35d8968d0d56a5d66fea9f3ab",
-          "id": 634026467,
-          "name": "Zygisk-Next-1.5.1-862-56ae062-release.zip",
-          "sha256": "17c506ffea119f03e5e9d9c70acd400efdd804f35d8968d0d56a5d66fea9f3ab",
-          "size": 6682412,
-          "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.1/Zygisk-Next-1.5.1-862-56ae062-release.zip"
+          "digest": "sha256:ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
+          "id": 637267849,
+          "name": "Zygisk-Next-1.5.2-864-a4a72ce-release.zip",
+          "sha256": "ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
+          "size": 6714344,
+          "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.2/Zygisk-Next-1.5.2-864-a4a72ce-release.zip"
         },
-        "body": "- 支持 riscv64 架构\r\n- 增加 zygote-blacklist ，允许停止注入某些 zygote （通过 WebUI 开关或 `znctl zygote-blacklist` 命令设置）\r\n- 修复 Android 17 QPR2 支持\r\n- 适配开启 CONFIG_PROC_MEM_FORCE_PTRACE 的内核\r\n- 修复一些其他问题\r\n\r\n---\r\n\r\n- Added support for the riscv64 architecture\r\n- Added a zygote blacklist to allow disabling injection into specific zygotes (configurable via the WebUI toggle or the `znctl zygote-blacklist` command)\r\n- Fixed support for Android 17 QPR2\r\n- Added compatibility for kernels with `CONFIG_PROC_MEM_FORCE_PTRACE` enabled\r\n- Fixed various other issues\r\n\r\n---\r\n\r\nSHA256: 17c506ffea119f03e5e9d9c70acd400efdd804f35d8968d0d56a5d66fea9f3ab",
-        "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.1",
+        "body": "- 修复某些系统上导致应用崩溃的问题\r\n\r\n---\r\n\r\n- Fixed an issue that caused the app to crash on certain systems.\r\n\r\n---\r\n\r\nSHA256: ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
+        "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.2",
         "immutable": true,
-        "name": "v1.5.1",
+        "name": "v1.5.2",
         "prerelease": false,
         "prop": {
           "author": "LSPosed Developers",
@@ -3913,15 +3947,15 @@
           "id": "zygisksu",
           "name": "Zygisk Next",
           "updateJson": "https://lsposed.zip/zygisk-next/update.json",
-          "version": "1.5.1 (862-56ae062-release)",
-          "versionCode": "862"
+          "version": "1.5.2 (864-a4a72ce-release)",
+          "versionCode": "864"
         },
-        "publishedAt": "2026-10-12T14:34:55Z",
-        "releaseId": 410695642,
-        "tag": "v1.5.1",
+        "publishedAt": "2026-10-13T14:24:46Z",
+        "releaseId": 411764538,
+        "tag": "v1.5.2",
         "tagCommit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
-        "version": "1.5.1 (862-56ae062-release)",
-        "versionCode": 862
+        "version": "1.5.2 (864-a4a72ce-release)",
+        "versionCode": 864
       },
       "stars": {
         "count": 859,
