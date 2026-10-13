@@ -270,21 +270,17 @@
       "fullName": "NativeStar/KernelSUGrantToast",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-13T15:07:28.890Z",
+      "maxVersionCode": 14,
       "message": null,
       "repositoryId": 1205795668,
-      "request": {
-        "checkedAt": "2026-10-13T15:04:26.827Z",
-        "commit": "7fd0b6184e6a2fc4c2559ec4dd35eff199b13efc",
-        "issues": [],
-        "latestTag": "2.3-resp",
-        "ok": true,
-        "releaseId": 411802512,
-        "repositoryId": 1205795668,
-        "submissionId": "cm90x4d1wr"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-13T15:02:44Z",
+        "tag": "2.3-resp",
+        "version": "2.3",
+        "versionCode": 14
+      }
     },
     "netproxy": {
       "contentCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",

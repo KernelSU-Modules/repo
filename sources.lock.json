@@ -2404,6 +2404,199 @@
         "verified": "self"
       }
     },
+    "ksuGrantToast": {
+      "content": {
+        "blobs": {
+          "README.md": "97f9258a1d0830e743c5720618e2ad536a8aefea",
+          "mdAssets/1000130680.png": "08a1e5d679767c68e9aad68c8cfe594bdb9d2261",
+          "mdAssets/1000132279.png": "5678b14b51f92854b207888e68f1165385f21a28",
+          "module.yaml": "dc5daefaf689787b3924599c1c60a5b5ded60608"
+        },
+        "commit": "7fd0b6184e6a2fc4c2559ec4dd35eff199b13efc",
+        "fetchedAt": "2026-10-13T15:07:28.890Z",
+        "files": {
+          "README.md": "843f373571feb5456e38b8021567da62a8e5041f04007ff49915e893ce14f730",
+          "mdAssets/1000130680.png": "eff6cdcaab0e20077ce10196b55c1abbd2c3a1edf804ddf1d8c1478ec0495251",
+          "mdAssets/1000132279.png": "eec71524f3b2e132bdc46bee5ab8c7899b7e025e5f6e2e065485c4fa43731c70",
+          "module.yaml": "62e651060de342f27ea541bc435df4d2d39fb24d85ec2cb755904c343418a66e"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "master"
+      },
+      "fullName": "NativeStar/KernelSUGrantToast",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-13T15:07:28.890Z",
+        "lastSuccessAt": "2026-10-13T15:07:28.890Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "ksuGrantToast",
+      "installationId": 171001753,
+      "maxStableVersionCode": 14,
+      "maxVersionCode": 14,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:5a4c1725911af38afb2daf7286e604e1e76b5c6b03cc095079b7d79c381f627a",
+            "id": 637367401,
+            "name": "KernelSUGrantToast.zip",
+            "sha256": "5a4c1725911af38afb2daf7286e604e1e76b5c6b03cc095079b7d79c381f627a",
+            "size": 284505,
+            "url": "https://github.com/NativeStar/KernelSUGrantToast/releases/download/2.3-resp/KernelSUGrantToast.zip"
+          },
+          "body": "该版本文件内容和上版本完全一致 只是为了上新的KernelSU模块仓库\r\n如果管理器内没有更新提示则无需更新\r\n功能更新...下次一定",
+          "htmlUrl": "https://github.com/NativeStar/KernelSUGrantToast/releases/tag/2.3-resp",
+          "immutable": true,
+          "name": "2.3-KernelSUNewRepo",
+          "prerelease": false,
+          "prop": {
+            "author": "NativeStar",
+            "description": "(❌Disabled)Show a root granted toast like Magisk.",
+            "id": "ksuGrantToast",
+            "name": "KernelSU Grant Toast",
+            "updateJson": "https://raw.githubusercontent.com/NativeStar/KernelSUGrantToast/master/update.json",
+            "version": "2.3",
+            "versionCode": "14"
+          },
+          "publishedAt": "2026-10-13T15:02:44Z",
+          "releaseId": 411802512,
+          "tag": "2.3-resp",
+          "tagCommit": "7fd0b6184e6a2fc4c2559ec4dd35eff199b13efc",
+          "version": "2.3",
+          "versionCode": 14
+        }
+      ],
+      "repositoryId": 1205795668,
+      "seen": {
+        "307128273": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "307560338": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "308854020": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "310695566": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "316863367": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "323335901": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "325105007": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "338548973": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "342526517": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "344853281": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "346783157": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "379053683": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387631734": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "398089053": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "411802512": {
+          "checkedAt": "2026-10-13T15:07:28.890Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:5a4c1725911af38afb2daf7286e604e1e76b5c6b03cc095079b7d79c381f627a",
+          "id": 637367401,
+          "name": "KernelSUGrantToast.zip",
+          "sha256": "5a4c1725911af38afb2daf7286e604e1e76b5c6b03cc095079b7d79c381f627a",
+          "size": 284505,
+          "url": "https://github.com/NativeStar/KernelSUGrantToast/releases/download/2.3-resp/KernelSUGrantToast.zip"
+        },
+        "body": "该版本文件内容和上版本完全一致 只是为了上新的KernelSU模块仓库\r\n如果管理器内没有更新提示则无需更新\r\n功能更新...下次一定",
+        "htmlUrl": "https://github.com/NativeStar/KernelSUGrantToast/releases/tag/2.3-resp",
+        "immutable": true,
+        "name": "2.3-KernelSUNewRepo",
+        "prerelease": false,
+        "prop": {
+          "author": "NativeStar",
+          "description": "(❌Disabled)Show a root granted toast like Magisk.",
+          "id": "ksuGrantToast",
+          "name": "KernelSU Grant Toast",
+          "updateJson": "https://raw.githubusercontent.com/NativeStar/KernelSUGrantToast/master/update.json",
+          "version": "2.3",
+          "versionCode": "14"
+        },
+        "publishedAt": "2026-10-13T15:02:44Z",
+        "releaseId": 411802512,
+        "tag": "2.3-resp",
+        "tagCommit": "7fd0b6184e6a2fc4c2559ec4dd35eff199b13efc",
+        "version": "2.3",
+        "versionCode": 14
+      },
+      "stars": {
+        "count": 56,
+        "fetchedAt": "2026-10-13T15:07:28.890Z",
+        "fullName": "NativeStar/KernelSUGrantToast",
+        "repositoryId": 1205795668,
+        "verified": "self"
+      }
+    },
     "netproxy": {
       "content": {
         "blobs": {
