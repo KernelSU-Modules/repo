@@ -3855,17 +3855,47 @@
       "fullName": "VeryBaaad/ZygiskNextNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-13T13:21:27.078Z",
-        "lastSuccessAt": "2026-10-13T13:21:27.078Z",
+        "lastAttemptAt": "2026-10-13T16:48:08.227Z",
+        "lastSuccessAt": "2026-10-13T16:48:08.227Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 129,
-      "maxVersionCode": 129,
+      "maxStableVersionCode": 172,
+      "maxVersionCode": 172,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:21d88bc872935a3cf0ac2216c9b4b3a8c707a7dd3e345471fdcbd549bef0bd17",
+            "id": 637645634,
+            "name": "Zygisk-Next-Next-v1.8.2-172-15ebf86-release.zip",
+            "sha256": "21d88bc872935a3cf0ac2216c9b4b3a8c707a7dd3e345471fdcbd549bef0bd17",
+            "size": 2964661,
+            "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.8.2/Zygisk-Next-Next-v1.8.2-172-15ebf86-release.zip"
+          },
+          "body": "## What's Changed\n* chore(deps-dev): bump @types/node from 26.6.4 to 26.6.5 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/96\n* chore(deps): bump @material-symbols/font-400 from 0.47.6 to 0.48.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/95\n* chore(deps): bump motion-v from 2.5.2 to 2.6.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/94\n* chore(deps-dev): bump @vitejs/plugin-vue from 6.0.9 to 6.0.10 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/93\n* chore(deps): bump gradle-wrapper from 9.8.0 to 9.8.1 by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/92\n* chore(deps-dev): bump vite from 8.3.2 to 8.3.4 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/97\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.8.1...v1.8.2\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.8.2",
+          "immutable": true,
+          "name": "v1.8.2",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "Zygisk Next Next",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
+            "version": "v1.8.2 (172-15ebf86-release)",
+            "versionCode": "172"
+          },
+          "publishedAt": "2026-10-13T16:47:44Z",
+          "releaseId": 411901537,
+          "tag": "v1.8.2",
+          "tagCommit": "15ebf86d129a261dd34315d2c0da2dbf132ce150",
+          "version": "v1.8.2 (172-15ebf86-release)",
+          "versionCode": 172
+        },
         {
           "asset": {
             "digest": "sha256:96a7db934011abbf126db00c4b7738f526a171d520f73af4bba4609f4453fdc9",
@@ -4084,21 +4114,25 @@
         "411698521": {
           "checkedAt": "2026-10-13T13:21:27.078Z",
           "ok": true
+        },
+        "411901537": {
+          "checkedAt": "2026-10-13T16:48:08.227Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:96a7db934011abbf126db00c4b7738f526a171d520f73af4bba4609f4453fdc9",
-          "id": 637103228,
-          "name": "Zygisk-Next-Next-v1.8.1-129-946c8c3-release.zip",
-          "sha256": "96a7db934011abbf126db00c4b7738f526a171d520f73af4bba4609f4453fdc9",
-          "size": 3641540,
-          "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.8.1/Zygisk-Next-Next-v1.8.1-129-946c8c3-release.zip"
+          "digest": "sha256:21d88bc872935a3cf0ac2216c9b4b3a8c707a7dd3e345471fdcbd549bef0bd17",
+          "id": 637645634,
+          "name": "Zygisk-Next-Next-v1.8.2-172-15ebf86-release.zip",
+          "sha256": "21d88bc872935a3cf0ac2216c9b4b3a8c707a7dd3e345471fdcbd549bef0bd17",
+          "size": 2964661,
+          "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.8.2/Zygisk-Next-Next-v1.8.2-172-15ebf86-release.zip"
         },
-        "body": "**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.8.0...v1.8.1\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.8.1",
+        "body": "## What's Changed\n* chore(deps-dev): bump @types/node from 26.6.4 to 26.6.5 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/96\n* chore(deps): bump @material-symbols/font-400 from 0.47.6 to 0.48.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/95\n* chore(deps): bump motion-v from 2.5.2 to 2.6.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/94\n* chore(deps-dev): bump @vitejs/plugin-vue from 6.0.9 to 6.0.10 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/93\n* chore(deps): bump gradle-wrapper from 9.8.0 to 9.8.1 by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/92\n* chore(deps-dev): bump vite from 8.3.2 to 8.3.4 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/97\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.8.1...v1.8.2\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.8.2",
         "immutable": true,
-        "name": "v1.8.1",
+        "name": "v1.8.2",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -4106,15 +4140,15 @@
           "id": "zygisknextsu",
           "name": "Zygisk Next Next",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
-          "version": "v1.8.1 (129-946c8c3-release)",
-          "versionCode": "129"
+          "version": "v1.8.2 (172-15ebf86-release)",
+          "versionCode": "172"
         },
-        "publishedAt": "2026-10-13T13:21:05Z",
-        "releaseId": 411698521,
-        "tag": "v1.8.1",
-        "tagCommit": "946c8c3347d15ff99e8edd4a34b686d08855401c",
-        "version": "v1.8.1 (129-946c8c3-release)",
-        "versionCode": 129
+        "publishedAt": "2026-10-13T16:47:44Z",
+        "releaseId": 411901537,
+        "tag": "v1.8.2",
+        "tagCommit": "15ebf86d129a261dd34315d2c0da2dbf132ce150",
+        "version": "v1.8.2 (172-15ebf86-release)",
+        "versionCode": 172
       },
       "stars": {
         "count": 52,
