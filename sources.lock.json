@@ -1435,14 +1435,14 @@
       },
       "fullName": "kreza6173-pixel/aegis-firewall",
       "health": {
-        "installation": "present",
-        "lastAttemptAt": "2026-10-13T01:19:56.260Z",
+        "installation": "missing",
+        "lastAttemptAt": "2026-10-13T03:18:06.850Z",
         "lastSuccessAt": "2026-10-13T01:19:56.260Z",
-        "message": null,
-        "status": "ok"
+        "message": "installation-missing: the KernelSU Modules App is not installed on the repository; using the last synced data",
+        "status": "stale"
       },
       "id": "aegis_firewall",
-      "installationId": 170529658,
+      "installationId": null,
       "maxStableVersionCode": 100,
       "maxVersionCode": 100,
       "prerelease": null,
@@ -1538,14 +1538,14 @@
       },
       "fullName": "kreza6173-pixel/apex-apps",
       "health": {
-        "installation": "present",
-        "lastAttemptAt": "2026-10-13T01:21:39.463Z",
+        "installation": "missing",
+        "lastAttemptAt": "2026-10-13T03:18:06.850Z",
         "lastSuccessAt": "2026-10-13T01:21:39.463Z",
-        "message": null,
-        "status": "ok"
+        "message": "installation-missing: the KernelSU Modules App is not installed on the repository; using the last synced data",
+        "status": "stale"
       },
       "id": "apex_apps",
-      "installationId": 170529658,
+      "installationId": null,
       "maxStableVersionCode": 100,
       "maxVersionCode": 100,
       "prerelease": null,
