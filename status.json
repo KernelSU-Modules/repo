@@ -120,21 +120,21 @@
       }
     },
     "VexZygisk": {
-      "contentCommit": "371ac4d0253cf71836555952bd09dfd171d536f7",
+      "contentCommit": "adb7c395820a81c445748b656e30cf79f5631b5f",
       "fullName": "Lxiaoyao077/VexZygisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at 371ac4d.",
+      "message": "manifest-missing: module.yaml does not exist at adb7c39.",
       "repositoryId": 1305247883,
       "request": {
-        "checkedAt": "2026-10-12T11:47:59.430Z",
-        "commit": "371ac4d0253cf71836555952bd09dfd171d536f7",
+        "checkedAt": "2026-10-13T09:18:50.026Z",
+        "commit": "adb7c395820a81c445748b656e30cf79f5631b5f",
         "issues": [
           {
             "code": "manifest-missing",
-            "message": "module.yaml does not exist at 371ac4d.",
+            "message": "module.yaml does not exist at adb7c39.",
             "severity": "error"
           }
         ],
@@ -355,16 +355,16 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-12T22:51:29.746Z",
-      "maxVersionCode": 561,
+      "lastSuccessAt": "2026-10-13T09:18:50.026Z",
+      "maxVersionCode": 562,
       "message": null,
       "repositoryId": 1415623276,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-12T14:35:04Z",
-        "tag": "v561-ff124fb",
-        "version": "v13.5.4.3 (561-ff124fb-release)",
-        "versionCode": 561
+        "publishedAt": "2026-10-13T09:18:25Z",
+        "tag": "v562-b033d81",
+        "version": "v13.5.4.3 (562-b033d81-release)",
+        "versionCode": 562
       }
     },
     "zygisknextsu": {
