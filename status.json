@@ -185,16 +185,16 @@
       "fullName": "klmmlk/KernelSU-ClipShield",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-13T16:45:41.585Z",
-      "maxVersionCode": 6,
+      "lastSuccessAt": "2026-10-13T16:51:41.935Z",
+      "maxVersionCode": 7,
       "message": null,
       "repositoryId": 1417109515,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-13T16:41:00Z",
-        "tag": "v1.2.0",
-        "version": "v1.2.0",
-        "versionCode": 6
+        "publishedAt": "2026-10-13T16:51:13Z",
+        "tag": "v1.2.1",
+        "version": "v1.2.1",
+        "versionCode": 7
       }
     },
     "device_faker": {

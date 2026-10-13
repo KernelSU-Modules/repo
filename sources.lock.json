@@ -1712,17 +1712,46 @@
       "fullName": "klmmlk/KernelSU-ClipShield",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-13T16:45:41.585Z",
-        "lastSuccessAt": "2026-10-13T16:45:41.585Z",
+        "lastAttemptAt": "2026-10-13T16:51:41.935Z",
+        "lastSuccessAt": "2026-10-13T16:51:41.935Z",
         "message": null,
         "status": "ok"
       },
       "id": "clipshield",
       "installationId": 171057853,
-      "maxStableVersionCode": 6,
-      "maxVersionCode": 6,
+      "maxStableVersionCode": 7,
+      "maxVersionCode": 7,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:fd170278a41d4d20007a87116de716550c2deafe50a17abecd1fd8630c14b921",
+            "id": 637655596,
+            "name": "clipshield-7-v1.2.1.zip",
+            "sha256": "fd170278a41d4d20007a87116de716550c2deafe50a17abecd1fd8630c14b921",
+            "size": 1504829,
+            "url": "https://github.com/klmmlk/KernelSU-ClipShield/releases/download/v1.2.1/clipshield-7-v1.2.1.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/klmmlk/KernelSU-ClipShield/compare/v1.2.0...v1.2.1",
+          "htmlUrl": "https://github.com/klmmlk/KernelSU-ClipShield/releases/tag/v1.2.1",
+          "immutable": true,
+          "name": "v1.2.1",
+          "prerelease": false,
+          "prop": {
+            "author": "klmmlk",
+            "description": "基于 Zygisk 的按应用剪贴板保护：拦截被拉黑 App 的剪切板读取与监听（可弹提示），智能模式仅在用户主动粘贴时放行，输入法自动放行。需要 Zygisk（Zygisk Next / ReZygisk）。Android 13+ / arm64-v8a。",
+            "id": "clipshield",
+            "name": "别动我的剪切板",
+            "version": "v1.2.1",
+            "versionCode": "7"
+          },
+          "publishedAt": "2026-10-13T16:51:13Z",
+          "releaseId": 411904499,
+          "tag": "v1.2.1",
+          "tagCommit": "1b01aeed6c0603e9749e822e0c4e278f97928c72",
+          "version": "v1.2.1",
+          "versionCode": 7
+        },
         {
           "asset": {
             "digest": "sha256:df1bd121d3521b51259d4fbb333730ad41d0f208e714bc0632abd4429b2a539f",
@@ -1758,36 +1787,40 @@
         "411896109": {
           "checkedAt": "2026-10-13T16:45:41.585Z",
           "ok": true
+        },
+        "411904499": {
+          "checkedAt": "2026-10-13T16:51:41.935Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:df1bd121d3521b51259d4fbb333730ad41d0f208e714bc0632abd4429b2a539f",
-          "id": 637629111,
-          "name": "clipshield-6-v1.2.0.zip",
-          "sha256": "df1bd121d3521b51259d4fbb333730ad41d0f208e714bc0632abd4429b2a539f",
-          "size": 13479,
-          "url": "https://github.com/klmmlk/KernelSU-ClipShield/releases/download/v1.2.0/clipshield-6-v1.2.0.zip"
+          "digest": "sha256:fd170278a41d4d20007a87116de716550c2deafe50a17abecd1fd8630c14b921",
+          "id": 637655596,
+          "name": "clipshield-7-v1.2.1.zip",
+          "sha256": "fd170278a41d4d20007a87116de716550c2deafe50a17abecd1fd8630c14b921",
+          "size": 1504829,
+          "url": "https://github.com/klmmlk/KernelSU-ClipShield/releases/download/v1.2.1/clipshield-7-v1.2.1.zip"
         },
-        "body": "**Full Changelog**: https://github.com/klmmlk/KernelSU-ClipShield/commits/v1.2.0",
-        "htmlUrl": "https://github.com/klmmlk/KernelSU-ClipShield/releases/tag/v1.2.0",
+        "body": "**Full Changelog**: https://github.com/klmmlk/KernelSU-ClipShield/compare/v1.2.0...v1.2.1",
+        "htmlUrl": "https://github.com/klmmlk/KernelSU-ClipShield/releases/tag/v1.2.1",
         "immutable": true,
-        "name": "v1.2.0",
+        "name": "v1.2.1",
         "prerelease": false,
         "prop": {
           "author": "klmmlk",
           "description": "基于 Zygisk 的按应用剪贴板保护：拦截被拉黑 App 的剪切板读取与监听（可弹提示），智能模式仅在用户主动粘贴时放行，输入法自动放行。需要 Zygisk（Zygisk Next / ReZygisk）。Android 13+ / arm64-v8a。",
           "id": "clipshield",
           "name": "别动我的剪切板",
-          "version": "v1.2.0",
-          "versionCode": "6"
+          "version": "v1.2.1",
+          "versionCode": "7"
         },
-        "publishedAt": "2026-10-13T16:41:00Z",
-        "releaseId": 411896109,
-        "tag": "v1.2.0",
-        "tagCommit": "769671c713a5daeba7db8edfa51152088729edb6",
-        "version": "v1.2.0",
-        "versionCode": 6
+        "publishedAt": "2026-10-13T16:51:13Z",
+        "releaseId": 411904499,
+        "tag": "v1.2.1",
+        "tagCommit": "1b01aeed6c0603e9749e822e0c4e278f97928c72",
+        "version": "v1.2.1",
+        "versionCode": 7
       },
       "stars": {
         "count": 0,
