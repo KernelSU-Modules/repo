@@ -1,0 +1,19 @@
+id: clipshield
+status: pending
+request:
+  submissionId: 5gm2q0m1c6
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1417109515
+    ownerId: 12571901
+    fullName: klmmlk/KernelSU-ClipShield
+    manifestPath: module.yaml
+  submittedBy: 12571901
+  submittedByLogin: klmmlk
+  submittedAt: 2026-10-13T16:43:42.922Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64333
+createdAt: 2026-10-13T16:43:42.922Z
+updatedAt: 2026-10-13T16:43:42.922Z
