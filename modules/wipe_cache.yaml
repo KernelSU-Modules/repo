@@ -1,0 +1,19 @@
+id: wipe_cache
+status: pending
+request:
+  submissionId: kjqzc2e64l
+  kind: submit
+  source:
+    host: github
+    repositoryId: 983784625
+    ownerId: 199041254
+    fullName: FLYCOM-E/ClearBox
+    manifestPath: module.yaml
+  submittedBy: 199041254
+  submittedByLogin: FLYCOM-E
+  submittedAt: 2026-10-13T13:52:49.573Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64331
+createdAt: 2026-10-13T13:52:49.573Z
+updatedAt: 2026-10-13T13:52:49.573Z
