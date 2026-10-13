@@ -372,16 +372,16 @@
       "fullName": "VeryBaaad/ZygiskNextNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-11T11:29:25.802Z",
-      "maxVersionCode": 99,
+      "lastSuccessAt": "2026-10-13T13:21:27.078Z",
+      "maxVersionCode": 129,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-11T09:40:51Z",
-        "tag": "v1.8.0",
-        "version": "v1.8.0 (99-da2570a-release)",
-        "versionCode": 99
+        "publishedAt": "2026-10-13T13:21:05Z",
+        "tag": "v1.8.1",
+        "version": "v1.8.1 (129-946c8c3-release)",
+        "versionCode": 129
       }
     },
     "zygisksu": {
