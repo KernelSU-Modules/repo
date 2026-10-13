@@ -1521,6 +1521,109 @@
         "verified": "self"
       }
     },
+    "apex_apps": {
+      "content": {
+        "blobs": {
+          "README.md": "aadfbdf3b31b1d562abb91127fc24f18528586a3",
+          "module.yaml": "8b431133b2861840afb9fb38e7fea30cd0c16705"
+        },
+        "commit": "1abb73de68f40c1d290a55ebee0551a93b97cb7b",
+        "fetchedAt": "2026-10-13T01:21:39.463Z",
+        "files": {
+          "README.md": "c4b31a6f0b514bc91814ad53ba02b993e3037ca22bfb5eaefdf35d8339ff1e6e",
+          "module.yaml": "62f83aa27b881e4abefe7b3c11a35e79673079c4982aad5f7a87dcfef7524c45"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "kreza6173-pixel/apex-apps",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-13T01:21:39.463Z",
+        "lastSuccessAt": "2026-10-13T01:21:39.463Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "apex_apps",
+      "installationId": 170529658,
+      "maxStableVersionCode": 100,
+      "maxVersionCode": 100,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:c7bc9640a49b83f340ade0924aa8c8b579561f9c92d8ced96d327fc4eca63293",
+            "id": 635490411,
+            "name": "apex_apps-100-v1.0.0.zip",
+            "sha256": "c7bc9640a49b83f340ade0924aa8c8b579561f9c92d8ced96d327fc4eca63293",
+            "size": 29035,
+            "url": "https://github.com/kreza6173-pixel/apex-apps/releases/download/v1.0.0/apex_apps-100-v1.0.0.zip"
+          },
+          "body": "## APEX // APPS v1.0.0\n\nFirst public release.\n\n- Every preinstalled app is matched against a built-in safety list and labelled Safe, Careful or Required\n- Apps the system depends on are refused outright, so a bad tap cannot break the boot\n- Disable, hide (keeps all data) or freeze apps, one at a time or in bulk, per Android user\n- Snapshots: a snapshot is taken automatically before any batch change, and restoring one only turns apps back on\n- Review tab groups preinstalled apps by consequence, with bulk actions per group\n- Background permissions per app: run in background, wake lock, start at boot, clipboard, overlays, usage access, installing other apps\n- Battery policy per app: standby bucket and the Doze whitelist\n- Backups to Download/APEX with the app files and, optionally, its data\n- Dual apps and second space are handled as separate users\n- A change journal with a one-tap undo of the last change\n- Action button prints a summary of everything changed so far\n\nNothing is changed at install time. Requires a WebUI-capable root manager.\n",
+          "htmlUrl": "https://github.com/kreza6173-pixel/apex-apps/releases/tag/v1.0.0",
+          "immutable": true,
+          "name": "v1.0.0",
+          "prerelease": false,
+          "prop": {
+            "author": "kreza6173-pixel",
+            "description": "App manager with WebUI. Review and disable preinstalled apps with snapshot restore, freeze apps, control background permissions, back up app data, and tune battery policy per app.",
+            "id": "apex_apps",
+            "name": "APEX // APPS",
+            "version": "v1.0.0",
+            "versionCode": "100"
+          },
+          "publishedAt": "2026-10-13T01:17:15Z",
+          "releaseId": 411135065,
+          "tag": "v1.0.0",
+          "tagCommit": "1abb73de68f40c1d290a55ebee0551a93b97cb7b",
+          "version": "v1.0.0",
+          "versionCode": 100
+        }
+      ],
+      "repositoryId": 1416068592,
+      "seen": {
+        "411135065": {
+          "checkedAt": "2026-10-13T01:21:39.463Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:c7bc9640a49b83f340ade0924aa8c8b579561f9c92d8ced96d327fc4eca63293",
+          "id": 635490411,
+          "name": "apex_apps-100-v1.0.0.zip",
+          "sha256": "c7bc9640a49b83f340ade0924aa8c8b579561f9c92d8ced96d327fc4eca63293",
+          "size": 29035,
+          "url": "https://github.com/kreza6173-pixel/apex-apps/releases/download/v1.0.0/apex_apps-100-v1.0.0.zip"
+        },
+        "body": "## APEX // APPS v1.0.0\n\nFirst public release.\n\n- Every preinstalled app is matched against a built-in safety list and labelled Safe, Careful or Required\n- Apps the system depends on are refused outright, so a bad tap cannot break the boot\n- Disable, hide (keeps all data) or freeze apps, one at a time or in bulk, per Android user\n- Snapshots: a snapshot is taken automatically before any batch change, and restoring one only turns apps back on\n- Review tab groups preinstalled apps by consequence, with bulk actions per group\n- Background permissions per app: run in background, wake lock, start at boot, clipboard, overlays, usage access, installing other apps\n- Battery policy per app: standby bucket and the Doze whitelist\n- Backups to Download/APEX with the app files and, optionally, its data\n- Dual apps and second space are handled as separate users\n- A change journal with a one-tap undo of the last change\n- Action button prints a summary of everything changed so far\n\nNothing is changed at install time. Requires a WebUI-capable root manager.\n",
+        "htmlUrl": "https://github.com/kreza6173-pixel/apex-apps/releases/tag/v1.0.0",
+        "immutable": true,
+        "name": "v1.0.0",
+        "prerelease": false,
+        "prop": {
+          "author": "kreza6173-pixel",
+          "description": "App manager with WebUI. Review and disable preinstalled apps with snapshot restore, freeze apps, control background permissions, back up app data, and tune battery policy per app.",
+          "id": "apex_apps",
+          "name": "APEX // APPS",
+          "version": "v1.0.0",
+          "versionCode": "100"
+        },
+        "publishedAt": "2026-10-13T01:17:15Z",
+        "releaseId": 411135065,
+        "tag": "v1.0.0",
+        "tagCommit": "1abb73de68f40c1d290a55ebee0551a93b97cb7b",
+        "version": "v1.0.0",
+        "versionCode": 100
+      },
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-10-13T01:21:39.463Z",
+        "fullName": "kreza6173-pixel/apex-apps",
+        "repositoryId": 1416068592,
+        "verified": "self"
+      }
+    },
     "device_faker": {
       "content": {
         "blobs": {

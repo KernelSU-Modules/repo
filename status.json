@@ -168,21 +168,17 @@
       "fullName": "kreza6173-pixel/apex-apps",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-13T01:21:39.463Z",
+      "maxVersionCode": 100,
       "message": null,
       "repositoryId": 1416068592,
-      "request": {
-        "checkedAt": "2026-10-13T01:19:56.260Z",
-        "commit": "1abb73de68f40c1d290a55ebee0551a93b97cb7b",
-        "issues": [],
-        "latestTag": "v1.0.0",
-        "ok": true,
-        "releaseId": 411135065,
-        "repositoryId": 1416068592,
-        "submissionId": "leoswtltbw"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-13T01:17:15Z",
+        "tag": "v1.0.0",
+        "version": "v1.0.0",
+        "versionCode": 100
+      }
     },
     "device_faker": {
       "contentCommit": "164ae0b7c38f5241e28b4c5f1ee43c7a66da5e8a",
