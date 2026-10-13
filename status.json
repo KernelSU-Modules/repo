@@ -120,21 +120,21 @@
       }
     },
     "VexZygisk": {
-      "contentCommit": "17db79ae6d8459a0c48661a771160a2c2b4cfabc",
+      "contentCommit": "492135c62cb152d2300796186aa9e763a6480f5f",
       "fullName": "Lxiaoyao077/VexZygisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at 17db79a.",
+      "message": "manifest-missing: module.yaml does not exist at 492135c.",
       "repositoryId": 1305247883,
       "request": {
-        "checkedAt": "2026-10-13T13:53:14.868Z",
-        "commit": "17db79ae6d8459a0c48661a771160a2c2b4cfabc",
+        "checkedAt": "2026-10-13T13:58:11.086Z",
+        "commit": "492135c62cb152d2300796186aa9e763a6480f5f",
         "issues": [
           {
             "code": "manifest-missing",
-            "message": "module.yaml does not exist at 17db79a.",
+            "message": "module.yaml does not exist at 492135c.",
             "severity": "error"
           }
         ],
@@ -338,21 +338,17 @@
       "fullName": "FLYCOM-E/ClearBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-13T13:58:11.086Z",
+      "maxVersionCode": 101,
       "message": null,
       "repositoryId": 983784625,
-      "request": {
-        "checkedAt": "2026-10-13T13:53:14.868Z",
-        "commit": "49e7adf9912378f0ed097ca15be61d3575db0fd8",
-        "issues": [],
-        "latestTag": "101-V5.2.1",
-        "ok": true,
-        "releaseId": 411715996,
-        "repositoryId": 983784625,
-        "submissionId": "kjqzc2e64l"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-13T13:39:07Z",
+        "tag": "101-V5.2.1",
+        "version": "V5.2.1",
+        "versionCode": 101
+      }
     },
     "yukizygisk": {
       "contentCommit": "773a02fa649a2c8adf581b9cc2b852b1b56b88b9",

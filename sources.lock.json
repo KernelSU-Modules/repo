@@ -2986,6 +2986,175 @@
         "verified": "self"
       }
     },
+    "wipe_cache": {
+      "content": {
+        "blobs": {
+          ".Images/ClearBox.png": "168a9c65452501141905c5439ba42374957f2162",
+          "README.md": "4a631b19b45800913a02eb4c319eca863800974d",
+          "module.yaml": "96de18fb0b900ab4d26dd861a310f4e13af79117"
+        },
+        "commit": "49e7adf9912378f0ed097ca15be61d3575db0fd8",
+        "fetchedAt": "2026-10-13T13:58:11.086Z",
+        "files": {
+          ".Images/ClearBox.png": "91029961db5df320956f0d46ad234f7df6e7bbac22f3ee2376ebcd909531d261",
+          "README.md": "f68ec4179d7ee4ca3a78ff77a7c31fd0d723432831c4954e0ed9ab2d64ec1df2",
+          "module.yaml": "e7ab4ad5de80c860a6a9c8b88170670a4e48397483d23960e87fb665065281b9"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "FLYCOM-E/ClearBox",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-13T13:58:11.086Z",
+        "lastSuccessAt": "2026-10-13T13:58:11.086Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "wipe_cache",
+      "installationId": 170625483,
+      "maxStableVersionCode": 101,
+      "maxVersionCode": 101,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:2b2715837d328e8bd56314f6adcd0527f2a50445af21b1579e4a60bd3b400a28",
+            "id": 637148885,
+            "name": "ClearBox-V5.2.1-101.zip",
+            "sha256": "2b2715837d328e8bd56314f6adcd0527f2a50445af21b1579e4a60bd3b400a28",
+            "size": 3287499,
+            "url": "https://github.com/FLYCOM-E/ClearBox/releases/download/101-V5.2.1/ClearBox-V5.2.1-101.zip"
+          },
+          "body": "<details>\r\n  <summary> en-US </summary>\r\n\r\n## ADD\r\n\r\n- Storage analysis (NCDU) now supports displaying symlink types, performance optimization\r\n- Added cleanup of SystemServer crash logs\r\n- Added storage cleanup rule preset:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- File organization/cleanup concurrency support, allocated based on device CPU core multiplier, measured file organization speed up to x2\r\n- Unified module packaging, automatically extracts the corresponding architecture during installation, no extra storage space used\r\n- App UI theme, layout, animation optimization, upgraded library versions\r\n- Whitelist now also applies to system cache cleanup\r\n\r\n## FIX\r\n\r\n- Fixed a bug where file operations could freeze in some scenarios\r\n- Fixed abnormal animation in App transparent mode\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> zh-CN </summary>\r\n\r\n## ADD\r\n\r\n- 储存分析（NCDU）支持显示软链接类型，性能优化\r\n- 增加清理 SystemServer 崩溃日志\r\n- 新增储存清理规则预设: \r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- 文件归类/清理并发支持，根据设备 CPU 核倍数分配，实测文件归类速度最高 x2\r\n- 统一打包模块，安装时自动解压对应架构，不占用额外储存空间\r\n- App UI 主题、排版、动效优化，升级库版本\r\n- 现在白名单对系统缓存清理同样生效\r\n\r\n## FIX\r\n\r\n- 修复部分场景下文件操作可能卡死的 Bug\r\n- 修复 App 透明模式动画异常\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> zh-TW </summary>\r\n\r\n## ADD\r\n\r\n- 儲存分析（NCDU）支援顯示軟連結類型，效能最佳化\r\n- 增加清理 SystemServer 崩潰日誌\r\n- 新增儲存清理規則預設:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- 檔案歸類/清理並發支援，根據裝置 CPU 核心倍數分配，實測檔案歸類速度最高 x2\r\n- 統一打包模組，安裝時自動解壓對應架構，不佔用額外儲存空間\r\n- App UI 主題、排版、動效最佳化，升級函式庫版本\r\n- 現在白名單對系統快取清理同樣生效\r\n\r\n## FIX\r\n\r\n- 修復部分場景下檔案操作可能卡死的 Bug\r\n- 修復 App 透明模式動畫異常\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> ru-RU </summary>\r\n\r\n## ADD\r\n\r\n- Анализ хранилища (NCDU) теперь поддерживает отображение типов символических ссылок, оптимизация производительности\r\n- Добавлена очистка журналов сбоев SystemServer\r\n- Добавлен предустановленный набор правил очистки хранилища:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- Поддержка параллельной классификации/очистки файлов, распределение в зависимости от кратности ядер CPU устройства, измеренная скорость классификации файлов до x2\r\n- Унифицированная упаковка модуля, при установке автоматически распаковывается соответствующая архитектура, не занимает дополнительное пространство\r\n- Оптимизация темы, компоновки и анимации App UI, обновление версий библиотек\r\n- Теперь белый список также действует для очистки системного кэша\r\n\r\n## FIX\r\n\r\n- Исправлена ошибка, из-за которой файловые операции могли зависать в некоторых сценариях\r\n- Исправлена аномалия анимации в прозрачном режиме App\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> ko-KR </summary>\r\n\r\n## ADD\r\n\r\n- 저장소 분석(NCDU)이 심볼릭 링크 유형 표시 지원, 성능 최적화\r\n- SystemServer 충돌 로그 정리 추가\r\n- 저장소 정리 규칙 사전 설정 추가:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- 파일 분류/정리 동시 지원, 장치 CPU 코어 배수에 따라 할당, 실측 파일 분류 속도 최대 x2\r\n- 모듈 통합 패키징, 설치 시 해당 아키텍처 자동 압축 해제, 추가 저장 공간 사용 안 함\r\n- App UI 테마, 레이아웃, 애니메이션 최적화, 라이브러리 버전 업그레이드\r\n- 이제 화이트리스트가 시스템 캐시 정리에도 적용됨\r\n\r\n## FIX\r\n\r\n- 일부 시나리오에서 파일 작업이 멈출 수 있는 버그 수정\r\n- App 투명 모드 애니메이션 이상 수정\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> ja-JP </summary>\r\n\r\n## ADD\r\n\r\n- ストレージ分析（NCDU）がシンボリックリンクタイプの表示をサポート、パフォーマンス最適化\r\n- SystemServer クラッシュログのクリーニングを追加\r\n- ストレージクリーニングルールプリセットを追加:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- ファイル分類/クリーニングの並行処理をサポート、デバイスの CPU コア倍数に基づいて割り当て、実測ファイル分類速度最大 x2\r\n- モジュールを統合パッケージ化、インストール時に対応アーキテクチャを自動解凍、追加ストレージ容量を使用しない\r\n- App UI テーマ、レイアウト、アニメーションの最適化、ライブラリバージョンをアップグレード\r\n- ホワイトリストがシステムキャッシュクリーニングにも適用されるようになりました\r\n\r\n## FIX\r\n\r\n- 一部のシナリオでファイル操作がフリーズする可能性があるバグを修正\r\n- App の透明モードのアニメーション異常を修正\r\n\r\n</details>",
+          "htmlUrl": "https://github.com/FLYCOM-E/ClearBox/releases/tag/101-V5.2.1",
+          "immutable": true,
+          "name": "Version 5.2.1",
+          "prerelease": false,
+          "prop": {
+            "author": "FlyCome",
+            "description": "A Cleaner & More...",
+            "id": "wipe_cache",
+            "name": "ClearBox",
+            "str": "Are You,| OK 🍀？",
+            "updateJson": "https://raw.githubusercontent.com/FLYCOM-E/ClearBox/main/UpdateJson/@LANG/update.json",
+            "version": "V5.2.1",
+            "versionCode": "101"
+          },
+          "publishedAt": "2026-10-13T13:39:07Z",
+          "releaseId": 411715996,
+          "tag": "101-V5.2.1",
+          "tagCommit": "bc9e9feb246d1b0d826ca541adcfceebca0c8fc6",
+          "version": "V5.2.1",
+          "versionCode": 101
+        }
+      ],
+      "repositoryId": 983784625,
+      "seen": {
+        "218707096": {
+          "checkedAt": "2026-10-13T13:58:11.086Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "218707824": {
+          "checkedAt": "2026-10-13T13:58:11.086Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "218707986": {
+          "checkedAt": "2026-10-13T13:58:11.086Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "218708135": {
+          "checkedAt": "2026-10-13T13:58:11.086Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "218708267": {
+          "checkedAt": "2026-10-13T13:58:11.086Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "218708416": {
+          "checkedAt": "2026-10-13T13:58:11.086Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "226931382": {
+          "checkedAt": "2026-10-13T13:58:11.086Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "240157593": {
+          "checkedAt": "2026-10-13T13:58:11.086Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "284650222": {
+          "checkedAt": "2026-10-13T13:58:11.086Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387909725": {
+          "checkedAt": "2026-10-13T13:58:11.086Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "411715996": {
+          "checkedAt": "2026-10-13T13:58:11.086Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:2b2715837d328e8bd56314f6adcd0527f2a50445af21b1579e4a60bd3b400a28",
+          "id": 637148885,
+          "name": "ClearBox-V5.2.1-101.zip",
+          "sha256": "2b2715837d328e8bd56314f6adcd0527f2a50445af21b1579e4a60bd3b400a28",
+          "size": 3287499,
+          "url": "https://github.com/FLYCOM-E/ClearBox/releases/download/101-V5.2.1/ClearBox-V5.2.1-101.zip"
+        },
+        "body": "<details>\r\n  <summary> en-US </summary>\r\n\r\n## ADD\r\n\r\n- Storage analysis (NCDU) now supports displaying symlink types, performance optimization\r\n- Added cleanup of SystemServer crash logs\r\n- Added storage cleanup rule preset:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- File organization/cleanup concurrency support, allocated based on device CPU core multiplier, measured file organization speed up to x2\r\n- Unified module packaging, automatically extracts the corresponding architecture during installation, no extra storage space used\r\n- App UI theme, layout, animation optimization, upgraded library versions\r\n- Whitelist now also applies to system cache cleanup\r\n\r\n## FIX\r\n\r\n- Fixed a bug where file operations could freeze in some scenarios\r\n- Fixed abnormal animation in App transparent mode\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> zh-CN </summary>\r\n\r\n## ADD\r\n\r\n- 储存分析（NCDU）支持显示软链接类型，性能优化\r\n- 增加清理 SystemServer 崩溃日志\r\n- 新增储存清理规则预设: \r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- 文件归类/清理并发支持，根据设备 CPU 核倍数分配，实测文件归类速度最高 x2\r\n- 统一打包模块，安装时自动解压对应架构，不占用额外储存空间\r\n- App UI 主题、排版、动效优化，升级库版本\r\n- 现在白名单对系统缓存清理同样生效\r\n\r\n## FIX\r\n\r\n- 修复部分场景下文件操作可能卡死的 Bug\r\n- 修复 App 透明模式动画异常\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> zh-TW </summary>\r\n\r\n## ADD\r\n\r\n- 儲存分析（NCDU）支援顯示軟連結類型，效能最佳化\r\n- 增加清理 SystemServer 崩潰日誌\r\n- 新增儲存清理規則預設:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- 檔案歸類/清理並發支援，根據裝置 CPU 核心倍數分配，實測檔案歸類速度最高 x2\r\n- 統一打包模組，安裝時自動解壓對應架構，不佔用額外儲存空間\r\n- App UI 主題、排版、動效最佳化，升級函式庫版本\r\n- 現在白名單對系統快取清理同樣生效\r\n\r\n## FIX\r\n\r\n- 修復部分場景下檔案操作可能卡死的 Bug\r\n- 修復 App 透明模式動畫異常\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> ru-RU </summary>\r\n\r\n## ADD\r\n\r\n- Анализ хранилища (NCDU) теперь поддерживает отображение типов символических ссылок, оптимизация производительности\r\n- Добавлена очистка журналов сбоев SystemServer\r\n- Добавлен предустановленный набор правил очистки хранилища:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- Поддержка параллельной классификации/очистки файлов, распределение в зависимости от кратности ядер CPU устройства, измеренная скорость классификации файлов до x2\r\n- Унифицированная упаковка модуля, при установке автоматически распаковывается соответствующая архитектура, не занимает дополнительное пространство\r\n- Оптимизация темы, компоновки и анимации App UI, обновление версий библиотек\r\n- Теперь белый список также действует для очистки системного кэша\r\n\r\n## FIX\r\n\r\n- Исправлена ошибка, из-за которой файловые операции могли зависать в некоторых сценариях\r\n- Исправлена аномалия анимации в прозрачном режиме App\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> ko-KR </summary>\r\n\r\n## ADD\r\n\r\n- 저장소 분석(NCDU)이 심볼릭 링크 유형 표시 지원, 성능 최적화\r\n- SystemServer 충돌 로그 정리 추가\r\n- 저장소 정리 규칙 사전 설정 추가:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- 파일 분류/정리 동시 지원, 장치 CPU 코어 배수에 따라 할당, 실측 파일 분류 속도 최대 x2\r\n- 모듈 통합 패키징, 설치 시 해당 아키텍처 자동 압축 해제, 추가 저장 공간 사용 안 함\r\n- App UI 테마, 레이아웃, 애니메이션 최적화, 라이브러리 버전 업그레이드\r\n- 이제 화이트리스트가 시스템 캐시 정리에도 적용됨\r\n\r\n## FIX\r\n\r\n- 일부 시나리오에서 파일 작업이 멈출 수 있는 버그 수정\r\n- App 투명 모드 애니메이션 이상 수정\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> ja-JP </summary>\r\n\r\n## ADD\r\n\r\n- ストレージ分析（NCDU）がシンボリックリンクタイプの表示をサポート、パフォーマンス最適化\r\n- SystemServer クラッシュログのクリーニングを追加\r\n- ストレージクリーニングルールプリセットを追加:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- ファイル分類/クリーニングの並行処理をサポート、デバイスの CPU コア倍数に基づいて割り当て、実測ファイル分類速度最大 x2\r\n- モジュールを統合パッケージ化、インストール時に対応アーキテクチャを自動解凍、追加ストレージ容量を使用しない\r\n- App UI テーマ、レイアウト、アニメーションの最適化、ライブラリバージョンをアップグレード\r\n- ホワイトリストがシステムキャッシュクリーニングにも適用されるようになりました\r\n\r\n## FIX\r\n\r\n- 一部のシナリオでファイル操作がフリーズする可能性があるバグを修正\r\n- App の透明モードのアニメーション異常を修正\r\n\r\n</details>",
+        "htmlUrl": "https://github.com/FLYCOM-E/ClearBox/releases/tag/101-V5.2.1",
+        "immutable": true,
+        "name": "Version 5.2.1",
+        "prerelease": false,
+        "prop": {
+          "author": "FlyCome",
+          "description": "A Cleaner & More...",
+          "id": "wipe_cache",
+          "name": "ClearBox",
+          "str": "Are You,| OK 🍀？",
+          "updateJson": "https://raw.githubusercontent.com/FLYCOM-E/ClearBox/main/UpdateJson/@LANG/update.json",
+          "version": "V5.2.1",
+          "versionCode": "101"
+        },
+        "publishedAt": "2026-10-13T13:39:07Z",
+        "releaseId": 411715996,
+        "tag": "101-V5.2.1",
+        "tagCommit": "bc9e9feb246d1b0d826ca541adcfceebca0c8fc6",
+        "version": "V5.2.1",
+        "versionCode": 101
+      },
+      "stars": {
+        "count": 48,
+        "fetchedAt": "2026-10-13T13:58:11.086Z",
+        "fullName": "FLYCOM-E/ClearBox",
+        "repositoryId": 983784625,
+        "verified": "self"
+      }
+    },
     "yukizygisk": {
       "content": {
         "blobs": {
