@@ -120,21 +120,21 @@
       }
     },
     "VexZygisk": {
-      "contentCommit": "d5602cdda54ae6350c881a7f201b919264bdec4c",
+      "contentCommit": "bfeb172d22d71cb1bf9ec4aab961611b8421c1de",
       "fullName": "Lxiaoyao077/VexZygisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at d5602cd.",
+      "message": "manifest-missing: module.yaml does not exist at bfeb172.",
       "repositoryId": 1305247883,
       "request": {
-        "checkedAt": "2026-10-13T14:25:58.907Z",
-        "commit": "d5602cdda54ae6350c881a7f201b919264bdec4c",
+        "checkedAt": "2026-10-13T15:04:26.827Z",
+        "commit": "bfeb172d22d71cb1bf9ec4aab961611b8421c1de",
         "issues": [
           {
             "code": "manifest-missing",
-            "message": "module.yaml does not exist at d5602cd.",
+            "message": "module.yaml does not exist at bfeb172.",
             "severity": "error"
           }
         ],
@@ -264,6 +264,27 @@
         "version": "6.2.3",
         "versionCode": 602003999
       }
+    },
+    "ksuGrantToast": {
+      "contentCommit": "7fd0b6184e6a2fc4c2559ec4dd35eff199b13efc",
+      "fullName": "NativeStar/KernelSUGrantToast",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1205795668,
+      "request": {
+        "checkedAt": "2026-10-13T15:04:26.827Z",
+        "commit": "7fd0b6184e6a2fc4c2559ec4dd35eff199b13efc",
+        "issues": [],
+        "latestTag": "2.3-resp",
+        "ok": true,
+        "releaseId": 411802512,
+        "repositoryId": 1205795668,
+        "submissionId": "cm90x4d1wr"
+      },
+      "stable": null
     },
     "netproxy": {
       "contentCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
