@@ -321,21 +321,17 @@
       "fullName": "Nixie24/susfs4ksu-lkm-module",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-13T05:15:53.953Z",
+      "maxVersionCode": 201,
       "message": null,
       "repositoryId": 1411850723,
-      "request": {
-        "checkedAt": "2026-10-13T05:13:43.548Z",
-        "commit": "de3465b78c67173c70096afadb350b8765795ef4",
-        "issues": [],
-        "latestTag": "v0.2.1-201",
-        "ok": true,
-        "releaseId": 411302072,
-        "repositoryId": 1411850723,
-        "submissionId": "tgy0uaseub"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-13T05:12:19Z",
+        "tag": "v0.2.1-201",
+        "version": "0.2.1",
+        "versionCode": 201
+      }
     },
     "yukizygisk": {
       "contentCommit": "773a02fa649a2c8adf581b9cc2b852b1b56b88b9",

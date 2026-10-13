@@ -2835,6 +2835,123 @@
         "verified": "self"
       }
     },
+    "susfs4ksu_lkm": {
+      "content": {
+        "blobs": {
+          "README.md": "d2294e2c6cb1559321228d4b63e4f8018e3a8898",
+          "module.yaml": "12804fcb3372ec590bd5963547fc9b958eeeb1ff"
+        },
+        "commit": "de3465b78c67173c70096afadb350b8765795ef4",
+        "fetchedAt": "2026-10-13T05:15:53.953Z",
+        "files": {
+          "README.md": "a6f0cd5199a1b2a2f64a54928d65c970577ae9d9dce954d20e9c9f22850630d6",
+          "module.yaml": "2a9ba7526209bf37e0048436aacd7c7c08f384a7eb6b866ec558e7ee37302384"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "Nixie24/susfs4ksu-lkm-module",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-13T05:15:53.953Z",
+        "lastSuccessAt": "2026-10-13T05:15:53.953Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "susfs4ksu_lkm",
+      "installationId": 170370411,
+      "maxStableVersionCode": 201,
+      "maxVersionCode": 201,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:e6038e57cd2a46c5ae2c210d9f7a889c3905cb2ab74e21b2a0373f0d98f7d737",
+            "id": 635968294,
+            "name": "susfs4ksu_lkm_0.2.1.zip",
+            "sha256": "e6038e57cd2a46c5ae2c210d9f7a889c3905cb2ab74e21b2a0373f0d98f7d737",
+            "size": 28681,
+            "url": "https://github.com/Nixie24/susfs4ksu-lkm-module/releases/download/v0.2.1-201/susfs4ksu_lkm_0.2.1.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/Nixie24/susfs4ksu-lkm-module/compare/v0.2.0-200...v0.2.1-201",
+          "htmlUrl": "https://github.com/Nixie24/susfs4ksu-lkm-module/releases/tag/v0.2.1-201",
+          "immutable": true,
+          "name": "v0.2.1-201",
+          "prerelease": false,
+          "prop": {
+            "author": "Nix24",
+            "description": "Loads SUSFS as a loadable kernel module (susfs_guard_lkm) via ksud.",
+            "id": "susfs4ksu_lkm",
+            "name": "SUSFS LKM Loader",
+            "updateJson": "https://raw.githubusercontent.com/Nixie24/susfs4ksu-lkm-module/update/update.json",
+            "version": "0.2.1",
+            "versionCode": "201"
+          },
+          "publishedAt": "2026-10-13T05:12:19Z",
+          "releaseId": 411302072,
+          "tag": "v0.2.1-201",
+          "tagCommit": "de3465b78c67173c70096afadb350b8765795ef4",
+          "version": "0.2.1",
+          "versionCode": 201
+        }
+      ],
+      "repositoryId": 1411850723,
+      "seen": {
+        "408010734": {
+          "checkedAt": "2026-10-13T05:15:53.953Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "409838922": {
+          "checkedAt": "2026-10-13T05:15:53.953Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "411302072": {
+          "checkedAt": "2026-10-13T05:15:53.953Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:e6038e57cd2a46c5ae2c210d9f7a889c3905cb2ab74e21b2a0373f0d98f7d737",
+          "id": 635968294,
+          "name": "susfs4ksu_lkm_0.2.1.zip",
+          "sha256": "e6038e57cd2a46c5ae2c210d9f7a889c3905cb2ab74e21b2a0373f0d98f7d737",
+          "size": 28681,
+          "url": "https://github.com/Nixie24/susfs4ksu-lkm-module/releases/download/v0.2.1-201/susfs4ksu_lkm_0.2.1.zip"
+        },
+        "body": "**Full Changelog**: https://github.com/Nixie24/susfs4ksu-lkm-module/compare/v0.2.0-200...v0.2.1-201",
+        "htmlUrl": "https://github.com/Nixie24/susfs4ksu-lkm-module/releases/tag/v0.2.1-201",
+        "immutable": true,
+        "name": "v0.2.1-201",
+        "prerelease": false,
+        "prop": {
+          "author": "Nix24",
+          "description": "Loads SUSFS as a loadable kernel module (susfs_guard_lkm) via ksud.",
+          "id": "susfs4ksu_lkm",
+          "name": "SUSFS LKM Loader",
+          "updateJson": "https://raw.githubusercontent.com/Nixie24/susfs4ksu-lkm-module/update/update.json",
+          "version": "0.2.1",
+          "versionCode": "201"
+        },
+        "publishedAt": "2026-10-13T05:12:19Z",
+        "releaseId": 411302072,
+        "tag": "v0.2.1-201",
+        "tagCommit": "de3465b78c67173c70096afadb350b8765795ef4",
+        "version": "0.2.1",
+        "versionCode": 201
+      },
+      "stars": {
+        "count": 2,
+        "fetchedAt": "2026-10-13T05:15:53.953Z",
+        "fullName": "Nixie24/susfs4ksu-lkm-module",
+        "repositoryId": 1411850723,
+        "verified": "self"
+      }
+    },
     "yukizygisk": {
       "content": {
         "blobs": {
