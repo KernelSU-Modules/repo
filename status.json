@@ -120,21 +120,21 @@
       }
     },
     "VexZygisk": {
-      "contentCommit": "d9cc87a9b62c3943a0efed77389d32cffcb01402",
+      "contentCommit": "17db79ae6d8459a0c48661a771160a2c2b4cfabc",
       "fullName": "Lxiaoyao077/VexZygisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at d9cc87a.",
+      "message": "manifest-missing: module.yaml does not exist at 17db79a.",
       "repositoryId": 1305247883,
       "request": {
-        "checkedAt": "2026-10-13T10:52:29.245Z",
-        "commit": "d9cc87a9b62c3943a0efed77389d32cffcb01402",
+        "checkedAt": "2026-10-13T13:53:14.868Z",
+        "commit": "17db79ae6d8459a0c48661a771160a2c2b4cfabc",
         "issues": [
           {
             "code": "manifest-missing",
-            "message": "module.yaml does not exist at d9cc87a.",
+            "message": "module.yaml does not exist at 17db79a.",
             "severity": "error"
           }
         ],
@@ -249,11 +249,11 @@
       }
     },
     "hybrid_mount": {
-      "contentCommit": "b7e928831cbca5a10cc0d1e671081aeb1e9efb1e",
+      "contentCommit": "943281b5975fe1219e264e6f03f6c18a937b48ff",
       "fullName": "Hybrid-Mount/meta-hybrid_mount",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-11T06:14:43.181Z",
+      "lastSuccessAt": "2026-10-13T13:53:14.868Z",
       "maxVersionCode": 602003999,
       "message": null,
       "repositoryId": 1103029590,
@@ -332,6 +332,27 @@
         "version": "0.2.1",
         "versionCode": 201
       }
+    },
+    "wipe_cache": {
+      "contentCommit": "49e7adf9912378f0ed097ca15be61d3575db0fd8",
+      "fullName": "FLYCOM-E/ClearBox",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 983784625,
+      "request": {
+        "checkedAt": "2026-10-13T13:53:14.868Z",
+        "commit": "49e7adf9912378f0ed097ca15be61d3575db0fd8",
+        "issues": [],
+        "latestTag": "101-V5.2.1",
+        "ok": true,
+        "releaseId": 411715996,
+        "repositoryId": 983784625,
+        "submissionId": "kjqzc2e64l"
+      },
+      "stable": null
     },
     "yukizygisk": {
       "contentCommit": "773a02fa649a2c8adf581b9cc2b852b1b56b88b9",

@@ -2124,14 +2124,14 @@
     "hybrid_mount": {
       "content": {
         "blobs": {
-          "README.md": "71ea8c55de987d3a4ef8003fd4c3148cbf371376",
+          "README.md": "ac0f1e9704136f25f03a043d2ac3afa8a19f7515",
           "icon.png": "0ec70554129f0f518100a4eab1b04c8a4926dc9c",
           "module.yaml": "9995ef14e920bf5e239907bf54919ba11989b343"
         },
-        "commit": "b7e928831cbca5a10cc0d1e671081aeb1e9efb1e",
-        "fetchedAt": "2026-10-11T06:14:43.181Z",
+        "commit": "943281b5975fe1219e264e6f03f6c18a937b48ff",
+        "fetchedAt": "2026-10-13T13:53:14.868Z",
         "files": {
-          "README.md": "b211603616ae5910e585575a4b5b12076101a1385aea5b59844172d56315eef9",
+          "README.md": "ee7ddb808b1de037ba38ad33c51dae86d7d9a6c89e307feb547af9f4c42cd2ae",
           "icon.png": "b3a933b89393bb5f3662157d14c3aeb6bdb380fabb5befeef0523431850c0f3e",
           "module.yaml": "26e4eaf7ec1536d02918cfcfc06d32f814746c4c6b817e171d156013a43ce741"
         },
@@ -2141,8 +2141,8 @@
       "fullName": "Hybrid-Mount/meta-hybrid_mount",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-11T06:14:43.181Z",
-        "lastSuccessAt": "2026-10-11T06:14:43.181Z",
+        "lastAttemptAt": "2026-10-13T13:53:14.868Z",
+        "lastSuccessAt": "2026-10-13T13:53:14.868Z",
         "message": null,
         "status": "ok"
       },
@@ -2397,8 +2397,8 @@
         "versionCode": 602003999
       },
       "stars": {
-        "count": 1710,
-        "fetchedAt": "2026-10-13T09:18:50.026Z",
+        "count": 1712,
+        "fetchedAt": "2026-10-13T13:53:14.868Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
