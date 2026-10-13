@@ -1,0 +1,19 @@
+id: ksuGrantToast
+status: pending
+request:
+  submissionId: cm90x4d1wr
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1205795668
+    ownerId: 124424735
+    fullName: NativeStar/KernelSUGrantToast
+    manifestPath: module.yaml
+  submittedBy: 124424735
+  submittedByLogin: NativeStar
+  submittedAt: 2026-10-13T15:03:57.942Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64332
+createdAt: 2026-10-13T15:03:57.942Z
+updatedAt: 2026-10-13T15:03:57.942Z
