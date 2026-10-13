@@ -316,6 +316,27 @@
         "versionCode": 480
       }
     },
+    "susfs4ksu_lkm": {
+      "contentCommit": "de3465b78c67173c70096afadb350b8765795ef4",
+      "fullName": "Nixie24/susfs4ksu-lkm-module",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1411850723,
+      "request": {
+        "checkedAt": "2026-10-13T05:13:43.548Z",
+        "commit": "de3465b78c67173c70096afadb350b8765795ef4",
+        "issues": [],
+        "latestTag": "v0.2.1-201",
+        "ok": true,
+        "releaseId": 411302072,
+        "repositoryId": 1411850723,
+        "submissionId": "tgy0uaseub"
+      },
+      "stable": null
+    },
     "yukizygisk": {
       "contentCommit": "773a02fa649a2c8adf581b9cc2b852b1b56b88b9",
       "fullName": "Rouyashiki/YukiZygisk",
