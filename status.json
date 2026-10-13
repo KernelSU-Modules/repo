@@ -181,25 +181,21 @@
       }
     },
     "clipshield": {
-      "contentCommit": "769671c713a5daeba7db8edfa51152088729edb6",
+      "contentCommit": "d8f93a074897019af9a91320864a00c59c55b0bc",
       "fullName": "klmmlk/KernelSU-ClipShield",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-13T16:45:41.585Z",
+      "maxVersionCode": 6,
       "message": null,
       "repositoryId": 1417109515,
-      "request": {
-        "checkedAt": "2026-10-13T16:44:07.142Z",
-        "commit": "769671c713a5daeba7db8edfa51152088729edb6",
-        "issues": [],
-        "latestTag": "v1.2.0",
-        "ok": true,
-        "releaseId": 411896109,
-        "repositoryId": 1417109515,
-        "submissionId": "5gm2q0m1c6"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-13T16:41:00Z",
+        "tag": "v1.2.0",
+        "version": "v1.2.0",
+        "versionCode": 6
+      }
     },
     "device_faker": {
       "contentCommit": "164ae0b7c38f5241e28b4c5f1ee43c7a66da5e8a",

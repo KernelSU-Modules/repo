@@ -1692,6 +1692,111 @@
         "verified": "self"
       }
     },
+    "clipshield": {
+      "content": {
+        "blobs": {
+          "README.md": "1fa225f4a8e9b5780ac46ab59dc3f7d3967d8af9",
+          "assets/icon.png": "855e8a3a49a68cbb05e2de619ab8cc372dca6165",
+          "module.yaml": "002a35acb4092ab00b200a421564c7b55dfa0994"
+        },
+        "commit": "d8f93a074897019af9a91320864a00c59c55b0bc",
+        "fetchedAt": "2026-10-13T16:45:41.585Z",
+        "files": {
+          "README.md": "5c57074ea6f83b4972c3e791670ac10830ce5cd8d00699d0cc6defcc5da2da25",
+          "assets/icon.png": "803304929aae66061e48a9a367fc99fb9c80bee1474fba41fd6272c15b78dc61",
+          "module.yaml": "924d8982b3cfcc8b9c41c5a4351b2ac98708b62e815ed27041adc5423a47498a"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "klmmlk/KernelSU-ClipShield",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-13T16:45:41.585Z",
+        "lastSuccessAt": "2026-10-13T16:45:41.585Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "clipshield",
+      "installationId": 171057853,
+      "maxStableVersionCode": 6,
+      "maxVersionCode": 6,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:df1bd121d3521b51259d4fbb333730ad41d0f208e714bc0632abd4429b2a539f",
+            "id": 637629111,
+            "name": "clipshield-6-v1.2.0.zip",
+            "sha256": "df1bd121d3521b51259d4fbb333730ad41d0f208e714bc0632abd4429b2a539f",
+            "size": 13479,
+            "url": "https://github.com/klmmlk/KernelSU-ClipShield/releases/download/v1.2.0/clipshield-6-v1.2.0.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/klmmlk/KernelSU-ClipShield/commits/v1.2.0",
+          "htmlUrl": "https://github.com/klmmlk/KernelSU-ClipShield/releases/tag/v1.2.0",
+          "immutable": true,
+          "name": "v1.2.0",
+          "prerelease": false,
+          "prop": {
+            "author": "klmmlk",
+            "description": "基于 Zygisk 的按应用剪贴板保护：拦截被拉黑 App 的剪切板读取与监听（可弹提示），智能模式仅在用户主动粘贴时放行，输入法自动放行。需要 Zygisk（Zygisk Next / ReZygisk）。Android 13+ / arm64-v8a。",
+            "id": "clipshield",
+            "name": "别动我的剪切板",
+            "version": "v1.2.0",
+            "versionCode": "6"
+          },
+          "publishedAt": "2026-10-13T16:41:00Z",
+          "releaseId": 411896109,
+          "tag": "v1.2.0",
+          "tagCommit": "769671c713a5daeba7db8edfa51152088729edb6",
+          "version": "v1.2.0",
+          "versionCode": 6
+        }
+      ],
+      "repositoryId": 1417109515,
+      "seen": {
+        "411896109": {
+          "checkedAt": "2026-10-13T16:45:41.585Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:df1bd121d3521b51259d4fbb333730ad41d0f208e714bc0632abd4429b2a539f",
+          "id": 637629111,
+          "name": "clipshield-6-v1.2.0.zip",
+          "sha256": "df1bd121d3521b51259d4fbb333730ad41d0f208e714bc0632abd4429b2a539f",
+          "size": 13479,
+          "url": "https://github.com/klmmlk/KernelSU-ClipShield/releases/download/v1.2.0/clipshield-6-v1.2.0.zip"
+        },
+        "body": "**Full Changelog**: https://github.com/klmmlk/KernelSU-ClipShield/commits/v1.2.0",
+        "htmlUrl": "https://github.com/klmmlk/KernelSU-ClipShield/releases/tag/v1.2.0",
+        "immutable": true,
+        "name": "v1.2.0",
+        "prerelease": false,
+        "prop": {
+          "author": "klmmlk",
+          "description": "基于 Zygisk 的按应用剪贴板保护：拦截被拉黑 App 的剪切板读取与监听（可弹提示），智能模式仅在用户主动粘贴时放行，输入法自动放行。需要 Zygisk（Zygisk Next / ReZygisk）。Android 13+ / arm64-v8a。",
+          "id": "clipshield",
+          "name": "别动我的剪切板",
+          "version": "v1.2.0",
+          "versionCode": "6"
+        },
+        "publishedAt": "2026-10-13T16:41:00Z",
+        "releaseId": 411896109,
+        "tag": "v1.2.0",
+        "tagCommit": "769671c713a5daeba7db8edfa51152088729edb6",
+        "version": "v1.2.0",
+        "versionCode": 6
+      },
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-10-13T16:45:41.585Z",
+        "fullName": "klmmlk/KernelSU-ClipShield",
+        "repositoryId": 1417109515,
+        "verified": "self"
+      }
+    },
     "device_faker": {
       "content": {
         "blobs": {
