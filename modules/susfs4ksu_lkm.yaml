@@ -1,0 +1,19 @@
+id: susfs4ksu_lkm
+status: pending
+request:
+  submissionId: tgy0uaseub
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1411850723
+    ownerId: 60429046
+    fullName: Nixie24/susfs4ksu-lkm-module
+    manifestPath: module.yaml
+  submittedBy: 60429046
+  submittedByLogin: Nixie24
+  submittedAt: 2026-10-13T05:13:07.764Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64330
+createdAt: 2026-10-13T05:13:07.764Z
+updatedAt: 2026-10-13T05:13:07.764Z
