@@ -1071,8 +1071,8 @@
         "versionCode": 2026101201
       },
       "stars": {
-        "count": 42,
-        "fetchedAt": "2026-10-13T05:13:43.548Z",
+        "count": 45,
+        "fetchedAt": "2026-10-14T06:08:41.213Z",
         "fullName": "Eikeitsu/QSC-Battery",
         "repositoryId": 1302628725,
         "verified": "self"
@@ -2053,16 +2053,16 @@
     "enable_miui_adb": {
       "content": {
         "blobs": {
-          "README.md": "496fc854b84f3cc852cfe4a27e576c4d08e0e0e4",
+          "README.md": "cd4e894d8868a3c4481d04d79948d7c8e688d1f5",
           "assets/icon.png": "49bc20f4dd9e6504d6dd8a7da133c4f2692e68bf",
-          "module.yaml": "3d99b6fc0543591763c855dc6483753edc67315c"
+          "module.yaml": "60c340fb3b037966730ce03c32b96131b8a3ec9d"
         },
-        "commit": "330971689451f04d27a1db42c602811f651b3592",
-        "fetchedAt": "2026-10-14T03:34:44.642Z",
+        "commit": "892619db24a86273fbd3f4ddcf86e4b0d1b17c96",
+        "fetchedAt": "2026-10-14T06:08:41.213Z",
         "files": {
-          "README.md": "a66953a512da64f19cc7832fb72bb91e647f54f79a267272f8007ed0c69fe671",
+          "README.md": "283cf6e68e8de3aedaf0909bcaf348660b9e4f21651250565d59809451580ee2",
           "assets/icon.png": "8759ef78bdc0290abc244ebcea235bd096f29170f3afc14e342c994eed877ac5",
-          "module.yaml": "e5fb2dbe0b0187df7967b78aff94b3ee41b2381702bb579920bfd14463f8b473"
+          "module.yaml": "1f7e3ac47e909793bf1a579b15af13d37bd37f27f574cf699bb416574cd064d2"
         },
         "manifestPath": "module.yaml",
         "ref": "main"
@@ -2070,8 +2070,8 @@
       "fullName": "Ylarod/enable-miui-adb",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-14T03:34:44.642Z",
-        "lastSuccessAt": "2026-10-14T03:34:44.642Z",
+        "lastAttemptAt": "2026-10-14T06:08:41.213Z",
+        "lastSuccessAt": "2026-10-14T06:08:41.213Z",
         "message": null,
         "status": "ok"
       },
@@ -2850,15 +2850,15 @@
     "magisk-netbird": {
       "content": {
         "blobs": {
-          "README.md": "aac60b68fc53cc45a603718f73bb51b715dd41f9",
+          "README.md": "1335fea6a8f21e078722616ad9ea1442880baf2d",
           "assets/icon.png": "4b5299236cdfdf9e533636d5a53e4b2f196c27f7",
           "docs/netbird-logo.png": "1b2405c07e06ec4e2599fc6f205ba962c6697316",
           "module.yaml": "741634b1072058f3b3a3c426bebed63218d4559b"
         },
-        "commit": "2d7cc3fb35b461a306c0565e95f45035383d277f",
-        "fetchedAt": "2026-10-14T04:18:13.208Z",
+        "commit": "520b63120b04a56ffb275e30625d49513b4dd034",
+        "fetchedAt": "2026-10-14T06:08:41.213Z",
         "files": {
-          "README.md": "93dd027f094dd0f92309f23fb8c7d7df5afde0409d0b3ee13a610730ed49fd30",
+          "README.md": "9ae5c0e84ccebadd5ef87d80e1ab93b04b7cbccda0b4c52723ffc1daa80e631a",
           "assets/icon.png": "f02f1e5d4edd4fbef8420d768a555b23a179bf24a86413714d03e409598e136e",
           "docs/netbird-logo.png": "33d92428742e9c48b58cbb7b62cdd00987c73e37211ab890a0f721c8b35a1dec",
           "module.yaml": "357183160f7f90214d61f71d33b2501ecac2f19f1bc05a4223db12adc612094a"
@@ -2869,8 +2869,8 @@
       "fullName": "ahsaboy/magisk-netbird",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-14T04:18:13.208Z",
-        "lastSuccessAt": "2026-10-14T04:18:13.208Z",
+        "lastAttemptAt": "2026-10-14T06:08:41.213Z",
+        "lastSuccessAt": "2026-10-14T06:08:41.213Z",
         "message": null,
         "status": "ok"
       },
@@ -3617,8 +3617,8 @@
         "versionCode": 201
       },
       "stars": {
-        "count": 2,
-        "fetchedAt": "2026-10-13T05:15:53.953Z",
+        "count": 3,
+        "fetchedAt": "2026-10-14T06:08:41.213Z",
         "fullName": "Nixie24/susfs4ksu-lkm-module",
         "repositoryId": 1411850723,
         "verified": "self"

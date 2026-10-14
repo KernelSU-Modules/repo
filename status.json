@@ -232,11 +232,11 @@
       }
     },
     "enable_miui_adb": {
-      "contentCommit": "330971689451f04d27a1db42c602811f651b3592",
+      "contentCommit": "892619db24a86273fbd3f4ddcf86e4b0d1b17c96",
       "fullName": "Ylarod/enable-miui-adb",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-14T03:34:44.642Z",
+      "lastSuccessAt": "2026-10-14T06:08:41.213Z",
       "maxVersionCode": 100,
       "message": null,
       "repositoryId": 457318262,
@@ -317,11 +317,11 @@
       }
     },
     "magisk-netbird": {
-      "contentCommit": "2d7cc3fb35b461a306c0565e95f45035383d277f",
+      "contentCommit": "520b63120b04a56ffb275e30625d49513b4dd034",
       "fullName": "ahsaboy/magisk-netbird",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-14T04:18:13.208Z",
+      "lastSuccessAt": "2026-10-14T06:08:41.213Z",
       "maxVersionCode": 10407,
       "message": null,
       "repositoryId": 1274372941,
