@@ -231,6 +231,27 @@
         "versionCode": 58
       }
     },
+    "enable_miui_adb": {
+      "contentCommit": "330971689451f04d27a1db42c602811f651b3592",
+      "fullName": "Ylarod/enable-miui-adb",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 457318262,
+      "request": {
+        "checkedAt": "2026-10-14T03:34:01.454Z",
+        "commit": "330971689451f04d27a1db42c602811f651b3592",
+        "issues": [],
+        "latestTag": "v1.0.0",
+        "ok": true,
+        "releaseId": 412311381,
+        "repositoryId": 457318262,
+        "submissionId": "ah2ehwlxvh"
+      },
+      "stable": null
+    },
     "example_closed_module_demo": {
       "contentCommit": "5f6b7cdf1fd21ca32eb1756cae66452eb3666d5f",
       "fullName": "KernelSU-Modules/example-closed-module-dist",
