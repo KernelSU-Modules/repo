@@ -4231,17 +4231,48 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-14T18:01:15.183Z",
-        "lastSuccessAt": "2026-10-14T18:01:15.183Z",
-        "message": "stable-unavailable: the stable release (versionCode 187) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 187 is published.",
+        "lastAttemptAt": "2026-10-14T18:16:23.213Z",
+        "lastSuccessAt": "2026-10-14T18:16:23.213Z",
+        "message": null,
         "status": "ok"
       },
       "id": "zygisk_fusehide",
       "installationId": 170178853,
-      "maxStableVersionCode": 187,
-      "maxVersionCode": 187,
+      "maxStableVersionCode": 188,
+      "maxVersionCode": 188,
       "prerelease": null,
-      "releases": [],
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:57890587318bf08d0bff43a6932704b5d34af7fbaf559f21506f514525dd9fea",
+            "id": 641232029,
+            "name": "FuseHide-1.188_188-9d0104f-release.zip",
+            "sha256": "57890587318bf08d0bff43a6932704b5d34af7fbaf559f21506f514525dd9fea",
+            "size": 7530211,
+            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v188-9d0104f/FuseHide-1.188_188-9d0104f-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.188`\n- **VersionCode:** `188`\n- **Commit:** [`9d0104f`](https://github.com/XiaoTong6666/FuseHide/commit/9d0104f9a3fcda47f8b4c68741be8f1903278a61)\n- **Build time:** `8m 10s`\n- **SHA256:** `57890587318bf08d0bff43a6932704b5d34af7fbaf559f21506f514525dd9fea`\n\n## Message\n\n```text\nbuild(deps): bump org.commonmark:commonmark from 0.30.0 to 0.30.1 (#108)\n\nBumps [org.commonmark:commonmark](https://github.com/commonmark/commonmark-java) from 0.30.0 to 0.30.1.\n- [Release notes](https://github.com/commonmark/commonmark-java/releases)\n- [Changelog](https://github.com/commonmark/commonmark-java/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/commonmark/commonmark-java/compare/commonmark-parent-0.30.0...commonmark-parent-0.30.1)\n\n---\nupdated-dependencies:\n- dependency-name: org.commonmark:commonmark\n  dependency-version: 0.30.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v188-9d0104f",
+          "immutable": true,
+          "name": "1.188",
+          "prerelease": false,
+          "prop": {
+            "author": "XiaoTong",
+            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+            "id": "zygisk_fusehide",
+            "name": "Zygisk - FuseHide",
+            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+            "version": "1.188 (188-9d0104f-release)",
+            "versionCode": "188"
+          },
+          "publishedAt": "2026-10-14T18:15:57Z",
+          "releaseId": 413037298,
+          "tag": "v188-9d0104f",
+          "tagCommit": "4f7fc14f6725cc053714bd112c1549e646886a12",
+          "version": "1.188 (188-9d0104f-release)",
+          "versionCode": 188
+        }
+      ],
       "repositoryId": 1417162951,
       "seen": {
         "412385874": {
@@ -4261,9 +4292,42 @@
         "413023645": {
           "checkedAt": "2026-10-14T18:01:15.183Z",
           "ok": true
+        },
+        "413037298": {
+          "checkedAt": "2026-10-14T18:16:23.213Z",
+          "ok": true
         }
       },
-      "stable": null,
+      "stable": {
+        "asset": {
+          "digest": "sha256:57890587318bf08d0bff43a6932704b5d34af7fbaf559f21506f514525dd9fea",
+          "id": 641232029,
+          "name": "FuseHide-1.188_188-9d0104f-release.zip",
+          "sha256": "57890587318bf08d0bff43a6932704b5d34af7fbaf559f21506f514525dd9fea",
+          "size": 7530211,
+          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v188-9d0104f/FuseHide-1.188_188-9d0104f-release.zip"
+        },
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.188`\n- **VersionCode:** `188`\n- **Commit:** [`9d0104f`](https://github.com/XiaoTong6666/FuseHide/commit/9d0104f9a3fcda47f8b4c68741be8f1903278a61)\n- **Build time:** `8m 10s`\n- **SHA256:** `57890587318bf08d0bff43a6932704b5d34af7fbaf559f21506f514525dd9fea`\n\n## Message\n\n```text\nbuild(deps): bump org.commonmark:commonmark from 0.30.0 to 0.30.1 (#108)\n\nBumps [org.commonmark:commonmark](https://github.com/commonmark/commonmark-java) from 0.30.0 to 0.30.1.\n- [Release notes](https://github.com/commonmark/commonmark-java/releases)\n- [Changelog](https://github.com/commonmark/commonmark-java/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/commonmark/commonmark-java/compare/commonmark-parent-0.30.0...commonmark-parent-0.30.1)\n\n---\nupdated-dependencies:\n- dependency-name: org.commonmark:commonmark\n  dependency-version: 0.30.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v188-9d0104f",
+        "immutable": true,
+        "name": "1.188",
+        "prerelease": false,
+        "prop": {
+          "author": "XiaoTong",
+          "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+          "id": "zygisk_fusehide",
+          "name": "Zygisk - FuseHide",
+          "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+          "version": "1.188 (188-9d0104f-release)",
+          "versionCode": "188"
+        },
+        "publishedAt": "2026-10-14T18:15:57Z",
+        "releaseId": 413037298,
+        "tag": "v188-9d0104f",
+        "tagCommit": "4f7fc14f6725cc053714bd112c1549e646886a12",
+        "version": "1.188 (188-9d0104f-release)",
+        "versionCode": 188
+      },
       "stars": {
         "count": 3,
         "fetchedAt": "2026-10-14T18:01:15.183Z",

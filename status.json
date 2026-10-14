@@ -457,12 +457,17 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-14T18:01:15.183Z",
-      "maxVersionCode": 187,
-      "message": "stable-unavailable: the stable release (versionCode 187) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 187 is published.",
+      "lastSuccessAt": "2026-10-14T18:16:23.213Z",
+      "maxVersionCode": 188,
+      "message": null,
       "repositoryId": 1417162951,
       "request": null,
-      "stable": null
+      "stable": {
+        "publishedAt": "2026-10-14T18:15:57Z",
+        "tag": "v188-9d0104f",
+        "version": "1.188 (188-9d0104f-release)",
+        "versionCode": 188
+      }
     },
     "zygisknextsu": {
       "contentCommit": "c1e927c8d0181dae7957db4750ee184d88235c8a",
