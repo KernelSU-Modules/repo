@@ -236,16 +236,16 @@
       "fullName": "Ylarod/enable-miui-adb",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-14T06:08:41.213Z",
-      "maxVersionCode": 100,
+      "lastSuccessAt": "2026-10-14T13:12:14.026Z",
+      "maxVersionCode": 110,
       "message": null,
       "repositoryId": 457318262,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-14T03:30:26Z",
-        "tag": "v1.0.0",
-        "version": "v1.0.0",
-        "versionCode": 100
+        "publishedAt": "2026-10-14T13:11:48Z",
+        "tag": "v1.1.0",
+        "version": "v1.1.0",
+        "versionCode": 110
       }
     },
     "example_closed_module_demo": {
