@@ -1328,28 +1328,28 @@
     "SvcHub": {
       "content": {
         "blobs": {
-          "README.md": "f21c23e03ea8088cd53a6bc12b4a57e75481e2f3",
-          "docs/images/01-status.png": "349c6ff9805ab4bdf5b129d1cbcdf9b8bbde3471",
-          "docs/images/02-services.png": "4f0c08649598575b08f19669fd8f50a40a631dcc",
+          "README.md": "5698b56e6a17875f82947e3334893d1d7f098e94",
+          "docs/images/01-status.png": "b612c745a6dedf1282543d66cb1d919cab02aad5",
+          "docs/images/02-config.png": "e5fbf4567f8106eb8115d7a1b4d5a8477da3e63d",
           "docs/images/03-settings.png": "5e1d3017807345976db5480358cab64b91cc3215",
           "docs/images/04-start_stop.png": "7b8e171702095f08e55d83ae24de0cb9d5928c58",
           "docs/images/05-log.png": "d291f0da54ea9ef886773abeff006d8e9192f170",
           "docs/images/06-login.png": "440f2d05a96db8264ef04aefba8301699e91e6b7",
-          "docs/images/icon.png": "d4ae40958178f30c5042c81ca28ba03cd823c048",
-          "module.yaml": "6eaa90d5fbce0f5127544f00c47acb2907b45951"
+          "docs/images/icon.png": "ec00fadea2faf1703b248a7496a6cf0fdd52e26d",
+          "module.yaml": "28abeb297656665219dc62640d096d7b97eb7ad6"
         },
-        "commit": "d28cef4f1541381c91ba0e1e005a66ca2ab6a571",
-        "fetchedAt": "2026-10-11T09:29:04.073Z",
+        "commit": "5e23270a02c574e0a22d64fd02faa67be5c0ca03",
+        "fetchedAt": "2026-10-14T11:17:10.343Z",
         "files": {
-          "README.md": "7541b5490d225d7ac1298bc4a5b708ea57f839fa259a99888d1c779ae429df85",
-          "docs/images/01-status.png": "f4ddad51fdbf26225052cc5610b94ddc13761979bedf49413cba94dd820d3922",
-          "docs/images/02-services.png": "0f99fab033ae9eeb39fafbde555b1cfc7dbf1c562aef5f8214a57990ee342a09",
+          "README.md": "5d11619ee476c10acb78600e4c3b9c41cfddc23fd5b514c8162d2c539cd0b9fa",
+          "docs/images/01-status.png": "3c84288e590ce6fa7aae6b3157148255ea6eb9ea57393ace689bb3d3190ac7ec",
+          "docs/images/02-config.png": "b576031b33ba63d03143875f57be52d6fa4173c17d7dd7a33bf2d2d17eb8d612",
           "docs/images/03-settings.png": "deb2606b32e89e25877081543bd81ecd79eaa90ff7002f03949b822993e8bc61",
           "docs/images/04-start_stop.png": "b72ac713a90d7caf4b0d3583042850c7d62231d9e5ca19fdaa838deb0d3ea72b",
           "docs/images/05-log.png": "a011cc5595767b9764099c43c4847182aab67f1cadbe80c93be752dee07421c9",
           "docs/images/06-login.png": "89c36dd783f2dbbe533058974cd0924a6fce84711a73333d924cbbfd34fff5f5",
-          "docs/images/icon.png": "b88ef0f49b803cfbed9e8f50179705f81518ebc3fd3a7016e51235d78fe913b9",
-          "module.yaml": "419b264380c8040953bd194fac11cc087763bc302ea79cbe7cf0091ed0b98446"
+          "docs/images/icon.png": "0a2dfed188db2b04fc76b76ed420aa7e7d747f5c28b628b737196f94594e481a",
+          "module.yaml": "c9a4bb0cd1a59edfe4bc69c340a762ee9483fdf76a75a9268dade5e21dc61f08"
         },
         "manifestPath": "module.yaml",
         "ref": "master"
@@ -1357,17 +1357,47 @@
       "fullName": "LimpidMo/SvcHub",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-11T09:29:04.073Z",
-        "lastSuccessAt": "2026-10-11T09:29:04.073Z",
+        "lastAttemptAt": "2026-10-14T11:17:10.343Z",
+        "lastSuccessAt": "2026-10-14T11:17:10.343Z",
         "message": null,
         "status": "ok"
       },
       "id": "SvcHub",
       "installationId": 170178615,
-      "maxStableVersionCode": 8,
-      "maxVersionCode": 8,
+      "maxStableVersionCode": 9,
+      "maxVersionCode": 9,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:137098f226e8a3f976f905c163e5d7d1da41f434fc6c883942202bb103eb5a5f",
+            "id": 640145910,
+            "name": "SvcHub-9-1.3.6.zip",
+            "sha256": "137098f226e8a3f976f905c163e5d7d1da41f434fc6c883942202bb103eb5a5f",
+            "size": 71204,
+            "url": "https://github.com/LimpidMo/SvcHub/releases/download/v1.3.6/SvcHub-9-1.3.6.zip"
+          },
+          "body": "## [1.3.6] - 2026-10-14\n\n### Added\n\n- 新增 Termux 服务「root 运行」开关：默认以 Termux 用户运行\n  - 开启后以 root 运行，工作目录与环境变量不变。\n\n### Changed\n\n- Termux 服务改为完整降权至 Termux 用户身份运行（用户与组）。\n  - 若启动时因文件属组问题无法启动使用`chown -R $(stat -c %u /data/data/com.termux):$(stat -c %g /data/data/com.termux) <服务目录>` 命令后启动，或以 root 身份运行\n- 移除服务「附加参数」设置项及界面展示；已填写的参数将失效且不保留，如有依赖请改用启动命令处理。\n- 服务状态页移除 start/stop 标签，配置页保留，保持首页简洁。\n\n### Fixed\n\n- 修复关闭「巡检保活」后重启手机不自动启动服务的问题：\n\n",
+          "htmlUrl": "https://github.com/LimpidMo/SvcHub/releases/tag/v1.3.6",
+          "immutable": true,
+          "name": "SvcHub v1.3.6",
+          "prerelease": false,
+          "prop": {
+            "author": "LimpidMo",
+            "description": "开机自启和保活 Termux 服务与二进制服务，并提供定时/亮屏/ WIFI 启停服务和 WebUI 聚合管理",
+            "id": "SvcHub",
+            "name": "SvcHub",
+            "updateJson": "https://v4.gh-proxy.org/https://github.com/LimpidMo/SvcHub/releases/latest/download/update.json",
+            "version": "1.3.6",
+            "versionCode": "9"
+          },
+          "publishedAt": "2026-10-14T11:16:45Z",
+          "releaseId": 412630556,
+          "tag": "v1.3.6",
+          "tagCommit": "5e23270a02c574e0a22d64fd02faa67be5c0ca03",
+          "version": "1.3.6",
+          "versionCode": 9
+        },
         {
           "asset": {
             "digest": "sha256:592cf196107221318a45007afade4b6441ed521106f7a2b8376694ffd7e2bbed",
@@ -1446,37 +1476,41 @@
         "409561282": {
           "checkedAt": "2026-10-11T09:29:04.073Z",
           "ok": true
+        },
+        "412630556": {
+          "checkedAt": "2026-10-14T11:17:10.343Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:592cf196107221318a45007afade4b6441ed521106f7a2b8376694ffd7e2bbed",
-          "id": 630302223,
-          "name": "SvcHub-8-1.3.5.zip",
-          "sha256": "592cf196107221318a45007afade4b6441ed521106f7a2b8376694ffd7e2bbed",
-          "size": 70128,
-          "url": "https://github.com/LimpidMo/SvcHub/releases/download/v1.3.5/SvcHub-8-1.3.5.zip"
+          "digest": "sha256:137098f226e8a3f976f905c163e5d7d1da41f434fc6c883942202bb103eb5a5f",
+          "id": 640145910,
+          "name": "SvcHub-9-1.3.6.zip",
+          "sha256": "137098f226e8a3f976f905c163e5d7d1da41f434fc6c883942202bb103eb5a5f",
+          "size": 71204,
+          "url": "https://github.com/LimpidMo/SvcHub/releases/download/v1.3.6/SvcHub-9-1.3.6.zip"
         },
-        "body": "## [1.3.5] - 2026-10-11\n\n### Fixed \n\n- 本版本无实质性更新，仅作 KernelSU 模块发版要求 \n- 功能详见仓库 README.md\n\n",
-        "htmlUrl": "https://github.com/LimpidMo/SvcHub/releases/tag/v1.3.5",
+        "body": "## [1.3.6] - 2026-10-14\n\n### Added\n\n- 新增 Termux 服务「root 运行」开关：默认以 Termux 用户运行\n  - 开启后以 root 运行，工作目录与环境变量不变。\n\n### Changed\n\n- Termux 服务改为完整降权至 Termux 用户身份运行（用户与组）。\n  - 若启动时因文件属组问题无法启动使用`chown -R $(stat -c %u /data/data/com.termux):$(stat -c %g /data/data/com.termux) <服务目录>` 命令后启动，或以 root 身份运行\n- 移除服务「附加参数」设置项及界面展示；已填写的参数将失效且不保留，如有依赖请改用启动命令处理。\n- 服务状态页移除 start/stop 标签，配置页保留，保持首页简洁。\n\n### Fixed\n\n- 修复关闭「巡检保活」后重启手机不自动启动服务的问题：\n\n",
+        "htmlUrl": "https://github.com/LimpidMo/SvcHub/releases/tag/v1.3.6",
         "immutable": true,
-        "name": "SvcHub v1.3.5",
+        "name": "SvcHub v1.3.6",
         "prerelease": false,
         "prop": {
-          "author": "Mo",
-          "description": "开机自启和保活 Termux 服务与二进制服务，并提供定时/ WIFI 启停服务和 WebUI 聚合管理",
+          "author": "LimpidMo",
+          "description": "开机自启和保活 Termux 服务与二进制服务，并提供定时/亮屏/ WIFI 启停服务和 WebUI 聚合管理",
           "id": "SvcHub",
           "name": "SvcHub",
           "updateJson": "https://v4.gh-proxy.org/https://github.com/LimpidMo/SvcHub/releases/latest/download/update.json",
-          "version": "1.3.5",
-          "versionCode": "8"
+          "version": "1.3.6",
+          "versionCode": "9"
         },
-        "publishedAt": "2026-10-11T09:13:19Z",
-        "releaseId": 409561282,
-        "tag": "v1.3.5",
-        "tagCommit": "d28cef4f1541381c91ba0e1e005a66ca2ab6a571",
-        "version": "1.3.5",
-        "versionCode": 8
+        "publishedAt": "2026-10-14T11:16:45Z",
+        "releaseId": 412630556,
+        "tag": "v1.3.6",
+        "tagCommit": "5e23270a02c574e0a22d64fd02faa67be5c0ca03",
+        "version": "1.3.6",
+        "versionCode": 9
       },
       "stars": {
         "count": 11,
@@ -1903,8 +1937,8 @@
         "versionCode": 20260926
       },
       "stars": {
-        "count": 826,
-        "fetchedAt": "2026-10-13T10:52:29.245Z",
+        "count": 829,
+        "fetchedAt": "2026-10-14T11:17:10.343Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -2043,8 +2077,8 @@
         "versionCode": 58
       },
       "stars": {
-        "count": 90,
-        "fetchedAt": "2026-10-13T10:52:29.245Z",
+        "count": 91,
+        "fetchedAt": "2026-10-14T11:17:10.343Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -2364,8 +2398,8 @@
         "versionCode": 100
       },
       "stars": {
-        "count": 0,
-        "fetchedAt": "2026-10-11T02:58:32.685Z",
+        "count": 1,
+        "fetchedAt": "2026-10-14T11:17:10.343Z",
         "fullName": "KernelSU-Modules/example-module",
         "repositoryId": 1413800395,
         "verified": "self"
@@ -4136,8 +4170,8 @@
         "versionCode": 562
       },
       "stars": {
-        "count": 2,
-        "fetchedAt": "2026-10-13T09:18:50.026Z",
+        "count": 3,
+        "fetchedAt": "2026-10-14T11:17:10.343Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
