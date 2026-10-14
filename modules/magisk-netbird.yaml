@@ -1,0 +1,19 @@
+id: magisk-netbird
+status: pending
+request:
+  submissionId: jjvnpfrt23
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1274372941
+    ownerId: 145946661
+    fullName: ahsaboy/magisk-netbird
+    manifestPath: module.yaml
+  submittedBy: 145946661
+  submittedByLogin: ahsaboy
+  submittedAt: 2026-10-14T04:01:28.175Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64337
+createdAt: 2026-10-14T04:01:28.175Z
+updatedAt: 2026-10-14T04:01:28.175Z
