@@ -1,19 +1,23 @@
 id: enable_miui_adb
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 457318262
+  ownerId: 30978685
+  fullName: Ylarod/enable-miui-adb
+  manifestPath: module.yaml
+review:
   submissionId: ah2ehwlxvh
   kind: submit
-  source:
-    host: github
-    repositoryId: 457318262
-    ownerId: 30978685
-    fullName: Ylarod/enable-miui-adb
-    manifestPath: module.yaml
   submittedBy: 30978685
-  submittedByLogin: Ylarod
   submittedAt: 2026-10-14T03:33:36.877Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-10-14T03:33:52.537Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64334
 createdAt: 2026-10-14T03:33:36.877Z
-updatedAt: 2026-10-14T03:33:36.877Z
+updatedAt: 2026-10-14T03:33:52.537Z
