@@ -1,0 +1,19 @@
+id: zygisk_fusehide
+status: pending
+request:
+  submissionId: 526dc4zo00
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1417162951
+    ownerId: 110387028
+    fullName: XiaoTong6666/zygisk_fusehide
+    manifestPath: module.yaml
+  submittedBy: 110387028
+  submittedByLogin: XiaoTong6666
+  submittedAt: 2026-10-14T06:24:55.493Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64344
+createdAt: 2026-10-14T06:24:55.493Z
+updatedAt: 2026-10-14T06:24:55.493Z
