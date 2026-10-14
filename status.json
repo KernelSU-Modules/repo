@@ -452,6 +452,27 @@
         "versionCode": 562
       }
     },
+    "zygisk_fusehide": {
+      "contentCommit": "106a3c48f9a131ead737b8f6f95096a6cb67e2f2",
+      "fullName": "XiaoTong6666/zygisk_fusehide",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1417162951,
+      "request": {
+        "checkedAt": "2026-10-14T06:25:17.208Z",
+        "commit": "106a3c48f9a131ead737b8f6f95096a6cb67e2f2",
+        "issues": [],
+        "latestTag": "v186-435f98e",
+        "ok": true,
+        "releaseId": 412385874,
+        "repositoryId": 1417162951,
+        "submissionId": "526dc4zo00"
+      },
+      "stable": null
+    },
     "zygisknextsu": {
       "contentCommit": "c1e927c8d0181dae7957db4750ee184d88235c8a",
       "fullName": "VeryBaaad/ZygiskNextNext",
