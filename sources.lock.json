@@ -2847,6 +2847,201 @@
         "verified": "self"
       }
     },
+    "magisk-netbird": {
+      "content": {
+        "blobs": {
+          "README.md": "aac60b68fc53cc45a603718f73bb51b715dd41f9",
+          "assets/icon.png": "4b5299236cdfdf9e533636d5a53e4b2f196c27f7",
+          "docs/netbird-logo.png": "1b2405c07e06ec4e2599fc6f205ba962c6697316",
+          "module.yaml": "741634b1072058f3b3a3c426bebed63218d4559b"
+        },
+        "commit": "2d7cc3fb35b461a306c0565e95f45035383d277f",
+        "fetchedAt": "2026-10-14T04:18:13.208Z",
+        "files": {
+          "README.md": "93dd027f094dd0f92309f23fb8c7d7df5afde0409d0b3ee13a610730ed49fd30",
+          "assets/icon.png": "f02f1e5d4edd4fbef8420d768a555b23a179bf24a86413714d03e409598e136e",
+          "docs/netbird-logo.png": "33d92428742e9c48b58cbb7b62cdd00987c73e37211ab890a0f721c8b35a1dec",
+          "module.yaml": "357183160f7f90214d61f71d33b2501ecac2f19f1bc05a4223db12adc612094a"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "ahsaboy/magisk-netbird",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-14T04:18:13.208Z",
+        "lastSuccessAt": "2026-10-14T04:18:13.208Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "magisk-netbird",
+      "installationId": 171209105,
+      "maxStableVersionCode": 10407,
+      "maxVersionCode": 10407,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:f1898468ba44ef351bba511e6a7d5dd3baf8711232fba4bb784803e3f7766181",
+            "id": 639154295,
+            "name": "magisk-netbird-10407-v1.4.7-0.80.0.zip",
+            "sha256": "f1898468ba44ef351bba511e6a7d5dd3baf8711232fba4bb784803e3f7766181",
+            "size": 45085031,
+            "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.7/magisk-netbird-10407-v1.4.7-0.80.0.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/ahsaboy/magisk-netbird/compare/v1.4.6...v1.4.7",
+          "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.7",
+          "immutable": true,
+          "name": "v1.4.7",
+          "prerelease": false,
+          "prop": {
+            "author": "ahsaboy",
+            "description": "NetBird daemon with mobile KernelSU WebUI controls and structured status.",
+            "id": "magisk-netbird",
+            "minMagisk": "20400",
+            "name": "Magisk NetBird",
+            "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/update/update-arm64-v8a.json",
+            "version": "v1.4.7-0.80.0",
+            "versionCode": "10407"
+          },
+          "publishedAt": "2026-10-14T03:59:53Z",
+          "releaseId": 412324792,
+          "tag": "v1.4.7",
+          "tagCommit": "667b5dc6773bf740e7246a714bf3eca446578cd7",
+          "version": "v1.4.7-0.80.0",
+          "versionCode": 10407
+        }
+      ],
+      "repositoryId": 1274372941,
+      "seen": {
+        "341949263": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "341963248": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "342020977": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "342059062": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "342059508": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "393588211": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "393677264": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "403140922": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "403680974": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "406571779": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "406645228": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "406784966": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "406924795": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "407797748": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "412324792": {
+          "checkedAt": "2026-10-14T04:18:13.208Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:f1898468ba44ef351bba511e6a7d5dd3baf8711232fba4bb784803e3f7766181",
+          "id": 639154295,
+          "name": "magisk-netbird-10407-v1.4.7-0.80.0.zip",
+          "sha256": "f1898468ba44ef351bba511e6a7d5dd3baf8711232fba4bb784803e3f7766181",
+          "size": 45085031,
+          "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.7/magisk-netbird-10407-v1.4.7-0.80.0.zip"
+        },
+        "body": "**Full Changelog**: https://github.com/ahsaboy/magisk-netbird/compare/v1.4.6...v1.4.7",
+        "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.7",
+        "immutable": true,
+        "name": "v1.4.7",
+        "prerelease": false,
+        "prop": {
+          "author": "ahsaboy",
+          "description": "NetBird daemon with mobile KernelSU WebUI controls and structured status.",
+          "id": "magisk-netbird",
+          "minMagisk": "20400",
+          "name": "Magisk NetBird",
+          "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/update/update-arm64-v8a.json",
+          "version": "v1.4.7-0.80.0",
+          "versionCode": "10407"
+        },
+        "publishedAt": "2026-10-14T03:59:53Z",
+        "releaseId": 412324792,
+        "tag": "v1.4.7",
+        "tagCommit": "667b5dc6773bf740e7246a714bf3eca446578cd7",
+        "version": "v1.4.7-0.80.0",
+        "versionCode": 10407
+      },
+      "stars": {
+        "count": 2,
+        "fetchedAt": "2026-10-14T04:18:13.208Z",
+        "fullName": "ahsaboy/magisk-netbird",
+        "repositoryId": 1274372941,
+        "verified": "self"
+      }
+    },
     "netproxy": {
       "content": {
         "blobs": {

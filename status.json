@@ -317,25 +317,21 @@
       }
     },
     "magisk-netbird": {
-      "contentCommit": "50e7c38a87f502a0c487f7cc1d82e2a78706e320",
+      "contentCommit": "2d7cc3fb35b461a306c0565e95f45035383d277f",
       "fullName": "ahsaboy/magisk-netbird",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-14T04:18:13.208Z",
+      "maxVersionCode": 10407,
       "message": null,
       "repositoryId": 1274372941,
-      "request": {
-        "checkedAt": "2026-10-14T04:01:54.217Z",
-        "commit": "50e7c38a87f502a0c487f7cc1d82e2a78706e320",
-        "issues": [],
-        "latestTag": "v1.4.7",
-        "ok": true,
-        "releaseId": 412324792,
-        "repositoryId": 1274372941,
-        "submissionId": "jjvnpfrt23"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-14T03:59:53Z",
+        "tag": "v1.4.7",
+        "version": "v1.4.7-0.80.0",
+        "versionCode": 10407
+      }
     },
     "netproxy": {
       "contentCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
