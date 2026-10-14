@@ -385,8 +385,8 @@
         "versionCode": 20260821
       },
       "stars": {
-        "count": 296,
-        "fetchedAt": "2026-10-13T13:21:27.078Z",
+        "count": 299,
+        "fetchedAt": "2026-10-14T13:45:05.329Z",
         "fullName": "Seyud/FreePPS",
         "repositoryId": 1063205512,
         "requested": "Seyud/FreePPS",
@@ -4346,17 +4346,47 @@
       "fullName": "VeryBaaad/ZygiskNextNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-13T16:48:08.227Z",
-        "lastSuccessAt": "2026-10-13T16:48:08.227Z",
+        "lastAttemptAt": "2026-10-14T13:45:05.329Z",
+        "lastSuccessAt": "2026-10-14T13:45:05.329Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 172,
-      "maxVersionCode": 172,
+      "maxStableVersionCode": 184,
+      "maxVersionCode": 184,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:5413ab654c1c167d843d480e61fce3fb01c01a277c5e10a23cb68801076f9fa4",
+            "id": 640514426,
+            "name": "Zygisk-Next-Next-v1.8.3-184-e4da082-release.zip",
+            "sha256": "5413ab654c1c167d843d480e61fce3fb01c01a277c5e10a23cb68801076f9fa4",
+            "size": 2988450,
+            "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.8.3/Zygisk-Next-Next-v1.8.3-184-e4da082-release.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.8.2...v1.8.3\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.8.3",
+          "immutable": true,
+          "name": "v1.8.3",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "Zygisk Next Next",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
+            "version": "v1.8.3 (184-e4da082-release)",
+            "versionCode": "184"
+          },
+          "publishedAt": "2026-10-14T13:44:32Z",
+          "releaseId": 412767205,
+          "tag": "v1.8.3",
+          "tagCommit": "e4da08237aa4a37a7cd53fd3243315ef24954618",
+          "version": "v1.8.3 (184-e4da082-release)",
+          "versionCode": 184
+        },
         {
           "asset": {
             "digest": "sha256:21d88bc872935a3cf0ac2216c9b4b3a8c707a7dd3e345471fdcbd549bef0bd17",
@@ -4609,21 +4639,25 @@
         "411901537": {
           "checkedAt": "2026-10-13T16:48:08.227Z",
           "ok": true
+        },
+        "412767205": {
+          "checkedAt": "2026-10-14T13:45:05.329Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:21d88bc872935a3cf0ac2216c9b4b3a8c707a7dd3e345471fdcbd549bef0bd17",
-          "id": 637645634,
-          "name": "Zygisk-Next-Next-v1.8.2-172-15ebf86-release.zip",
-          "sha256": "21d88bc872935a3cf0ac2216c9b4b3a8c707a7dd3e345471fdcbd549bef0bd17",
-          "size": 2964661,
-          "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.8.2/Zygisk-Next-Next-v1.8.2-172-15ebf86-release.zip"
+          "digest": "sha256:5413ab654c1c167d843d480e61fce3fb01c01a277c5e10a23cb68801076f9fa4",
+          "id": 640514426,
+          "name": "Zygisk-Next-Next-v1.8.3-184-e4da082-release.zip",
+          "sha256": "5413ab654c1c167d843d480e61fce3fb01c01a277c5e10a23cb68801076f9fa4",
+          "size": 2988450,
+          "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.8.3/Zygisk-Next-Next-v1.8.3-184-e4da082-release.zip"
         },
-        "body": "## What's Changed\n* chore(deps-dev): bump @types/node from 26.6.4 to 26.6.5 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/96\n* chore(deps): bump @material-symbols/font-400 from 0.47.6 to 0.48.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/95\n* chore(deps): bump motion-v from 2.5.2 to 2.6.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/94\n* chore(deps-dev): bump @vitejs/plugin-vue from 6.0.9 to 6.0.10 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/93\n* chore(deps): bump gradle-wrapper from 9.8.0 to 9.8.1 by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/92\n* chore(deps-dev): bump vite from 8.3.2 to 8.3.4 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/97\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.8.1...v1.8.2\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.8.2",
+        "body": "**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.8.2...v1.8.3\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.8.3",
         "immutable": true,
-        "name": "v1.8.2",
+        "name": "v1.8.3",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -4631,19 +4665,19 @@
           "id": "zygisknextsu",
           "name": "Zygisk Next Next",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
-          "version": "v1.8.2 (172-15ebf86-release)",
-          "versionCode": "172"
+          "version": "v1.8.3 (184-e4da082-release)",
+          "versionCode": "184"
         },
-        "publishedAt": "2026-10-13T16:47:44Z",
-        "releaseId": 411901537,
-        "tag": "v1.8.2",
-        "tagCommit": "15ebf86d129a261dd34315d2c0da2dbf132ce150",
-        "version": "v1.8.2 (172-15ebf86-release)",
-        "versionCode": 172
+        "publishedAt": "2026-10-14T13:44:32Z",
+        "releaseId": 412767205,
+        "tag": "v1.8.3",
+        "tagCommit": "e4da08237aa4a37a7cd53fd3243315ef24954618",
+        "version": "v1.8.3 (184-e4da082-release)",
+        "versionCode": 184
       },
       "stars": {
-        "count": 52,
-        "fetchedAt": "2026-10-13T13:21:27.078Z",
+        "count": 53,
+        "fetchedAt": "2026-10-14T13:45:05.329Z",
         "fullName": "VeryBaaad/ZygiskNextNext",
         "repositoryId": 1348255159,
         "verified": "self"
