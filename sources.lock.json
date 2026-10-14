@@ -2050,6 +2050,113 @@
         "verified": "self"
       }
     },
+    "enable_miui_adb": {
+      "content": {
+        "blobs": {
+          "README.md": "496fc854b84f3cc852cfe4a27e576c4d08e0e0e4",
+          "assets/icon.png": "49bc20f4dd9e6504d6dd8a7da133c4f2692e68bf",
+          "module.yaml": "3d99b6fc0543591763c855dc6483753edc67315c"
+        },
+        "commit": "330971689451f04d27a1db42c602811f651b3592",
+        "fetchedAt": "2026-10-14T03:34:44.642Z",
+        "files": {
+          "README.md": "a66953a512da64f19cc7832fb72bb91e647f54f79a267272f8007ed0c69fe671",
+          "assets/icon.png": "8759ef78bdc0290abc244ebcea235bd096f29170f3afc14e342c994eed877ac5",
+          "module.yaml": "e5fb2dbe0b0187df7967b78aff94b3ee41b2381702bb579920bfd14463f8b473"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "Ylarod/enable-miui-adb",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-14T03:34:44.642Z",
+        "lastSuccessAt": "2026-10-14T03:34:44.642Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "enable_miui_adb",
+      "installationId": 171216717,
+      "maxStableVersionCode": 100,
+      "maxVersionCode": 100,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:2e5476c7d1f1c3e82eee688ee8e3b40105b71e8a6f4dbb7fcf5260c0c2211d21",
+            "id": 639092641,
+            "name": "enable_miui_adb-100-v1.0.0.zip",
+            "sha256": "2e5476c7d1f1c3e82eee688ee8e3b40105b71e8a6f4dbb7fcf5260c0c2211d21",
+            "size": 1491,
+            "url": "https://github.com/Ylarod/enable-miui-adb/releases/download/v1.0.0/enable_miui_adb-100-v1.0.0.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/Ylarod/enable-miui-adb/commits/v1.0.0",
+          "htmlUrl": "https://github.com/Ylarod/enable-miui-adb/releases/tag/v1.0.0",
+          "immutable": true,
+          "name": "v1.0.0",
+          "prerelease": false,
+          "prop": {
+            "author": "Ylarod",
+            "description": "Enable \"adb install\" on MIUI / HyperOS without Xiaomi account login and SIM card. Tap the Action button to apply.",
+            "id": "enable_miui_adb",
+            "name": "Enable MIUI ADB",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/enable_miui_adb/update.json",
+            "version": "v1.0.0",
+            "versionCode": "100"
+          },
+          "publishedAt": "2026-10-14T03:30:26Z",
+          "releaseId": 412311381,
+          "tag": "v1.0.0",
+          "tagCommit": "330971689451f04d27a1db42c602811f651b3592",
+          "version": "v1.0.0",
+          "versionCode": 100
+        }
+      ],
+      "repositoryId": 457318262,
+      "seen": {
+        "412311381": {
+          "checkedAt": "2026-10-14T03:34:44.642Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:2e5476c7d1f1c3e82eee688ee8e3b40105b71e8a6f4dbb7fcf5260c0c2211d21",
+          "id": 639092641,
+          "name": "enable_miui_adb-100-v1.0.0.zip",
+          "sha256": "2e5476c7d1f1c3e82eee688ee8e3b40105b71e8a6f4dbb7fcf5260c0c2211d21",
+          "size": 1491,
+          "url": "https://github.com/Ylarod/enable-miui-adb/releases/download/v1.0.0/enable_miui_adb-100-v1.0.0.zip"
+        },
+        "body": "**Full Changelog**: https://github.com/Ylarod/enable-miui-adb/commits/v1.0.0",
+        "htmlUrl": "https://github.com/Ylarod/enable-miui-adb/releases/tag/v1.0.0",
+        "immutable": true,
+        "name": "v1.0.0",
+        "prerelease": false,
+        "prop": {
+          "author": "Ylarod",
+          "description": "Enable \"adb install\" on MIUI / HyperOS without Xiaomi account login and SIM card. Tap the Action button to apply.",
+          "id": "enable_miui_adb",
+          "name": "Enable MIUI ADB",
+          "updateJson": "https://modules.kernelsu.org/api/v1/modules/enable_miui_adb/update.json",
+          "version": "v1.0.0",
+          "versionCode": "100"
+        },
+        "publishedAt": "2026-10-14T03:30:26Z",
+        "releaseId": 412311381,
+        "tag": "v1.0.0",
+        "tagCommit": "330971689451f04d27a1db42c602811f651b3592",
+        "version": "v1.0.0",
+        "versionCode": 100
+      },
+      "stars": {
+        "count": 116,
+        "fetchedAt": "2026-10-14T03:34:44.642Z",
+        "fullName": "Ylarod/enable-miui-adb",
+        "repositoryId": 457318262,
+        "verified": "self"
+      }
+    },
     "example_closed_module_demo": {
       "content": {
         "blobs": {
