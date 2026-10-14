@@ -4143,6 +4143,111 @@
         "verified": "self"
       }
     },
+    "zygisk_fusehide": {
+      "content": {
+        "blobs": {
+          "README.md": "93b20030a683aa1c487c5906d747d9d23f587e36",
+          "module.yaml": "b1ef4fac555669e9f05550f8942e3aa84a321f1d"
+        },
+        "commit": "106a3c48f9a131ead737b8f6f95096a6cb67e2f2",
+        "fetchedAt": "2026-10-14T06:26:09.328Z",
+        "files": {
+          "README.md": "5549ee615b4ccf5dae0cff6173dc471cde4e4e3b24721495f58d266dfc87c2d5",
+          "module.yaml": "7630c4d850fe55a241efa6c190f0ad79725c8d7aedf811fc8951feeec1a27504"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "XiaoTong6666/zygisk_fusehide",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-14T06:26:09.328Z",
+        "lastSuccessAt": "2026-10-14T06:26:09.328Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "zygisk_fusehide",
+      "installationId": 170178853,
+      "maxStableVersionCode": 186,
+      "maxVersionCode": 186,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:b5d4684192f2b72cb9954103d12f29dd43fbf7b8eb119e59f82a80d59a50deb2",
+            "id": 639418340,
+            "name": "FuseHide-1.186_186-435f98e-release.zip",
+            "sha256": "b5d4684192f2b72cb9954103d12f29dd43fbf7b8eb119e59f82a80d59a50deb2",
+            "size": 7530211,
+            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v186-435f98e/FuseHide-1.186_186-435f98e-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.186`\n- **VersionCode:** `186`\n- **Commit:** [`435f98e`](https://github.com/XiaoTong6666/FuseHide/commit/435f98eff9cde1b3e5d6add418c73ba5f83445f7)\n- **Build time:** `5m 40s`\n- **SHA256:** `b5d4684192f2b72cb9954103d12f29dd43fbf7b8eb119e59f82a80d59a50deb2`\n\n## Message\n\n```text\nci: Add Zygisk releases Meow\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v186-435f98e",
+          "immutable": true,
+          "name": "1.186",
+          "prerelease": false,
+          "prop": {
+            "author": "XiaoTong",
+            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+            "id": "zygisk_fusehide",
+            "name": "Zygisk - FuseHide",
+            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+            "version": "1.186 (186-435f98e-release)",
+            "versionCode": "186"
+          },
+          "publishedAt": "2026-10-14T06:03:42Z",
+          "releaseId": 412385874,
+          "tag": "v186-435f98e",
+          "tagCommit": "106a3c48f9a131ead737b8f6f95096a6cb67e2f2",
+          "version": "1.186 (186-435f98e-release)",
+          "versionCode": 186
+        }
+      ],
+      "repositoryId": 1417162951,
+      "seen": {
+        "412385874": {
+          "checkedAt": "2026-10-14T06:26:09.328Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:b5d4684192f2b72cb9954103d12f29dd43fbf7b8eb119e59f82a80d59a50deb2",
+          "id": 639418340,
+          "name": "FuseHide-1.186_186-435f98e-release.zip",
+          "sha256": "b5d4684192f2b72cb9954103d12f29dd43fbf7b8eb119e59f82a80d59a50deb2",
+          "size": 7530211,
+          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v186-435f98e/FuseHide-1.186_186-435f98e-release.zip"
+        },
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.186`\n- **VersionCode:** `186`\n- **Commit:** [`435f98e`](https://github.com/XiaoTong6666/FuseHide/commit/435f98eff9cde1b3e5d6add418c73ba5f83445f7)\n- **Build time:** `5m 40s`\n- **SHA256:** `b5d4684192f2b72cb9954103d12f29dd43fbf7b8eb119e59f82a80d59a50deb2`\n\n## Message\n\n```text\nci: Add Zygisk releases Meow\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v186-435f98e",
+        "immutable": true,
+        "name": "1.186",
+        "prerelease": false,
+        "prop": {
+          "author": "XiaoTong",
+          "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+          "id": "zygisk_fusehide",
+          "name": "Zygisk - FuseHide",
+          "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+          "version": "1.186 (186-435f98e-release)",
+          "versionCode": "186"
+        },
+        "publishedAt": "2026-10-14T06:03:42Z",
+        "releaseId": 412385874,
+        "tag": "v186-435f98e",
+        "tagCommit": "106a3c48f9a131ead737b8f6f95096a6cb67e2f2",
+        "version": "1.186 (186-435f98e-release)",
+        "versionCode": 186
+      },
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-10-14T06:26:09.328Z",
+        "fullName": "XiaoTong6666/zygisk_fusehide",
+        "repositoryId": 1417162951,
+        "verified": "self"
+      }
+    },
     "zygisknextsu": {
       "content": {
         "blobs": {
