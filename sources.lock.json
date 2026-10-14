@@ -1318,8 +1318,8 @@
         "versionCode": 19
       },
       "stars": {
-        "count": 44,
-        "fetchedAt": "2026-10-13T16:22:07.084Z",
+        "count": 48,
+        "fetchedAt": "2026-10-14T18:01:15.183Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -4231,9 +4231,9 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-14T12:07:27.302Z",
-        "lastSuccessAt": "2026-10-14T12:07:27.302Z",
-        "message": null,
+        "lastAttemptAt": "2026-10-14T18:01:15.183Z",
+        "lastSuccessAt": "2026-10-14T18:01:15.183Z",
+        "message": "stable-unavailable: the stable release (versionCode 187) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 187 is published.",
         "status": "ok"
       },
       "id": "zygisk_fusehide",
@@ -4241,38 +4241,7 @@
       "maxStableVersionCode": 187,
       "maxVersionCode": 187,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:2ba3acab023c3dd89d91dfc531b92c65cc8fe240104609d0d72f5a4a589d230d",
-            "id": 639530840,
-            "name": "FuseHide-1.187_187-77623c2-release.zip",
-            "sha256": "2ba3acab023c3dd89d91dfc531b92c65cc8fe240104609d0d72f5a4a589d230d",
-            "size": 7530211,
-            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v187-77623c2/FuseHide-1.187_187-77623c2-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.187`\n- **VersionCode:** `187`\n- **Commit:** [`77623c2`](https://github.com/XiaoTong6666/FuseHide/commit/77623c2c41b6050f2910d943a449ea4b62d09426)\n- **Build time:** `5m 15s`\n- **SHA256:** `2ba3acab023c3dd89d91dfc531b92c65cc8fe240104609d0d72f5a4a589d230d`\n\n## Message\n\n```text\nbuild(deps): bump com.diffplug.spotless from 8.10.3 to 8.10.4 (#104)\n\nBumps [com.diffplug.spotless](https://github.com/diffplug/spotless) from 8.10.3 to 8.10.4.\n- [Release notes](https://github.com/diffplug/spotless/releases)\n- [Changelog](https://github.com/diffplug/spotless/blob/main/CHANGES.md)\n- [Commits](https://github.com/diffplug/spotless/compare/gradle/8.10.3...gradle/8.10.4)\n\n---\nupdated-dependencies:\n- dependency-name: com.diffplug.spotless\n  dependency-version: 8.10.4\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v187-77623c2",
-          "immutable": true,
-          "name": "1.187",
-          "prerelease": false,
-          "prop": {
-            "author": "XiaoTong",
-            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
-            "id": "zygisk_fusehide",
-            "name": "Zygisk - FuseHide",
-            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-            "version": "1.187 (187-77623c2-release)",
-            "versionCode": "187"
-          },
-          "publishedAt": "2026-10-14T06:56:05Z",
-          "releaseId": 412421697,
-          "tag": "v187-77623c2",
-          "tagCommit": "05ab724d36f354ce730eaec06165b2bcf9464e86",
-          "version": "1.187 (187-77623c2-release)",
-          "versionCode": 187
-        }
-      ],
+      "releases": [],
       "repositoryId": 1417162951,
       "seen": {
         "412385874": {
@@ -4288,41 +4257,16 @@
           "code": "version-not-newer",
           "message": "versionCode 186 is not higher than 187, the highest versionCode accepted for this module (v187-77623c2).",
           "ok": false
+        },
+        "413023645": {
+          "checkedAt": "2026-10-14T18:01:15.183Z",
+          "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:2ba3acab023c3dd89d91dfc531b92c65cc8fe240104609d0d72f5a4a589d230d",
-          "id": 639530840,
-          "name": "FuseHide-1.187_187-77623c2-release.zip",
-          "sha256": "2ba3acab023c3dd89d91dfc531b92c65cc8fe240104609d0d72f5a4a589d230d",
-          "size": 7530211,
-          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v187-77623c2/FuseHide-1.187_187-77623c2-release.zip"
-        },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.187`\n- **VersionCode:** `187`\n- **Commit:** [`77623c2`](https://github.com/XiaoTong6666/FuseHide/commit/77623c2c41b6050f2910d943a449ea4b62d09426)\n- **Build time:** `5m 15s`\n- **SHA256:** `2ba3acab023c3dd89d91dfc531b92c65cc8fe240104609d0d72f5a4a589d230d`\n\n## Message\n\n```text\nbuild(deps): bump com.diffplug.spotless from 8.10.3 to 8.10.4 (#104)\n\nBumps [com.diffplug.spotless](https://github.com/diffplug/spotless) from 8.10.3 to 8.10.4.\n- [Release notes](https://github.com/diffplug/spotless/releases)\n- [Changelog](https://github.com/diffplug/spotless/blob/main/CHANGES.md)\n- [Commits](https://github.com/diffplug/spotless/compare/gradle/8.10.3...gradle/8.10.4)\n\n---\nupdated-dependencies:\n- dependency-name: com.diffplug.spotless\n  dependency-version: 8.10.4\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v187-77623c2",
-        "immutable": true,
-        "name": "1.187",
-        "prerelease": false,
-        "prop": {
-          "author": "XiaoTong",
-          "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
-          "id": "zygisk_fusehide",
-          "name": "Zygisk - FuseHide",
-          "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-          "version": "1.187 (187-77623c2-release)",
-          "versionCode": "187"
-        },
-        "publishedAt": "2026-10-14T06:56:05Z",
-        "releaseId": 412421697,
-        "tag": "v187-77623c2",
-        "tagCommit": "05ab724d36f354ce730eaec06165b2bcf9464e86",
-        "version": "1.187 (187-77623c2-release)",
-        "versionCode": 187
-      },
+      "stable": null,
       "stars": {
-        "count": 1,
-        "fetchedAt": "2026-10-14T06:56:26.438Z",
+        "count": 3,
+        "fetchedAt": "2026-10-14T18:01:15.183Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
