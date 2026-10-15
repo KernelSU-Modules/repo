@@ -2913,17 +2913,48 @@
       "fullName": "ahsaboy/magisk-netbird",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-14T06:08:41.213Z",
-        "lastSuccessAt": "2026-10-14T06:08:41.213Z",
+        "lastAttemptAt": "2026-10-15T03:05:37.542Z",
+        "lastSuccessAt": "2026-10-15T03:05:37.542Z",
         "message": null,
         "status": "ok"
       },
       "id": "magisk-netbird",
       "installationId": 171209105,
-      "maxStableVersionCode": 10407,
-      "maxVersionCode": 10407,
+      "maxStableVersionCode": 10408,
+      "maxVersionCode": 10408,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:c3d94d933435f83cc0264f2632d1e7fc5ae0ad16017a74e1d1b367f68680f394",
+            "id": 642478161,
+            "name": "magisk-netbird-10408-v1.4.8-0.80.0.zip",
+            "sha256": "c3d94d933435f83cc0264f2632d1e7fc5ae0ad16017a74e1d1b367f68680f394",
+            "size": 45085104,
+            "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.8/magisk-netbird-10408-v1.4.8-0.80.0.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/ahsaboy/magisk-netbird/compare/v1.4.7...v1.4.8",
+          "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.8",
+          "immutable": true,
+          "name": "v1.4.8",
+          "prerelease": false,
+          "prop": {
+            "author": "ahsaboy",
+            "description": "NetBird daemon with mobile KernelSU WebUI controls and structured status.",
+            "id": "magisk-netbird",
+            "minMagisk": "20400",
+            "name": "Magisk NetBird",
+            "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/updates/update-arm64-v8a.json",
+            "version": "v1.4.8-0.80.0",
+            "versionCode": "10408"
+          },
+          "publishedAt": "2026-10-15T03:05:05Z",
+          "releaseId": 413377136,
+          "tag": "v1.4.8",
+          "tagCommit": "13ce125b79b3d7397dc004a3c9a0dabc47d73555",
+          "version": "v1.4.8-0.80.0",
+          "versionCode": 10408
+        },
         {
           "asset": {
             "digest": "sha256:f1898468ba44ef351bba511e6a7d5dd3baf8711232fba4bb784803e3f7766181",
@@ -3045,21 +3076,25 @@
         "412324792": {
           "checkedAt": "2026-10-14T04:18:13.208Z",
           "ok": true
+        },
+        "413377136": {
+          "checkedAt": "2026-10-15T03:05:37.542Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:f1898468ba44ef351bba511e6a7d5dd3baf8711232fba4bb784803e3f7766181",
-          "id": 639154295,
-          "name": "magisk-netbird-10407-v1.4.7-0.80.0.zip",
-          "sha256": "f1898468ba44ef351bba511e6a7d5dd3baf8711232fba4bb784803e3f7766181",
-          "size": 45085031,
-          "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.7/magisk-netbird-10407-v1.4.7-0.80.0.zip"
+          "digest": "sha256:c3d94d933435f83cc0264f2632d1e7fc5ae0ad16017a74e1d1b367f68680f394",
+          "id": 642478161,
+          "name": "magisk-netbird-10408-v1.4.8-0.80.0.zip",
+          "sha256": "c3d94d933435f83cc0264f2632d1e7fc5ae0ad16017a74e1d1b367f68680f394",
+          "size": 45085104,
+          "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.8/magisk-netbird-10408-v1.4.8-0.80.0.zip"
         },
-        "body": "**Full Changelog**: https://github.com/ahsaboy/magisk-netbird/compare/v1.4.6...v1.4.7",
-        "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.7",
+        "body": "**Full Changelog**: https://github.com/ahsaboy/magisk-netbird/compare/v1.4.7...v1.4.8",
+        "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.8",
         "immutable": true,
-        "name": "v1.4.7",
+        "name": "v1.4.8",
         "prerelease": false,
         "prop": {
           "author": "ahsaboy",
@@ -3067,16 +3102,16 @@
           "id": "magisk-netbird",
           "minMagisk": "20400",
           "name": "Magisk NetBird",
-          "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/update/update-arm64-v8a.json",
-          "version": "v1.4.7-0.80.0",
-          "versionCode": "10407"
+          "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/updates/update-arm64-v8a.json",
+          "version": "v1.4.8-0.80.0",
+          "versionCode": "10408"
         },
-        "publishedAt": "2026-10-14T03:59:53Z",
-        "releaseId": 412324792,
-        "tag": "v1.4.7",
-        "tagCommit": "667b5dc6773bf740e7246a714bf3eca446578cd7",
-        "version": "v1.4.7-0.80.0",
-        "versionCode": 10407
+        "publishedAt": "2026-10-15T03:05:05Z",
+        "releaseId": 413377136,
+        "tag": "v1.4.8",
+        "tagCommit": "13ce125b79b3d7397dc004a3c9a0dabc47d73555",
+        "version": "v1.4.8-0.80.0",
+        "versionCode": 10408
       },
       "stars": {
         "count": 2,
@@ -3223,8 +3258,8 @@
         "versionCode": 1082
       },
       "stars": {
-        "count": 1252,
-        "fetchedAt": "2026-10-14T01:56:24.899Z",
+        "count": 1256,
+        "fetchedAt": "2026-10-15T03:05:37.542Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",

@@ -321,16 +321,16 @@
       "fullName": "ahsaboy/magisk-netbird",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-14T06:08:41.213Z",
-      "maxVersionCode": 10407,
+      "lastSuccessAt": "2026-10-15T03:05:37.542Z",
+      "maxVersionCode": 10408,
       "message": null,
       "repositoryId": 1274372941,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-14T03:59:53Z",
-        "tag": "v1.4.7",
-        "version": "v1.4.7-0.80.0",
-        "versionCode": 10407
+        "publishedAt": "2026-10-15T03:05:05Z",
+        "tag": "v1.4.8",
+        "version": "v1.4.8-0.80.0",
+        "versionCode": 10408
       }
     },
     "netproxy": {
