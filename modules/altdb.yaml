@@ -1,19 +1,23 @@
 id: altdb
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1368146952
+  ownerId: 52071314
+  fullName: Dr-TSNG/altdb
+  manifestPath: module.yaml
+review:
   submissionId: 2wol8rjx5x
   kind: submit
-  source:
-    host: github
-    repositoryId: 1368146952
-    ownerId: 52071314
-    fullName: Dr-TSNG/altdb
-    manifestPath: module.yaml
   submittedBy: 52071314
-  submittedByLogin: Dr-TSNG
   submittedAt: 2026-10-15T13:01:52.905Z
+  decision: approved
+  decidedBy: 52071314
+  decidedVia: telegram
+  decidedAt: 2026-10-15T13:03:14.516Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64352
 createdAt: 2026-10-15T13:01:52.905Z
-updatedAt: 2026-10-15T13:01:52.905Z
+updatedAt: 2026-10-15T13:03:14.516Z
