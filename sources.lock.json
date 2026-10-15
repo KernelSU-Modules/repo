@@ -3256,17 +3256,48 @@
       "fullName": "Fanju6/NetProxy-Releases",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-15T09:10:45.733Z",
-        "lastSuccessAt": "2026-10-15T09:10:45.733Z",
+        "lastAttemptAt": "2026-10-15T13:43:45.372Z",
+        "lastSuccessAt": "2026-10-15T13:43:45.372Z",
         "message": null,
         "status": "ok"
       },
       "id": "netproxy",
       "installationId": 170175059,
-      "maxStableVersionCode": 1085,
-      "maxVersionCode": 1085,
+      "maxStableVersionCode": 1088,
+      "maxVersionCode": 1088,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:a07bb10b587a74146d3771aeac6360fa9e7eb884993bc8280e12d46ad75d2c9d",
+            "id": 643996746,
+            "name": "netproxy-1088-v8.6.1.zip",
+            "sha256": "a07bb10b587a74146d3771aeac6360fa9e7eb884993bc8280e12d46ad75d2c9d",
+            "size": 27469893,
+            "url": "https://github.com/Fanju6/NetProxy-Releases/releases/download/v8.6.1/netproxy-1088-v8.6.1.zip"
+          },
+          "body": "## 版本 8.6.1（2026-10-15）\n\n- 修复部分设备因应用图标或字体初始化异常，导致应用代理列表无法加载、提示“无法读取 Android 平台信息”的问题。\n- 默认配置启用 Root 进程接管；保留现有数据升级时沿用已有设置。\n\n* * *\n\n\n[源码提交](https://github.com/Fanju6/NetProxy-Magisk/commit/3fd2a1cb9710b59f2723d3c0bb2a01c7090e0998)\n\nSHA-256: `a07bb10b587a74146d3771aeac6360fa9e7eb884993bc8280e12d46ad75d2c9d`\n",
+          "htmlUrl": "https://github.com/Fanju6/NetProxy-Releases/releases/tag/v8.6.1",
+          "immutable": true,
+          "name": "v8.6.1",
+          "prerelease": false,
+          "prop": {
+            "author": "Fanju",
+            "description": "基于 sing-box 内核的透明代理工具",
+            "id": "netproxy",
+            "name": "NetProxy",
+            "updateJson": "https://github.com/Fanju6/NetProxy-Magisk/releases/latest/download/update.json",
+            "version": "v8.6.1",
+            "versionCode": "1088",
+            "webuiIcon": "webroot/netproxy/favicon.svg"
+          },
+          "publishedAt": "2026-10-15T13:43:21Z",
+          "releaseId": 413861145,
+          "tag": "v8.6.1",
+          "tagCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
+          "version": "v8.6.1",
+          "versionCode": 1088
+        },
         {
           "asset": {
             "digest": "sha256:5a2c622ce38cd77d2d2700467db18d85c983277bb0f389ffe8bac2d8f9dd245a",
@@ -3374,21 +3405,25 @@
         "413612610": {
           "checkedAt": "2026-10-15T09:10:45.733Z",
           "ok": true
+        },
+        "413861145": {
+          "checkedAt": "2026-10-15T13:43:45.372Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:5a2c622ce38cd77d2d2700467db18d85c983277bb0f389ffe8bac2d8f9dd245a",
-          "id": 643327022,
-          "name": "netproxy-1085-v8.6.0.zip",
-          "sha256": "5a2c622ce38cd77d2d2700467db18d85c983277bb0f389ffe8bac2d8f9dd245a",
-          "size": 27469621,
-          "url": "https://github.com/Fanju6/NetProxy-Releases/releases/download/v8.6.0/netproxy-1085-v8.6.0.zip"
+          "digest": "sha256:a07bb10b587a74146d3771aeac6360fa9e7eb884993bc8280e12d46ad75d2c9d",
+          "id": 643996746,
+          "name": "netproxy-1088-v8.6.1.zip",
+          "sha256": "a07bb10b587a74146d3771aeac6360fa9e7eb884993bc8280e12d46ad75d2c9d",
+          "size": 27469893,
+          "url": "https://github.com/Fanju6/NetProxy-Releases/releases/download/v8.6.1/netproxy-1088-v8.6.1.zip"
         },
-        "body": "## 版本 8.6.0（2026-10-15）\n\n### 管理器连接\n\n- Android 管理器全面改用模块 HTTPS 管理接口，不再申请 Root 权限或通过 Root Shell 执行命令；模块仍需 Root 环境。\n- 管理器自动获取可信连接资料，无需手动复制密钥；使用独立的安装证书和随机凭据保护本机管理接口。\n- 服务状态、流量、节点与订阅通过共享事件连接更新，切换页面时复用连接。\n\n### 模块管理接口\n\n- 新增独立于 sing-box 的 HTTPS API，支持节点、订阅、配置、日志与服务管理；核心停止时仍可访问。\n- HTTP API 与 CLI 共用业务校验和配置事务；已接受的写入不因客户端断开而中断，保存失败与运行时同步失败分别反馈。\n- 接口监听失败后自动退避恢复，无需重启代理核心。\n\n### 应用与节点\n\n- 应用标签、图标与多用户信息由模块统一提供，图标按需读取并复用缓存，刷新时保留已显示的图标。\n- 没有节点的分组不再显示 Auto-Fastest 卡片。\n\n* * *\n\n\n[源码提交](https://github.com/Fanju6/NetProxy-Magisk/commit/4784efe9db65b20ff996b544f4e25fcdff6906b1)\n\nSHA-256: `5a2c622ce38cd77d2d2700467db18d85c983277bb0f389ffe8bac2d8f9dd245a`\n",
-        "htmlUrl": "https://github.com/Fanju6/NetProxy-Releases/releases/tag/v8.6.0",
+        "body": "## 版本 8.6.1（2026-10-15）\n\n- 修复部分设备因应用图标或字体初始化异常，导致应用代理列表无法加载、提示“无法读取 Android 平台信息”的问题。\n- 默认配置启用 Root 进程接管；保留现有数据升级时沿用已有设置。\n\n* * *\n\n\n[源码提交](https://github.com/Fanju6/NetProxy-Magisk/commit/3fd2a1cb9710b59f2723d3c0bb2a01c7090e0998)\n\nSHA-256: `a07bb10b587a74146d3771aeac6360fa9e7eb884993bc8280e12d46ad75d2c9d`\n",
+        "htmlUrl": "https://github.com/Fanju6/NetProxy-Releases/releases/tag/v8.6.1",
         "immutable": true,
-        "name": "v8.6.0",
+        "name": "v8.6.1",
         "prerelease": false,
         "prop": {
           "author": "Fanju",
@@ -3396,20 +3431,20 @@
           "id": "netproxy",
           "name": "NetProxy",
           "updateJson": "https://github.com/Fanju6/NetProxy-Magisk/releases/latest/download/update.json",
-          "version": "v8.6.0",
-          "versionCode": "1085",
+          "version": "v8.6.1",
+          "versionCode": "1088",
           "webuiIcon": "webroot/netproxy/favicon.svg"
         },
-        "publishedAt": "2026-10-15T09:10:22Z",
-        "releaseId": 413612610,
-        "tag": "v8.6.0",
+        "publishedAt": "2026-10-15T13:43:21Z",
+        "releaseId": 413861145,
+        "tag": "v8.6.1",
         "tagCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
-        "version": "v8.6.0",
-        "versionCode": 1085
+        "version": "v8.6.1",
+        "versionCode": 1088
       },
       "stars": {
-        "count": 1256,
-        "fetchedAt": "2026-10-15T03:05:37.542Z",
+        "count": 1255,
+        "fetchedAt": "2026-10-15T13:43:45.372Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
