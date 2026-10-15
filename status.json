@@ -389,16 +389,16 @@
       "fullName": "KOWX712/PlayIntegrityFix",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-12T14:02:40.954Z",
-      "maxVersionCode": 480,
+      "lastSuccessAt": "2026-10-15T14:12:22.532Z",
+      "maxVersionCode": 490,
       "message": null,
       "repositoryId": 908441330,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-12T13:56:06Z",
-        "tag": "v4.8-inject-s",
-        "version": "v4.8-inject-s",
-        "versionCode": 480
+        "publishedAt": "2026-10-15T14:11:46Z",
+        "tag": "v4.9-inject-s",
+        "version": "v4.9-inject-s",
+        "versionCode": 490
       }
     },
     "susfs4ksu_lkm": {

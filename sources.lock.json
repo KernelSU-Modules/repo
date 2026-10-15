@@ -3612,17 +3612,47 @@
       "fullName": "KOWX712/PlayIntegrityFix",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-12T14:02:40.954Z",
-        "lastSuccessAt": "2026-10-12T14:02:40.954Z",
+        "lastAttemptAt": "2026-10-15T14:12:22.532Z",
+        "lastSuccessAt": "2026-10-15T14:12:22.532Z",
         "message": null,
         "status": "ok"
       },
       "id": "playintegrityfix",
       "installationId": 170623663,
-      "maxStableVersionCode": 480,
-      "maxVersionCode": 480,
+      "maxStableVersionCode": 490,
+      "maxVersionCode": 490,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:bc7a9d92638a6bd90a41b70d3aaf86bc549dd8d3a1e5e901b315a6c425852697",
+            "id": 644077088,
+            "name": "PlayIntegrityFix_v4.9-inject-s.zip",
+            "sha256": "bc7a9d92638a6bd90a41b70d3aaf86bc549dd8d3a1e5e901b315a6c425852697",
+            "size": 692511,
+            "url": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.9-inject-s/PlayIntegrityFix_v4.9-inject-s.zip"
+          },
+          "body": "- Fix spoofProps, enable by default.\r\n- Fix WebUI toggle prompt.",
+          "htmlUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/tag/v4.9-inject-s",
+          "immutable": true,
+          "name": "inject-s v4.9",
+          "prerelease": false,
+          "prop": {
+            "author": "chiteroman, KOWX712",
+            "description": "Universal modular fix for Play Integrity on devices running Android 8-17",
+            "id": "playintegrityfix",
+            "name": "Play Integrity Fix [INJECT]",
+            "updateJson": "https://fastly.jsdelivr.net/gh/KOWX712/playintegrityfix@inject_s/update.json",
+            "version": "v4.9-inject-s",
+            "versionCode": "490"
+          },
+          "publishedAt": "2026-10-15T14:11:46Z",
+          "releaseId": 413890831,
+          "tag": "v4.9-inject-s",
+          "tagCommit": "1138c6f3cebb70c00ec5573911cee745134a3e6d",
+          "version": "v4.9-inject-s",
+          "versionCode": 490
+        },
         {
           "asset": {
             "digest": "sha256:bab1abb22975e95f8246bbe9d1536facd471cc2f0e3e85182bfb0f02d2468dca",
@@ -3731,21 +3761,25 @@
         "410655436": {
           "checkedAt": "2026-10-12T14:02:40.954Z",
           "ok": true
+        },
+        "413890831": {
+          "checkedAt": "2026-10-15T14:12:22.532Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:bab1abb22975e95f8246bbe9d1536facd471cc2f0e3e85182bfb0f02d2468dca",
-          "id": 633923963,
-          "name": "PlayIntegrityFix_v4.8-inject-s.zip",
-          "sha256": "bab1abb22975e95f8246bbe9d1536facd471cc2f0e3e85182bfb0f02d2468dca",
-          "size": 691564,
-          "url": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.8-inject-s/PlayIntegrityFix_v4.8-inject-s.zip"
+          "digest": "sha256:bc7a9d92638a6bd90a41b70d3aaf86bc549dd8d3a1e5e901b315a6c425852697",
+          "id": 644077088,
+          "name": "PlayIntegrityFix_v4.9-inject-s.zip",
+          "sha256": "bc7a9d92638a6bd90a41b70d3aaf86bc549dd8d3a1e5e901b315a6c425852697",
+          "size": 692511,
+          "url": "https://github.com/KOWX712/PlayIntegrityFix/releases/download/v4.9-inject-s/PlayIntegrityFix_v4.9-inject-s.zip"
         },
-        "body": "- Fix WebUI failed to save config.\r\n- Fix auto security patch trigger.\r\n- Drop dobby hook.\r\n- Add x86_64 support.\r\n- Fix some other known issues.",
-        "htmlUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/tag/v4.8-inject-s",
+        "body": "- Fix spoofProps, enable by default.\r\n- Fix WebUI toggle prompt.",
+        "htmlUrl": "https://github.com/KOWX712/PlayIntegrityFix/releases/tag/v4.9-inject-s",
         "immutable": true,
-        "name": "inject-s v4.8",
+        "name": "inject-s v4.9",
         "prerelease": false,
         "prop": {
           "author": "chiteroman, KOWX712",
@@ -3753,15 +3787,15 @@
           "id": "playintegrityfix",
           "name": "Play Integrity Fix [INJECT]",
           "updateJson": "https://fastly.jsdelivr.net/gh/KOWX712/playintegrityfix@inject_s/update.json",
-          "version": "v4.8-inject-s",
-          "versionCode": "480"
+          "version": "v4.9-inject-s",
+          "versionCode": "490"
         },
-        "publishedAt": "2026-10-12T13:56:06Z",
-        "releaseId": 410655436,
-        "tag": "v4.8-inject-s",
-        "tagCommit": "eeef386e4bd482e89b462ca188da76260800bd0e",
-        "version": "v4.8-inject-s",
-        "versionCode": 480
+        "publishedAt": "2026-10-15T14:11:46Z",
+        "releaseId": 413890831,
+        "tag": "v4.9-inject-s",
+        "tagCommit": "1138c6f3cebb70c00ec5573911cee745134a3e6d",
+        "version": "v4.9-inject-s",
+        "versionCode": 490
       },
       "stars": {
         "count": 4023,
