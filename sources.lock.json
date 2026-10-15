@@ -4101,17 +4101,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-13T09:18:50.026Z",
-        "lastSuccessAt": "2026-10-13T09:18:50.026Z",
+        "lastAttemptAt": "2026-10-15T05:13:04.611Z",
+        "lastSuccessAt": "2026-10-15T05:13:04.611Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 562,
-      "maxVersionCode": 562,
+      "maxStableVersionCode": 563,
+      "maxVersionCode": 563,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:d213e91586011f488f2f8b76142e93eb027786db638169d3529c46276dca6e13",
+            "id": 642754866,
+            "name": "Sui-v13.5.4.3_563-a82856c-release.zip",
+            "sha256": "d213e91586011f488f2f8b76142e93eb027786db638169d3529c46276dca6e13",
+            "size": 1364551,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v563-a82856c/Sui-v13.5.4.3_563-a82856c-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (563-a82856c-release)`\n- **VersionCode:** `563`\n- **Commit:** [`a82856c`](https://github.com/XiaoTong6666/Sui/commit/a82856cb9ea1d858437568ac930377c9df80a854)\n- **Build time:** `1m 47s`\n- **SHA256:** `d213e91586011f488f2f8b76142e93eb027786db638169d3529c46276dca6e13`\n\n## Message\n\n```text\nperf: optimize legacy Shizuku Binder compatibility and Hide, Meow\n\n为旧版 Shizuku Binder 兼容开关增加 Native 与 Java 缓存，避免每次请求都通过同步 Binder 查询全局设置。\n\n在 Native 层提前检查兼容开关和调用方 UID，减少无关广播及 Hidden 应用进入 Java 解析流程的开销。\n\n重构权限快照同步逻辑，统一管理 Hidden、Root、Denied、Shell 和默认权限状态，并保留原有 Java 权限复核。\n\n为 Bridge 权限同步增加结果确认与失败重试，降低服务重连或同步失败导致的状态不一致风险。\n\n优化旧版 Shizuku callback 处理流程，保留正常 Binder 返回功能，并阻止 Hidden 应用获取服务 Binder。\n\n优化 BinderHook 日志计数，避免超过采样次数后仍持续执行全局原子递增。\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v563-a82856c",
+          "immutable": true,
+          "name": "v13.5.4.3 (563-a82856c-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (563-a82856c-release)",
+            "versionCode": "563"
+          },
+          "publishedAt": "2026-10-15T05:12:39Z",
+          "releaseId": 413440055,
+          "tag": "v563-a82856c",
+          "tagCommit": "7dc65a7eae53b1228271a4b331122797dba90018",
+          "version": "v13.5.4.3 (563-a82856c-release)",
+          "versionCode": 563
+        },
         {
           "asset": {
             "digest": "sha256:2a3c0f220ba2e3343499cfa6b03ea5ee02e9521b892e34dd6910177954d9efdf",
@@ -4182,21 +4212,25 @@
         "411495712": {
           "checkedAt": "2026-10-13T09:18:50.026Z",
           "ok": true
+        },
+        "413440055": {
+          "checkedAt": "2026-10-15T05:13:04.611Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:2a3c0f220ba2e3343499cfa6b03ea5ee02e9521b892e34dd6910177954d9efdf",
-          "id": 636514288,
-          "name": "Sui-v13.5.4.3_562-b033d81-release.zip",
-          "sha256": "2a3c0f220ba2e3343499cfa6b03ea5ee02e9521b892e34dd6910177954d9efdf",
-          "size": 1360195,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v562-b033d81/Sui-v13.5.4.3_562-b033d81-release.zip"
+          "digest": "sha256:d213e91586011f488f2f8b76142e93eb027786db638169d3529c46276dca6e13",
+          "id": 642754866,
+          "name": "Sui-v13.5.4.3_563-a82856c-release.zip",
+          "sha256": "d213e91586011f488f2f8b76142e93eb027786db638169d3529c46276dca6e13",
+          "size": 1364551,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v563-a82856c/Sui-v13.5.4.3_563-a82856c-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (562-b033d81-release)`\n- **VersionCode:** `562`\n- **Commit:** [`b033d81`](https://github.com/XiaoTong6666/Sui/commit/b033d813cad6362f14befd0d54fc1b5c822106cc)\n- **Build time:** `3m 43s`\n- **SHA256:** `2a3c0f220ba2e3343499cfa6b03ea5ee02e9521b892e34dd6910177954d9efdf`\n\n## Message\n\n```text\nbuild(deps): sync Gradle updates and Shizuku API, Meow\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v562-b033d81",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (563-a82856c-release)`\n- **VersionCode:** `563`\n- **Commit:** [`a82856c`](https://github.com/XiaoTong6666/Sui/commit/a82856cb9ea1d858437568ac930377c9df80a854)\n- **Build time:** `1m 47s`\n- **SHA256:** `d213e91586011f488f2f8b76142e93eb027786db638169d3529c46276dca6e13`\n\n## Message\n\n```text\nperf: optimize legacy Shizuku Binder compatibility and Hide, Meow\n\n为旧版 Shizuku Binder 兼容开关增加 Native 与 Java 缓存，避免每次请求都通过同步 Binder 查询全局设置。\n\n在 Native 层提前检查兼容开关和调用方 UID，减少无关广播及 Hidden 应用进入 Java 解析流程的开销。\n\n重构权限快照同步逻辑，统一管理 Hidden、Root、Denied、Shell 和默认权限状态，并保留原有 Java 权限复核。\n\n为 Bridge 权限同步增加结果确认与失败重试，降低服务重连或同步失败导致的状态不一致风险。\n\n优化旧版 Shizuku callback 处理流程，保留正常 Binder 返回功能，并阻止 Hidden 应用获取服务 Binder。\n\n优化 BinderHook 日志计数，避免超过采样次数后仍持续执行全局原子递增。\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v563-a82856c",
         "immutable": true,
-        "name": "v13.5.4.3 (562-b033d81-release)",
+        "name": "v13.5.4.3 (563-a82856c-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -4204,15 +4238,15 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (562-b033d81-release)",
-          "versionCode": "562"
+          "version": "v13.5.4.3 (563-a82856c-release)",
+          "versionCode": "563"
         },
-        "publishedAt": "2026-10-13T09:18:25Z",
-        "releaseId": 411495712,
-        "tag": "v562-b033d81",
-        "tagCommit": "d6b024a2fa0f5cb25f204454f8a9a803c9dff84d",
-        "version": "v13.5.4.3 (562-b033d81-release)",
-        "versionCode": 562
+        "publishedAt": "2026-10-15T05:12:39Z",
+        "releaseId": 413440055,
+        "tag": "v563-a82856c",
+        "tagCommit": "7dc65a7eae53b1228271a4b331122797dba90018",
+        "version": "v13.5.4.3 (563-a82856c-release)",
+        "versionCode": 563
       },
       "stars": {
         "count": 3,
