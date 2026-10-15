@@ -1623,6 +1623,121 @@
         "verified": "self"
       }
     },
+    "altdb": {
+      "content": {
+        "blobs": {
+          "README.md": "c78630a3c514a592c7b1c8752b0f8f9b1781e42f",
+          "module.yaml": "d2b2287089a0d681223c9a532ca3381fc877cf59"
+        },
+        "commit": "2bfd7c9475c1cb97628112cf8d458d40cdc32999",
+        "fetchedAt": "2026-10-15T13:03:40.833Z",
+        "files": {
+          "README.md": "b12dba2a61278a4ceb6d3070202c3d70b06eb34da50693bb24bc3d13ac6ddf22",
+          "module.yaml": "5c6cf82f7bb8c26ac2ba50ba16bd8d64f8dcb93bf8ca07db96d53921192818e8"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "master"
+      },
+      "fullName": "Dr-TSNG/altdb",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-15T13:03:40.833Z",
+        "lastSuccessAt": "2026-10-15T13:03:40.833Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "altdb",
+      "installationId": 171730441,
+      "maxStableVersionCode": 7,
+      "maxVersionCode": 7,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:e7c36f4711e1c8acae1046177aa00378c26591872a2ab84ae451c739deaddeb7",
+            "id": 643867864,
+            "name": "altdb-v0.2.1-arm64.zip",
+            "sha256": "e7c36f4711e1c8acae1046177aa00378c26591872a2ab84ae451c739deaddeb7",
+            "size": 1404650,
+            "url": "https://github.com/Dr-TSNG/altdb/releases/download/0.2.1/altdb-v0.2.1-arm64.zip"
+          },
+          "body": "- Remove independent su permission control\r\n- Keep TLS connection after adb root switch\r\n- Prevent local TCP and mDNS detection\r\n- Fix soft reboot\r\n- Fix runtime environment - now scrcpy should work\r\n- Fix Android property report\r\n- Load KernelSU environment for adb root shells",
+          "htmlUrl": "https://github.com/Dr-TSNG/altdb/releases/tag/0.2.1",
+          "immutable": true,
+          "name": "0.2.1",
+          "prerelease": false,
+          "prop": {
+            "author": "Nullptr",
+            "description": "Alternative adb server over local network",
+            "id": "altdb",
+            "name": "altdb",
+            "version": "v0.2.1",
+            "versionCode": "7"
+          },
+          "publishedAt": "2026-10-15T12:55:09Z",
+          "releaseId": 413811172,
+          "tag": "0.2.1",
+          "tagCommit": "4a894d4ac7093a119061f9adb7e5a6f312ebe6e9",
+          "version": "v0.2.1",
+          "versionCode": 7
+        }
+      ],
+      "repositoryId": 1368146952,
+      "seen": {
+        "387843375": {
+          "checkedAt": "2026-10-15T13:03:40.833Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "388078452": {
+          "checkedAt": "2026-10-15T13:03:40.833Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "413811172": {
+          "checkedAt": "2026-10-15T13:03:40.833Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:e7c36f4711e1c8acae1046177aa00378c26591872a2ab84ae451c739deaddeb7",
+          "id": 643867864,
+          "name": "altdb-v0.2.1-arm64.zip",
+          "sha256": "e7c36f4711e1c8acae1046177aa00378c26591872a2ab84ae451c739deaddeb7",
+          "size": 1404650,
+          "url": "https://github.com/Dr-TSNG/altdb/releases/download/0.2.1/altdb-v0.2.1-arm64.zip"
+        },
+        "body": "- Remove independent su permission control\r\n- Keep TLS connection after adb root switch\r\n- Prevent local TCP and mDNS detection\r\n- Fix soft reboot\r\n- Fix runtime environment - now scrcpy should work\r\n- Fix Android property report\r\n- Load KernelSU environment for adb root shells",
+        "htmlUrl": "https://github.com/Dr-TSNG/altdb/releases/tag/0.2.1",
+        "immutable": true,
+        "name": "0.2.1",
+        "prerelease": false,
+        "prop": {
+          "author": "Nullptr",
+          "description": "Alternative adb server over local network",
+          "id": "altdb",
+          "name": "altdb",
+          "version": "v0.2.1",
+          "versionCode": "7"
+        },
+        "publishedAt": "2026-10-15T12:55:09Z",
+        "releaseId": 413811172,
+        "tag": "0.2.1",
+        "tagCommit": "4a894d4ac7093a119061f9adb7e5a6f312ebe6e9",
+        "version": "v0.2.1",
+        "versionCode": 7
+      },
+      "stars": {
+        "count": 81,
+        "fetchedAt": "2026-10-15T13:03:40.833Z",
+        "fullName": "Dr-TSNG/altdb",
+        "repositoryId": 1368146952,
+        "verified": "self"
+      }
+    },
     "apex_apps": {
       "content": {
         "blobs": {
