@@ -4320,17 +4320,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-16T02:57:21.028Z",
-        "lastSuccessAt": "2026-10-16T02:57:21.028Z",
-        "message": "stable-unavailable: the stable release (versionCode 565) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 565 is published.",
+        "lastAttemptAt": "2026-10-16T03:30:32.399Z",
+        "lastSuccessAt": "2026-10-16T03:30:32.399Z",
+        "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 565,
-      "maxVersionCode": 565,
+      "maxStableVersionCode": 566,
+      "maxVersionCode": 566,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:e707072bb0e624bed02a7a40b94a1430b4b376e85f147402621d00074219704d",
+            "id": 646007995,
+            "name": "Sui-v13.5.4.3_566-099cb89-release.zip",
+            "sha256": "e707072bb0e624bed02a7a40b94a1430b4b376e85f147402621d00074219704d",
+            "size": 1435616,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v566-099cb89/Sui-v13.5.4.3_566-099cb89-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (566-099cb89-release)`\n- **VersionCode:** `566`\n- **Commit:** [`099cb89`](https://github.com/XiaoTong6666/Sui/commit/099cb89c2258061558f5179d03e914a248afae15)\n- **Build time:** `2m 26s`\n- **SHA256:** `e707072bb0e624bed02a7a40b94a1430b4b376e85f147402621d00074219704d`\n\n## Message\n\n```text\nfeat(ui): add UI preview mode and MIUIX menu checkmarks, Meow\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v566-099cb89",
+          "immutable": true,
+          "name": "v13.5.4.3 (566-099cb89-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (566-099cb89-release)",
+            "versionCode": "566"
+          },
+          "publishedAt": "2026-10-16T03:30:12Z",
+          "releaseId": 414507104,
+          "tag": "v566-099cb89",
+          "tagCommit": "21f49da051628d7575a9b447cfc7227b5d039c24",
+          "version": "v13.5.4.3 (566-099cb89-release)",
+          "versionCode": 566
+        },
         {
           "asset": {
             "digest": "sha256:d0dbcf10756697787ac3f030ded46877fc197a30da69594a791779cfc3de987d",
@@ -4477,9 +4507,42 @@
         "414486583": {
           "checkedAt": "2026-10-16T02:57:21.028Z",
           "ok": true
+        },
+        "414507104": {
+          "checkedAt": "2026-10-16T03:30:32.399Z",
+          "ok": true
         }
       },
-      "stable": null,
+      "stable": {
+        "asset": {
+          "digest": "sha256:e707072bb0e624bed02a7a40b94a1430b4b376e85f147402621d00074219704d",
+          "id": 646007995,
+          "name": "Sui-v13.5.4.3_566-099cb89-release.zip",
+          "sha256": "e707072bb0e624bed02a7a40b94a1430b4b376e85f147402621d00074219704d",
+          "size": 1435616,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v566-099cb89/Sui-v13.5.4.3_566-099cb89-release.zip"
+        },
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (566-099cb89-release)`\n- **VersionCode:** `566`\n- **Commit:** [`099cb89`](https://github.com/XiaoTong6666/Sui/commit/099cb89c2258061558f5179d03e914a248afae15)\n- **Build time:** `2m 26s`\n- **SHA256:** `e707072bb0e624bed02a7a40b94a1430b4b376e85f147402621d00074219704d`\n\n## Message\n\n```text\nfeat(ui): add UI preview mode and MIUIX menu checkmarks, Meow\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v566-099cb89",
+        "immutable": true,
+        "name": "v13.5.4.3 (566-099cb89-release)",
+        "prerelease": false,
+        "prop": {
+          "author": "Sui Contributors",
+          "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+          "id": "zygisk-sui",
+          "name": "Zygisk - Sui",
+          "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+          "version": "v13.5.4.3 (566-099cb89-release)",
+          "versionCode": "566"
+        },
+        "publishedAt": "2026-10-16T03:30:12Z",
+        "releaseId": 414507104,
+        "tag": "v566-099cb89",
+        "tagCommit": "21f49da051628d7575a9b447cfc7227b5d039c24",
+        "version": "v13.5.4.3 (566-099cb89-release)",
+        "versionCode": 566
+      },
       "stars": {
         "count": 3,
         "fetchedAt": "2026-10-14T11:17:10.343Z",
