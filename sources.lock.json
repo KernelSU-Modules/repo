@@ -1081,16 +1081,16 @@
     "ReSuSFS": {
       "content": {
         "blobs": {
-          "README.md": "3888979e84ec7c197013334232f418b3287e1dec",
+          "README.md": "472c063e10d5992f3c584f6230a9729573b7b949",
           "assets/icon.png": "4c36f50699cc406e221820950bbf6269c63c0730",
           "docs/banner.png": "b0a62d9e523d16d63bf1424f0ed8d1fc078998f6",
           "docs/logo.png": "dbee57fdbdd0ec8902b8d0826f95a3975251509a",
           "module.yaml": "acea77bf754a5c22f50ecb934e925639121e12f7"
         },
-        "commit": "5cd2b268fe45a870386d56b32f1a5a3aedb6074c",
-        "fetchedAt": "2026-10-12T20:14:49.011Z",
+        "commit": "28d0729d306b831648595804bb27d2df0f8d4498",
+        "fetchedAt": "2026-10-16T14:50:16.641Z",
         "files": {
-          "README.md": "6019dbb3cbd452b9673c025291e6416b643e3ef8668a17a06df1bd0cb9404b6d",
+          "README.md": "e34c2c287b90725ae19c4d502ef8a11ee41a19a0d219880bb0280058e79e6e39",
           "assets/icon.png": "23e4db86a36bc2cdffac69242dd784a19f39375a9996d9c78ddb74ed39ed961c",
           "docs/banner.png": "b71ee05ef8b84881b89be5b38dffea16b42e0ea2ec2e694e9e14c6ab0c9809f7",
           "docs/logo.png": "7f88231eb1397e0e8a9c2b0019d1ed3411abe1bfaed706c9b46c273637c66e4a",
@@ -1102,8 +1102,8 @@
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-16T11:14:08.150Z",
-        "lastSuccessAt": "2026-10-16T11:14:08.150Z",
+        "lastAttemptAt": "2026-10-16T14:50:16.641Z",
+        "lastSuccessAt": "2026-10-16T14:50:16.641Z",
         "message": null,
         "status": "ok"
       },
@@ -1977,8 +1977,8 @@
         "versionCode": 7
       },
       "stars": {
-        "count": 1,
-        "fetchedAt": "2026-10-15T13:02:22.381Z",
+        "count": 2,
+        "fetchedAt": "2026-10-16T14:50:16.641Z",
         "fullName": "klmmlk/KernelSU-ClipShield",
         "repositoryId": 1417109515,
         "verified": "self"
@@ -4090,8 +4090,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4023,
-        "fetchedAt": "2026-10-15T14:11:24.265Z",
+        "count": 4038,
+        "fetchedAt": "2026-10-16T14:50:16.641Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
