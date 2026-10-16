@@ -2086,8 +2086,8 @@
         "versionCode": 20260926
       },
       "stars": {
-        "count": 831,
-        "fetchedAt": "2026-10-15T13:02:22.381Z",
+        "count": 833,
+        "fetchedAt": "2026-10-16T14:01:23.393Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -2226,8 +2226,8 @@
         "versionCode": 58
       },
       "stars": {
-        "count": 93,
-        "fetchedAt": "2026-10-15T13:02:22.381Z",
+        "count": 92,
+        "fetchedAt": "2026-10-16T14:01:23.393Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -3045,14 +3045,16 @@
         "blobs": {
           "docs/README.md": "e4d05db3c335378ecf2069120b70f11b4256191e",
           "docs/mmrs.svg": "df3dfff4e307b059783ba7e409e19319d97348f6",
-          "module.yaml": "5703314b0aa918c463d435411801b306094f7e0f"
+          "module.yaml": "aa5cee805cb13addd0b69d43f2a00d70fa88d0ef",
+          "module/launcher.png": "5ed784350dab2ac6cf9dc4c394a1e626840e65b0"
         },
-        "commit": "a7b6853492486e2a0cfbb82dd863f3757c73bf5e",
-        "fetchedAt": "2026-10-16T10:36:19.860Z",
+        "commit": "a5be315b8f3dccca2320abfd280d98b4fcf205da",
+        "fetchedAt": "2026-10-16T14:01:23.393Z",
         "files": {
           "docs/README.md": "392a1dc3e17a131a1071d1f3901906bfc184d717dff12440dfc5fe0861588202",
           "docs/mmrs.svg": "1579163e6f10ba05acd8a6fac32600eecc0b43d0f1854f098843fc197d5a5c3c",
-          "module.yaml": "bef3396f46079dd88c1090183b7b0731b1a0deb7faba5eb6930f7b9ccad6098b"
+          "module.yaml": "d9e86cb0a9f10ff86b268fe68fa5e44559f914229140f3efcd4eea0ede3deb52",
+          "module/launcher.png": "d03aff7290c7f834cb2ec18e81ff5813d3e98120326d52b02b6d85b16dbfae63"
         },
         "manifestPath": "module.yaml",
         "ref": "master"
@@ -3060,8 +3062,8 @@
       "fullName": "Tools-cx-app/meta-magic_mount-rs",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-16T10:36:19.860Z",
-        "lastSuccessAt": "2026-10-16T10:36:19.860Z",
+        "lastAttemptAt": "2026-10-16T14:01:23.393Z",
+        "lastSuccessAt": "2026-10-16T14:01:23.393Z",
         "message": null,
         "status": "ok"
       },
@@ -3288,8 +3290,8 @@
         "versionCode": 400012
       },
       "stars": {
-        "count": 569,
-        "fetchedAt": "2026-10-16T10:36:19.860Z",
+        "count": 568,
+        "fetchedAt": "2026-10-16T14:01:23.393Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
@@ -3733,8 +3735,8 @@
         "versionCode": 1088
       },
       "stars": {
-        "count": 1255,
-        "fetchedAt": "2026-10-15T13:43:45.372Z",
+        "count": 1265,
+        "fetchedAt": "2026-10-16T14:01:23.393Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -4374,8 +4376,8 @@
         "versionCode": 101
       },
       "stars": {
-        "count": 53,
-        "fetchedAt": "2026-10-14T16:13:58.107Z",
+        "count": 54,
+        "fetchedAt": "2026-10-16T14:01:23.393Z",
         "fullName": "FLYCOM-E/ClearBox",
         "repositoryId": 983784625,
         "verified": "self"
@@ -4967,13 +4969,13 @@
     "zygisknextsu": {
       "content": {
         "blobs": {
-          "README.md": "37d0015948724ffd2ca3a502fdfd741bf8a2f144",
+          "README.md": "3c77db294a681b4e400f791e50e789dbc3c8fe00",
           "module.yaml": "5f01314be14fb62a90ce4588b08e364fde06bb7f"
         },
-        "commit": "c1e927c8d0181dae7957db4750ee184d88235c8a",
-        "fetchedAt": "2026-10-11T11:29:25.802Z",
+        "commit": "b8d9af2406837d56ba55319b6b7a8c7672e68ffb",
+        "fetchedAt": "2026-10-16T14:01:23.393Z",
         "files": {
-          "README.md": "13f54e8aea07527863832145005e05a5e5d6329d6020de6bb49d8fc385880f77",
+          "README.md": "4c9249f6981f56413bbc7f4f78af401ef8e712045ea5d59f2a1fe00bd1f42212",
           "module.yaml": "95ffd10bae1af1ecee1ae5303b897b2418e2fda1a249cde2a063f102c00f9a98"
         },
         "manifestPath": "module.yaml",
@@ -4982,17 +4984,47 @@
       "fullName": "VeryBaaad/ZygiskNextNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-14T13:45:05.329Z",
-        "lastSuccessAt": "2026-10-14T13:45:05.329Z",
+        "lastAttemptAt": "2026-10-16T14:01:23.393Z",
+        "lastSuccessAt": "2026-10-16T14:01:23.393Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 184,
-      "maxVersionCode": 184,
+      "maxStableVersionCode": 192,
+      "maxVersionCode": 192,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:7f42539a4be67d67c177d9242bda3d889765afb50c7c734d23f264b629bd2812",
+            "id": 647510623,
+            "name": "Zygisk-Next-Next-v1.9.0-192-b8d9af2-release.zip",
+            "sha256": "7f42539a4be67d67c177d9242bda3d889765afb50c7c734d23f264b629bd2812",
+            "size": 2990089,
+            "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.9.0/Zygisk-Next-Next-v1.9.0-192-b8d9af2-release.zip"
+          },
+          "body": "## What's Changed\n* chore(deps): bump @m3e/icons from 1.0.19 to 1.0.20 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/98\n* chore(deps): bump serde_json from 1.0.152 to 1.0.154 in /injector in the crates group by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/101\n* chore(deps-dev): bump vue-tsc from 3.3.12 to 3.3.13 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/100\n* chore(deps): bump @m3e/web from 2.9.1 to 2.10.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/99\n* chore(deps): bump motion-v from 2.6.0 to 2.7.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/102\n* feat(inlinehook): support And64InlineHook by @VeryBaaad in https://github.com/VeryBaaad/ZygiskNextNext/pull/103\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.8.3...v1.9.0\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.9.0",
+          "immutable": true,
+          "name": "v1.9.0",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "Zygisk Next Next",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
+            "version": "v1.9.0 (192-b8d9af2-release)",
+            "versionCode": "192"
+          },
+          "publishedAt": "2026-10-16T14:00:44Z",
+          "releaseId": 415026518,
+          "tag": "v1.9.0",
+          "tagCommit": "b8d9af2406837d56ba55319b6b7a8c7672e68ffb",
+          "version": "v1.9.0 (192-b8d9af2-release)",
+          "versionCode": 192
+        },
         {
           "asset": {
             "digest": "sha256:5413ab654c1c167d843d480e61fce3fb01c01a277c5e10a23cb68801076f9fa4",
@@ -5279,21 +5311,25 @@
         "412767205": {
           "checkedAt": "2026-10-14T13:45:05.329Z",
           "ok": true
+        },
+        "415026518": {
+          "checkedAt": "2026-10-16T14:01:23.393Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:5413ab654c1c167d843d480e61fce3fb01c01a277c5e10a23cb68801076f9fa4",
-          "id": 640514426,
-          "name": "Zygisk-Next-Next-v1.8.3-184-e4da082-release.zip",
-          "sha256": "5413ab654c1c167d843d480e61fce3fb01c01a277c5e10a23cb68801076f9fa4",
-          "size": 2988450,
-          "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.8.3/Zygisk-Next-Next-v1.8.3-184-e4da082-release.zip"
+          "digest": "sha256:7f42539a4be67d67c177d9242bda3d889765afb50c7c734d23f264b629bd2812",
+          "id": 647510623,
+          "name": "Zygisk-Next-Next-v1.9.0-192-b8d9af2-release.zip",
+          "sha256": "7f42539a4be67d67c177d9242bda3d889765afb50c7c734d23f264b629bd2812",
+          "size": 2990089,
+          "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.9.0/Zygisk-Next-Next-v1.9.0-192-b8d9af2-release.zip"
         },
-        "body": "**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.8.2...v1.8.3\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.8.3",
+        "body": "## What's Changed\n* chore(deps): bump @m3e/icons from 1.0.19 to 1.0.20 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/98\n* chore(deps): bump serde_json from 1.0.152 to 1.0.154 in /injector in the crates group by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/101\n* chore(deps-dev): bump vue-tsc from 3.3.12 to 3.3.13 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/100\n* chore(deps): bump @m3e/web from 2.9.1 to 2.10.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/99\n* chore(deps): bump motion-v from 2.6.0 to 2.7.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/102\n* feat(inlinehook): support And64InlineHook by @VeryBaaad in https://github.com/VeryBaaad/ZygiskNextNext/pull/103\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.8.3...v1.9.0\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.9.0",
         "immutable": true,
-        "name": "v1.8.3",
+        "name": "v1.9.0",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -5301,15 +5337,15 @@
           "id": "zygisknextsu",
           "name": "Zygisk Next Next",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
-          "version": "v1.8.3 (184-e4da082-release)",
-          "versionCode": "184"
+          "version": "v1.9.0 (192-b8d9af2-release)",
+          "versionCode": "192"
         },
-        "publishedAt": "2026-10-14T13:44:32Z",
-        "releaseId": 412767205,
-        "tag": "v1.8.3",
-        "tagCommit": "e4da08237aa4a37a7cd53fd3243315ef24954618",
-        "version": "v1.8.3 (184-e4da082-release)",
-        "versionCode": 184
+        "publishedAt": "2026-10-16T14:00:44Z",
+        "releaseId": 415026518,
+        "tag": "v1.9.0",
+        "tagCommit": "b8d9af2406837d56ba55319b6b7a8c7672e68ffb",
+        "version": "v1.9.0 (192-b8d9af2-release)",
+        "versionCode": 192
       },
       "stars": {
         "count": 56,

@@ -120,21 +120,21 @@
       }
     },
     "VexZygisk": {
-      "contentCommit": "5600174450a39de350cde02d44f8a4919511bcb7",
+      "contentCommit": "2f2f8f1a754bcf44ebd302fd3ccaae71ae96fa62",
       "fullName": "Lxiaoyao077/VexZygisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at 5600174.",
+      "message": "manifest-missing: module.yaml does not exist at 2f2f8f1.",
       "repositoryId": 1305247883,
       "request": {
-        "checkedAt": "2026-10-16T11:14:08.150Z",
-        "commit": "5600174450a39de350cde02d44f8a4919511bcb7",
+        "checkedAt": "2026-10-16T14:01:23.393Z",
+        "commit": "2f2f8f1a754bcf44ebd302fd3ccaae71ae96fa62",
         "issues": [
           {
             "code": "manifest-missing",
-            "message": "module.yaml does not exist at 5600174.",
+            "message": "module.yaml does not exist at 2f2f8f1.",
             "severity": "error"
           }
         ],
@@ -334,11 +334,11 @@
       }
     },
     "magic_mount_rs": {
-      "contentCommit": "a7b6853492486e2a0cfbb82dd863f3757c73bf5e",
+      "contentCommit": "a5be315b8f3dccca2320abfd280d98b4fcf205da",
       "fullName": "Tools-cx-app/meta-magic_mount-rs",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-16T10:36:19.860Z",
+      "lastSuccessAt": "2026-10-16T14:01:23.393Z",
       "maxVersionCode": 400012,
       "message": null,
       "repositoryId": 1154057975,
@@ -504,20 +504,20 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "c1e927c8d0181dae7957db4750ee184d88235c8a",
+      "contentCommit": "b8d9af2406837d56ba55319b6b7a8c7672e68ffb",
       "fullName": "VeryBaaad/ZygiskNextNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-14T13:45:05.329Z",
-      "maxVersionCode": 184,
+      "lastSuccessAt": "2026-10-16T14:01:23.393Z",
+      "maxVersionCode": 192,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-14T13:44:32Z",
-        "tag": "v1.8.3",
-        "version": "v1.8.3 (184-e4da082-release)",
-        "versionCode": 184
+        "publishedAt": "2026-10-16T14:00:44Z",
+        "tag": "v1.9.0",
+        "version": "v1.9.0 (192-b8d9af2-release)",
+        "versionCode": 192
       }
     },
     "zygisksu": {
