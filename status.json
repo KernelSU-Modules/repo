@@ -98,11 +98,11 @@
       }
     },
     "ReSuSFS": {
-      "contentCommit": "d1ac0e5b8a60603b2c98bfdb17d1ce2080e3141a",
+      "contentCommit": "cbca0e6a58b5fa48020fca4592d8fce99247b46e",
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-16T14:51:49.717Z",
+      "lastSuccessAt": "2026-10-16T15:31:02.992Z",
       "maxVersionCode": 20,
       "message": null,
       "repositoryId": 1352101411,
