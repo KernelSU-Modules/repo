@@ -1,5 +1,228 @@
 {
   "modules": {
+    "AZenith": {
+      "content": {
+        "blobs": {
+          "README.md": "878de287387a78e011b8254fa2b2fe564fb01973",
+          "logo.jpg": "d40c33fde33b1373ccd3594e446b4c5922164f3c",
+          "module.yaml": "1742bf53efd068d7a0fa529962f9c0ace0c80618"
+        },
+        "commit": "51076b4eee039a69f164b30abc99d7cab8e37f59",
+        "fetchedAt": "2026-10-16T14:51:49.717Z",
+        "files": {
+          "README.md": "4295a510ada1b76a2b76d306c512f50db2f2cd85eab72ab9b4bdf6a34aa890db",
+          "logo.jpg": "1e142f7a865af89dc6c370732f40893317ba2217611611f179c00eccf360ceb7",
+          "module.yaml": "1122a63b61901a7ad1d21a03108145d280b694c05a4166c43b626f2ed12935c1"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "Liliya2727/AZenith",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-16T14:51:49.717Z",
+        "lastSuccessAt": "2026-10-16T14:51:49.717Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "AZenith",
+      "installationId": 172104771,
+      "maxStableVersionCode": null,
+      "maxVersionCode": null,
+      "prerelease": null,
+      "releases": [],
+      "repositoryId": 937420284,
+      "seen": {
+        "201955586": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "202015674": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "202270899": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "202590747": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "202932121": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "205786304": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "206096169": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "207629368": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "207681797": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "208503721": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "210274210": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "226666252": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "229005417": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "229277766": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "230281419": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "233026484": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "235423730": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "238324487": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "240543943": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "248838939": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "252181866": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "255579474": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "259057163": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "267314302": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "287631660": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "342548571": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "344188416": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "349109655": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "373102410": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "382179697": {
+          "checkedAt": "2026-10-16T14:51:49.717Z",
+          "code": "release-not-immutable",
+          "message": "Release ThermalCoreStandalone is not immutable. Enable release immutability and publish a new release.",
+          "ok": false
+        }
+      },
+      "stable": null,
+      "stars": {
+        "count": 135,
+        "fetchedAt": "2026-10-16T14:51:49.717Z",
+        "fullName": "Liliya2727/AZenith",
+        "repositoryId": 937420284,
+        "verified": "self"
+      }
+    },
     "CertBridge": {
       "content": {
         "blobs": {
@@ -1085,16 +1308,16 @@
           "assets/icon.png": "4c36f50699cc406e221820950bbf6269c63c0730",
           "docs/banner.png": "b0a62d9e523d16d63bf1424f0ed8d1fc078998f6",
           "docs/logo.png": "dbee57fdbdd0ec8902b8d0826f95a3975251509a",
-          "module.yaml": "acea77bf754a5c22f50ecb934e925639121e12f7"
+          "module.yaml": "a99f31f883882875da974e8ef7fdcf887e004a24"
         },
-        "commit": "28d0729d306b831648595804bb27d2df0f8d4498",
-        "fetchedAt": "2026-10-16T14:50:16.641Z",
+        "commit": "d1ac0e5b8a60603b2c98bfdb17d1ce2080e3141a",
+        "fetchedAt": "2026-10-16T14:51:49.717Z",
         "files": {
           "README.md": "e34c2c287b90725ae19c4d502ef8a11ee41a19a0d219880bb0280058e79e6e39",
           "assets/icon.png": "23e4db86a36bc2cdffac69242dd784a19f39375a9996d9c78ddb74ed39ed961c",
           "docs/banner.png": "b71ee05ef8b84881b89be5b38dffea16b42e0ea2ec2e694e9e14c6ab0c9809f7",
           "docs/logo.png": "7f88231eb1397e0e8a9c2b0019d1ed3411abe1bfaed706c9b46c273637c66e4a",
-          "module.yaml": "66e13aa13b2e31fd318c9d6593279c9fa3f626390ad6eef05a73f22e9726b46b"
+          "module.yaml": "d65ce76a33cad3d2c6e113725bc9bbabea0de7b50119079c9fad8c4942c569e9"
         },
         "manifestPath": "module.yaml",
         "ref": "dev"
@@ -1102,8 +1325,8 @@
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-16T14:50:16.641Z",
-        "lastSuccessAt": "2026-10-16T14:50:16.641Z",
+        "lastAttemptAt": "2026-10-16T14:51:49.717Z",
+        "lastSuccessAt": "2026-10-16T14:51:49.717Z",
         "message": null,
         "status": "ok"
       },
