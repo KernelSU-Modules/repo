@@ -1318,8 +1318,8 @@
         "versionCode": 19
       },
       "stars": {
-        "count": 48,
-        "fetchedAt": "2026-10-14T18:01:15.183Z",
+        "count": 52,
+        "fetchedAt": "2026-10-16T02:23:39.695Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -4320,17 +4320,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-15T08:55:41.952Z",
-        "lastSuccessAt": "2026-10-15T08:55:41.952Z",
+        "lastAttemptAt": "2026-10-16T02:23:39.695Z",
+        "lastSuccessAt": "2026-10-16T02:23:39.695Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 564,
-      "maxVersionCode": 564,
+      "maxStableVersionCode": 565,
+      "maxVersionCode": 565,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:17da988a57ae3021761f0a8b570adf40d225241e9dccb35321e10a9f6ad538dd",
+            "id": 645867946,
+            "name": "Sui-v13.5.4.3_565-c77fe3a-release.zip",
+            "sha256": "17da988a57ae3021761f0a8b570adf40d225241e9dccb35321e10a9f6ad538dd",
+            "size": 1436029,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v565-c77fe3a/Sui-v13.5.4.3_565-c77fe3a-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (565-c77fe3a-release)`\n- **VersionCode:** `565`\n- **Commit:** [`c77fe3a`](https://github.com/XiaoTong6666/Sui/commit/c77fe3a9ee03d880146378bb9c7bafb745d6c034)\n- **Build time:** `4m 01s`\n- **SHA256:** `17da988a57ae3021761f0a8b570adf40d225241e9dccb35321e10a9f6ad538dd`\n\n## Message\n\n```text\nfeat(ui): add Material 3 Expressive appearance and permission dialogs, Meow\n\n这次给 Sui 接入了可切换的 MIUIX 和 Material 3 Expressive 界面喵。管理页新增 Material 应用卡片、Popup、二级菜单、下拉刷新和动态配色，同时保留 MIUIX 原有交互，关闭动态取色后仍使用固定配色喵\n\n授权弹窗也支持 M3E 了喵。Root、Shell、仅一次 Root 和拒绝分别使用对应的按钮样式，并加入按压圆角动画。由于授权窗口运行在 SystemUI，界面风格改由服务端同步；全局设置新增按掩码原子更新，避免与 ADB Root 等开关互相覆盖，也修复了 Debug 主题切换和快速按压的竞态喵\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v565-c77fe3a",
+          "immutable": true,
+          "name": "v13.5.4.3 (565-c77fe3a-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (565-c77fe3a-release)",
+            "versionCode": "565"
+          },
+          "publishedAt": "2026-10-16T02:23:14Z",
+          "releaseId": 414469327,
+          "tag": "v565-c77fe3a",
+          "tagCommit": "c28a7143183d71152e55b69f6f914fb298f701b7",
+          "version": "v13.5.4.3 (565-c77fe3a-release)",
+          "versionCode": 565
+        },
         {
           "asset": {
             "digest": "sha256:d0dbcf10756697787ac3f030ded46877fc197a30da69594a791779cfc3de987d",
@@ -4469,21 +4499,25 @@
         "413598861": {
           "checkedAt": "2026-10-15T08:55:41.952Z",
           "ok": true
+        },
+        "414469327": {
+          "checkedAt": "2026-10-16T02:23:39.695Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:d0dbcf10756697787ac3f030ded46877fc197a30da69594a791779cfc3de987d",
-          "id": 643289346,
-          "name": "Sui-v13.5.4.3_564-e967423-release.zip",
-          "sha256": "d0dbcf10756697787ac3f030ded46877fc197a30da69594a791779cfc3de987d",
-          "size": 1364750,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v564-e967423/Sui-v13.5.4.3_564-e967423-release.zip"
+          "digest": "sha256:17da988a57ae3021761f0a8b570adf40d225241e9dccb35321e10a9f6ad538dd",
+          "id": 645867946,
+          "name": "Sui-v13.5.4.3_565-c77fe3a-release.zip",
+          "sha256": "17da988a57ae3021761f0a8b570adf40d225241e9dccb35321e10a9f6ad538dd",
+          "size": 1436029,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v565-c77fe3a/Sui-v13.5.4.3_565-c77fe3a-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (564-e967423-release)`\n- **VersionCode:** `564`\n- **Commit:** [`e967423`](https://github.com/XiaoTong6666/Sui/commit/e9674238a0dcfe13d9ea231cbdf866144e660db8)\n- **Build time:** `2m 14s`\n- **SHA256:** `d0dbcf10756697787ac3f030ded46877fc197a30da69594a791779cfc3de987d`\n\n## Message\n\n```text\nbuild(deps): sync Shizuku API Binder fixes, Meow\n\n更新 Shizuku-API 子模块引用，集成本地 Binder 转发的 Parcel 协议修复与异常资源清理。\n\n同步 Sui Binder 初始化、死亡回调及 Root/Shell 代际切换的防护改动，保持服务端与客户端的协议行为一致。\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v564-e967423",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (565-c77fe3a-release)`\n- **VersionCode:** `565`\n- **Commit:** [`c77fe3a`](https://github.com/XiaoTong6666/Sui/commit/c77fe3a9ee03d880146378bb9c7bafb745d6c034)\n- **Build time:** `4m 01s`\n- **SHA256:** `17da988a57ae3021761f0a8b570adf40d225241e9dccb35321e10a9f6ad538dd`\n\n## Message\n\n```text\nfeat(ui): add Material 3 Expressive appearance and permission dialogs, Meow\n\n这次给 Sui 接入了可切换的 MIUIX 和 Material 3 Expressive 界面喵。管理页新增 Material 应用卡片、Popup、二级菜单、下拉刷新和动态配色，同时保留 MIUIX 原有交互，关闭动态取色后仍使用固定配色喵\n\n授权弹窗也支持 M3E 了喵。Root、Shell、仅一次 Root 和拒绝分别使用对应的按钮样式，并加入按压圆角动画。由于授权窗口运行在 SystemUI，界面风格改由服务端同步；全局设置新增按掩码原子更新，避免与 ADB Root 等开关互相覆盖，也修复了 Debug 主题切换和快速按压的竞态喵\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v565-c77fe3a",
         "immutable": true,
-        "name": "v13.5.4.3 (564-e967423-release)",
+        "name": "v13.5.4.3 (565-c77fe3a-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -4491,15 +4525,15 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (564-e967423-release)",
-          "versionCode": "564"
+          "version": "v13.5.4.3 (565-c77fe3a-release)",
+          "versionCode": "565"
         },
-        "publishedAt": "2026-10-15T08:55:13Z",
-        "releaseId": 413598861,
-        "tag": "v564-e967423",
-        "tagCommit": "eefd5bb2ab25eaa80c498860e82af14892a0e9ec",
-        "version": "v13.5.4.3 (564-e967423-release)",
-        "versionCode": 564
+        "publishedAt": "2026-10-16T02:23:14Z",
+        "releaseId": 414469327,
+        "tag": "v565-c77fe3a",
+        "tagCommit": "c28a7143183d71152e55b69f6f914fb298f701b7",
+        "version": "v13.5.4.3 (565-c77fe3a-release)",
+        "versionCode": 565
       },
       "stars": {
         "count": 3,
@@ -4625,8 +4659,8 @@
         "versionCode": 188
       },
       "stars": {
-        "count": 3,
-        "fetchedAt": "2026-10-14T18:01:15.183Z",
+        "count": 6,
+        "fetchedAt": "2026-10-16T02:23:39.695Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
