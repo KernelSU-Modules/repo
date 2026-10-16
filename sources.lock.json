@@ -2320,13 +2320,13 @@
     "duck-toolbox": {
       "content": {
         "blobs": {
-          "README.md": "6df66f855caf44ed93815ed991a2f0c73c7f70b7",
+          "README.md": "3c7b8dabee205f9ec9ed895bccaccf3f74e96c4a",
           "module.yaml": "895e6462e2734743a77d85ad998c0fbb73ce828d"
         },
-        "commit": "586eefcdaf2dc262170d3bc9cd634eb1599e2a58",
-        "fetchedAt": "2026-10-16T16:19:41.963Z",
+        "commit": "037878a09665fe673b699f5c6d9b529055a44aa2",
+        "fetchedAt": "2026-10-16T17:11:11.532Z",
         "files": {
-          "README.md": "011a7b36cc6f5eac037ec440f7e034b95343d0d196ddd0a002ebe2da023ecf40",
+          "README.md": "f749b2c585a65fa37781986a4494e7e3e56c0d292e387bd7c63cbc499cf6c1a3",
           "module.yaml": "11c9f688d565ba2b7310a01599ce6d0535f217781bf03d2ac022bf8e3d422e21"
         },
         "manifestPath": "module.yaml",
@@ -2335,17 +2335,76 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-16T16:38:38.020Z",
-        "lastSuccessAt": "2026-10-16T16:38:38.020Z",
+        "lastAttemptAt": "2026-10-16T17:11:11.532Z",
+        "lastSuccessAt": "2026-10-16T17:11:11.532Z",
         "message": null,
         "status": "ok"
       },
       "id": "duck-toolbox",
       "installationId": 170179902,
       "maxStableVersionCode": 61,
-      "maxVersionCode": 61,
-      "prerelease": null,
+      "maxVersionCode": 63,
+      "prerelease": {
+        "asset": {
+          "digest": "sha256:e24e5d410370f68bea12472302d580924fb7e4f82fcc4cce8788dad639bfcfe3",
+          "id": 648016824,
+          "name": "duck-toolbox-0.1.3-stable-63-canary.zip",
+          "sha256": "e24e5d410370f68bea12472302d580924fb7e4f82fcc4cce8788dad639bfcfe3",
+          "size": 4169582,
+          "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-037878a0-20261016T171045721869Z/duck-toolbox-0.1.3-stable-63-canary.zip"
+        },
+        "body": "Canary module built from commit 037878a09665fe673b699f5c6d9b529055a44aa2.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/38937352963\n",
+        "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-037878a0-20261016T171045721869Z",
+        "immutable": true,
+        "name": "nightly-037878a0-20261016T171045721869Z",
+        "prerelease": true,
+        "prop": {
+          "author": "Eltavine & KOW & MhmRdd",
+          "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and Qualcomm device ID provisioning, in one WebUI.",
+          "id": "duck-toolbox",
+          "name": "Duck ToolBox",
+          "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
+          "version": "0.1.3-stable (63-canary)",
+          "versionCode": "63"
+        },
+        "publishedAt": "2026-10-16T17:10:48Z",
+        "releaseId": 415195719,
+        "tag": "nightly-037878a0-20261016T171045721869Z",
+        "tagCommit": "037878a09665fe673b699f5c6d9b529055a44aa2",
+        "version": "0.1.3-stable (63-canary)",
+        "versionCode": 63
+      },
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:e24e5d410370f68bea12472302d580924fb7e4f82fcc4cce8788dad639bfcfe3",
+            "id": 648016824,
+            "name": "duck-toolbox-0.1.3-stable-63-canary.zip",
+            "sha256": "e24e5d410370f68bea12472302d580924fb7e4f82fcc4cce8788dad639bfcfe3",
+            "size": 4169582,
+            "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-037878a0-20261016T171045721869Z/duck-toolbox-0.1.3-stable-63-canary.zip"
+          },
+          "body": "Canary module built from commit 037878a09665fe673b699f5c6d9b529055a44aa2.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/38937352963\n",
+          "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-037878a0-20261016T171045721869Z",
+          "immutable": true,
+          "name": "nightly-037878a0-20261016T171045721869Z",
+          "prerelease": true,
+          "prop": {
+            "author": "Eltavine & KOW & MhmRdd",
+            "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and Qualcomm device ID provisioning, in one WebUI.",
+            "id": "duck-toolbox",
+            "name": "Duck ToolBox",
+            "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
+            "version": "0.1.3-stable (63-canary)",
+            "versionCode": "63"
+          },
+          "publishedAt": "2026-10-16T17:10:48Z",
+          "releaseId": 415195719,
+          "tag": "nightly-037878a0-20261016T171045721869Z",
+          "tagCommit": "037878a09665fe673b699f5c6d9b529055a44aa2",
+          "version": "0.1.3-stable (63-canary)",
+          "versionCode": 63
+        },
         {
           "asset": {
             "digest": "sha256:a211dd03fb22499cbec4e6ff681888fddd479495369c024aeaa8cb2b67df8ff1",
@@ -2490,6 +2549,10 @@
           "code": "version-not-newer",
           "message": "versionCode 61 is already used by the release v0.1.3-stable. Publish a new release with a versionCode above 61.",
           "ok": false
+        },
+        "415195719": {
+          "checkedAt": "2026-10-16T17:11:11.532Z",
+          "ok": true
         }
       },
       "stable": {
@@ -2523,8 +2586,8 @@
         "versionCode": 61
       },
       "stars": {
-        "count": 92,
-        "fetchedAt": "2026-10-16T14:01:23.393Z",
+        "count": 94,
+        "fetchedAt": "2026-10-16T17:11:11.532Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -4409,11 +4472,11 @@
         "manifestPath": "module.yaml",
         "ref": "main"
       },
-      "fullName": "Nixie24/susfs4ksu-lkm-module",
+      "fullName": "Nixie24/susdock",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-13T05:15:53.953Z",
-        "lastSuccessAt": "2026-10-13T05:15:53.953Z",
+        "lastAttemptAt": "2026-10-16T17:11:11.532Z",
+        "lastSuccessAt": "2026-10-16T17:11:11.532Z",
         "message": null,
         "status": "ok"
       },
@@ -4505,8 +4568,8 @@
       },
       "stars": {
         "count": 4,
-        "fetchedAt": "2026-10-15T08:55:41.952Z",
-        "fullName": "Nixie24/susfs4ksu-lkm-module",
+        "fetchedAt": "2026-10-16T17:11:11.532Z",
+        "fullName": "Nixie24/susdock",
         "repositoryId": 1411850723,
         "verified": "self"
       }

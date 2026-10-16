@@ -244,12 +244,12 @@
       }
     },
     "duck-toolbox": {
-      "contentCommit": "586eefcdaf2dc262170d3bc9cd634eb1599e2a58",
+      "contentCommit": "037878a09665fe673b699f5c6d9b529055a44aa2",
       "fullName": "eltavine/Duck-ToolBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-16T16:38:38.020Z",
-      "maxVersionCode": 61,
+      "lastSuccessAt": "2026-10-16T17:11:11.532Z",
+      "maxVersionCode": 63,
       "message": null,
       "repositoryId": 1196357682,
       "request": null,
@@ -432,10 +432,10 @@
     },
     "susfs4ksu_lkm": {
       "contentCommit": "de3465b78c67173c70096afadb350b8765795ef4",
-      "fullName": "Nixie24/susfs4ksu-lkm-module",
+      "fullName": "Nixie24/susdock",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-13T05:15:53.953Z",
+      "lastSuccessAt": "2026-10-16T17:11:11.532Z",
       "maxVersionCode": 201,
       "message": null,
       "repositoryId": 1411850723,
