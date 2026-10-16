@@ -1102,17 +1102,47 @@
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-13T16:22:07.084Z",
-        "lastSuccessAt": "2026-10-13T16:22:07.084Z",
+        "lastAttemptAt": "2026-10-16T11:14:08.150Z",
+        "lastSuccessAt": "2026-10-16T11:14:08.150Z",
         "message": null,
         "status": "ok"
       },
       "id": "ReSuSFS",
       "installationId": 170358391,
-      "maxStableVersionCode": 19,
-      "maxVersionCode": 19,
+      "maxStableVersionCode": 20,
+      "maxVersionCode": 20,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:fa2a9bae493305f3e92fbf4684aedae417de62ded5a32cce52f08d7e2127089a",
+            "id": 647084575,
+            "name": "ReSuSFS.zip",
+            "sha256": "fa2a9bae493305f3e92fbf4684aedae417de62ded5a32cce52f08d7e2127089a",
+            "size": 296802,
+            "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.16/ReSuSFS.zip"
+          },
+          "body": "## ReSuSFS v26.10.16 Changelog\n\n### 🧩 Module\n\n- **feat:** prompt before updating configs (@ahmed-alnassif)\n- **fix:** remove hidden_api_policy to avoid enabling hidden API access, note: update your configuration in this update (close: #25) (@ahmed-alnassif)\n- **feat:** full SuSFS LKM support with auto-download and load on boot (@ahmed-alnassif)\n- **fix:** make download_file resilient to slow and unstable networks (@ahmed-alnassif)\n- **fix:** verify LKM load via loader exit code instead of lsmod (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.16 (@ahmed-alnassif)\n",
+          "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.16",
+          "immutable": true,
+          "name": "ReSuSFS v26.10.16",
+          "prerelease": false,
+          "prop": {
+            "author": "ahmed-alnassif",
+            "description": "The easiest way to use SuSFS on KernelSU. Strong hiding by default with built-in spoofing and hiding scripts, config files and toggle switches for everyday use, a built-in script manager for power users.",
+            "id": "ReSuSFS",
+            "name": "ReSuSFS",
+            "updateJson": "https://raw.githubusercontent.com/ahmed-alnassif/ReSuSFS/master/update.json",
+            "version": "v26.10.16",
+            "versionCode": "20"
+          },
+          "publishedAt": "2026-10-16T11:13:43Z",
+          "releaseId": 414875223,
+          "tag": "v26.10.16",
+          "tagCommit": "3e10ea4fbaced48d15cdd53205b19b49355c9cd2",
+          "version": "v26.10.16",
+          "versionCode": 20
+        },
         {
           "asset": {
             "digest": "sha256:257cb2f944c1bad27afb068530bcca32c9e02348a2940ddb3c5d9d88f5e2ddc9",
@@ -1285,21 +1315,25 @@
         "411879759": {
           "checkedAt": "2026-10-13T16:22:07.084Z",
           "ok": true
+        },
+        "414875223": {
+          "checkedAt": "2026-10-16T11:14:08.150Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:257cb2f944c1bad27afb068530bcca32c9e02348a2940ddb3c5d9d88f5e2ddc9",
-          "id": 637581571,
+          "digest": "sha256:fa2a9bae493305f3e92fbf4684aedae417de62ded5a32cce52f08d7e2127089a",
+          "id": 647084575,
           "name": "ReSuSFS.zip",
-          "sha256": "257cb2f944c1bad27afb068530bcca32c9e02348a2940ddb3c5d9d88f5e2ddc9",
-          "size": 295626,
-          "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.13/ReSuSFS.zip"
+          "sha256": "fa2a9bae493305f3e92fbf4684aedae417de62ded5a32cce52f08d7e2127089a",
+          "size": 296802,
+          "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.16/ReSuSFS.zip"
         },
-        "body": "## ReSuSFS v26.10.13 Changelog\n\n### 🌐 WebUI\n\n- **fix:** route all editor close paths through one dirty-check, fixes back gesture skipping the unsaved-changes prompt and the title staying stuck after closing (fix: #23) (@ahmed-alnassif)\n- **l10n:** update translations (#21) (@weblate)\n- **fix:** stop the unsaved changes prompt from showing twice (@ahmed-alnassif)\n- **fix:** keep the unsaved changes prompt from exiting the module on back (@ahmed-alnassif)\n\n### ✨ Features\n\n- add an icon for KernelSU modules (@ahmed-alnassif)\n\n### 🔧 Fixes\n\n- add icon metadata to module.yaml (@ahmed-alnassif)\n\n### 📚 Documentation\n\n- update banner image (@ahmed-alnassif)\n- add a new logo (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.13 (@ahmed-alnassif)\n\n### 🤖 Automated\n\n- webui(deps): Bump the webui-deps group in /webui with 7 updates (#24)\n",
-        "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.13",
+        "body": "## ReSuSFS v26.10.16 Changelog\n\n### 🧩 Module\n\n- **feat:** prompt before updating configs (@ahmed-alnassif)\n- **fix:** remove hidden_api_policy to avoid enabling hidden API access, note: update your configuration in this update (close: #25) (@ahmed-alnassif)\n- **feat:** full SuSFS LKM support with auto-download and load on boot (@ahmed-alnassif)\n- **fix:** make download_file resilient to slow and unstable networks (@ahmed-alnassif)\n- **fix:** verify LKM load via loader exit code instead of lsmod (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.16 (@ahmed-alnassif)\n",
+        "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.16",
         "immutable": true,
-        "name": "ReSuSFS v26.10.13",
+        "name": "ReSuSFS v26.10.16",
         "prerelease": false,
         "prop": {
           "author": "ahmed-alnassif",
@@ -1307,19 +1341,19 @@
           "id": "ReSuSFS",
           "name": "ReSuSFS",
           "updateJson": "https://raw.githubusercontent.com/ahmed-alnassif/ReSuSFS/master/update.json",
-          "version": "v26.10.13",
-          "versionCode": "19"
+          "version": "v26.10.16",
+          "versionCode": "20"
         },
-        "publishedAt": "2026-10-13T16:21:42Z",
-        "releaseId": 411879759,
-        "tag": "v26.10.13",
-        "tagCommit": "9afbb271a785c8511b092b6b520ad1de1c870228",
-        "version": "v26.10.13",
-        "versionCode": 19
+        "publishedAt": "2026-10-16T11:13:43Z",
+        "releaseId": 414875223,
+        "tag": "v26.10.16",
+        "tagCommit": "3e10ea4fbaced48d15cdd53205b19b49355c9cd2",
+        "version": "v26.10.16",
+        "versionCode": 20
       },
       "stars": {
-        "count": 52,
-        "fetchedAt": "2026-10-16T02:23:39.695Z",
+        "count": 53,
+        "fetchedAt": "2026-10-16T11:14:08.150Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -4182,14 +4216,14 @@
       "content": {
         "blobs": {
           ".Images/ClearBox.png": "168a9c65452501141905c5439ba42374957f2162",
-          "README.md": "4a631b19b45800913a02eb4c319eca863800974d",
+          "README.md": "a5632fff8627e321dd882be5cb073cf718776923",
           "module.yaml": "96de18fb0b900ab4d26dd861a310f4e13af79117"
         },
-        "commit": "49e7adf9912378f0ed097ca15be61d3575db0fd8",
-        "fetchedAt": "2026-10-13T13:58:11.086Z",
+        "commit": "3b3732bfb20317fa0073cb602e3d99e4bbaf74ec",
+        "fetchedAt": "2026-10-16T11:14:08.150Z",
         "files": {
           ".Images/ClearBox.png": "91029961db5df320956f0d46ad234f7df6e7bbac22f3ee2376ebcd909531d261",
-          "README.md": "f68ec4179d7ee4ca3a78ff77a7c31fd0d723432831c4954e0ed9ab2d64ec1df2",
+          "README.md": "d40991fe06e46aa7446385aa1c2dddc8f46e1f125a71c87e27fe29c714363534",
           "module.yaml": "e7ab4ad5de80c860a6a9c8b88170670a4e48397483d23960e87fb665065281b9"
         },
         "manifestPath": "module.yaml",
@@ -4198,8 +4232,8 @@
       "fullName": "FLYCOM-E/ClearBox",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-13T13:58:11.086Z",
-        "lastSuccessAt": "2026-10-13T13:58:11.086Z",
+        "lastAttemptAt": "2026-10-16T11:14:08.150Z",
+        "lastSuccessAt": "2026-10-16T11:14:08.150Z",
         "message": null,
         "status": "ok"
       },
