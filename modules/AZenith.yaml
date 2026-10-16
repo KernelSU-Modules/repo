@@ -1,19 +1,23 @@
 id: AZenith
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 937420284
+  ownerId: 76985102
+  fullName: Liliya2727/AZenith
+  manifestPath: module.yaml
+review:
   submissionId: no8mtvq7wm
   kind: submit
-  source:
-    host: github
-    repositoryId: 937420284
-    ownerId: 76985102
-    fullName: Liliya2727/AZenith
-    manifestPath: module.yaml
   submittedBy: 76985102
-  submittedByLogin: Liliya2727
   submittedAt: 2026-10-16T14:49:46.901Z
+  decision: approved
+  decidedBy: 5022927
+  decidedVia: telegram
+  decidedAt: 2026-10-16T14:51:24.373Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64373
 createdAt: 2026-10-16T14:49:46.901Z
-updatedAt: 2026-10-16T14:49:46.901Z
+updatedAt: 2026-10-16T14:51:24.373Z
