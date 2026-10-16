@@ -120,21 +120,21 @@
       }
     },
     "VexZygisk": {
-      "contentCommit": "9172b6a207d91d732cb89772fe3bdbd37ae28e6a",
+      "contentCommit": "00a317528a025fdbe06d3a26d383387dc6e9d261",
       "fullName": "Lxiaoyao077/VexZygisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at 9172b6a.",
+      "message": "manifest-missing: module.yaml does not exist at 00a3175.",
       "repositoryId": 1305247883,
       "request": {
-        "checkedAt": "2026-10-16T10:35:18.037Z",
-        "commit": "9172b6a207d91d732cb89772fe3bdbd37ae28e6a",
+        "checkedAt": "2026-10-16T10:36:19.860Z",
+        "commit": "00a317528a025fdbe06d3a26d383387dc6e9d261",
         "issues": [
           {
             "code": "manifest-missing",
-            "message": "module.yaml does not exist at 9172b6a.",
+            "message": "module.yaml does not exist at 00a3175.",
             "severity": "error"
           }
         ],
@@ -338,21 +338,17 @@
       "fullName": "Tools-cx-app/meta-magic_mount-rs",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-16T10:36:19.860Z",
+      "maxVersionCode": 400012,
       "message": null,
       "repositoryId": 1154057975,
-      "request": {
-        "checkedAt": "2026-10-16T10:35:18.037Z",
-        "commit": "a7b6853492486e2a0cfbb82dd863f3757c73bf5e",
-        "issues": [],
-        "latestTag": "v4.0.12",
-        "ok": true,
-        "releaseId": 414833539,
-        "repositoryId": 1154057975,
-        "submissionId": "w6ypclf84j"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-16T10:33:56Z",
+        "tag": "v4.0.12",
+        "version": "v4.0.12-941",
+        "versionCode": 400012
+      }
     },
     "magisk-netbird": {
       "contentCommit": "520b63120b04a56ffb275e30625d49513b4dd034",
