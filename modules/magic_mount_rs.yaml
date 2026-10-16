@@ -1,0 +1,19 @@
+id: magic_mount_rs
+status: pending
+request:
+  submissionId: w6ypclf84j
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1154057975
+    ownerId: 127004703
+    fullName: Tools-cx-app/meta-magic_mount-rs
+    manifestPath: module.yaml
+  submittedBy: 127004703
+  submittedByLogin: Tools-cx-app
+  submittedAt: 2026-10-16T10:34:47.795Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64372
+createdAt: 2026-10-16T10:34:47.795Z
+updatedAt: 2026-10-16T10:34:47.795Z
