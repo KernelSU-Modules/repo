@@ -1,0 +1,19 @@
+id: MagicNet
+status: pending
+request:
+  submissionId: 71uoe7zswj
+  kind: submit
+  source:
+    host: github
+    repositoryId: 998453022
+    ownerId: 106986785
+    fullName: LIghtJUNction/MagicNet
+    manifestPath: module.yaml
+  submittedBy: 106986785
+  submittedByLogin: LIghtJUNction
+  submittedAt: 2026-10-17T20:04:57.416Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64414
+createdAt: 2026-10-17T20:04:57.416Z
+updatedAt: 2026-10-17T20:04:57.416Z
