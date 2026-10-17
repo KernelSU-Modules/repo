@@ -117,25 +117,19 @@
     "S-T-E-P-S": {
       "contentCommit": "0f0d2c5097099b897f398d5a38ad78d4f399d4fa",
       "fullName": "xiaoji0308/Steps",
-      "health": "error",
+      "health": "ok",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "release-not-immutable: Release 1017 is not immutable. Enable release immutability and publish a new release.",
+      "message": null,
       "repositoryId": 1423140380,
       "request": {
-        "checkedAt": "2026-10-17T16:50:43.712Z",
+        "checkedAt": "2026-10-17T16:57:15.882Z",
         "commit": "0f0d2c5097099b897f398d5a38ad78d4f399d4fa",
-        "issues": [
-          {
-            "code": "release-not-immutable",
-            "message": "Release 1017 is not immutable. Enable release immutability and publish a new release.",
-            "severity": "error"
-          }
-        ],
-        "latestTag": "1017",
-        "ok": false,
-        "releaseId": 415852567,
+        "issues": [],
+        "latestTag": "1018.1",
+        "ok": true,
+        "releaseId": 415939360,
         "repositoryId": 1423140380,
         "submissionId": "r633v3lplm"
       },
