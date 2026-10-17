@@ -68,21 +68,17 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-17T22:57:03.501Z",
+      "maxVersionCode": 10602,
       "message": null,
       "repositoryId": 998453022,
-      "request": {
-        "checkedAt": "2026-10-17T20:05:24.460Z",
-        "commit": "70d45f8080bca2f785379af12ff133a3d360f0bb",
-        "issues": [],
-        "latestTag": "v1.6.2",
-        "ok": true,
-        "releaseId": 416030326,
-        "repositoryId": 998453022,
-        "submissionId": "71uoe7zswj"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-17T20:03:51Z",
+        "tag": "v1.6.2",
+        "version": "v1.6.2",
+        "versionCode": 10602
+      }
     },
     "Mediatek_Mali_GPU_Governor": {
       "contentCommit": "5e7ab7cfb5d2f14d6a7d6582cf654d4f28e6ebc2",
@@ -140,21 +136,17 @@
       "fullName": "xiaoji0308/Steps",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-17T22:57:03.501Z",
+      "maxVersionCode": 20261018,
       "message": null,
       "repositoryId": 1423140380,
-      "request": {
-        "checkedAt": "2026-10-17T18:05:09.249Z",
-        "commit": "7d0322af6383590ab00f7e207fe4ec99c4f161f7",
-        "issues": [],
-        "latestTag": "1018.1",
-        "ok": true,
-        "releaseId": 415939360,
-        "repositoryId": 1423140380,
-        "submissionId": "r633v3lplm"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-17T16:56:53Z",
+        "tag": "1018.1",
+        "version": "1018",
+        "versionCode": 20261018
+      }
     },
     "SvcHub": {
       "contentCommit": "5e23270a02c574e0a22d64fd02faa67be5c0ca03",

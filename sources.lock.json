@@ -904,6 +904,287 @@
         "verified": "self"
       }
     },
+    "MagicNet": {
+      "content": {
+        "blobs": {
+          "README.md": "5926f6960276800fbb46df8529325a29c47e03e0",
+          "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
+          "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
+        },
+        "commit": "70d45f8080bca2f785379af12ff133a3d360f0bb",
+        "fetchedAt": "2026-10-17T22:57:03.501Z",
+        "files": {
+          "README.md": "467e99e074ed9749777657287902a0832082d7d9f78ca6e7f58c54153f3489c8",
+          "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
+          "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "LIghtJUNction/MagicNet",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-17T22:57:03.501Z",
+        "lastSuccessAt": "2026-10-17T22:57:03.501Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "MagicNet",
+      "installationId": 172483675,
+      "maxStableVersionCode": 10602,
+      "maxVersionCode": 10602,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:f4e80afc86dbd3e7ad3e96ae0a4bce8873ec9b565665d62ec6c56cbba134f726",
+            "id": 651462108,
+            "name": "MagicNet-full.zip",
+            "sha256": "f4e80afc86dbd3e7ad3e96ae0a4bce8873ec9b565665d62ec6c56cbba134f726",
+            "size": 65263801,
+            "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.6.2/MagicNet-full.zip"
+          },
+          "body": "安装器下载：https://github.com/LIghtJUNction/MagicNet/releases/download/v1.6.2/magicnet_installer.zip\n\n# MagicNet v1.6.2\n\n## 版本码迁移 / Version code migration\n\n本版本将 `versionCode` 从历史毫秒级数值迁移为 `10602`，以符合 KernelSU Modules 的 32 位正整数限制（最大 `2147483647`）。后续版本码继续递增。\n\n**v1.6.1 及更早的旧版本用户需要手动安装一次。** 旧版本码大于新版本码，管理器的自动更新比较无法完成这次迁移。先备份 MagicNet 配置，从本项目 Release 下载 `MagicNet-full.zip`，在 root 管理器中直接手动安装并按提示重启，不要先卸载模块。迁移完成后确认版本为 `v1.6.2`、版本码为 `10602`；后续更新恢复递增顺序。\n\nExisting users must manually install this release once because the legacy version code is larger than the new code. Back up your configuration, download `MagicNet-full.zip` from this project's Release, install it directly through your root manager, and reboot as prompted. Do not uninstall first. Confirm `v1.6.2` / `10602` after installation. Future version codes will increase normally.\n\n## 发布与收录\n\n- 添加 KernelSU Modules 的 `module.yaml`，目录下载入口指定完整离线包 `MagicNet-full.zip`。\n- 开启 GitHub Release immutability；新发布的附件与标签发布后不能替换。\n- 发布准备脚本提前拒绝超范围版本码，递增达到上限时在写文件前失败。\n- KernelSU 目录是否收录，以开发者门户的维护者审核结果为准。\n\n\n**Full Changelog**: https://github.com/LIghtJUNction/MagicNet/compare/v1.6.1...v1.6.2",
+          "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.6.2",
+          "immutable": true,
+          "name": "MagicNet-10602-v1.6.2",
+          "prerelease": false,
+          "prop": {
+            "author": "LIghtJUNction",
+            "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
+            "id": "MagicNet",
+            "name": "MagicNet",
+            "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
+            "version": "v1.6.2",
+            "versionCode": "10602"
+          },
+          "publishedAt": "2026-10-17T20:03:51Z",
+          "releaseId": 416030326,
+          "tag": "v1.6.2",
+          "tagCommit": "70d45f8080bca2f785379af12ff133a3d360f0bb",
+          "version": "v1.6.2",
+          "versionCode": 10602
+        }
+      ],
+      "repositoryId": 998453022,
+      "seen": {
+        "387823140": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387876411": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387877943": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387906421": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387906809": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387912503": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387955084": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "388039499": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "388055558": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "388211573": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "388247866": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "388497682": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "388660888": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "389761859": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "390057284": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "390481715": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "391022790": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "391314691": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "391408203": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392407644": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "393520977": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "393614623": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "400500759": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "400864330": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "401023231": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "402249623": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "407093514": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "414417694": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "414975537": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "416030326": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:f4e80afc86dbd3e7ad3e96ae0a4bce8873ec9b565665d62ec6c56cbba134f726",
+          "id": 651462108,
+          "name": "MagicNet-full.zip",
+          "sha256": "f4e80afc86dbd3e7ad3e96ae0a4bce8873ec9b565665d62ec6c56cbba134f726",
+          "size": 65263801,
+          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.6.2/MagicNet-full.zip"
+        },
+        "body": "安装器下载：https://github.com/LIghtJUNction/MagicNet/releases/download/v1.6.2/magicnet_installer.zip\n\n# MagicNet v1.6.2\n\n## 版本码迁移 / Version code migration\n\n本版本将 `versionCode` 从历史毫秒级数值迁移为 `10602`，以符合 KernelSU Modules 的 32 位正整数限制（最大 `2147483647`）。后续版本码继续递增。\n\n**v1.6.1 及更早的旧版本用户需要手动安装一次。** 旧版本码大于新版本码，管理器的自动更新比较无法完成这次迁移。先备份 MagicNet 配置，从本项目 Release 下载 `MagicNet-full.zip`，在 root 管理器中直接手动安装并按提示重启，不要先卸载模块。迁移完成后确认版本为 `v1.6.2`、版本码为 `10602`；后续更新恢复递增顺序。\n\nExisting users must manually install this release once because the legacy version code is larger than the new code. Back up your configuration, download `MagicNet-full.zip` from this project's Release, install it directly through your root manager, and reboot as prompted. Do not uninstall first. Confirm `v1.6.2` / `10602` after installation. Future version codes will increase normally.\n\n## 发布与收录\n\n- 添加 KernelSU Modules 的 `module.yaml`，目录下载入口指定完整离线包 `MagicNet-full.zip`。\n- 开启 GitHub Release immutability；新发布的附件与标签发布后不能替换。\n- 发布准备脚本提前拒绝超范围版本码，递增达到上限时在写文件前失败。\n- KernelSU 目录是否收录，以开发者门户的维护者审核结果为准。\n\n\n**Full Changelog**: https://github.com/LIghtJUNction/MagicNet/compare/v1.6.1...v1.6.2",
+        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.6.2",
+        "immutable": true,
+        "name": "MagicNet-10602-v1.6.2",
+        "prerelease": false,
+        "prop": {
+          "author": "LIghtJUNction",
+          "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
+          "id": "MagicNet",
+          "name": "MagicNet",
+          "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
+          "version": "v1.6.2",
+          "versionCode": "10602"
+        },
+        "publishedAt": "2026-10-17T20:03:51Z",
+        "releaseId": 416030326,
+        "tag": "v1.6.2",
+        "tagCommit": "70d45f8080bca2f785379af12ff133a3d360f0bb",
+        "version": "v1.6.2",
+        "versionCode": 10602
+      },
+      "stars": {
+        "count": 189,
+        "fetchedAt": "2026-10-17T22:57:03.501Z",
+        "fullName": "LIghtJUNction/MagicNet",
+        "repositoryId": 998453022,
+        "verified": "self"
+      }
+    },
     "Mediatek_Mali_GPU_Governor": {
       "content": {
         "blobs": {
@@ -1579,6 +1860,117 @@
         "fetchedAt": "2026-10-17T11:27:25.605Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
+        "verified": "self"
+      }
+    },
+    "S-T-E-P-S": {
+      "content": {
+        "blobs": {
+          "README.md": "6183cb7e919a13c560c389798f90e100b24f4dc9",
+          "module.yaml": "6db0494c5a2ebd525e3d63c7f55ea1ddaf4b3e92"
+        },
+        "commit": "7d0322af6383590ab00f7e207fe4ec99c4f161f7",
+        "fetchedAt": "2026-10-17T22:57:03.501Z",
+        "files": {
+          "README.md": "61feaedf55c7e1049fbfe925d341d5c79380a99a98f0adee04339229d855f8d1",
+          "module.yaml": "c624c799bbf873b10c5a1ca4b1be6e26ec94d806b57abd9af50f1989b94fefa6"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "xiaoji0308/Steps",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-17T22:57:03.501Z",
+        "lastSuccessAt": "2026-10-17T22:57:03.501Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "S-T-E-P-S",
+      "installationId": 172438629,
+      "maxStableVersionCode": 20261018,
+      "maxVersionCode": 20261018,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:6b1692d57540f53ea2b54f284cfc12e6b0578e32c25ff10c5565e4d0c92bb8e0",
+            "id": 651019081,
+            "name": "26.1018.zip",
+            "sha256": "6b1692d57540f53ea2b54f284cfc12e6b0578e32c25ff10c5565e4d0c92bb8e0",
+            "size": 34400,
+            "url": "https://github.com/xiaoji0308/Steps/releases/download/1018.1/26.1018.zip"
+          },
+          "body": "新增检测更新  修复 WebUI 操作提示被底部悬浮导航遮挡的问题",
+          "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1018.1",
+          "immutable": true,
+          "name": "智能步数管理26.1018",
+          "prerelease": false,
+          "prop": {
+            "author": "浠浠浠   原作者：阿巴酱丨小青泽",
+            "description": "自动增加步数",
+            "id": "S-T-E-P-S",
+            "name": "A-智能步数管理［HyperOS］",
+            "version": "1018",
+            "versionCode": "20261018",
+            "webuiIcon": "webroot/icon.svg"
+          },
+          "publishedAt": "2026-10-17T16:56:53Z",
+          "releaseId": 415939360,
+          "tag": "1018.1",
+          "tagCommit": "0f0d2c5097099b897f398d5a38ad78d4f399d4fa",
+          "version": "1018",
+          "versionCode": 20261018
+        }
+      ],
+      "repositoryId": 1423140380,
+      "seen": {
+        "415852567": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "415939360": {
+          "checkedAt": "2026-10-17T22:57:03.501Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:6b1692d57540f53ea2b54f284cfc12e6b0578e32c25ff10c5565e4d0c92bb8e0",
+          "id": 651019081,
+          "name": "26.1018.zip",
+          "sha256": "6b1692d57540f53ea2b54f284cfc12e6b0578e32c25ff10c5565e4d0c92bb8e0",
+          "size": 34400,
+          "url": "https://github.com/xiaoji0308/Steps/releases/download/1018.1/26.1018.zip"
+        },
+        "body": "新增检测更新  修复 WebUI 操作提示被底部悬浮导航遮挡的问题",
+        "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1018.1",
+        "immutable": true,
+        "name": "智能步数管理26.1018",
+        "prerelease": false,
+        "prop": {
+          "author": "浠浠浠   原作者：阿巴酱丨小青泽",
+          "description": "自动增加步数",
+          "id": "S-T-E-P-S",
+          "name": "A-智能步数管理［HyperOS］",
+          "version": "1018",
+          "versionCode": "20261018",
+          "webuiIcon": "webroot/icon.svg"
+        },
+        "publishedAt": "2026-10-17T16:56:53Z",
+        "releaseId": 415939360,
+        "tag": "1018.1",
+        "tagCommit": "0f0d2c5097099b897f398d5a38ad78d4f399d4fa",
+        "version": "1018",
+        "versionCode": 20261018
+      },
+      "stars": {
+        "count": 1,
+        "fetchedAt": "2026-10-17T22:57:03.501Z",
+        "fullName": "xiaoji0308/Steps",
+        "repositoryId": 1423140380,
         "verified": "self"
       }
     },
