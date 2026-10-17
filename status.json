@@ -115,7 +115,7 @@
       }
     },
     "S-T-E-P-S": {
-      "contentCommit": "0f0d2c5097099b897f398d5a38ad78d4f399d4fa",
+      "contentCommit": "7d0322af6383590ab00f7e207fe4ec99c4f161f7",
       "fullName": "xiaoji0308/Steps",
       "health": "ok",
       "installation": "present",
@@ -124,8 +124,8 @@
       "message": null,
       "repositoryId": 1423140380,
       "request": {
-        "checkedAt": "2026-10-17T16:57:15.882Z",
-        "commit": "0f0d2c5097099b897f398d5a38ad78d4f399d4fa",
+        "checkedAt": "2026-10-17T18:05:09.249Z",
+        "commit": "7d0322af6383590ab00f7e207fe4ec99c4f161f7",
         "issues": [],
         "latestTag": "1018.1",
         "ok": true,
@@ -269,16 +269,16 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-17T08:26:52.310Z",
-      "maxVersionCode": 74,
+      "lastSuccessAt": "2026-10-17T18:05:09.249Z",
+      "maxVersionCode": 75,
       "message": null,
       "repositoryId": 1196357682,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-17T08:26:27Z",
-        "tag": "v0.1.4-stable",
-        "version": "0.1.4-stable",
-        "versionCode": 74
+        "publishedAt": "2026-10-17T18:04:50Z",
+        "tag": "v0.1.5-stable",
+        "version": "0.1.5-stable",
+        "versionCode": 75
       }
     },
     "enable_miui_adb": {
