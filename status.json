@@ -132,21 +132,21 @@
       }
     },
     "VexZygisk": {
-      "contentCommit": "8aeb20a0fc9ddaffe068f2a4cc90556a3de3582f",
+      "contentCommit": "ec199ecaa495bf9216a0722e9e4edc820fd76fcb",
       "fullName": "Lxiaoyao077/VexZygisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at 8aeb20a.",
+      "message": "manifest-missing: module.yaml does not exist at ec199ec.",
       "repositoryId": 1305247883,
       "request": {
-        "checkedAt": "2026-10-17T09:45:17.969Z",
-        "commit": "8aeb20a0fc9ddaffe068f2a4cc90556a3de3582f",
+        "checkedAt": "2026-10-17T11:27:25.605Z",
+        "commit": "ec199ecaa495bf9216a0722e9e4edc820fd76fcb",
         "issues": [
           {
             "code": "manifest-missing",
-            "message": "module.yaml does not exist at 8aeb20a.",
+            "message": "module.yaml does not exist at ec199ec.",
             "severity": "error"
           }
         ],
