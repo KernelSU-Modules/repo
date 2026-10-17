@@ -132,21 +132,21 @@
       }
     },
     "VexZygisk": {
-      "contentCommit": "2f2f8f1a754bcf44ebd302fd3ccaae71ae96fa62",
+      "contentCommit": "8aeb20a0fc9ddaffe068f2a4cc90556a3de3582f",
       "fullName": "Lxiaoyao077/VexZygisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at 2f2f8f1.",
+      "message": "manifest-missing: module.yaml does not exist at 8aeb20a.",
       "repositoryId": 1305247883,
       "request": {
-        "checkedAt": "2026-10-16T14:01:23.393Z",
-        "commit": "2f2f8f1a754bcf44ebd302fd3ccaae71ae96fa62",
+        "checkedAt": "2026-10-17T09:45:17.969Z",
+        "commit": "8aeb20a0fc9ddaffe068f2a4cc90556a3de3582f",
         "issues": [
           {
             "code": "manifest-missing",
-            "message": "module.yaml does not exist at 2f2f8f1.",
+            "message": "module.yaml does not exist at 8aeb20a.",
             "severity": "error"
           }
         ],
@@ -520,16 +520,16 @@
       "fullName": "VeryBaaad/ZygiskNextNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-17T08:26:52.310Z",
-      "maxVersionCode": 199,
+      "lastSuccessAt": "2026-10-17T09:45:17.969Z",
+      "maxVersionCode": 202,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-17T05:16:02Z",
-        "tag": "v1.11.0",
-        "version": "v1.11.0 (199-17a19d4-release)",
-        "versionCode": 199
+        "publishedAt": "2026-10-17T09:44:51Z",
+        "tag": "v1.12.0",
+        "version": "v1.12.0 (202-ca4d4b7-release)",
+        "versionCode": 202
       }
     },
     "zygisksu": {
