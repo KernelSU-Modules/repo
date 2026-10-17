@@ -2320,13 +2320,13 @@
     "duck-toolbox": {
       "content": {
         "blobs": {
-          "README.md": "f1fce36b18fac15ff8eff7a23d244f178acd0230",
+          "README.md": "9c624a1b5ea9af5ccea84a9e1e56ea9d006567c8",
           "module.yaml": "895e6462e2734743a77d85ad998c0fbb73ce828d"
         },
-        "commit": "5afd914cdfd2fa635c4194e1b6212d646b337e88",
-        "fetchedAt": "2026-10-17T06:00:23.778Z",
+        "commit": "a1c7e5f9adcf00bc436580080c043d27e8418e63",
+        "fetchedAt": "2026-10-17T07:48:14.025Z",
         "files": {
-          "README.md": "12589694795854e98d0ff6f54a988db4d6991a9103a9a1595a3052fc65e115a8",
+          "README.md": "3c2dda3a07d0b46759d664c0c7bb9f853052abd6a84133f83cbe6b0a919ef301",
           "module.yaml": "11c9f688d565ba2b7310a01599ce6d0535f217781bf03d2ac022bf8e3d422e21"
         },
         "manifestPath": "module.yaml",
@@ -2335,28 +2335,28 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-17T06:00:23.778Z",
-        "lastSuccessAt": "2026-10-17T06:00:23.778Z",
+        "lastAttemptAt": "2026-10-17T07:48:14.025Z",
+        "lastSuccessAt": "2026-10-17T07:48:14.025Z",
         "message": null,
         "status": "ok"
       },
       "id": "duck-toolbox",
       "installationId": 170179902,
       "maxStableVersionCode": 61,
-      "maxVersionCode": 71,
+      "maxVersionCode": 72,
       "prerelease": {
         "asset": {
-          "digest": "sha256:4a86ce0d0c8619f43fd90f1840b4e563f38b5e762e1b706fd526688fb0d81d53",
-          "id": 649699805,
-          "name": "duck-toolbox-0.1.3-stable-71-canary.zip",
-          "sha256": "4a86ce0d0c8619f43fd90f1840b4e563f38b5e762e1b706fd526688fb0d81d53",
-          "size": 4377836,
-          "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-5afd914c-20261017T055958853475Z/duck-toolbox-0.1.3-stable-71-canary.zip"
+          "digest": "sha256:c1b1c8f09cbe6ee6d0b2d096575f878acfbfd968d79c86bc70f11677038abd67",
+          "id": 649895845,
+          "name": "duck-toolbox-0.1.3-stable-72-canary.zip",
+          "sha256": "c1b1c8f09cbe6ee6d0b2d096575f878acfbfd968d79c86bc70f11677038abd67",
+          "size": 4520865,
+          "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-a1c7e5f9-20261017T074748612761Z/duck-toolbox-0.1.3-stable-72-canary.zip"
         },
-        "body": "Canary module built from commit 5afd914cdfd2fa635c4194e1b6212d646b337e88.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/39008131442\n",
-        "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-5afd914c-20261017T055958853475Z",
+        "body": "Canary module built from commit a1c7e5f9adcf00bc436580080c043d27e8418e63.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/39014802174\n",
+        "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-a1c7e5f9-20261017T074748612761Z",
         "immutable": true,
-        "name": "nightly-5afd914c-20261017T055958853475Z",
+        "name": "nightly-a1c7e5f9-20261017T074748612761Z",
         "prerelease": true,
         "prop": {
           "author": "Eltavine & KOW & MhmRdd",
@@ -2364,17 +2364,47 @@
           "id": "duck-toolbox",
           "name": "Duck ToolBox",
           "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
-          "version": "0.1.3-stable (71-canary)",
-          "versionCode": "71"
+          "version": "0.1.3-stable (72-canary)",
+          "versionCode": "72"
         },
-        "publishedAt": "2026-10-17T06:00:01Z",
-        "releaseId": 415617253,
-        "tag": "nightly-5afd914c-20261017T055958853475Z",
-        "tagCommit": "5afd914cdfd2fa635c4194e1b6212d646b337e88",
-        "version": "0.1.3-stable (71-canary)",
-        "versionCode": 71
+        "publishedAt": "2026-10-17T07:47:51Z",
+        "releaseId": 415661404,
+        "tag": "nightly-a1c7e5f9-20261017T074748612761Z",
+        "tagCommit": "a1c7e5f9adcf00bc436580080c043d27e8418e63",
+        "version": "0.1.3-stable (72-canary)",
+        "versionCode": 72
       },
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:c1b1c8f09cbe6ee6d0b2d096575f878acfbfd968d79c86bc70f11677038abd67",
+            "id": 649895845,
+            "name": "duck-toolbox-0.1.3-stable-72-canary.zip",
+            "sha256": "c1b1c8f09cbe6ee6d0b2d096575f878acfbfd968d79c86bc70f11677038abd67",
+            "size": 4520865,
+            "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-a1c7e5f9-20261017T074748612761Z/duck-toolbox-0.1.3-stable-72-canary.zip"
+          },
+          "body": "Canary module built from commit a1c7e5f9adcf00bc436580080c043d27e8418e63.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/39014802174\n",
+          "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-a1c7e5f9-20261017T074748612761Z",
+          "immutable": true,
+          "name": "nightly-a1c7e5f9-20261017T074748612761Z",
+          "prerelease": true,
+          "prop": {
+            "author": "Eltavine & KOW & MhmRdd",
+            "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and Qualcomm device ID provisioning, in one WebUI.",
+            "id": "duck-toolbox",
+            "name": "Duck ToolBox",
+            "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
+            "version": "0.1.3-stable (72-canary)",
+            "versionCode": "72"
+          },
+          "publishedAt": "2026-10-17T07:47:51Z",
+          "releaseId": 415661404,
+          "tag": "nightly-a1c7e5f9-20261017T074748612761Z",
+          "tagCommit": "a1c7e5f9adcf00bc436580080c043d27e8418e63",
+          "version": "0.1.3-stable (72-canary)",
+          "versionCode": 72
+        },
         {
           "asset": {
             "digest": "sha256:4a86ce0d0c8619f43fd90f1840b4e563f38b5e762e1b706fd526688fb0d81d53",
@@ -2644,36 +2674,6 @@
           "tagCommit": "586eefcdaf2dc262170d3bc9cd634eb1599e2a58",
           "version": "0.1.2-stable (59-canary)",
           "versionCode": 59
-        },
-        {
-          "asset": {
-            "digest": "sha256:173fb3686745cf2975017abccda37225317fa10f4fdd375a2af46d162766c2ff",
-            "id": 630375050,
-            "name": "duck-toolbox-0.1.2-stable.zip",
-            "sha256": "173fb3686745cf2975017abccda37225317fa10f4fdd375a2af46d162766c2ff",
-            "size": 4022427,
-            "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/v0.1.2-stable/duck-toolbox-0.1.2-stable.zip"
-          },
-          "body": "# Changelog\n\n## 0.1.2-stable - 2026-10-11\n\n### Tricky Store manager\n- Complete port of Tricky Addon (Update Target List):\n  - Target list with modes, per-app policy, search, bulk selection, DenyList, unnecessary\n    apps, system apps and auto-add.\n  - Keyboxes from AOSP, \"unknown\", a local file, the keybox repository and custom providers,\n    with import and export.\n  - Prop settings, default policy with *Today*, help, keyboard shortcuts and its 23\n    translations, including right-to-left languages.\n- One manager for Tricky Store (`config.ini` and legacy `target.txt`), TEESimulator\n  (`config.json`) and OhMyKeymint (`config.toml` + `injector.toml`).\n  - The validation rules follow each module's own sources.\n  - Unknown sections, comments and keys are preserved.\n- Optional WebUI entry on the keystore module (plus the action button on Magisk), and the\n  TSupport-Advance auto-target stop flag.\n- Tricky Addon's in-app translation update, translation guide and Telegram link.\n- Checked against the real modules on a KernelSU device, which found and fixed:\n  - OhMyKeymint v1.2.0 rejected our `injector.toml` (an unknown `version` key) while the\n    WebUI reported success. `[scoop.<package>]` tables are now read and written like\n    OhMyKeymint's own parser does.\n  - The \"unknown\" keybox now gives each key a two-certificate chain. Tricky Addon's\n    single-certificate keybox only loads on Tricky Store: TEESimulator and OhMyKeymint\n    refuse it.\n  - TEESimulator accepts EC-only keyboxes, such as the RKP workbench exports.\n  - Saving tells when OhMyKeymint needs a restart to apply a change.\n\n### WebUI\n- Rebuilt on Vue 3.5, Vite 8, Tailwind CSS 4 and shadcn-vue.\n  - A black and white theme, light or dark, where color only marks errors, success and\n    warnings.\n  - Designed for phones along Material 3 Expressive:\n    - 48dp touch targets and a visible response to every press.\n    - Round buttons that square up while pressed, segmented lists, and spring motion.\n    - A large title that collapses into the 64dp app bar, for one-handed reach.\n    - Tonal gray surfaces instead of borders and shadows, with contrast checked\n      against WCAG.\n  - Menus, tabs and button groups mirror in right-to-left languages too.\n  - Follows the KernelSU manager's window insets.\n  - The Android back gesture closes dialogs and sheets.\n- Every tool in 14 languages: English, Simplified and Traditional Chinese, Japanese, Korean,\n  Spanish, French, German, Italian, Brazilian Portuguese, Russian, Arabic, Vietnamese and\n  Indonesian.\n- Help: long links and code wrap inside the page, and two slips in upstream translations\n  (a link missing its parenthesis, a code span closed with a quote) no longer show raw\n  Markdown.\n- Every tool is a self-contained feature folder, discovered automatically.\n  - Features plug into each other only through extension points.\n  - Every backend response is validated against a schema.\n- A tool whose backend feature is missing or on another contract version is disabled\n  instead of misreading data.\n- Unit tests (Vitest) and end-to-end tests (Playwright against a mock KernelSU host) with\n  light, dark, right-to-left and Chinese screenshots.\n- Contract tests run every API call through `duckctl.sh` and a real `duckd` build and\n  parse the results with the WebUI's schemas.\n- Device tests (`scripts/device-test.sh`) drive the WebUI inside the real KernelSU manager\n  with each keystore module installed.\n- Loads as seven files instead of about eighty. The KernelSU manager reads each request\n  through a root shell, so this halved the load time on a slow device.\n- Type-checked on the TypeScript 7 engine through typescript-native-bridge.\n\n### Backend\n- `duckd` builds its CLI from a feature registry. `duckd features` reports the compiled-in\n  features, and each feature can be built alone.\n- New `system` feature: module and device summary, stable and canary updates with changelog,\n  output files, command history, uninstall and reboot.\n- RKP profiles read their device defaults from AOSP build properties.\n- Updated RustCrypto to its current generation (p256/p384 0.14, ed25519/x25519 3, aes-gcm\n  0.11, x509-cert 0.3). Keys derived from saved seeds are pinned by regression tests.\n\n### Module\n- Scripts follow the KernelSU module guide:\n  - Late-load support (`late-load.sh`).\n  - A late prop pass after boot for values the system sets late.\n  - The module description goes into KernelSU's temporary config.\n- Magisk runs the boot-completed work from `service.sh`.\n- The prop handler adds `ro.boot.vbmeta.size`, and applies the boot hash even when the\n  handler is disabled, as upstream does.\n- Uninstalling removes entry links, flags and saved data.\n\n### Tooling\n- CI fails when any source file in any language exceeds 600 lines.\n- CI: NDK r30, Node 24, pnpm 12, WebUI lint/format/unit/E2E, per-feature builds.\n- Canary artifacts are the installable module directory.\n- Dependabot opens one pull request per major update.\n",
-          "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/v0.1.2-stable",
-          "immutable": true,
-          "name": "v0.1.2-stable",
-          "prerelease": false,
-          "prop": {
-            "author": "Eltavine & KOW & MhmRdd",
-            "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and Qualcomm device ID provisioning, in one WebUI.",
-            "id": "duck-toolbox",
-            "name": "Duck ToolBox",
-            "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
-            "version": "0.1.2-stable",
-            "versionCode": "58"
-          },
-          "publishedAt": "2026-10-11T09:52:34Z",
-          "releaseId": 409579386,
-          "tag": "v0.1.2-stable",
-          "tagCommit": "c573b6fa74a1d6eab1bc6ef6828857069e0c7457",
-          "version": "0.1.2-stable",
-          "versionCode": 58
         }
       ],
       "repositoryId": 1196357682,
@@ -2727,6 +2727,10 @@
         "415617253": {
           "checkedAt": "2026-10-17T06:00:23.778Z",
           "ok": true
+        },
+        "415661404": {
+          "checkedAt": "2026-10-17T07:48:14.025Z",
+          "ok": true
         }
       },
       "stable": {
@@ -2760,8 +2764,8 @@
         "versionCode": 61
       },
       "stars": {
-        "count": 112,
-        "fetchedAt": "2026-10-17T06:00:23.778Z",
+        "count": 117,
+        "fetchedAt": "2026-10-17T07:48:14.025Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
