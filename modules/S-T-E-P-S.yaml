@@ -1,19 +1,23 @@
 id: S-T-E-P-S
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1423140380
+  ownerId: 60456364
+  fullName: xiaoji0308/Steps
+  manifestPath: module.yaml
+review:
   submissionId: r633v3lplm
   kind: submit
-  source:
-    host: github
-    repositoryId: 1423140380
-    ownerId: 60456364
-    fullName: xiaoji0308/Steps
-    manifestPath: module.yaml
   submittedBy: 60456364
-  submittedByLogin: xiaoji0308
   submittedAt: 2026-10-17T16:39:01.426Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: telegram
+  decidedAt: 2026-10-17T22:56:43.052Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64412
 createdAt: 2026-10-17T16:39:01.426Z
-updatedAt: 2026-10-17T16:39:01.426Z
+updatedAt: 2026-10-17T22:56:43.052Z
