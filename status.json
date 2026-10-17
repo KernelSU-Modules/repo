@@ -63,6 +63,27 @@
         "versionCode": 30041
       }
     },
+    "MagicNet": {
+      "contentCommit": "70d45f8080bca2f785379af12ff133a3d360f0bb",
+      "fullName": "LIghtJUNction/MagicNet",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 998453022,
+      "request": {
+        "checkedAt": "2026-10-17T20:05:24.460Z",
+        "commit": "70d45f8080bca2f785379af12ff133a3d360f0bb",
+        "issues": [],
+        "latestTag": "v1.6.2",
+        "ok": true,
+        "releaseId": 416030326,
+        "repositoryId": 998453022,
+        "submissionId": "71uoe7zswj"
+      },
+      "stable": null
+    },
     "Mediatek_Mali_GPU_Governor": {
       "contentCommit": "5e7ab7cfb5d2f14d6a7d6582cf654d4f28e6ebc2",
       "fullName": "Seyud/Mediatek_Mali_GPU_Governor_release",
