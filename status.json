@@ -114,6 +114,33 @@
         "versionCode": 20
       }
     },
+    "S-T-E-P-S": {
+      "contentCommit": "0f0d2c5097099b897f398d5a38ad78d4f399d4fa",
+      "fullName": "xiaoji0308/Steps",
+      "health": "error",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": "prop-missing-field: module.prop is missing a non-empty \"description\".",
+      "repositoryId": 1423140380,
+      "request": {
+        "checkedAt": "2026-10-17T16:39:23.574Z",
+        "commit": "0f0d2c5097099b897f398d5a38ad78d4f399d4fa",
+        "issues": [
+          {
+            "code": "prop-missing-field",
+            "message": "module.prop is missing a non-empty \"description\".",
+            "severity": "error"
+          }
+        ],
+        "latestTag": "1018",
+        "ok": false,
+        "releaseId": 415931283,
+        "repositoryId": 1423140380,
+        "submissionId": "r633v3lplm"
+      },
+      "stable": null
+    },
     "SvcHub": {
       "contentCommit": "5e23270a02c574e0a22d64fd02faa67be5c0ca03",
       "fullName": "LimpidMo/SvcHub",
