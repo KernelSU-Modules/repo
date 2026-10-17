@@ -121,21 +121,21 @@
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "prop-missing-field: module.prop is missing a non-empty \"description\".",
+      "message": "release-not-immutable: Release 1017 is not immutable. Enable release immutability and publish a new release.",
       "repositoryId": 1423140380,
       "request": {
-        "checkedAt": "2026-10-17T16:39:23.574Z",
+        "checkedAt": "2026-10-17T16:50:43.712Z",
         "commit": "0f0d2c5097099b897f398d5a38ad78d4f399d4fa",
         "issues": [
           {
-            "code": "prop-missing-field",
-            "message": "module.prop is missing a non-empty \"description\".",
+            "code": "release-not-immutable",
+            "message": "Release 1017 is not immutable. Enable release immutability and publish a new release.",
             "severity": "error"
           }
         ],
-        "latestTag": "1018",
+        "latestTag": "1017",
         "ok": false,
-        "releaseId": 415931283,
+        "releaseId": 415852567,
         "repositoryId": 1423140380,
         "submissionId": "r633v3lplm"
       },
