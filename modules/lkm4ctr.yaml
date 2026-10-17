@@ -1,0 +1,19 @@
+id: lkm4ctr
+status: pending
+request:
+  submissionId: 33800w98nr
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1313308146
+    ownerId: 20249732
+    fullName: cyanmint/lkm4ctr
+    manifestPath: module.yaml
+  submittedBy: 20249732
+  submittedByLogin: cyanmint
+  submittedAt: 2026-10-17T16:57:11.193Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64413
+createdAt: 2026-10-17T16:57:11.193Z
+updatedAt: 2026-10-17T16:57:11.193Z
