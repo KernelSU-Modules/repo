@@ -366,6 +366,27 @@
         "versionCode": 14
       }
     },
+    "lkm4ctr": {
+      "contentCommit": "4c2ee72f54c5a4ee88cb0b6c6641eb4481858b27",
+      "fullName": "cyanmint/lkm4ctr",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1313308146,
+      "request": {
+        "checkedAt": "2026-10-17T16:58:03.872Z",
+        "commit": "4c2ee72f54c5a4ee88cb0b6c6641eb4481858b27",
+        "issues": [],
+        "latestTag": "4.0.5",
+        "ok": true,
+        "releaseId": 415938124,
+        "repositoryId": 1313308146,
+        "submissionId": "33800w98nr"
+      },
+      "stable": null
+    },
     "magic_mount_rs": {
       "contentCommit": "a5be315b8f3dccca2320abfd280d98b4fcf205da",
       "fullName": "Tools-cx-app/meta-magic_mount-rs",
