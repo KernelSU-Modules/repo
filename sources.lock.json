@@ -2309,8 +2309,8 @@
         "versionCode": 20260926
       },
       "stars": {
-        "count": 833,
-        "fetchedAt": "2026-10-16T14:01:23.393Z",
+        "count": 832,
+        "fetchedAt": "2026-10-17T14:23:28.718Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -3803,8 +3803,8 @@
         "versionCode": 400012
       },
       "stars": {
-        "count": 568,
-        "fetchedAt": "2026-10-16T14:01:23.393Z",
+        "count": 572,
+        "fetchedAt": "2026-10-17T14:23:28.718Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
@@ -4248,8 +4248,8 @@
         "versionCode": 1088
       },
       "stars": {
-        "count": 1265,
-        "fetchedAt": "2026-10-16T14:01:23.393Z",
+        "count": 1266,
+        "fetchedAt": "2026-10-17T14:23:28.718Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -4400,14 +4400,14 @@
     "playintegrityfix": {
       "content": {
         "blobs": {
-          "README.md": "07569d7a2444ed25b755ee1c48ccc3c047f48747",
+          "README.md": "5d8eda1224de3117fd34279f0ae79f8ff6a28e7c",
           "module.yaml": "3823b9b169668ecdbdee1ab34aeedaf32cf5967e",
           "webui/public/icon.jpg": "66c0a3114763d2693ad0c62190a11e77629cffe5"
         },
-        "commit": "56766ca985130c8b88734a0e673a92c28d6568d7",
-        "fetchedAt": "2026-10-12T14:02:40.954Z",
+        "commit": "cc06c31e1de8c6d4d25e48c62c2dbc3995979fc3",
+        "fetchedAt": "2026-10-17T14:23:28.718Z",
         "files": {
-          "README.md": "84c147932695ea241978ca51abb50bf5a3114c9e8781eace2da36990bf8fa808",
+          "README.md": "d8155d47438a3a956020bec05a7cefb86af784ace3533b8361b8c4d7972c3c71",
           "module.yaml": "85b5d1e8c2d35b540d8fa1c2732382ff2a3abc7b9dc9ea68d59f2d0dd0eeb70d",
           "webui/public/icon.jpg": "c13b2850b0089151bad300c2c2a0c0765b502bc9bec304b29d6ae53b58118c2e"
         },
@@ -4417,8 +4417,8 @@
       "fullName": "KOWX712/PlayIntegrityFix",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-15T14:12:22.532Z",
-        "lastSuccessAt": "2026-10-15T14:12:22.532Z",
+        "lastAttemptAt": "2026-10-17T14:23:28.718Z",
+        "lastSuccessAt": "2026-10-17T14:23:28.718Z",
         "message": null,
         "status": "ok"
       },
@@ -4603,8 +4603,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4038,
-        "fetchedAt": "2026-10-16T14:50:16.641Z",
+        "count": 4048,
+        "fetchedAt": "2026-10-17T14:23:28.718Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
@@ -4889,8 +4889,8 @@
         "versionCode": 101
       },
       "stars": {
-        "count": 54,
-        "fetchedAt": "2026-10-16T14:01:23.393Z",
+        "count": 55,
+        "fetchedAt": "2026-10-17T14:23:28.718Z",
         "fullName": "FLYCOM-E/ClearBox",
         "repositoryId": 983784625,
         "verified": "self"
@@ -5125,17 +5125,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-16T03:30:32.399Z",
-        "lastSuccessAt": "2026-10-16T03:30:32.399Z",
+        "lastAttemptAt": "2026-10-17T14:23:28.718Z",
+        "lastSuccessAt": "2026-10-17T14:23:28.718Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 566,
-      "maxVersionCode": 566,
+      "maxStableVersionCode": 567,
+      "maxVersionCode": 567,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42",
+            "id": 650668299,
+            "name": "Sui-v13.5.4.3_567-ff78053-release.zip",
+            "sha256": "75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42",
+            "size": 1435612,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v567-ff78053/Sui-v13.5.4.3_567-ff78053-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (567-ff78053-release)`\n- **VersionCode:** `567`\n- **Commit:** [`ff78053`](https://github.com/XiaoTong6666/Sui/commit/ff780530053b6a48a5cfd1c82d32a78b70bf3c91)\n- **Build time:** `1m 53s`\n- **SHA256:** `75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42`\n\n## Message\n\n```text\nfix(rish): read synchronous Binder replies\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v567-ff78053",
+          "immutable": true,
+          "name": "v13.5.4.3 (567-ff78053-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (567-ff78053-release)",
+            "versionCode": "567"
+          },
+          "publishedAt": "2026-10-17T14:23:08Z",
+          "releaseId": 415845222,
+          "tag": "v567-ff78053",
+          "tagCommit": "d6052dd35923f1de18f4629a19eb3b49dde79044",
+          "version": "v13.5.4.3 (567-ff78053-release)",
+          "versionCode": 567
+        },
         {
           "asset": {
             "digest": "sha256:e707072bb0e624bed02a7a40b94a1430b4b376e85f147402621d00074219704d",
@@ -5316,21 +5346,25 @@
         "414507104": {
           "checkedAt": "2026-10-16T03:30:32.399Z",
           "ok": true
+        },
+        "415845222": {
+          "checkedAt": "2026-10-17T14:23:28.718Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:e707072bb0e624bed02a7a40b94a1430b4b376e85f147402621d00074219704d",
-          "id": 646007995,
-          "name": "Sui-v13.5.4.3_566-099cb89-release.zip",
-          "sha256": "e707072bb0e624bed02a7a40b94a1430b4b376e85f147402621d00074219704d",
-          "size": 1435616,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v566-099cb89/Sui-v13.5.4.3_566-099cb89-release.zip"
+          "digest": "sha256:75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42",
+          "id": 650668299,
+          "name": "Sui-v13.5.4.3_567-ff78053-release.zip",
+          "sha256": "75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42",
+          "size": 1435612,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v567-ff78053/Sui-v13.5.4.3_567-ff78053-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (566-099cb89-release)`\n- **VersionCode:** `566`\n- **Commit:** [`099cb89`](https://github.com/XiaoTong6666/Sui/commit/099cb89c2258061558f5179d03e914a248afae15)\n- **Build time:** `2m 26s`\n- **SHA256:** `e707072bb0e624bed02a7a40b94a1430b4b376e85f147402621d00074219704d`\n\n## Message\n\n```text\nfeat(ui): add UI preview mode and MIUIX menu checkmarks, Meow\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v566-099cb89",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (567-ff78053-release)`\n- **VersionCode:** `567`\n- **Commit:** [`ff78053`](https://github.com/XiaoTong6666/Sui/commit/ff780530053b6a48a5cfd1c82d32a78b70bf3c91)\n- **Build time:** `1m 53s`\n- **SHA256:** `75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42`\n\n## Message\n\n```text\nfix(rish): read synchronous Binder replies\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v567-ff78053",
         "immutable": true,
-        "name": "v13.5.4.3 (566-099cb89-release)",
+        "name": "v13.5.4.3 (567-ff78053-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -5338,15 +5372,15 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (566-099cb89-release)",
-          "versionCode": "566"
+          "version": "v13.5.4.3 (567-ff78053-release)",
+          "versionCode": "567"
         },
-        "publishedAt": "2026-10-16T03:30:12Z",
-        "releaseId": 414507104,
-        "tag": "v566-099cb89",
-        "tagCommit": "21f49da051628d7575a9b447cfc7227b5d039c24",
-        "version": "v13.5.4.3 (566-099cb89-release)",
-        "versionCode": 566
+        "publishedAt": "2026-10-17T14:23:08Z",
+        "releaseId": 415845222,
+        "tag": "v567-ff78053",
+        "tagCommit": "d6052dd35923f1de18f4629a19eb3b49dde79044",
+        "version": "v13.5.4.3 (567-ff78053-release)",
+        "versionCode": 567
       },
       "stars": {
         "count": 3,

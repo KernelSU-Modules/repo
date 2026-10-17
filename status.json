@@ -414,11 +414,11 @@
       }
     },
     "playintegrityfix": {
-      "contentCommit": "56766ca985130c8b88734a0e673a92c28d6568d7",
+      "contentCommit": "cc06c31e1de8c6d4d25e48c62c2dbc3995979fc3",
       "fullName": "KOWX712/PlayIntegrityFix",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-15T14:12:22.532Z",
+      "lastSuccessAt": "2026-10-17T14:23:28.718Z",
       "maxVersionCode": 490,
       "message": null,
       "repositoryId": 908441330,
@@ -486,16 +486,16 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-16T03:30:32.399Z",
-      "maxVersionCode": 566,
+      "lastSuccessAt": "2026-10-17T14:23:28.718Z",
+      "maxVersionCode": 567,
       "message": null,
       "repositoryId": 1415623276,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-16T03:30:12Z",
-        "tag": "v566-099cb89",
-        "version": "v13.5.4.3 (566-099cb89-release)",
-        "versionCode": 566
+        "publishedAt": "2026-10-17T14:23:08Z",
+        "tag": "v567-ff78053",
+        "version": "v13.5.4.3 (567-ff78053-release)",
+        "versionCode": 567
       }
     },
     "zygisk_fusehide": {
