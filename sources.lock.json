@@ -5879,17 +5879,47 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-14T18:16:23.213Z",
-        "lastSuccessAt": "2026-10-14T18:16:23.213Z",
+        "lastAttemptAt": "2026-10-18T06:52:22.504Z",
+        "lastSuccessAt": "2026-10-18T06:52:22.504Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk_fusehide",
       "installationId": 170178853,
-      "maxStableVersionCode": 188,
-      "maxVersionCode": 188,
+      "maxStableVersionCode": 189,
+      "maxVersionCode": 189,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:3137bd085537866a279a406665d121978e45192807f304e7d0352d60210cedb6",
+            "id": 652729616,
+            "name": "FuseHide-1.189_189-fac2421-release.zip",
+            "sha256": "3137bd085537866a279a406665d121978e45192807f304e7d0352d60210cedb6",
+            "size": 7534307,
+            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v189-fac2421/FuseHide-1.189_189-fac2421-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.189`\n- **VersionCode:** `189`\n- **Commit:** [`fac2421`](https://github.com/XiaoTong6666/FuseHide/commit/fac2421a4bc2e7b16b33b1f3c11dada9604ed36b)\n- **Build time:** `8m 37s`\n- **SHA256:** `3137bd085537866a279a406665d121978e45192807f304e7d0352d60210cedb6`\n\n## Message\n\n```text\nfix(ui): Resolve scaffold padding lint and missing translations Meow\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v189-fac2421",
+          "immutable": true,
+          "name": "1.189",
+          "prerelease": false,
+          "prop": {
+            "author": "XiaoTong",
+            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+            "id": "zygisk_fusehide",
+            "name": "Zygisk - FuseHide",
+            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+            "version": "1.189 (189-fac2421-release)",
+            "versionCode": "189"
+          },
+          "publishedAt": "2026-10-18T06:52:03Z",
+          "releaseId": 416286168,
+          "tag": "v189-fac2421",
+          "tagCommit": "f20e2f2dc9955a138d00886851f3d70b7432241f",
+          "version": "1.189 (189-fac2421-release)",
+          "versionCode": 189
+        },
         {
           "asset": {
             "digest": "sha256:57890587318bf08d0bff43a6932704b5d34af7fbaf559f21506f514525dd9fea",
@@ -5944,21 +5974,25 @@
         "413037298": {
           "checkedAt": "2026-10-14T18:16:23.213Z",
           "ok": true
+        },
+        "416286168": {
+          "checkedAt": "2026-10-18T06:52:22.504Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:57890587318bf08d0bff43a6932704b5d34af7fbaf559f21506f514525dd9fea",
-          "id": 641232029,
-          "name": "FuseHide-1.188_188-9d0104f-release.zip",
-          "sha256": "57890587318bf08d0bff43a6932704b5d34af7fbaf559f21506f514525dd9fea",
-          "size": 7530211,
-          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v188-9d0104f/FuseHide-1.188_188-9d0104f-release.zip"
+          "digest": "sha256:3137bd085537866a279a406665d121978e45192807f304e7d0352d60210cedb6",
+          "id": 652729616,
+          "name": "FuseHide-1.189_189-fac2421-release.zip",
+          "sha256": "3137bd085537866a279a406665d121978e45192807f304e7d0352d60210cedb6",
+          "size": 7534307,
+          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v189-fac2421/FuseHide-1.189_189-fac2421-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.188`\n- **VersionCode:** `188`\n- **Commit:** [`9d0104f`](https://github.com/XiaoTong6666/FuseHide/commit/9d0104f9a3fcda47f8b4c68741be8f1903278a61)\n- **Build time:** `8m 10s`\n- **SHA256:** `57890587318bf08d0bff43a6932704b5d34af7fbaf559f21506f514525dd9fea`\n\n## Message\n\n```text\nbuild(deps): bump org.commonmark:commonmark from 0.30.0 to 0.30.1 (#108)\n\nBumps [org.commonmark:commonmark](https://github.com/commonmark/commonmark-java) from 0.30.0 to 0.30.1.\n- [Release notes](https://github.com/commonmark/commonmark-java/releases)\n- [Changelog](https://github.com/commonmark/commonmark-java/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/commonmark/commonmark-java/compare/commonmark-parent-0.30.0...commonmark-parent-0.30.1)\n\n---\nupdated-dependencies:\n- dependency-name: org.commonmark:commonmark\n  dependency-version: 0.30.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v188-9d0104f",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.189`\n- **VersionCode:** `189`\n- **Commit:** [`fac2421`](https://github.com/XiaoTong6666/FuseHide/commit/fac2421a4bc2e7b16b33b1f3c11dada9604ed36b)\n- **Build time:** `8m 37s`\n- **SHA256:** `3137bd085537866a279a406665d121978e45192807f304e7d0352d60210cedb6`\n\n## Message\n\n```text\nfix(ui): Resolve scaffold padding lint and missing translations Meow\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v189-fac2421",
         "immutable": true,
-        "name": "1.188",
+        "name": "1.189",
         "prerelease": false,
         "prop": {
           "author": "XiaoTong",
@@ -5966,15 +6000,15 @@
           "id": "zygisk_fusehide",
           "name": "Zygisk - FuseHide",
           "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-          "version": "1.188 (188-9d0104f-release)",
-          "versionCode": "188"
+          "version": "1.189 (189-fac2421-release)",
+          "versionCode": "189"
         },
-        "publishedAt": "2026-10-14T18:15:57Z",
-        "releaseId": 413037298,
-        "tag": "v188-9d0104f",
-        "tagCommit": "4f7fc14f6725cc053714bd112c1549e646886a12",
-        "version": "1.188 (188-9d0104f-release)",
-        "versionCode": 188
+        "publishedAt": "2026-10-18T06:52:03Z",
+        "releaseId": 416286168,
+        "tag": "v189-fac2421",
+        "tagCommit": "f20e2f2dc9955a138d00886851f3d70b7432241f",
+        "version": "1.189 (189-fac2421-release)",
+        "versionCode": 189
       },
       "stars": {
         "count": 8,
