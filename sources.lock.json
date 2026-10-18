@@ -1881,17 +1881,47 @@
       "fullName": "xiaoji0308/Steps",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-18T03:16:16.392Z",
-        "lastSuccessAt": "2026-10-18T03:16:16.392Z",
+        "lastAttemptAt": "2026-10-18T05:40:08.212Z",
+        "lastSuccessAt": "2026-10-18T05:40:08.212Z",
         "message": null,
         "status": "ok"
       },
       "id": "S-T-E-P-S",
       "installationId": 172438629,
-      "maxStableVersionCode": 20261018,
-      "maxVersionCode": 20261018,
+      "maxStableVersionCode": 20261019,
+      "maxVersionCode": 20261019,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:2f7a86113ae71d37805d514ea6d2bb6f2e30f79d93f6c27e25a00157afdaa843",
+            "id": 652593687,
+            "name": "26.1018v3.zip",
+            "sha256": "2f7a86113ae71d37805d514ea6d2bb6f2e30f79d93f6c27e25a00157afdaa843",
+            "size": 32993,
+            "url": "https://github.com/xiaoji0308/Steps/releases/download/1018.3/26.1018v3.zip"
+          },
+          "body": "优化检查更新",
+          "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1018.3",
+          "immutable": true,
+          "name": "智能步数管理26.1018v3",
+          "prerelease": false,
+          "prop": {
+            "author": "浠浠浠   原作者：阿巴酱丨小青泽",
+            "description": "自动增加步数",
+            "id": "S-T-E-P-S",
+            "name": "A-智能步数管理［HyperOS］",
+            "version": "1018.3",
+            "versionCode": "20261019",
+            "webuiIcon": "webroot/icon.svg"
+          },
+          "publishedAt": "2026-10-18T05:39:47Z",
+          "releaseId": 416258460,
+          "tag": "1018.3",
+          "tagCommit": "068cee56cb312104d0eb9b27ed679e70b114c426",
+          "version": "1018.3",
+          "versionCode": 20261019
+        },
         {
           "asset": {
             "digest": "sha256:6b1692d57540f53ea2b54f284cfc12e6b0578e32c25ff10c5565e4d0c92bb8e0",
@@ -1938,37 +1968,41 @@
         "416206627": {
           "checkedAt": "2026-10-18T03:16:16.392Z",
           "ok": true
+        },
+        "416258460": {
+          "checkedAt": "2026-10-18T05:40:08.212Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:6b1692d57540f53ea2b54f284cfc12e6b0578e32c25ff10c5565e4d0c92bb8e0",
-          "id": 651019081,
-          "name": "26.1018.zip",
-          "sha256": "6b1692d57540f53ea2b54f284cfc12e6b0578e32c25ff10c5565e4d0c92bb8e0",
-          "size": 34400,
-          "url": "https://github.com/xiaoji0308/Steps/releases/download/1018.1/26.1018.zip"
+          "digest": "sha256:2f7a86113ae71d37805d514ea6d2bb6f2e30f79d93f6c27e25a00157afdaa843",
+          "id": 652593687,
+          "name": "26.1018v3.zip",
+          "sha256": "2f7a86113ae71d37805d514ea6d2bb6f2e30f79d93f6c27e25a00157afdaa843",
+          "size": 32993,
+          "url": "https://github.com/xiaoji0308/Steps/releases/download/1018.3/26.1018v3.zip"
         },
-        "body": "新增检测更新  修复 WebUI 操作提示被底部悬浮导航遮挡的问题",
-        "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1018.1",
+        "body": "优化检查更新",
+        "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1018.3",
         "immutable": true,
-        "name": "智能步数管理26.1018",
+        "name": "智能步数管理26.1018v3",
         "prerelease": false,
         "prop": {
           "author": "浠浠浠   原作者：阿巴酱丨小青泽",
           "description": "自动增加步数",
           "id": "S-T-E-P-S",
           "name": "A-智能步数管理［HyperOS］",
-          "version": "1018",
-          "versionCode": "20261018",
+          "version": "1018.3",
+          "versionCode": "20261019",
           "webuiIcon": "webroot/icon.svg"
         },
-        "publishedAt": "2026-10-17T16:56:53Z",
-        "releaseId": 415939360,
-        "tag": "1018.1",
-        "tagCommit": "0f0d2c5097099b897f398d5a38ad78d4f399d4fa",
-        "version": "1018",
-        "versionCode": 20261018
+        "publishedAt": "2026-10-18T05:39:47Z",
+        "releaseId": 416258460,
+        "tag": "1018.3",
+        "tagCommit": "068cee56cb312104d0eb9b27ed679e70b114c426",
+        "version": "1018.3",
+        "versionCode": 20261019
       },
       "stars": {
         "count": 1,
