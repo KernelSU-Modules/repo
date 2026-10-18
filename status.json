@@ -380,7 +380,7 @@
       }
     },
     "lkm4ctr": {
-      "contentCommit": "4c2ee72f54c5a4ee88cb0b6c6641eb4481858b27",
+      "contentCommit": "66654a0ed1db6ec19a51d8b5083d667e83e53dad",
       "fullName": "cyanmint/lkm4ctr",
       "health": "ok",
       "installation": "present",
@@ -389,8 +389,8 @@
       "message": null,
       "repositoryId": 1313308146,
       "request": {
-        "checkedAt": "2026-10-17T16:58:03.872Z",
-        "commit": "4c2ee72f54c5a4ee88cb0b6c6641eb4481858b27",
+        "checkedAt": "2026-10-18T05:06:53.870Z",
+        "commit": "66654a0ed1db6ec19a51d8b5083d667e83e53dad",
         "issues": [],
         "latestTag": "4.0.5",
         "ok": true,
