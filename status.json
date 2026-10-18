@@ -380,7 +380,7 @@
       }
     },
     "lkm4ctr": {
-      "contentCommit": "66654a0ed1db6ec19a51d8b5083d667e83e53dad",
+      "contentCommit": "f0107fe75ae9f5bd0671eaa53ff3aa3356fed9bb",
       "fullName": "cyanmint/lkm4ctr",
       "health": "ok",
       "installation": "present",
@@ -389,8 +389,8 @@
       "message": null,
       "repositoryId": 1313308146,
       "request": {
-        "checkedAt": "2026-10-18T05:06:53.870Z",
-        "commit": "66654a0ed1db6ec19a51d8b5083d667e83e53dad",
+        "checkedAt": "2026-10-18T09:04:05.285Z",
+        "commit": "f0107fe75ae9f5bd0671eaa53ff3aa3356fed9bb",
         "issues": [],
         "latestTag": "4.0.5",
         "ok": true,
@@ -575,16 +575,16 @@
       "fullName": "VeryBaaad/ZygiskNextNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-17T09:45:17.969Z",
-      "maxVersionCode": 202,
+      "lastSuccessAt": "2026-10-18T09:04:05.285Z",
+      "maxVersionCode": 204,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-17T09:44:51Z",
-        "tag": "v1.12.0",
-        "version": "v1.12.0 (202-ca4d4b7-release)",
-        "versionCode": 202
+        "publishedAt": "2026-10-18T09:03:45Z",
+        "tag": "v1.13.0",
+        "version": "v1.13.0 (204-22a8959-release)",
+        "versionCode": 204
       }
     },
     "zygisksu": {
