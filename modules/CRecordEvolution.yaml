@@ -1,0 +1,19 @@
+id: CRecordEvolution
+status: pending
+request:
+  submissionId: qn6pzzga5y
+  kind: submit
+  source:
+    host: github
+    repositoryId: 678049636
+    ownerId: 27006147
+    fullName: f1owkang/CRecordEvolution
+    manifestPath: module.yaml
+  submittedBy: 27006147
+  submittedByLogin: f1owkang
+  submittedAt: 2026-10-18T15:57:38.937Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64418
+createdAt: 2026-10-18T15:57:38.937Z
+updatedAt: 2026-10-18T15:57:38.937Z
