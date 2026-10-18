@@ -17,21 +17,17 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-18T16:03:21.556Z",
+      "maxVersionCode": 29,
       "message": null,
       "repositoryId": 678049636,
-      "request": {
-        "checkedAt": "2026-10-18T15:58:02.628Z",
-        "commit": "70a3af41dcd1fbaefb5e85c722481880ad4fd68f",
-        "issues": [],
-        "latestTag": "v1.3.5",
-        "ok": true,
-        "releaseId": 416547424,
-        "repositoryId": 678049636,
-        "submissionId": "qn6pzzga5y"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-18T15:56:24Z",
+        "tag": "v1.3.5",
+        "version": "1.3.5",
+        "versionCode": 29
+      }
     },
     "CertBridge": {
       "contentCommit": "5487b58937039a8e9910525b397188222d8acdb0",

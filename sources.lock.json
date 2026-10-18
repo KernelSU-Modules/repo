@@ -223,6 +223,167 @@
         "verified": "self"
       }
     },
+    "CRecordEvolution": {
+      "content": {
+        "blobs": {
+          "README.md": "da79606c359f41573479da89c061c3ec9c202824",
+          "assets/icon.png": "d69bfb5b0c9c5ee6ae98f6b388f66d5aca4fd08c",
+          "module.yaml": "d0aae707a81138d4bcfe382f89658a7348428a1c"
+        },
+        "commit": "70a3af41dcd1fbaefb5e85c722481880ad4fd68f",
+        "fetchedAt": "2026-10-18T16:03:21.556Z",
+        "files": {
+          "README.md": "914d9803fa1b5cf3fe78773ad8cc237bd2bcb2e0f6f4c1d5b8f86d0696f0847b",
+          "assets/icon.png": "21f89e084bc4325fad7fddd5fbf357d5dfeee47c409ef3023fafcdd0317a477f",
+          "module.yaml": "0f36d27ad59369ba4719c37d1c33eec3289fe06c2326abafb8d7efa5b36647f0"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "f1owkang/CRecordEvolution",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-18T16:03:21.556Z",
+        "lastSuccessAt": "2026-10-18T16:03:21.556Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "CRecordEvolution",
+      "installationId": 170323968,
+      "maxStableVersionCode": 29,
+      "maxVersionCode": 29,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:171b3d2025e9bcde3d06a320647d23f8eb4bbe9ce48c66e96bebd88a378a5b7f",
+            "id": 653852803,
+            "name": "CRecordEvolution-29-1.3.5.zip",
+            "sha256": "171b3d2025e9bcde3d06a320647d23f8eb4bbe9ce48c66e96bebd88a378a5b7f",
+            "size": 3033358,
+            "url": "https://github.com/f1owkang/CRecordEvolution/releases/download/v1.3.5/CRecordEvolution-29-1.3.5.zip"
+          },
+          "body": "- chore: 发布 1.3.5(29)\n- feat: 描述行并列内核/实测健康，WebUI 补退避与平滑曲线\n- fix: 中段校准跳过无 cc 旧行，修正系统性偏低 366mAh\n- feat: 补齐 KernelSU Modules 上架元数据与发布前预检\n- docs: 作者改为仓库贡献者并修订 README\n- fix: 补齐 KernelSU Modules 预检查要求\n- add: update.json 更新至 v1.3.4\n\n`CRecordEvolution_ML-29-1.3.5.zip` 为实验通道（在线学习算法），手动刷入，不提供应用内更新。\n",
+          "htmlUrl": "https://github.com/f1owkang/CRecordEvolution/releases/tag/v1.3.5",
+          "immutable": true,
+          "name": "ChargingRecord Evolution v1.3.5",
+          "prerelease": false,
+          "prop": {
+            "author": "f1owkang、hcnk3HrzQe",
+            "description": "Magisk模块，通过读取系统容量估算电池健康度",
+            "id": "CRecordEvolution",
+            "name": "ChargingRecord Evolution",
+            "updateJson": "https://raw.githubusercontent.com/f1owkang/CRecordEvolution/main/update.json",
+            "version": "1.3.5",
+            "versionCode": "29"
+          },
+          "publishedAt": "2026-10-18T15:56:24Z",
+          "releaseId": 416547424,
+          "tag": "v1.3.5",
+          "tagCommit": "240ff63f1e227c43a921bb473ffa77362942d18a",
+          "version": "1.3.5",
+          "versionCode": 29
+        }
+      ],
+      "repositoryId": 678049636,
+      "seen": {
+        "377695013": {
+          "checkedAt": "2026-10-18T16:03:21.556Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "379578910": {
+          "checkedAt": "2026-10-18T16:03:21.556Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "380538616": {
+          "checkedAt": "2026-10-18T16:03:21.556Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "383152283": {
+          "checkedAt": "2026-10-18T16:03:21.556Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387436532": {
+          "checkedAt": "2026-10-18T16:03:21.556Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "389270242": {
+          "checkedAt": "2026-10-18T16:03:21.556Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "397554211": {
+          "checkedAt": "2026-10-18T16:03:21.556Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "407883332": {
+          "checkedAt": "2026-10-18T16:03:21.556Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "409003068": {
+          "checkedAt": "2026-10-18T16:03:21.556Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "416547424": {
+          "checkedAt": "2026-10-18T16:03:21.556Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:171b3d2025e9bcde3d06a320647d23f8eb4bbe9ce48c66e96bebd88a378a5b7f",
+          "id": 653852803,
+          "name": "CRecordEvolution-29-1.3.5.zip",
+          "sha256": "171b3d2025e9bcde3d06a320647d23f8eb4bbe9ce48c66e96bebd88a378a5b7f",
+          "size": 3033358,
+          "url": "https://github.com/f1owkang/CRecordEvolution/releases/download/v1.3.5/CRecordEvolution-29-1.3.5.zip"
+        },
+        "body": "- chore: 发布 1.3.5(29)\n- feat: 描述行并列内核/实测健康，WebUI 补退避与平滑曲线\n- fix: 中段校准跳过无 cc 旧行，修正系统性偏低 366mAh\n- feat: 补齐 KernelSU Modules 上架元数据与发布前预检\n- docs: 作者改为仓库贡献者并修订 README\n- fix: 补齐 KernelSU Modules 预检查要求\n- add: update.json 更新至 v1.3.4\n\n`CRecordEvolution_ML-29-1.3.5.zip` 为实验通道（在线学习算法），手动刷入，不提供应用内更新。\n",
+        "htmlUrl": "https://github.com/f1owkang/CRecordEvolution/releases/tag/v1.3.5",
+        "immutable": true,
+        "name": "ChargingRecord Evolution v1.3.5",
+        "prerelease": false,
+        "prop": {
+          "author": "f1owkang、hcnk3HrzQe",
+          "description": "Magisk模块，通过读取系统容量估算电池健康度",
+          "id": "CRecordEvolution",
+          "name": "ChargingRecord Evolution",
+          "updateJson": "https://raw.githubusercontent.com/f1owkang/CRecordEvolution/main/update.json",
+          "version": "1.3.5",
+          "versionCode": "29"
+        },
+        "publishedAt": "2026-10-18T15:56:24Z",
+        "releaseId": 416547424,
+        "tag": "v1.3.5",
+        "tagCommit": "240ff63f1e227c43a921bb473ffa77362942d18a",
+        "version": "1.3.5",
+        "versionCode": 29
+      },
+      "stars": {
+        "count": 4,
+        "fetchedAt": "2026-10-18T16:03:21.556Z",
+        "fullName": "f1owkang/CRecordEvolution",
+        "repositoryId": 678049636,
+        "verified": "self"
+      }
+    },
     "CertBridge": {
       "content": {
         "blobs": {
