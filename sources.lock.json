@@ -2328,17 +2328,46 @@
       "fullName": "Dr-TSNG/altdb",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-18T05:46:09.207Z",
-        "lastSuccessAt": "2026-10-18T05:46:09.207Z",
+        "lastAttemptAt": "2026-10-18T05:46:54.288Z",
+        "lastSuccessAt": "2026-10-18T05:46:54.288Z",
         "message": null,
         "status": "ok"
       },
       "id": "altdb",
       "installationId": 171730441,
-      "maxStableVersionCode": 7,
-      "maxVersionCode": 7,
+      "maxStableVersionCode": 28,
+      "maxVersionCode": 28,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:ac5ac304a2587423532869535ad083fd0fb4841d353c96d1102d4d29c755fd54",
+            "id": 652607844,
+            "name": "altdb-v0.3.0-arm64.zip",
+            "sha256": "ac5ac304a2587423532869535ad083fd0fb4841d353c96d1102d4d29c755fd54",
+            "size": 1407652,
+            "url": "https://github.com/Dr-TSNG/altdb/releases/download/0.3.0/altdb-v0.3.0-arm64.zip"
+          },
+          "body": "- Added an mDNS toggle, enabled by default\r\n- Added a module Action button to toggle altdb\r\n- Added KernelSU hot install support, allowing installation and updates without rebooting\r\n- Fixed service startup after hot installation\r\n- Fixed stale connection counts after network loss or abnormal disconnections\r\n\r\nHot updates disconnect active sessions while preserving settings and pairing records. Older KernelSU versions still require a reboot as prompted",
+          "htmlUrl": "https://github.com/Dr-TSNG/altdb/releases/tag/0.3.0",
+          "immutable": true,
+          "name": "0.3.0",
+          "prerelease": false,
+          "prop": {
+            "author": "Nullptr",
+            "description": "Alternative adb server over local network",
+            "id": "altdb",
+            "name": "altdb",
+            "version": "v0.3.0",
+            "versionCode": "28"
+          },
+          "publishedAt": "2026-10-18T05:46:22Z",
+          "releaseId": 416260918,
+          "tag": "0.3.0",
+          "tagCommit": "21bd64aa746746b8e697f0cbfb752391c478c71f",
+          "version": "v0.3.0",
+          "versionCode": 28
+        },
         {
           "asset": {
             "digest": "sha256:e7c36f4711e1c8acae1046177aa00378c26591872a2ab84ae451c739deaddeb7",
@@ -2386,36 +2415,40 @@
         "413811172": {
           "checkedAt": "2026-10-15T13:03:40.833Z",
           "ok": true
+        },
+        "416260918": {
+          "checkedAt": "2026-10-18T05:46:54.288Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:e7c36f4711e1c8acae1046177aa00378c26591872a2ab84ae451c739deaddeb7",
-          "id": 643867864,
-          "name": "altdb-v0.2.1-arm64.zip",
-          "sha256": "e7c36f4711e1c8acae1046177aa00378c26591872a2ab84ae451c739deaddeb7",
-          "size": 1404650,
-          "url": "https://github.com/Dr-TSNG/altdb/releases/download/0.2.1/altdb-v0.2.1-arm64.zip"
+          "digest": "sha256:ac5ac304a2587423532869535ad083fd0fb4841d353c96d1102d4d29c755fd54",
+          "id": 652607844,
+          "name": "altdb-v0.3.0-arm64.zip",
+          "sha256": "ac5ac304a2587423532869535ad083fd0fb4841d353c96d1102d4d29c755fd54",
+          "size": 1407652,
+          "url": "https://github.com/Dr-TSNG/altdb/releases/download/0.3.0/altdb-v0.3.0-arm64.zip"
         },
-        "body": "- Remove independent su permission control\r\n- Keep TLS connection after adb root switch\r\n- Prevent local TCP and mDNS detection\r\n- Fix soft reboot\r\n- Fix runtime environment - now scrcpy should work\r\n- Fix Android property report\r\n- Load KernelSU environment for adb root shells",
-        "htmlUrl": "https://github.com/Dr-TSNG/altdb/releases/tag/0.2.1",
+        "body": "- Added an mDNS toggle, enabled by default\r\n- Added a module Action button to toggle altdb\r\n- Added KernelSU hot install support, allowing installation and updates without rebooting\r\n- Fixed service startup after hot installation\r\n- Fixed stale connection counts after network loss or abnormal disconnections\r\n\r\nHot updates disconnect active sessions while preserving settings and pairing records. Older KernelSU versions still require a reboot as prompted",
+        "htmlUrl": "https://github.com/Dr-TSNG/altdb/releases/tag/0.3.0",
         "immutable": true,
-        "name": "0.2.1",
+        "name": "0.3.0",
         "prerelease": false,
         "prop": {
           "author": "Nullptr",
           "description": "Alternative adb server over local network",
           "id": "altdb",
           "name": "altdb",
-          "version": "v0.2.1",
-          "versionCode": "7"
+          "version": "v0.3.0",
+          "versionCode": "28"
         },
-        "publishedAt": "2026-10-15T12:55:09Z",
-        "releaseId": 413811172,
-        "tag": "0.2.1",
-        "tagCommit": "4a894d4ac7093a119061f9adb7e5a6f312ebe6e9",
-        "version": "v0.2.1",
-        "versionCode": 7
+        "publishedAt": "2026-10-18T05:46:22Z",
+        "releaseId": 416260918,
+        "tag": "0.3.0",
+        "tagCommit": "21bd64aa746746b8e697f0cbfb752391c478c71f",
+        "version": "v0.3.0",
+        "versionCode": 28
       },
       "stars": {
         "count": 81,

@@ -214,16 +214,16 @@
       "fullName": "Dr-TSNG/altdb",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-18T05:46:09.207Z",
-      "maxVersionCode": 7,
+      "lastSuccessAt": "2026-10-18T05:46:54.288Z",
+      "maxVersionCode": 28,
       "message": null,
       "repositoryId": 1368146952,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-15T12:55:09Z",
-        "tag": "0.2.1",
-        "version": "v0.2.1",
-        "versionCode": 7
+        "publishedAt": "2026-10-18T05:46:22Z",
+        "tag": "0.3.0",
+        "version": "v0.3.0",
+        "versionCode": 28
       }
     },
     "apex_apps": {
