@@ -1575,8 +1575,8 @@
         "versionCode": 2026101201
       },
       "stars": {
-        "count": 49,
-        "fetchedAt": "2026-10-17T11:27:25.605Z",
+        "count": 52,
+        "fetchedAt": "2026-10-18T13:32:38.193Z",
         "fullName": "Eikeitsu/QSC-Battery",
         "repositoryId": 1302628725,
         "verified": "self"
@@ -1856,8 +1856,8 @@
         "versionCode": 20
       },
       "stars": {
-        "count": 54,
-        "fetchedAt": "2026-10-17T11:27:25.605Z",
+        "count": 56,
+        "fetchedAt": "2026-10-18T13:32:38.193Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -2200,8 +2200,8 @@
         "versionCode": 9
       },
       "stars": {
-        "count": 15,
-        "fetchedAt": "2026-10-17T08:26:52.310Z",
+        "count": 16,
+        "fetchedAt": "2026-10-18T13:32:38.193Z",
         "fullName": "LimpidMo/SvcHub",
         "repositoryId": 1353509468,
         "verified": "self"
@@ -3824,8 +3824,8 @@
         "versionCode": 602003999
       },
       "stars": {
-        "count": 1731,
-        "fetchedAt": "2026-10-17T11:27:25.605Z",
+        "count": 1736,
+        "fetchedAt": "2026-10-18T13:32:38.193Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
@@ -6070,17 +6070,47 @@
       "fullName": "VeryBaaad/ZygiskNextNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-18T09:04:05.285Z",
-        "lastSuccessAt": "2026-10-18T09:04:05.285Z",
+        "lastAttemptAt": "2026-10-18T13:32:38.193Z",
+        "lastSuccessAt": "2026-10-18T13:32:38.193Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 204,
-      "maxVersionCode": 204,
+      "maxStableVersionCode": 210,
+      "maxVersionCode": 210,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:b6e6efa816b76426fb483e4682efc3f3bcf5f87e474b733b17404cc684695b0d",
+            "id": 653561280,
+            "name": "Zygisk-Next-Next-v1.14.1-210-614eb8e-release.zip",
+            "sha256": "b6e6efa816b76426fb483e4682efc3f3bcf5f87e474b733b17404cc684695b0d",
+            "size": 3225904,
+            "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.14.1/Zygisk-Next-Next-v1.14.1-210-614eb8e-release.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.14.0...v1.14.1\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.14.1",
+          "immutable": true,
+          "name": "v1.14.1",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "Zygisk Next Next",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
+            "version": "v1.14.1 (210-614eb8e-release)",
+            "versionCode": "210"
+          },
+          "publishedAt": "2026-10-18T13:32:16Z",
+          "releaseId": 416468308,
+          "tag": "v1.14.1",
+          "tagCommit": "614eb8e38f79b9728b1cd8b275da429e1e2d6679",
+          "version": "v1.14.1 (210-614eb8e-release)",
+          "versionCode": 210
+        },
         {
           "asset": {
             "digest": "sha256:38727c5cf3f5b53fb9c1593f135e8f8b8ce3bb84902f8bd52aa80dcf9b1077d1",
@@ -6350,36 +6380,6 @@
           "tagCommit": "946c8c3347d15ff99e8edd4a34b686d08855401c",
           "version": "v1.8.1 (129-946c8c3-release)",
           "versionCode": 129
-        },
-        {
-          "asset": {
-            "digest": "sha256:69986155d822a4a2ce36ee8d7da50e495a00d8686eca095a267592635d0823e6",
-            "id": 630354638,
-            "name": "Zygisk-Next-Next-v1.8.0-99-da2570a-release.zip",
-            "sha256": "69986155d822a4a2ce36ee8d7da50e495a00d8686eca095a267592635d0823e6",
-            "size": 3449038,
-            "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.8.0/Zygisk-Next-Next-v1.8.0-99-da2570a-release.zip"
-          },
-          "body": "**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.7.2...v1.8.0\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.8.0",
-          "immutable": true,
-          "name": "v1.8.0",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "Zygisk Next Next",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
-            "version": "v1.8.0 (99-da2570a-release)",
-            "versionCode": "99"
-          },
-          "publishedAt": "2026-10-11T09:40:51Z",
-          "releaseId": 409574193,
-          "tag": "v1.8.0",
-          "tagCommit": "da2570a81a33aec2041570d46bd284f6e0031c61",
-          "version": "v1.8.0 (99-da2570a-release)",
-          "versionCode": 99
         }
       ],
       "repositoryId": 1348255159,
@@ -6541,21 +6541,25 @@
         "416341924": {
           "checkedAt": "2026-10-18T09:04:05.285Z",
           "ok": true
+        },
+        "416468308": {
+          "checkedAt": "2026-10-18T13:32:38.193Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:38727c5cf3f5b53fb9c1593f135e8f8b8ce3bb84902f8bd52aa80dcf9b1077d1",
-          "id": 653013461,
-          "name": "Zygisk-Next-Next-v1.13.0-204-22a8959-release.zip",
-          "sha256": "38727c5cf3f5b53fb9c1593f135e8f8b8ce3bb84902f8bd52aa80dcf9b1077d1",
-          "size": 3225459,
-          "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.13.0/Zygisk-Next-Next-v1.13.0-204-22a8959-release.zip"
+          "digest": "sha256:b6e6efa816b76426fb483e4682efc3f3bcf5f87e474b733b17404cc684695b0d",
+          "id": 653561280,
+          "name": "Zygisk-Next-Next-v1.14.1-210-614eb8e-release.zip",
+          "sha256": "b6e6efa816b76426fb483e4682efc3f3bcf5f87e474b733b17404cc684695b0d",
+          "size": 3225904,
+          "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.14.1/Zygisk-Next-Next-v1.14.1-210-614eb8e-release.zip"
         },
-        "body": "## What's Changed\n* feat(hook): allow disable inline or plt hook by @VeryBaaad in https://github.com/VeryBaaad/ZygiskNextNext/pull/105\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.12.0...v1.13.0\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.13.0",
+        "body": "**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.14.0...v1.14.1\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.14.1",
         "immutable": true,
-        "name": "v1.13.0",
+        "name": "v1.14.1",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -6563,19 +6567,19 @@
           "id": "zygisknextsu",
           "name": "Zygisk Next Next",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
-          "version": "v1.13.0 (204-22a8959-release)",
-          "versionCode": "204"
+          "version": "v1.14.1 (210-614eb8e-release)",
+          "versionCode": "210"
         },
-        "publishedAt": "2026-10-18T09:03:45Z",
-        "releaseId": 416341924,
-        "tag": "v1.13.0",
-        "tagCommit": "22a89595063c5bbfe77e1da97ca2e3a412c8452f",
-        "version": "v1.13.0 (204-22a8959-release)",
-        "versionCode": 204
+        "publishedAt": "2026-10-18T13:32:16Z",
+        "releaseId": 416468308,
+        "tag": "v1.14.1",
+        "tagCommit": "614eb8e38f79b9728b1cd8b275da429e1e2d6679",
+        "version": "v1.14.1 (210-614eb8e-release)",
+        "versionCode": 210
       },
       "stars": {
-        "count": 59,
-        "fetchedAt": "2026-10-18T09:04:05.285Z",
+        "count": 61,
+        "fetchedAt": "2026-10-18T13:32:38.193Z",
         "fullName": "VeryBaaad/ZygiskNextNext",
         "repositoryId": 1348255159,
         "verified": "self"
