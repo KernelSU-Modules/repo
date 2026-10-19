@@ -1339,8 +1339,8 @@
         "versionCode": 10602
       },
       "stars": {
-        "count": 189,
-        "fetchedAt": "2026-10-17T22:57:03.501Z",
+        "count": 192,
+        "fetchedAt": "2026-10-19T01:27:21.391Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -2993,17 +2993,76 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-17T18:35:00.051Z",
-        "lastSuccessAt": "2026-10-17T18:35:00.051Z",
+        "lastAttemptAt": "2026-10-19T01:27:21.391Z",
+        "lastSuccessAt": "2026-10-19T01:27:21.391Z",
         "message": null,
         "status": "ok"
       },
       "id": "duck-toolbox",
       "installationId": 170179902,
       "maxStableVersionCode": 77,
-      "maxVersionCode": 77,
-      "prerelease": null,
+      "maxVersionCode": 78,
+      "prerelease": {
+        "asset": {
+          "digest": "sha256:a42fdbcb35f9fff6b0561b270086e2ec675c73220d613c7f4e43cecad4bd685c",
+          "id": 654926085,
+          "name": "duck-toolbox-0.1.6-stable-78-canary.zip",
+          "sha256": "a42fdbcb35f9fff6b0561b270086e2ec675c73220d613c7f4e43cecad4bd685c",
+          "size": 4537013,
+          "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-39501fc9-20261019T012654769278Z/duck-toolbox-0.1.6-stable-78-canary.zip"
+        },
+        "body": "Canary module built from commit 39501fc9300986d88586ac175fce167b05797cc9.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/39185214262\n",
+        "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-39501fc9-20261019T012654769278Z",
+        "immutable": true,
+        "name": "nightly-39501fc9-20261019T012654769278Z",
+        "prerelease": true,
+        "prop": {
+          "author": "Eltavine & KOW & MhmRdd",
+          "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and Qualcomm device ID provisioning, in one WebUI.",
+          "id": "duck-toolbox",
+          "name": "Duck ToolBox",
+          "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
+          "version": "0.1.6-stable (78-canary)",
+          "versionCode": "78"
+        },
+        "publishedAt": "2026-10-19T01:26:58Z",
+        "releaseId": 416819117,
+        "tag": "nightly-39501fc9-20261019T012654769278Z",
+        "tagCommit": "39501fc9300986d88586ac175fce167b05797cc9",
+        "version": "0.1.6-stable (78-canary)",
+        "versionCode": 78
+      },
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:a42fdbcb35f9fff6b0561b270086e2ec675c73220d613c7f4e43cecad4bd685c",
+            "id": 654926085,
+            "name": "duck-toolbox-0.1.6-stable-78-canary.zip",
+            "sha256": "a42fdbcb35f9fff6b0561b270086e2ec675c73220d613c7f4e43cecad4bd685c",
+            "size": 4537013,
+            "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-39501fc9-20261019T012654769278Z/duck-toolbox-0.1.6-stable-78-canary.zip"
+          },
+          "body": "Canary module built from commit 39501fc9300986d88586ac175fce167b05797cc9.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/39185214262\n",
+          "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-39501fc9-20261019T012654769278Z",
+          "immutable": true,
+          "name": "nightly-39501fc9-20261019T012654769278Z",
+          "prerelease": true,
+          "prop": {
+            "author": "Eltavine & KOW & MhmRdd",
+            "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and Qualcomm device ID provisioning, in one WebUI.",
+            "id": "duck-toolbox",
+            "name": "Duck ToolBox",
+            "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
+            "version": "0.1.6-stable (78-canary)",
+            "versionCode": "78"
+          },
+          "publishedAt": "2026-10-19T01:26:58Z",
+          "releaseId": 416819117,
+          "tag": "nightly-39501fc9-20261019T012654769278Z",
+          "tagCommit": "39501fc9300986d88586ac175fce167b05797cc9",
+          "version": "0.1.6-stable (78-canary)",
+          "versionCode": 78
+        },
         {
           "asset": {
             "digest": "sha256:7578df64d861e70b78908eff0eb67a704aa3f65fbe7d2343994f999d92217c15",
@@ -3273,36 +3332,6 @@
           "tagCommit": "52b30d9934efaa4764819bb0fad6b596236558ec",
           "version": "0.1.3-stable (66-canary)",
           "versionCode": 66
-        },
-        {
-          "asset": {
-            "digest": "sha256:ce9393ef15702b06941d57535fc49cefd8a552c4a7d2afeb5a6f710e39bb343c",
-            "id": 648050582,
-            "name": "duck-toolbox-0.1.3-stable-64-canary.zip",
-            "sha256": "ce9393ef15702b06941d57535fc49cefd8a552c4a7d2afeb5a6f710e39bb343c",
-            "size": 4172329,
-            "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-567ce9f3-20261016T172349350190Z/duck-toolbox-0.1.3-stable-64-canary.zip"
-          },
-          "body": "Canary module built from commit 567ce9f362bdeb9a830d2f29234be9a4635ba715.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/38939097173\n",
-          "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-567ce9f3-20261016T172349350190Z",
-          "immutable": true,
-          "name": "nightly-567ce9f3-20261016T172349350190Z",
-          "prerelease": true,
-          "prop": {
-            "author": "Eltavine & KOW & MhmRdd",
-            "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and Qualcomm device ID provisioning, in one WebUI.",
-            "id": "duck-toolbox",
-            "name": "Duck ToolBox",
-            "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
-            "version": "0.1.3-stable (64-canary)",
-            "versionCode": "64"
-          },
-          "publishedAt": "2026-10-16T17:23:52Z",
-          "releaseId": 415205461,
-          "tag": "nightly-567ce9f3-20261016T172349350190Z",
-          "tagCommit": "567ce9f362bdeb9a830d2f29234be9a4635ba715",
-          "version": "0.1.3-stable (64-canary)",
-          "versionCode": 64
         }
       ],
       "repositoryId": 1196357682,
@@ -3372,6 +3401,10 @@
         "415991151": {
           "checkedAt": "2026-10-17T18:35:00.051Z",
           "ok": true
+        },
+        "416819117": {
+          "checkedAt": "2026-10-19T01:27:21.391Z",
+          "ok": true
         }
       },
       "stable": {
@@ -3405,8 +3438,8 @@
         "versionCode": 77
       },
       "stars": {
-        "count": 186,
-        "fetchedAt": "2026-10-18T01:55:34.558Z",
+        "count": 220,
+        "fetchedAt": "2026-10-19T01:27:21.391Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -4925,13 +4958,13 @@
     "oh_my_keymint": {
       "content": {
         "blobs": {
-          "README.md": "e4a148a1e3e3258f32b475f6e00fcd050e11d1c0",
+          "README.md": "f2bd759751afa857a3fd02bff09d59cbd0d521e6",
           "module.yaml": "a8bd33a5d30a38bfd5d7acb3f1a439d33b3886ca"
         },
-        "commit": "921e10bd310dc561959b7d54167caa4a26f79718",
-        "fetchedAt": "2026-10-17T18:35:00.051Z",
+        "commit": "b12557c1569ed15150acd7886c825de500fc9ee9",
+        "fetchedAt": "2026-10-19T01:27:21.391Z",
         "files": {
-          "README.md": "20fe7548024b74deef7b8af97b87394a6cd1ad7a39583a99a396ae8fd8cc727d",
+          "README.md": "2be44275d73a2c94d512e7c70582dfeeeda7c71ea689332a3bc7cd7f469aae36",
           "module.yaml": "2244bb3fe5d6ccba573897bf9b7e4ba8d5519daed68577bcc886873e22101e1f"
         },
         "manifestPath": "module.yaml",
@@ -4940,8 +4973,8 @@
       "fullName": "qwq233/OhMyKeymint",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-17T18:35:00.051Z",
-        "lastSuccessAt": "2026-10-17T18:35:00.051Z",
+        "lastAttemptAt": "2026-10-19T01:27:21.391Z",
+        "lastSuccessAt": "2026-10-19T01:27:21.391Z",
         "message": null,
         "status": "ok"
       },
@@ -5056,8 +5089,8 @@
         "versionCode": 155
       },
       "stars": {
-        "count": 483,
-        "fetchedAt": "2026-10-17T18:05:09.249Z",
+        "count": 494,
+        "fetchedAt": "2026-10-19T01:27:21.391Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
