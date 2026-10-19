@@ -166,11 +166,11 @@
       }
     },
     "SvcHub": {
-      "contentCommit": "5e23270a02c574e0a22d64fd02faa67be5c0ca03",
+      "contentCommit": "e27f5937499a970554232031fd62db6da282845f",
       "fullName": "LimpidMo/SvcHub",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-18T14:28:37.332Z",
+      "lastSuccessAt": "2026-10-19T14:11:35.118Z",
       "maxVersionCode": 10,
       "message": null,
       "repositoryId": 1353509468,
@@ -232,10 +232,10 @@
       "contentCommit": null,
       "fullName": "dasloy1996-droid/android_packages_apps_SamsungServiceMode",
       "health": "error",
-      "installation": "present",
+      "installation": "missing",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"cm-10.2\" (manifest-missing)",
+      "message": "installation-missing: the KernelSU Modules App is not installed on the repository; using the last synced data",
       "repositoryId": 1424453024,
       "request": null,
       "stable": null

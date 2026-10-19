@@ -1736,8 +1736,8 @@
         "versionCode": 2026101201
       },
       "stars": {
-        "count": 52,
-        "fetchedAt": "2026-10-18T13:32:38.193Z",
+        "count": 53,
+        "fetchedAt": "2026-10-19T14:11:35.118Z",
         "fullName": "Eikeitsu/QSC-Battery",
         "repositoryId": 1302628725,
         "verified": "self"
@@ -2176,28 +2176,28 @@
     "SvcHub": {
       "content": {
         "blobs": {
-          "README.md": "5698b56e6a17875f82947e3334893d1d7f098e94",
-          "docs/images/01-status.png": "b612c745a6dedf1282543d66cb1d919cab02aad5",
-          "docs/images/02-config.png": "e5fbf4567f8106eb8115d7a1b4d5a8477da3e63d",
-          "docs/images/03-settings.png": "5e1d3017807345976db5480358cab64b91cc3215",
-          "docs/images/04-start_stop.png": "7b8e171702095f08e55d83ae24de0cb9d5928c58",
-          "docs/images/05-log.png": "d291f0da54ea9ef886773abeff006d8e9192f170",
-          "docs/images/06-login.png": "440f2d05a96db8264ef04aefba8301699e91e6b7",
-          "docs/images/icon.png": "ec00fadea2faf1703b248a7496a6cf0fdd52e26d",
-          "module.yaml": "28abeb297656665219dc62640d096d7b97eb7ad6"
+          "README.md": "b2a65747ce4e2d186b92b1f6e34ed3836630872c",
+          "docs/public/images/01-status.png": "b612c745a6dedf1282543d66cb1d919cab02aad5",
+          "docs/public/images/02-config.png": "e5fbf4567f8106eb8115d7a1b4d5a8477da3e63d",
+          "docs/public/images/03-settings.png": "ff34f663f049830640e6f9119f55122420075d25",
+          "docs/public/images/04-start_stop.png": "7b8e171702095f08e55d83ae24de0cb9d5928c58",
+          "docs/public/images/05-log.png": "d291f0da54ea9ef886773abeff006d8e9192f170",
+          "docs/public/images/06-login.png": "440f2d05a96db8264ef04aefba8301699e91e6b7",
+          "docs/public/images/icon.png": "ec00fadea2faf1703b248a7496a6cf0fdd52e26d",
+          "module.yaml": "036cc3b6deed9ebae683b9184cfe918d6376aaed"
         },
-        "commit": "5e23270a02c574e0a22d64fd02faa67be5c0ca03",
-        "fetchedAt": "2026-10-14T11:17:10.343Z",
+        "commit": "e27f5937499a970554232031fd62db6da282845f",
+        "fetchedAt": "2026-10-19T14:11:35.118Z",
         "files": {
-          "README.md": "5d11619ee476c10acb78600e4c3b9c41cfddc23fd5b514c8162d2c539cd0b9fa",
-          "docs/images/01-status.png": "3c84288e590ce6fa7aae6b3157148255ea6eb9ea57393ace689bb3d3190ac7ec",
-          "docs/images/02-config.png": "b576031b33ba63d03143875f57be52d6fa4173c17d7dd7a33bf2d2d17eb8d612",
-          "docs/images/03-settings.png": "deb2606b32e89e25877081543bd81ecd79eaa90ff7002f03949b822993e8bc61",
-          "docs/images/04-start_stop.png": "b72ac713a90d7caf4b0d3583042850c7d62231d9e5ca19fdaa838deb0d3ea72b",
-          "docs/images/05-log.png": "a011cc5595767b9764099c43c4847182aab67f1cadbe80c93be752dee07421c9",
-          "docs/images/06-login.png": "89c36dd783f2dbbe533058974cd0924a6fce84711a73333d924cbbfd34fff5f5",
-          "docs/images/icon.png": "0a2dfed188db2b04fc76b76ed420aa7e7d747f5c28b628b737196f94594e481a",
-          "module.yaml": "c9a4bb0cd1a59edfe4bc69c340a762ee9483fdf76a75a9268dade5e21dc61f08"
+          "README.md": "1ecc71ab3240c71993222423cec5741b781849c8b5b53ddb652e5536a8aab8ff",
+          "docs/public/images/01-status.png": "3c84288e590ce6fa7aae6b3157148255ea6eb9ea57393ace689bb3d3190ac7ec",
+          "docs/public/images/02-config.png": "b576031b33ba63d03143875f57be52d6fa4173c17d7dd7a33bf2d2d17eb8d612",
+          "docs/public/images/03-settings.png": "f86764cce425410cb66d7a8316ec2937810ed457ac3975c81cb7a67af5e94269",
+          "docs/public/images/04-start_stop.png": "b72ac713a90d7caf4b0d3583042850c7d62231d9e5ca19fdaa838deb0d3ea72b",
+          "docs/public/images/05-log.png": "a011cc5595767b9764099c43c4847182aab67f1cadbe80c93be752dee07421c9",
+          "docs/public/images/06-login.png": "89c36dd783f2dbbe533058974cd0924a6fce84711a73333d924cbbfd34fff5f5",
+          "docs/public/images/icon.png": "0a2dfed188db2b04fc76b76ed420aa7e7d747f5c28b628b737196f94594e481a",
+          "module.yaml": "20c51eab6601e6ccc5ab800feb066aa6f765f70a9cd1b3eefca55720535568a9"
         },
         "manifestPath": "module.yaml",
         "ref": "master"
@@ -2205,8 +2205,8 @@
       "fullName": "LimpidMo/SvcHub",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-18T14:28:37.332Z",
-        "lastSuccessAt": "2026-10-18T14:28:37.332Z",
+        "lastAttemptAt": "2026-10-19T14:11:35.118Z",
+        "lastSuccessAt": "2026-10-19T14:11:35.118Z",
         "message": null,
         "status": "ok"
       },
@@ -2684,14 +2684,14 @@
       "content": null,
       "fullName": "dasloy1996-droid/android_packages_apps_SamsungServiceMode",
       "health": {
-        "installation": "present",
-        "lastAttemptAt": "2026-10-19T08:29:47.754Z",
+        "installation": "missing",
+        "lastAttemptAt": "2026-10-19T14:11:35.118Z",
         "lastSuccessAt": null,
-        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"cm-10.2\" (manifest-missing)",
+        "message": "installation-missing: the KernelSU Modules App is not installed on the repository; using the last synced data",
         "status": "error"
       },
       "id": "android_packages_apps_SamsungServiceMode",
-      "installationId": 172700530,
+      "installationId": null,
       "maxStableVersionCode": null,
       "maxVersionCode": null,
       "prerelease": null,
@@ -4122,8 +4122,8 @@
         "versionCode": 602003999
       },
       "stars": {
-        "count": 1736,
-        "fetchedAt": "2026-10-18T13:32:38.193Z",
+        "count": 1742,
+        "fetchedAt": "2026-10-19T14:11:35.118Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
