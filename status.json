@@ -397,7 +397,7 @@
       }
     },
     "lkm4ctr": {
-      "contentCommit": "5bb487be22a61dccaaf9e1b7c7ab9a80edfb5509",
+      "contentCommit": "d033555d2d7f9c302b45d787ebcbbe9faed434fc",
       "fullName": "cyanmint/lkm4ctr",
       "health": "ok",
       "installation": "present",
@@ -406,8 +406,8 @@
       "message": null,
       "repositoryId": 1313308146,
       "request": {
-        "checkedAt": "2026-10-18T13:32:38.193Z",
-        "commit": "5bb487be22a61dccaaf9e1b7c7ab9a80edfb5509",
+        "checkedAt": "2026-10-19T06:34:00.450Z",
+        "commit": "d033555d2d7f9c302b45d787ebcbbe9faed434fc",
         "issues": [],
         "latestTag": "4.0.5",
         "ok": true,
@@ -558,16 +558,16 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-17T14:23:28.718Z",
-      "maxVersionCode": 567,
+      "lastSuccessAt": "2026-10-19T06:34:00.450Z",
+      "maxVersionCode": 568,
       "message": null,
       "repositoryId": 1415623276,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-17T14:23:08Z",
-        "tag": "v567-ff78053",
-        "version": "v13.5.4.3 (567-ff78053-release)",
-        "versionCode": 567
+        "publishedAt": "2026-10-19T06:33:33Z",
+        "tag": "v568-d92eb95",
+        "version": "v13.5.4.3 (568-d92eb95-release)",
+        "versionCode": 568
       }
     },
     "zygisk_fusehide": {

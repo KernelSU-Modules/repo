@@ -5778,8 +5778,8 @@
         "versionCode": 10100
       },
       "stars": {
-        "count": 52,
-        "fetchedAt": "2026-10-16T18:04:21.476Z",
+        "count": 53,
+        "fetchedAt": "2026-10-19T06:34:00.450Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
@@ -5803,17 +5803,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-17T14:23:28.718Z",
-        "lastSuccessAt": "2026-10-17T14:23:28.718Z",
+        "lastAttemptAt": "2026-10-19T06:34:00.450Z",
+        "lastSuccessAt": "2026-10-19T06:34:00.450Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 567,
-      "maxVersionCode": 567,
+      "maxStableVersionCode": 568,
+      "maxVersionCode": 568,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:ad4746d41e9933fa3fb2a5235ed7348c0e28233e6cc64fa9436cd8dc2ff0d7a2",
+            "id": 655449638,
+            "name": "Sui-v13.5.4.3_568-d92eb95-release.zip",
+            "sha256": "ad4746d41e9933fa3fb2a5235ed7348c0e28233e6cc64fa9436cd8dc2ff0d7a2",
+            "size": 1438623,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v568-d92eb95/Sui-v13.5.4.3_568-d92eb95-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (568-d92eb95-release)`\n- **VersionCode:** `568`\n- **Commit:** [`d92eb95`](https://github.com/XiaoTong6666/Sui/commit/d92eb95aed8854368497fa713aa80d2974a4bc91)\n- **Build time:** `2m 39s`\n- **SHA256:** `ad4746d41e9933fa3fb2a5235ed7348c0e28233e6cc64fa9436cd8dc2ff0d7a2`\n\n## Message\n\n```text\nbuild(deps): bump material-color-utilities-android to 6.0.0\n\nUpgrade MaterialKolor color utilities from 5.0.1 to 6.0.0.\n\nUpdate the DynamicScheme import to its new dynamiccolor package for 6.0 compatibility.\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v568-d92eb95",
+          "immutable": true,
+          "name": "v13.5.4.3 (568-d92eb95-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (568-d92eb95-release)",
+            "versionCode": "568"
+          },
+          "publishedAt": "2026-10-19T06:33:33Z",
+          "releaseId": 416977906,
+          "tag": "v568-d92eb95",
+          "tagCommit": "5692b3d02fbc9a864babe190754d2914d2230644",
+          "version": "v13.5.4.3 (568-d92eb95-release)",
+          "versionCode": 568
+        },
         {
           "asset": {
             "digest": "sha256:75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42",
@@ -6028,21 +6058,25 @@
         "415845222": {
           "checkedAt": "2026-10-17T14:23:28.718Z",
           "ok": true
+        },
+        "416977906": {
+          "checkedAt": "2026-10-19T06:34:00.450Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42",
-          "id": 650668299,
-          "name": "Sui-v13.5.4.3_567-ff78053-release.zip",
-          "sha256": "75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42",
-          "size": 1435612,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v567-ff78053/Sui-v13.5.4.3_567-ff78053-release.zip"
+          "digest": "sha256:ad4746d41e9933fa3fb2a5235ed7348c0e28233e6cc64fa9436cd8dc2ff0d7a2",
+          "id": 655449638,
+          "name": "Sui-v13.5.4.3_568-d92eb95-release.zip",
+          "sha256": "ad4746d41e9933fa3fb2a5235ed7348c0e28233e6cc64fa9436cd8dc2ff0d7a2",
+          "size": 1438623,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v568-d92eb95/Sui-v13.5.4.3_568-d92eb95-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (567-ff78053-release)`\n- **VersionCode:** `567`\n- **Commit:** [`ff78053`](https://github.com/XiaoTong6666/Sui/commit/ff780530053b6a48a5cfd1c82d32a78b70bf3c91)\n- **Build time:** `1m 53s`\n- **SHA256:** `75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42`\n\n## Message\n\n```text\nfix(rish): read synchronous Binder replies\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v567-ff78053",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (568-d92eb95-release)`\n- **VersionCode:** `568`\n- **Commit:** [`d92eb95`](https://github.com/XiaoTong6666/Sui/commit/d92eb95aed8854368497fa713aa80d2974a4bc91)\n- **Build time:** `2m 39s`\n- **SHA256:** `ad4746d41e9933fa3fb2a5235ed7348c0e28233e6cc64fa9436cd8dc2ff0d7a2`\n\n## Message\n\n```text\nbuild(deps): bump material-color-utilities-android to 6.0.0\n\nUpgrade MaterialKolor color utilities from 5.0.1 to 6.0.0.\n\nUpdate the DynamicScheme import to its new dynamiccolor package for 6.0 compatibility.\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v568-d92eb95",
         "immutable": true,
-        "name": "v13.5.4.3 (567-ff78053-release)",
+        "name": "v13.5.4.3 (568-d92eb95-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -6050,15 +6084,15 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (567-ff78053-release)",
-          "versionCode": "567"
+          "version": "v13.5.4.3 (568-d92eb95-release)",
+          "versionCode": "568"
         },
-        "publishedAt": "2026-10-17T14:23:08Z",
-        "releaseId": 415845222,
-        "tag": "v567-ff78053",
-        "tagCommit": "d6052dd35923f1de18f4629a19eb3b49dde79044",
-        "version": "v13.5.4.3 (567-ff78053-release)",
-        "versionCode": 567
+        "publishedAt": "2026-10-19T06:33:33Z",
+        "releaseId": 416977906,
+        "tag": "v568-d92eb95",
+        "tagCommit": "5692b3d02fbc9a864babe190754d2914d2230644",
+        "version": "v13.5.4.3 (568-d92eb95-release)",
+        "versionCode": 568
       },
       "stars": {
         "count": 3,
@@ -6252,8 +6286,8 @@
         "versionCode": 190
       },
       "stars": {
-        "count": 8,
-        "fetchedAt": "2026-10-17T03:18:18.988Z",
+        "count": 9,
+        "fetchedAt": "2026-10-19T06:34:00.450Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
