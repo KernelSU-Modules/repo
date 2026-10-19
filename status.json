@@ -413,21 +413,17 @@
       "fullName": "cyanmint/lkm4ctr",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-19T08:39:05.030Z",
+      "maxVersionCode": 40005,
       "message": null,
       "repositoryId": 1313308146,
-      "request": {
-        "checkedAt": "2026-10-19T06:34:00.450Z",
-        "commit": "d033555d2d7f9c302b45d787ebcbbe9faed434fc",
-        "issues": [],
-        "latestTag": "4.0.5",
-        "ok": true,
-        "releaseId": 415938124,
-        "repositoryId": 1313308146,
-        "submissionId": "33800w98nr"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-17T16:50:14Z",
+        "tag": "4.0.5",
+        "version": "4.0.5",
+        "versionCode": 40005
+      }
     },
     "magic_mount_rs": {
       "contentCommit": "a5be315b8f3dccca2320abfd280d98b4fcf205da",

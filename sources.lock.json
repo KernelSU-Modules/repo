@@ -4258,6 +4258,135 @@
         "verified": "self"
       }
     },
+    "lkm4ctr": {
+      "content": {
+        "blobs": {
+          "README.md": "eda59deffe787d66e67f1cf936ce63ceb207b0ca",
+          "module.yaml": "0bc371262cf12e197fc2096dbf4efa0c253cc987"
+        },
+        "commit": "d033555d2d7f9c302b45d787ebcbbe9faed434fc",
+        "fetchedAt": "2026-10-19T08:39:05.030Z",
+        "files": {
+          "README.md": "9a80a25e338a009fb974bdb0c0185bc9641e8409a1d7281bfc60a101f6140a38",
+          "module.yaml": "571c1d4f3fe5e36651849cb5956d70f0a1c91f2a738bf1cd1f3347ef94787a6d"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "lkm4ctr"
+      },
+      "fullName": "cyanmint/lkm4ctr",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-19T08:39:05.030Z",
+        "lastSuccessAt": "2026-10-19T08:39:05.030Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "lkm4ctr",
+      "installationId": 172425538,
+      "maxStableVersionCode": 40005,
+      "maxVersionCode": 40005,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:7922a8a36522549f338c9c5dbfa5d2c063311e61cf55e6db4177a6e7e421f58e",
+            "id": 651013322,
+            "name": "lkm4ctr-kernelsu-module.zip",
+            "sha256": "7922a8a36522549f338c9c5dbfa5d2c063311e61cf55e6db4177a6e7e421f58e",
+            "size": 27300879,
+            "url": "https://github.com/cyanmint/lkm4ctr/releases/download/4.0.5/lkm4ctr-kernelsu-module.zip"
+          },
+          "body": "## 4.0.5 (4.0.4 → 4.0.5)\n\n### Highlights\n\n- Added a KernelSU module package containing the supported KMI builds and userspace checker. It detects the device KMI, enables boot auto-load by default, and provides an Action button and multilingual WebUI for module controls and checker output.\n- Added KernelSU Manager update metadata (`update.json`) and automated publication of versioned module assets, the checker, and the KernelSU ZIP. Release tags are checked against the module version; release creation accepts an HTTPS URL for release notes.\n- Hardened controlled unload and hot-reload around live namespace and IPC state. The module tracks vendored namespace proxies, namespace-filesystem inode pins, IPC objects, and deferred cleanup; unsafe teardown is refused until references and work drain. Diagnostic resource counters help identify remaining blockers.\n- Added procfs lookup fallbacks for `/proc/<pid>/ns/ipc` and `/proc/<pid>/ns/pid` when native namespace entries are unavailable, including an Android 17 / 6.18 path using that KMI's procfs PID accessor.\n\n### Compatibility and testing\n\n- The QEMU workflow exercises the checker before and after module load, namespace/procfs behavior, container workloads, and post-use module unload using pinned official Google GKI images across eight KMIs: `android12-5.10`, `android13-5.10`, `android13-5.15`, `android14-5.15`, `android14-6.1`, `android15-6.6`, `android16-6.12`, and `android17-6.18`.\n- KernelSU ZIP and release packaging require a complete supported-KMI build matrix.\n- `NET_NS` remains bookkeeping-only; use host networking (`--network=host`). The module must match the device's exact KMI. On Android data filesystems with casefold support, configure Docker to use `fuse-overlayfs` as described in the user guide.\n\n### Changes\n\n**fix:**\n- Improved namespace/IPC lifetime handling, task-exit cleanup, and Android 5.10 compatibility; fixed KernelSU install permissions and shell invocation of control scripts.\n\n**docs and licensing:**\n- Added consolidated `copying.txt` terms to the project and KernelSU package, with clarified attribution and provenance metadata.\n\n> This AI-generated release note is Public Domain.\n",
+          "htmlUrl": "https://github.com/cyanmint/lkm4ctr/releases/tag/4.0.5",
+          "immutable": true,
+          "name": "4.0.5",
+          "prerelease": false,
+          "prop": {
+            "author": "cyanmint",
+            "description": "Auto-load lkm4ctr.ko enables Docker and containers on all currently released arm64 Android GKI KMIs; no custom kernel flash.",
+            "id": "lkm4ctr",
+            "name": "lkm4ctr Kernel Module",
+            "updateJson": "https://github.com/cyanmint/lkm4ctr/releases/latest/download/update.json",
+            "version": "4.0.5",
+            "versionCode": "40005"
+          },
+          "publishedAt": "2026-10-17T16:50:14Z",
+          "releaseId": 415938124,
+          "tag": "4.0.5",
+          "tagCommit": "4c2ee72f54c5a4ee88cb0b6c6641eb4481858b27",
+          "version": "4.0.5",
+          "versionCode": 40005
+        }
+      ],
+      "repositoryId": 1313308146,
+      "seen": {
+        "360166742": {
+          "checkedAt": "2026-10-19T08:39:05.030Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "361503945": {
+          "checkedAt": "2026-10-19T08:39:05.030Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392438163": {
+          "checkedAt": "2026-10-19T08:39:05.030Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "413340886": {
+          "checkedAt": "2026-10-19T08:39:05.030Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "415938124": {
+          "checkedAt": "2026-10-19T08:39:05.030Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:7922a8a36522549f338c9c5dbfa5d2c063311e61cf55e6db4177a6e7e421f58e",
+          "id": 651013322,
+          "name": "lkm4ctr-kernelsu-module.zip",
+          "sha256": "7922a8a36522549f338c9c5dbfa5d2c063311e61cf55e6db4177a6e7e421f58e",
+          "size": 27300879,
+          "url": "https://github.com/cyanmint/lkm4ctr/releases/download/4.0.5/lkm4ctr-kernelsu-module.zip"
+        },
+        "body": "## 4.0.5 (4.0.4 → 4.0.5)\n\n### Highlights\n\n- Added a KernelSU module package containing the supported KMI builds and userspace checker. It detects the device KMI, enables boot auto-load by default, and provides an Action button and multilingual WebUI for module controls and checker output.\n- Added KernelSU Manager update metadata (`update.json`) and automated publication of versioned module assets, the checker, and the KernelSU ZIP. Release tags are checked against the module version; release creation accepts an HTTPS URL for release notes.\n- Hardened controlled unload and hot-reload around live namespace and IPC state. The module tracks vendored namespace proxies, namespace-filesystem inode pins, IPC objects, and deferred cleanup; unsafe teardown is refused until references and work drain. Diagnostic resource counters help identify remaining blockers.\n- Added procfs lookup fallbacks for `/proc/<pid>/ns/ipc` and `/proc/<pid>/ns/pid` when native namespace entries are unavailable, including an Android 17 / 6.18 path using that KMI's procfs PID accessor.\n\n### Compatibility and testing\n\n- The QEMU workflow exercises the checker before and after module load, namespace/procfs behavior, container workloads, and post-use module unload using pinned official Google GKI images across eight KMIs: `android12-5.10`, `android13-5.10`, `android13-5.15`, `android14-5.15`, `android14-6.1`, `android15-6.6`, `android16-6.12`, and `android17-6.18`.\n- KernelSU ZIP and release packaging require a complete supported-KMI build matrix.\n- `NET_NS` remains bookkeeping-only; use host networking (`--network=host`). The module must match the device's exact KMI. On Android data filesystems with casefold support, configure Docker to use `fuse-overlayfs` as described in the user guide.\n\n### Changes\n\n**fix:**\n- Improved namespace/IPC lifetime handling, task-exit cleanup, and Android 5.10 compatibility; fixed KernelSU install permissions and shell invocation of control scripts.\n\n**docs and licensing:**\n- Added consolidated `copying.txt` terms to the project and KernelSU package, with clarified attribution and provenance metadata.\n\n> This AI-generated release note is Public Domain.\n",
+        "htmlUrl": "https://github.com/cyanmint/lkm4ctr/releases/tag/4.0.5",
+        "immutable": true,
+        "name": "4.0.5",
+        "prerelease": false,
+        "prop": {
+          "author": "cyanmint",
+          "description": "Auto-load lkm4ctr.ko enables Docker and containers on all currently released arm64 Android GKI KMIs; no custom kernel flash.",
+          "id": "lkm4ctr",
+          "name": "lkm4ctr Kernel Module",
+          "updateJson": "https://github.com/cyanmint/lkm4ctr/releases/latest/download/update.json",
+          "version": "4.0.5",
+          "versionCode": "40005"
+        },
+        "publishedAt": "2026-10-17T16:50:14Z",
+        "releaseId": 415938124,
+        "tag": "4.0.5",
+        "tagCommit": "4c2ee72f54c5a4ee88cb0b6c6641eb4481858b27",
+        "version": "4.0.5",
+        "versionCode": 40005
+      },
+      "stars": {
+        "count": 12,
+        "fetchedAt": "2026-10-19T08:39:05.030Z",
+        "fullName": "cyanmint/lkm4ctr",
+        "repositoryId": 1313308146,
+        "verified": "self"
+      }
+    },
     "magic_mount_rs": {
       "content": {
         "blobs": {
