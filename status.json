@@ -505,12 +505,12 @@
       "message": null,
       "repositoryId": 1425338410,
       "request": {
-        "checkedAt": "2026-10-19T19:07:43.527Z",
+        "checkedAt": "2026-10-19T19:09:56.965Z",
         "commit": "35ef36b383dd389182cc9321f60e7b34e1e2480b",
         "issues": [],
-        "latestTag": "v1.34",
+        "latestTag": "v1.35",
         "ok": true,
-        "releaseId": 417073191,
+        "releaseId": 417646228,
         "repositoryId": 1425338410,
         "submissionId": "f8l84bsyot"
       },
