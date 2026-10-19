@@ -244,35 +244,15 @@
       }
     },
     "android_packages_apps_SamsungServiceMode": {
-      "contentCommit": "56dca5e072500cd33e9112a1e23c81bf922e59dc",
+      "contentCommit": null,
       "fullName": "dasloy1996-droid/android_packages_apps_SamsungServiceMode",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at 56dca5e.",
+      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"cm-10.2\" (manifest-missing)",
       "repositoryId": 1424453024,
-      "request": {
-        "checkedAt": "2026-10-19T07:33:29.593Z",
-        "commit": "56dca5e072500cd33e9112a1e23c81bf922e59dc",
-        "issues": [
-          {
-            "code": "manifest-missing",
-            "message": "module.yaml does not exist at 56dca5e.",
-            "severity": "error"
-          },
-          {
-            "code": "release-none",
-            "message": "The repository has no published release yet.",
-            "severity": "error"
-          }
-        ],
-        "latestTag": null,
-        "ok": false,
-        "releaseId": null,
-        "repositoryId": 1424453024,
-        "submissionId": "18dkfq87i8"
-      },
+      "request": null,
       "stable": null
     },
     "apex_apps": {

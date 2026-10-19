@@ -2653,6 +2653,33 @@
         "verified": "self"
       }
     },
+    "android_packages_apps_SamsungServiceMode": {
+      "content": null,
+      "fullName": "dasloy1996-droid/android_packages_apps_SamsungServiceMode",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-19T08:29:47.754Z",
+        "lastSuccessAt": null,
+        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"cm-10.2\" (manifest-missing)",
+        "status": "error"
+      },
+      "id": "android_packages_apps_SamsungServiceMode",
+      "installationId": 172700530,
+      "maxStableVersionCode": null,
+      "maxVersionCode": null,
+      "prerelease": null,
+      "releases": [],
+      "repositoryId": 1424453024,
+      "seen": {},
+      "stable": null,
+      "stars": {
+        "count": 1,
+        "fetchedAt": "2026-10-19T08:29:47.754Z",
+        "fullName": "dasloy1996-droid/android_packages_apps_SamsungServiceMode",
+        "repositoryId": 1424453024,
+        "verified": "self"
+      }
+    },
     "apex_apps": {
       "content": {
         "blobs": {
