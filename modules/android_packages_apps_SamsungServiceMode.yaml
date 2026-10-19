@@ -1,5 +1,5 @@
 id: android_packages_apps_SamsungServiceMode
-status: listed
+status: suspended
 source:
   host: github
   repositoryId: 1424453024
@@ -19,5 +19,11 @@ review:
   telegram:
     chatId: -1001860367685
     messageId: 64424
+moderation:
+  action: suspend
+  by: 30978685
+  via: portal
+  at: 2026-10-19T08:37:50.940Z
+  reason: spam
 createdAt: 2026-10-19T07:33:04.976Z
-updatedAt: 2026-10-19T08:29:17.495Z
+updatedAt: 2026-10-19T08:37:50.940Z
