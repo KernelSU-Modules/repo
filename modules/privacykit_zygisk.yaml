@@ -1,0 +1,19 @@
+id: privacykit_zygisk
+status: pending
+request:
+  submissionId: f8l84bsyot
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1425338410
+    ownerId: 17986082
+    fullName: Mohithash/privacykit-zygisk
+    manifestPath: module.yaml
+  submittedBy: 17986082
+  submittedByLogin: Mohithash
+  submittedAt: 2026-10-19T19:07:16.079Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64513
+createdAt: 2026-10-19T19:07:16.079Z
+updatedAt: 2026-10-19T19:07:16.079Z
