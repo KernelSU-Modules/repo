@@ -2402,6 +2402,33 @@
         "verified": "self"
       }
     },
+    "VexZygisk": {
+      "content": null,
+      "fullName": "Lxiaoyao077/VexZygisk",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-19T08:40:02.518Z",
+        "lastSuccessAt": null,
+        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing); releases-pending: releases are checked once module.yaml is valid",
+        "status": "error"
+      },
+      "id": "VexZygisk",
+      "installationId": 170584941,
+      "maxStableVersionCode": null,
+      "maxVersionCode": null,
+      "prerelease": null,
+      "releases": [],
+      "repositoryId": 1305247883,
+      "seen": {},
+      "stable": null,
+      "stars": {
+        "count": 81,
+        "fetchedAt": "2026-10-19T08:40:02.518Z",
+        "fullName": "Lxiaoyao077/VexZygisk",
+        "repositoryId": 1305247883,
+        "verified": "self"
+      }
+    },
     "aegis_firewall": {
       "content": {
         "blobs": {

@@ -183,30 +183,15 @@
       }
     },
     "VexZygisk": {
-      "contentCommit": "ec199ecaa495bf9216a0722e9e4edc820fd76fcb",
+      "contentCommit": null,
       "fullName": "Lxiaoyao077/VexZygisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-missing: module.yaml does not exist at ec199ec.",
+      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing); releases-pending: releases are checked once module.yaml is valid",
       "repositoryId": 1305247883,
-      "request": {
-        "checkedAt": "2026-10-17T11:27:25.605Z",
-        "commit": "ec199ecaa495bf9216a0722e9e4edc820fd76fcb",
-        "issues": [
-          {
-            "code": "manifest-missing",
-            "message": "module.yaml does not exist at ec199ec.",
-            "severity": "error"
-          }
-        ],
-        "latestTag": "v2.2.0",
-        "ok": false,
-        "releaseId": 398076781,
-        "repositoryId": 1305247883,
-        "submissionId": "5wlmy63ttv"
-      },
+      "request": null,
       "stable": null
     },
     "aegis_firewall": {
