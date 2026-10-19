@@ -495,6 +495,27 @@
         "versionCode": 490
       }
     },
+    "privacykit_zygisk": {
+      "contentCommit": "35ef36b383dd389182cc9321f60e7b34e1e2480b",
+      "fullName": "Mohithash/privacykit-zygisk",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1425338410,
+      "request": {
+        "checkedAt": "2026-10-19T19:07:43.527Z",
+        "commit": "35ef36b383dd389182cc9321f60e7b34e1e2480b",
+        "issues": [],
+        "latestTag": "v1.34",
+        "ok": true,
+        "releaseId": 417073191,
+        "repositoryId": 1425338410,
+        "submissionId": "f8l84bsyot"
+      },
+      "stable": null
+    },
     "susfs4ksu_lkm": {
       "contentCommit": "de3465b78c67173c70096afadb350b8765795ef4",
       "fullName": "Nixie24/susdock",
