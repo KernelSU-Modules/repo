@@ -1,19 +1,23 @@
 id: VexZygisk
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1305247883
+  ownerId: 275498321
+  fullName: Lxiaoyao077/VexZygisk
+  manifestPath: module.yaml
+review:
   submissionId: 5wlmy63ttv
   kind: submit
-  source:
-    host: github
-    repositoryId: 1305247883
-    ownerId: 275498321
-    fullName: Lxiaoyao077/VexZygisk
-    manifestPath: module.yaml
   submittedBy: 275498321
-  submittedByLogin: Lxiaoyao077
   submittedAt: 2026-10-12T11:47:28.487Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-10-19T08:39:06.224Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64324
 createdAt: 2026-10-12T11:47:28.487Z
-updatedAt: 2026-10-12T11:47:28.487Z
+updatedAt: 2026-10-19T08:39:06.224Z
