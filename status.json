@@ -153,16 +153,16 @@
       "fullName": "xiaoji0308/Steps",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-18T05:40:08.212Z",
-      "maxVersionCode": 20261019,
+      "lastSuccessAt": "2026-10-20T02:50:31.213Z",
+      "maxVersionCode": 20261020,
       "message": null,
       "repositoryId": 1423140380,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-18T05:39:47Z",
-        "tag": "1018.3",
-        "version": "1018.3",
-        "versionCode": 20261019
+        "publishedAt": "2026-10-20T02:50:34Z",
+        "tag": "1020",
+        "version": "1020",
+        "versionCode": 20261020
       }
     },
     "SvcHub": {

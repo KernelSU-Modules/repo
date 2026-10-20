@@ -769,8 +769,8 @@
         "versionCode": 20260821
       },
       "stars": {
-        "count": 299,
-        "fetchedAt": "2026-10-19T02:20:45.487Z",
+        "count": 300,
+        "fetchedAt": "2026-10-20T02:50:31.213Z",
         "fullName": "Seyud/FreePPS",
         "repositoryId": 1063205512,
         "requested": "Seyud/FreePPS",
@@ -1339,8 +1339,8 @@
         "versionCode": 10602
       },
       "stars": {
-        "count": 192,
-        "fetchedAt": "2026-10-19T01:27:21.391Z",
+        "count": 193,
+        "fetchedAt": "2026-10-20T02:50:31.213Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -2042,17 +2042,47 @@
       "fullName": "xiaoji0308/Steps",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-18T05:40:08.212Z",
-        "lastSuccessAt": "2026-10-18T05:40:08.212Z",
+        "lastAttemptAt": "2026-10-20T02:50:31.213Z",
+        "lastSuccessAt": "2026-10-20T02:50:31.213Z",
         "message": null,
         "status": "ok"
       },
       "id": "S-T-E-P-S",
       "installationId": 172438629,
-      "maxStableVersionCode": 20261019,
-      "maxVersionCode": 20261019,
+      "maxStableVersionCode": 20261020,
+      "maxVersionCode": 20261020,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:61ada01522660cfe27f829eaa937435baff9a9ab5f61d5d060a8ff1f51e6e221",
+            "id": 658083005,
+            "name": "26.1020.zip",
+            "sha256": "61ada01522660cfe27f829eaa937435baff9a9ab5f61d5d060a8ff1f51e6e221",
+            "size": 33467,
+            "url": "https://github.com/xiaoji0308/Steps/releases/download/1020/26.1020.zip"
+          },
+          "body": "去附加模块，修复一些问题\r\n",
+          "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1020",
+          "immutable": true,
+          "name": "智能步数管理26.1020",
+          "prerelease": false,
+          "prop": {
+            "author": "浠浠浠   原作者：阿巴酱丨小青泽",
+            "description": "自动增加步数",
+            "id": "S-T-E-P-S",
+            "name": "A-智能步数管理［HyperOS］",
+            "version": "1020",
+            "versionCode": "20261020",
+            "webuiIcon": "webroot/icon.svg"
+          },
+          "publishedAt": "2026-10-20T02:50:34Z",
+          "releaseId": 417950263,
+          "tag": "1020",
+          "tagCommit": "fc027f088f2412b14e47b38baae7008b63bf0583",
+          "version": "1020",
+          "versionCode": 20261020
+        },
         {
           "asset": {
             "digest": "sha256:2f7a86113ae71d37805d514ea6d2bb6f2e30f79d93f6c27e25a00157afdaa843",
@@ -2133,37 +2163,41 @@
         "416258460": {
           "checkedAt": "2026-10-18T05:40:08.212Z",
           "ok": true
+        },
+        "417950263": {
+          "checkedAt": "2026-10-20T02:50:31.213Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:2f7a86113ae71d37805d514ea6d2bb6f2e30f79d93f6c27e25a00157afdaa843",
-          "id": 652593687,
-          "name": "26.1018v3.zip",
-          "sha256": "2f7a86113ae71d37805d514ea6d2bb6f2e30f79d93f6c27e25a00157afdaa843",
-          "size": 32993,
-          "url": "https://github.com/xiaoji0308/Steps/releases/download/1018.3/26.1018v3.zip"
+          "digest": "sha256:61ada01522660cfe27f829eaa937435baff9a9ab5f61d5d060a8ff1f51e6e221",
+          "id": 658083005,
+          "name": "26.1020.zip",
+          "sha256": "61ada01522660cfe27f829eaa937435baff9a9ab5f61d5d060a8ff1f51e6e221",
+          "size": 33467,
+          "url": "https://github.com/xiaoji0308/Steps/releases/download/1020/26.1020.zip"
         },
-        "body": "优化检查更新",
-        "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1018.3",
+        "body": "去附加模块，修复一些问题\r\n",
+        "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1020",
         "immutable": true,
-        "name": "智能步数管理26.1018v3",
+        "name": "智能步数管理26.1020",
         "prerelease": false,
         "prop": {
           "author": "浠浠浠   原作者：阿巴酱丨小青泽",
           "description": "自动增加步数",
           "id": "S-T-E-P-S",
           "name": "A-智能步数管理［HyperOS］",
-          "version": "1018.3",
-          "versionCode": "20261019",
+          "version": "1020",
+          "versionCode": "20261020",
           "webuiIcon": "webroot/icon.svg"
         },
-        "publishedAt": "2026-10-18T05:39:47Z",
-        "releaseId": 416258460,
-        "tag": "1018.3",
-        "tagCommit": "068cee56cb312104d0eb9b27ed679e70b114c426",
-        "version": "1018.3",
-        "versionCode": 20261019
+        "publishedAt": "2026-10-20T02:50:34Z",
+        "releaseId": 417950263,
+        "tag": "1020",
+        "tagCommit": "fc027f088f2412b14e47b38baae7008b63bf0583",
+        "version": "1020",
+        "versionCode": 20261020
       },
       "stars": {
         "count": 1,
@@ -2395,8 +2429,8 @@
         "versionCode": 10
       },
       "stars": {
-        "count": 16,
-        "fetchedAt": "2026-10-18T13:32:38.193Z",
+        "count": 17,
+        "fetchedAt": "2026-10-20T02:50:31.213Z",
         "fullName": "LimpidMo/SvcHub",
         "repositoryId": 1353509468,
         "verified": "self"
@@ -2912,8 +2946,8 @@
         "versionCode": 7
       },
       "stars": {
-        "count": 2,
-        "fetchedAt": "2026-10-16T14:50:16.641Z",
+        "count": 3,
+        "fetchedAt": "2026-10-20T02:50:31.213Z",
         "fullName": "klmmlk/KernelSU-ClipShield",
         "repositoryId": 1417109515,
         "verified": "self"
@@ -5288,8 +5322,8 @@
         "versionCode": 155
       },
       "stars": {
-        "count": 494,
-        "fetchedAt": "2026-10-19T01:27:21.391Z",
+        "count": 508,
+        "fetchedAt": "2026-10-20T02:50:31.213Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
@@ -7216,8 +7250,8 @@
         "versionCode": 864
       },
       "stars": {
-        "count": 925,
-        "fetchedAt": "2026-10-19T02:21:34.761Z",
+        "count": 929,
+        "fetchedAt": "2026-10-20T02:50:31.213Z",
         "fullName": "LSPosed/ZygiskNext",
         "repositoryId": 1377039457,
         "verified": "self"
