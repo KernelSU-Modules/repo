@@ -279,21 +279,17 @@
       "fullName": "Buger2008/CloudDrive2-FuseFix",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-20T08:39:41.800Z",
+      "maxVersionCode": 2,
       "message": null,
       "repositoryId": 1426655514,
-      "request": {
-        "checkedAt": "2026-10-20T07:39:05.918Z",
-        "commit": "08b821729a1469c49e34643c61be11cec5541f57",
-        "issues": [],
-        "latestTag": "v1.1",
-        "ok": true,
-        "releaseId": 418113478,
-        "repositoryId": 1426655514,
-        "submissionId": "tzq5zpb5vn"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-20T07:29:28Z",
+        "tag": "v1.1",
+        "version": "V1.1",
+        "versionCode": 2
+      }
     },
     "device_faker": {
       "contentCommit": "164ae0b7c38f5241e28b4c5f1ee43c7a66da5e8a",

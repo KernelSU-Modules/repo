@@ -662,8 +662,8 @@
         "versionCode": 50107
       },
       "stars": {
-        "count": 35,
-        "fetchedAt": "2026-10-18T13:33:41.564Z",
+        "count": 36,
+        "fetchedAt": "2026-10-20T08:39:41.800Z",
         "fullName": "Eikeitsu/CertBridge",
         "repositoryId": 1306329220,
         "verified": "self"
@@ -2200,8 +2200,8 @@
         "versionCode": 20261020
       },
       "stars": {
-        "count": 1,
-        "fetchedAt": "2026-10-17T22:57:03.501Z",
+        "count": 2,
+        "fetchedAt": "2026-10-20T08:39:41.800Z",
         "fullName": "xiaoji0308/Steps",
         "repositoryId": 1423140380,
         "verified": "self"
@@ -2950,6 +2950,109 @@
         "fetchedAt": "2026-10-20T02:50:31.213Z",
         "fullName": "klmmlk/KernelSU-ClipShield",
         "repositoryId": 1417109515,
+        "verified": "self"
+      }
+    },
+    "clouddrive2_fuse_fix": {
+      "content": {
+        "blobs": {
+          "README.md": "39123c35e896d2c6446a852419c685a7146ff72c",
+          "module.yaml": "8e62aa38cb4d35f5afecae0f6d8d56b61c8ba80f"
+        },
+        "commit": "08b821729a1469c49e34643c61be11cec5541f57",
+        "fetchedAt": "2026-10-20T08:39:41.800Z",
+        "files": {
+          "README.md": "83f05fd0d36d1894812bc274aa7f3bce3f431848c746dd4d6efdb19e89e2edbd",
+          "module.yaml": "736d91401e0fb41fa40417cee9f83ffacdc31c3b2a42b07eeaa25f5f18ca0563"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "Buger2008/CloudDrive2-FuseFix",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-20T08:39:41.800Z",
+        "lastSuccessAt": "2026-10-20T08:39:41.800Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "clouddrive2_fuse_fix",
+      "installationId": 173302898,
+      "maxStableVersionCode": 2,
+      "maxVersionCode": 2,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:8afce56dd7334c26a83bd4e238cb398bd383f6b135e73a8c85772cbb3aa5c598",
+            "id": 658599083,
+            "name": "clouddrive2_fuse_fix-2-V1.1.zip",
+            "sha256": "8afce56dd7334c26a83bd4e238cb398bd383f6b135e73a8c85772cbb3aa5c598",
+            "size": 1750,
+            "url": "https://github.com/Buger2008/CloudDrive2-FuseFix/releases/download/v1.1/clouddrive2_fuse_fix-2-V1.1.zip"
+          },
+          "body": "首个公开发行版本。\n\n- 放行 `allow untrusted_app fuse_device chr_file { read write }`，修复 CloudDrive2 挂载网盘报 `IO Permission denied error 13`\n- 保持 SELinux 强制模式（Enforcing），不使用 `setenforce 0`，不影响银行类检测 App\n- `post-fs-data.sh` 用 `ksud sepolicy apply` 兜底重放规则并记录策略 md5\n- `service.sh` 输出 SELinux / 策略 / 挂载状态到 `/data/adb/clouddrive2_fusepatch.log`",
+          "htmlUrl": "https://github.com/Buger2008/CloudDrive2-FuseFix/releases/tag/v1.1",
+          "immutable": true,
+          "name": "v1.1",
+          "prerelease": false,
+          "prop": {
+            "author": "Buger",
+            "description": "SELinux 默认禁止 untrusted_app 读写 /dev/fuse，导致 CloudDrive2 挂载报 IO Permission denied(error 13)。本模块放行 allow untrusted_app fuse_device chr_file { read write }，保持 SELinux 强制模式，不影响银行类检测 App。",
+            "id": "clouddrive2_fuse_fix",
+            "name": "CloudDrive2 FUSE 挂载修复",
+            "version": "V1.1",
+            "versionCode": "2"
+          },
+          "publishedAt": "2026-10-20T07:29:28Z",
+          "releaseId": 418113478,
+          "tag": "v1.1",
+          "tagCommit": "08b821729a1469c49e34643c61be11cec5541f57",
+          "version": "V1.1",
+          "versionCode": 2
+        }
+      ],
+      "repositoryId": 1426655514,
+      "seen": {
+        "418113478": {
+          "checkedAt": "2026-10-20T08:39:41.800Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:8afce56dd7334c26a83bd4e238cb398bd383f6b135e73a8c85772cbb3aa5c598",
+          "id": 658599083,
+          "name": "clouddrive2_fuse_fix-2-V1.1.zip",
+          "sha256": "8afce56dd7334c26a83bd4e238cb398bd383f6b135e73a8c85772cbb3aa5c598",
+          "size": 1750,
+          "url": "https://github.com/Buger2008/CloudDrive2-FuseFix/releases/download/v1.1/clouddrive2_fuse_fix-2-V1.1.zip"
+        },
+        "body": "首个公开发行版本。\n\n- 放行 `allow untrusted_app fuse_device chr_file { read write }`，修复 CloudDrive2 挂载网盘报 `IO Permission denied error 13`\n- 保持 SELinux 强制模式（Enforcing），不使用 `setenforce 0`，不影响银行类检测 App\n- `post-fs-data.sh` 用 `ksud sepolicy apply` 兜底重放规则并记录策略 md5\n- `service.sh` 输出 SELinux / 策略 / 挂载状态到 `/data/adb/clouddrive2_fusepatch.log`",
+        "htmlUrl": "https://github.com/Buger2008/CloudDrive2-FuseFix/releases/tag/v1.1",
+        "immutable": true,
+        "name": "v1.1",
+        "prerelease": false,
+        "prop": {
+          "author": "Buger",
+          "description": "SELinux 默认禁止 untrusted_app 读写 /dev/fuse，导致 CloudDrive2 挂载报 IO Permission denied(error 13)。本模块放行 allow untrusted_app fuse_device chr_file { read write }，保持 SELinux 强制模式，不影响银行类检测 App。",
+          "id": "clouddrive2_fuse_fix",
+          "name": "CloudDrive2 FUSE 挂载修复",
+          "version": "V1.1",
+          "versionCode": "2"
+        },
+        "publishedAt": "2026-10-20T07:29:28Z",
+        "releaseId": 418113478,
+        "tag": "v1.1",
+        "tagCommit": "08b821729a1469c49e34643c61be11cec5541f57",
+        "version": "V1.1",
+        "versionCode": 2
+      },
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-10-20T08:39:41.800Z",
+        "fullName": "Buger2008/CloudDrive2-FuseFix",
+        "repositoryId": 1426655514,
         "verified": "self"
       }
     },
