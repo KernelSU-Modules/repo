@@ -1,19 +1,23 @@
 id: clouddrive2_fuse_fix
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1426655514
+  ownerId: 109896442
+  fullName: Buger2008/CloudDrive2-FuseFix
+  manifestPath: module.yaml
+review:
   submissionId: tzq5zpb5vn
   kind: submit
-  source:
-    host: github
-    repositoryId: 1426655514
-    ownerId: 109896442
-    fullName: Buger2008/CloudDrive2-FuseFix
-    manifestPath: module.yaml
   submittedBy: 109896442
-  submittedByLogin: Buger2008
   submittedAt: 2026-10-20T07:38:34.864Z
+  decision: approved
+  decidedBy: 5022927
+  decidedVia: telegram
+  decidedAt: 2026-10-20T08:39:15.684Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64525
 createdAt: 2026-10-20T07:38:34.864Z
-updatedAt: 2026-10-20T07:38:34.864Z
+updatedAt: 2026-10-20T08:39:15.684Z
