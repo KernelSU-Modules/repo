@@ -533,6 +533,27 @@
       },
       "stable": null
     },
+    "sidewire": {
+      "contentCommit": "3e90036f70c9859ea1c656efe8c29791e4c90039",
+      "fullName": "mzggr0914/sidewire",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1354975640,
+      "request": {
+        "checkedAt": "2026-10-21T16:30:18.093Z",
+        "commit": "3e90036f70c9859ea1c656efe8c29791e4c90039",
+        "issues": [],
+        "latestTag": "v1.0.3",
+        "ok": true,
+        "releaseId": 419791043,
+        "repositoryId": 1354975640,
+        "submissionId": "fgqtbf2d1g"
+      },
+      "stable": null
+    },
     "susfs4ksu_lkm": {
       "contentCommit": "de3465b78c67173c70096afadb350b8765795ef4",
       "fullName": "Nixie24/susdock",
