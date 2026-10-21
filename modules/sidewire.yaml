@@ -1,0 +1,19 @@
+id: sidewire
+status: pending
+request:
+  submissionId: fgqtbf2d1g
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1354975640
+    ownerId: 80996357
+    fullName: mzggr0914/sidewire
+    manifestPath: module.yaml
+  submittedBy: 80996357
+  submittedByLogin: mzggr0914
+  submittedAt: 2026-10-21T16:29:49.912Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64565
+createdAt: 2026-10-21T16:29:49.912Z
+updatedAt: 2026-10-21T16:29:49.912Z
