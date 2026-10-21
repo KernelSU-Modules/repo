@@ -136,16 +136,16 @@
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-16T15:31:02.992Z",
-      "maxVersionCode": 20,
+      "lastSuccessAt": "2026-10-21T10:45:40.727Z",
+      "maxVersionCode": 21,
       "message": null,
       "repositoryId": 1352101411,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-16T11:13:43Z",
-        "tag": "v26.10.16",
-        "version": "v26.10.16",
-        "versionCode": 20
+        "publishedAt": "2026-10-21T10:45:08Z",
+        "tag": "v26.10.21",
+        "version": "v26.10.21",
+        "versionCode": 21
       }
     },
     "S-T-E-P-S": {
@@ -166,20 +166,20 @@
       }
     },
     "SvcHub": {
-      "contentCommit": "e27f5937499a970554232031fd62db6da282845f",
+      "contentCommit": "7de7a1fbf244db4cc5497ffd862344371c63163c",
       "fullName": "LimpidMo/SvcHub",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-19T14:11:35.118Z",
-      "maxVersionCode": 10,
+      "lastSuccessAt": "2026-10-21T10:45:40.727Z",
+      "maxVersionCode": 11,
       "message": null,
       "repositoryId": 1353509468,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-18T14:28:15Z",
-        "tag": "v1.4.0",
-        "version": "1.4.0",
-        "versionCode": 10
+        "publishedAt": "2026-10-21T10:45:47Z",
+        "tag": "v1.4.1",
+        "version": "1.4.1",
+        "versionCode": 11
       }
     },
     "VexZygisk": {
