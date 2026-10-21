@@ -2244,7 +2244,7 @@
     "SvcHub": {
       "content": {
         "blobs": {
-          "README.md": "fbc5ec41853ad3b646d8e527ff9b80bbc7d51b9a",
+          "README.md": "0bd4839be472497867f4faa5166d441d14a07ba9",
           "docs/public/images/01-status.png": "b612c745a6dedf1282543d66cb1d919cab02aad5",
           "docs/public/images/02-config.png": "e5fbf4567f8106eb8115d7a1b4d5a8477da3e63d",
           "docs/public/images/03-settings.png": "ff34f663f049830640e6f9119f55122420075d25",
@@ -2254,10 +2254,10 @@
           "docs/public/images/icon.png": "ec00fadea2faf1703b248a7496a6cf0fdd52e26d",
           "module.yaml": "036cc3b6deed9ebae683b9184cfe918d6376aaed"
         },
-        "commit": "7de7a1fbf244db4cc5497ffd862344371c63163c",
-        "fetchedAt": "2026-10-21T10:45:40.727Z",
+        "commit": "09239641b1d0d93388e733534426706a35ff758d",
+        "fetchedAt": "2026-10-21T11:00:06.604Z",
         "files": {
-          "README.md": "a0eaceb6abec324a6c96f52454d64ef1fd6784239997fbfb39aa91679a654695",
+          "README.md": "f6d1a1b052c9e64443ceb2016d459ad1442a2f6026571ea023206465bcf6ac8f",
           "docs/public/images/01-status.png": "3c84288e590ce6fa7aae6b3157148255ea6eb9ea57393ace689bb3d3190ac7ec",
           "docs/public/images/02-config.png": "b576031b33ba63d03143875f57be52d6fa4173c17d7dd7a33bf2d2d17eb8d612",
           "docs/public/images/03-settings.png": "f86764cce425410cb66d7a8316ec2937810ed457ac3975c81cb7a67af5e94269",
@@ -2273,8 +2273,8 @@
       "fullName": "LimpidMo/SvcHub",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-21T10:45:40.727Z",
-        "lastSuccessAt": "2026-10-21T10:45:40.727Z",
+        "lastAttemptAt": "2026-10-21T11:00:06.604Z",
+        "lastSuccessAt": "2026-10-21T11:00:06.604Z",
         "message": null,
         "status": "ok"
       },
