@@ -538,21 +538,17 @@
       "fullName": "mzggr0914/sidewire",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-21T23:23:43.405Z",
+      "maxVersionCode": 30,
       "message": null,
       "repositoryId": 1354975640,
-      "request": {
-        "checkedAt": "2026-10-21T16:30:18.093Z",
-        "commit": "3e90036f70c9859ea1c656efe8c29791e4c90039",
-        "issues": [],
-        "latestTag": "v1.0.3",
-        "ok": true,
-        "releaseId": 419791043,
-        "repositoryId": 1354975640,
-        "submissionId": "fgqtbf2d1g"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-21T16:28:16Z",
+        "tag": "v1.0.3",
+        "version": "1.0.3",
+        "versionCode": 30
+      }
     },
     "susfs4ksu_lkm": {
       "contentCommit": "de3465b78c67173c70096afadb350b8765795ef4",

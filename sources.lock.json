@@ -5172,8 +5172,8 @@
         "versionCode": 10408
       },
       "stars": {
-        "count": 2,
-        "fetchedAt": "2026-10-14T04:18:13.208Z",
+        "count": 1,
+        "fetchedAt": "2026-10-21T23:23:43.405Z",
         "fullName": "ahsaboy/magisk-netbird",
         "repositoryId": 1274372941,
         "verified": "self"
@@ -5745,6 +5745,145 @@
         "fetchedAt": "2026-10-21T02:10:31.941Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
+        "verified": "self"
+      }
+    },
+    "sidewire": {
+      "content": {
+        "blobs": {
+          "README.md": "e9a026d9544a1884c63850460e070736c7b5b10f",
+          "module.yaml": "21f029a117718a5d47065fbb392239c47ac5c3ce"
+        },
+        "commit": "3e90036f70c9859ea1c656efe8c29791e4c90039",
+        "fetchedAt": "2026-10-21T23:23:43.405Z",
+        "files": {
+          "README.md": "f0dd8560ca752f60150443fbc0b128d9e5de0a2a0f02d0ef927592e76041fbab",
+          "module.yaml": "f237eec8538f09d9ffd4d3f8aac6680edeb9e2fef773127210ecc185f2957ed8"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "master"
+      },
+      "fullName": "mzggr0914/sidewire",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-21T23:23:43.405Z",
+        "lastSuccessAt": "2026-10-21T23:23:43.405Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "sidewire",
+      "installationId": 173815563,
+      "maxStableVersionCode": 30,
+      "maxVersionCode": 30,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:947814b1220788e29332e61174217d4e6b6e660945c43215010196c698d13596",
+            "id": 663113606,
+            "name": "SideWire-KernelSU-v1.0.3-arm64.zip",
+            "sha256": "947814b1220788e29332e61174217d4e6b6e660945c43215010196c698d13596",
+            "size": 1244849,
+            "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.3/SideWire-KernelSU-v1.0.3-arm64.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.2...v1.0.3",
+          "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.3",
+          "immutable": true,
+          "name": "SideWire v1.0.3",
+          "prerelease": false,
+          "prop": {
+            "author": "SideWire contributors",
+            "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
+            "id": "sidewire",
+            "name": "SideWire",
+            "version": "1.0.3",
+            "versionCode": "30"
+          },
+          "publishedAt": "2026-10-21T16:28:16Z",
+          "releaseId": 419791043,
+          "tag": "v1.0.3",
+          "tagCommit": "3e90036f70c9859ea1c656efe8c29791e4c90039",
+          "version": "1.0.3",
+          "versionCode": 30
+        }
+      ],
+      "repositoryId": 1354975640,
+      "seen": {
+        "381425565": {
+          "checkedAt": "2026-10-21T23:23:43.405Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "383588185": {
+          "checkedAt": "2026-10-21T23:23:43.405Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "385549516": {
+          "checkedAt": "2026-10-21T23:23:43.405Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387633536": {
+          "checkedAt": "2026-10-21T23:23:43.405Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387894615": {
+          "checkedAt": "2026-10-21T23:23:43.405Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "419780914": {
+          "checkedAt": "2026-10-21T23:23:43.405Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "419791043": {
+          "checkedAt": "2026-10-21T23:23:43.405Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:947814b1220788e29332e61174217d4e6b6e660945c43215010196c698d13596",
+          "id": 663113606,
+          "name": "SideWire-KernelSU-v1.0.3-arm64.zip",
+          "sha256": "947814b1220788e29332e61174217d4e6b6e660945c43215010196c698d13596",
+          "size": 1244849,
+          "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.3/SideWire-KernelSU-v1.0.3-arm64.zip"
+        },
+        "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.2...v1.0.3",
+        "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.3",
+        "immutable": true,
+        "name": "SideWire v1.0.3",
+        "prerelease": false,
+        "prop": {
+          "author": "SideWire contributors",
+          "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
+          "id": "sidewire",
+          "name": "SideWire",
+          "version": "1.0.3",
+          "versionCode": "30"
+        },
+        "publishedAt": "2026-10-21T16:28:16Z",
+        "releaseId": 419791043,
+        "tag": "v1.0.3",
+        "tagCommit": "3e90036f70c9859ea1c656efe8c29791e4c90039",
+        "version": "1.0.3",
+        "versionCode": 30
+      },
+      "stars": {
+        "count": 34,
+        "fetchedAt": "2026-10-21T23:23:43.405Z",
+        "fullName": "mzggr0914/sidewire",
+        "repositoryId": 1354975640,
         "verified": "self"
       }
     },
