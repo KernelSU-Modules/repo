@@ -184,7 +184,7 @@
     },
     "VexZygisk": {
       "contentCommit": null,
-      "fullName": "Lxiaoyao077/VexZygisk",
+      "fullName": "LxyaoX/VexZygisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
@@ -377,20 +377,20 @@
       }
     },
     "hybrid_mount": {
-      "contentCommit": "7f88580eb4430c03fca7cb34b44e720b7b812c62",
+      "contentCommit": "89f328fd945c72794a6505d779f6d85834d131a3",
       "fullName": "Hybrid-Mount/meta-hybrid_mount",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-14T06:56:26.438Z",
-      "maxVersionCode": 602003999,
+      "lastSuccessAt": "2026-10-21T02:10:31.941Z",
+      "maxVersionCode": 602005999,
       "message": null,
       "repositoryId": 1103029590,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-11T04:49:47Z",
-        "tag": "v6.2.3",
-        "version": "6.2.3",
-        "versionCode": 602003999
+        "publishedAt": "2026-10-21T02:10:12Z",
+        "tag": "v6.2.5",
+        "version": "6.2.5",
+        "versionCode": 602005999
       }
     },
     "ksuGrantToast": {
