@@ -1,0 +1,19 @@
+id: COPG
+status: pending
+request:
+  submissionId: 16apspo9y4
+  kind: submit
+  source:
+    host: github
+    repositoryId: 950100740
+    ownerId: 29276037
+    fullName: AlirezaParsi/COPG
+    manifestPath: module.yaml
+  submittedBy: 29276037
+  submittedByLogin: AlirezaParsi
+  submittedAt: 2026-10-22T18:42:45.520Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64571
+createdAt: 2026-10-22T18:42:45.520Z
+updatedAt: 2026-10-22T18:42:45.520Z
