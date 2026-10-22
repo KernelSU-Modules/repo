@@ -1085,17 +1085,47 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-17T22:57:03.501Z",
-        "lastSuccessAt": "2026-10-17T22:57:03.501Z",
+        "lastAttemptAt": "2026-10-22T04:33:44.931Z",
+        "lastSuccessAt": "2026-10-22T04:33:44.931Z",
         "message": null,
         "status": "ok"
       },
       "id": "MagicNet",
       "installationId": 172483675,
-      "maxStableVersionCode": 10602,
-      "maxVersionCode": 10602,
+      "maxStableVersionCode": 10605,
+      "maxVersionCode": 10605,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:0e28ee205f08fe3a121bf9a3345533244c8b24daccf85d749cea4650fa48809e",
+            "id": 664677050,
+            "name": "MagicNet-full.zip",
+            "sha256": "0e28ee205f08fe3a121bf9a3345533244c8b24daccf85d749cea4650fa48809e",
+            "size": 65307679,
+            "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.0/MagicNet-full.zip"
+          },
+          "body": "安装器下载：https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.0/magicnet_installer.zip\n\n\n\n## What's Changed\n* fix(installer): 收拢组件存储、修复配置安装并完善订阅提示 by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/384\n* fix: repair subscription integrity and TUN lifecycle by @cursor[bot] in https://github.com/LIghtJUNction/MagicNet/pull/383\n* fix(ci): require same-commit Android acceptance for bot-bumped releases by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/386\n* fix(webui): preserve settings drafts and improve mobile usability by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/388\n* fix(webui): 改善手机操作布局并修复保存与成功提示 by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/387\n* Fix hotspot TUN return routing and false-ready status by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/390\n* Keep selected mobile section visible on direct page loads by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/391\n* fix: 修复热点生命周期、重复路由与后台操作状态 by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/399\n* chore(deps-dev): bump vite from 8.0.16 to 8.3.5 in /webui in the npm_and_yarn group across 1 directory by @dependabot[bot] in https://github.com/LIghtJUNction/MagicNet/pull/400\n\n\n**Full Changelog**: https://github.com/LIghtJUNction/MagicNet/compare/v1.6.2...v1.7.0",
+          "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.7.0",
+          "immutable": true,
+          "name": "MagicNet-10605-v1.7.0",
+          "prerelease": false,
+          "prop": {
+            "author": "LIghtJUNction",
+            "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
+            "id": "MagicNet",
+            "name": "MagicNet",
+            "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
+            "version": "v1.7.0",
+            "versionCode": "10605"
+          },
+          "publishedAt": "2026-10-22T04:33:26Z",
+          "releaseId": 420310683,
+          "tag": "v1.7.0",
+          "tagCommit": "4d32c02b11428a4d2d4c3b9a4acd9ecf1e14c0a6",
+          "version": "v1.7.0",
+          "versionCode": 10605
+        },
         {
           "asset": {
             "digest": "sha256:f4e80afc86dbd3e7ad3e96ae0a4bce8873ec9b565665d62ec6c56cbba134f726",
@@ -1306,21 +1336,25 @@
         "416030326": {
           "checkedAt": "2026-10-17T22:57:03.501Z",
           "ok": true
+        },
+        "420310683": {
+          "checkedAt": "2026-10-22T04:33:44.931Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:f4e80afc86dbd3e7ad3e96ae0a4bce8873ec9b565665d62ec6c56cbba134f726",
-          "id": 651462108,
+          "digest": "sha256:0e28ee205f08fe3a121bf9a3345533244c8b24daccf85d749cea4650fa48809e",
+          "id": 664677050,
           "name": "MagicNet-full.zip",
-          "sha256": "f4e80afc86dbd3e7ad3e96ae0a4bce8873ec9b565665d62ec6c56cbba134f726",
-          "size": 65263801,
-          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.6.2/MagicNet-full.zip"
+          "sha256": "0e28ee205f08fe3a121bf9a3345533244c8b24daccf85d749cea4650fa48809e",
+          "size": 65307679,
+          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.0/MagicNet-full.zip"
         },
-        "body": "安装器下载：https://github.com/LIghtJUNction/MagicNet/releases/download/v1.6.2/magicnet_installer.zip\n\n# MagicNet v1.6.2\n\n## 版本码迁移 / Version code migration\n\n本版本将 `versionCode` 从历史毫秒级数值迁移为 `10602`，以符合 KernelSU Modules 的 32 位正整数限制（最大 `2147483647`）。后续版本码继续递增。\n\n**v1.6.1 及更早的旧版本用户需要手动安装一次。** 旧版本码大于新版本码，管理器的自动更新比较无法完成这次迁移。先备份 MagicNet 配置，从本项目 Release 下载 `MagicNet-full.zip`，在 root 管理器中直接手动安装并按提示重启，不要先卸载模块。迁移完成后确认版本为 `v1.6.2`、版本码为 `10602`；后续更新恢复递增顺序。\n\nExisting users must manually install this release once because the legacy version code is larger than the new code. Back up your configuration, download `MagicNet-full.zip` from this project's Release, install it directly through your root manager, and reboot as prompted. Do not uninstall first. Confirm `v1.6.2` / `10602` after installation. Future version codes will increase normally.\n\n## 发布与收录\n\n- 添加 KernelSU Modules 的 `module.yaml`，目录下载入口指定完整离线包 `MagicNet-full.zip`。\n- 开启 GitHub Release immutability；新发布的附件与标签发布后不能替换。\n- 发布准备脚本提前拒绝超范围版本码，递增达到上限时在写文件前失败。\n- KernelSU 目录是否收录，以开发者门户的维护者审核结果为准。\n\n\n**Full Changelog**: https://github.com/LIghtJUNction/MagicNet/compare/v1.6.1...v1.6.2",
-        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.6.2",
+        "body": "安装器下载：https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.0/magicnet_installer.zip\n\n\n\n## What's Changed\n* fix(installer): 收拢组件存储、修复配置安装并完善订阅提示 by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/384\n* fix: repair subscription integrity and TUN lifecycle by @cursor[bot] in https://github.com/LIghtJUNction/MagicNet/pull/383\n* fix(ci): require same-commit Android acceptance for bot-bumped releases by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/386\n* fix(webui): preserve settings drafts and improve mobile usability by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/388\n* fix(webui): 改善手机操作布局并修复保存与成功提示 by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/387\n* Fix hotspot TUN return routing and false-ready status by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/390\n* Keep selected mobile section visible on direct page loads by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/391\n* fix: 修复热点生命周期、重复路由与后台操作状态 by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/399\n* chore(deps-dev): bump vite from 8.0.16 to 8.3.5 in /webui in the npm_and_yarn group across 1 directory by @dependabot[bot] in https://github.com/LIghtJUNction/MagicNet/pull/400\n\n\n**Full Changelog**: https://github.com/LIghtJUNction/MagicNet/compare/v1.6.2...v1.7.0",
+        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.7.0",
         "immutable": true,
-        "name": "MagicNet-10602-v1.6.2",
+        "name": "MagicNet-10605-v1.7.0",
         "prerelease": false,
         "prop": {
           "author": "LIghtJUNction",
@@ -1328,15 +1362,15 @@
           "id": "MagicNet",
           "name": "MagicNet",
           "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
-          "version": "v1.6.2",
-          "versionCode": "10602"
+          "version": "v1.7.0",
+          "versionCode": "10605"
         },
-        "publishedAt": "2026-10-17T20:03:51Z",
-        "releaseId": 416030326,
-        "tag": "v1.6.2",
-        "tagCommit": "70d45f8080bca2f785379af12ff133a3d360f0bb",
-        "version": "v1.6.2",
-        "versionCode": 10602
+        "publishedAt": "2026-10-22T04:33:26Z",
+        "releaseId": 420310683,
+        "tag": "v1.7.0",
+        "tagCommit": "4d32c02b11428a4d2d4c3b9a4acd9ecf1e14c0a6",
+        "version": "v1.7.0",
+        "versionCode": 10605
       },
       "stars": {
         "count": 197,
