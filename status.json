@@ -123,17 +123,12 @@
       "fullName": "Seyud/Mediatek_Mali_GPU_Governor_release",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-12T09:19:47.073Z",
+      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
       "maxVersionCode": 20261012,
-      "message": null,
+      "message": "stable-unavailable: the stable release (versionCode 20261012) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 20261012 is published.",
       "repositoryId": 1414978843,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-10-12T04:39:36Z",
-        "tag": "v2.12.5",
-        "version": "v2.12.5",
-        "versionCode": 20261012
-      }
+      "stable": null
     },
     "QSC_Battery": {
       "contentCommit": "01a74170c68e7a994960a63bfbe49575a7c86aa0",
@@ -157,34 +152,24 @@
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-21T10:45:40.727Z",
+      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
       "maxVersionCode": 21,
-      "message": null,
+      "message": "stable-unavailable: the stable release (versionCode 21) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 21 is published.",
       "repositoryId": 1352101411,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-10-21T10:45:08Z",
-        "tag": "v26.10.21",
-        "version": "v26.10.21",
-        "versionCode": 21
-      }
+      "stable": null
     },
     "S-T-E-P-S": {
       "contentCommit": "7d0322af6383590ab00f7e207fe4ec99c4f161f7",
       "fullName": "xiaoji0308/Steps",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-20T02:50:31.213Z",
+      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
       "maxVersionCode": 20261020,
-      "message": null,
+      "message": "stable-unavailable: the stable release (versionCode 20261020) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 20261020 is published.",
       "repositoryId": 1423140380,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-10-20T02:50:34Z",
-        "tag": "1020",
-        "version": "1020",
-        "versionCode": 20261020
-      }
+      "stable": null
     },
     "SvcHub": {
       "contentCommit": "09239641b1d0d93388e733534426706a35ff758d",
@@ -210,7 +195,7 @@
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing); releases-pending: releases are checked once module.yaml is valid",
+      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
       "repositoryId": 1305247883,
       "request": null,
       "stable": null
@@ -312,6 +297,27 @@
         "versionCode": 2
       }
     },
+    "coloros_gplaystore_guard": {
+      "contentCommit": "b5bfb6c3051083cb718ad9a74e82e44c75a7a7f0",
+      "fullName": "BHLuotianyi/ColorOS-Google-Play-Store-Guard",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1429856603,
+      "request": {
+        "checkedAt": "2026-10-22T15:16:40.084Z",
+        "commit": "b5bfb6c3051083cb718ad9a74e82e44c75a7a7f0",
+        "issues": [],
+        "latestTag": "v1.0.1",
+        "ok": true,
+        "releaseId": 420871699,
+        "repositoryId": 1429856603,
+        "submissionId": "8jzgchogbk"
+      },
+      "stable": null
+    },
     "device_faker": {
       "contentCommit": "164ae0b7c38f5241e28b4c5f1ee43c7a66da5e8a",
       "fullName": "Seyud/device_faker_release",
@@ -385,17 +391,12 @@
       "fullName": "KernelSU-Modules/example-module",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-11T01:38:10.702Z",
+      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
       "maxVersionCode": 100,
-      "message": null,
+      "message": "stable-unavailable: the stable release (versionCode 100) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 100 is published.",
       "repositoryId": 1413800395,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-10-11T01:26:58Z",
-        "tag": "v1.0.0",
-        "version": "v1.0.0",
-        "versionCode": 100
-      }
+      "stable": null
     },
     "hybrid_mount": {
       "contentCommit": "89f328fd945c72794a6505d779f6d85834d131a3",
@@ -419,17 +420,12 @@
       "fullName": "NativeStar/KernelSUGrantToast",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-13T15:07:28.890Z",
+      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
       "maxVersionCode": 14,
-      "message": null,
+      "message": "stable-unavailable: the stable release (versionCode 14) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 14 is published.",
       "repositoryId": 1205795668,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-10-13T15:02:44Z",
-        "tag": "2.3-resp",
-        "version": "2.3",
-        "versionCode": 14
-      }
+      "stable": null
     },
     "lkm4ctr": {
       "contentCommit": "d033555d2d7f9c302b45d787ebcbbe9faed434fc",
@@ -470,17 +466,12 @@
       "fullName": "ahsaboy/magisk-netbird",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-15T03:05:37.542Z",
+      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
       "maxVersionCode": 10408,
-      "message": null,
+      "message": "stable-unavailable: the stable release (versionCode 10408) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 10408 is published.",
       "repositoryId": 1274372941,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-10-15T03:05:05Z",
-        "tag": "v1.4.8",
-        "version": "v1.4.8-0.80.0",
-        "versionCode": 10408
-      }
+      "stable": null
     },
     "netproxy": {
       "contentCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
@@ -536,19 +527,25 @@
     "privacykit_zygisk": {
       "contentCommit": "35ef36b383dd389182cc9321f60e7b34e1e2480b",
       "fullName": "Mohithash/privacykit-zygisk",
-      "health": "ok",
+      "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": null,
+      "message": "release-none: The repository has no published release yet.",
       "repositoryId": 1425338410,
       "request": {
-        "checkedAt": "2026-10-19T19:09:56.965Z",
+        "checkedAt": "2026-10-22T15:16:40.084Z",
         "commit": "35ef36b383dd389182cc9321f60e7b34e1e2480b",
-        "issues": [],
-        "latestTag": "v1.35",
-        "ok": true,
-        "releaseId": 417646228,
+        "issues": [
+          {
+            "code": "release-none",
+            "message": "The repository has no published release yet.",
+            "severity": "error"
+          }
+        ],
+        "latestTag": null,
+        "ok": false,
+        "releaseId": null,
         "repositoryId": 1425338410,
         "submissionId": "f8l84bsyot"
       },
@@ -559,51 +556,36 @@
       "fullName": "mzggr0914/sidewire",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-22T14:36:33.718Z",
+      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
       "maxVersionCode": 30,
-      "message": null,
+      "message": "stable-unavailable: the stable release (versionCode 30) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 30 is published.",
       "repositoryId": 1354975640,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-10-21T16:28:16Z",
-        "tag": "v1.0.3",
-        "version": "1.0.3",
-        "versionCode": 30
-      }
+      "stable": null
     },
     "susfs4ksu_lkm": {
       "contentCommit": "de3465b78c67173c70096afadb350b8765795ef4",
       "fullName": "Nixie24/susdock",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-16T17:11:11.532Z",
+      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
       "maxVersionCode": 201,
-      "message": null,
+      "message": "stable-unavailable: the stable release (versionCode 201) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 201 is published.",
       "repositoryId": 1411850723,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-10-13T05:12:19Z",
-        "tag": "v0.2.1-201",
-        "version": "0.2.1",
-        "versionCode": 201
-      }
+      "stable": null
     },
     "wipe_cache": {
       "contentCommit": "3b3732bfb20317fa0073cb602e3d99e4bbaf74ec",
       "fullName": "FLYCOM-E/ClearBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-16T11:14:08.150Z",
+      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
       "maxVersionCode": 101,
-      "message": null,
+      "message": "stable-unavailable: the stable release (versionCode 101) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 101 is published.",
       "repositoryId": 983784625,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-10-13T13:39:07Z",
-        "tag": "101-V5.2.1",
-        "version": "V5.2.1",
-        "versionCode": 101
-      }
+      "stable": null
     },
     "yukizygisk": {
       "contentCommit": "a4e78bafaf514c9bdd3555603a076896e12edb8c",

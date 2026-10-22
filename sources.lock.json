@@ -1400,9 +1400,9 @@
       "fullName": "Seyud/Mediatek_Mali_GPU_Governor_release",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-12T09:19:47.073Z",
-        "lastSuccessAt": "2026-10-12T09:19:47.073Z",
-        "message": null,
+        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
+        "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+        "message": "stable-unavailable: the stable release (versionCode 20261012) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 20261012 is published.",
         "status": "ok"
       },
       "id": "Mediatek_Mali_GPU_Governor",
@@ -1410,38 +1410,7 @@
       "maxStableVersionCode": 20261012,
       "maxVersionCode": 20261012,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:d636a9ab8bf3dbfedc6648a95d12a1ef6139836a2ff4012d38c3d71142c44876",
-            "id": 632677965,
-            "name": "Mediatek_Mali_GPU_Governor_v2.12.5.zip",
-            "sha256": "d636a9ab8bf3dbfedc6648a95d12a1ef6139836a2ff4012d38c3d71142c44876",
-            "size": 975589,
-            "url": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/download/v2.12.5/Mediatek_Mali_GPU_Governor_v2.12.5.zip"
-          },
-          "body": "##  v2.12.3 → v2.12.5\n<details>\n<summary><strong>📝 更新日志</strong></summary>\n\n\n## ⬆️ v2.12.3 → v2.12.5 (2026-10-12)\n\n### 🔧 功能改进\n\n- **移除废弃宏并消除 unsafe 代码** 🦀\n  - 清理废弃宏并移除 unsafe 代码，提升代码安全性。\n\n### 🪲 问题修复\n\n- **修复配置解析无法读取整数型浮点** ⚙️\n  - 修复 `config.toml` 中 `1.0` 这类整数型浮点参数被忽略、不生效的问题。\n\n- **修复 WebUI 保存配置时整数字段被序列化为浮点** 🌐\n  - 保存后配置文件不再出现 `40.0` 这类写法，与手动编辑的结果保持一致。\n\n\n</details>\n\n<details>\n<summary><strong>📝 CHANGELOG</strong></summary>\n\n\n## ⬆️ v2.12.3 → v2.12.5 (October 12, 2026)\n\n### 🔧 Improvements\n\n- **Remove deprecated macros and eliminate unsafe code** 🦀\n  - Cleaned up deprecated macros and removed unsafe code for better safety.\n\n### 🐛 Bug Fixes\n\n- **Fix integer-valued floats being unreadable during config parsing** ⚙️\n  - Values such as `1.0` in `config.toml` are no longer ignored, so those parameters now take effect.\n\n- **Fix integer fields being serialized as floats when saving from the WebUI** 🌐\n  - Saved configuration no longer contains values like `40.0`, matching the result of editing the file by hand.\n\n\n</details>\n\n**Full Changelog**: https://github.com/Seyud/Mediatek_Mali_GPU_Governor/compare/v2.12.3...v2.12.5\n",
-          "htmlUrl": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/tag/v2.12.5",
-          "immutable": true,
-          "name": "v2.12.5",
-          "prerelease": false,
-          "prop": {
-            "author": "酷安@瓦力喀/GitHub@Seyud, Tools-cx-app",
-            "description": "适用于Mediatek_Mali_GPU的GPU动态调速器，优化高负载场景下的功耗与性能平衡",
-            "id": "Mediatek_Mali_GPU_Governor",
-            "name": "天玑GPU调速器",
-            "updateJson": "https://gitee.com/Seyud/MMGG_deploy/raw/master/Update.json",
-            "version": "v2.12.5",
-            "versionCode": "20261012"
-          },
-          "publishedAt": "2026-10-12T04:39:36Z",
-          "releaseId": 410168819,
-          "tag": "v2.12.5",
-          "tagCommit": "00a3f990515fc86c1d777365262d48f2d4c69c0c",
-          "version": "v2.12.5",
-          "versionCode": 20261012
-        }
-      ],
+      "releases": [],
       "repositoryId": 1414978843,
       "seen": {
         "410168819": {
@@ -1449,36 +1418,7 @@
           "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:d636a9ab8bf3dbfedc6648a95d12a1ef6139836a2ff4012d38c3d71142c44876",
-          "id": 632677965,
-          "name": "Mediatek_Mali_GPU_Governor_v2.12.5.zip",
-          "sha256": "d636a9ab8bf3dbfedc6648a95d12a1ef6139836a2ff4012d38c3d71142c44876",
-          "size": 975589,
-          "url": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/download/v2.12.5/Mediatek_Mali_GPU_Governor_v2.12.5.zip"
-        },
-        "body": "##  v2.12.3 → v2.12.5\n<details>\n<summary><strong>📝 更新日志</strong></summary>\n\n\n## ⬆️ v2.12.3 → v2.12.5 (2026-10-12)\n\n### 🔧 功能改进\n\n- **移除废弃宏并消除 unsafe 代码** 🦀\n  - 清理废弃宏并移除 unsafe 代码，提升代码安全性。\n\n### 🪲 问题修复\n\n- **修复配置解析无法读取整数型浮点** ⚙️\n  - 修复 `config.toml` 中 `1.0` 这类整数型浮点参数被忽略、不生效的问题。\n\n- **修复 WebUI 保存配置时整数字段被序列化为浮点** 🌐\n  - 保存后配置文件不再出现 `40.0` 这类写法，与手动编辑的结果保持一致。\n\n\n</details>\n\n<details>\n<summary><strong>📝 CHANGELOG</strong></summary>\n\n\n## ⬆️ v2.12.3 → v2.12.5 (October 12, 2026)\n\n### 🔧 Improvements\n\n- **Remove deprecated macros and eliminate unsafe code** 🦀\n  - Cleaned up deprecated macros and removed unsafe code for better safety.\n\n### 🐛 Bug Fixes\n\n- **Fix integer-valued floats being unreadable during config parsing** ⚙️\n  - Values such as `1.0` in `config.toml` are no longer ignored, so those parameters now take effect.\n\n- **Fix integer fields being serialized as floats when saving from the WebUI** 🌐\n  - Saved configuration no longer contains values like `40.0`, matching the result of editing the file by hand.\n\n\n</details>\n\n**Full Changelog**: https://github.com/Seyud/Mediatek_Mali_GPU_Governor/compare/v2.12.3...v2.12.5\n",
-        "htmlUrl": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/tag/v2.12.5",
-        "immutable": true,
-        "name": "v2.12.5",
-        "prerelease": false,
-        "prop": {
-          "author": "酷安@瓦力喀/GitHub@Seyud, Tools-cx-app",
-          "description": "适用于Mediatek_Mali_GPU的GPU动态调速器，优化高负载场景下的功耗与性能平衡",
-          "id": "Mediatek_Mali_GPU_Governor",
-          "name": "天玑GPU调速器",
-          "updateJson": "https://gitee.com/Seyud/MMGG_deploy/raw/master/Update.json",
-          "version": "v2.12.5",
-          "versionCode": "20261012"
-        },
-        "publishedAt": "2026-10-12T04:39:36Z",
-        "releaseId": 410168819,
-        "tag": "v2.12.5",
-        "tagCommit": "00a3f990515fc86c1d777365262d48f2d4c69c0c",
-        "version": "v2.12.5",
-        "versionCode": 20261012
-      },
+      "stable": null,
       "stars": {
         "count": 81,
         "fetchedAt": "2026-10-12T04:47:49.269Z",
@@ -1801,9 +1741,9 @@
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-21T10:45:40.727Z",
-        "lastSuccessAt": "2026-10-21T10:45:40.727Z",
-        "message": null,
+        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
+        "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+        "message": "stable-unavailable: the stable release (versionCode 21) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 21 is published.",
         "status": "ok"
       },
       "id": "ReSuSFS",
@@ -1811,128 +1751,7 @@
       "maxStableVersionCode": 21,
       "maxVersionCode": 21,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:94d9eed5776b8f459033d91682884e748e9ba10bbd3a5279e5df5ac1bbe42f16",
-            "id": 662177543,
-            "name": "ReSuSFS.zip",
-            "sha256": "94d9eed5776b8f459033d91682884e748e9ba10bbd3a5279e5df5ac1bbe42f16",
-            "size": 267179,
-            "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.21/ReSuSFS.zip"
-          },
-          "body": "## ReSuSFS v26.10.21 Changelog\n\n### 🌐 WebUI\n\n- **fix:** fix the editor throwing an error when it closes (@ahmed-alnassif)\n\n### 🧩 Module\n\n- **refactor:** skip config prompts on fresh installs with no configs (@ahmed-alnassif)\n- **fix:** default CONFIGURE to true so ReSuSFS dir isn't left empty (@ahmed-alnassif)\n\n### ✨ Features\n\n- update the module icon (@ahmed-alnassif)\n\n### 📚 Documentation\n\n- update README for LKM support, scheduling and UserHub (@ahmed-alnassif)\n- update ReSuSFS description (@ahmed-alnassif)\n\n### ⚙️ CI/CD\n\n- use -9 max compression for smaller release zip to speed up user downloads (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.21 (@ahmed-alnassif)\n\n### 🤖 Automated\n\n- webui(deps): Bump marked in /webui in the webui-deps group (#26)\n",
-          "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.21",
-          "immutable": true,
-          "name": "ReSuSFS v26.10.21",
-          "prerelease": false,
-          "prop": {
-            "author": "ahmed-alnassif",
-            "description": "SuSFS for KernelSU (Built-in & LKM Supported) | Strong Hiding by Default | Powerful UserHub Script Manager with Scheduling | Clean Configs & Toggles",
-            "id": "ReSuSFS",
-            "name": "ReSuSFS",
-            "updateJson": "https://raw.githubusercontent.com/ahmed-alnassif/ReSuSFS/master/update.json",
-            "version": "v26.10.21",
-            "versionCode": "21"
-          },
-          "publishedAt": "2026-10-21T10:45:08Z",
-          "releaseId": 419438585,
-          "tag": "v26.10.21",
-          "tagCommit": "64413a039c9536205d9db99da7b835e160783dc1",
-          "version": "v26.10.21",
-          "versionCode": 21
-        },
-        {
-          "asset": {
-            "digest": "sha256:fa2a9bae493305f3e92fbf4684aedae417de62ded5a32cce52f08d7e2127089a",
-            "id": 647084575,
-            "name": "ReSuSFS.zip",
-            "sha256": "fa2a9bae493305f3e92fbf4684aedae417de62ded5a32cce52f08d7e2127089a",
-            "size": 296802,
-            "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.16/ReSuSFS.zip"
-          },
-          "body": "## ReSuSFS v26.10.16 Changelog\n\n### 🧩 Module\n\n- **feat:** prompt before updating configs (@ahmed-alnassif)\n- **fix:** remove hidden_api_policy to avoid enabling hidden API access, note: update your configuration in this update (close: #25) (@ahmed-alnassif)\n- **feat:** full SuSFS LKM support with auto-download and load on boot (@ahmed-alnassif)\n- **fix:** make download_file resilient to slow and unstable networks (@ahmed-alnassif)\n- **fix:** verify LKM load via loader exit code instead of lsmod (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.16 (@ahmed-alnassif)\n",
-          "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.16",
-          "immutable": true,
-          "name": "ReSuSFS v26.10.16",
-          "prerelease": false,
-          "prop": {
-            "author": "ahmed-alnassif",
-            "description": "The easiest way to use SuSFS on KernelSU. Strong hiding by default with built-in spoofing and hiding scripts, config files and toggle switches for everyday use, a built-in script manager for power users.",
-            "id": "ReSuSFS",
-            "name": "ReSuSFS",
-            "updateJson": "https://raw.githubusercontent.com/ahmed-alnassif/ReSuSFS/master/update.json",
-            "version": "v26.10.16",
-            "versionCode": "20"
-          },
-          "publishedAt": "2026-10-16T11:13:43Z",
-          "releaseId": 414875223,
-          "tag": "v26.10.16",
-          "tagCommit": "3e10ea4fbaced48d15cdd53205b19b49355c9cd2",
-          "version": "v26.10.16",
-          "versionCode": 20
-        },
-        {
-          "asset": {
-            "digest": "sha256:257cb2f944c1bad27afb068530bcca32c9e02348a2940ddb3c5d9d88f5e2ddc9",
-            "id": 637581571,
-            "name": "ReSuSFS.zip",
-            "sha256": "257cb2f944c1bad27afb068530bcca32c9e02348a2940ddb3c5d9d88f5e2ddc9",
-            "size": 295626,
-            "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.13/ReSuSFS.zip"
-          },
-          "body": "## ReSuSFS v26.10.13 Changelog\n\n### 🌐 WebUI\n\n- **fix:** route all editor close paths through one dirty-check, fixes back gesture skipping the unsaved-changes prompt and the title staying stuck after closing (fix: #23) (@ahmed-alnassif)\n- **l10n:** update translations (#21) (@weblate)\n- **fix:** stop the unsaved changes prompt from showing twice (@ahmed-alnassif)\n- **fix:** keep the unsaved changes prompt from exiting the module on back (@ahmed-alnassif)\n\n### ✨ Features\n\n- add an icon for KernelSU modules (@ahmed-alnassif)\n\n### 🔧 Fixes\n\n- add icon metadata to module.yaml (@ahmed-alnassif)\n\n### 📚 Documentation\n\n- update banner image (@ahmed-alnassif)\n- add a new logo (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.13 (@ahmed-alnassif)\n\n### 🤖 Automated\n\n- webui(deps): Bump the webui-deps group in /webui with 7 updates (#24)\n",
-          "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.13",
-          "immutable": true,
-          "name": "ReSuSFS v26.10.13",
-          "prerelease": false,
-          "prop": {
-            "author": "ahmed-alnassif",
-            "description": "The easiest way to use SuSFS on KernelSU. Strong hiding by default with built-in spoofing and hiding scripts, config files and toggle switches for everyday use, a built-in script manager for power users.",
-            "id": "ReSuSFS",
-            "name": "ReSuSFS",
-            "updateJson": "https://raw.githubusercontent.com/ahmed-alnassif/ReSuSFS/master/update.json",
-            "version": "v26.10.13",
-            "versionCode": "19"
-          },
-          "publishedAt": "2026-10-13T16:21:42Z",
-          "releaseId": 411879759,
-          "tag": "v26.10.13",
-          "tagCommit": "9afbb271a785c8511b092b6b520ad1de1c870228",
-          "version": "v26.10.13",
-          "versionCode": 19
-        },
-        {
-          "asset": {
-            "digest": "sha256:a11b39f3eee411fa6ed2008f3581329436f2b6a5733e96fa1a226b052d05c7e9",
-            "id": 631623871,
-            "name": "ReSuSFS.zip",
-            "sha256": "a11b39f3eee411fa6ed2008f3581329436f2b6a5733e96fa1a226b052d05c7e9",
-            "size": 275665,
-            "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.11/ReSuSFS.zip"
-          },
-          "body": "## ReSuSFS v26.10.11 Changelog\n\n### ✨ Features\n\n- add module.yaml to add ReSuSFS to KernelSU manger (@ahmed-alnassif)\n\n### 🔧 Fixes\n\n- back button now works correctly for menus and dialogs (@ahmed-alnassif)\n- one asset per release (@ahmed-alnassif)\n\n### 📚 Documentation\n\n- migrate ReSukiSU to BakaSU (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.11 (@ahmed-alnassif)\n",
-          "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.11",
-          "immutable": true,
-          "name": "ReSuSFS v26.10.11",
-          "prerelease": false,
-          "prop": {
-            "author": "ahmed-alnassif",
-            "description": "The easiest way to use SuSFS on KernelSU. Strong hiding by default with built-in spoofing and hiding scripts, config files and toggle switches for everyday use, a built-in script manager for power users.",
-            "id": "ReSuSFS",
-            "name": "ReSuSFS",
-            "updateJson": "https://raw.githubusercontent.com/ahmed-alnassif/ReSuSFS/master/update.json",
-            "version": "v26.10.11",
-            "versionCode": "18"
-          },
-          "publishedAt": "2026-10-11T19:36:12Z",
-          "releaseId": 409878070,
-          "tag": "v26.10.11",
-          "tagCommit": "9a6bdb7ad78ebb77b4578ce797f25a7eaf2b814b",
-          "version": "v26.10.11",
-          "versionCode": 18
-        }
-      ],
+      "releases": [],
       "repositoryId": 1352101411,
       "seen": {
         "379662579": {
@@ -2054,36 +1873,7 @@
           "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:94d9eed5776b8f459033d91682884e748e9ba10bbd3a5279e5df5ac1bbe42f16",
-          "id": 662177543,
-          "name": "ReSuSFS.zip",
-          "sha256": "94d9eed5776b8f459033d91682884e748e9ba10bbd3a5279e5df5ac1bbe42f16",
-          "size": 267179,
-          "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.21/ReSuSFS.zip"
-        },
-        "body": "## ReSuSFS v26.10.21 Changelog\n\n### 🌐 WebUI\n\n- **fix:** fix the editor throwing an error when it closes (@ahmed-alnassif)\n\n### 🧩 Module\n\n- **refactor:** skip config prompts on fresh installs with no configs (@ahmed-alnassif)\n- **fix:** default CONFIGURE to true so ReSuSFS dir isn't left empty (@ahmed-alnassif)\n\n### ✨ Features\n\n- update the module icon (@ahmed-alnassif)\n\n### 📚 Documentation\n\n- update README for LKM support, scheduling and UserHub (@ahmed-alnassif)\n- update ReSuSFS description (@ahmed-alnassif)\n\n### ⚙️ CI/CD\n\n- use -9 max compression for smaller release zip to speed up user downloads (@ahmed-alnassif)\n\n### 🧹 Chores\n\n- bump version to v26.10.21 (@ahmed-alnassif)\n\n### 🤖 Automated\n\n- webui(deps): Bump marked in /webui in the webui-deps group (#26)\n",
-        "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.21",
-        "immutable": true,
-        "name": "ReSuSFS v26.10.21",
-        "prerelease": false,
-        "prop": {
-          "author": "ahmed-alnassif",
-          "description": "SuSFS for KernelSU (Built-in & LKM Supported) | Strong Hiding by Default | Powerful UserHub Script Manager with Scheduling | Clean Configs & Toggles",
-          "id": "ReSuSFS",
-          "name": "ReSuSFS",
-          "updateJson": "https://raw.githubusercontent.com/ahmed-alnassif/ReSuSFS/master/update.json",
-          "version": "v26.10.21",
-          "versionCode": "21"
-        },
-        "publishedAt": "2026-10-21T10:45:08Z",
-        "releaseId": 419438585,
-        "tag": "v26.10.21",
-        "tagCommit": "64413a039c9536205d9db99da7b835e160783dc1",
-        "version": "v26.10.21",
-        "versionCode": 21
-      },
+      "stable": null,
       "stars": {
         "count": 73,
         "fetchedAt": "2026-10-22T14:36:33.718Z",
@@ -2110,9 +1900,9 @@
       "fullName": "xiaoji0308/Steps",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-20T02:50:31.213Z",
-        "lastSuccessAt": "2026-10-20T02:50:31.213Z",
-        "message": null,
+        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
+        "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+        "message": "stable-unavailable: the stable release (versionCode 20261020) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 20261020 is published.",
         "status": "ok"
       },
       "id": "S-T-E-P-S",
@@ -2120,98 +1910,7 @@
       "maxStableVersionCode": 20261020,
       "maxVersionCode": 20261020,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:61ada01522660cfe27f829eaa937435baff9a9ab5f61d5d060a8ff1f51e6e221",
-            "id": 658083005,
-            "name": "26.1020.zip",
-            "sha256": "61ada01522660cfe27f829eaa937435baff9a9ab5f61d5d060a8ff1f51e6e221",
-            "size": 33467,
-            "url": "https://github.com/xiaoji0308/Steps/releases/download/1020/26.1020.zip"
-          },
-          "body": "去附加模块，修复一些问题\r\n",
-          "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1020",
-          "immutable": true,
-          "name": "智能步数管理26.1020",
-          "prerelease": false,
-          "prop": {
-            "author": "浠浠浠   原作者：阿巴酱丨小青泽",
-            "description": "自动增加步数",
-            "id": "S-T-E-P-S",
-            "name": "A-智能步数管理［HyperOS］",
-            "version": "1020",
-            "versionCode": "20261020",
-            "webuiIcon": "webroot/icon.svg"
-          },
-          "publishedAt": "2026-10-20T02:50:34Z",
-          "releaseId": 417950263,
-          "tag": "1020",
-          "tagCommit": "fc027f088f2412b14e47b38baae7008b63bf0583",
-          "version": "1020",
-          "versionCode": 20261020
-        },
-        {
-          "asset": {
-            "digest": "sha256:2f7a86113ae71d37805d514ea6d2bb6f2e30f79d93f6c27e25a00157afdaa843",
-            "id": 652593687,
-            "name": "26.1018v3.zip",
-            "sha256": "2f7a86113ae71d37805d514ea6d2bb6f2e30f79d93f6c27e25a00157afdaa843",
-            "size": 32993,
-            "url": "https://github.com/xiaoji0308/Steps/releases/download/1018.3/26.1018v3.zip"
-          },
-          "body": "优化检查更新",
-          "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1018.3",
-          "immutable": true,
-          "name": "智能步数管理26.1018v3",
-          "prerelease": false,
-          "prop": {
-            "author": "浠浠浠   原作者：阿巴酱丨小青泽",
-            "description": "自动增加步数",
-            "id": "S-T-E-P-S",
-            "name": "A-智能步数管理［HyperOS］",
-            "version": "1018.3",
-            "versionCode": "20261019",
-            "webuiIcon": "webroot/icon.svg"
-          },
-          "publishedAt": "2026-10-18T05:39:47Z",
-          "releaseId": 416258460,
-          "tag": "1018.3",
-          "tagCommit": "068cee56cb312104d0eb9b27ed679e70b114c426",
-          "version": "1018.3",
-          "versionCode": 20261019
-        },
-        {
-          "asset": {
-            "digest": "sha256:6b1692d57540f53ea2b54f284cfc12e6b0578e32c25ff10c5565e4d0c92bb8e0",
-            "id": 651019081,
-            "name": "26.1018.zip",
-            "sha256": "6b1692d57540f53ea2b54f284cfc12e6b0578e32c25ff10c5565e4d0c92bb8e0",
-            "size": 34400,
-            "url": "https://github.com/xiaoji0308/Steps/releases/download/1018.1/26.1018.zip"
-          },
-          "body": "新增检测更新  修复 WebUI 操作提示被底部悬浮导航遮挡的问题",
-          "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1018.1",
-          "immutable": true,
-          "name": "智能步数管理26.1018",
-          "prerelease": false,
-          "prop": {
-            "author": "浠浠浠   原作者：阿巴酱丨小青泽",
-            "description": "自动增加步数",
-            "id": "S-T-E-P-S",
-            "name": "A-智能步数管理［HyperOS］",
-            "version": "1018",
-            "versionCode": "20261018",
-            "webuiIcon": "webroot/icon.svg"
-          },
-          "publishedAt": "2026-10-17T16:56:53Z",
-          "releaseId": 415939360,
-          "tag": "1018.1",
-          "tagCommit": "0f0d2c5097099b897f398d5a38ad78d4f399d4fa",
-          "version": "1018",
-          "versionCode": 20261018
-        }
-      ],
+      "releases": [],
       "repositoryId": 1423140380,
       "seen": {
         "415852567": {
@@ -2237,39 +1936,10 @@
           "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:61ada01522660cfe27f829eaa937435baff9a9ab5f61d5d060a8ff1f51e6e221",
-          "id": 658083005,
-          "name": "26.1020.zip",
-          "sha256": "61ada01522660cfe27f829eaa937435baff9a9ab5f61d5d060a8ff1f51e6e221",
-          "size": 33467,
-          "url": "https://github.com/xiaoji0308/Steps/releases/download/1020/26.1020.zip"
-        },
-        "body": "去附加模块，修复一些问题\r\n",
-        "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1020",
-        "immutable": true,
-        "name": "智能步数管理26.1020",
-        "prerelease": false,
-        "prop": {
-          "author": "浠浠浠   原作者：阿巴酱丨小青泽",
-          "description": "自动增加步数",
-          "id": "S-T-E-P-S",
-          "name": "A-智能步数管理［HyperOS］",
-          "version": "1020",
-          "versionCode": "20261020",
-          "webuiIcon": "webroot/icon.svg"
-        },
-        "publishedAt": "2026-10-20T02:50:34Z",
-        "releaseId": 417950263,
-        "tag": "1020",
-        "tagCommit": "fc027f088f2412b14e47b38baae7008b63bf0583",
-        "version": "1020",
-        "versionCode": 20261020
-      },
+      "stable": null,
       "stars": {
-        "count": 3,
-        "fetchedAt": "2026-10-21T18:04:48.299Z",
+        "count": 4,
+        "fetchedAt": "2026-10-22T15:16:40.084Z",
         "fullName": "xiaoji0308/Steps",
         "repositoryId": 1423140380,
         "verified": "self"
@@ -2543,9 +2213,9 @@
       "fullName": "LxyaoX/VexZygisk",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-21T02:10:31.941Z",
+        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
         "lastSuccessAt": null,
-        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing); releases-pending: releases are checked once module.yaml is valid",
+        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
         "status": "error"
       },
       "id": "VexZygisk",
@@ -3998,9 +3668,9 @@
       "fullName": "KernelSU-Modules/example-module",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-11T01:38:10.702Z",
-        "lastSuccessAt": "2026-10-11T01:38:10.702Z",
-        "message": null,
+        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
+        "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+        "message": "stable-unavailable: the stable release (versionCode 100) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 100 is published.",
         "status": "ok"
       },
       "id": "example_module_demo",
@@ -4008,38 +3678,7 @@
       "maxStableVersionCode": 100,
       "maxVersionCode": 100,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:3d588e6c5a8e0c8480e5c61b33b5d7704954c2370808e895f33953ab8ba42f52",
-            "id": 629456930,
-            "name": "example_module_demo-100-v1.0.0.zip",
-            "sha256": "3d588e6c5a8e0c8480e5c61b33b5d7704954c2370808e895f33953ab8ba42f52",
-            "size": 965,
-            "url": "https://github.com/KernelSU-Modules/example-module/releases/download/v1.0.0/example_module_demo-100-v1.0.0.zip"
-          },
-          "body": "**Full Changelog**: https://github.com/KernelSU-Modules/example-module/commits/v1.0.0",
-          "htmlUrl": "https://github.com/KernelSU-Modules/example-module/releases/tag/v1.0.0",
-          "immutable": true,
-          "name": "v1.0.0",
-          "prerelease": false,
-          "prop": {
-            "author": "KernelSU-Modules contributors",
-            "description": "A minimal module showing how to publish to KernelSU Modules. It does nothing on the device.",
-            "id": "example_module_demo",
-            "name": "Example Module Demo",
-            "updateJson": "https://modules.kernelsu.org/api/v1/modules/example_module_demo/update.json",
-            "version": "v1.0.0",
-            "versionCode": "100"
-          },
-          "publishedAt": "2026-10-11T01:26:58Z",
-          "releaseId": 409319448,
-          "tag": "v1.0.0",
-          "tagCommit": "7836e073f2a13a495dc510ce201819c93ed4e7f5",
-          "version": "v1.0.0",
-          "versionCode": 100
-        }
-      ],
+      "releases": [],
       "repositoryId": 1413800395,
       "seen": {
         "409319448": {
@@ -4047,36 +3686,7 @@
           "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:3d588e6c5a8e0c8480e5c61b33b5d7704954c2370808e895f33953ab8ba42f52",
-          "id": 629456930,
-          "name": "example_module_demo-100-v1.0.0.zip",
-          "sha256": "3d588e6c5a8e0c8480e5c61b33b5d7704954c2370808e895f33953ab8ba42f52",
-          "size": 965,
-          "url": "https://github.com/KernelSU-Modules/example-module/releases/download/v1.0.0/example_module_demo-100-v1.0.0.zip"
-        },
-        "body": "**Full Changelog**: https://github.com/KernelSU-Modules/example-module/commits/v1.0.0",
-        "htmlUrl": "https://github.com/KernelSU-Modules/example-module/releases/tag/v1.0.0",
-        "immutable": true,
-        "name": "v1.0.0",
-        "prerelease": false,
-        "prop": {
-          "author": "KernelSU-Modules contributors",
-          "description": "A minimal module showing how to publish to KernelSU Modules. It does nothing on the device.",
-          "id": "example_module_demo",
-          "name": "Example Module Demo",
-          "updateJson": "https://modules.kernelsu.org/api/v1/modules/example_module_demo/update.json",
-          "version": "v1.0.0",
-          "versionCode": "100"
-        },
-        "publishedAt": "2026-10-11T01:26:58Z",
-        "releaseId": 409319448,
-        "tag": "v1.0.0",
-        "tagCommit": "7836e073f2a13a495dc510ce201819c93ed4e7f5",
-        "version": "v1.0.0",
-        "versionCode": 100
-      },
+      "stable": null,
       "stars": {
         "count": 1,
         "fetchedAt": "2026-10-14T11:17:10.343Z",
@@ -4425,9 +4035,9 @@
       "fullName": "NativeStar/KernelSUGrantToast",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-13T15:07:28.890Z",
-        "lastSuccessAt": "2026-10-13T15:07:28.890Z",
-        "message": null,
+        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
+        "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+        "message": "stable-unavailable: the stable release (versionCode 14) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 14 is published.",
         "status": "ok"
       },
       "id": "ksuGrantToast",
@@ -4435,38 +4045,7 @@
       "maxStableVersionCode": 14,
       "maxVersionCode": 14,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:5a4c1725911af38afb2daf7286e604e1e76b5c6b03cc095079b7d79c381f627a",
-            "id": 637367401,
-            "name": "KernelSUGrantToast.zip",
-            "sha256": "5a4c1725911af38afb2daf7286e604e1e76b5c6b03cc095079b7d79c381f627a",
-            "size": 284505,
-            "url": "https://github.com/NativeStar/KernelSUGrantToast/releases/download/2.3-resp/KernelSUGrantToast.zip"
-          },
-          "body": "该版本文件内容和上版本完全一致 只是为了上新的KernelSU模块仓库\r\n如果管理器内没有更新提示则无需更新\r\n功能更新...下次一定",
-          "htmlUrl": "https://github.com/NativeStar/KernelSUGrantToast/releases/tag/2.3-resp",
-          "immutable": true,
-          "name": "2.3-KernelSUNewRepo",
-          "prerelease": false,
-          "prop": {
-            "author": "NativeStar",
-            "description": "(❌Disabled)Show a root granted toast like Magisk.",
-            "id": "ksuGrantToast",
-            "name": "KernelSU Grant Toast",
-            "updateJson": "https://raw.githubusercontent.com/NativeStar/KernelSUGrantToast/master/update.json",
-            "version": "2.3",
-            "versionCode": "14"
-          },
-          "publishedAt": "2026-10-13T15:02:44Z",
-          "releaseId": 411802512,
-          "tag": "2.3-resp",
-          "tagCommit": "7fd0b6184e6a2fc4c2559ec4dd35eff199b13efc",
-          "version": "2.3",
-          "versionCode": 14
-        }
-      ],
+      "releases": [],
       "repositoryId": 1205795668,
       "seen": {
         "307128273": {
@@ -4558,36 +4137,7 @@
           "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:5a4c1725911af38afb2daf7286e604e1e76b5c6b03cc095079b7d79c381f627a",
-          "id": 637367401,
-          "name": "KernelSUGrantToast.zip",
-          "sha256": "5a4c1725911af38afb2daf7286e604e1e76b5c6b03cc095079b7d79c381f627a",
-          "size": 284505,
-          "url": "https://github.com/NativeStar/KernelSUGrantToast/releases/download/2.3-resp/KernelSUGrantToast.zip"
-        },
-        "body": "该版本文件内容和上版本完全一致 只是为了上新的KernelSU模块仓库\r\n如果管理器内没有更新提示则无需更新\r\n功能更新...下次一定",
-        "htmlUrl": "https://github.com/NativeStar/KernelSUGrantToast/releases/tag/2.3-resp",
-        "immutable": true,
-        "name": "2.3-KernelSUNewRepo",
-        "prerelease": false,
-        "prop": {
-          "author": "NativeStar",
-          "description": "(❌Disabled)Show a root granted toast like Magisk.",
-          "id": "ksuGrantToast",
-          "name": "KernelSU Grant Toast",
-          "updateJson": "https://raw.githubusercontent.com/NativeStar/KernelSUGrantToast/master/update.json",
-          "version": "2.3",
-          "versionCode": "14"
-        },
-        "publishedAt": "2026-10-13T15:02:44Z",
-        "releaseId": 411802512,
-        "tag": "2.3-resp",
-        "tagCommit": "7fd0b6184e6a2fc4c2559ec4dd35eff199b13efc",
-        "version": "2.3",
-        "versionCode": 14
-      },
+      "stable": null,
       "stars": {
         "count": 58,
         "fetchedAt": "2026-10-21T02:10:31.941Z",
@@ -5005,9 +4555,9 @@
       "fullName": "ahsaboy/magisk-netbird",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-15T03:05:37.542Z",
-        "lastSuccessAt": "2026-10-15T03:05:37.542Z",
-        "message": null,
+        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
+        "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+        "message": "stable-unavailable: the stable release (versionCode 10408) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 10408 is published.",
         "status": "ok"
       },
       "id": "magisk-netbird",
@@ -5015,70 +4565,7 @@
       "maxStableVersionCode": 10408,
       "maxVersionCode": 10408,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:c3d94d933435f83cc0264f2632d1e7fc5ae0ad16017a74e1d1b367f68680f394",
-            "id": 642478161,
-            "name": "magisk-netbird-10408-v1.4.8-0.80.0.zip",
-            "sha256": "c3d94d933435f83cc0264f2632d1e7fc5ae0ad16017a74e1d1b367f68680f394",
-            "size": 45085104,
-            "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.8/magisk-netbird-10408-v1.4.8-0.80.0.zip"
-          },
-          "body": "**Full Changelog**: https://github.com/ahsaboy/magisk-netbird/compare/v1.4.7...v1.4.8",
-          "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.8",
-          "immutable": true,
-          "name": "v1.4.8",
-          "prerelease": false,
-          "prop": {
-            "author": "ahsaboy",
-            "description": "NetBird daemon with mobile KernelSU WebUI controls and structured status.",
-            "id": "magisk-netbird",
-            "minMagisk": "20400",
-            "name": "Magisk NetBird",
-            "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/updates/update-arm64-v8a.json",
-            "version": "v1.4.8-0.80.0",
-            "versionCode": "10408"
-          },
-          "publishedAt": "2026-10-15T03:05:05Z",
-          "releaseId": 413377136,
-          "tag": "v1.4.8",
-          "tagCommit": "13ce125b79b3d7397dc004a3c9a0dabc47d73555",
-          "version": "v1.4.8-0.80.0",
-          "versionCode": 10408
-        },
-        {
-          "asset": {
-            "digest": "sha256:f1898468ba44ef351bba511e6a7d5dd3baf8711232fba4bb784803e3f7766181",
-            "id": 639154295,
-            "name": "magisk-netbird-10407-v1.4.7-0.80.0.zip",
-            "sha256": "f1898468ba44ef351bba511e6a7d5dd3baf8711232fba4bb784803e3f7766181",
-            "size": 45085031,
-            "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.7/magisk-netbird-10407-v1.4.7-0.80.0.zip"
-          },
-          "body": "**Full Changelog**: https://github.com/ahsaboy/magisk-netbird/compare/v1.4.6...v1.4.7",
-          "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.7",
-          "immutable": true,
-          "name": "v1.4.7",
-          "prerelease": false,
-          "prop": {
-            "author": "ahsaboy",
-            "description": "NetBird daemon with mobile KernelSU WebUI controls and structured status.",
-            "id": "magisk-netbird",
-            "minMagisk": "20400",
-            "name": "Magisk NetBird",
-            "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/update/update-arm64-v8a.json",
-            "version": "v1.4.7-0.80.0",
-            "versionCode": "10407"
-          },
-          "publishedAt": "2026-10-14T03:59:53Z",
-          "releaseId": 412324792,
-          "tag": "v1.4.7",
-          "tagCommit": "667b5dc6773bf740e7246a714bf3eca446578cd7",
-          "version": "v1.4.7-0.80.0",
-          "versionCode": 10407
-        }
-      ],
+      "releases": [],
       "repositoryId": 1274372941,
       "seen": {
         "341949263": {
@@ -5174,37 +4661,7 @@
           "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:c3d94d933435f83cc0264f2632d1e7fc5ae0ad16017a74e1d1b367f68680f394",
-          "id": 642478161,
-          "name": "magisk-netbird-10408-v1.4.8-0.80.0.zip",
-          "sha256": "c3d94d933435f83cc0264f2632d1e7fc5ae0ad16017a74e1d1b367f68680f394",
-          "size": 45085104,
-          "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.8/magisk-netbird-10408-v1.4.8-0.80.0.zip"
-        },
-        "body": "**Full Changelog**: https://github.com/ahsaboy/magisk-netbird/compare/v1.4.7...v1.4.8",
-        "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.8",
-        "immutable": true,
-        "name": "v1.4.8",
-        "prerelease": false,
-        "prop": {
-          "author": "ahsaboy",
-          "description": "NetBird daemon with mobile KernelSU WebUI controls and structured status.",
-          "id": "magisk-netbird",
-          "minMagisk": "20400",
-          "name": "Magisk NetBird",
-          "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/updates/update-arm64-v8a.json",
-          "version": "v1.4.8-0.80.0",
-          "versionCode": "10408"
-        },
-        "publishedAt": "2026-10-15T03:05:05Z",
-        "releaseId": 413377136,
-        "tag": "v1.4.8",
-        "tagCommit": "13ce125b79b3d7397dc004a3c9a0dabc47d73555",
-        "version": "v1.4.8-0.80.0",
-        "versionCode": 10408
-      },
+      "stable": null,
       "stars": {
         "count": 1,
         "fetchedAt": "2026-10-21T23:23:43.405Z",
@@ -5800,9 +5257,9 @@
       "fullName": "mzggr0914/sidewire",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-22T14:36:33.718Z",
-        "lastSuccessAt": "2026-10-22T14:36:33.718Z",
-        "message": null,
+        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
+        "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+        "message": "stable-unavailable: the stable release (versionCode 30) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 30 is published.",
         "status": "ok"
       },
       "id": "sidewire",
@@ -5810,37 +5267,7 @@
       "maxStableVersionCode": 30,
       "maxVersionCode": 30,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:947814b1220788e29332e61174217d4e6b6e660945c43215010196c698d13596",
-            "id": 663113606,
-            "name": "SideWire-KernelSU-v1.0.3-arm64.zip",
-            "sha256": "947814b1220788e29332e61174217d4e6b6e660945c43215010196c698d13596",
-            "size": 1244849,
-            "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.3/SideWire-KernelSU-v1.0.3-arm64.zip"
-          },
-          "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.2...v1.0.3",
-          "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.3",
-          "immutable": true,
-          "name": "SideWire v1.0.3",
-          "prerelease": false,
-          "prop": {
-            "author": "SideWire contributors",
-            "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
-            "id": "sidewire",
-            "name": "SideWire",
-            "version": "1.0.3",
-            "versionCode": "30"
-          },
-          "publishedAt": "2026-10-21T16:28:16Z",
-          "releaseId": 419791043,
-          "tag": "v1.0.3",
-          "tagCommit": "3e90036f70c9859ea1c656efe8c29791e4c90039",
-          "version": "1.0.3",
-          "versionCode": 30
-        }
-      ],
+      "releases": [],
       "repositoryId": 1354975640,
       "seen": {
         "381425565": {
@@ -5884,35 +5311,7 @@
           "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:947814b1220788e29332e61174217d4e6b6e660945c43215010196c698d13596",
-          "id": 663113606,
-          "name": "SideWire-KernelSU-v1.0.3-arm64.zip",
-          "sha256": "947814b1220788e29332e61174217d4e6b6e660945c43215010196c698d13596",
-          "size": 1244849,
-          "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.3/SideWire-KernelSU-v1.0.3-arm64.zip"
-        },
-        "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.2...v1.0.3",
-        "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.3",
-        "immutable": true,
-        "name": "SideWire v1.0.3",
-        "prerelease": false,
-        "prop": {
-          "author": "SideWire contributors",
-          "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
-          "id": "sidewire",
-          "name": "SideWire",
-          "version": "1.0.3",
-          "versionCode": "30"
-        },
-        "publishedAt": "2026-10-21T16:28:16Z",
-        "releaseId": 419791043,
-        "tag": "v1.0.3",
-        "tagCommit": "3e90036f70c9859ea1c656efe8c29791e4c90039",
-        "version": "1.0.3",
-        "versionCode": 30
-      },
+      "stable": null,
       "stars": {
         "count": 34,
         "fetchedAt": "2026-10-21T23:23:43.405Z",
@@ -5939,9 +5338,9 @@
       "fullName": "Nixie24/susdock",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-16T17:11:11.532Z",
-        "lastSuccessAt": "2026-10-16T17:11:11.532Z",
-        "message": null,
+        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
+        "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+        "message": "stable-unavailable: the stable release (versionCode 201) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 201 is published.",
         "status": "ok"
       },
       "id": "susfs4ksu_lkm",
@@ -5949,38 +5348,7 @@
       "maxStableVersionCode": 201,
       "maxVersionCode": 201,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:e6038e57cd2a46c5ae2c210d9f7a889c3905cb2ab74e21b2a0373f0d98f7d737",
-            "id": 635968294,
-            "name": "susfs4ksu_lkm_0.2.1.zip",
-            "sha256": "e6038e57cd2a46c5ae2c210d9f7a889c3905cb2ab74e21b2a0373f0d98f7d737",
-            "size": 28681,
-            "url": "https://github.com/Nixie24/susfs4ksu-lkm-module/releases/download/v0.2.1-201/susfs4ksu_lkm_0.2.1.zip"
-          },
-          "body": "**Full Changelog**: https://github.com/Nixie24/susfs4ksu-lkm-module/compare/v0.2.0-200...v0.2.1-201",
-          "htmlUrl": "https://github.com/Nixie24/susfs4ksu-lkm-module/releases/tag/v0.2.1-201",
-          "immutable": true,
-          "name": "v0.2.1-201",
-          "prerelease": false,
-          "prop": {
-            "author": "Nix24",
-            "description": "Loads SUSFS as a loadable kernel module (susfs_guard_lkm) via ksud.",
-            "id": "susfs4ksu_lkm",
-            "name": "SUSFS LKM Loader",
-            "updateJson": "https://raw.githubusercontent.com/Nixie24/susfs4ksu-lkm-module/update/update.json",
-            "version": "0.2.1",
-            "versionCode": "201"
-          },
-          "publishedAt": "2026-10-13T05:12:19Z",
-          "releaseId": 411302072,
-          "tag": "v0.2.1-201",
-          "tagCommit": "de3465b78c67173c70096afadb350b8765795ef4",
-          "version": "0.2.1",
-          "versionCode": 201
-        }
-      ],
+      "releases": [],
       "repositoryId": 1411850723,
       "seen": {
         "408010734": {
@@ -6000,36 +5368,7 @@
           "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:e6038e57cd2a46c5ae2c210d9f7a889c3905cb2ab74e21b2a0373f0d98f7d737",
-          "id": 635968294,
-          "name": "susfs4ksu_lkm_0.2.1.zip",
-          "sha256": "e6038e57cd2a46c5ae2c210d9f7a889c3905cb2ab74e21b2a0373f0d98f7d737",
-          "size": 28681,
-          "url": "https://github.com/Nixie24/susfs4ksu-lkm-module/releases/download/v0.2.1-201/susfs4ksu_lkm_0.2.1.zip"
-        },
-        "body": "**Full Changelog**: https://github.com/Nixie24/susfs4ksu-lkm-module/compare/v0.2.0-200...v0.2.1-201",
-        "htmlUrl": "https://github.com/Nixie24/susfs4ksu-lkm-module/releases/tag/v0.2.1-201",
-        "immutable": true,
-        "name": "v0.2.1-201",
-        "prerelease": false,
-        "prop": {
-          "author": "Nix24",
-          "description": "Loads SUSFS as a loadable kernel module (susfs_guard_lkm) via ksud.",
-          "id": "susfs4ksu_lkm",
-          "name": "SUSFS LKM Loader",
-          "updateJson": "https://raw.githubusercontent.com/Nixie24/susfs4ksu-lkm-module/update/update.json",
-          "version": "0.2.1",
-          "versionCode": "201"
-        },
-        "publishedAt": "2026-10-13T05:12:19Z",
-        "releaseId": 411302072,
-        "tag": "v0.2.1-201",
-        "tagCommit": "de3465b78c67173c70096afadb350b8765795ef4",
-        "version": "0.2.1",
-        "versionCode": 201
-      },
+      "stable": null,
       "stars": {
         "count": 5,
         "fetchedAt": "2026-10-21T02:10:31.941Z",
@@ -6058,9 +5397,9 @@
       "fullName": "FLYCOM-E/ClearBox",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-16T11:14:08.150Z",
-        "lastSuccessAt": "2026-10-16T11:14:08.150Z",
-        "message": null,
+        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
+        "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+        "message": "stable-unavailable: the stable release (versionCode 101) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 101 is published.",
         "status": "ok"
       },
       "id": "wipe_cache",
@@ -6068,39 +5407,7 @@
       "maxStableVersionCode": 101,
       "maxVersionCode": 101,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:2b2715837d328e8bd56314f6adcd0527f2a50445af21b1579e4a60bd3b400a28",
-            "id": 637148885,
-            "name": "ClearBox-V5.2.1-101.zip",
-            "sha256": "2b2715837d328e8bd56314f6adcd0527f2a50445af21b1579e4a60bd3b400a28",
-            "size": 3287499,
-            "url": "https://github.com/FLYCOM-E/ClearBox/releases/download/101-V5.2.1/ClearBox-V5.2.1-101.zip"
-          },
-          "body": "<details>\r\n  <summary> en-US </summary>\r\n\r\n## ADD\r\n\r\n- Storage analysis (NCDU) now supports displaying symlink types, performance optimization\r\n- Added cleanup of SystemServer crash logs\r\n- Added storage cleanup rule preset:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- File organization/cleanup concurrency support, allocated based on device CPU core multiplier, measured file organization speed up to x2\r\n- Unified module packaging, automatically extracts the corresponding architecture during installation, no extra storage space used\r\n- App UI theme, layout, animation optimization, upgraded library versions\r\n- Whitelist now also applies to system cache cleanup\r\n\r\n## FIX\r\n\r\n- Fixed a bug where file operations could freeze in some scenarios\r\n- Fixed abnormal animation in App transparent mode\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> zh-CN </summary>\r\n\r\n## ADD\r\n\r\n- 储存分析（NCDU）支持显示软链接类型，性能优化\r\n- 增加清理 SystemServer 崩溃日志\r\n- 新增储存清理规则预设: \r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- 文件归类/清理并发支持，根据设备 CPU 核倍数分配，实测文件归类速度最高 x2\r\n- 统一打包模块，安装时自动解压对应架构，不占用额外储存空间\r\n- App UI 主题、排版、动效优化，升级库版本\r\n- 现在白名单对系统缓存清理同样生效\r\n\r\n## FIX\r\n\r\n- 修复部分场景下文件操作可能卡死的 Bug\r\n- 修复 App 透明模式动画异常\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> zh-TW </summary>\r\n\r\n## ADD\r\n\r\n- 儲存分析（NCDU）支援顯示軟連結類型，效能最佳化\r\n- 增加清理 SystemServer 崩潰日誌\r\n- 新增儲存清理規則預設:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- 檔案歸類/清理並發支援，根據裝置 CPU 核心倍數分配，實測檔案歸類速度最高 x2\r\n- 統一打包模組，安裝時自動解壓對應架構，不佔用額外儲存空間\r\n- App UI 主題、排版、動效最佳化，升級函式庫版本\r\n- 現在白名單對系統快取清理同樣生效\r\n\r\n## FIX\r\n\r\n- 修復部分場景下檔案操作可能卡死的 Bug\r\n- 修復 App 透明模式動畫異常\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> ru-RU </summary>\r\n\r\n## ADD\r\n\r\n- Анализ хранилища (NCDU) теперь поддерживает отображение типов символических ссылок, оптимизация производительности\r\n- Добавлена очистка журналов сбоев SystemServer\r\n- Добавлен предустановленный набор правил очистки хранилища:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- Поддержка параллельной классификации/очистки файлов, распределение в зависимости от кратности ядер CPU устройства, измеренная скорость классификации файлов до x2\r\n- Унифицированная упаковка модуля, при установке автоматически распаковывается соответствующая архитектура, не занимает дополнительное пространство\r\n- Оптимизация темы, компоновки и анимации App UI, обновление версий библиотек\r\n- Теперь белый список также действует для очистки системного кэша\r\n\r\n## FIX\r\n\r\n- Исправлена ошибка, из-за которой файловые операции могли зависать в некоторых сценариях\r\n- Исправлена аномалия анимации в прозрачном режиме App\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> ko-KR </summary>\r\n\r\n## ADD\r\n\r\n- 저장소 분석(NCDU)이 심볼릭 링크 유형 표시 지원, 성능 최적화\r\n- SystemServer 충돌 로그 정리 추가\r\n- 저장소 정리 규칙 사전 설정 추가:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- 파일 분류/정리 동시 지원, 장치 CPU 코어 배수에 따라 할당, 실측 파일 분류 속도 최대 x2\r\n- 모듈 통합 패키징, 설치 시 해당 아키텍처 자동 압축 해제, 추가 저장 공간 사용 안 함\r\n- App UI 테마, 레이아웃, 애니메이션 최적화, 라이브러리 버전 업그레이드\r\n- 이제 화이트리스트가 시스템 캐시 정리에도 적용됨\r\n\r\n## FIX\r\n\r\n- 일부 시나리오에서 파일 작업이 멈출 수 있는 버그 수정\r\n- App 투명 모드 애니메이션 이상 수정\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> ja-JP </summary>\r\n\r\n## ADD\r\n\r\n- ストレージ分析（NCDU）がシンボリックリンクタイプの表示をサポート、パフォーマンス最適化\r\n- SystemServer クラッシュログのクリーニングを追加\r\n- ストレージクリーニングルールプリセットを追加:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- ファイル分類/クリーニングの並行処理をサポート、デバイスの CPU コア倍数に基づいて割り当て、実測ファイル分類速度最大 x2\r\n- モジュールを統合パッケージ化、インストール時に対応アーキテクチャを自動解凍、追加ストレージ容量を使用しない\r\n- App UI テーマ、レイアウト、アニメーションの最適化、ライブラリバージョンをアップグレード\r\n- ホワイトリストがシステムキャッシュクリーニングにも適用されるようになりました\r\n\r\n## FIX\r\n\r\n- 一部のシナリオでファイル操作がフリーズする可能性があるバグを修正\r\n- App の透明モードのアニメーション異常を修正\r\n\r\n</details>",
-          "htmlUrl": "https://github.com/FLYCOM-E/ClearBox/releases/tag/101-V5.2.1",
-          "immutable": true,
-          "name": "Version 5.2.1",
-          "prerelease": false,
-          "prop": {
-            "author": "FlyCome",
-            "description": "A Cleaner & More...",
-            "id": "wipe_cache",
-            "name": "ClearBox",
-            "str": "Are You,| OK 🍀？",
-            "updateJson": "https://raw.githubusercontent.com/FLYCOM-E/ClearBox/main/UpdateJson/@LANG/update.json",
-            "version": "V5.2.1",
-            "versionCode": "101"
-          },
-          "publishedAt": "2026-10-13T13:39:07Z",
-          "releaseId": 411715996,
-          "tag": "101-V5.2.1",
-          "tagCommit": "bc9e9feb246d1b0d826ca541adcfceebca0c8fc6",
-          "version": "V5.2.1",
-          "versionCode": 101
-        }
-      ],
+      "releases": [],
       "repositoryId": 983784625,
       "seen": {
         "218707096": {
@@ -6168,37 +5475,7 @@
           "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:2b2715837d328e8bd56314f6adcd0527f2a50445af21b1579e4a60bd3b400a28",
-          "id": 637148885,
-          "name": "ClearBox-V5.2.1-101.zip",
-          "sha256": "2b2715837d328e8bd56314f6adcd0527f2a50445af21b1579e4a60bd3b400a28",
-          "size": 3287499,
-          "url": "https://github.com/FLYCOM-E/ClearBox/releases/download/101-V5.2.1/ClearBox-V5.2.1-101.zip"
-        },
-        "body": "<details>\r\n  <summary> en-US </summary>\r\n\r\n## ADD\r\n\r\n- Storage analysis (NCDU) now supports displaying symlink types, performance optimization\r\n- Added cleanup of SystemServer crash logs\r\n- Added storage cleanup rule preset:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- File organization/cleanup concurrency support, allocated based on device CPU core multiplier, measured file organization speed up to x2\r\n- Unified module packaging, automatically extracts the corresponding architecture during installation, no extra storage space used\r\n- App UI theme, layout, animation optimization, upgraded library versions\r\n- Whitelist now also applies to system cache cleanup\r\n\r\n## FIX\r\n\r\n- Fixed a bug where file operations could freeze in some scenarios\r\n- Fixed abnormal animation in App transparent mode\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> zh-CN </summary>\r\n\r\n## ADD\r\n\r\n- 储存分析（NCDU）支持显示软链接类型，性能优化\r\n- 增加清理 SystemServer 崩溃日志\r\n- 新增储存清理规则预设: \r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- 文件归类/清理并发支持，根据设备 CPU 核倍数分配，实测文件归类速度最高 x2\r\n- 统一打包模块，安装时自动解压对应架构，不占用额外储存空间\r\n- App UI 主题、排版、动效优化，升级库版本\r\n- 现在白名单对系统缓存清理同样生效\r\n\r\n## FIX\r\n\r\n- 修复部分场景下文件操作可能卡死的 Bug\r\n- 修复 App 透明模式动画异常\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> zh-TW </summary>\r\n\r\n## ADD\r\n\r\n- 儲存分析（NCDU）支援顯示軟連結類型，效能最佳化\r\n- 增加清理 SystemServer 崩潰日誌\r\n- 新增儲存清理規則預設:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- 檔案歸類/清理並發支援，根據裝置 CPU 核心倍數分配，實測檔案歸類速度最高 x2\r\n- 統一打包模組，安裝時自動解壓對應架構，不佔用額外儲存空間\r\n- App UI 主題、排版、動效最佳化，升級函式庫版本\r\n- 現在白名單對系統快取清理同樣生效\r\n\r\n## FIX\r\n\r\n- 修復部分場景下檔案操作可能卡死的 Bug\r\n- 修復 App 透明模式動畫異常\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> ru-RU </summary>\r\n\r\n## ADD\r\n\r\n- Анализ хранилища (NCDU) теперь поддерживает отображение типов символических ссылок, оптимизация производительности\r\n- Добавлена очистка журналов сбоев SystemServer\r\n- Добавлен предустановленный набор правил очистки хранилища:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- Поддержка параллельной классификации/очистки файлов, распределение в зависимости от кратности ядер CPU устройства, измеренная скорость классификации файлов до x2\r\n- Унифицированная упаковка модуля, при установке автоматически распаковывается соответствующая архитектура, не занимает дополнительное пространство\r\n- Оптимизация темы, компоновки и анимации App UI, обновление версий библиотек\r\n- Теперь белый список также действует для очистки системного кэша\r\n\r\n## FIX\r\n\r\n- Исправлена ошибка, из-за которой файловые операции могли зависать в некоторых сценариях\r\n- Исправлена аномалия анимации в прозрачном режиме App\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> ko-KR </summary>\r\n\r\n## ADD\r\n\r\n- 저장소 분석(NCDU)이 심볼릭 링크 유형 표시 지원, 성능 최적화\r\n- SystemServer 충돌 로그 정리 추가\r\n- 저장소 정리 규칙 사전 설정 추가:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- 파일 분류/정리 동시 지원, 장치 CPU 코어 배수에 따라 할당, 실측 파일 분류 속도 최대 x2\r\n- 모듈 통합 패키징, 설치 시 해당 아키텍처 자동 압축 해제, 추가 저장 공간 사용 안 함\r\n- App UI 테마, 레이아웃, 애니메이션 최적화, 라이브러리 버전 업그레이드\r\n- 이제 화이트리스트가 시스템 캐시 정리에도 적용됨\r\n\r\n## FIX\r\n\r\n- 일부 시나리오에서 파일 작업이 멈출 수 있는 버그 수정\r\n- App 투명 모드 애니메이션 이상 수정\r\n\r\n</details>\r\n\r\n<details>\r\n  <summary> ja-JP </summary>\r\n\r\n## ADD\r\n\r\n- ストレージ分析（NCDU）がシンボリックリンクタイプの表示をサポート、パフォーマンス最適化\r\n- SystemServer クラッシュログのクリーニングを追加\r\n- ストレージクリーニングルールプリセットを追加:\r\n```\r\ncom.tencent.mobileqq   #QQ\r\n```\r\n\r\n## UPDATE\r\n\r\n- ファイル分類/クリーニングの並行処理をサポート、デバイスの CPU コア倍数に基づいて割り当て、実測ファイル分類速度最大 x2\r\n- モジュールを統合パッケージ化、インストール時に対応アーキテクチャを自動解凍、追加ストレージ容量を使用しない\r\n- App UI テーマ、レイアウト、アニメーションの最適化、ライブラリバージョンをアップグレード\r\n- ホワイトリストがシステムキャッシュクリーニングにも適用されるようになりました\r\n\r\n## FIX\r\n\r\n- 一部のシナリオでファイル操作がフリーズする可能性があるバグを修正\r\n- App の透明モードのアニメーション異常を修正\r\n\r\n</details>",
-        "htmlUrl": "https://github.com/FLYCOM-E/ClearBox/releases/tag/101-V5.2.1",
-        "immutable": true,
-        "name": "Version 5.2.1",
-        "prerelease": false,
-        "prop": {
-          "author": "FlyCome",
-          "description": "A Cleaner & More...",
-          "id": "wipe_cache",
-          "name": "ClearBox",
-          "str": "Are You,| OK 🍀？",
-          "updateJson": "https://raw.githubusercontent.com/FLYCOM-E/ClearBox/main/UpdateJson/@LANG/update.json",
-          "version": "V5.2.1",
-          "versionCode": "101"
-        },
-        "publishedAt": "2026-10-13T13:39:07Z",
-        "releaseId": 411715996,
-        "tag": "101-V5.2.1",
-        "tagCommit": "bc9e9feb246d1b0d826ca541adcfceebca0c8fc6",
-        "version": "V5.2.1",
-        "versionCode": 101
-      },
+      "stable": null,
       "stars": {
         "count": 55,
         "fetchedAt": "2026-10-22T03:18:21.907Z",
@@ -7061,8 +6338,8 @@
         "versionCode": 191
       },
       "stars": {
-        "count": 10,
-        "fetchedAt": "2026-10-21T07:45:23.617Z",
+        "count": 11,
+        "fetchedAt": "2026-10-22T15:16:40.084Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
