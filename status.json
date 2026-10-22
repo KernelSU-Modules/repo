@@ -1,7 +1,7 @@
 {
   "modules": {
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "c3e853053c4f8e0ed644e61b73043ee3689433cd",
+      "contentCommit": "748474f2f89b90305927eb611a9c659608c3f737",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -10,8 +10,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-10-22T14:36:33.718Z",
-        "commit": "c3e853053c4f8e0ed644e61b73043ee3689433cd",
+        "checkedAt": "2026-10-22T17:26:13.394Z",
+        "commit": "748474f2f89b90305927eb611a9c659608c3f737",
         "issues": [],
         "latestTag": "v1.2.6",
         "ok": true,
@@ -195,7 +195,7 @@
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
+      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing); releases-pending: releases are checked once module.yaml is valid",
       "repositoryId": 1305247883,
       "request": null,
       "stable": null
@@ -490,6 +490,23 @@
         "versionCode": 1088
       }
     },
+    "nomount": {
+      "contentCommit": "bf1847f98fed382369c43bfd652cd93774b9b8e3",
+      "fullName": "maxsteeel/nomount",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": "2026-10-22T17:26:13.394Z",
+      "maxVersionCode": 605,
+      "message": null,
+      "repositoryId": 1128821046,
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-22T16:42:59Z",
+        "tag": "v2.2.0",
+        "version": "v2.2.0 (605)",
+        "versionCode": 605
+      }
+    },
     "oh_my_keymint": {
       "contentCommit": "b12557c1569ed15150acd7886c825de500fc9ee9",
       "fullName": "qwq233/OhMyKeymint",
@@ -527,25 +544,19 @@
     "privacykit_zygisk": {
       "contentCommit": "35ef36b383dd389182cc9321f60e7b34e1e2480b",
       "fullName": "Mohithash/privacykit-zygisk",
-      "health": "error",
+      "health": "ok",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "release-none: The repository has no published release yet.",
+      "message": null,
       "repositoryId": 1425338410,
       "request": {
-        "checkedAt": "2026-10-22T15:16:40.084Z",
+        "checkedAt": "2026-10-22T17:26:13.394Z",
         "commit": "35ef36b383dd389182cc9321f60e7b34e1e2480b",
-        "issues": [
-          {
-            "code": "release-none",
-            "message": "The repository has no published release yet.",
-            "severity": "error"
-          }
-        ],
-        "latestTag": null,
-        "ok": false,
-        "releaseId": null,
+        "issues": [],
+        "latestTag": "v1.35",
+        "ok": true,
+        "releaseId": 417646228,
         "repositoryId": 1425338410,
         "submissionId": "f8l84bsyot"
       },

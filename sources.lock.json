@@ -2213,9 +2213,9 @@
       "fullName": "LxyaoX/VexZygisk",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
+        "lastAttemptAt": "2026-10-22T17:26:13.394Z",
         "lastSuccessAt": null,
-        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
+        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing); releases-pending: releases are checked once module.yaml is valid",
         "status": "error"
       },
       "id": "VexZygisk",
@@ -4883,6 +4883,177 @@
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
         "verified": "owner"
+      }
+    },
+    "nomount": {
+      "content": {
+        "blobs": {
+          "README.md": "8d84b7acc9a637f9fb4ab8ac35dc1722468be538",
+          "assets/module_1.jpg": "d09e2054cf969eb4f415a72a87762b43110537df",
+          "assets/module_2.jpg": "02f9169999fdc671da2b294c0f020806b2272bb8",
+          "assets/module_3.jpg": "23420dbf47a9fe32cfb93da3272187e59044b0a7",
+          "assets/module_4.jpg": "c5468305cb529b959b2d0b548f096074f974385a",
+          "assets/module_5.jpg": "ec0418448ac4b458537c3da764fbfd9d74979849",
+          "assets/module_6.jpg": "94da5903b4af47a787344635eb77236f3bd4a1e8",
+          "assets/module_7.jpg": "bcb56d53ab9a17422a5358e514e40a946a03f5be",
+          "assets/module_8.jpg": "2076a48c65dc005f1fa844fd1397b845441c7325",
+          "module.yaml": "7c1b26eca7783abf46a9ea41e18fa3f8189ffcf5"
+        },
+        "commit": "bf1847f98fed382369c43bfd652cd93774b9b8e3",
+        "fetchedAt": "2026-10-22T17:26:13.394Z",
+        "files": {
+          "README.md": "09f344c135dfa9b89c1faf8fb8d80dac37d09eed28be48eff3b6258057ff05ea",
+          "assets/module_1.jpg": "f27a988a931c741136dedbb46cf346c179f2d95eca99c53eb50e72e943d6bf18",
+          "assets/module_2.jpg": "a4b63917a451f4c2ae329710c2eed266d20da2f9cd186021741f4db5f5675d69",
+          "assets/module_3.jpg": "3f1032df07c51be55b3619a153cf85ca39d526c92f0e6f7661f5aad08bfc1750",
+          "assets/module_4.jpg": "e0460de72f22fcb56cc43e154759d0ff3fde6d05bd608493888688da9fc75a93",
+          "assets/module_5.jpg": "a0fb0f8ae772d5e57ff6585de869a66ec9dbbae8c5207f3cc1960ae1b5cb8d4b",
+          "assets/module_6.jpg": "fd5cbea168c6f051b80b499b3c58efc74552bb4c886da0348dc7c10e20540b4b",
+          "assets/module_7.jpg": "a7fd5d485aa4985374ea91a7ea162499f164d7488b3e8df4e32ce0eaba6850a9",
+          "assets/module_8.jpg": "0727d264fa5925b5c1e9473ebfee0e9c1440aaf77e42c169fba68bbc5123e86f",
+          "module.yaml": "9735749c6e5f0326826ea8c0102a94556f36586d08394a052e9818025a2957c8"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "master"
+      },
+      "fullName": "maxsteeel/nomount",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-22T17:26:13.394Z",
+        "lastSuccessAt": "2026-10-22T17:26:13.394Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "nomount",
+      "installationId": 170280783,
+      "maxStableVersionCode": 605,
+      "maxVersionCode": 605,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:d40277cb8f495b78711fb72e5f19a79ab2627eba2f0eb2aec60b5fc8019fae83",
+            "id": 666450301,
+            "name": "NoMount-v2.2.0-release-605.zip",
+            "sha256": "d40277cb8f495b78711fb72e5f19a79ab2627eba2f0eb2aec60b5fc8019fae83",
+            "size": 468780,
+            "url": "https://github.com/maxsteeel/nomount/releases/download/v2.2.0/NoMount-v2.2.0-release-605.zip"
+          },
+          "body": "## NoMount v2.2.0 is here!🎉\r\n\r\nThis release brings UID-scoped rules, opaque directory redirection, `.remove` support, and the biggest hot-path optimization pass we've ever shipped. The kernel driver and the metamodule **must be updated together**.\r\n\r\n> Commit count hit 605 on this release. Driver protocol is now v22. Thanks to everyone who kept reporting, bisecting and testing through the rough week 💙\r\n\r\n### Small Changelog:\r\n\r\n- kernel/:\r\n  - Wire protocol v22. `nm_rule_hdr` grew from 16 to 24 bytes and `nm_del_hdr` from 10 to 18 to fit the new UID range fields. A v22 CLI cannot talk to a v21 driver (and vice versa); the installer aborts if the running driver is older than v22.\r\n  - UID-scoped rules with ranges: `--uid-range 1000-5000` and `--uid-range all`. A single rule now covers a whole range without enumerating every UID.\r\n  - UID deny sub-ranges: `--uid-excluded 3000-4000`. Combine it with `--uid-range` for `[1000,5000] except [3000,4000]`, or use it alone as \"default except this range\". Rules with the same target range but different denies are rejected with `-EEXIST`; overlap between ranges is rejected too.\r\n  - Opaque directories: `--opaque`. A directory rule can hide the underlying filesystem entirely and only expose the module's leaves. This is what `.replace` with content actually meant: previously it whiteouted the whole directory and bootlooped when the hidden dir was a system app the framework needed.\r\n  - Pseudo filesystems (`proc`, `sysfs`, `devpts`, `debugfs`, `tracefs`, `selinuxfs`, `cgroup`, `bpf`) are no longer hijacked at the dentry level.\r\n  - Skip d_op installation on dentries that have no rule for their name. This is the biggest change in the release: it removes the d_revalidate tax on every non-rule lookup under a hijacked directory, which is most of them.\r\n  - Skip d_op installation on dentries in pseudo filesystems, and skip the `shrink_dcache_parent` pass when invalidating a single injected name. The `nm_hijack_dentry_ops` publication now uses `smp_store_release` and a single `d_flags` write.\r\n  - Hot-path micro-optimizations, reorder `nm_dir_ops` so the hot fields fit in one cache line, avoid `current_fsuid()` when the leaf is NULL, skip `nm_is_uid_blocked()` and `nm_find_leaf_in_dir()` when there is no leaf or no children, short-circuit `nm_dir_lookup` and `nm_d_revalidate_common` on directories without rules.\r\n  - `nm_d_revalidate_common` no longer reads `dentry->d_op` or `inode->i_op` when it does not need them, and chains to the original `d_revalidate` when the underlying filesystem has one.\r\n  - On unload, walk `i_dentry` to clear `d_op` before freeing module memory. Fixes the panic on `rmmod` with files open on virtual paths.\r\n  - `iget5_locked` hits no longer allocate an `nm_inode_info`; the probe uses a stack struct and `kmalloc` only happens for `I_NEW`. `d_add` instead of `d_splice_alias` for fresh file inodes.\r\n  - Probe `xattr_handler->__get` via header grep instead of `LINUX_VERSION_CODE`, so kernel trees that never backported the member compile again.\r\n  - `inode_state_read_once` for I_NEW checks (mainline >=6.19 compatibility).\r\n  - Deferred reclaim of rules and leaves moved fully to process context. `nm clear rules` no longer blocks on `synchronize_rcu`.\r\n  - Internal naming unified to the `nm_` prefix.\r\n\r\n- userspace/:\r\n  - `--uid-range <a>-<b>`, `--uid-range all`, `--uid-excluded <c>-<d>`, and `--opaque` flags.\r\n  - `nm rule list` prints `[UID: a-b excl c-d]` and emits `\"opaque\": true` in the JSON output.\r\n  - Streamlined absolute path handling, chunked output for large rule lists.\r\n\r\n- module/:\r\n  - `common.sh` holds the boot pipeline: bootloop detection keyed on `/proc/sys/kernel/random/boot_id`, LKM loading, module disable. `post-fs-data.sh` and `metamount.sh` are thin wrappers over it.\r\n  - Boot order is now correct on both KernelSU and APatch. The previous flow silently lost rules on APatch (and sometimes in KernelSU with specific setups) because metamount.sh ran before the LKM was loaded.\r\n  - Bootloop detection no longer relies on `.booting` existence; a successful boot clears the file, a failed boot keeps the boot_id and the next boot disables the module.\r\n   - `.remove` support: Magisk's .remove marker is recognized alongside `.replace` (`.replace` with content → opaque rule, `.replace` alone → whiteout, `.remove` → whiteout).  `rule-paths.sh` gains `path`, `pair`, `opaque` and `del` kinds, and both `metamount.sh` and the WebUI's hot load/unload use the same flow. Hot unload now deletes opaque rules too.\r\n  - `x86_64` build support: new CI matrix entry, `lkmloader-x86_64`, `nm-x86_64`, and `ARCH_BIN` normalization for KernelSU's `x64` label.\r\n  - Installer aborts if the running driver is below v22, and falls back to the previous LKM if a v22 KO is staged for the next boot. Reboot is required to activate the new driver in LKM mode.\r\n\r\n- webui/:\r\n  - Skip / Unskip button on each module card (creates or deletes `skip_mount`).\r\n  - Persist the \"Show system apps\" toggle across reloads.\r\n  - Back gesture closes the right dialog in every navigation state (fixed double back navigation).\r\n  - AMOLED palette adjustments and clear button corner fix.\r\n\r\nand a lot of other misc changes :)\r\n\r\n#### Thanks to everyone who kept testing, contributing and reporting through the rough bits: @ZQZCC, @nleloc, @sohan-f, and the testers on the Telegram group 🫂\r\n\r\n**Full Changelog**: https://github.com/maxsteeel/nomount/compare/v2.1.1...v2.2.0",
+          "htmlUrl": "https://github.com/maxsteeel/nomount/releases/tag/v2.2.0",
+          "immutable": true,
+          "name": "NoMount v2.2.0",
+          "prerelease": false,
+          "prop": {
+            "author": "maxsteeel",
+            "description": "A metamodule that replaces OverlayFS/MagicMount with VFS path redirection.",
+            "id": "nomount",
+            "metamodule": "true",
+            "name": "NoMount",
+            "updateJson": "https://raw.githubusercontent.com/maxsteeel/nomount/master/update.json",
+            "version": "v2.2.0 (605)",
+            "versionCode": "605"
+          },
+          "publishedAt": "2026-10-22T16:42:59Z",
+          "releaseId": 420948781,
+          "tag": "v2.2.0",
+          "tagCommit": "bf1847f98fed382369c43bfd652cd93774b9b8e3",
+          "version": "v2.2.0 (605)",
+          "versionCode": 605
+        }
+      ],
+      "repositoryId": 1128821046,
+      "seen": {
+        "275393410": {
+          "checkedAt": "2026-10-22T17:26:13.394Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "284655027": {
+          "checkedAt": "2026-10-22T17:26:13.394Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "329339365": {
+          "checkedAt": "2026-10-22T17:26:13.394Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "342903338": {
+          "checkedAt": "2026-10-22T17:26:13.394Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "366910713": {
+          "checkedAt": "2026-10-22T17:26:13.394Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "375655454": {
+          "checkedAt": "2026-10-22T17:26:13.394Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "404376144": {
+          "checkedAt": "2026-10-22T17:26:13.394Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "411397104": {
+          "checkedAt": "2026-10-22T17:26:13.394Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "420948781": {
+          "checkedAt": "2026-10-22T17:26:13.394Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:d40277cb8f495b78711fb72e5f19a79ab2627eba2f0eb2aec60b5fc8019fae83",
+          "id": 666450301,
+          "name": "NoMount-v2.2.0-release-605.zip",
+          "sha256": "d40277cb8f495b78711fb72e5f19a79ab2627eba2f0eb2aec60b5fc8019fae83",
+          "size": 468780,
+          "url": "https://github.com/maxsteeel/nomount/releases/download/v2.2.0/NoMount-v2.2.0-release-605.zip"
+        },
+        "body": "## NoMount v2.2.0 is here!🎉\r\n\r\nThis release brings UID-scoped rules, opaque directory redirection, `.remove` support, and the biggest hot-path optimization pass we've ever shipped. The kernel driver and the metamodule **must be updated together**.\r\n\r\n> Commit count hit 605 on this release. Driver protocol is now v22. Thanks to everyone who kept reporting, bisecting and testing through the rough week 💙\r\n\r\n### Small Changelog:\r\n\r\n- kernel/:\r\n  - Wire protocol v22. `nm_rule_hdr` grew from 16 to 24 bytes and `nm_del_hdr` from 10 to 18 to fit the new UID range fields. A v22 CLI cannot talk to a v21 driver (and vice versa); the installer aborts if the running driver is older than v22.\r\n  - UID-scoped rules with ranges: `--uid-range 1000-5000` and `--uid-range all`. A single rule now covers a whole range without enumerating every UID.\r\n  - UID deny sub-ranges: `--uid-excluded 3000-4000`. Combine it with `--uid-range` for `[1000,5000] except [3000,4000]`, or use it alone as \"default except this range\". Rules with the same target range but different denies are rejected with `-EEXIST`; overlap between ranges is rejected too.\r\n  - Opaque directories: `--opaque`. A directory rule can hide the underlying filesystem entirely and only expose the module's leaves. This is what `.replace` with content actually meant: previously it whiteouted the whole directory and bootlooped when the hidden dir was a system app the framework needed.\r\n  - Pseudo filesystems (`proc`, `sysfs`, `devpts`, `debugfs`, `tracefs`, `selinuxfs`, `cgroup`, `bpf`) are no longer hijacked at the dentry level.\r\n  - Skip d_op installation on dentries that have no rule for their name. This is the biggest change in the release: it removes the d_revalidate tax on every non-rule lookup under a hijacked directory, which is most of them.\r\n  - Skip d_op installation on dentries in pseudo filesystems, and skip the `shrink_dcache_parent` pass when invalidating a single injected name. The `nm_hijack_dentry_ops` publication now uses `smp_store_release` and a single `d_flags` write.\r\n  - Hot-path micro-optimizations, reorder `nm_dir_ops` so the hot fields fit in one cache line, avoid `current_fsuid()` when the leaf is NULL, skip `nm_is_uid_blocked()` and `nm_find_leaf_in_dir()` when there is no leaf or no children, short-circuit `nm_dir_lookup` and `nm_d_revalidate_common` on directories without rules.\r\n  - `nm_d_revalidate_common` no longer reads `dentry->d_op` or `inode->i_op` when it does not need them, and chains to the original `d_revalidate` when the underlying filesystem has one.\r\n  - On unload, walk `i_dentry` to clear `d_op` before freeing module memory. Fixes the panic on `rmmod` with files open on virtual paths.\r\n  - `iget5_locked` hits no longer allocate an `nm_inode_info`; the probe uses a stack struct and `kmalloc` only happens for `I_NEW`. `d_add` instead of `d_splice_alias` for fresh file inodes.\r\n  - Probe `xattr_handler->__get` via header grep instead of `LINUX_VERSION_CODE`, so kernel trees that never backported the member compile again.\r\n  - `inode_state_read_once` for I_NEW checks (mainline >=6.19 compatibility).\r\n  - Deferred reclaim of rules and leaves moved fully to process context. `nm clear rules` no longer blocks on `synchronize_rcu`.\r\n  - Internal naming unified to the `nm_` prefix.\r\n\r\n- userspace/:\r\n  - `--uid-range <a>-<b>`, `--uid-range all`, `--uid-excluded <c>-<d>`, and `--opaque` flags.\r\n  - `nm rule list` prints `[UID: a-b excl c-d]` and emits `\"opaque\": true` in the JSON output.\r\n  - Streamlined absolute path handling, chunked output for large rule lists.\r\n\r\n- module/:\r\n  - `common.sh` holds the boot pipeline: bootloop detection keyed on `/proc/sys/kernel/random/boot_id`, LKM loading, module disable. `post-fs-data.sh` and `metamount.sh` are thin wrappers over it.\r\n  - Boot order is now correct on both KernelSU and APatch. The previous flow silently lost rules on APatch (and sometimes in KernelSU with specific setups) because metamount.sh ran before the LKM was loaded.\r\n  - Bootloop detection no longer relies on `.booting` existence; a successful boot clears the file, a failed boot keeps the boot_id and the next boot disables the module.\r\n   - `.remove` support: Magisk's .remove marker is recognized alongside `.replace` (`.replace` with content → opaque rule, `.replace` alone → whiteout, `.remove` → whiteout).  `rule-paths.sh` gains `path`, `pair`, `opaque` and `del` kinds, and both `metamount.sh` and the WebUI's hot load/unload use the same flow. Hot unload now deletes opaque rules too.\r\n  - `x86_64` build support: new CI matrix entry, `lkmloader-x86_64`, `nm-x86_64`, and `ARCH_BIN` normalization for KernelSU's `x64` label.\r\n  - Installer aborts if the running driver is below v22, and falls back to the previous LKM if a v22 KO is staged for the next boot. Reboot is required to activate the new driver in LKM mode.\r\n\r\n- webui/:\r\n  - Skip / Unskip button on each module card (creates or deletes `skip_mount`).\r\n  - Persist the \"Show system apps\" toggle across reloads.\r\n  - Back gesture closes the right dialog in every navigation state (fixed double back navigation).\r\n  - AMOLED palette adjustments and clear button corner fix.\r\n\r\nand a lot of other misc changes :)\r\n\r\n#### Thanks to everyone who kept testing, contributing and reporting through the rough bits: @ZQZCC, @nleloc, @sohan-f, and the testers on the Telegram group 🫂\r\n\r\n**Full Changelog**: https://github.com/maxsteeel/nomount/compare/v2.1.1...v2.2.0",
+        "htmlUrl": "https://github.com/maxsteeel/nomount/releases/tag/v2.2.0",
+        "immutable": true,
+        "name": "NoMount v2.2.0",
+        "prerelease": false,
+        "prop": {
+          "author": "maxsteeel",
+          "description": "A metamodule that replaces OverlayFS/MagicMount with VFS path redirection.",
+          "id": "nomount",
+          "metamodule": "true",
+          "name": "NoMount",
+          "updateJson": "https://raw.githubusercontent.com/maxsteeel/nomount/master/update.json",
+          "version": "v2.2.0 (605)",
+          "versionCode": "605"
+        },
+        "publishedAt": "2026-10-22T16:42:59Z",
+        "releaseId": 420948781,
+        "tag": "v2.2.0",
+        "tagCommit": "bf1847f98fed382369c43bfd652cd93774b9b8e3",
+        "version": "v2.2.0 (605)",
+        "versionCode": 605
+      },
+      "stars": {
+        "count": 530,
+        "fetchedAt": "2026-10-22T17:26:13.394Z",
+        "fullName": "maxsteeel/nomount",
+        "repositoryId": 1128821046,
+        "verified": "self"
       }
     },
     "oh_my_keymint": {
