@@ -1,19 +1,23 @@
 id: nomount
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1128821046
+  ownerId: 109047395
+  fullName: maxsteeel/nomount
+  manifestPath: module.yaml
+review:
   submissionId: fsxkyouxx2
   kind: submit
-  source:
-    host: github
-    repositoryId: 1128821046
-    ownerId: 109047395
-    fullName: maxsteeel/nomount
-    manifestPath: module.yaml
   submittedBy: 109047395
-  submittedByLogin: maxsteeel
   submittedAt: 2026-10-22T16:46:44.897Z
+  decision: approved
+  decidedBy: 185127155
+  decidedVia: telegram
+  decidedAt: 2026-10-22T16:52:24.666Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64570
 createdAt: 2026-10-22T16:46:44.897Z
-updatedAt: 2026-10-22T16:46:44.897Z
+updatedAt: 2026-10-22T16:52:24.666Z
