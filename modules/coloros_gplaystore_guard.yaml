@@ -1,0 +1,19 @@
+id: coloros_gplaystore_guard
+status: pending
+request:
+  submissionId: 8jzgchogbk
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1429856603
+    ownerId: 62016462
+    fullName: BHLuotianyi/ColorOS-Google-Play-Store-Guard
+    manifestPath: module.yaml
+  submittedBy: 62016462
+  submittedByLogin: BHLuotianyi
+  submittedAt: 2026-10-22T15:16:11.560Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64569
+createdAt: 2026-10-22T15:16:11.560Z
+updatedAt: 2026-10-22T15:16:11.560Z
