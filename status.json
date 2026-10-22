@@ -1,5 +1,26 @@
 {
   "modules": {
+    "AD_Killer_By_NFQUEUE": {
+      "contentCommit": "c3e853053c4f8e0ed644e61b73043ee3689433cd",
+      "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1428389721,
+      "request": {
+        "checkedAt": "2026-10-22T14:36:33.718Z",
+        "commit": "c3e853053c4f8e0ed644e61b73043ee3689433cd",
+        "issues": [],
+        "latestTag": "v1.2.6",
+        "ok": true,
+        "releaseId": 420818354,
+        "repositoryId": 1428389721,
+        "submissionId": "7odtl2oc3j"
+      },
+      "stable": null
+    },
     "AZenith": {
       "contentCommit": "51076b4eee039a69f164b30abc99d7cab8e37f59",
       "fullName": "Liliya2727/AZenith",
@@ -534,11 +555,11 @@
       "stable": null
     },
     "sidewire": {
-      "contentCommit": "3e90036f70c9859ea1c656efe8c29791e4c90039",
+      "contentCommit": "c2b8c321c07acf3f37828f60ab4e1151819ad30a",
       "fullName": "mzggr0914/sidewire",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-21T23:23:43.405Z",
+      "lastSuccessAt": "2026-10-22T14:36:33.718Z",
       "maxVersionCode": 30,
       "message": null,
       "repositoryId": 1354975640,

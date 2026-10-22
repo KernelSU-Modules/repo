@@ -2085,8 +2085,8 @@
         "versionCode": 21
       },
       "stars": {
-        "count": 68,
-        "fetchedAt": "2026-10-21T10:45:40.727Z",
+        "count": 73,
+        "fetchedAt": "2026-10-22T14:36:33.718Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -3864,8 +3864,8 @@
         "versionCode": 111
       },
       "stars": {
-        "count": 119,
-        "fetchedAt": "2026-10-18T03:49:53.212Z",
+        "count": 120,
+        "fetchedAt": "2026-10-22T14:36:33.718Z",
         "fullName": "Ylarod/enable-miui-adb",
         "repositoryId": 457318262,
         "verified": "self"
@@ -4975,8 +4975,8 @@
         "versionCode": 400012
       },
       "stars": {
-        "count": 575,
-        "fetchedAt": "2026-10-21T07:45:23.617Z",
+        "count": 576,
+        "fetchedAt": "2026-10-22T14:36:33.718Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
@@ -5785,13 +5785,13 @@
     "sidewire": {
       "content": {
         "blobs": {
-          "README.md": "e9a026d9544a1884c63850460e070736c7b5b10f",
+          "README.md": "12928b4df1d2239aebbc4b579bdf2070baf64379",
           "module.yaml": "21f029a117718a5d47065fbb392239c47ac5c3ce"
         },
-        "commit": "3e90036f70c9859ea1c656efe8c29791e4c90039",
-        "fetchedAt": "2026-10-21T23:23:43.405Z",
+        "commit": "c2b8c321c07acf3f37828f60ab4e1151819ad30a",
+        "fetchedAt": "2026-10-22T14:36:33.718Z",
         "files": {
-          "README.md": "f0dd8560ca752f60150443fbc0b128d9e5de0a2a0f02d0ef927592e76041fbab",
+          "README.md": "f93b3838d128f99c94179cb6aae8f494918df0f7ec39e024f4506bf159381d7e",
           "module.yaml": "f237eec8538f09d9ffd4d3f8aac6680edeb9e2fef773127210ecc185f2957ed8"
         },
         "manifestPath": "module.yaml",
@@ -5800,8 +5800,8 @@
       "fullName": "mzggr0914/sidewire",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-21T23:23:43.405Z",
-        "lastSuccessAt": "2026-10-21T23:23:43.405Z",
+        "lastAttemptAt": "2026-10-22T14:36:33.718Z",
+        "lastSuccessAt": "2026-10-22T14:36:33.718Z",
         "message": null,
         "status": "ok"
       },
