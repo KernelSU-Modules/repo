@@ -1,0 +1,19 @@
+id: nomount
+status: pending
+request:
+  submissionId: fsxkyouxx2
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1128821046
+    ownerId: 109047395
+    fullName: maxsteeel/nomount
+    manifestPath: module.yaml
+  submittedBy: 109047395
+  submittedByLogin: maxsteeel
+  submittedAt: 2026-10-22T16:46:44.897Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64570
+createdAt: 2026-10-22T16:46:44.897Z
+updatedAt: 2026-10-22T16:46:44.897Z
