@@ -216,8 +216,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 137,
-        "fetchedAt": "2026-10-21T02:10:31.941Z",
+        "count": 138,
+        "fetchedAt": "2026-10-22T08:52:44.882Z",
         "fullName": "Liliya2727/AZenith",
         "repositoryId": 937420284,
         "verified": "self"
@@ -3260,8 +3260,8 @@
         "versionCode": 20260926
       },
       "stars": {
-        "count": 840,
-        "fetchedAt": "2026-10-21T02:10:31.941Z",
+        "count": 841,
+        "fetchedAt": "2026-10-22T08:52:44.882Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -4718,8 +4718,8 @@
         "versionCode": 40005
       },
       "stars": {
-        "count": 13,
-        "fetchedAt": "2026-10-21T02:10:31.941Z",
+        "count": 14,
+        "fetchedAt": "2026-10-22T08:52:44.882Z",
         "fullName": "cyanmint/lkm4ctr",
         "repositoryId": 1313308146,
         "verified": "self"
@@ -6510,17 +6510,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-19T06:34:00.450Z",
-        "lastSuccessAt": "2026-10-19T06:34:00.450Z",
+        "lastAttemptAt": "2026-10-22T08:52:44.882Z",
+        "lastSuccessAt": "2026-10-22T08:52:44.882Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 568,
-      "maxVersionCode": 568,
+      "maxStableVersionCode": 569,
+      "maxVersionCode": 569,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621",
+            "id": 665245646,
+            "name": "Sui-v13.5.4.3_569-8d2392a-release.zip",
+            "sha256": "00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621",
+            "size": 1454699,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v569-8d2392a/Sui-v13.5.4.3_569-8d2392a-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (569-8d2392a-release)`\n- **VersionCode:** `569`\n- **Commit:** [`8d2392a`](https://github.com/XiaoTong6666/Sui/commit/8d2392a9e4d8a079efa4badeb268c05501a48398)\n- **Build time:** `2m 40s`\n- **SHA256:** `00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621`\n\n## Message\n\n```text\nfeat(adb): add selectable Zygisk Next injection backend, Meow\n\n给 ADB Root 菜单加了「ZN 注入」开关，勾选走 Zygisk Next，取消就继续用 Bind Mount，选择会保存到 /data/adb/sui 的标志文件里喵（轻轻拨动开关）\n\n通过官方 ZN API v4 给 adbd 安装 PLT Hook，保留 Root 上下文和 socket 标签处理，不再依赖替换 adbd 可执行文件喵（伸爪检查）\n\n初始化加入状态反馈和失败回滚，后端选择不再判断 Android 版本，注入失败也不会悄悄切回 Bind Mount 喵（收好小尾巴）\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v569-8d2392a",
+          "immutable": true,
+          "name": "v13.5.4.3 (569-8d2392a-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (569-8d2392a-release)",
+            "versionCode": "569"
+          },
+          "publishedAt": "2026-10-22T08:52:15Z",
+          "releaseId": 420494653,
+          "tag": "v569-8d2392a",
+          "tagCommit": "76017740f3aab1b8eb7d1a04f19848154d1381bf",
+          "version": "v13.5.4.3 (569-8d2392a-release)",
+          "versionCode": 569
+        },
         {
           "asset": {
             "digest": "sha256:ad4746d41e9933fa3fb2a5235ed7348c0e28233e6cc64fa9436cd8dc2ff0d7a2",
@@ -6769,21 +6799,25 @@
         "416977906": {
           "checkedAt": "2026-10-19T06:34:00.450Z",
           "ok": true
+        },
+        "420494653": {
+          "checkedAt": "2026-10-22T08:52:44.882Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:ad4746d41e9933fa3fb2a5235ed7348c0e28233e6cc64fa9436cd8dc2ff0d7a2",
-          "id": 655449638,
-          "name": "Sui-v13.5.4.3_568-d92eb95-release.zip",
-          "sha256": "ad4746d41e9933fa3fb2a5235ed7348c0e28233e6cc64fa9436cd8dc2ff0d7a2",
-          "size": 1438623,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v568-d92eb95/Sui-v13.5.4.3_568-d92eb95-release.zip"
+          "digest": "sha256:00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621",
+          "id": 665245646,
+          "name": "Sui-v13.5.4.3_569-8d2392a-release.zip",
+          "sha256": "00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621",
+          "size": 1454699,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v569-8d2392a/Sui-v13.5.4.3_569-8d2392a-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (568-d92eb95-release)`\n- **VersionCode:** `568`\n- **Commit:** [`d92eb95`](https://github.com/XiaoTong6666/Sui/commit/d92eb95aed8854368497fa713aa80d2974a4bc91)\n- **Build time:** `2m 39s`\n- **SHA256:** `ad4746d41e9933fa3fb2a5235ed7348c0e28233e6cc64fa9436cd8dc2ff0d7a2`\n\n## Message\n\n```text\nbuild(deps): bump material-color-utilities-android to 6.0.0\n\nUpgrade MaterialKolor color utilities from 5.0.1 to 6.0.0.\n\nUpdate the DynamicScheme import to its new dynamiccolor package for 6.0 compatibility.\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v568-d92eb95",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (569-8d2392a-release)`\n- **VersionCode:** `569`\n- **Commit:** [`8d2392a`](https://github.com/XiaoTong6666/Sui/commit/8d2392a9e4d8a079efa4badeb268c05501a48398)\n- **Build time:** `2m 40s`\n- **SHA256:** `00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621`\n\n## Message\n\n```text\nfeat(adb): add selectable Zygisk Next injection backend, Meow\n\n给 ADB Root 菜单加了「ZN 注入」开关，勾选走 Zygisk Next，取消就继续用 Bind Mount，选择会保存到 /data/adb/sui 的标志文件里喵（轻轻拨动开关）\n\n通过官方 ZN API v4 给 adbd 安装 PLT Hook，保留 Root 上下文和 socket 标签处理，不再依赖替换 adbd 可执行文件喵（伸爪检查）\n\n初始化加入状态反馈和失败回滚，后端选择不再判断 Android 版本，注入失败也不会悄悄切回 Bind Mount 喵（收好小尾巴）\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v569-8d2392a",
         "immutable": true,
-        "name": "v13.5.4.3 (568-d92eb95-release)",
+        "name": "v13.5.4.3 (569-8d2392a-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -6791,15 +6825,15 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (568-d92eb95-release)",
-          "versionCode": "568"
+          "version": "v13.5.4.3 (569-8d2392a-release)",
+          "versionCode": "569"
         },
-        "publishedAt": "2026-10-19T06:33:33Z",
-        "releaseId": 416977906,
-        "tag": "v568-d92eb95",
-        "tagCommit": "5692b3d02fbc9a864babe190754d2914d2230644",
-        "version": "v13.5.4.3 (568-d92eb95-release)",
-        "versionCode": 568
+        "publishedAt": "2026-10-22T08:52:15Z",
+        "releaseId": 420494653,
+        "tag": "v569-8d2392a",
+        "tagCommit": "76017740f3aab1b8eb7d1a04f19848154d1381bf",
+        "version": "v13.5.4.3 (569-8d2392a-release)",
+        "versionCode": 569
       },
       "stars": {
         "count": 4,
