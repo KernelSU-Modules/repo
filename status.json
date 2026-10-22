@@ -38,21 +38,17 @@
       "fullName": "AlirezaParsi/COPG",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-22T19:33:48.189Z",
+      "maxVersionCode": 751,
       "message": null,
       "repositoryId": 950100740,
-      "request": {
-        "checkedAt": "2026-10-22T18:43:15.811Z",
-        "commit": "1b6718d56e44842779d1be18019a57f9d159c17a",
-        "issues": [],
-        "latestTag": "v7.5.1",
-        "ok": true,
-        "releaseId": 421070584,
-        "repositoryId": 950100740,
-        "submissionId": "16apspo9y4"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-22T18:40:29Z",
+        "tag": "v7.5.1",
+        "version": "7.5.1",
+        "versionCode": 751
+      }
     },
     "CRecordEvolution": {
       "contentCommit": "70a3af41dcd1fbaefb5e85c722481880ad4fd68f",

@@ -223,6 +223,293 @@
         "verified": "self"
       }
     },
+    "COPG": {
+      "content": {
+        "blobs": {
+          "README.md": "9318979ad7abec1e5f1a2cc4e99a29851dbdb5c5",
+          "module.yaml": "65c97353e48968b9871bca6f9725e725a3968f8e",
+          "webroot/icon.png": "5519173a9f787695f892487d2cc1d7a51eccf8c3"
+        },
+        "commit": "1b6718d56e44842779d1be18019a57f9d159c17a",
+        "fetchedAt": "2026-10-22T19:33:48.189Z",
+        "files": {
+          "README.md": "504b9d540e625540975e725a098a9a055bfa3039bc4811ca401cff3ea6765cfd",
+          "module.yaml": "8b8a5dc946de9df87dc6dc62b320e4a1ef8c1bb64e4f1a17dbcdf0ea61c46f90",
+          "webroot/icon.png": "4b6804c0f27f12f59c55c566835f2bbffd16dfab66f8415cc175bc5a09ad2e9b"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "JSON"
+      },
+      "fullName": "AlirezaParsi/COPG",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-22T19:33:48.189Z",
+        "lastSuccessAt": "2026-10-22T19:33:48.189Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "COPG",
+      "installationId": 174213522,
+      "maxStableVersionCode": 751,
+      "maxVersionCode": 751,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:b7bb33fc666913a67a8b878d3944a536d3b9da77575bb11a4d48c941f9458527",
+            "id": 666732349,
+            "name": "COPG-v7.5.1.zip",
+            "sha256": "b7bb33fc666913a67a8b878d3944a536d3b9da77575bb11a4d48c941f9458527",
+            "size": 9083199,
+            "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.5.1/COPG-v7.5.1.zip"
+          },
+          "body": "## COPG v7.5.1\n\n*Hotfix: Concurrent Mic now works on the official release build.*\n\n### Concurrent Mic — fixed\n*   **Concurrent Mic now actually works from the released module.** In v7.5.0 the feature worked on self-compiled builds but silently did nothing on the official release — the shipped audio payload failed to load into the audio server, so the mic was never shared between apps. Fixed the loader so the release build installs the hook correctly. If you enabled Concurrent Mic on v7.5.0 and nothing happened, update to v7.5.1 and try again (a reboot applies it).\n\n---\n---\n**Build Date**: 2026-10-09 05:57:58 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n\n",
+          "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.5.1",
+          "immutable": true,
+          "name": "COPG v7.5.1",
+          "prerelease": false,
+          "prop": {
+            "author": "AlirezaParsi",
+            "banner": "banner.png",
+            "description": "Spoof your device for games/apps to unlock new features. Website: https://vendors.copg.my",
+            "id": "COPG",
+            "minMagisk": "20.4",
+            "name": "✨ COPG SPOOF ✨",
+            "support": "https://t.me/theaosp",
+            "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
+            "version": "7.5.1",
+            "versionCode": "751"
+          },
+          "publishedAt": "2026-10-22T18:40:29Z",
+          "releaseId": 421070584,
+          "tag": "v7.5.1",
+          "tagCommit": "bd8d064f80640586679272b4627ab9405c437292",
+          "version": "7.5.1",
+          "versionCode": 751
+        }
+      ],
+      "repositoryId": 950100740,
+      "seen": {
+        "247101862": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "248788847": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "248800499": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "262661772": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "269465238": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "269560664": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "273596314": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "349164231": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "349173556": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "350531858": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "350545270": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "353602275": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "356996052": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "359462345": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "361474490": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "361481997": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "361485651": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "364092174": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "366667678": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367806971": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "369699367": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "372364783": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "376591831": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "379678753": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "382351696": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "386862343": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387547906": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "399219515": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "407125210": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "421070584": {
+          "checkedAt": "2026-10-22T19:33:48.189Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:b7bb33fc666913a67a8b878d3944a536d3b9da77575bb11a4d48c941f9458527",
+          "id": 666732349,
+          "name": "COPG-v7.5.1.zip",
+          "sha256": "b7bb33fc666913a67a8b878d3944a536d3b9da77575bb11a4d48c941f9458527",
+          "size": 9083199,
+          "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.5.1/COPG-v7.5.1.zip"
+        },
+        "body": "## COPG v7.5.1\n\n*Hotfix: Concurrent Mic now works on the official release build.*\n\n### Concurrent Mic — fixed\n*   **Concurrent Mic now actually works from the released module.** In v7.5.0 the feature worked on self-compiled builds but silently did nothing on the official release — the shipped audio payload failed to load into the audio server, so the mic was never shared between apps. Fixed the loader so the release build installs the hook correctly. If you enabled Concurrent Mic on v7.5.0 and nothing happened, update to v7.5.1 and try again (a reboot applies it).\n\n---\n---\n**Build Date**: 2026-10-09 05:57:58 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n\n",
+        "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.5.1",
+        "immutable": true,
+        "name": "COPG v7.5.1",
+        "prerelease": false,
+        "prop": {
+          "author": "AlirezaParsi",
+          "banner": "banner.png",
+          "description": "Spoof your device for games/apps to unlock new features. Website: https://vendors.copg.my",
+          "id": "COPG",
+          "minMagisk": "20.4",
+          "name": "✨ COPG SPOOF ✨",
+          "support": "https://t.me/theaosp",
+          "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
+          "version": "7.5.1",
+          "versionCode": "751"
+        },
+        "publishedAt": "2026-10-22T18:40:29Z",
+        "releaseId": 421070584,
+        "tag": "v7.5.1",
+        "tagCommit": "bd8d064f80640586679272b4627ab9405c437292",
+        "version": "7.5.1",
+        "versionCode": 751
+      },
+      "stars": {
+        "count": 406,
+        "fetchedAt": "2026-10-22T19:33:48.189Z",
+        "fullName": "AlirezaParsi/COPG",
+        "repositoryId": 950100740,
+        "verified": "self"
+      }
+    },
     "CRecordEvolution": {
       "content": {
         "blobs": {
@@ -6284,8 +6571,8 @@
         "versionCode": 569
       },
       "stars": {
-        "count": 4,
-        "fetchedAt": "2026-10-21T07:45:23.617Z",
+        "count": 5,
+        "fetchedAt": "2026-10-22T19:33:48.189Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
