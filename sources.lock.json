@@ -2065,8 +2065,8 @@
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-23T10:22:51.590Z",
-        "lastSuccessAt": "2026-10-23T10:22:51.590Z",
+        "lastAttemptAt": "2026-10-23T10:26:11.645Z",
+        "lastSuccessAt": "2026-10-23T10:26:11.645Z",
         "message": null,
         "status": "ok"
       },
@@ -2085,7 +2085,7 @@
             "size": 267182,
             "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.23/ReSuSFS.zip"
           },
-          "body": "## ReSuSFS v26.10.23 Changelog\n\n### 🧹 Chores\n\n- bump version to 26.10.23 (@ahmed-alnassif)\n",
+          "body": "## ReSuSFS v26.10.23 Changelog\r\n\r\n> [!Note]\r\n> This release is the same as previous release (v26.10.21) but released to list the module in KernelSU modules repo\r\n\r\n### 🧹 Chores\r\n\r\n- bump version to 26.10.23 (@ahmed-alnassif)\r\n\r\n## Previous release\r\n\r\n### 🌐 WebUI\r\n\r\n- **fix:** fix the editor throwing an error when it closes (@ahmed-alnassif)\r\n\r\n### 🧩 Module\r\n\r\n- **refactor:** skip config prompts on fresh installs with no configs (@ahmed-alnassif)\r\n- **fix:** default CONFIGURE to true so ReSuSFS dir isn't left empty (@ahmed-alnassif)\r\n\r\n### ✨ Features\r\n\r\n- update the module icon (@ahmed-alnassif)\r\n\r\n### 📚 Documentation\r\n\r\n- update README for LKM support, scheduling and UserHub (@ahmed-alnassif)\r\n- update ReSuSFS description (@ahmed-alnassif)\r\n\r\n### ⚙️ CI/CD\r\n\r\n- use -9 max compression for smaller release zip to speed up user downloads (@ahmed-alnassif)\r\n\r\n### 🧹 Chores\r\n\r\n- bump version to v26.10.21 (@ahmed-alnassif)\r\n\r\n### 🤖 Automated\r\n\r\n- webui(deps): Bump marked in /webui in the webui-deps group (#26)\r\n- ",
           "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.23",
           "immutable": true,
           "name": "ReSuSFS v26.10.23",
@@ -2241,7 +2241,7 @@
           "size": 267182,
           "url": "https://github.com/ahmed-alnassif/ReSuSFS/releases/download/v26.10.23/ReSuSFS.zip"
         },
-        "body": "## ReSuSFS v26.10.23 Changelog\n\n### 🧹 Chores\n\n- bump version to 26.10.23 (@ahmed-alnassif)\n",
+        "body": "## ReSuSFS v26.10.23 Changelog\r\n\r\n> [!Note]\r\n> This release is the same as previous release (v26.10.21) but released to list the module in KernelSU modules repo\r\n\r\n### 🧹 Chores\r\n\r\n- bump version to 26.10.23 (@ahmed-alnassif)\r\n\r\n## Previous release\r\n\r\n### 🌐 WebUI\r\n\r\n- **fix:** fix the editor throwing an error when it closes (@ahmed-alnassif)\r\n\r\n### 🧩 Module\r\n\r\n- **refactor:** skip config prompts on fresh installs with no configs (@ahmed-alnassif)\r\n- **fix:** default CONFIGURE to true so ReSuSFS dir isn't left empty (@ahmed-alnassif)\r\n\r\n### ✨ Features\r\n\r\n- update the module icon (@ahmed-alnassif)\r\n\r\n### 📚 Documentation\r\n\r\n- update README for LKM support, scheduling and UserHub (@ahmed-alnassif)\r\n- update ReSuSFS description (@ahmed-alnassif)\r\n\r\n### ⚙️ CI/CD\r\n\r\n- use -9 max compression for smaller release zip to speed up user downloads (@ahmed-alnassif)\r\n\r\n### 🧹 Chores\r\n\r\n- bump version to v26.10.21 (@ahmed-alnassif)\r\n\r\n### 🤖 Automated\r\n\r\n- webui(deps): Bump marked in /webui in the webui-deps group (#26)\r\n- ",
         "htmlUrl": "https://github.com/ahmed-alnassif/ReSuSFS/releases/tag/v26.10.23",
         "immutable": true,
         "name": "ReSuSFS v26.10.23",
