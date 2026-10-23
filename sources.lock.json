@@ -7019,17 +7019,47 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-19T12:19:54.344Z",
-        "lastSuccessAt": "2026-10-19T12:19:54.344Z",
+        "lastAttemptAt": "2026-10-23T14:45:45.880Z",
+        "lastSuccessAt": "2026-10-23T14:45:45.880Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 212,
-      "maxVersionCode": 212,
+      "maxStableVersionCode": 220,
+      "maxVersionCode": 220,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:5ec1ef79c6b18854f55d60fdff7374b60d55e3bb8ae636873183b537d4218702",
+            "id": 669424543,
+            "name": "ZNNext-v2.0.1-220-f941574-release.zip",
+            "sha256": "5ec1ef79c6b18854f55d60fdff7374b60d55e3bb8ae636873183b537d4218702",
+            "size": 3253269,
+            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.0.1/ZNNext-v2.0.1-220-f941574-release.zip"
+          },
+          "body": "## What's Changed\n* chore(deps): bump motion-v from 2.7.0 to 2.8.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/109\n* chore(deps): bump @m3e/web from 2.10.0 to 2.10.1 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/107\n* chore(deps): bump vue from 3.5.43 to 3.5.44 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/106\n* chore(deps): bump object from 0.39.1 to 0.40.0 in /injector in the crates group across 1 directory by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/108\n* chore(deps): bump @m3e/web from 2.10.1 to 2.10.2 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/113\n* chore(deps): bump gradle-wrapper from 9.8.1 to 9.8.2 by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/114\n* fix(hyos): keep HyperOS Runtime companion reachable by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/112\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.0.0...v2.0.1\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.0.1",
+          "immutable": true,
+          "name": "v2.0.1",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "ZNNext",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
+            "version": "v2.0.1 (220-f941574-release)",
+            "versionCode": "220"
+          },
+          "publishedAt": "2026-10-23T14:45:21Z",
+          "releaseId": 421959675,
+          "tag": "v2.0.1",
+          "tagCommit": "f94157440a22e1891b9b3c15c47dfabce6732662",
+          "version": "v2.0.1 (220-f941574-release)",
+          "versionCode": 220
+        },
         {
           "asset": {
             "digest": "sha256:ae3f1717b07cacf1e483fddf09e2c64ce2045c5c5da6603e5c81b574e92c7d9b",
@@ -7299,36 +7329,6 @@
           "tagCommit": "e4da08237aa4a37a7cd53fd3243315ef24954618",
           "version": "v1.8.3 (184-e4da082-release)",
           "versionCode": 184
-        },
-        {
-          "asset": {
-            "digest": "sha256:21d88bc872935a3cf0ac2216c9b4b3a8c707a7dd3e345471fdcbd549bef0bd17",
-            "id": 637645634,
-            "name": "Zygisk-Next-Next-v1.8.2-172-15ebf86-release.zip",
-            "sha256": "21d88bc872935a3cf0ac2216c9b4b3a8c707a7dd3e345471fdcbd549bef0bd17",
-            "size": 2964661,
-            "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.8.2/Zygisk-Next-Next-v1.8.2-172-15ebf86-release.zip"
-          },
-          "body": "## What's Changed\n* chore(deps-dev): bump @types/node from 26.6.4 to 26.6.5 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/96\n* chore(deps): bump @material-symbols/font-400 from 0.47.6 to 0.48.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/95\n* chore(deps): bump motion-v from 2.5.2 to 2.6.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/94\n* chore(deps-dev): bump @vitejs/plugin-vue from 6.0.9 to 6.0.10 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/93\n* chore(deps): bump gradle-wrapper from 9.8.0 to 9.8.1 by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/92\n* chore(deps-dev): bump vite from 8.3.2 to 8.3.4 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZygiskNextNext/pull/97\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.8.1...v1.8.2\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.8.2",
-          "immutable": true,
-          "name": "v1.8.2",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "Zygisk Next Next",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
-            "version": "v1.8.2 (172-15ebf86-release)",
-            "versionCode": "172"
-          },
-          "publishedAt": "2026-10-13T16:47:44Z",
-          "releaseId": 411901537,
-          "tag": "v1.8.2",
-          "tagCommit": "15ebf86d129a261dd34315d2c0da2dbf132ce150",
-          "version": "v1.8.2 (172-15ebf86-release)",
-          "versionCode": 172
         }
       ],
       "repositoryId": 1348255159,
@@ -7498,21 +7498,25 @@
         "417257430": {
           "checkedAt": "2026-10-19T12:19:54.344Z",
           "ok": true
+        },
+        "421959675": {
+          "checkedAt": "2026-10-23T14:45:45.880Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:ae3f1717b07cacf1e483fddf09e2c64ce2045c5c5da6603e5c81b574e92c7d9b",
-          "id": 656192682,
-          "name": "ZNNext-v2.0.0-212-57b46bb-release.zip",
-          "sha256": "ae3f1717b07cacf1e483fddf09e2c64ce2045c5c5da6603e5c81b574e92c7d9b",
-          "size": 3225097,
-          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.0.0/ZNNext-v2.0.0-212-57b46bb-release.zip"
+          "digest": "sha256:5ec1ef79c6b18854f55d60fdff7374b60d55e3bb8ae636873183b537d4218702",
+          "id": 669424543,
+          "name": "ZNNext-v2.0.1-220-f941574-release.zip",
+          "sha256": "5ec1ef79c6b18854f55d60fdff7374b60d55e3bb8ae636873183b537d4218702",
+          "size": 3253269,
+          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.0.1/ZNNext-v2.0.1-220-f941574-release.zip"
         },
-        "body": "## What's Changed\n* refactor: rename znn to ZNNext by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/110\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v1.14.1...v2.0.0\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.0.0",
+        "body": "## What's Changed\n* chore(deps): bump motion-v from 2.7.0 to 2.8.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/109\n* chore(deps): bump @m3e/web from 2.10.0 to 2.10.1 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/107\n* chore(deps): bump vue from 3.5.43 to 3.5.44 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/106\n* chore(deps): bump object from 0.39.1 to 0.40.0 in /injector in the crates group across 1 directory by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/108\n* chore(deps): bump @m3e/web from 2.10.1 to 2.10.2 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/113\n* chore(deps): bump gradle-wrapper from 9.8.1 to 9.8.2 by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/114\n* fix(hyos): keep HyperOS Runtime companion reachable by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/112\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.0.0...v2.0.1\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.0.1",
         "immutable": true,
-        "name": "v2.0.0",
+        "name": "v2.0.1",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -7520,19 +7524,19 @@
           "id": "zygisknextsu",
           "name": "ZNNext",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-          "version": "v2.0.0 (212-57b46bb-release)",
-          "versionCode": "212"
+          "version": "v2.0.1 (220-f941574-release)",
+          "versionCode": "220"
         },
-        "publishedAt": "2026-10-19T12:19:28Z",
-        "releaseId": 417257430,
-        "tag": "v2.0.0",
-        "tagCommit": "57b46bb171d9f32e8373c4ec4bb510da892aec69",
-        "version": "v2.0.0 (212-57b46bb-release)",
-        "versionCode": 212
+        "publishedAt": "2026-10-23T14:45:21Z",
+        "releaseId": 421959675,
+        "tag": "v2.0.1",
+        "tagCommit": "f94157440a22e1891b9b3c15c47dfabce6732662",
+        "version": "v2.0.1 (220-f941574-release)",
+        "versionCode": 220
       },
       "stars": {
-        "count": 70,
-        "fetchedAt": "2026-10-23T04:37:38.484Z",
+        "count": 71,
+        "fetchedAt": "2026-10-23T14:45:45.880Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"
