@@ -2431,17 +2431,47 @@
       "fullName": "LimpidMo/SvcHub",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-21T11:00:06.604Z",
-        "lastSuccessAt": "2026-10-21T11:00:06.604Z",
+        "lastAttemptAt": "2026-10-23T15:07:37.882Z",
+        "lastSuccessAt": "2026-10-23T15:07:37.882Z",
         "message": null,
         "status": "ok"
       },
       "id": "SvcHub",
       "installationId": 170178615,
-      "maxStableVersionCode": 11,
-      "maxVersionCode": 11,
+      "maxStableVersionCode": 12,
+      "maxVersionCode": 12,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:1f970ee704fb9a0eca238dcc9d2adf946569aa87c5c319ebc82e6c952c80002b",
+            "id": 669484470,
+            "name": "SvcHub-12-1.4.2.zip",
+            "sha256": "1f970ee704fb9a0eca238dcc9d2adf946569aa87c5c319ebc82e6c952c80002b",
+            "size": 112770,
+            "url": "https://github.com/LimpidMo/SvcHub/releases/download/v1.4.2/SvcHub-12-1.4.2.zip"
+          },
+          "body": "## [1.4.2] - 2026-10-23\n\n### Changed\n- 外部访问相关\n  - 优化外部访问响应速度\n  - 删除服务后确认弹窗立即关闭，保存转入后台执行，不再阻塞界面，失败回落\n\n### Fixed\n- 修复停止服务时等待时间过长的问题\n- 修复穿透后通过网页操作后掉登录的问题\n- 修复查看日志时刷新逻辑减少空转的问题\n\n",
+          "htmlUrl": "https://github.com/LimpidMo/SvcHub/releases/tag/v1.4.2",
+          "immutable": true,
+          "name": "SvcHub v1.4.2",
+          "prerelease": false,
+          "prop": {
+            "author": "LimpidMo",
+            "description": "开机自启和保活 Termux 服务与二进制服务，并提供定时/亮屏/ WIFI 启停服务和 WebUI 聚合管理",
+            "id": "SvcHub",
+            "name": "SvcHub",
+            "updateJson": "https://v4.gh-proxy.org/https://github.com/LimpidMo/SvcHub/releases/latest/download/update.json",
+            "version": "1.4.2",
+            "versionCode": "12"
+          },
+          "publishedAt": "2026-10-23T15:07:16Z",
+          "releaseId": 421983783,
+          "tag": "v1.4.2",
+          "tagCommit": "609cc8601b99a407fb2910bdb74f1ccdc8f53f71",
+          "version": "1.4.2",
+          "versionCode": 12
+        },
         {
           "asset": {
             "digest": "sha256:ec8a4d096ac8a6f992c4c99ae6fcc7ba4bcd01b25e6177c1e47b0570ee003bba",
@@ -2622,21 +2652,25 @@
         "419439240": {
           "checkedAt": "2026-10-21T10:45:40.727Z",
           "ok": true
+        },
+        "421983783": {
+          "checkedAt": "2026-10-23T15:07:37.882Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:ec8a4d096ac8a6f992c4c99ae6fcc7ba4bcd01b25e6177c1e47b0570ee003bba",
-          "id": 662178814,
-          "name": "SvcHub-11-1.4.1.zip",
-          "sha256": "ec8a4d096ac8a6f992c4c99ae6fcc7ba4bcd01b25e6177c1e47b0570ee003bba",
-          "size": 109366,
-          "url": "https://github.com/LimpidMo/SvcHub/releases/download/v1.4.1/SvcHub-11-1.4.1.zip"
+          "digest": "sha256:1f970ee704fb9a0eca238dcc9d2adf946569aa87c5c319ebc82e6c952c80002b",
+          "id": 669484470,
+          "name": "SvcHub-12-1.4.2.zip",
+          "sha256": "1f970ee704fb9a0eca238dcc9d2adf946569aa87c5c319ebc82e6c952c80002b",
+          "size": 112770,
+          "url": "https://github.com/LimpidMo/SvcHub/releases/download/v1.4.2/SvcHub-12-1.4.2.zip"
         },
-        "body": "## [1.4.1] - 2026-10-21\n\n### Added\n- 基本设置新增「唤醒锁」开关\n - 开启后持有唤醒锁保持 CPU 唤醒，减少锁屏后服务被系统休眠导致的巡检和启停响应延后问题\n- 长期 Token 按钮显示当前会话剩余天数（Token (Nd)）\n\n### Fixed\n- 修复httpd端口检测失败导致重复启动\n- 修复日志展示异常问题\n- 修复服务命令以 & 结尾时无法启动\n\n",
-        "htmlUrl": "https://github.com/LimpidMo/SvcHub/releases/tag/v1.4.1",
+        "body": "## [1.4.2] - 2026-10-23\n\n### Changed\n- 外部访问相关\n  - 优化外部访问响应速度\n  - 删除服务后确认弹窗立即关闭，保存转入后台执行，不再阻塞界面，失败回落\n\n### Fixed\n- 修复停止服务时等待时间过长的问题\n- 修复穿透后通过网页操作后掉登录的问题\n- 修复查看日志时刷新逻辑减少空转的问题\n\n",
+        "htmlUrl": "https://github.com/LimpidMo/SvcHub/releases/tag/v1.4.2",
         "immutable": true,
-        "name": "SvcHub v1.4.1",
+        "name": "SvcHub v1.4.2",
         "prerelease": false,
         "prop": {
           "author": "LimpidMo",
@@ -2644,15 +2678,15 @@
           "id": "SvcHub",
           "name": "SvcHub",
           "updateJson": "https://v4.gh-proxy.org/https://github.com/LimpidMo/SvcHub/releases/latest/download/update.json",
-          "version": "1.4.1",
-          "versionCode": "11"
+          "version": "1.4.2",
+          "versionCode": "12"
         },
-        "publishedAt": "2026-10-21T10:45:47Z",
-        "releaseId": 419439240,
-        "tag": "v1.4.1",
-        "tagCommit": "7de7a1fbf244db4cc5497ffd862344371c63163c",
-        "version": "1.4.1",
-        "versionCode": 11
+        "publishedAt": "2026-10-23T15:07:16Z",
+        "releaseId": 421983783,
+        "tag": "v1.4.2",
+        "tagCommit": "609cc8601b99a407fb2910bdb74f1ccdc8f53f71",
+        "version": "1.4.2",
+        "versionCode": 12
       },
       "stars": {
         "count": 19,
