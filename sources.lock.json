@@ -606,8 +606,8 @@
         "versionCode": 760
       },
       "stars": {
-        "count": 406,
-        "fetchedAt": "2026-10-22T19:33:48.189Z",
+        "count": 407,
+        "fetchedAt": "2026-10-23T19:37:43.289Z",
         "fullName": "AlirezaParsi/COPG",
         "repositoryId": 950100740,
         "verified": "self"
@@ -2716,8 +2716,8 @@
       "seen": {},
       "stable": null,
       "stars": {
-        "count": 82,
-        "fetchedAt": "2026-10-22T18:43:15.811Z",
+        "count": 81,
+        "fetchedAt": "2026-10-23T19:37:43.289Z",
         "fullName": "LxyaoX/VexZygisk",
         "repositoryId": 1305247883,
         "verified": "self"
@@ -5028,15 +5028,15 @@
     "magisk-netbird": {
       "content": {
         "blobs": {
-          "README.md": "f560e897cda8493f4369102116e530431103fa25",
+          "README.md": "9e8abc8db138844afa80fb6f99772629fe737aec",
           "assets/icon.png": "4b5299236cdfdf9e533636d5a53e4b2f196c27f7",
           "docs/netbird-logo.png": "1b2405c07e06ec4e2599fc6f205ba962c6697316",
           "module.yaml": "741634b1072058f3b3a3c426bebed63218d4559b"
         },
-        "commit": "4f0fa3c79b4c15428799646554c6b1b7ecefefca",
-        "fetchedAt": "2026-10-23T18:27:56.804Z",
+        "commit": "b5ef2b3f7be64e85fd7dd34830cfb07d4f66f81b",
+        "fetchedAt": "2026-10-23T19:37:43.289Z",
         "files": {
-          "README.md": "36a79ffc6ac49fb637767c1cab1b873abc8b0b1bdf3de8d74c9819d7811c4375",
+          "README.md": "7e13be64bae26cf47ef5db9f32c04a32e93f1b6e2736b136084cc7900b32b1bd",
           "assets/icon.png": "f02f1e5d4edd4fbef8420d768a555b23a179bf24a86413714d03e409598e136e",
           "docs/netbird-logo.png": "33d92428742e9c48b58cbb7b62cdd00987c73e37211ab890a0f721c8b35a1dec",
           "module.yaml": "357183160f7f90214d61f71d33b2501ecac2f19f1bc05a4223db12adc612094a"
@@ -5047,17 +5047,48 @@
       "fullName": "ahsaboy/magisk-netbird",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-23T18:27:56.804Z",
-        "lastSuccessAt": "2026-10-23T18:27:56.804Z",
+        "lastAttemptAt": "2026-10-23T19:37:43.289Z",
+        "lastSuccessAt": "2026-10-23T19:37:43.289Z",
         "message": null,
         "status": "ok"
       },
       "id": "magisk-netbird",
       "installationId": 171209105,
-      "maxStableVersionCode": 10409,
-      "maxVersionCode": 10409,
+      "maxStableVersionCode": 10410,
+      "maxVersionCode": 10410,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:37d92573e10d92c255c5cc45795a95d057db86787ff0ca08ea7051694a22f553",
+            "id": 670180301,
+            "name": "magisk-netbird-10410-v1.4.10-0.81.3.zip",
+            "sha256": "37d92573e10d92c255c5cc45795a95d057db86787ff0ca08ea7051694a22f553",
+            "size": 45073244,
+            "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.10/magisk-netbird-10410-v1.4.10-0.81.3.zip"
+          },
+          "body": "## v1.4.10 — NetBird v0.81.3\n- Optimized the status watcher: one shared `status --json` call per cycle (was up to three netbird CLI spawns) with the module.prop description now parsed from JSON, and an idle mode while the client is disconnected — route re-checks and watchdog restarts are skipped and the cycle relaxes to `NB_IDLE_UPDATE_INTERVAL` (default 300s), so a downed client costs almost nothing. `webui up` starts a dead daemon on demand (detached, with auto-connect) and refreshes underlay routes immediately on reconnect.\n- Added confirmed connection controls to the WebUI overview: Reconnect/Disconnect (fast daemon-IPC `up`/`down` reusing persisted flags) and Start/Stop daemon. Daemon lifecycle runs detached (`nohup`) with the page polling status, so closing the WebUI cannot interrupt it; every control requires a confirmation dialog. New fixed `webui` service actions: `up`, `down`, `daemon-start`, `daemon-stop`.\n- Fixed the WebUI misreading a disconnected client as a stopped daemon: netbird's `daemonStatus` reports the connection state, so the page now tracks process state and connection state separately. After `webui down` the banner shows \"disconnected\" (with the stop/start controls intact) instead of switching to the start-daemon card; Connect/Disconnect buttons disable according to the current connection state and a needs-login state is surfaced.\n- Restyled WebUI notices as centered translucent-gray toasts with rounded corners.\n- Silenced the 5-second refresh cooldown on implicit loads (tab switches no longer pop an \"updated recently\" toast), deduplicated concurrent identical commands, and added a background Networks prefetch so the first Networks view renders instantly.\n- Tab switches now render the destination view with its loading placeholder first and defer the data read until the slide transition finishes (240ms), removing the animation stutter caused by firing the root-command bridge mid-transition; stale timers are ignored when switching again quickly.\n- Fixed the English \"Refresh system routes\"/\"Refresh runtime rules\" labels overflowing their two-column action buttons (shortened copy plus wrapping allowed in the action grid).\n- Implicit-load failures now surface in-page instead of as toasts: Networks shows an error placeholder with retry, diagnostics show the error in the output area, and status-bridge errors appear as a detail line inside the banner. Toasts are reserved for explicit switch/confirm actions.\n- When the daemon is stopped, views drop cached rows and show a \"daemon is stopped\" placeholder (Networks and Peers), and no doomed read commands are fired; the Networks cache is invalidated the moment status reports the daemon stopped, so stale rows never survive inside the 5-second cooldown.\n- A running-but-disconnected client no longer triggers the raw \"failed to list network: not connected\" error: Networks shows a friendly not-connected placeholder (or a connecting indicator), the route rows and bulk enable/disable actions are hidden outside the healthy state, and the doomed `networks list` call is skipped; remaining error messages drop the CLI's \"Error: \" prefix.\n- Fixed the watchdog restart path: `kill \"$pid\"2>/dev/null` was missing a space, so TERM/KILL targeted a nonexistent PID and a wedged daemon was never actually killed before the restart attempt.\n- Deduplicated the busybox-timeout wrappers in the status watcher (`nb_with_timeout`) and made `client_cmd` delegate to `webui_client`.\n- Removed the WebUI forwarding-rules view: NetBird dropped the `forwarding` CLI command in v0.81.0 together with management-side ingress ports, so the view always failed with `unknown command \"forwarding\"`.\n- The `webui forwarding` service action now returns an explicit \"no longer available in NetBird v0.81.0+\" error instead of passing the raw CLI failure through, so stale cached WebUI pages show a clear message.\n- The Networks view now shows a loading state while retrying after a failed load, matching the removed forwarding view's behavior.\n- Moved the WebUI bridge sources (`view-model.mjs`, `kernelsu.js`) out of `module/webroot/` into `ui/src/`, so the shipped webroot contains only build output; removed the duplicate `ui/src/lib/utils.ts` and two unused i18n strings.\n- Install-time extraction now skips the `update.json` / `updates/*.json` download manifests (managers fetch updates via the `updateJson` URL in `module.prop`, so the copies in `MODPATH` were dead weight).\n",
+          "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.10",
+          "immutable": true,
+          "name": "v1.4.10",
+          "prerelease": false,
+          "prop": {
+            "author": "ahsaboy",
+            "description": "NetBird daemon with mobile KernelSU WebUI controls and structured status.",
+            "id": "magisk-netbird",
+            "minMagisk": "20400",
+            "name": "Magisk NetBird",
+            "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/updates/update-arm64-v8a.json",
+            "version": "v1.4.10-0.81.3",
+            "versionCode": "10410"
+          },
+          "publishedAt": "2026-10-23T19:37:11Z",
+          "releaseId": 422240534,
+          "tag": "v1.4.10",
+          "tagCommit": "556716b9914710cb333bf4d6b851a7cd94866c2b",
+          "version": "v1.4.10-0.81.3",
+          "versionCode": 10410
+        },
         {
           "asset": {
             "digest": "sha256:02eabf37931324834e9306b0a653d767c3ec0c8fa86637c373adbe1e20ca7fd6",
@@ -5187,21 +5218,25 @@
         "422033206": {
           "checkedAt": "2026-10-23T15:56:10.153Z",
           "ok": true
+        },
+        "422240534": {
+          "checkedAt": "2026-10-23T19:37:43.289Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:02eabf37931324834e9306b0a653d767c3ec0c8fa86637c373adbe1e20ca7fd6",
-          "id": 669619735,
-          "name": "magisk-netbird-10409-v1.4.9-0.81.3.zip",
-          "sha256": "02eabf37931324834e9306b0a653d767c3ec0c8fa86637c373adbe1e20ca7fd6",
-          "size": 45072549,
-          "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.9/magisk-netbird-10409-v1.4.9-0.81.3.zip"
+          "digest": "sha256:37d92573e10d92c255c5cc45795a95d057db86787ff0ca08ea7051694a22f553",
+          "id": 670180301,
+          "name": "magisk-netbird-10410-v1.4.10-0.81.3.zip",
+          "sha256": "37d92573e10d92c255c5cc45795a95d057db86787ff0ca08ea7051694a22f553",
+          "size": 45073244,
+          "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.10/magisk-netbird-10410-v1.4.10-0.81.3.zip"
         },
-        "body": "## v1.4.9 — NetBird v0.81.3\n\n- Updated the bundled official NetBird client from `0.80.0` to `0.81.3` for `x86_64`, `arm64-v8a`, and `armv7` packages, each archive SHA-256 verified against the official release checksums before packaging.\n- Carries the upstream v0.81.x client changes: relayed connections in kernel mode no longer require eBPF (replaced by loopback endpoint addressing), one unreachable relay no longer churns the other relay connections, ICE session IDs survive remote restarts with fewer unnecessary reconnects, and the signal stream registration wait is bounded for faster failure detection.\n- Re-created the `/dev/netbird` and `/dev/netbird.service` entry-point symlinks on every boot, so the CLI stays reachable after reboot on KernelSU without a mount metamodule (and in late-load mode), where `/dev` is wiped and the module's `system/bin` overlay is not mounted.\n- On KernelSU, the dynamic module status is now also published through the `ksud module config` `override.description` key; Magisk and older managers keep reading the periodically refreshed `module.prop`.\n",
-        "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.9",
+        "body": "## v1.4.10 — NetBird v0.81.3\n- Optimized the status watcher: one shared `status --json` call per cycle (was up to three netbird CLI spawns) with the module.prop description now parsed from JSON, and an idle mode while the client is disconnected — route re-checks and watchdog restarts are skipped and the cycle relaxes to `NB_IDLE_UPDATE_INTERVAL` (default 300s), so a downed client costs almost nothing. `webui up` starts a dead daemon on demand (detached, with auto-connect) and refreshes underlay routes immediately on reconnect.\n- Added confirmed connection controls to the WebUI overview: Reconnect/Disconnect (fast daemon-IPC `up`/`down` reusing persisted flags) and Start/Stop daemon. Daemon lifecycle runs detached (`nohup`) with the page polling status, so closing the WebUI cannot interrupt it; every control requires a confirmation dialog. New fixed `webui` service actions: `up`, `down`, `daemon-start`, `daemon-stop`.\n- Fixed the WebUI misreading a disconnected client as a stopped daemon: netbird's `daemonStatus` reports the connection state, so the page now tracks process state and connection state separately. After `webui down` the banner shows \"disconnected\" (with the stop/start controls intact) instead of switching to the start-daemon card; Connect/Disconnect buttons disable according to the current connection state and a needs-login state is surfaced.\n- Restyled WebUI notices as centered translucent-gray toasts with rounded corners.\n- Silenced the 5-second refresh cooldown on implicit loads (tab switches no longer pop an \"updated recently\" toast), deduplicated concurrent identical commands, and added a background Networks prefetch so the first Networks view renders instantly.\n- Tab switches now render the destination view with its loading placeholder first and defer the data read until the slide transition finishes (240ms), removing the animation stutter caused by firing the root-command bridge mid-transition; stale timers are ignored when switching again quickly.\n- Fixed the English \"Refresh system routes\"/\"Refresh runtime rules\" labels overflowing their two-column action buttons (shortened copy plus wrapping allowed in the action grid).\n- Implicit-load failures now surface in-page instead of as toasts: Networks shows an error placeholder with retry, diagnostics show the error in the output area, and status-bridge errors appear as a detail line inside the banner. Toasts are reserved for explicit switch/confirm actions.\n- When the daemon is stopped, views drop cached rows and show a \"daemon is stopped\" placeholder (Networks and Peers), and no doomed read commands are fired; the Networks cache is invalidated the moment status reports the daemon stopped, so stale rows never survive inside the 5-second cooldown.\n- A running-but-disconnected client no longer triggers the raw \"failed to list network: not connected\" error: Networks shows a friendly not-connected placeholder (or a connecting indicator), the route rows and bulk enable/disable actions are hidden outside the healthy state, and the doomed `networks list` call is skipped; remaining error messages drop the CLI's \"Error: \" prefix.\n- Fixed the watchdog restart path: `kill \"$pid\"2>/dev/null` was missing a space, so TERM/KILL targeted a nonexistent PID and a wedged daemon was never actually killed before the restart attempt.\n- Deduplicated the busybox-timeout wrappers in the status watcher (`nb_with_timeout`) and made `client_cmd` delegate to `webui_client`.\n- Removed the WebUI forwarding-rules view: NetBird dropped the `forwarding` CLI command in v0.81.0 together with management-side ingress ports, so the view always failed with `unknown command \"forwarding\"`.\n- The `webui forwarding` service action now returns an explicit \"no longer available in NetBird v0.81.0+\" error instead of passing the raw CLI failure through, so stale cached WebUI pages show a clear message.\n- The Networks view now shows a loading state while retrying after a failed load, matching the removed forwarding view's behavior.\n- Moved the WebUI bridge sources (`view-model.mjs`, `kernelsu.js`) out of `module/webroot/` into `ui/src/`, so the shipped webroot contains only build output; removed the duplicate `ui/src/lib/utils.ts` and two unused i18n strings.\n- Install-time extraction now skips the `update.json` / `updates/*.json` download manifests (managers fetch updates via the `updateJson` URL in `module.prop`, so the copies in `MODPATH` were dead weight).\n",
+        "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.10",
         "immutable": true,
-        "name": "v1.4.9",
+        "name": "v1.4.10",
         "prerelease": false,
         "prop": {
           "author": "ahsaboy",
@@ -5210,15 +5245,15 @@
           "minMagisk": "20400",
           "name": "Magisk NetBird",
           "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/updates/update-arm64-v8a.json",
-          "version": "v1.4.9-0.81.3",
-          "versionCode": "10409"
+          "version": "v1.4.10-0.81.3",
+          "versionCode": "10410"
         },
-        "publishedAt": "2026-10-23T15:55:44Z",
-        "releaseId": 422033206,
-        "tag": "v1.4.9",
-        "tagCommit": "3844c01282805b3c8ed445254d136c718ea6e095",
-        "version": "v1.4.9-0.81.3",
-        "versionCode": 10409
+        "publishedAt": "2026-10-23T19:37:11Z",
+        "releaseId": 422240534,
+        "tag": "v1.4.10",
+        "tagCommit": "556716b9914710cb333bf4d6b851a7cd94866c2b",
+        "version": "v1.4.10-0.81.3",
+        "versionCode": 10410
       },
       "stars": {
         "count": 1,
