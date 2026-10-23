@@ -169,12 +169,17 @@
       "fullName": "ahmed-alnassif/ReSuSFS",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
-      "maxVersionCode": 21,
-      "message": "stable-unavailable: the stable release (versionCode 21) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 21 is published.",
+      "lastSuccessAt": "2026-10-23T10:22:51.590Z",
+      "maxVersionCode": 22,
+      "message": null,
       "repositoryId": 1352101411,
       "request": null,
-      "stable": null
+      "stable": {
+        "publishedAt": "2026-10-23T10:22:26Z",
+        "tag": "v26.10.23",
+        "version": "v26.10.23",
+        "versionCode": 22
+      }
     },
     "S-T-E-P-S": {
       "contentCommit": "7d0322af6383590ab00f7e207fe4ec99c4f161f7",
