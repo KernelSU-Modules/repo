@@ -34,11 +34,11 @@
       "stable": null
     },
     "COPG": {
-      "contentCommit": "1b6718d56e44842779d1be18019a57f9d159c17a",
+      "contentCommit": "a7f76e3d08f237e96a7c3386a795f37d3e15212f",
       "fullName": "AlirezaParsi/COPG",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-23T04:37:38.484Z",
+      "lastSuccessAt": "2026-10-23T08:52:54.400Z",
       "maxVersionCode": 760,
       "message": null,
       "repositoryId": 950100740,
@@ -431,6 +431,27 @@
         "version": "6.2.5",
         "versionCode": 602005999
       }
+    },
+    "kernelsu-tailscaled": {
+      "contentCommit": "f53ec850408fac799a91868652dbf8d2282703a6",
+      "fullName": "WayneShao/KernelSU-Tailscaled",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1356946284,
+      "request": {
+        "checkedAt": "2026-10-23T08:52:54.400Z",
+        "commit": "f53ec850408fac799a91868652dbf8d2282703a6",
+        "issues": [],
+        "latestTag": "v2.0.5",
+        "ok": true,
+        "releaseId": 420496928,
+        "repositoryId": 1356946284,
+        "submissionId": "j83o6ztxqs"
+      },
+      "stable": null
     },
     "ksuGrantToast": {
       "contentCommit": "7fd0b6184e6a2fc4c2559ec4dd35eff199b13efc",

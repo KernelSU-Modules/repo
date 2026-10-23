@@ -226,14 +226,14 @@
     "COPG": {
       "content": {
         "blobs": {
-          "README.md": "9318979ad7abec1e5f1a2cc4e99a29851dbdb5c5",
+          "README.md": "3f2a024771befd4db5a14f41dfa5b7e21747d881",
           "module.yaml": "65c97353e48968b9871bca6f9725e725a3968f8e",
           "webroot/icon.png": "5519173a9f787695f892487d2cc1d7a51eccf8c3"
         },
-        "commit": "1b6718d56e44842779d1be18019a57f9d159c17a",
-        "fetchedAt": "2026-10-22T19:33:48.189Z",
+        "commit": "a7f76e3d08f237e96a7c3386a795f37d3e15212f",
+        "fetchedAt": "2026-10-23T08:52:54.400Z",
         "files": {
-          "README.md": "504b9d540e625540975e725a098a9a055bfa3039bc4811ca401cff3ea6765cfd",
+          "README.md": "9b5442240e3c275fa83704f9b316abf6b99258fac73ad7813267e083683a2947",
           "module.yaml": "8b8a5dc946de9df87dc6dc62b320e4a1ef8c1bb64e4f1a17dbcdf0ea61c46f90",
           "webroot/icon.png": "4b6804c0f27f12f59c55c566835f2bbffd16dfab66f8415cc175bc5a09ad2e9b"
         },
@@ -243,8 +243,8 @@
       "fullName": "AlirezaParsi/COPG",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-23T04:37:38.484Z",
-        "lastSuccessAt": "2026-10-23T04:37:38.484Z",
+        "lastAttemptAt": "2026-10-23T08:52:54.400Z",
+        "lastSuccessAt": "2026-10-23T08:52:54.400Z",
         "message": null,
         "status": "ok"
       },
@@ -3254,8 +3254,8 @@
         "versionCode": 20260926
       },
       "stars": {
-        "count": 841,
-        "fetchedAt": "2026-10-22T08:52:44.882Z",
+        "count": 843,
+        "fetchedAt": "2026-10-23T08:52:54.400Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -4592,8 +4592,8 @@
         "versionCode": 40005
       },
       "stars": {
-        "count": 14,
-        "fetchedAt": "2026-10-22T08:52:44.882Z",
+        "count": 15,
+        "fetchedAt": "2026-10-23T08:52:54.400Z",
         "fullName": "cyanmint/lkm4ctr",
         "repositoryId": 1313308146,
         "verified": "self"
