@@ -26,12 +26,17 @@
       "fullName": "Liliya2727/AZenith",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-16T14:51:49.717Z",
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-23T14:46:54.062Z",
+      "maxVersionCode": 2049,
       "message": null,
       "repositoryId": 937420284,
       "request": null,
-      "stable": null
+      "stable": {
+        "publishedAt": "2026-10-23T14:45:59Z",
+        "tag": "AZenith-5.3",
+        "version": "5.3 (2049-56aa3446-Stellars-Beta)",
+        "versionCode": 2049
+      }
     },
     "COPG": {
       "contentCommit": "a7f76e3d08f237e96a7c3386a795f37d3e15212f",

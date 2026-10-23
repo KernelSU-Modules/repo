@@ -20,17 +20,49 @@
       "fullName": "Liliya2727/AZenith",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-16T14:51:49.717Z",
-        "lastSuccessAt": "2026-10-16T14:51:49.717Z",
+        "lastAttemptAt": "2026-10-23T14:46:54.062Z",
+        "lastSuccessAt": "2026-10-23T14:46:54.062Z",
         "message": null,
         "status": "ok"
       },
       "id": "AZenith",
       "installationId": 172104771,
-      "maxStableVersionCode": null,
-      "maxVersionCode": null,
+      "maxStableVersionCode": 2049,
+      "maxVersionCode": 2049,
       "prerelease": null,
-      "releases": [],
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:c5bc57b6c58595fdc4b71eb2aa8ac655f60a16d37a59e470db71cb55398aaa68",
+            "id": 669424960,
+            "name": "AZenith-5.3-2049-56aa3446-Stellars-Beta.zip",
+            "sha256": "c5bc57b6c58595fdc4b71eb2aa8ac655f60a16d37a59e470db71cb55398aaa68",
+            "size": 9981861,
+            "url": "https://github.com/Liliya2727/AZenith/releases/download/AZenith-5.3/AZenith-5.3-2049-56aa3446-Stellars-Beta.zip"
+          },
+          "body": "<img width=\"1280\" height=\"640\" alt=\"20251102_135027\" src=\"https://github.com/user-attachments/assets/a3ac7f35-ff7e-4d73-8952-0fcd985a6f26\" />\r\n\r\n**One, Two, Three! AZenith has Arrived!**\r\nAZenith has updated to v5.3-Beta, Minor changes and some bug fixes from previous version!\r\n\r\n- Fixed an issue where daemon use 100% of cpu usage\r\n- Fixed an issue where Profile failed to rotate in many A16 Roms\r\n- Rewrite Preferenced settings to rust\r\n- Added new Bypass charging path \r\n- Small Optimization in backend flow",
+          "htmlUrl": "https://github.com/Liliya2727/AZenith/releases/tag/AZenith-5.3",
+          "immutable": true,
+          "name": "AZenith火-5.3!",
+          "prerelease": false,
+          "prop": {
+            "author": "ArchHaven Developers",
+            "banner": "module.banner.jpg",
+            "description": "One, Two, Three! AZenith has arrived!",
+            "id": "AZenith",
+            "name": "AZenith火",
+            "updateJson": "https://raw.githubusercontent.com/Liliya2727/AZenith/main/update.json",
+            "version": "5.3 (2049-56aa3446-Stellars-Beta)",
+            "versionCode": "2049"
+          },
+          "publishedAt": "2026-10-23T14:45:59Z",
+          "releaseId": 421959908,
+          "tag": "AZenith-5.3",
+          "tagCommit": "56aa3446687cd63338ed0d7c5164a48f94aa6c88",
+          "version": "5.3 (2049-56aa3446-Stellars-Beta)",
+          "versionCode": 2049
+        }
+      ],
       "repositoryId": 937420284,
       "seen": {
         "201955586": {
@@ -212,9 +244,43 @@
           "code": "release-not-immutable",
           "message": "Release ThermalCoreStandalone is not immutable. Enable release immutability and publish a new release.",
           "ok": false
+        },
+        "421959908": {
+          "checkedAt": "2026-10-23T14:46:54.062Z",
+          "ok": true
         }
       },
-      "stable": null,
+      "stable": {
+        "asset": {
+          "digest": "sha256:c5bc57b6c58595fdc4b71eb2aa8ac655f60a16d37a59e470db71cb55398aaa68",
+          "id": 669424960,
+          "name": "AZenith-5.3-2049-56aa3446-Stellars-Beta.zip",
+          "sha256": "c5bc57b6c58595fdc4b71eb2aa8ac655f60a16d37a59e470db71cb55398aaa68",
+          "size": 9981861,
+          "url": "https://github.com/Liliya2727/AZenith/releases/download/AZenith-5.3/AZenith-5.3-2049-56aa3446-Stellars-Beta.zip"
+        },
+        "body": "<img width=\"1280\" height=\"640\" alt=\"20251102_135027\" src=\"https://github.com/user-attachments/assets/a3ac7f35-ff7e-4d73-8952-0fcd985a6f26\" />\r\n\r\n**One, Two, Three! AZenith has Arrived!**\r\nAZenith has updated to v5.3-Beta, Minor changes and some bug fixes from previous version!\r\n\r\n- Fixed an issue where daemon use 100% of cpu usage\r\n- Fixed an issue where Profile failed to rotate in many A16 Roms\r\n- Rewrite Preferenced settings to rust\r\n- Added new Bypass charging path \r\n- Small Optimization in backend flow",
+        "htmlUrl": "https://github.com/Liliya2727/AZenith/releases/tag/AZenith-5.3",
+        "immutable": true,
+        "name": "AZenith火-5.3!",
+        "prerelease": false,
+        "prop": {
+          "author": "ArchHaven Developers",
+          "banner": "module.banner.jpg",
+          "description": "One, Two, Three! AZenith has arrived!",
+          "id": "AZenith",
+          "name": "AZenith火",
+          "updateJson": "https://raw.githubusercontent.com/Liliya2727/AZenith/main/update.json",
+          "version": "5.3 (2049-56aa3446-Stellars-Beta)",
+          "versionCode": "2049"
+        },
+        "publishedAt": "2026-10-23T14:45:59Z",
+        "releaseId": 421959908,
+        "tag": "AZenith-5.3",
+        "tagCommit": "56aa3446687cd63338ed0d7c5164a48f94aa6c88",
+        "version": "5.3 (2049-56aa3446-Stellars-Beta)",
+        "versionCode": 2049
+      },
       "stars": {
         "count": 138,
         "fetchedAt": "2026-10-22T08:52:44.882Z",
