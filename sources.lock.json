@@ -5024,15 +5024,15 @@
     "magisk-netbird": {
       "content": {
         "blobs": {
-          "README.md": "1335fea6a8f21e078722616ad9ea1442880baf2d",
+          "README.md": "375a9be8ff0b95f9ca10f553cbf7a6790f39d94f",
           "assets/icon.png": "4b5299236cdfdf9e533636d5a53e4b2f196c27f7",
           "docs/netbird-logo.png": "1b2405c07e06ec4e2599fc6f205ba962c6697316",
           "module.yaml": "741634b1072058f3b3a3c426bebed63218d4559b"
         },
-        "commit": "520b63120b04a56ffb275e30625d49513b4dd034",
-        "fetchedAt": "2026-10-14T06:08:41.213Z",
+        "commit": "2c5f5651f66bdbd2f899107e7a002f5e890b8f26",
+        "fetchedAt": "2026-10-23T15:56:10.153Z",
         "files": {
-          "README.md": "9ae5c0e84ccebadd5ef87d80e1ab93b04b7cbccda0b4c52723ffc1daa80e631a",
+          "README.md": "ab0898f66a1cbfad5fdef1c4dd924e31feffda3d4639f0697a1c5f06221d9346",
           "assets/icon.png": "f02f1e5d4edd4fbef8420d768a555b23a179bf24a86413714d03e409598e136e",
           "docs/netbird-logo.png": "33d92428742e9c48b58cbb7b62cdd00987c73e37211ab890a0f721c8b35a1dec",
           "module.yaml": "357183160f7f90214d61f71d33b2501ecac2f19f1bc05a4223db12adc612094a"
@@ -5043,17 +5043,49 @@
       "fullName": "ahsaboy/magisk-netbird",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
-        "lastSuccessAt": "2026-10-22T15:16:40.084Z",
-        "message": "stable-unavailable: the stable release (versionCode 10408) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 10408 is published.",
+        "lastAttemptAt": "2026-10-23T15:56:10.153Z",
+        "lastSuccessAt": "2026-10-23T15:56:10.153Z",
+        "message": null,
         "status": "ok"
       },
       "id": "magisk-netbird",
       "installationId": 171209105,
-      "maxStableVersionCode": 10408,
-      "maxVersionCode": 10408,
+      "maxStableVersionCode": 10409,
+      "maxVersionCode": 10409,
       "prerelease": null,
-      "releases": [],
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:02eabf37931324834e9306b0a653d767c3ec0c8fa86637c373adbe1e20ca7fd6",
+            "id": 669619735,
+            "name": "magisk-netbird-10409-v1.4.9-0.81.3.zip",
+            "sha256": "02eabf37931324834e9306b0a653d767c3ec0c8fa86637c373adbe1e20ca7fd6",
+            "size": 45072549,
+            "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.9/magisk-netbird-10409-v1.4.9-0.81.3.zip"
+          },
+          "body": "## v1.4.9 — NetBird v0.81.3\n\n- Updated the bundled official NetBird client from `0.80.0` to `0.81.3` for `x86_64`, `arm64-v8a`, and `armv7` packages, each archive SHA-256 verified against the official release checksums before packaging.\n- Carries the upstream v0.81.x client changes: relayed connections in kernel mode no longer require eBPF (replaced by loopback endpoint addressing), one unreachable relay no longer churns the other relay connections, ICE session IDs survive remote restarts with fewer unnecessary reconnects, and the signal stream registration wait is bounded for faster failure detection.\n- Re-created the `/dev/netbird` and `/dev/netbird.service` entry-point symlinks on every boot, so the CLI stays reachable after reboot on KernelSU without a mount metamodule (and in late-load mode), where `/dev` is wiped and the module's `system/bin` overlay is not mounted.\n- On KernelSU, the dynamic module status is now also published through the `ksud module config` `override.description` key; Magisk and older managers keep reading the periodically refreshed `module.prop`.\n",
+          "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.9",
+          "immutable": true,
+          "name": "v1.4.9",
+          "prerelease": false,
+          "prop": {
+            "author": "ahsaboy",
+            "description": "NetBird daemon with mobile KernelSU WebUI controls and structured status.",
+            "id": "magisk-netbird",
+            "minMagisk": "20400",
+            "name": "Magisk NetBird",
+            "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/updates/update-arm64-v8a.json",
+            "version": "v1.4.9-0.81.3",
+            "versionCode": "10409"
+          },
+          "publishedAt": "2026-10-23T15:55:44Z",
+          "releaseId": 422033206,
+          "tag": "v1.4.9",
+          "tagCommit": "3844c01282805b3c8ed445254d136c718ea6e095",
+          "version": "v1.4.9-0.81.3",
+          "versionCode": 10409
+        }
+      ],
       "repositoryId": 1274372941,
       "seen": {
         "341949263": {
@@ -5147,9 +5179,43 @@
         "413377136": {
           "checkedAt": "2026-10-15T03:05:37.542Z",
           "ok": true
+        },
+        "422033206": {
+          "checkedAt": "2026-10-23T15:56:10.153Z",
+          "ok": true
         }
       },
-      "stable": null,
+      "stable": {
+        "asset": {
+          "digest": "sha256:02eabf37931324834e9306b0a653d767c3ec0c8fa86637c373adbe1e20ca7fd6",
+          "id": 669619735,
+          "name": "magisk-netbird-10409-v1.4.9-0.81.3.zip",
+          "sha256": "02eabf37931324834e9306b0a653d767c3ec0c8fa86637c373adbe1e20ca7fd6",
+          "size": 45072549,
+          "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.9/magisk-netbird-10409-v1.4.9-0.81.3.zip"
+        },
+        "body": "## v1.4.9 — NetBird v0.81.3\n\n- Updated the bundled official NetBird client from `0.80.0` to `0.81.3` for `x86_64`, `arm64-v8a`, and `armv7` packages, each archive SHA-256 verified against the official release checksums before packaging.\n- Carries the upstream v0.81.x client changes: relayed connections in kernel mode no longer require eBPF (replaced by loopback endpoint addressing), one unreachable relay no longer churns the other relay connections, ICE session IDs survive remote restarts with fewer unnecessary reconnects, and the signal stream registration wait is bounded for faster failure detection.\n- Re-created the `/dev/netbird` and `/dev/netbird.service` entry-point symlinks on every boot, so the CLI stays reachable after reboot on KernelSU without a mount metamodule (and in late-load mode), where `/dev` is wiped and the module's `system/bin` overlay is not mounted.\n- On KernelSU, the dynamic module status is now also published through the `ksud module config` `override.description` key; Magisk and older managers keep reading the periodically refreshed `module.prop`.\n",
+        "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.9",
+        "immutable": true,
+        "name": "v1.4.9",
+        "prerelease": false,
+        "prop": {
+          "author": "ahsaboy",
+          "description": "NetBird daemon with mobile KernelSU WebUI controls and structured status.",
+          "id": "magisk-netbird",
+          "minMagisk": "20400",
+          "name": "Magisk NetBird",
+          "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/updates/update-arm64-v8a.json",
+          "version": "v1.4.9-0.81.3",
+          "versionCode": "10409"
+        },
+        "publishedAt": "2026-10-23T15:55:44Z",
+        "releaseId": 422033206,
+        "tag": "v1.4.9",
+        "tagCommit": "3844c01282805b3c8ed445254d136c718ea6e095",
+        "version": "v1.4.9-0.81.3",
+        "versionCode": 10409
+      },
       "stars": {
         "count": 1,
         "fetchedAt": "2026-10-21T23:23:43.405Z",

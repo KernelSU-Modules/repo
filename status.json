@@ -510,16 +510,21 @@
       }
     },
     "magisk-netbird": {
-      "contentCommit": "520b63120b04a56ffb275e30625d49513b4dd034",
+      "contentCommit": "2c5f5651f66bdbd2f899107e7a002f5e890b8f26",
       "fullName": "ahsaboy/magisk-netbird",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
-      "maxVersionCode": 10408,
-      "message": "stable-unavailable: the stable release (versionCode 10408) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 10408 is published.",
+      "lastSuccessAt": "2026-10-23T15:56:10.153Z",
+      "maxVersionCode": 10409,
+      "message": null,
       "repositoryId": 1274372941,
       "request": null,
-      "stable": null
+      "stable": {
+        "publishedAt": "2026-10-23T15:55:44Z",
+        "tag": "v1.4.9",
+        "version": "v1.4.9-0.81.3",
+        "versionCode": 10409
+      }
     },
     "netproxy": {
       "contentCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
