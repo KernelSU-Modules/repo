@@ -372,16 +372,16 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-24T12:09:08.308Z",
-      "maxVersionCode": 113,
+      "lastSuccessAt": "2026-10-24T12:39:22.660Z",
+      "maxVersionCode": 115,
       "message": null,
       "repositoryId": 1196357682,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-19T02:28:25Z",
-        "tag": "v0.1.7-stable",
-        "version": "0.1.7-stable",
-        "versionCode": 82
+        "publishedAt": "2026-10-24T12:38:59Z",
+        "tag": "v0.2.0-Stable",
+        "version": "0.2.0-Stable",
+        "versionCode": 115
       }
     },
     "enable_miui_adb": {
