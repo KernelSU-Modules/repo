@@ -647,20 +647,20 @@
       "stable": null
     },
     "sidewire": {
-      "contentCommit": "5d739959aa58943917c6fc780c3c95443c524bba",
+      "contentCommit": "5544bb664f056e0bc0fbb9575babe460af97cc4e",
       "fullName": "mzggr0914/sidewire",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-23T13:54:44.027Z",
-      "maxVersionCode": 31,
+      "lastSuccessAt": "2026-10-24T10:39:05.410Z",
+      "maxVersionCode": 32,
       "message": null,
       "repositoryId": 1354975640,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-23T13:54:18Z",
-        "tag": "v1.0.4",
-        "version": "1.0.4",
-        "versionCode": 31
+        "publishedAt": "2026-10-24T10:38:46Z",
+        "tag": "v1.0.5",
+        "version": "1.0.5",
+        "versionCode": 32
       }
     },
     "susfs4ksu_lkm": {

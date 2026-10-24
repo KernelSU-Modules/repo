@@ -6242,13 +6242,13 @@
     "sidewire": {
       "content": {
         "blobs": {
-          "README.md": "04a93c1691591b0fca9adde5b2bfc413816835d1",
+          "README.md": "83ac93e5fcc92656f59a28a7c14b468a70692096",
           "module.yaml": "9ce18950e6cae1ae5792b61e67f042a8e78ec422"
         },
-        "commit": "5d739959aa58943917c6fc780c3c95443c524bba",
-        "fetchedAt": "2026-10-23T13:54:44.027Z",
+        "commit": "5544bb664f056e0bc0fbb9575babe460af97cc4e",
+        "fetchedAt": "2026-10-24T10:39:05.410Z",
         "files": {
-          "README.md": "7582a745aaa0edcaea35f78978b249b3f5439c6f958fcc29b39da28b8e90f7e1",
+          "README.md": "afb99c6c08f261bddec847d1583a2ac55f4cd35b36f512824d828676768ccb27",
           "module.yaml": "07dff387aa3c3fe60ba1d79975ba635372e945af3dad398ffa22865e233b7c83"
         },
         "manifestPath": "module.yaml",
@@ -6257,17 +6257,46 @@
       "fullName": "mzggr0914/sidewire",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-23T13:54:44.027Z",
-        "lastSuccessAt": "2026-10-23T13:54:44.027Z",
+        "lastAttemptAt": "2026-10-24T10:39:05.410Z",
+        "lastSuccessAt": "2026-10-24T10:39:05.410Z",
         "message": null,
         "status": "ok"
       },
       "id": "sidewire",
       "installationId": 173815563,
-      "maxStableVersionCode": 31,
-      "maxVersionCode": 31,
+      "maxStableVersionCode": 32,
+      "maxVersionCode": 32,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:0f4dbdbb53d3365c3e6071256ebfa8397678420a3d092b2a5fbdae9fa025d88f",
+            "id": 671986456,
+            "name": "SideWire-KernelSU-v1.0.5-arm64.zip",
+            "sha256": "0f4dbdbb53d3365c3e6071256ebfa8397678420a3d092b2a5fbdae9fa025d88f",
+            "size": 1244915,
+            "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.5/SideWire-KernelSU-v1.0.5-arm64.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.4...v1.0.5",
+          "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.5",
+          "immutable": true,
+          "name": "SideWire v1.0.5",
+          "prerelease": false,
+          "prop": {
+            "author": "SideWire contributors",
+            "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
+            "id": "sidewire",
+            "name": "SideWire",
+            "version": "1.0.5",
+            "versionCode": "32"
+          },
+          "publishedAt": "2026-10-24T10:38:46Z",
+          "releaseId": 422667532,
+          "tag": "v1.0.5",
+          "tagCommit": "5544bb664f056e0bc0fbb9575babe460af97cc4e",
+          "version": "1.0.5",
+          "versionCode": 32
+        },
         {
           "asset": {
             "digest": "sha256:4b82dcd0b34d2eae425a6599b3bf057f33a17a1fcd5025d75a2831405de40a87",
@@ -6343,36 +6372,40 @@
         "421903337": {
           "checkedAt": "2026-10-23T13:54:44.027Z",
           "ok": true
+        },
+        "422667532": {
+          "checkedAt": "2026-10-24T10:39:05.410Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:4b82dcd0b34d2eae425a6599b3bf057f33a17a1fcd5025d75a2831405de40a87",
-          "id": 669283600,
-          "name": "SideWire-KernelSU-v1.0.4-arm64.zip",
-          "sha256": "4b82dcd0b34d2eae425a6599b3bf057f33a17a1fcd5025d75a2831405de40a87",
-          "size": 1244845,
-          "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.4/SideWire-KernelSU-v1.0.4-arm64.zip"
+          "digest": "sha256:0f4dbdbb53d3365c3e6071256ebfa8397678420a3d092b2a5fbdae9fa025d88f",
+          "id": 671986456,
+          "name": "SideWire-KernelSU-v1.0.5-arm64.zip",
+          "sha256": "0f4dbdbb53d3365c3e6071256ebfa8397678420a3d092b2a5fbdae9fa025d88f",
+          "size": 1244915,
+          "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.5/SideWire-KernelSU-v1.0.5-arm64.zip"
         },
-        "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.3...v1.0.4",
-        "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.4",
+        "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.4...v1.0.5",
+        "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.5",
         "immutable": true,
-        "name": "SideWire v1.0.4",
+        "name": "SideWire v1.0.5",
         "prerelease": false,
         "prop": {
           "author": "SideWire contributors",
           "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
           "id": "sidewire",
           "name": "SideWire",
-          "version": "1.0.4",
-          "versionCode": "31"
+          "version": "1.0.5",
+          "versionCode": "32"
         },
-        "publishedAt": "2026-10-23T13:54:18Z",
-        "releaseId": 421903337,
-        "tag": "v1.0.4",
-        "tagCommit": "5d739959aa58943917c6fc780c3c95443c524bba",
-        "version": "1.0.4",
-        "versionCode": 31
+        "publishedAt": "2026-10-24T10:38:46Z",
+        "releaseId": 422667532,
+        "tag": "v1.0.5",
+        "tagCommit": "5544bb664f056e0bc0fbb9575babe460af97cc4e",
+        "version": "1.0.5",
+        "versionCode": 32
       },
       "stars": {
         "count": 34,
