@@ -1475,17 +1475,47 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-22T04:33:44.931Z",
-        "lastSuccessAt": "2026-10-22T04:33:44.931Z",
+        "lastAttemptAt": "2026-10-24T03:45:27.265Z",
+        "lastSuccessAt": "2026-10-24T03:45:27.265Z",
         "message": null,
         "status": "ok"
       },
       "id": "MagicNet",
       "installationId": 172483675,
-      "maxStableVersionCode": 10605,
-      "maxVersionCode": 10605,
+      "maxStableVersionCode": 10607,
+      "maxVersionCode": 10607,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:abe641acb18b5b318d66dc9a3b5c31ea4283f4623760e0da34109403a6705949",
+            "id": 671181749,
+            "name": "MagicNet-full.zip",
+            "sha256": "abe641acb18b5b318d66dc9a3b5c31ea4283f4623760e0da34109403a6705949",
+            "size": 65316432,
+            "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.2/MagicNet-full.zip"
+          },
+          "body": "安装器下载：https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.2/magicnet_installer.zip\n\n\n\n## What's Changed\n* fix: harden runtime ownership, recovery, and audit coverage by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/401\n* fix(runtime): preserve recovery evidence and isolate status reads by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/402\n* fix(recovery): reject incomplete journals and preserve download candidates by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/403\n* fix(mcp): refuse human wifi/sub status and SSID list reads by @cursor[bot] in https://github.com/LIghtJUNction/MagicNet/pull/405\n* fix(release): prepare version bumps through pull requests by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/404\n* chore(release): prepare v1.7.2 by @github-actions[bot] in https://github.com/LIghtJUNction/MagicNet/pull/406\n\n\n**Full Changelog**: https://github.com/LIghtJUNction/MagicNet/compare/v1.7.0...v1.7.2",
+          "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.7.2",
+          "immutable": true,
+          "name": "MagicNet-10607-v1.7.2",
+          "prerelease": false,
+          "prop": {
+            "author": "LIghtJUNction",
+            "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
+            "id": "MagicNet",
+            "name": "MagicNet",
+            "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
+            "version": "v1.7.2",
+            "versionCode": "10607"
+          },
+          "publishedAt": "2026-10-24T03:45:11Z",
+          "releaseId": 422497374,
+          "tag": "v1.7.2",
+          "tagCommit": "399890d27a8c936545cc0010b1a1d8c3a3ebf406",
+          "version": "v1.7.2",
+          "versionCode": 10607
+        },
         {
           "asset": {
             "digest": "sha256:0e28ee205f08fe3a121bf9a3345533244c8b24daccf85d749cea4650fa48809e",
@@ -1730,21 +1760,25 @@
         "420310683": {
           "checkedAt": "2026-10-22T04:33:44.931Z",
           "ok": true
+        },
+        "422497374": {
+          "checkedAt": "2026-10-24T03:45:27.265Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:0e28ee205f08fe3a121bf9a3345533244c8b24daccf85d749cea4650fa48809e",
-          "id": 664677050,
+          "digest": "sha256:abe641acb18b5b318d66dc9a3b5c31ea4283f4623760e0da34109403a6705949",
+          "id": 671181749,
           "name": "MagicNet-full.zip",
-          "sha256": "0e28ee205f08fe3a121bf9a3345533244c8b24daccf85d749cea4650fa48809e",
-          "size": 65307679,
-          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.0/MagicNet-full.zip"
+          "sha256": "abe641acb18b5b318d66dc9a3b5c31ea4283f4623760e0da34109403a6705949",
+          "size": 65316432,
+          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.2/MagicNet-full.zip"
         },
-        "body": "安装器下载：https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.0/magicnet_installer.zip\n\n\n\n## What's Changed\n* fix(installer): 收拢组件存储、修复配置安装并完善订阅提示 by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/384\n* fix: repair subscription integrity and TUN lifecycle by @cursor[bot] in https://github.com/LIghtJUNction/MagicNet/pull/383\n* fix(ci): require same-commit Android acceptance for bot-bumped releases by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/386\n* fix(webui): preserve settings drafts and improve mobile usability by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/388\n* fix(webui): 改善手机操作布局并修复保存与成功提示 by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/387\n* Fix hotspot TUN return routing and false-ready status by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/390\n* Keep selected mobile section visible on direct page loads by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/391\n* fix: 修复热点生命周期、重复路由与后台操作状态 by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/399\n* chore(deps-dev): bump vite from 8.0.16 to 8.3.5 in /webui in the npm_and_yarn group across 1 directory by @dependabot[bot] in https://github.com/LIghtJUNction/MagicNet/pull/400\n\n\n**Full Changelog**: https://github.com/LIghtJUNction/MagicNet/compare/v1.6.2...v1.7.0",
-        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.7.0",
+        "body": "安装器下载：https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.2/magicnet_installer.zip\n\n\n\n## What's Changed\n* fix: harden runtime ownership, recovery, and audit coverage by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/401\n* fix(runtime): preserve recovery evidence and isolate status reads by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/402\n* fix(recovery): reject incomplete journals and preserve download candidates by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/403\n* fix(mcp): refuse human wifi/sub status and SSID list reads by @cursor[bot] in https://github.com/LIghtJUNction/MagicNet/pull/405\n* fix(release): prepare version bumps through pull requests by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/404\n* chore(release): prepare v1.7.2 by @github-actions[bot] in https://github.com/LIghtJUNction/MagicNet/pull/406\n\n\n**Full Changelog**: https://github.com/LIghtJUNction/MagicNet/compare/v1.7.0...v1.7.2",
+        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.7.2",
         "immutable": true,
-        "name": "MagicNet-10605-v1.7.0",
+        "name": "MagicNet-10607-v1.7.2",
         "prerelease": false,
         "prop": {
           "author": "LIghtJUNction",
@@ -1752,15 +1786,15 @@
           "id": "MagicNet",
           "name": "MagicNet",
           "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
-          "version": "v1.7.0",
-          "versionCode": "10605"
+          "version": "v1.7.2",
+          "versionCode": "10607"
         },
-        "publishedAt": "2026-10-22T04:33:26Z",
-        "releaseId": 420310683,
-        "tag": "v1.7.0",
-        "tagCommit": "4d32c02b11428a4d2d4c3b9a4acd9ecf1e14c0a6",
-        "version": "v1.7.0",
-        "versionCode": 10605
+        "publishedAt": "2026-10-24T03:45:11Z",
+        "releaseId": 422497374,
+        "tag": "v1.7.2",
+        "tagCommit": "399890d27a8c936545cc0010b1a1d8c3a3ebf406",
+        "version": "v1.7.2",
+        "versionCode": 10607
       },
       "stars": {
         "count": 199,
@@ -7004,8 +7038,8 @@
         "versionCode": 569
       },
       "stars": {
-        "count": 5,
-        "fetchedAt": "2026-10-22T19:33:48.189Z",
+        "count": 6,
+        "fetchedAt": "2026-10-24T03:45:27.265Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
