@@ -473,12 +473,17 @@
       "fullName": "NativeStar/KernelSUGrantToast",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-24T08:16:44.260Z",
-      "maxVersionCode": 14,
-      "message": "stable-unavailable: the stable release (versionCode 14) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 14 is published.",
+      "lastSuccessAt": "2026-10-24T08:18:31.280Z",
+      "maxVersionCode": 15,
+      "message": null,
       "repositoryId": 1205795668,
       "request": null,
-      "stable": null
+      "stable": {
+        "publishedAt": "2026-10-24T08:18:06Z",
+        "tag": "2.4",
+        "version": "2.4",
+        "versionCode": 15
+      }
     },
     "lkm4ctr": {
       "contentCommit": "d033555d2d7f9c302b45d787ebcbbe9faed434fc",

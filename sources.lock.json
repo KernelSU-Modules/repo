@@ -4695,17 +4695,48 @@
       "fullName": "NativeStar/KernelSUGrantToast",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-24T08:16:44.260Z",
-        "lastSuccessAt": "2026-10-24T08:16:44.260Z",
-        "message": "stable-unavailable: the stable release (versionCode 14) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 14 is published.",
+        "lastAttemptAt": "2026-10-24T08:18:31.280Z",
+        "lastSuccessAt": "2026-10-24T08:18:31.280Z",
+        "message": null,
         "status": "ok"
       },
       "id": "ksuGrantToast",
       "installationId": 171001753,
-      "maxStableVersionCode": 14,
-      "maxVersionCode": 14,
+      "maxStableVersionCode": 15,
+      "maxVersionCode": 15,
       "prerelease": null,
-      "releases": [],
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:8eb46180c506487f2c7014c75e6eb23cb468427c3d187a502fa5e853ad8bac4f",
+            "id": 671685897,
+            "name": "KernelSUGrantToast.zip",
+            "sha256": "8eb46180c506487f2c7014c75e6eb23cb468427c3d187a502fa5e853ad8bac4f",
+            "size": 291063,
+            "url": "https://github.com/NativeStar/KernelSUGrantToast/releases/download/2.4/KernelSUGrantToast.zip"
+          },
+          "body": "重写初始化时加载配置的方式\r\n支持设置是否启用WebUI振动反馈\r\n支持在提示提权时使用振动进行提醒 并支持设置振动时长 该功能默认关闭\r\n修复部分配置项在保存时可能出现异常\r\n修复WebUI在初始化时无论是否处于深色模式均会出现短暂白屏\r\n更新依赖项\r\n\r\nRewrote the way the configuration is loaded during initialization.\r\nAdded an option to enable or disable vibration feedback in the WebUI.\r\nAdded support for using vibration as a reminder when a privilege grant toast is shown, with a configurable vibration duration; this feature is disabled by default.\r\nFixed an issue where some configuration items could be saved incorrectly.\r\nFixed a brief white screen in the WebUI during initialization regardless of whether dark mode was enabled.\r\nUpdated dependencies.",
+          "htmlUrl": "https://github.com/NativeStar/KernelSUGrantToast/releases/tag/2.4",
+          "immutable": true,
+          "name": "2.4",
+          "prerelease": false,
+          "prop": {
+            "author": "NativeStar",
+            "description": "(❌Disabled)Show a root granted toast like Magisk.",
+            "id": "ksuGrantToast",
+            "name": "KernelSU Grant Toast",
+            "updateJson": "https://raw.githubusercontent.com/NativeStar/KernelSUGrantToast/master/update.json",
+            "version": "2.4",
+            "versionCode": "15"
+          },
+          "publishedAt": "2026-10-24T08:18:06Z",
+          "releaseId": 422604109,
+          "tag": "2.4",
+          "tagCommit": "4df7947b9581e11e5c43cf6ddfb3ca2fedf11fa3",
+          "version": "2.4",
+          "versionCode": 15
+        }
+      ],
       "repositoryId": 1205795668,
       "seen": {
         "307128273": {
@@ -4795,9 +4826,42 @@
         "411802512": {
           "checkedAt": "2026-10-13T15:07:28.890Z",
           "ok": true
+        },
+        "422604109": {
+          "checkedAt": "2026-10-24T08:18:31.280Z",
+          "ok": true
         }
       },
-      "stable": null,
+      "stable": {
+        "asset": {
+          "digest": "sha256:8eb46180c506487f2c7014c75e6eb23cb468427c3d187a502fa5e853ad8bac4f",
+          "id": 671685897,
+          "name": "KernelSUGrantToast.zip",
+          "sha256": "8eb46180c506487f2c7014c75e6eb23cb468427c3d187a502fa5e853ad8bac4f",
+          "size": 291063,
+          "url": "https://github.com/NativeStar/KernelSUGrantToast/releases/download/2.4/KernelSUGrantToast.zip"
+        },
+        "body": "重写初始化时加载配置的方式\r\n支持设置是否启用WebUI振动反馈\r\n支持在提示提权时使用振动进行提醒 并支持设置振动时长 该功能默认关闭\r\n修复部分配置项在保存时可能出现异常\r\n修复WebUI在初始化时无论是否处于深色模式均会出现短暂白屏\r\n更新依赖项\r\n\r\nRewrote the way the configuration is loaded during initialization.\r\nAdded an option to enable or disable vibration feedback in the WebUI.\r\nAdded support for using vibration as a reminder when a privilege grant toast is shown, with a configurable vibration duration; this feature is disabled by default.\r\nFixed an issue where some configuration items could be saved incorrectly.\r\nFixed a brief white screen in the WebUI during initialization regardless of whether dark mode was enabled.\r\nUpdated dependencies.",
+        "htmlUrl": "https://github.com/NativeStar/KernelSUGrantToast/releases/tag/2.4",
+        "immutable": true,
+        "name": "2.4",
+        "prerelease": false,
+        "prop": {
+          "author": "NativeStar",
+          "description": "(❌Disabled)Show a root granted toast like Magisk.",
+          "id": "ksuGrantToast",
+          "name": "KernelSU Grant Toast",
+          "updateJson": "https://raw.githubusercontent.com/NativeStar/KernelSUGrantToast/master/update.json",
+          "version": "2.4",
+          "versionCode": "15"
+        },
+        "publishedAt": "2026-10-24T08:18:06Z",
+        "releaseId": 422604109,
+        "tag": "2.4",
+        "tagCommit": "4df7947b9581e11e5c43cf6ddfb3ca2fedf11fa3",
+        "version": "2.4",
+        "versionCode": 15
+      },
       "stars": {
         "count": 58,
         "fetchedAt": "2026-10-21T02:10:31.941Z",
