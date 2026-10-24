@@ -469,11 +469,11 @@
       "stable": null
     },
     "ksuGrantToast": {
-      "contentCommit": "7fd0b6184e6a2fc4c2559ec4dd35eff199b13efc",
+      "contentCommit": "4df7947b9581e11e5c43cf6ddfb3ca2fedf11fa3",
       "fullName": "NativeStar/KernelSUGrantToast",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+      "lastSuccessAt": "2026-10-24T08:16:44.260Z",
       "maxVersionCode": 14,
       "message": "stable-unavailable: the stable release (versionCode 14) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 14 is published.",
       "repositoryId": 1205795668,
@@ -666,16 +666,16 @@
       "fullName": "Rouyashiki/YukiZygisk",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-22T23:15:57.154Z",
-      "maxVersionCode": 10113,
+      "lastSuccessAt": "2026-10-24T08:16:44.260Z",
+      "maxVersionCode": 10114,
       "message": null,
       "repositoryId": 1297024368,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-22T23:15:33Z",
-        "tag": "ci-39870055007",
-        "version": "v0.2.0-10113",
-        "versionCode": 10113
+        "publishedAt": "2026-10-24T08:16:24Z",
+        "tag": "ci-40077144057",
+        "version": "v0.2.0-10114",
+        "versionCode": 10114
       }
     },
     "zygisk-sui": {
