@@ -633,17 +633,47 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-18T16:03:21.556Z",
-        "lastSuccessAt": "2026-10-18T16:03:21.556Z",
+        "lastAttemptAt": "2026-10-24T06:29:21.930Z",
+        "lastSuccessAt": "2026-10-24T06:29:21.930Z",
         "message": null,
         "status": "ok"
       },
       "id": "CRecordEvolution",
       "installationId": 170323968,
-      "maxStableVersionCode": 29,
-      "maxVersionCode": 29,
+      "maxStableVersionCode": 35,
+      "maxVersionCode": 35,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:ee84ea24f3d679c5d27b417ebe927a85819c031879752acdc009b1fe846f74db",
+            "id": 671480618,
+            "name": "CRecordEvolution-35-1.3.6.zip",
+            "sha256": "ee84ea24f3d679c5d27b417ebe927a85819c031879752acdc009b1fe846f74db",
+            "size": 3076988,
+            "url": "https://github.com/f1owkang/CRecordEvolution/releases/download/v1.3.6/CRecordEvolution-35-1.3.6.zip"
+          },
+          "body": "- chore: 发布 1.3.6(35)\n- docs: 更新双语文档、历史/WebUI 说明与模块摘要\n- feat: 中英双语、Preact 三页 WebUI 与完整历史页\n- chore: 统一脚本 LF 换行并忽略本地构建产物\n\n`CRecordEvolution_ML-35-1.3.6.zip` 为实验通道（在线学习算法），手动刷入，不提供应用内更新。\n",
+          "htmlUrl": "https://github.com/f1owkang/CRecordEvolution/releases/tag/v1.3.6",
+          "immutable": true,
+          "name": "ChargingRecord Evolution v1.3.6",
+          "prerelease": false,
+          "prop": {
+            "author": "f1owkang、hcnk3HrzQe",
+            "description": "在管理器描述里实时显示电池健康度与容量，内置 WebUI 估算曲线 | Real-time battery health and capacity in the manager's module description, with a built-in WebUI",
+            "id": "CRecordEvolution",
+            "name": "ChargingRecord Evolution",
+            "updateJson": "https://raw.githubusercontent.com/f1owkang/CRecordEvolution/main/update.json",
+            "version": "1.3.6",
+            "versionCode": "35"
+          },
+          "publishedAt": "2026-10-24T06:29:00Z",
+          "releaseId": 422560243,
+          "tag": "v1.3.6",
+          "tagCommit": "be342509c884695e166143f6da57f4e4252befd1",
+          "version": "1.3.6",
+          "versionCode": 35
+        },
         {
           "asset": {
             "digest": "sha256:171b3d2025e9bcde3d06a320647d23f8eb4bbe9ce48c66e96bebd88a378a5b7f",
@@ -734,41 +764,45 @@
         "416547424": {
           "checkedAt": "2026-10-18T16:03:21.556Z",
           "ok": true
+        },
+        "422560243": {
+          "checkedAt": "2026-10-24T06:29:21.930Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:171b3d2025e9bcde3d06a320647d23f8eb4bbe9ce48c66e96bebd88a378a5b7f",
-          "id": 653852803,
-          "name": "CRecordEvolution-29-1.3.5.zip",
-          "sha256": "171b3d2025e9bcde3d06a320647d23f8eb4bbe9ce48c66e96bebd88a378a5b7f",
-          "size": 3033358,
-          "url": "https://github.com/f1owkang/CRecordEvolution/releases/download/v1.3.5/CRecordEvolution-29-1.3.5.zip"
+          "digest": "sha256:ee84ea24f3d679c5d27b417ebe927a85819c031879752acdc009b1fe846f74db",
+          "id": 671480618,
+          "name": "CRecordEvolution-35-1.3.6.zip",
+          "sha256": "ee84ea24f3d679c5d27b417ebe927a85819c031879752acdc009b1fe846f74db",
+          "size": 3076988,
+          "url": "https://github.com/f1owkang/CRecordEvolution/releases/download/v1.3.6/CRecordEvolution-35-1.3.6.zip"
         },
-        "body": "- chore: 发布 1.3.5(29)\n- feat: 描述行并列内核/实测健康，WebUI 补退避与平滑曲线\n- fix: 中段校准跳过无 cc 旧行，修正系统性偏低 366mAh\n- feat: 补齐 KernelSU Modules 上架元数据与发布前预检\n- docs: 作者改为仓库贡献者并修订 README\n- fix: 补齐 KernelSU Modules 预检查要求\n- add: update.json 更新至 v1.3.4\n\n`CRecordEvolution_ML-29-1.3.5.zip` 为实验通道（在线学习算法），手动刷入，不提供应用内更新。\n",
-        "htmlUrl": "https://github.com/f1owkang/CRecordEvolution/releases/tag/v1.3.5",
+        "body": "- chore: 发布 1.3.6(35)\n- docs: 更新双语文档、历史/WebUI 说明与模块摘要\n- feat: 中英双语、Preact 三页 WebUI 与完整历史页\n- chore: 统一脚本 LF 换行并忽略本地构建产物\n\n`CRecordEvolution_ML-35-1.3.6.zip` 为实验通道（在线学习算法），手动刷入，不提供应用内更新。\n",
+        "htmlUrl": "https://github.com/f1owkang/CRecordEvolution/releases/tag/v1.3.6",
         "immutable": true,
-        "name": "ChargingRecord Evolution v1.3.5",
+        "name": "ChargingRecord Evolution v1.3.6",
         "prerelease": false,
         "prop": {
           "author": "f1owkang、hcnk3HrzQe",
-          "description": "Magisk模块，通过读取系统容量估算电池健康度",
+          "description": "在管理器描述里实时显示电池健康度与容量，内置 WebUI 估算曲线 | Real-time battery health and capacity in the manager's module description, with a built-in WebUI",
           "id": "CRecordEvolution",
           "name": "ChargingRecord Evolution",
           "updateJson": "https://raw.githubusercontent.com/f1owkang/CRecordEvolution/main/update.json",
-          "version": "1.3.5",
-          "versionCode": "29"
+          "version": "1.3.6",
+          "versionCode": "35"
         },
-        "publishedAt": "2026-10-18T15:56:24Z",
-        "releaseId": 416547424,
-        "tag": "v1.3.5",
-        "tagCommit": "240ff63f1e227c43a921bb473ffa77362942d18a",
-        "version": "1.3.5",
-        "versionCode": 29
+        "publishedAt": "2026-10-24T06:29:00Z",
+        "releaseId": 422560243,
+        "tag": "v1.3.6",
+        "tagCommit": "be342509c884695e166143f6da57f4e4252befd1",
+        "version": "1.3.6",
+        "versionCode": 35
       },
       "stars": {
-        "count": 6,
-        "fetchedAt": "2026-10-24T01:58:34.660Z",
+        "count": 7,
+        "fetchedAt": "2026-10-24T06:29:21.930Z",
         "fullName": "f1owkang/CRecordEvolution",
         "repositoryId": 678049636,
         "verified": "self"
