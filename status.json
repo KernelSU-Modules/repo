@@ -430,6 +430,27 @@
       "request": null,
       "stable": null
     },
+    "gitmigrator": {
+      "contentCommit": "a8bc7da481f943ab16f193cf5e07a264eae368ac",
+      "fullName": "privshell/GitMigrator-KSU",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1430545346,
+      "request": {
+        "checkedAt": "2026-10-24T10:47:10.280Z",
+        "commit": "a8bc7da481f943ab16f193cf5e07a264eae368ac",
+        "issues": [],
+        "latestTag": "v1.0.2",
+        "ok": true,
+        "releaseId": 422670415,
+        "repositoryId": 1430545346,
+        "submissionId": "uqwvq4ukjk"
+      },
+      "stable": null
+    },
     "hybrid_mount": {
       "contentCommit": "89f328fd945c72794a6505d779f6d85834d131a3",
       "fullName": "Hybrid-Mount/meta-hybrid_mount",
