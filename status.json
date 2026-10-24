@@ -191,12 +191,17 @@
       "fullName": "xiaoji0308/Steps",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
-      "maxVersionCode": 20261020,
-      "message": "stable-unavailable: the stable release (versionCode 20261020) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 20261020 is published.",
+      "lastSuccessAt": "2026-10-24T07:41:28.629Z",
+      "maxVersionCode": 20261024,
+      "message": null,
       "repositoryId": 1423140380,
       "request": null,
-      "stable": null
+      "stable": {
+        "publishedAt": "2026-10-24T07:41:04Z",
+        "tag": "1024",
+        "version": "1024",
+        "versionCode": 20261024
+      }
     },
     "SvcHub": {
       "contentCommit": "09239641b1d0d93388e733534426706a35ff758d",

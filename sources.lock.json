@@ -2422,17 +2422,48 @@
       "fullName": "xiaoji0308/Steps",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
-        "lastSuccessAt": "2026-10-22T15:16:40.084Z",
-        "message": "stable-unavailable: the stable release (versionCode 20261020) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 20261020 is published.",
+        "lastAttemptAt": "2026-10-24T07:41:28.629Z",
+        "lastSuccessAt": "2026-10-24T07:41:28.629Z",
+        "message": null,
         "status": "ok"
       },
       "id": "S-T-E-P-S",
       "installationId": 172438629,
-      "maxStableVersionCode": 20261020,
-      "maxVersionCode": 20261020,
+      "maxStableVersionCode": 20261024,
+      "maxVersionCode": 20261024,
       "prerelease": null,
-      "releases": [],
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:44dbf55ae2054232caacc19bf81e2102ab43d746a5694eb7c7b54e4efce02b1c",
+            "id": 671612393,
+            "name": "26.1024.zip",
+            "sha256": "44dbf55ae2054232caacc19bf81e2102ab43d746a5694eb7c7b54e4efce02b1c",
+            "size": 35594,
+            "url": "https://github.com/xiaoji0308/Steps/releases/download/1024/26.1024.zip"
+          },
+          "body": "WebUI 界面优化：关闭开关时自动隐藏相关设置，开启后显示\r\n新增随机最终目标，可自定义步数范围\r\n支持工作日、周末独立设置\r\n优化 WebUI 设置显示与配置",
+          "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1024",
+          "immutable": true,
+          "name": "智能步數管理26.1024",
+          "prerelease": false,
+          "prop": {
+            "author": "浠浠浠   原作者：阿巴酱丨小青泽",
+            "description": "自动增加步数",
+            "id": "S-T-E-P-S",
+            "name": "A-智能步数管理［HyperOS］",
+            "version": "1024",
+            "versionCode": "20261024",
+            "webuiIcon": "webroot/icon.svg"
+          },
+          "publishedAt": "2026-10-24T07:41:04Z",
+          "releaseId": 422588127,
+          "tag": "1024",
+          "tagCommit": "2debfa5349eddb640619238a3bcb1bc16cde4d99",
+          "version": "1024",
+          "versionCode": 20261024
+        }
+      ],
       "repositoryId": 1423140380,
       "seen": {
         "415852567": {
@@ -2456,9 +2487,42 @@
         "417950263": {
           "checkedAt": "2026-10-20T02:50:31.213Z",
           "ok": true
+        },
+        "422588127": {
+          "checkedAt": "2026-10-24T07:41:28.629Z",
+          "ok": true
         }
       },
-      "stable": null,
+      "stable": {
+        "asset": {
+          "digest": "sha256:44dbf55ae2054232caacc19bf81e2102ab43d746a5694eb7c7b54e4efce02b1c",
+          "id": 671612393,
+          "name": "26.1024.zip",
+          "sha256": "44dbf55ae2054232caacc19bf81e2102ab43d746a5694eb7c7b54e4efce02b1c",
+          "size": 35594,
+          "url": "https://github.com/xiaoji0308/Steps/releases/download/1024/26.1024.zip"
+        },
+        "body": "WebUI 界面优化：关闭开关时自动隐藏相关设置，开启后显示\r\n新增随机最终目标，可自定义步数范围\r\n支持工作日、周末独立设置\r\n优化 WebUI 设置显示与配置",
+        "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1024",
+        "immutable": true,
+        "name": "智能步數管理26.1024",
+        "prerelease": false,
+        "prop": {
+          "author": "浠浠浠   原作者：阿巴酱丨小青泽",
+          "description": "自动增加步数",
+          "id": "S-T-E-P-S",
+          "name": "A-智能步数管理［HyperOS］",
+          "version": "1024",
+          "versionCode": "20261024",
+          "webuiIcon": "webroot/icon.svg"
+        },
+        "publishedAt": "2026-10-24T07:41:04Z",
+        "releaseId": 422588127,
+        "tag": "1024",
+        "tagCommit": "2debfa5349eddb640619238a3bcb1bc16cde4d99",
+        "version": "1024",
+        "versionCode": 20261024
+      },
       "stars": {
         "count": 4,
         "fetchedAt": "2026-10-22T15:16:40.084Z",
