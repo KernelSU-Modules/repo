@@ -2524,8 +2524,8 @@
         "versionCode": 20261024
       },
       "stars": {
-        "count": 4,
-        "fetchedAt": "2026-10-22T15:16:40.084Z",
+        "count": 5,
+        "fetchedAt": "2026-10-24T18:03:30.385Z",
         "fullName": "xiaoji0308/Steps",
         "repositoryId": 1423140380,
         "verified": "self"
@@ -7042,17 +7042,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-22T08:52:44.882Z",
-        "lastSuccessAt": "2026-10-22T08:52:44.882Z",
+        "lastAttemptAt": "2026-10-24T18:03:30.385Z",
+        "lastSuccessAt": "2026-10-24T18:03:30.385Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 569,
-      "maxVersionCode": 569,
+      "maxStableVersionCode": 570,
+      "maxVersionCode": 570,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:e6f6f68b4b658815437c4d6be1c6300e416e07ef73e4428028c2ae79aa318e08",
+            "id": 672938490,
+            "name": "Sui-v13.5.4.3_570-374ff72-release.zip",
+            "sha256": "e6f6f68b4b658815437c4d6be1c6300e416e07ef73e4428028c2ae79aa318e08",
+            "size": 1454706,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v570-374ff72/Sui-v13.5.4.3_570-374ff72-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (570-374ff72-release)`\n- **VersionCode:** `570`\n- **Commit:** [`374ff72`](https://github.com/XiaoTong6666/Sui/commit/374ff72a5bee94ea6c472d23469bb6113fd47466)\n- **Build time:** `3m 12s`\n- **SHA256:** `e6f6f68b4b658815437c4d6be1c6300e416e07ef73e4428028c2ae79aa318e08`\n\n## Message\n\n```text\nbuild(deps): bump gradle-wrapper from 9.8.1 to 9.8.2 (#138)\n\nBumps [gradle-wrapper](https://github.com/gradle/gradle) from 9.8.1 to 9.8.2.\n- [Release notes](https://github.com/gradle/gradle/releases)\n- [Commits](https://github.com/gradle/gradle/compare/v9.8.1...v9.8.2)\n\n---\nupdated-dependencies:\n- dependency-name: gradle-wrapper\n  dependency-version: 9.8.2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v570-374ff72",
+          "immutable": true,
+          "name": "v13.5.4.3 (570-374ff72-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (570-374ff72-release)",
+            "versionCode": "570"
+          },
+          "publishedAt": "2026-10-24T18:03:06Z",
+          "releaseId": 422895364,
+          "tag": "v570-374ff72",
+          "tagCommit": "6afb7fe269eab4502f60945613a689911b0461bc",
+          "version": "v13.5.4.3 (570-374ff72-release)",
+          "versionCode": 570
+        },
         {
           "asset": {
             "digest": "sha256:00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621",
@@ -7335,21 +7365,25 @@
         "420494653": {
           "checkedAt": "2026-10-22T08:52:44.882Z",
           "ok": true
+        },
+        "422895364": {
+          "checkedAt": "2026-10-24T18:03:30.385Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621",
-          "id": 665245646,
-          "name": "Sui-v13.5.4.3_569-8d2392a-release.zip",
-          "sha256": "00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621",
-          "size": 1454699,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v569-8d2392a/Sui-v13.5.4.3_569-8d2392a-release.zip"
+          "digest": "sha256:e6f6f68b4b658815437c4d6be1c6300e416e07ef73e4428028c2ae79aa318e08",
+          "id": 672938490,
+          "name": "Sui-v13.5.4.3_570-374ff72-release.zip",
+          "sha256": "e6f6f68b4b658815437c4d6be1c6300e416e07ef73e4428028c2ae79aa318e08",
+          "size": 1454706,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v570-374ff72/Sui-v13.5.4.3_570-374ff72-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (569-8d2392a-release)`\n- **VersionCode:** `569`\n- **Commit:** [`8d2392a`](https://github.com/XiaoTong6666/Sui/commit/8d2392a9e4d8a079efa4badeb268c05501a48398)\n- **Build time:** `2m 40s`\n- **SHA256:** `00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621`\n\n## Message\n\n```text\nfeat(adb): add selectable Zygisk Next injection backend, Meow\n\n给 ADB Root 菜单加了「ZN 注入」开关，勾选走 Zygisk Next，取消就继续用 Bind Mount，选择会保存到 /data/adb/sui 的标志文件里喵（轻轻拨动开关）\n\n通过官方 ZN API v4 给 adbd 安装 PLT Hook，保留 Root 上下文和 socket 标签处理，不再依赖替换 adbd 可执行文件喵（伸爪检查）\n\n初始化加入状态反馈和失败回滚，后端选择不再判断 Android 版本，注入失败也不会悄悄切回 Bind Mount 喵（收好小尾巴）\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v569-8d2392a",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (570-374ff72-release)`\n- **VersionCode:** `570`\n- **Commit:** [`374ff72`](https://github.com/XiaoTong6666/Sui/commit/374ff72a5bee94ea6c472d23469bb6113fd47466)\n- **Build time:** `3m 12s`\n- **SHA256:** `e6f6f68b4b658815437c4d6be1c6300e416e07ef73e4428028c2ae79aa318e08`\n\n## Message\n\n```text\nbuild(deps): bump gradle-wrapper from 9.8.1 to 9.8.2 (#138)\n\nBumps [gradle-wrapper](https://github.com/gradle/gradle) from 9.8.1 to 9.8.2.\n- [Release notes](https://github.com/gradle/gradle/releases)\n- [Commits](https://github.com/gradle/gradle/compare/v9.8.1...v9.8.2)\n\n---\nupdated-dependencies:\n- dependency-name: gradle-wrapper\n  dependency-version: 9.8.2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v570-374ff72",
         "immutable": true,
-        "name": "v13.5.4.3 (569-8d2392a-release)",
+        "name": "v13.5.4.3 (570-374ff72-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -7357,15 +7391,15 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (569-8d2392a-release)",
-          "versionCode": "569"
+          "version": "v13.5.4.3 (570-374ff72-release)",
+          "versionCode": "570"
         },
-        "publishedAt": "2026-10-22T08:52:15Z",
-        "releaseId": 420494653,
-        "tag": "v569-8d2392a",
-        "tagCommit": "76017740f3aab1b8eb7d1a04f19848154d1381bf",
-        "version": "v13.5.4.3 (569-8d2392a-release)",
-        "versionCode": 569
+        "publishedAt": "2026-10-24T18:03:06Z",
+        "releaseId": 422895364,
+        "tag": "v570-374ff72",
+        "tagCommit": "6afb7fe269eab4502f60945613a689911b0461bc",
+        "version": "v13.5.4.3 (570-374ff72-release)",
+        "versionCode": 570
       },
       "stars": {
         "count": 6,
