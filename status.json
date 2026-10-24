@@ -587,6 +587,27 @@
         "versionCode": 155
       }
     },
+    "orbit_store": {
+      "contentCommit": "8867972050198f0795eafcf013494f6166408bda",
+      "fullName": "privshell/orbit-store",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1421086526,
+      "request": {
+        "checkedAt": "2026-10-24T08:43:02.723Z",
+        "commit": "8867972050198f0795eafcf013494f6166408bda",
+        "issues": [],
+        "latestTag": "v1.1.0",
+        "ok": true,
+        "releaseId": 422614236,
+        "repositoryId": 1421086526,
+        "submissionId": "umdjkfrv3z"
+      },
+      "stable": null
+    },
     "playintegrityfix": {
       "contentCommit": "cc06c31e1de8c6d4d25e48c62c2dbc3995979fc3",
       "fullName": "KOWX712/PlayIntegrityFix",
