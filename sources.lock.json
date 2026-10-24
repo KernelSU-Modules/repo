@@ -3444,8 +3444,8 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-24T03:36:19.010Z",
-        "lastSuccessAt": "2026-10-24T03:36:19.010Z",
+        "lastAttemptAt": "2026-10-24T03:37:13.768Z",
+        "lastSuccessAt": "2026-10-24T03:37:13.768Z",
         "message": null,
         "status": "ok"
       },
@@ -3900,6 +3900,12 @@
         "422493725": {
           "checkedAt": "2026-10-24T03:36:19.010Z",
           "ok": true
+        },
+        "422494177": {
+          "checkedAt": "2026-10-24T03:37:13.768Z",
+          "code": "version-not-newer",
+          "message": "versionCode 96 is already used by the prerelease nightly-04e2031c-20261024T033557688806Z. To promote it, untick \"pre-release\" on that release; otherwise publish a new release with a versionCode above 96.",
+          "ok": false
         }
       },
       "stable": {
