@@ -1,0 +1,19 @@
+id: Android_Nakedcore
+status: pending
+request:
+  submissionId: 094dzvqdg0
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1433508547
+    ownerId: 131515566
+    fullName: Bcorw/Android_Nakedcore
+    manifestPath: module.yaml
+  submittedBy: 131515566
+  submittedByLogin: Bcorw
+  submittedAt: 2026-10-25T19:32:24.005Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64590
+createdAt: 2026-10-25T19:32:24.005Z
+updatedAt: 2026-10-25T19:32:24.005Z
