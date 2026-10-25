@@ -730,17 +730,12 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-24T18:03:30.385Z",
+      "lastSuccessAt": "2026-10-25T10:13:35.861Z",
       "maxVersionCode": 570,
-      "message": null,
+      "message": "stable-unavailable: the stable release (versionCode 570) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 570 is published.",
       "repositoryId": 1415623276,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-10-24T18:03:06Z",
-        "tag": "v570-374ff72",
-        "version": "v13.5.4.3 (570-374ff72-release)",
-        "versionCode": 570
-      }
+      "stable": null
     },
     "zygisk_fusehide": {
       "contentCommit": "7698c9002807f1a22f7631b8bd23fe4d1b4cbac1",
@@ -760,11 +755,11 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "8e48bf1a8bbea9d774e72ec0f53d4d4532f27967",
+      "contentCommit": "ac4f496fccac008b0103262fdef1ebcc1f59aac9",
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-25T07:14:51.185Z",
+      "lastSuccessAt": "2026-10-25T10:13:35.861Z",
       "maxVersionCode": 231,
       "message": null,
       "repositoryId": 1348255159,

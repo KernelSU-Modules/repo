@@ -1242,8 +1242,8 @@
         "versionCode": 20260821
       },
       "stars": {
-        "count": 301,
-        "fetchedAt": "2026-10-23T03:18:16.902Z",
+        "count": 303,
+        "fetchedAt": "2026-10-25T10:13:35.861Z",
         "fullName": "Seyud/FreePPS",
         "repositoryId": 1063205512,
         "requested": "Seyud/FreePPS",
@@ -5065,8 +5065,8 @@
         "versionCode": 40005
       },
       "stars": {
-        "count": 19,
-        "fetchedAt": "2026-10-24T09:00:46.631Z",
+        "count": 20,
+        "fetchedAt": "2026-10-25T10:13:35.861Z",
         "fullName": "cyanmint/lkm4ctr",
         "repositoryId": 1313308146,
         "verified": "self"
@@ -7101,8 +7101,8 @@
         "versionCode": 10117
       },
       "stars": {
-        "count": 61,
-        "fetchedAt": "2026-10-24T08:16:44.260Z",
+        "count": 63,
+        "fetchedAt": "2026-10-25T10:13:35.861Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
@@ -7126,9 +7126,9 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-24T18:03:30.385Z",
-        "lastSuccessAt": "2026-10-24T18:03:30.385Z",
-        "message": null,
+        "lastAttemptAt": "2026-10-25T10:13:35.861Z",
+        "lastSuccessAt": "2026-10-25T10:13:35.861Z",
+        "message": "stable-unavailable: the stable release (versionCode 570) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 570 is published.",
         "status": "ok"
       },
       "id": "zygisk-sui",
@@ -7137,36 +7137,6 @@
       "maxVersionCode": 570,
       "prerelease": null,
       "releases": [
-        {
-          "asset": {
-            "digest": "sha256:e6f6f68b4b658815437c4d6be1c6300e416e07ef73e4428028c2ae79aa318e08",
-            "id": 672938490,
-            "name": "Sui-v13.5.4.3_570-374ff72-release.zip",
-            "sha256": "e6f6f68b4b658815437c4d6be1c6300e416e07ef73e4428028c2ae79aa318e08",
-            "size": 1454706,
-            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v570-374ff72/Sui-v13.5.4.3_570-374ff72-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (570-374ff72-release)`\n- **VersionCode:** `570`\n- **Commit:** [`374ff72`](https://github.com/XiaoTong6666/Sui/commit/374ff72a5bee94ea6c472d23469bb6113fd47466)\n- **Build time:** `3m 12s`\n- **SHA256:** `e6f6f68b4b658815437c4d6be1c6300e416e07ef73e4428028c2ae79aa318e08`\n\n## Message\n\n```text\nbuild(deps): bump gradle-wrapper from 9.8.1 to 9.8.2 (#138)\n\nBumps [gradle-wrapper](https://github.com/gradle/gradle) from 9.8.1 to 9.8.2.\n- [Release notes](https://github.com/gradle/gradle/releases)\n- [Commits](https://github.com/gradle/gradle/compare/v9.8.1...v9.8.2)\n\n---\nupdated-dependencies:\n- dependency-name: gradle-wrapper\n  dependency-version: 9.8.2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v570-374ff72",
-          "immutable": true,
-          "name": "v13.5.4.3 (570-374ff72-release)",
-          "prerelease": false,
-          "prop": {
-            "author": "Sui Contributors",
-            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
-            "id": "zygisk-sui",
-            "name": "Zygisk - Sui",
-            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-            "version": "v13.5.4.3 (570-374ff72-release)",
-            "versionCode": "570"
-          },
-          "publishedAt": "2026-10-24T18:03:06Z",
-          "releaseId": 422895364,
-          "tag": "v570-374ff72",
-          "tagCommit": "6afb7fe269eab4502f60945613a689911b0461bc",
-          "version": "v13.5.4.3 (570-374ff72-release)",
-          "versionCode": 570
-        },
         {
           "asset": {
             "digest": "sha256:00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621",
@@ -7453,38 +7423,13 @@
         "422895364": {
           "checkedAt": "2026-10-24T18:03:30.385Z",
           "ok": true
+        },
+        "423314064": {
+          "checkedAt": "2026-10-25T10:13:35.861Z",
+          "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:e6f6f68b4b658815437c4d6be1c6300e416e07ef73e4428028c2ae79aa318e08",
-          "id": 672938490,
-          "name": "Sui-v13.5.4.3_570-374ff72-release.zip",
-          "sha256": "e6f6f68b4b658815437c4d6be1c6300e416e07ef73e4428028c2ae79aa318e08",
-          "size": 1454706,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v570-374ff72/Sui-v13.5.4.3_570-374ff72-release.zip"
-        },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (570-374ff72-release)`\n- **VersionCode:** `570`\n- **Commit:** [`374ff72`](https://github.com/XiaoTong6666/Sui/commit/374ff72a5bee94ea6c472d23469bb6113fd47466)\n- **Build time:** `3m 12s`\n- **SHA256:** `e6f6f68b4b658815437c4d6be1c6300e416e07ef73e4428028c2ae79aa318e08`\n\n## Message\n\n```text\nbuild(deps): bump gradle-wrapper from 9.8.1 to 9.8.2 (#138)\n\nBumps [gradle-wrapper](https://github.com/gradle/gradle) from 9.8.1 to 9.8.2.\n- [Release notes](https://github.com/gradle/gradle/releases)\n- [Commits](https://github.com/gradle/gradle/compare/v9.8.1...v9.8.2)\n\n---\nupdated-dependencies:\n- dependency-name: gradle-wrapper\n  dependency-version: 9.8.2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v570-374ff72",
-        "immutable": true,
-        "name": "v13.5.4.3 (570-374ff72-release)",
-        "prerelease": false,
-        "prop": {
-          "author": "Sui Contributors",
-          "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
-          "id": "zygisk-sui",
-          "name": "Zygisk - Sui",
-          "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (570-374ff72-release)",
-          "versionCode": "570"
-        },
-        "publishedAt": "2026-10-24T18:03:06Z",
-        "releaseId": 422895364,
-        "tag": "v570-374ff72",
-        "tagCommit": "6afb7fe269eab4502f60945613a689911b0461bc",
-        "version": "v13.5.4.3 (570-374ff72-release)",
-        "versionCode": 570
-      },
+      "stable": null,
       "stars": {
         "count": 7,
         "fetchedAt": "2026-10-25T05:12:12.464Z",
@@ -7721,13 +7666,13 @@
     "zygisknextsu": {
       "content": {
         "blobs": {
-          "README.md": "668c527d23ca2627d87e9b361ee2240b35181d9b",
+          "README.md": "dc7ec9aa763f2dd79b2eba228dc3fe6a4237dbca",
           "module.yaml": "d78a0b9d8cc94f7a1805cba3a6d728c9a8591d85"
         },
-        "commit": "8e48bf1a8bbea9d774e72ec0f53d4d4532f27967",
-        "fetchedAt": "2026-10-25T07:14:51.185Z",
+        "commit": "ac4f496fccac008b0103262fdef1ebcc1f59aac9",
+        "fetchedAt": "2026-10-25T10:13:35.861Z",
         "files": {
-          "README.md": "eb6ab3e3859974aeb31585e2af7104f66571f731427a304a43c1b575a6f2f21f",
+          "README.md": "6228255a0b0f3598d455717e64ebb3dbfb2526f7ee9f9a2d91c955dd8bd8df71",
           "module.yaml": "897c56aef032bec1fe9737c7c1cfd9967ce4abfca309119e36964a2c126a9ef6"
         },
         "manifestPath": "module.yaml",
@@ -7736,8 +7681,8 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-25T07:14:51.185Z",
-        "lastSuccessAt": "2026-10-25T07:14:51.185Z",
+        "lastAttemptAt": "2026-10-25T10:13:35.861Z",
+        "lastSuccessAt": "2026-10-25T10:13:35.861Z",
         "message": null,
         "status": "ok"
       },
