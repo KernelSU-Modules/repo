@@ -56,11 +56,11 @@
       }
     },
     "CRecordEvolution": {
-      "contentCommit": "c3ec9a4c39fcb960649a166f94f2b9def0ecda15",
+      "contentCommit": "475be658822353e3dbaca590e3816df925727d18",
       "fullName": "f1owkang/CRecordEvolution",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-24T06:51:29.894Z",
+      "lastSuccessAt": "2026-10-25T06:56:04.458Z",
       "maxVersionCode": 35,
       "message": null,
       "repositoryId": 678049636,
@@ -760,20 +760,20 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "7d37a673a9d438377b3704ee7c356074d5da4782",
+      "contentCommit": "aa1f8937a8940e73c2d96d804fc3553b2b5f676e",
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-25T03:18:22.506Z",
-      "maxVersionCode": 227,
+      "lastSuccessAt": "2026-10-25T06:56:04.458Z",
+      "maxVersionCode": 229,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-25T03:18:03Z",
-        "tag": "v2.3.0",
-        "version": "v2.3.0 (227-7d37a67-release)",
-        "versionCode": 227
+        "publishedAt": "2026-10-25T06:55:38Z",
+        "tag": "v2.4.0",
+        "version": "v2.4.0 (229-aa1f893-release)",
+        "versionCode": 229
       }
     },
     "zygisksu": {

@@ -653,14 +653,26 @@
     "CRecordEvolution": {
       "content": {
         "blobs": {
-          "README.md": "913bce62e3523356abdf91947745d28e66998986",
+          ".github/images/history-zh.png": "e541a41d98220ed2c7ecc4c9fafcf8cfaef96362",
+          ".github/images/how-it-works-zh-dark.png": "972bc6e86870842b2c8212a7e60a196925b9e326",
+          ".github/images/how-it-works-zh.png": "b4e35684716f1bc7464e8d5888fcb00d4f803f46",
+          ".github/images/overview-zh.png": "fa74b205c5e8a47ba456c905edbf3b03aef22c64",
+          ".github/images/settings-zh.png": "f01b1833c2dd75d375b7d46b044c718418f0222d",
+          ".github/images/trends-zh.png": "e53d03d8cebee9306cc48dd95e44e2ab8bf5dc75",
+          "README.md": "3fd72e5713a5301a1c9711c662c32e080f629a64",
           "assets/icon.png": "5dc474bb718300203dce63f6f647c0d98cc4a3b6",
           "module.yaml": "99b94b13495317433d7c9f9ad9ddad25fddc4d96"
         },
-        "commit": "c3ec9a4c39fcb960649a166f94f2b9def0ecda15",
-        "fetchedAt": "2026-10-24T06:51:29.894Z",
+        "commit": "475be658822353e3dbaca590e3816df925727d18",
+        "fetchedAt": "2026-10-25T06:56:04.458Z",
         "files": {
-          "README.md": "99829d5ea2e92302fe21cabc94e9abe1dc6c9ba9d74d0691e83ca76fece221b8",
+          ".github/images/history-zh.png": "d46eb582599968a1800de7e2298c331d5579b08cc9e5dd79acb0fa69f96d0e2a",
+          ".github/images/how-it-works-zh-dark.png": "862e702a5136b0dba280b6863be3addbe8b5900ce2d6dd91546c68fd9caa3fae",
+          ".github/images/how-it-works-zh.png": "0b1529af59be7c4d04d29159f635c09b45b16560044cbcb93347736e9984c288",
+          ".github/images/overview-zh.png": "f6012c245bf1834565129899c5c48147660d6d3ce7913fa45bb088f385edb3cf",
+          ".github/images/settings-zh.png": "06faefa6ec0d9319185e6ca44e2957a1b2b7d6f36efad894947bdb29f4136903",
+          ".github/images/trends-zh.png": "ea6257f016d41db98c95ff6f8ef894b7ae344f3f7d2ed9265978766007e89e5e",
+          "README.md": "70f48dbb118d671b5b25d4ef272824432a499236402e7265463e48d5e75bb251",
           "assets/icon.png": "ef5a7662da7b1a2debee42ebe7f5b3e2ad28e362adc958828c986c0026128f91",
           "module.yaml": "a7c04b69a0eb359161c2d57cfca9256b4cf1f86ab95ef47414444be46f3fecf1"
         },
@@ -670,8 +682,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-24T06:51:29.894Z",
-        "lastSuccessAt": "2026-10-24T06:51:29.894Z",
+        "lastAttemptAt": "2026-10-25T06:56:04.458Z",
+        "lastSuccessAt": "2026-10-25T06:56:04.458Z",
         "message": null,
         "status": "ok"
       },
@@ -1868,8 +1880,8 @@
         "versionCode": 10607
       },
       "stars": {
-        "count": 200,
-        "fetchedAt": "2026-10-24T05:33:40.095Z",
+        "count": 201,
+        "fetchedAt": "2026-10-25T06:56:04.458Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -4725,8 +4737,8 @@
         "versionCode": 602005999
       },
       "stars": {
-        "count": 1767,
-        "fetchedAt": "2026-10-24T05:33:40.095Z",
+        "count": 1768,
+        "fetchedAt": "2026-10-25T06:56:04.458Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
@@ -5763,8 +5775,8 @@
         "versionCode": 1088
       },
       "stars": {
-        "count": 1289,
-        "fetchedAt": "2026-10-24T05:33:40.095Z",
+        "count": 1291,
+        "fetchedAt": "2026-10-25T06:56:04.458Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -6076,8 +6088,8 @@
         "versionCode": 155
       },
       "stars": {
-        "count": 539,
-        "fetchedAt": "2026-10-24T05:33:40.095Z",
+        "count": 554,
+        "fetchedAt": "2026-10-25T06:56:04.458Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
@@ -6289,8 +6301,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4094,
-        "fetchedAt": "2026-10-24T05:33:40.095Z",
+        "count": 4100,
+        "fetchedAt": "2026-10-25T06:56:04.458Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
@@ -7709,13 +7721,13 @@
     "zygisknextsu": {
       "content": {
         "blobs": {
-          "README.md": "1b38d3fe16ae3c839bfeffd3fac9670dc880b28e",
+          "README.md": "833dbcbd7f1f3d5023ac08946d912df8c8e0787e",
           "module.yaml": "d78a0b9d8cc94f7a1805cba3a6d728c9a8591d85"
         },
-        "commit": "7d37a673a9d438377b3704ee7c356074d5da4782",
-        "fetchedAt": "2026-10-25T03:18:22.506Z",
+        "commit": "aa1f8937a8940e73c2d96d804fc3553b2b5f676e",
+        "fetchedAt": "2026-10-25T06:56:04.458Z",
         "files": {
-          "README.md": "cf0e9bab54c699e783e4edac2966ea973e030de7d515b72e7e6b4894c4c9d2db",
+          "README.md": "88e3b90de5791b07b513940a0bf2a847dc2200c9e83ee01958a738c27b950b04",
           "module.yaml": "897c56aef032bec1fe9737c7c1cfd9967ce4abfca309119e36964a2c126a9ef6"
         },
         "manifestPath": "module.yaml",
@@ -7724,17 +7736,47 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-25T03:18:22.506Z",
-        "lastSuccessAt": "2026-10-25T03:18:22.506Z",
+        "lastAttemptAt": "2026-10-25T06:56:04.458Z",
+        "lastSuccessAt": "2026-10-25T06:56:04.458Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 227,
-      "maxVersionCode": 227,
+      "maxStableVersionCode": 229,
+      "maxVersionCode": 229,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:bcfd045773b3a52b95ad38431fe3b2f313fd1e2cb588f6c6621012a0068239d8",
+            "id": 674327720,
+            "name": "ZNNext-v2.4.0-229-aa1f893-release.zip",
+            "sha256": "bcfd045773b3a52b95ad38431fe3b2f313fd1e2cb588f6c6621012a0068239d8",
+            "size": 6472697,
+            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.4.0/ZNNext-v2.4.0-229-aa1f893-release.zip"
+          },
+          "body": "## What's Changed\n* feat(plthook): add PLTHook by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/118\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.3.0...v2.4.0\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.4.0",
+          "immutable": true,
+          "name": "v2.4.0",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "ZNNext",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
+            "version": "v2.4.0 (229-aa1f893-release)",
+            "versionCode": "229"
+          },
+          "publishedAt": "2026-10-25T06:55:38Z",
+          "releaseId": 423199936,
+          "tag": "v2.4.0",
+          "tagCommit": "aa1f8937a8940e73c2d96d804fc3553b2b5f676e",
+          "version": "v2.4.0 (229-aa1f893-release)",
+          "versionCode": 229
+        },
         {
           "asset": {
             "digest": "sha256:46eeaf043531970bd43c385c734cdfc4d42b0c6abf6ce090342bbb0ff8d4dbaa",
@@ -8004,36 +8046,6 @@
           "tagCommit": "17a19d40e339a516cc65997e1fae86e35c0ab15e",
           "version": "v1.11.0 (199-17a19d4-release)",
           "versionCode": 199
-        },
-        {
-          "asset": {
-            "digest": "sha256:7ef8f2f5610fae5687f4fb087f7807cc3ee4cbde31e26b9e16a9661c9b327114",
-            "id": 649510890,
-            "name": "Zygisk-Next-Next-v1.10.1-197-5f01c24-release.zip",
-            "sha256": "7ef8f2f5610fae5687f4fb087f7807cc3ee4cbde31e26b9e16a9661c9b327114",
-            "size": 3159643,
-            "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.10.1/Zygisk-Next-Next-v1.10.1-197-5f01c24-release.zip"
-          },
-          "body": "**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.10.0...v1.10.1\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.10.1",
-          "immutable": true,
-          "name": "v1.10.1",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "Zygisk Next Next",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
-            "version": "v1.10.1 (197-5f01c24-release)",
-            "versionCode": "197"
-          },
-          "publishedAt": "2026-10-17T04:17:28Z",
-          "releaseId": 415577933,
-          "tag": "v1.10.1",
-          "tagCommit": "5f01c240c577a74491ac1afffc896e72d5d58066",
-          "version": "v1.10.1 (197-5f01c24-release)",
-          "versionCode": 197
         }
       ],
       "repositoryId": 1348255159,
@@ -8219,21 +8231,25 @@
         "423121773": {
           "checkedAt": "2026-10-25T03:18:22.506Z",
           "ok": true
+        },
+        "423199936": {
+          "checkedAt": "2026-10-25T06:56:04.458Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:46eeaf043531970bd43c385c734cdfc4d42b0c6abf6ce090342bbb0ff8d4dbaa",
-          "id": 673965458,
-          "name": "ZNNext-v2.3.0-227-7d37a67-release.zip",
-          "sha256": "46eeaf043531970bd43c385c734cdfc4d42b0c6abf6ce090342bbb0ff8d4dbaa",
-          "size": 6463764,
-          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.3.0/ZNNext-v2.3.0-227-7d37a67-release.zip"
+          "digest": "sha256:bcfd045773b3a52b95ad38431fe3b2f313fd1e2cb588f6c6621012a0068239d8",
+          "id": 674327720,
+          "name": "ZNNext-v2.4.0-229-aa1f893-release.zip",
+          "sha256": "bcfd045773b3a52b95ad38431fe3b2f313fd1e2cb588f6c6621012a0068239d8",
+          "size": 6472697,
+          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.4.0/ZNNext-v2.4.0-229-aa1f893-release.zip"
         },
-        "body": "## What's Changed\n* feat(inlinehook): add HookZz by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/117\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.2.0...v2.3.0\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.3.0",
+        "body": "## What's Changed\n* feat(plthook): add PLTHook by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/118\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.3.0...v2.4.0\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.4.0",
         "immutable": true,
-        "name": "v2.3.0",
+        "name": "v2.4.0",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -8241,19 +8257,19 @@
           "id": "zygisknextsu",
           "name": "ZNNext",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-          "version": "v2.3.0 (227-7d37a67-release)",
-          "versionCode": "227"
+          "version": "v2.4.0 (229-aa1f893-release)",
+          "versionCode": "229"
         },
-        "publishedAt": "2026-10-25T03:18:03Z",
-        "releaseId": 423121773,
-        "tag": "v2.3.0",
-        "tagCommit": "7d37a673a9d438377b3704ee7c356074d5da4782",
-        "version": "v2.3.0 (227-7d37a67-release)",
-        "versionCode": 227
+        "publishedAt": "2026-10-25T06:55:38Z",
+        "releaseId": 423199936,
+        "tag": "v2.4.0",
+        "tagCommit": "aa1f8937a8940e73c2d96d804fc3553b2b5f676e",
+        "version": "v2.4.0 (229-aa1f893-release)",
+        "versionCode": 229
       },
       "stars": {
-        "count": 72,
-        "fetchedAt": "2026-10-24T14:34:41.822Z",
+        "count": 75,
+        "fetchedAt": "2026-10-25T06:56:04.458Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"
@@ -8425,8 +8441,8 @@
         "versionCode": 864
       },
       "stars": {
-        "count": 961,
-        "fetchedAt": "2026-10-24T05:33:40.095Z",
+        "count": 971,
+        "fetchedAt": "2026-10-25T06:56:04.458Z",
         "fullName": "LSPosed/ZygiskNext",
         "repositoryId": 1377039457,
         "verified": "self"
