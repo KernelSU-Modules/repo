@@ -2897,8 +2897,8 @@
       "seen": {},
       "stable": null,
       "stars": {
-        "count": 81,
-        "fetchedAt": "2026-10-23T19:37:43.289Z",
+        "count": 82,
+        "fetchedAt": "2026-10-25T19:32:45.753Z",
         "fullName": "LxyaoX/VexZygisk",
         "repositoryId": 1305247883,
         "verified": "self"
@@ -7757,8 +7757,8 @@
         "versionCode": 193
       },
       "stars": {
-        "count": 12,
-        "fetchedAt": "2026-10-24T16:53:02.078Z",
+        "count": 16,
+        "fetchedAt": "2026-10-25T19:32:45.753Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"

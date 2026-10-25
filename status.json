@@ -38,6 +38,27 @@
         "versionCode": 2049
       }
     },
+    "Android_Nakedcore": {
+      "contentCommit": "3d34bca471f50eb0d24b4affcb29319846ef4648",
+      "fullName": "Bcorw/Android_Nakedcore",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1433508547,
+      "request": {
+        "checkedAt": "2026-10-25T19:32:45.753Z",
+        "commit": "3d34bca471f50eb0d24b4affcb29319846ef4648",
+        "issues": [],
+        "latestTag": "v3.3.3",
+        "ok": true,
+        "releaseId": 423615047,
+        "repositoryId": 1433508547,
+        "submissionId": "094dzvqdg0"
+      },
+      "stable": null
+    },
     "COPG": {
       "contentCommit": "a7f76e3d08f237e96a7c3386a795f37d3e15212f",
       "fullName": "AlirezaParsi/COPG",
