@@ -7126,17 +7126,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-25T10:13:35.861Z",
-        "lastSuccessAt": "2026-10-25T10:13:35.861Z",
-        "message": "stable-unavailable: the stable release (versionCode 570) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 570 is published.",
+        "lastAttemptAt": "2026-10-25T10:25:46.451Z",
+        "lastSuccessAt": "2026-10-25T10:25:46.451Z",
+        "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 570,
-      "maxVersionCode": 570,
+      "maxStableVersionCode": 571,
+      "maxVersionCode": 571,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:fcf9ad2b3f9ff4ccee62d43bed4b6abe71ff71ddb89acbb1485148873bcb5270",
+            "id": 674741157,
+            "name": "Sui-v13.5.4.3_571-af5447f-release.zip",
+            "sha256": "fcf9ad2b3f9ff4ccee62d43bed4b6abe71ff71ddb89acbb1485148873bcb5270",
+            "size": 1456818,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v571-af5447f/Sui-v13.5.4.3_571-af5447f-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (571-af5447f-release)`\n- **VersionCode:** `571`\n- **Commit:** [`af5447f`](https://github.com/XiaoTong6666/Sui/commit/af5447f4313e2abc15fc36e729ac0f296da95d2c)\n- **Build time:** `2m 33s`\n- **SHA256:** `fcf9ad2b3f9ff4ccee62d43bed4b6abe71ff71ddb89acbb1485148873bcb5270`\n\n## Message\n\n```text\nfix(native): Isolate C++ exit handlers from Bionic, Meow\n\n为 libsui.so 接入本地 __cxa_atexit/__cxa_finalize，避免将模块析构记录写入 Bionic 全局表喵（当然znlinker也会替我们处理这些了喵）\n\nCo-authored-by: 5ec1cff <56485584+5ec1cff@users.noreply.github.com>\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v571-af5447f",
+          "immutable": true,
+          "name": "v13.5.4.3 (571-af5447f-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (571-af5447f-release)",
+            "versionCode": "571"
+          },
+          "publishedAt": "2026-10-25T10:25:26Z",
+          "releaseId": 423320677,
+          "tag": "v571-af5447f",
+          "tagCommit": "5905d60e2025e889935b72780515895deda4ae11",
+          "version": "v13.5.4.3 (571-af5447f-release)",
+          "versionCode": 571
+        },
         {
           "asset": {
             "digest": "sha256:00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621",
@@ -7427,9 +7457,42 @@
         "423314064": {
           "checkedAt": "2026-10-25T10:13:35.861Z",
           "ok": true
+        },
+        "423320677": {
+          "checkedAt": "2026-10-25T10:25:46.451Z",
+          "ok": true
         }
       },
-      "stable": null,
+      "stable": {
+        "asset": {
+          "digest": "sha256:fcf9ad2b3f9ff4ccee62d43bed4b6abe71ff71ddb89acbb1485148873bcb5270",
+          "id": 674741157,
+          "name": "Sui-v13.5.4.3_571-af5447f-release.zip",
+          "sha256": "fcf9ad2b3f9ff4ccee62d43bed4b6abe71ff71ddb89acbb1485148873bcb5270",
+          "size": 1456818,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v571-af5447f/Sui-v13.5.4.3_571-af5447f-release.zip"
+        },
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (571-af5447f-release)`\n- **VersionCode:** `571`\n- **Commit:** [`af5447f`](https://github.com/XiaoTong6666/Sui/commit/af5447f4313e2abc15fc36e729ac0f296da95d2c)\n- **Build time:** `2m 33s`\n- **SHA256:** `fcf9ad2b3f9ff4ccee62d43bed4b6abe71ff71ddb89acbb1485148873bcb5270`\n\n## Message\n\n```text\nfix(native): Isolate C++ exit handlers from Bionic, Meow\n\n为 libsui.so 接入本地 __cxa_atexit/__cxa_finalize，避免将模块析构记录写入 Bionic 全局表喵（当然znlinker也会替我们处理这些了喵）\n\nCo-authored-by: 5ec1cff <56485584+5ec1cff@users.noreply.github.com>\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v571-af5447f",
+        "immutable": true,
+        "name": "v13.5.4.3 (571-af5447f-release)",
+        "prerelease": false,
+        "prop": {
+          "author": "Sui Contributors",
+          "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+          "id": "zygisk-sui",
+          "name": "Zygisk - Sui",
+          "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+          "version": "v13.5.4.3 (571-af5447f-release)",
+          "versionCode": "571"
+        },
+        "publishedAt": "2026-10-25T10:25:26Z",
+        "releaseId": 423320677,
+        "tag": "v571-af5447f",
+        "tagCommit": "5905d60e2025e889935b72780515895deda4ae11",
+        "version": "v13.5.4.3 (571-af5447f-release)",
+        "versionCode": 571
+      },
       "stars": {
         "count": 7,
         "fetchedAt": "2026-10-25T05:12:12.464Z",

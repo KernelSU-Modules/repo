@@ -730,12 +730,17 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-25T10:13:35.861Z",
-      "maxVersionCode": 570,
-      "message": "stable-unavailable: the stable release (versionCode 570) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 570 is published.",
+      "lastSuccessAt": "2026-10-25T10:25:46.451Z",
+      "maxVersionCode": 571,
+      "message": null,
       "repositoryId": 1415623276,
       "request": null,
-      "stable": null
+      "stable": {
+        "publishedAt": "2026-10-25T10:25:26Z",
+        "tag": "v571-af5447f",
+        "version": "v13.5.4.3 (571-af5447f-release)",
+        "versionCode": 571
+      }
     },
     "zygisk_fusehide": {
       "contentCommit": "7698c9002807f1a22f7631b8bd23fe4d1b4cbac1",
