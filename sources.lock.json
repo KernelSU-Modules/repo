@@ -5273,8 +5273,8 @@
         "versionCode": 400012
       },
       "stars": {
-        "count": 577,
-        "fetchedAt": "2026-10-23T18:27:56.804Z",
+        "count": 578,
+        "fetchedAt": "2026-10-25T03:18:22.506Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
@@ -5512,8 +5512,8 @@
         "versionCode": 10410
       },
       "stars": {
-        "count": 1,
-        "fetchedAt": "2026-10-21T23:23:43.405Z",
+        "count": 2,
+        "fetchedAt": "2026-10-25T03:18:22.506Z",
         "fullName": "ahsaboy/magisk-netbird",
         "repositoryId": 1274372941,
         "verified": "self"
@@ -7672,13 +7672,13 @@
     "zygisknextsu": {
       "content": {
         "blobs": {
-          "README.md": "acae227c96694085b0a147207d3d80675f1fa6e7",
+          "README.md": "1b38d3fe16ae3c839bfeffd3fac9670dc880b28e",
           "module.yaml": "d78a0b9d8cc94f7a1805cba3a6d728c9a8591d85"
         },
-        "commit": "28c0eb50b8b094966c5715ba2049cc8436bd536d",
-        "fetchedAt": "2026-10-24T14:34:41.822Z",
+        "commit": "7d37a673a9d438377b3704ee7c356074d5da4782",
+        "fetchedAt": "2026-10-25T03:18:22.506Z",
         "files": {
-          "README.md": "72637663f0691015cbfc4bbd862ab470a1d575e710e9e33d2bbb7bc527df125e",
+          "README.md": "cf0e9bab54c699e783e4edac2966ea973e030de7d515b72e7e6b4894c4c9d2db",
           "module.yaml": "897c56aef032bec1fe9737c7c1cfd9967ce4abfca309119e36964a2c126a9ef6"
         },
         "manifestPath": "module.yaml",
@@ -7687,17 +7687,47 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-24T14:34:41.822Z",
-        "lastSuccessAt": "2026-10-24T14:34:41.822Z",
+        "lastAttemptAt": "2026-10-25T03:18:22.506Z",
+        "lastSuccessAt": "2026-10-25T03:18:22.506Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 224,
-      "maxVersionCode": 224,
+      "maxStableVersionCode": 227,
+      "maxVersionCode": 227,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:46eeaf043531970bd43c385c734cdfc4d42b0c6abf6ce090342bbb0ff8d4dbaa",
+            "id": 673965458,
+            "name": "ZNNext-v2.3.0-227-7d37a67-release.zip",
+            "sha256": "46eeaf043531970bd43c385c734cdfc4d42b0c6abf6ce090342bbb0ff8d4dbaa",
+            "size": 6463764,
+            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.3.0/ZNNext-v2.3.0-227-7d37a67-release.zip"
+          },
+          "body": "## What's Changed\n* feat(inlinehook): add HookZz by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/117\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.2.0...v2.3.0\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.3.0",
+          "immutable": true,
+          "name": "v2.3.0",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "ZNNext",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
+            "version": "v2.3.0 (227-7d37a67-release)",
+            "versionCode": "227"
+          },
+          "publishedAt": "2026-10-25T03:18:03Z",
+          "releaseId": 423121773,
+          "tag": "v2.3.0",
+          "tagCommit": "7d37a673a9d438377b3704ee7c356074d5da4782",
+          "version": "v2.3.0 (227-7d37a67-release)",
+          "versionCode": 227
+        },
         {
           "asset": {
             "digest": "sha256:e621933cbcb3bc661e8e14133f48e3dbc62695aed52ccd37cde7e3ff8015e9d1",
@@ -7967,36 +7997,6 @@
           "tagCommit": "5f01c240c577a74491ac1afffc896e72d5d58066",
           "version": "v1.10.1 (197-5f01c24-release)",
           "versionCode": 197
-        },
-        {
-          "asset": {
-            "digest": "sha256:1a7de4a0ee91a28c0dd31be8559e1bee8ee8b63f464d568f3be5db225ec4ff9e",
-            "id": 649489815,
-            "name": "Zygisk-Next-Next-v1.10.0-195-8431fbc-release.zip",
-            "sha256": "1a7de4a0ee91a28c0dd31be8559e1bee8ee8b63f464d568f3be5db225ec4ff9e",
-            "size": 3160161,
-            "url": "https://github.com/VeryBaaad/ZygiskNextNext/releases/download/v1.10.0/Zygisk-Next-Next-v1.10.0-195-8431fbc-release.zip"
-          },
-          "body": "## What's Changed\n* feat: add tracefs and fanotify sources for late mode and an optional KPM by @VeryBaaad in https://github.com/VeryBaaad/ZygiskNextNext/pull/104\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZygiskNextNext/compare/v1.9.0...v1.10.0\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZygiskNextNext/releases/tag/v1.10.0",
-          "immutable": true,
-          "name": "v1.10.0",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "Zygisk Next Next",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZygiskNextNext/refs/heads/update/update.json",
-            "version": "v1.10.0 (195-8431fbc-release)",
-            "versionCode": "195"
-          },
-          "publishedAt": "2026-10-17T04:07:01Z",
-          "releaseId": 415574476,
-          "tag": "v1.10.0",
-          "tagCommit": "8431fbc5f33e514377fc4109da5387c31888b2cb",
-          "version": "v1.10.0 (195-8431fbc-release)",
-          "versionCode": 195
         }
       ],
       "repositoryId": 1348255159,
@@ -8178,21 +8178,25 @@
         "422782913": {
           "checkedAt": "2026-10-24T14:34:41.822Z",
           "ok": true
+        },
+        "423121773": {
+          "checkedAt": "2026-10-25T03:18:22.506Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:e621933cbcb3bc661e8e14133f48e3dbc62695aed52ccd37cde7e3ff8015e9d1",
-          "id": 672485677,
-          "name": "ZNNext-v2.2.0-224-28c0eb5-release.zip",
-          "sha256": "e621933cbcb3bc661e8e14133f48e3dbc62695aed52ccd37cde7e3ff8015e9d1",
-          "size": 6506676,
-          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.2.0/ZNNext-v2.2.0-224-28c0eb5-release.zip"
+          "digest": "sha256:46eeaf043531970bd43c385c734cdfc4d42b0c6abf6ce090342bbb0ff8d4dbaa",
+          "id": 673965458,
+          "name": "ZNNext-v2.3.0-227-7d37a67-release.zip",
+          "sha256": "46eeaf043531970bd43c385c734cdfc4d42b0c6abf6ce090342bbb0ff8d4dbaa",
+          "size": 6463764,
+          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.3.0/ZNNext-v2.3.0-227-7d37a67-release.zip"
         },
-        "body": "## What's Changed\n* feat(inlinehook): add frida-gum by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/116\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.1.0...v2.2.0\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.2.0",
+        "body": "## What's Changed\n* feat(inlinehook): add HookZz by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/117\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.2.0...v2.3.0\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.3.0",
         "immutable": true,
-        "name": "v2.2.0",
+        "name": "v2.3.0",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -8200,15 +8204,15 @@
           "id": "zygisknextsu",
           "name": "ZNNext",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-          "version": "v2.2.0 (224-28c0eb5-release)",
-          "versionCode": "224"
+          "version": "v2.3.0 (227-7d37a67-release)",
+          "versionCode": "227"
         },
-        "publishedAt": "2026-10-24T14:34:16Z",
-        "releaseId": 422782913,
-        "tag": "v2.2.0",
-        "tagCommit": "28c0eb50b8b094966c5715ba2049cc8436bd536d",
-        "version": "v2.2.0 (224-28c0eb5-release)",
-        "versionCode": 224
+        "publishedAt": "2026-10-25T03:18:03Z",
+        "releaseId": 423121773,
+        "tag": "v2.3.0",
+        "tagCommit": "7d37a673a9d438377b3704ee7c356074d5da4782",
+        "version": "v2.3.0 (227-7d37a67-release)",
+        "versionCode": 227
       },
       "stars": {
         "count": 72,

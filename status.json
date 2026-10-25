@@ -431,7 +431,7 @@
       "stable": null
     },
     "gitmigrator": {
-      "contentCommit": "a8bc7da481f943ab16f193cf5e07a264eae368ac",
+      "contentCommit": "fa9d088cbbd5eab365a0cd7406399f60ec2a8091",
       "fullName": "privshell/GitMigrator-KSU",
       "health": "ok",
       "installation": "present",
@@ -440,8 +440,8 @@
       "message": null,
       "repositoryId": 1430545346,
       "request": {
-        "checkedAt": "2026-10-24T10:47:10.280Z",
-        "commit": "a8bc7da481f943ab16f193cf5e07a264eae368ac",
+        "checkedAt": "2026-10-25T03:18:22.506Z",
+        "commit": "fa9d088cbbd5eab365a0cd7406399f60ec2a8091",
         "issues": [],
         "latestTag": "v1.0.2",
         "ok": true,
@@ -760,20 +760,20 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "28c0eb50b8b094966c5715ba2049cc8436bd536d",
+      "contentCommit": "7d37a673a9d438377b3704ee7c356074d5da4782",
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-24T14:34:41.822Z",
-      "maxVersionCode": 224,
+      "lastSuccessAt": "2026-10-25T03:18:22.506Z",
+      "maxVersionCode": 227,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-24T14:34:16Z",
-        "tag": "v2.2.0",
-        "version": "v2.2.0 (224-28c0eb5-release)",
-        "versionCode": 224
+        "publishedAt": "2026-10-25T03:18:03Z",
+        "tag": "v2.3.0",
+        "version": "v2.3.0 (227-7d37a67-release)",
+        "versionCode": 227
       }
     },
     "zygisksu": {
