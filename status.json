@@ -43,16 +43,16 @@
       "fullName": "AlirezaParsi/COPG",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-23T08:52:54.400Z",
-      "maxVersionCode": 760,
+      "lastSuccessAt": "2026-10-25T05:12:12.464Z",
+      "maxVersionCode": 761,
       "message": null,
       "repositoryId": 950100740,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-23T04:37:15Z",
-        "tag": "v7.6.0",
-        "version": "7.6.0",
-        "versionCode": 760
+        "publishedAt": "2026-10-25T05:11:53Z",
+        "tag": "v7.6.1",
+        "version": "7.6.1",
+        "versionCode": 761
       }
     },
     "CRecordEvolution": {

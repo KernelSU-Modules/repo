@@ -309,17 +309,50 @@
       "fullName": "AlirezaParsi/COPG",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-23T08:52:54.400Z",
-        "lastSuccessAt": "2026-10-23T08:52:54.400Z",
+        "lastAttemptAt": "2026-10-25T05:12:12.464Z",
+        "lastSuccessAt": "2026-10-25T05:12:12.464Z",
         "message": null,
         "status": "ok"
       },
       "id": "COPG",
       "installationId": 174213522,
-      "maxStableVersionCode": 760,
-      "maxVersionCode": 760,
+      "maxStableVersionCode": 761,
+      "maxVersionCode": 761,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:de4735f7310b5048863a6cf27e6a25eb332c747033d126a70f460ee7a861d598",
+            "id": 674160454,
+            "name": "COPG-v7.6.1.zip",
+            "sha256": "de4735f7310b5048863a6cf27e6a25eb332c747033d126a70f460ee7a861d598",
+            "size": 10511947,
+            "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.6.1/COPG-v7.6.1.zip"
+          },
+          "body": "## COPG v7.6.1\n\n*Makes the per-app ANDROID_ID spoof consistent across every read path, and fixes a `getprop` that could leak the real value.*\n\n### ANDROID_ID — consistent everywhere\n*   **The `aid` spoof no longer disagrees with itself.** Before, an app could read the faked ANDROID_ID from the normal settings lookup but still get the *real* one through a direct provider `query`/`call`, or by reading `settings_ssaid.xml` — and that mismatch is itself a giveaway. The `aid` tag now spoofs the value in the system server at the source, so every read path returns the same ID. The **Hook Status** screen gained an ANDROID_ID consistency badge on the `aid` row so you can confirm it at a glance.\n\n### getprop — matches the API\n*   **A shelled-out `getprop` now returns the spoofed value.** Closed a case where a `getprop` run through a wrapped shell slipped past the spoof and exposed the real property, so the command line and the framework API agree again.\n\n### Other\n*   Stability and hardening fixes.\n---\n**Build Date**: 2026-10-25 05:11:49 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
+          "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.6.1",
+          "immutable": true,
+          "name": "COPG v7.6.1",
+          "prerelease": false,
+          "prop": {
+            "author": "AlirezaParsi",
+            "banner": "banner.png",
+            "description": "Spoof your device for games/apps to unlock new features. Website: https://vendors.copg.my",
+            "id": "COPG",
+            "minMagisk": "20.4",
+            "name": "✨ COPG SPOOF ✨",
+            "support": "https://t.me/theaosp",
+            "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
+            "version": "7.6.1",
+            "versionCode": "761"
+          },
+          "publishedAt": "2026-10-25T05:11:53Z",
+          "releaseId": 423161710,
+          "tag": "v7.6.1",
+          "tagCommit": "a7f76e3d08f237e96a7c3386a795f37d3e15212f",
+          "version": "7.6.1",
+          "versionCode": 761
+        },
         {
           "asset": {
             "digest": "sha256:7dbb1ef19dce5607371fb14cff2f3d12a93f1c3948e43f40493759bb2fdcb61f",
@@ -570,21 +603,25 @@
         "421455023": {
           "checkedAt": "2026-10-23T04:37:38.484Z",
           "ok": true
+        },
+        "423161710": {
+          "checkedAt": "2026-10-25T05:12:12.464Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:7dbb1ef19dce5607371fb14cff2f3d12a93f1c3948e43f40493759bb2fdcb61f",
-          "id": 667974423,
-          "name": "COPG-v7.6.0.zip",
-          "sha256": "7dbb1ef19dce5607371fb14cff2f3d12a93f1c3948e43f40493759bb2fdcb61f",
-          "size": 9004431,
-          "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.6.0/COPG-v7.6.0.zip"
+          "digest": "sha256:de4735f7310b5048863a6cf27e6a25eb332c747033d126a70f460ee7a861d598",
+          "id": 674160454,
+          "name": "COPG-v7.6.1.zip",
+          "sha256": "de4735f7310b5048863a6cf27e6a25eb332c747033d126a70f460ee7a861d598",
+          "size": 10511947,
+          "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.6.1/COPG-v7.6.1.zip"
         },
-        "body": "## COPG v7.6.0\n\n*Android 17 support, a new one-tap Random Device identity, an Integrations dashboard, a stealthier CPU-spoof backend, and a batch of crash and compatibility fixes.*\n\n### Android 17 — supported\n*   **COPG now runs on Android 17 (SDK 37).** Earlier builds could boot-loop a phone on A17 as soon as a system-wide hook (CorePatch, Google Account, Wallpaper ID, locale, VPN-hide, and friends) tried to install. The v7878 engine is now built from source and made A17-safe, so those device-wide hooks arm cleanly on the new release. If you were stuck on A16 or had the system-server spoofs gated off, they're back on.\n    *   *Engine A17 fix: big thanks to the **HMA OSS** developer for the engine fix that made this possible.*\n\n### Random Device — new\n*   **A one-tap random phone.** The device list has a new **Random** profile at the top: pick it and the app sees a complete, self-consistent made-up phone — brand, model, fingerprint and build fields that all match — instead of a specific preset. It sits alongside **This Device** as a pinned option in the device picker. **FREE.**\n*   **Fresh identity every launch (`randid`).** With the new **Randomize IDs** switch on a package, every derived identifier that COPG can roll — ANDROID_ID, serial, GAID, App Set ID, IMEI, wallpaper ID — is re-rolled each time the app launches, so it looks like a brand-new device on every start rather than one stable fake. Pair it with the Random profile for a full rotation, or use it on any profile. **PRO**, stealth where the underlying spoof is stealth.\n\n### Integrations dashboard — new\n*   **See the tools COPG is working with.** A new **Integrations** sheet under Settings lists the root manager, the Zygisk implementation and optional helper modules (such as NoMount) that COPG detects, each with a live status — active, installed, or absent — and its version. If a helper is too old to use safely (an out-of-date NoMount), it's flagged **Update needed** with a tap-to-read explanation of what to do. Makes it obvious at a glance what's powering the module on your setup.\n\n### CPU spoof — stealthier backend\n*   **Hides the CPU swap from mount scanners (optional).** When the **NoMount** kernel module is installed, the per-app `/proc/cpuinfo` spoof now goes through NoMount's in-kernel path redirect instead of a bind mount — so it no longer shows up in the app's own `/proc/self/mountinfo` (the trace that some anti-cheats flag as tampering). Without NoMount, COPG falls back to the normal bind mount, unchanged. The on-boot foreground reconcile honors the NoMount backend too.\n*   **Needs NoMount 2.2.0 or newer.** Older NoMount builds had a kernel freeze/panic bug, so COPG now uses the traceless redirect only on 2.2.0+ and automatically stays on the safe bind mount on anything older (the Integrations card flags a NoMount that's too old).\n\n### Zygisk status — improved\n*   **Correct Zygisk name and version in the System tab.** The System tab now reports the real Zygisk implementation (Zygisk Next, ReZygisk, BReZygisk), its version, and whether it's actually injecting vs merely installed — read straight from the daemon rather than guessed, so a misnamed or disabled variant is no longer reported wrong.\n\n### GPU spoof — fixed\n*   **No more crash on Android 16 / newer chips.** On ARMv8.5 devices (and newer ROMs that map system libraries with branch-target hardening), turning on the GPU spoof could crash an app at launch with a `SIGILL` — most visibly games that query Vulkan during start-up. The inline hook now keeps the required landing instruction at the patch site, so it's safe on every device. *(The GPU spoof stays resident/detectable and behind the use-at-your-own-risk gate — still never for competitive games.)*\n\n### Concurrent Mic — fixed\n*   **Turning it off no longer needs a reboot.** Disabling **Concurrent Mic** now takes effect live; previously the audio server couldn't read the toggle under SELinux, so the feature stayed on until the next reboot.\n\n### CorePatch — fixed\n*   **No more Samsung lock/reboot loop.** On some Samsung devices the signature-verification patch could trip a \"device locked, try again in 3 days\" / inactivity-reboot loop. The signature check is now scoped to the package installer only (not every signature comparison on the device), and the mis-triggered Samsung inactivity-reboot is handled, so the loop is gone.\n\n### Other fixes\n*   **SIM/carrier** — a shelled-out `getprop` of the carrier props now matches what the API reports (closes a `getprop`-vs-API mismatch for `sim`/`simx`).\n*   **VPN hide** — reports the real underlying interface so a VPN-detector no longer sees a network-type mismatch; added an older-Android file-view layer for `vpnn`.\n*   **Home** — tap the **Devices** / **Packages** stat cards to jump straight to that Library tab.\n\n### Thanks\n*   **Huge thanks to @PARADOXCODM** for testing roughly **20 Android 17 builds** back-to-back while we chased the boot loop — including having to **factory-reset his own device** after one of our builds bricked the boot. A17 support in this release exists because of that patience. 🙏\n*   Thanks to the **HMA OSS** developer for the v7878 engine fix behind the Android 17 support.\n\n---\n---\n**Build Date**: 2026-10-23 04:37:09 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
-        "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.6.0",
+        "body": "## COPG v7.6.1\n\n*Makes the per-app ANDROID_ID spoof consistent across every read path, and fixes a `getprop` that could leak the real value.*\n\n### ANDROID_ID — consistent everywhere\n*   **The `aid` spoof no longer disagrees with itself.** Before, an app could read the faked ANDROID_ID from the normal settings lookup but still get the *real* one through a direct provider `query`/`call`, or by reading `settings_ssaid.xml` — and that mismatch is itself a giveaway. The `aid` tag now spoofs the value in the system server at the source, so every read path returns the same ID. The **Hook Status** screen gained an ANDROID_ID consistency badge on the `aid` row so you can confirm it at a glance.\n\n### getprop — matches the API\n*   **A shelled-out `getprop` now returns the spoofed value.** Closed a case where a `getprop` run through a wrapped shell slipped past the spoof and exposed the real property, so the command line and the framework API agree again.\n\n### Other\n*   Stability and hardening fixes.\n---\n**Build Date**: 2026-10-25 05:11:49 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
+        "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.6.1",
         "immutable": true,
-        "name": "COPG v7.6.0",
+        "name": "COPG v7.6.1",
         "prerelease": false,
         "prop": {
           "author": "AlirezaParsi",
@@ -595,19 +632,19 @@
           "name": "✨ COPG SPOOF ✨",
           "support": "https://t.me/theaosp",
           "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
-          "version": "7.6.0",
-          "versionCode": "760"
+          "version": "7.6.1",
+          "versionCode": "761"
         },
-        "publishedAt": "2026-10-23T04:37:15Z",
-        "releaseId": 421455023,
-        "tag": "v7.6.0",
-        "tagCommit": "1b6718d56e44842779d1be18019a57f9d159c17a",
-        "version": "7.6.0",
-        "versionCode": 760
+        "publishedAt": "2026-10-25T05:11:53Z",
+        "releaseId": 423161710,
+        "tag": "v7.6.1",
+        "tagCommit": "a7f76e3d08f237e96a7c3386a795f37d3e15212f",
+        "version": "7.6.1",
+        "versionCode": 761
       },
       "stars": {
-        "count": 409,
-        "fetchedAt": "2026-10-24T20:48:16.190Z",
+        "count": 411,
+        "fetchedAt": "2026-10-25T05:12:12.464Z",
         "fullName": "AlirezaParsi/COPG",
         "repositoryId": 950100740,
         "verified": "self"
@@ -7437,8 +7474,8 @@
         "versionCode": 570
       },
       "stars": {
-        "count": 6,
-        "fetchedAt": "2026-10-24T03:45:27.265Z",
+        "count": 7,
+        "fetchedAt": "2026-10-25T05:12:12.464Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
