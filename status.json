@@ -1,7 +1,7 @@
 {
   "modules": {
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "5d639848689c88115b0e0ea16634b036a5427ac8",
+      "contentCommit": "af84ff56c7585a8d5eb4ff007698ca3578cd0407",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -10,8 +10,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-10-26T13:00:02.230Z",
-        "commit": "5d639848689c88115b0e0ea16634b036a5427ac8",
+        "checkedAt": "2026-10-26T15:26:47.923Z",
+        "commit": "af84ff56c7585a8d5eb4ff007698ca3578cd0407",
         "issues": [],
         "latestTag": "v1.2.7",
         "ok": true,
@@ -393,8 +393,8 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-26T02:17:20.914Z",
-      "maxVersionCode": 119,
+      "lastSuccessAt": "2026-10-26T15:26:47.923Z",
+      "maxVersionCode": 121,
       "message": null,
       "repositoryId": 1196357682,
       "request": null,
@@ -781,11 +781,11 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "841be051e8bf6e12057376e305c93e9ebbef0ce6",
+      "contentCommit": "ad54cfbdc5b0919b9d0199b13f23629c0a094e5b",
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-25T11:02:10.858Z",
+      "lastSuccessAt": "2026-10-26T15:26:47.923Z",
       "maxVersionCode": 235,
       "message": null,
       "repositoryId": 1348255159,
