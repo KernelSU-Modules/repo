@@ -1,0 +1,19 @@
+id: frida-ksu
+status: pending
+request:
+  submissionId: h25m4wgt67
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1434784462
+    ownerId: 281087068
+    fullName: ReverserID/KSU_Frida
+    manifestPath: module.yaml
+  submittedBy: 31664438
+  submittedByLogin: fdciabdul
+  submittedAt: 2026-10-26T18:50:11.872Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64591
+createdAt: 2026-10-26T18:50:11.872Z
+updatedAt: 2026-10-26T18:50:11.872Z
