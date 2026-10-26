@@ -282,8 +282,8 @@
         "versionCode": 2049
       },
       "stars": {
-        "count": 139,
-        "fetchedAt": "2026-10-24T03:18:18.790Z",
+        "count": 140,
+        "fetchedAt": "2026-10-26T13:00:02.230Z",
         "fullName": "Liliya2727/AZenith",
         "repositoryId": 937420284,
         "verified": "self"
@@ -1270,7 +1270,7 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-26T00:03:21.873Z",
+        "lastAttemptAt": "2026-10-26T13:00:02.230Z",
         "lastSuccessAt": "2026-10-13T10:52:29.245Z",
         "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
         "status": "stale"
@@ -1290,7 +1290,7 @@
             "size": 53029,
             "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.2/KernelSU-Tuner-30042-v3.4.2.zip"
           },
-          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThe `author` field in `module.prop` is `ylh440104` now, matching what `module.yaml` already declared. No functional change.\n\nversionCode 30042.",
+          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\r\n\r\nversionCode 30042.",
           "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.2",
           "immutable": true,
           "name": "v3.4.2",
@@ -1543,7 +1543,7 @@
           "size": 53029,
           "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.2/KernelSU-Tuner-30042-v3.4.2.zip"
         },
-        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThe `author` field in `module.prop` is `ylh440104` now, matching what `module.yaml` already declared. No functional change.\n\nversionCode 30042.",
+        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\r\n\r\nversionCode 30042.",
         "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.2",
         "immutable": true,
         "name": "v3.4.2",
@@ -1565,8 +1565,8 @@
         "versionCode": 30042
       },
       "stars": {
-        "count": 10,
-        "fetchedAt": "2026-10-26T00:03:21.873Z",
+        "count": 9,
+        "fetchedAt": "2026-10-26T13:00:02.230Z",
         "fullName": "ylh440104/KernelSU-Tuner",
         "repositoryId": 1414095668,
         "verified": "self"
@@ -5078,8 +5078,8 @@
         "versionCode": 40005
       },
       "stars": {
-        "count": 20,
-        "fetchedAt": "2026-10-25T10:13:35.861Z",
+        "count": 21,
+        "fetchedAt": "2026-10-26T13:00:02.230Z",
         "fullName": "cyanmint/lkm4ctr",
         "repositoryId": 1313308146,
         "verified": "self"
@@ -7184,8 +7184,8 @@
         "versionCode": 10122
       },
       "stars": {
-        "count": 63,
-        "fetchedAt": "2026-10-25T10:13:35.861Z",
+        "count": 64,
+        "fetchedAt": "2026-10-26T13:00:02.230Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
