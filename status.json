@@ -1,7 +1,7 @@
 {
   "modules": {
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "748474f2f89b90305927eb611a9c659608c3f737",
+      "contentCommit": "6804896eec302cf3c68351582965d3fdec066ca0",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -10,8 +10,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-10-22T17:26:13.394Z",
-        "commit": "748474f2f89b90305927eb611a9c659608c3f737",
+        "checkedAt": "2026-10-26T04:40:18.124Z",
+        "commit": "6804896eec302cf3c68351582965d3fdec066ca0",
         "issues": [],
         "latestTag": "v1.2.6",
         "ok": true,
@@ -583,16 +583,16 @@
       "fullName": "Fanju6/NetProxy-Releases",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-15T13:43:45.372Z",
-      "maxVersionCode": 1088,
+      "lastSuccessAt": "2026-10-26T04:40:18.124Z",
+      "maxVersionCode": 1090,
       "message": null,
       "repositoryId": 1414363922,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-15T13:43:21Z",
-        "tag": "v8.6.1",
-        "version": "v8.6.1",
-        "versionCode": 1088
+        "publishedAt": "2026-10-26T04:39:56Z",
+        "tag": "v8.6.2",
+        "version": "v8.6.2",
+        "versionCode": 1090
       }
     },
     "nomount": {
@@ -718,11 +718,11 @@
       "stable": null
     },
     "wipe_cache": {
-      "contentCommit": "3b3732bfb20317fa0073cb602e3d99e4bbaf74ec",
+      "contentCommit": "a8de1f7f6d70121d154a5a290261e53546bd2742",
       "fullName": "FLYCOM-E/ClearBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+      "lastSuccessAt": "2026-10-26T04:40:18.124Z",
       "maxVersionCode": 101,
       "message": "stable-unavailable: the stable release (versionCode 101) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 101 is published.",
       "repositoryId": 983784625,
