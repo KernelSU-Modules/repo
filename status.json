@@ -130,18 +130,18 @@
     "KernelSU-Tuner": {
       "contentCommit": "12dc3479d7736a74d368f61342a468224ba5ff99",
       "fullName": "ylh440104/KernelSU-Tuner",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-10-13T10:52:29.245Z",
-      "maxVersionCode": 30041,
-      "message": null,
+      "maxVersionCode": 30042,
+      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
       "repositoryId": 1414095668,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-13T10:52:08Z",
-        "tag": "v3.4.1",
-        "version": "v3.4.1",
-        "versionCode": 30041
+        "publishedAt": "2026-10-26T00:02:55Z",
+        "tag": "v3.4.2",
+        "version": "v3.4.2",
+        "versionCode": 30042
       }
     },
     "MagicNet": {

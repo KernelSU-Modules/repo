@@ -1270,17 +1270,47 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-13T10:52:29.245Z",
+        "lastAttemptAt": "2026-10-26T00:03:21.873Z",
         "lastSuccessAt": "2026-10-13T10:52:29.245Z",
-        "message": null,
-        "status": "ok"
+        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
+        "status": "stale"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
-      "maxStableVersionCode": 30041,
-      "maxVersionCode": 30041,
+      "maxStableVersionCode": 30042,
+      "maxVersionCode": 30042,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:85ff61648df0c7680739f42a372c34e30aede584cab40a1c8a7a6dceed0512db",
+            "id": 676475526,
+            "name": "KernelSU-Tuner-30042-v3.4.2.zip",
+            "sha256": "85ff61648df0c7680739f42a372c34e30aede584cab40a1c8a7a6dceed0512db",
+            "size": 53029,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.2/KernelSU-Tuner-30042-v3.4.2.zip"
+          },
+          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThe `author` field in `module.prop` is `ylh440104` now, matching what `module.yaml` already declared. No functional change.\n\nversionCode 30042.",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.2",
+          "immutable": true,
+          "name": "v3.4.2",
+          "prerelease": false,
+          "prop": {
+            "author": "ylh440104",
+            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+            "version": "v3.4.2",
+            "versionCode": "30042"
+          },
+          "publishedAt": "2026-10-26T00:02:55Z",
+          "releaseId": 423740403,
+          "tag": "v3.4.2",
+          "tagCommit": "cfec6aa01c276a2258581c1b6da62302cf661444",
+          "version": "v3.4.2",
+          "versionCode": 30042
+        },
         {
           "asset": {
             "digest": "sha256:e03c1edb5187ed6e1654af26ef867390717edb5110ed4ae8580187a27a974ca0",
@@ -1498,41 +1528,45 @@
         "411571389": {
           "checkedAt": "2026-10-13T10:52:29.245Z",
           "ok": true
+        },
+        "423740403": {
+          "checkedAt": "2026-10-26T00:03:21.873Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:e03c1edb5187ed6e1654af26ef867390717edb5110ed4ae8580187a27a974ca0",
-          "id": 636733638,
-          "name": "KernelSU-Tuner-30041-v3.4.1.zip",
-          "sha256": "e03c1edb5187ed6e1654af26ef867390717edb5110ed4ae8580187a27a974ca0",
-          "size": 53024,
-          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.1/KernelSU-Tuner-30041-v3.4.1.zip"
+          "digest": "sha256:85ff61648df0c7680739f42a372c34e30aede584cab40a1c8a7a6dceed0512db",
+          "id": 676475526,
+          "name": "KernelSU-Tuner-30042-v3.4.2.zip",
+          "sha256": "85ff61648df0c7680739f42a372c34e30aede584cab40a1c8a7a6dceed0512db",
+          "size": 53029,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.2/KernelSU-Tuner-30042-v3.4.2.zip"
         },
-        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**This fixes the WebUI not loading.** In 3.4.0 the string assigned to the wipe-protection command display was split across three lines. That is not valid JavaScript, so the entire script failed to parse and the interface never appeared. The newline is escaped now.\n\n**Also corrected.** The duplicate cleanup in 3.4.0 went too far: it removed the only copy of the kernel-extension and watchdog script block, which left those nine switches unrendered and six buttons dead. It also took out the live-monitor pane opening tag and the dry-run card. The script block is back, the live monitor is its own pane again, and the dry-run card with its button is restored.\n\n**Still removed:** the two genuinely duplicated rows (`CPU_FREQ`, `zoneRow`) and one copy each of the kernel-extension and watchdog cards.\n\n**Verified with** `node --check` on the extracted script, a headless run of the whole script against a DOM stub with no runtime errors, and a pass confirming all 124 ids the script references exist and all 43 buttons have listeners.\n\nEverything else is unchanged from 3.4.0.",
-        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.1",
+        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThe `author` field in `module.prop` is `ylh440104` now, matching what `module.yaml` already declared. No functional change.\n\nversionCode 30042.",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.2",
         "immutable": true,
-        "name": "v3.4.1",
+        "name": "v3.4.2",
         "prerelease": false,
         "prop": {
-          "author": "Operit",
+          "author": "ylh440104",
           "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
           "id": "KernelSU-Tuner",
           "name": "KernelSU Tuner",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-          "version": "v3.4.1",
-          "versionCode": "30041"
+          "version": "v3.4.2",
+          "versionCode": "30042"
         },
-        "publishedAt": "2026-10-13T10:52:08Z",
-        "releaseId": 411571389,
-        "tag": "v3.4.1",
-        "tagCommit": "da6548b6e7062ff338fb537f2a54bfb0e31eb1ab",
-        "version": "v3.4.1",
-        "versionCode": 30041
+        "publishedAt": "2026-10-26T00:02:55Z",
+        "releaseId": 423740403,
+        "tag": "v3.4.2",
+        "tagCommit": "cfec6aa01c276a2258581c1b6da62302cf661444",
+        "version": "v3.4.2",
+        "versionCode": 30042
       },
       "stars": {
-        "count": 9,
-        "fetchedAt": "2026-10-24T01:58:34.660Z",
+        "count": 10,
+        "fetchedAt": "2026-10-26T00:03:21.873Z",
         "fullName": "ylh440104/KernelSU-Tuner",
         "repositoryId": 1414095668,
         "verified": "self"
@@ -5951,8 +5985,8 @@
         "versionCode": 605
       },
       "stars": {
-        "count": 545,
-        "fetchedAt": "2026-10-24T20:48:16.190Z",
+        "count": 550,
+        "fetchedAt": "2026-10-26T00:03:21.873Z",
         "fullName": "maxsteeel/nomount",
         "repositoryId": 1128821046,
         "verified": "self"
