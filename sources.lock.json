@@ -3659,28 +3659,28 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-26T17:10:02.521Z",
-        "lastSuccessAt": "2026-10-26T17:10:02.521Z",
+        "lastAttemptAt": "2026-10-26T17:25:26.024Z",
+        "lastSuccessAt": "2026-10-26T17:25:26.024Z",
         "message": null,
         "status": "ok"
       },
       "id": "duck-toolbox",
       "installationId": 170179902,
       "maxStableVersionCode": 119,
-      "maxVersionCode": 123,
+      "maxVersionCode": 124,
       "prerelease": {
         "asset": {
-          "digest": "sha256:52d540ad58b2acd7e0e2b27a996303ba67fd197a8dbc01262ae3397458770ce6",
-          "id": 678861589,
-          "name": "duck-toolbox-0.2.1-Stable-123-canary.zip",
-          "sha256": "52d540ad58b2acd7e0e2b27a996303ba67fd197a8dbc01262ae3397458770ce6",
-          "size": 8333050,
-          "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-d7afca67-20261026T170926178519Z/duck-toolbox-0.2.1-Stable-123-canary.zip"
+          "digest": "sha256:f205f12f4e30f5c3dd3a026abb4aa9ba42490d81cdddc2d34e28b8434472a19e",
+          "id": 678902933,
+          "name": "duck-toolbox-0.2.1-Stable-124-canary.zip",
+          "sha256": "f205f12f4e30f5c3dd3a026abb4aa9ba42490d81cdddc2d34e28b8434472a19e",
+          "size": 8335646,
+          "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-2d2ae3fe-20261026T172456614309Z/duck-toolbox-0.2.1-Stable-124-canary.zip"
         },
-        "body": "Canary module built from commit d7afca679d9c8e1bc30c7fd3e16829ac86d0499e.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/40365297251\n\nGPLv3 Play Integrity corresponding source (build commit): https://github.com/eltavine/Duck-ToolBox/tree/d7afca679d9c8e1bc30c7fd3e16829ac86d0499e/components/play-integrity\n",
-        "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-d7afca67-20261026T170926178519Z",
+        "body": "Canary module built from commit 2d2ae3fe3697c13974e064d3831e25a1da553cf2.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/40367764742\n\nGPLv3 Play Integrity corresponding source (build commit): https://github.com/eltavine/Duck-ToolBox/tree/2d2ae3fe3697c13974e064d3831e25a1da553cf2/components/play-integrity\n",
+        "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-2d2ae3fe-20261026T172456614309Z",
         "immutable": true,
-        "name": "nightly-d7afca67-20261026T170926178519Z",
+        "name": "nightly-2d2ae3fe-20261026T172456614309Z",
         "prerelease": true,
         "prop": {
           "author": "Eltavine & KOW & MhmRdd",
@@ -3688,17 +3688,47 @@
           "id": "duck-toolbox",
           "name": "Duck ToolBox",
           "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
-          "version": "0.2.1-Stable (123-canary)",
-          "versionCode": "123"
+          "version": "0.2.1-Stable (124-canary)",
+          "versionCode": "124"
         },
-        "publishedAt": "2026-10-26T17:09:30Z",
-        "releaseId": 424537289,
-        "tag": "nightly-d7afca67-20261026T170926178519Z",
-        "tagCommit": "d7afca679d9c8e1bc30c7fd3e16829ac86d0499e",
-        "version": "0.2.1-Stable (123-canary)",
-        "versionCode": 123
+        "publishedAt": "2026-10-26T17:24:59Z",
+        "releaseId": 424552470,
+        "tag": "nightly-2d2ae3fe-20261026T172456614309Z",
+        "tagCommit": "2d2ae3fe3697c13974e064d3831e25a1da553cf2",
+        "version": "0.2.1-Stable (124-canary)",
+        "versionCode": 124
       },
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:f205f12f4e30f5c3dd3a026abb4aa9ba42490d81cdddc2d34e28b8434472a19e",
+            "id": 678902933,
+            "name": "duck-toolbox-0.2.1-Stable-124-canary.zip",
+            "sha256": "f205f12f4e30f5c3dd3a026abb4aa9ba42490d81cdddc2d34e28b8434472a19e",
+            "size": 8335646,
+            "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-2d2ae3fe-20261026T172456614309Z/duck-toolbox-0.2.1-Stable-124-canary.zip"
+          },
+          "body": "Canary module built from commit 2d2ae3fe3697c13974e064d3831e25a1da553cf2.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/40367764742\n\nGPLv3 Play Integrity corresponding source (build commit): https://github.com/eltavine/Duck-ToolBox/tree/2d2ae3fe3697c13974e064d3831e25a1da553cf2/components/play-integrity\n",
+          "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-2d2ae3fe-20261026T172456614309Z",
+          "immutable": true,
+          "name": "nightly-2d2ae3fe-20261026T172456614309Z",
+          "prerelease": true,
+          "prop": {
+            "author": "Eltavine & KOW & MhmRdd",
+            "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and device ID provisioning (Qualcomm / MediaTek TrustKernel), in one WebUI.",
+            "id": "duck-toolbox",
+            "name": "Duck ToolBox",
+            "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
+            "version": "0.2.1-Stable (124-canary)",
+            "versionCode": "124"
+          },
+          "publishedAt": "2026-10-26T17:24:59Z",
+          "releaseId": 424552470,
+          "tag": "nightly-2d2ae3fe-20261026T172456614309Z",
+          "tagCommit": "2d2ae3fe3697c13974e064d3831e25a1da553cf2",
+          "version": "0.2.1-Stable (124-canary)",
+          "versionCode": 124
+        },
         {
           "asset": {
             "digest": "sha256:52d540ad58b2acd7e0e2b27a996303ba67fd197a8dbc01262ae3397458770ce6",
@@ -3968,36 +3998,6 @@
           "tagCommit": "82142a50f3a0aacfb8302edd8237ea27b853f099",
           "version": "0.1.8-stable (111-canary)",
           "versionCode": 111
-        },
-        {
-          "asset": {
-            "digest": "sha256:4383183d09727b2aa505a31ccab50e5767e75e838367f0ecf8e2a3f9e4083c6b",
-            "id": 671801924,
-            "name": "duck-toolbox-0.1.8-stable-98-canary.zip",
-            "sha256": "4383183d09727b2aa505a31ccab50e5767e75e838367f0ecf8e2a3f9e4083c6b",
-            "size": 7965658,
-            "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-939d9edc-20261024T091257033499Z/duck-toolbox-0.1.8-stable-98-canary.zip"
-          },
-          "body": "Canary module built from commit 939d9edcd678b66d4cfac6093450766312ffdc84.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/40080849624\n\nGPLv3 Play Integrity corresponding source (build commit): https://github.com/eltavine/Duck-ToolBox/tree/939d9edcd678b66d4cfac6093450766312ffdc84/components/play-integrity\n",
-          "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-939d9edc-20261024T091257033499Z",
-          "immutable": true,
-          "name": "nightly-939d9edc-20261024T091257033499Z",
-          "prerelease": true,
-          "prop": {
-            "author": "Eltavine & KOW & MhmRdd",
-            "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and Qualcomm device ID provisioning, in one WebUI.",
-            "id": "duck-toolbox",
-            "name": "Duck ToolBox",
-            "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
-            "version": "0.1.8-stable (98-canary)",
-            "versionCode": "98"
-          },
-          "publishedAt": "2026-10-24T09:12:59Z",
-          "releaseId": 422628262,
-          "tag": "nightly-939d9edc-20261024T091257033499Z",
-          "tagCommit": "939d9edcd678b66d4cfac6093450766312ffdc84",
-          "version": "0.1.8-stable (98-canary)",
-          "versionCode": 98
         }
       ],
       "repositoryId": 1196357682,
@@ -4164,6 +4164,10 @@
         },
         "424537289": {
           "checkedAt": "2026-10-26T17:10:02.521Z",
+          "ok": true
+        },
+        "424552470": {
+          "checkedAt": "2026-10-26T17:25:26.024Z",
           "ok": true
         }
       },
