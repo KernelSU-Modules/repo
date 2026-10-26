@@ -389,12 +389,12 @@
       }
     },
     "duck-toolbox": {
-      "contentCommit": "fbbb035f1e8ae1e2f418a0d2c0fd822447ed72eb",
+      "contentCommit": "d7afca679d9c8e1bc30c7fd3e16829ac86d0499e",
       "fullName": "eltavine/Duck-ToolBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-26T15:26:47.923Z",
-      "maxVersionCode": 121,
+      "lastSuccessAt": "2026-10-26T17:10:02.521Z",
+      "maxVersionCode": 123,
       "message": null,
       "repositoryId": 1196357682,
       "request": null,
