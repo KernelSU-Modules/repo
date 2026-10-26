@@ -1,7 +1,7 @@
 {
   "modules": {
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "a0225a7290cfe4e9cc947ae56a7e0db18357bbf4",
+      "contentCommit": "ac82130dd4aea0c97a672f3434dc24fc7ec75e48",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -10,8 +10,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-10-26T17:48:39.920Z",
-        "commit": "a0225a7290cfe4e9cc947ae56a7e0db18357bbf4",
+        "checkedAt": "2026-10-26T18:50:38.208Z",
+        "commit": "ac82130dd4aea0c97a672f3434dc24fc7ec75e48",
         "issues": [],
         "latestTag": "v1.2.8",
         "ok": true,
@@ -449,6 +449,27 @@
       "message": "stable-unavailable: the stable release (versionCode 100) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 100 is published.",
       "repositoryId": 1413800395,
       "request": null,
+      "stable": null
+    },
+    "frida-ksu": {
+      "contentCommit": "a5eb3ec2fc6e46ad5990da78b8306807c6c1d808",
+      "fullName": "ReverserID/KSU_Frida",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1434784462,
+      "request": {
+        "checkedAt": "2026-10-26T18:50:38.208Z",
+        "commit": "a5eb3ec2fc6e46ad5990da78b8306807c6c1d808",
+        "issues": [],
+        "latestTag": "v17.24.3",
+        "ok": true,
+        "releaseId": 424633823,
+        "repositoryId": 1434784462,
+        "submissionId": "h25m4wgt67"
+      },
       "stable": null
     },
     "gitmigrator": {
