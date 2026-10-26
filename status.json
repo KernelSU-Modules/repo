@@ -130,11 +130,11 @@
     "KernelSU-Tuner": {
       "contentCommit": "12dc3479d7736a74d368f61342a468224ba5ff99",
       "fullName": "ylh440104/KernelSU-Tuner",
-      "health": "stale",
+      "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-13T10:52:29.245Z",
+      "lastSuccessAt": "2026-10-26T13:27:18.283Z",
       "maxVersionCode": 30042,
-      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
+      "message": null,
       "repositoryId": 1414095668,
       "request": null,
       "stable": {

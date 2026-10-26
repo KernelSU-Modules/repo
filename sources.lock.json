@@ -1270,10 +1270,10 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-26T13:00:02.230Z",
-        "lastSuccessAt": "2026-10-13T10:52:29.245Z",
-        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
-        "status": "stale"
+        "lastAttemptAt": "2026-10-26T13:27:18.283Z",
+        "lastSuccessAt": "2026-10-26T13:27:18.283Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
@@ -1961,8 +1961,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 81,
-        "fetchedAt": "2026-10-12T04:47:49.269Z",
+        "count": 82,
+        "fetchedAt": "2026-10-26T13:27:18.283Z",
         "fullName": "Seyud/Mediatek_Mali_GPU_Governor",
         "repositoryId": 974629540,
         "requested": "Seyud/Mediatek_Mali_GPU_Governor",
