@@ -39,27 +39,21 @@
       }
     },
     "Android_Nakedcore": {
-      "contentCommit": "fcb762f89718407dcb76de8b6f36f1716ff95b2f",
+      "contentCommit": "5b6147336456b70eac40e4354be7fd587bd8eabe",
       "fullName": "Bcorw/Android_Nakedcore",
-      "health": "error",
+      "health": "ok",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "release-none: The repository has no published release yet.",
+      "message": null,
       "repositoryId": 1433508547,
       "request": {
-        "checkedAt": "2026-10-27T14:56:31.447Z",
-        "commit": "fcb762f89718407dcb76de8b6f36f1716ff95b2f",
-        "issues": [
-          {
-            "code": "release-none",
-            "message": "The repository has no published release yet.",
-            "severity": "error"
-          }
-        ],
-        "latestTag": null,
-        "ok": false,
-        "releaseId": null,
+        "checkedAt": "2026-10-27T14:59:11.458Z",
+        "commit": "5b6147336456b70eac40e4354be7fd587bd8eabe",
+        "issues": [],
+        "latestTag": "V1.1.1",
+        "ok": true,
+        "releaseId": 425604819,
         "repositoryId": 1433508547,
         "submissionId": "094dzvqdg0"
       },
