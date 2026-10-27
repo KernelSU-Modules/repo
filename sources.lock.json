@@ -6450,17 +6450,46 @@
       "fullName": "mzggr0914/sidewire",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-24T10:39:05.410Z",
-        "lastSuccessAt": "2026-10-24T10:39:05.410Z",
+        "lastAttemptAt": "2026-10-27T01:03:27.611Z",
+        "lastSuccessAt": "2026-10-27T01:03:27.611Z",
         "message": null,
         "status": "ok"
       },
       "id": "sidewire",
       "installationId": 173815563,
-      "maxStableVersionCode": 32,
-      "maxVersionCode": 32,
+      "maxStableVersionCode": 33,
+      "maxVersionCode": 33,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:f02ca15f84ec5239bfa456a2689b5f41f54df27c8e4793c59b8fd544ca1032c2",
+            "id": 680010719,
+            "name": "SideWire-KernelSU-v1.0.6-arm64.zip",
+            "sha256": "f02ca15f84ec5239bfa456a2689b5f41f54df27c8e4793c59b8fd544ca1032c2",
+            "size": 1244900,
+            "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.6/SideWire-KernelSU-v1.0.6-arm64.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.5...v1.0.6",
+          "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.6",
+          "immutable": true,
+          "name": "SideWire v1.0.6",
+          "prerelease": false,
+          "prop": {
+            "author": "SideWire contributors",
+            "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
+            "id": "sidewire",
+            "name": "SideWire",
+            "version": "1.0.6",
+            "versionCode": "33"
+          },
+          "publishedAt": "2026-10-27T01:03:04Z",
+          "releaseId": 424928590,
+          "tag": "v1.0.6",
+          "tagCommit": "7d75fae515f3c4b01e60880e9a276de57294820b",
+          "version": "1.0.6",
+          "versionCode": 33
+        },
         {
           "asset": {
             "digest": "sha256:0f4dbdbb53d3365c3e6071256ebfa8397678420a3d092b2a5fbdae9fa025d88f",
@@ -6569,36 +6598,40 @@
         "422667532": {
           "checkedAt": "2026-10-24T10:39:05.410Z",
           "ok": true
+        },
+        "424928590": {
+          "checkedAt": "2026-10-27T01:03:27.611Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:0f4dbdbb53d3365c3e6071256ebfa8397678420a3d092b2a5fbdae9fa025d88f",
-          "id": 671986456,
-          "name": "SideWire-KernelSU-v1.0.5-arm64.zip",
-          "sha256": "0f4dbdbb53d3365c3e6071256ebfa8397678420a3d092b2a5fbdae9fa025d88f",
-          "size": 1244915,
-          "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.5/SideWire-KernelSU-v1.0.5-arm64.zip"
+          "digest": "sha256:f02ca15f84ec5239bfa456a2689b5f41f54df27c8e4793c59b8fd544ca1032c2",
+          "id": 680010719,
+          "name": "SideWire-KernelSU-v1.0.6-arm64.zip",
+          "sha256": "f02ca15f84ec5239bfa456a2689b5f41f54df27c8e4793c59b8fd544ca1032c2",
+          "size": 1244900,
+          "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.6/SideWire-KernelSU-v1.0.6-arm64.zip"
         },
-        "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.4...v1.0.5",
-        "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.5",
+        "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.5...v1.0.6",
+        "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.6",
         "immutable": true,
-        "name": "SideWire v1.0.5",
+        "name": "SideWire v1.0.6",
         "prerelease": false,
         "prop": {
           "author": "SideWire contributors",
           "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
           "id": "sidewire",
           "name": "SideWire",
-          "version": "1.0.5",
-          "versionCode": "32"
+          "version": "1.0.6",
+          "versionCode": "33"
         },
-        "publishedAt": "2026-10-24T10:38:46Z",
-        "releaseId": 422667532,
-        "tag": "v1.0.5",
-        "tagCommit": "5544bb664f056e0bc0fbb9575babe460af97cc4e",
-        "version": "1.0.5",
-        "versionCode": 32
+        "publishedAt": "2026-10-27T01:03:04Z",
+        "releaseId": 424928590,
+        "tag": "v1.0.6",
+        "tagCommit": "7d75fae515f3c4b01e60880e9a276de57294820b",
+        "version": "1.0.6",
+        "versionCode": 33
       },
       "stars": {
         "count": 35,
