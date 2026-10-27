@@ -5387,16 +5387,18 @@
     "magisk-netbird": {
       "content": {
         "blobs": {
-          "README.md": "b60bff9a18c08d2a860fefb844670c28192530eb",
+          "README.md": "e649c11a66652fc0a29384473979e4e153a65b02",
           "assets/icon.png": "4b5299236cdfdf9e533636d5a53e4b2f196c27f7",
+          "docs/kernelsu-webui.jpg": "9825995bd7adb3e3a178f1df4984799f3693c182",
           "docs/netbird-logo.png": "1b2405c07e06ec4e2599fc6f205ba962c6697316",
           "module.yaml": "741634b1072058f3b3a3c426bebed63218d4559b"
         },
-        "commit": "de87cdf6d7d20ef81712d9b6ce2c1f3ee919ec00",
-        "fetchedAt": "2026-10-27T00:56:09.289Z",
+        "commit": "0c6e9144a70e63c1a993d83823aa4dd60c26269f",
+        "fetchedAt": "2026-10-27T02:51:28.836Z",
         "files": {
-          "README.md": "ffa940e21a822cea86a1556941583b7032d5df371b6399331921917e6d6814af",
+          "README.md": "4138efb366f2510e6e1069821facb5f1311e9bdd48aaeceaaec5b09aa2acc294",
           "assets/icon.png": "f02f1e5d4edd4fbef8420d768a555b23a179bf24a86413714d03e409598e136e",
+          "docs/kernelsu-webui.jpg": "b069466f6ded92b6db727f80aa54f1aff33418b9a2d0ec59c7d56f4f25b4ce6f",
           "docs/netbird-logo.png": "33d92428742e9c48b58cbb7b62cdd00987c73e37211ab890a0f721c8b35a1dec",
           "module.yaml": "357183160f7f90214d61f71d33b2501ecac2f19f1bc05a4223db12adc612094a"
         },
@@ -5406,8 +5408,8 @@
       "fullName": "ahsaboy/magisk-netbird",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-27T00:56:09.289Z",
-        "lastSuccessAt": "2026-10-27T00:56:09.289Z",
+        "lastAttemptAt": "2026-10-27T02:51:28.836Z",
+        "lastSuccessAt": "2026-10-27T02:51:28.836Z",
         "message": null,
         "status": "ok"
       },

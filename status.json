@@ -583,11 +583,11 @@
       }
     },
     "magisk-netbird": {
-      "contentCommit": "de87cdf6d7d20ef81712d9b6ce2c1f3ee919ec00",
+      "contentCommit": "0c6e9144a70e63c1a993d83823aa4dd60c26269f",
       "fullName": "ahsaboy/magisk-netbird",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-27T00:56:09.289Z",
+      "lastSuccessAt": "2026-10-27T02:51:28.836Z",
       "maxVersionCode": 10411,
       "message": null,
       "repositoryId": 1274372941,
