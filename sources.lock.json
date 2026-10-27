@@ -659,12 +659,12 @@
           ".github/images/overview-zh.png": "fa74b205c5e8a47ba456c905edbf3b03aef22c64",
           ".github/images/settings-zh.png": "f01b1833c2dd75d375b7d46b044c718418f0222d",
           ".github/images/trends-zh.png": "e53d03d8cebee9306cc48dd95e44e2ab8bf5dc75",
-          "README.md": "3fd72e5713a5301a1c9711c662c32e080f629a64",
+          "README.md": "ab86a9248bb6029c6b3b0d8dd7abdd32620cb2fb",
           "assets/icon.png": "5dc474bb718300203dce63f6f647c0d98cc4a3b6",
           "module.yaml": "99b94b13495317433d7c9f9ad9ddad25fddc4d96"
         },
-        "commit": "475be658822353e3dbaca590e3816df925727d18",
-        "fetchedAt": "2026-10-25T06:56:04.458Z",
+        "commit": "bc4c44801622e491ead54a8caf7199e90756d29b",
+        "fetchedAt": "2026-10-27T14:19:59.598Z",
         "files": {
           ".github/images/history-zh.png": "d46eb582599968a1800de7e2298c331d5579b08cc9e5dd79acb0fa69f96d0e2a",
           ".github/images/how-it-works-zh-dark.png": "862e702a5136b0dba280b6863be3addbe8b5900ce2d6dd91546c68fd9caa3fae",
@@ -672,7 +672,7 @@
           ".github/images/overview-zh.png": "f6012c245bf1834565129899c5c48147660d6d3ce7913fa45bb088f385edb3cf",
           ".github/images/settings-zh.png": "06faefa6ec0d9319185e6ca44e2957a1b2b7d6f36efad894947bdb29f4136903",
           ".github/images/trends-zh.png": "ea6257f016d41db98c95ff6f8ef894b7ae344f3f7d2ed9265978766007e89e5e",
-          "README.md": "70f48dbb118d671b5b25d4ef272824432a499236402e7265463e48d5e75bb251",
+          "README.md": "bea96c3cbccf6ebc58b5b86160d76b33b0383d722f7fb618964e0ec11096e543",
           "assets/icon.png": "ef5a7662da7b1a2debee42ebe7f5b3e2ad28e362adc958828c986c0026128f91",
           "module.yaml": "a7c04b69a0eb359161c2d57cfca9256b4cf1f86ab95ef47414444be46f3fecf1"
         },
@@ -682,8 +682,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-25T06:56:04.458Z",
-        "lastSuccessAt": "2026-10-25T06:56:04.458Z",
+        "lastAttemptAt": "2026-10-27T14:19:59.598Z",
+        "lastSuccessAt": "2026-10-27T14:19:59.598Z",
         "message": null,
         "status": "ok"
       },

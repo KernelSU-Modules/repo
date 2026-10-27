@@ -39,7 +39,7 @@
       }
     },
     "Android_Nakedcore": {
-      "contentCommit": "3d34bca471f50eb0d24b4affcb29319846ef4648",
+      "contentCommit": "a27a669ddbc46f69f2829cbcff366db5480be3ea",
       "fullName": "Bcorw/Android_Nakedcore",
       "health": "ok",
       "installation": "present",
@@ -48,12 +48,12 @@
       "message": null,
       "repositoryId": 1433508547,
       "request": {
-        "checkedAt": "2026-10-25T19:32:45.753Z",
-        "commit": "3d34bca471f50eb0d24b4affcb29319846ef4648",
+        "checkedAt": "2026-10-27T14:19:59.598Z",
+        "commit": "a27a669ddbc46f69f2829cbcff366db5480be3ea",
         "issues": [],
-        "latestTag": "v3.3.3",
+        "latestTag": "v3.3.4",
         "ok": true,
-        "releaseId": 423615047,
+        "releaseId": 425557032,
         "repositoryId": 1433508547,
         "submissionId": "094dzvqdg0"
       },
@@ -77,11 +77,11 @@
       }
     },
     "CRecordEvolution": {
-      "contentCommit": "475be658822353e3dbaca590e3816df925727d18",
+      "contentCommit": "bc4c44801622e491ead54a8caf7199e90756d29b",
       "fullName": "f1owkang/CRecordEvolution",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-25T06:56:04.458Z",
+      "lastSuccessAt": "2026-10-27T14:19:59.598Z",
       "maxVersionCode": 35,
       "message": null,
       "repositoryId": 678049636,
