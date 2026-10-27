@@ -7320,9 +7320,9 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-27T05:40:35.015Z",
-        "lastSuccessAt": "2026-10-27T05:40:35.015Z",
-        "message": null,
+        "lastAttemptAt": "2026-10-27T06:00:35.875Z",
+        "lastSuccessAt": "2026-10-27T06:00:35.875Z",
+        "message": "stable-unavailable: the stable release (versionCode 572) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 572 is published.",
         "status": "ok"
       },
       "id": "zygisk-sui",
@@ -7331,36 +7331,6 @@
       "maxVersionCode": 572,
       "prerelease": null,
       "releases": [
-        {
-          "asset": {
-            "digest": "sha256:18eae4e6ccf885a1c6f12928a2a6a1bb3abe776fedcf0d9e089da80205262d26",
-            "id": 680588524,
-            "name": "Sui-v13.5.4.3_572-2aac56d-release.zip",
-            "sha256": "18eae4e6ccf885a1c6f12928a2a6a1bb3abe776fedcf0d9e089da80205262d26",
-            "size": 1457106,
-            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v572-2aac56d/Sui-v13.5.4.3_572-2aac56d-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (572-2aac56d-release)`\n- **VersionCode:** `572`\n- **Commit:** [`2aac56d`](https://github.com/XiaoTong6666/Sui/commit/2aac56dccde14c9b9d5f008c1fcc035c5d8195d3)\n- **Build time:** `2m 17s`\n- **SHA256:** `18eae4e6ccf885a1c6f12928a2a6a1bb3abe776fedcf0d9e089da80205262d26`\n\n## Message\n\n```text\nfix(installer): Guard metadata and log forwarding, Meow\n\n给日志转发加上 --，避免以 - 开头的输出被 log 当成参数喵（甩甩尾巴）\n\n安装时检查 Installer 退出状态和元数据格式，写入后再回读核对，不让失败悄悄混过去喵（认真检查）\n\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v572-2aac56d",
-          "immutable": true,
-          "name": "v13.5.4.3 (572-2aac56d-release)",
-          "prerelease": false,
-          "prop": {
-            "author": "Sui Contributors",
-            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
-            "id": "zygisk-sui",
-            "name": "Zygisk - Sui",
-            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-            "version": "v13.5.4.3 (572-2aac56d-release)",
-            "versionCode": "572"
-          },
-          "publishedAt": "2026-10-27T05:40:10Z",
-          "releaseId": 425072419,
-          "tag": "v572-2aac56d",
-          "tagCommit": "abe761822d9e2ba9eb3cb93f48c4cfb0a2e4bd43",
-          "version": "v13.5.4.3 (572-2aac56d-release)",
-          "versionCode": 572
-        },
         {
           "asset": {
             "digest": "sha256:fcf9ad2b3f9ff4ccee62d43bed4b6abe71ff71ddb89acbb1485148873bcb5270",
@@ -7689,38 +7659,13 @@
         "425072419": {
           "checkedAt": "2026-10-27T05:40:35.015Z",
           "ok": true
+        },
+        "425083637": {
+          "checkedAt": "2026-10-27T06:00:35.875Z",
+          "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:18eae4e6ccf885a1c6f12928a2a6a1bb3abe776fedcf0d9e089da80205262d26",
-          "id": 680588524,
-          "name": "Sui-v13.5.4.3_572-2aac56d-release.zip",
-          "sha256": "18eae4e6ccf885a1c6f12928a2a6a1bb3abe776fedcf0d9e089da80205262d26",
-          "size": 1457106,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v572-2aac56d/Sui-v13.5.4.3_572-2aac56d-release.zip"
-        },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (572-2aac56d-release)`\n- **VersionCode:** `572`\n- **Commit:** [`2aac56d`](https://github.com/XiaoTong6666/Sui/commit/2aac56dccde14c9b9d5f008c1fcc035c5d8195d3)\n- **Build time:** `2m 17s`\n- **SHA256:** `18eae4e6ccf885a1c6f12928a2a6a1bb3abe776fedcf0d9e089da80205262d26`\n\n## Message\n\n```text\nfix(installer): Guard metadata and log forwarding, Meow\n\n给日志转发加上 --，避免以 - 开头的输出被 log 当成参数喵（甩甩尾巴）\n\n安装时检查 Installer 退出状态和元数据格式，写入后再回读核对，不让失败悄悄混过去喵（认真检查）\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v572-2aac56d",
-        "immutable": true,
-        "name": "v13.5.4.3 (572-2aac56d-release)",
-        "prerelease": false,
-        "prop": {
-          "author": "Sui Contributors",
-          "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
-          "id": "zygisk-sui",
-          "name": "Zygisk - Sui",
-          "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (572-2aac56d-release)",
-          "versionCode": "572"
-        },
-        "publishedAt": "2026-10-27T05:40:10Z",
-        "releaseId": 425072419,
-        "tag": "v572-2aac56d",
-        "tagCommit": "abe761822d9e2ba9eb3cb93f48c4cfb0a2e4bd43",
-        "version": "v13.5.4.3 (572-2aac56d-release)",
-        "versionCode": 572
-      },
+      "stable": null,
       "stars": {
         "count": 9,
         "fetchedAt": "2026-10-26T07:20:36.770Z",
