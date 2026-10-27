@@ -1,0 +1,19 @@
+id: power11
+status: pending
+request:
+  submissionId: 3s2y2njm22
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1435050229
+    ownerId: 163913397
+    fullName: LuigiColantuono/Power11
+    manifestPath: module.yaml
+  submittedBy: 163913397
+  submittedByLogin: LuigiColantuono
+  submittedAt: 2026-10-27T01:40:05.158Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64592
+createdAt: 2026-10-27T01:40:05.158Z
+updatedAt: 2026-10-27T01:40:05.158Z
