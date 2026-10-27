@@ -750,11 +750,11 @@
     "susfs4ksu_lkm": {
       "contentCommit": "de3465b78c67173c70096afadb350b8765795ef4",
       "fullName": "Nixie24/susdock",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-10-22T15:16:40.084Z",
       "maxVersionCode": 201,
-      "message": "stable-unavailable: the stable release (versionCode 201) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 201 is published.",
+      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-id-mismatch); stable-unavailable: the stable release (versionCode 201) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 201 is published.",
       "repositoryId": 1411850723,
       "request": null,
       "stable": null

@@ -6661,10 +6661,10 @@
       "fullName": "Nixie24/susdock",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
+        "lastAttemptAt": "2026-10-27T18:41:08.065Z",
         "lastSuccessAt": "2026-10-22T15:16:40.084Z",
-        "message": "stable-unavailable: the stable release (versionCode 201) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 201 is published.",
-        "status": "ok"
+        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-id-mismatch); stable-unavailable: the stable release (versionCode 201) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 201 is published.",
+        "status": "stale"
       },
       "id": "susfs4ksu_lkm",
       "installationId": 170370411,
@@ -6689,6 +6689,12 @@
         "411302072": {
           "checkedAt": "2026-10-13T05:15:53.953Z",
           "ok": true
+        },
+        "425847434": {
+          "checkedAt": "2026-10-27T18:41:08.065Z",
+          "code": "asset-none",
+          "message": "Release v0.3.0-300 has no asset matching \"*.zip\".",
+          "ok": false
         }
       },
       "stable": null,
