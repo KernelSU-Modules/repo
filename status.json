@@ -688,6 +688,27 @@
         "versionCode": 490
       }
     },
+    "power11": {
+      "contentCommit": "e823276c975d794e8e515f302cec28c39f8d8fa0",
+      "fullName": "LuigiColantuono/Power11",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1435050229,
+      "request": {
+        "checkedAt": "2026-10-27T01:40:35.502Z",
+        "commit": "e823276c975d794e8e515f302cec28c39f8d8fa0",
+        "issues": [],
+        "latestTag": "v3.0.2",
+        "ok": true,
+        "releaseId": 424944911,
+        "repositoryId": 1435050229,
+        "submissionId": "3s2y2njm22"
+      },
+      "stable": null
+    },
     "privacykit_zygisk": {
       "contentCommit": "35ef36b383dd389182cc9321f60e7b34e1e2480b",
       "fullName": "Mohithash/privacykit-zygisk",
