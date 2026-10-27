@@ -452,7 +452,7 @@
       "stable": null
     },
     "frida-ksu": {
-      "contentCommit": "a5eb3ec2fc6e46ad5990da78b8306807c6c1d808",
+      "contentCommit": "eda496a917e96a288e4796e7acb83fee86ab7ecd",
       "fullName": "ReverserID/KSU_Frida",
       "health": "ok",
       "installation": "present",
@@ -461,12 +461,12 @@
       "message": null,
       "repositoryId": 1434784462,
       "request": {
-        "checkedAt": "2026-10-26T18:50:38.208Z",
-        "commit": "a5eb3ec2fc6e46ad5990da78b8306807c6c1d808",
+        "checkedAt": "2026-10-27T12:31:36.512Z",
+        "commit": "eda496a917e96a288e4796e7acb83fee86ab7ecd",
         "issues": [],
-        "latestTag": "v17.24.3",
+        "latestTag": "v17.24.3-2",
         "ok": true,
-        "releaseId": 424633823,
+        "releaseId": 425433085,
         "repositoryId": 1434784462,
         "submissionId": "h25m4wgt67"
       },
