@@ -5811,8 +5811,8 @@
         "versionCode": 10411
       },
       "stars": {
-        "count": 2,
-        "fetchedAt": "2026-10-25T03:18:22.506Z",
+        "count": 3,
+        "fetchedAt": "2026-10-28T07:28:06.396Z",
         "fullName": "ahsaboy/magisk-netbird",
         "repositoryId": 1274372941,
         "verified": "self"
@@ -6590,6 +6590,143 @@
         "fetchedAt": "2026-10-27T12:31:36.512Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
+        "verified": "self"
+      }
+    },
+    "shellscaled": {
+      "content": {
+        "blobs": {
+          "README.en.md": "0ba139a743e75843cc659e81c5e6872833112216",
+          "docs/images/webui-devices-en.png": "9317699791c08b2273ee9db020f8108aee96ce5c",
+          "docs/images/webui-login-en.png": "be475da9785b195df05906ba0787a00aa037899a",
+          "docs/images/webui-overview-en.png": "7948892e27f09fe8bde376700a4f918909d2b9a0",
+          "docs/images/webui-settings-en.png": "284bf60a017df19eaa5ccff385ffeca6e772913a",
+          "module.yaml": "313c0b4075ea01550b7abd53a46acc75a0e10bb7"
+        },
+        "commit": "98cd9bcdad8f0bfa44ab7f5a38e5cf62eb7a7ea2",
+        "fetchedAt": "2026-10-28T07:28:06.396Z",
+        "files": {
+          "README.en.md": "8fc72851494cacb4f64a72318a7e3efb3e11da80028ab95707d5234f9825be5d",
+          "docs/images/webui-devices-en.png": "4d8e16ed448ad2295a675d9802167d2eeda1538f793c20abd5a230e049e8e175",
+          "docs/images/webui-login-en.png": "2bf6c98bc054b3605240531d46a608ee22cb32e37d03adc2e31288fa147c195e",
+          "docs/images/webui-overview-en.png": "7fc23f59ea6b1393d613f10d5ee7abef2db78ab80e148c9b501f996861d51171",
+          "docs/images/webui-settings-en.png": "5bceed0451b6499ffe01a7c0ddfd66d9e183ed815c211fc70ceaf2587dab6641",
+          "module.yaml": "ce324478e3cc2629c3c6616c74f4a81c6f63ee80ce0d016fd5a993436270b309"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "KyuubiRan/Shellscaled",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-28T07:28:06.396Z",
+        "lastSuccessAt": "2026-10-28T07:28:06.396Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "shellscaled",
+      "installationId": 176083809,
+      "maxStableVersionCode": 110400212,
+      "maxVersionCode": 110400212,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:6695f1ed4e1b142d03dc85ec9a4afadb10bfeacf1fea131f56f1c613dc4638bb",
+            "id": 684127432,
+            "name": "Shellscaled-1.104.2-r12-arm64.zip",
+            "sha256": "6695f1ed4e1b142d03dc85ec9a4afadb10bfeacf1fea131f56f1c613dc4638bb",
+            "size": 13309364,
+            "url": "https://github.com/KyuubiRan/Shellscaled/releases/download/v1.104.2-r12/Shellscaled-1.104.2-r12-arm64.zip"
+          },
+          "body": "Tailscale 1.104.2 for ARM64 Android (Magisk / KernelSU).\n\nDownload the ZIP, install it in your root manager, and reboot. Updating preserves your login and settings.\n\n[CLI source: android-v1.104.2-r3](https://github.com/KyuubiRan/tailscale-android-cli/releases/tag/android-v1.104.2-r3)\n",
+          "htmlUrl": "https://github.com/KyuubiRan/Shellscaled/releases/tag/v1.104.2-r12",
+          "immutable": true,
+          "name": "Shellscaled 1.104.2 (r12)",
+          "prerelease": false,
+          "prop": {
+            "architecture": "arm64",
+            "author": "KyuubiRan",
+            "description": "Tailscale for Android",
+            "id": "shellscaled",
+            "name": "Shellscaled",
+            "version": "1.104.2",
+            "versionCode": "110400212"
+          },
+          "publishedAt": "2026-10-28T06:56:58Z",
+          "releaseId": 426346828,
+          "tag": "v1.104.2-r12",
+          "tagCommit": "98cd9bcdad8f0bfa44ab7f5a38e5cf62eb7a7ea2",
+          "version": "1.104.2",
+          "versionCode": 110400212
+        }
+      ],
+      "repositoryId": 1435874117,
+      "seen": {
+        "426290625": {
+          "checkedAt": "2026-10-28T07:28:06.396Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "426306314": {
+          "checkedAt": "2026-10-28T07:28:06.396Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "426314417": {
+          "checkedAt": "2026-10-28T07:28:06.396Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "426346220": {
+          "checkedAt": "2026-10-28T07:28:06.396Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "426346828": {
+          "checkedAt": "2026-10-28T07:28:06.396Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:6695f1ed4e1b142d03dc85ec9a4afadb10bfeacf1fea131f56f1c613dc4638bb",
+          "id": 684127432,
+          "name": "Shellscaled-1.104.2-r12-arm64.zip",
+          "sha256": "6695f1ed4e1b142d03dc85ec9a4afadb10bfeacf1fea131f56f1c613dc4638bb",
+          "size": 13309364,
+          "url": "https://github.com/KyuubiRan/Shellscaled/releases/download/v1.104.2-r12/Shellscaled-1.104.2-r12-arm64.zip"
+        },
+        "body": "Tailscale 1.104.2 for ARM64 Android (Magisk / KernelSU).\n\nDownload the ZIP, install it in your root manager, and reboot. Updating preserves your login and settings.\n\n[CLI source: android-v1.104.2-r3](https://github.com/KyuubiRan/tailscale-android-cli/releases/tag/android-v1.104.2-r3)\n",
+        "htmlUrl": "https://github.com/KyuubiRan/Shellscaled/releases/tag/v1.104.2-r12",
+        "immutable": true,
+        "name": "Shellscaled 1.104.2 (r12)",
+        "prerelease": false,
+        "prop": {
+          "architecture": "arm64",
+          "author": "KyuubiRan",
+          "description": "Tailscale for Android",
+          "id": "shellscaled",
+          "name": "Shellscaled",
+          "version": "1.104.2",
+          "versionCode": "110400212"
+        },
+        "publishedAt": "2026-10-28T06:56:58Z",
+        "releaseId": 426346828,
+        "tag": "v1.104.2-r12",
+        "tagCommit": "98cd9bcdad8f0bfa44ab7f5a38e5cf62eb7a7ea2",
+        "version": "1.104.2",
+        "versionCode": 110400212
+      },
+      "stars": {
+        "count": 2,
+        "fetchedAt": "2026-10-28T07:28:06.396Z",
+        "fullName": "KyuubiRan/Shellscaled",
+        "repositoryId": 1435874117,
         "verified": "self"
       }
     },
