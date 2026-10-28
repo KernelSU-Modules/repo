@@ -1,7 +1,7 @@
 {
   "modules": {
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "faf9509fb94160b79d81ea5f683e7ae0cc22a7c3",
+      "contentCommit": "f4bb09b5e143b9e1ab669a43b570df5130cde2fa",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -10,8 +10,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-10-28T12:02:29.359Z",
-        "commit": "faf9509fb94160b79d81ea5f683e7ae0cc22a7c3",
+        "checkedAt": "2026-10-28T17:14:18.791Z",
+        "commit": "f4bb09b5e143b9e1ab669a43b570df5130cde2fa",
         "issues": [],
         "latestTag": "v1.2.8",
         "ok": true,
@@ -761,7 +761,7 @@
       }
     },
     "susdock": {
-      "contentCommit": "7e7a9d02a7185ca612bb0d9379e055cf1849e522",
+      "contentCommit": "827ec2fc7ee69888d0cf70eaafbc7bfde3d08591",
       "fullName": "Nixie24/susdock",
       "health": "ok",
       "installation": "present",
@@ -770,12 +770,12 @@
       "message": null,
       "repositoryId": 1436993054,
       "request": {
-        "checkedAt": "2026-10-28T14:28:34.653Z",
-        "commit": "7e7a9d02a7185ca612bb0d9379e055cf1849e522",
+        "checkedAt": "2026-10-28T17:14:18.791Z",
+        "commit": "827ec2fc7ee69888d0cf70eaafbc7bfde3d08591",
         "issues": [],
-        "latestTag": "v0.3.4-304",
+        "latestTag": "v0.3.5-305",
         "ok": true,
-        "releaseId": 426774751,
+        "releaseId": 426964123,
         "repositoryId": 1436993054,
         "submissionId": "vhlu3zc9ie"
       },
