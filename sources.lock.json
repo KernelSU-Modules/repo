@@ -2931,8 +2931,8 @@
       "seen": {},
       "stable": null,
       "stars": {
-        "count": 83,
-        "fetchedAt": "2026-10-27T00:56:09.289Z",
+        "count": 82,
+        "fetchedAt": "2026-10-28T02:53:15.108Z",
         "fullName": "LxyaoX/VexZygisk",
         "repositoryId": 1305247883,
         "verified": "self"
@@ -6073,8 +6073,8 @@
         "versionCode": 605
       },
       "stars": {
-        "count": 560,
-        "fetchedAt": "2026-10-27T00:56:09.289Z",
+        "count": 566,
+        "fetchedAt": "2026-10-28T02:53:15.108Z",
         "fullName": "maxsteeel/nomount",
         "repositoryId": 1128821046,
         "verified": "self"
@@ -7932,8 +7932,8 @@
         "versionCode": 193
       },
       "stars": {
-        "count": 17,
-        "fetchedAt": "2026-10-27T00:56:09.289Z",
+        "count": 18,
+        "fetchedAt": "2026-10-28T02:53:15.108Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
