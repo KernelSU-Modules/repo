@@ -1,0 +1,19 @@
+id: susdock
+status: pending
+request:
+  submissionId: vhlu3zc9ie
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1436993054
+    ownerId: 60429046
+    fullName: Nixie24/susdock
+    manifestPath: module.yaml
+  submittedBy: 60429046
+  submittedByLogin: Nixie24
+  submittedAt: 2026-10-28T12:51:02.355Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64602
+createdAt: 2026-10-28T12:51:02.355Z
+updatedAt: 2026-10-28T12:51:02.355Z
