@@ -1,7 +1,7 @@
 {
   "modules": {
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "e027767b8ee3d01fa039a4a0b33a6284ecefad2a",
+      "contentCommit": "c9fd6578696d5e92cedf0ae50ce0941e53349257",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -10,8 +10,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-10-28T11:18:36.522Z",
-        "commit": "e027767b8ee3d01fa039a4a0b33a6284ecefad2a",
+        "checkedAt": "2026-10-28T11:30:53.561Z",
+        "commit": "c9fd6578696d5e92cedf0ae50ce0941e53349257",
         "issues": [],
         "latestTag": "v1.2.8",
         "ok": true,
@@ -764,10 +764,10 @@
       "contentCommit": "de3465b78c67173c70096afadb350b8765795ef4",
       "fullName": "Nixie24/susdock",
       "health": "stale",
-      "installation": "present",
+      "installation": "missing",
       "lastSuccessAt": "2026-10-22T15:16:40.084Z",
       "maxVersionCode": 201,
-      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-id-mismatch); stable-unavailable: the stable release (versionCode 201) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 201 is published.",
+      "message": "installation-missing: the KernelSU Modules App is not installed on the repository; using the last synced data",
       "repositoryId": 1411850723,
       "request": null,
       "stable": null
