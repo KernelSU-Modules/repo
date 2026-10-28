@@ -1,7 +1,7 @@
 {
   "modules": {
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "ac82130dd4aea0c97a672f3434dc24fc7ec75e48",
+      "contentCommit": "a3e824807637d3187ced0c1509e6bc8f92c0936f",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -10,8 +10,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-10-26T18:50:38.208Z",
-        "commit": "ac82130dd4aea0c97a672f3434dc24fc7ec75e48",
+        "checkedAt": "2026-10-28T06:10:23.973Z",
+        "commit": "a3e824807637d3187ced0c1509e6bc8f92c0936f",
         "issues": [],
         "latestTag": "v1.2.8",
         "ok": true,
@@ -393,8 +393,8 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-28T05:25:58.570Z",
-      "maxVersionCode": 126,
+      "lastSuccessAt": "2026-10-28T06:10:23.973Z",
+      "maxVersionCode": 127,
       "message": null,
       "repositoryId": 1196357682,
       "request": null,
