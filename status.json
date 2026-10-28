@@ -770,12 +770,12 @@
       "message": null,
       "repositoryId": 1436993054,
       "request": {
-        "checkedAt": "2026-10-28T13:41:43.878Z",
+        "checkedAt": "2026-10-28T13:42:53.552Z",
         "commit": "de299b541a479b72249a95d6aca63ae8f94bd4b9",
         "issues": [],
-        "latestTag": "v0.3.2-302",
+        "latestTag": "v0.3.3-303",
         "ok": true,
-        "releaseId": 426597280,
+        "releaseId": 426720391,
         "repositoryId": 1436993054,
         "submissionId": "vhlu3zc9ie"
       },
