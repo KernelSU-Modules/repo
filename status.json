@@ -1,7 +1,7 @@
 {
   "modules": {
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "a3e824807637d3187ced0c1509e6bc8f92c0936f",
+      "contentCommit": "78ad4b1d67dfb175b4e83b6e3e6ab794e59a996c",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -10,8 +10,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-10-28T06:10:23.973Z",
-        "commit": "a3e824807637d3187ced0c1509e6bc8f92c0936f",
+        "checkedAt": "2026-10-28T06:58:29.671Z",
+        "commit": "78ad4b1d67dfb175b4e83b6e3e6ab794e59a996c",
         "issues": [],
         "latestTag": "v1.2.8",
         "ok": true,
@@ -723,6 +723,27 @@
         "releaseId": 417646228,
         "repositoryId": 1425338410,
         "submissionId": "f8l84bsyot"
+      },
+      "stable": null
+    },
+    "shellscaled": {
+      "contentCommit": "98cd9bcdad8f0bfa44ab7f5a38e5cf62eb7a7ea2",
+      "fullName": "KyuubiRan/Shellscaled",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1435874117,
+      "request": {
+        "checkedAt": "2026-10-28T06:58:29.671Z",
+        "commit": "98cd9bcdad8f0bfa44ab7f5a38e5cf62eb7a7ea2",
+        "issues": [],
+        "latestTag": "v1.104.2-r12",
+        "ok": true,
+        "releaseId": 426346828,
+        "repositoryId": 1435874117,
+        "submissionId": "5q1gl3xrlk"
       },
       "stable": null
     },
