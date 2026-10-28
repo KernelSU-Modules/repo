@@ -316,6 +316,27 @@
         "versionCode": 100
       }
     },
+    "bypasscap": {
+      "contentCommit": "269777ddd27d9ce93d6912f4f77c7809527847aa",
+      "fullName": "9M2PJU/BypassCap",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1437404105,
+      "request": {
+        "checkedAt": "2026-10-28T17:28:56.419Z",
+        "commit": "269777ddd27d9ce93d6912f4f77c7809527847aa",
+        "issues": [],
+        "latestTag": "v1.5.2",
+        "ok": true,
+        "releaseId": 426978482,
+        "repositoryId": 1437404105,
+        "submissionId": "k5g517b2hp"
+      },
+      "stable": null
+    },
     "clipshield": {
       "contentCommit": "d8f93a074897019af9a91320864a00c59c55b0bc",
       "fullName": "klmmlk/KernelSU-ClipShield",
