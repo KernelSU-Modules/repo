@@ -515,21 +515,17 @@
       "fullName": "WayneShao/KernelSU-Tailscaled",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-10-28T06:35:45.116Z",
+      "maxVersionCode": 20000017,
       "message": null,
       "repositoryId": 1356946284,
-      "request": {
-        "checkedAt": "2026-10-23T08:52:54.400Z",
-        "commit": "f53ec850408fac799a91868652dbf8d2282703a6",
-        "issues": [],
-        "latestTag": "v2.0.5",
-        "ok": true,
-        "releaseId": 420496928,
-        "repositoryId": 1356946284,
-        "submissionId": "j83o6ztxqs"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-22T08:54:48Z",
+        "tag": "v2.0.5",
+        "version": "2.0.5",
+        "versionCode": 20000017
+      }
     },
     "ksuGrantToast": {
       "contentCommit": "4df7947b9581e11e5c43cf6ddfb3ca2fedf11fa3",

@@ -4810,6 +4810,153 @@
         "verified": "self"
       }
     },
+    "kernelsu-tailscaled": {
+      "content": {
+        "blobs": {
+          "README.md": "f3a5518de3622525c9bd0adfb73adf7ad9b1966b",
+          "module.yaml": "c32d64eed43ada963c6e5d70a5d491c6554e325c"
+        },
+        "commit": "f53ec850408fac799a91868652dbf8d2282703a6",
+        "fetchedAt": "2026-10-28T06:35:45.116Z",
+        "files": {
+          "README.md": "4ed4abcdbc0daa30edc6c91a2cbe2684333079fd6de5322e1b96ade74b8c460f",
+          "module.yaml": "3a7e3fb5ca66ba4a0ff33d435aacafe1ddce21e81dc3e2eec15cf023e521c041"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "WayneShao/KernelSU-Tailscaled",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-28T06:35:45.116Z",
+        "lastSuccessAt": "2026-10-28T06:35:45.116Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "kernelsu-tailscaled",
+      "installationId": 174416889,
+      "maxStableVersionCode": 20000017,
+      "maxVersionCode": 20000017,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:6f7d98def59f8ce7bd275bd33a36ba2c4ed5d3e69ccd8c8bb154efde82bf001e",
+            "id": 665250815,
+            "name": "KernelSU-Tailscaled-v2.0.5.zip",
+            "sha256": "6f7d98def59f8ce7bd275bd33a36ba2c4ed5d3e69ccd8c8bb154efde82bf001e",
+            "size": 73059236,
+            "url": "https://github.com/WayneShao/KernelSU-Tailscaled/releases/download/v2.0.5/KernelSU-Tailscaled-v2.0.5.zip"
+          },
+          "body": "# KernelSU-Tailscaled v2.0.5\n\nFix standalone Android control-plane connectivity and update the official\nTailscale engine directly from the module WebUI.\n\n## Android connectivity\n\n- Bundle official Tailscale 1.104.2, including upstream standalone Android DNS,\n  network monitoring, and CA support.\n- Native Android mode selects the official interface-binding implementation\n  (`TS_FORCE_LINUX_BIND_TO_DEVICE=true`). Control and UDP sockets no longer\n  depend on an absent main-table default route for marked traffic. No copied\n  default routes, hard-coded control hosts, or patched engine binaries.\n- Restrict login DNS diagnostics to actual login states; ordinary startup is\n  no longer treated as evidence of a fresh-login DNS failure.\n\n## Update the engine from WebUI\n\nOpen **Tailscale engine update** in the module dashboard, check for an official\nstable release, download and verify it, then explicitly apply it. Downloading\nalone leaves the running service untouched. Applying briefly restarts the\nmodule's service; it does not reboot Android or require signing in again.\n\n- ARM and ARM64 downloads use the official HTTPS stable server and published\n  SHA-256 checksum, with bounded downloads and restricted archive extraction.\n- Activation preserves identity and configuration, validates service recovery,\n  and restores the previous engine/state if activation fails.\n- Interrupted transactions recover on the next lifecycle operation. A later\n  stop or disable is respected; recovery does not silently override it.\n- Separately updated engines survive module updates and boot; a newer bundled\n  engine takes precedence. Downgrades are rejected by the normal updater.\n\n## Validation\n\n- Real Xiaomi test: temporarily ran 1.102.3, then checked, downloaded, verified,\n  and applied 1.104.2 using the same controller actions as WebUI. The running\n  executable changed to the downloaded engine; identity/configuration stayed\n  unchanged, and public peer connectivity recovered. Normal runtime restored.\n- OnePlus: updated engine retained across a module reinstall and authorized\n  reboot, with automatic service activation.\n- Automated coverage includes checksum/archive rejection, rollback, interrupted\n  activation, disabled/stopped intent, and browser check/download/apply flow.\n- See `docs/verification/2026-10-22-release-2.0.5.md` for evidence and limits.\n\nThe reporter's exact ROM and complete fresh-account browser authorization are\nnot yet verified. ARM32 packages are checked, but phone runtime testing is ARM64.\n\n## Install\n\nInstall the universal or architecture-specific ZIP through KernelSU Manager.\nExisting v2 identity and configuration are retained. Reopen Details after an\nupdate to load the new WebUI. The withdrawn beta.1 is not a supported release.\n",
+          "htmlUrl": "https://github.com/WayneShao/KernelSU-Tailscaled/releases/tag/v2.0.5",
+          "immutable": true,
+          "name": "KernelSU-Tailscaled v2.0.5",
+          "prerelease": false,
+          "prop": {
+            "author": "WayneShao; based on ryukora and ANASFANANI",
+            "description": "Independent Tailscale module with KernelSU WebUI, isolated state, and explicit migration.",
+            "id": "kernelsu-tailscaled",
+            "name": "KernelSU-Tailscaled",
+            "updateJson": "https://raw.githubusercontent.com/WayneShao/KernelSU-Tailscaled/main/update-kernelsu.json",
+            "version": "2.0.5",
+            "versionCode": "20000017"
+          },
+          "publishedAt": "2026-10-22T08:54:48Z",
+          "releaseId": 420496928,
+          "tag": "v2.0.5",
+          "tagCommit": "39c19cbd706498259e1ba9664531315ada777f4e",
+          "version": "2.0.5",
+          "versionCode": 20000017
+        }
+      ],
+      "repositoryId": 1356946284,
+      "seen": {
+        "383973086": {
+          "checkedAt": "2026-10-28T06:35:45.116Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "384404517": {
+          "checkedAt": "2026-10-28T06:35:45.116Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "386806821": {
+          "checkedAt": "2026-10-28T06:35:45.116Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "386825374": {
+          "checkedAt": "2026-10-28T06:35:45.116Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "386828034": {
+          "checkedAt": "2026-10-28T06:35:45.116Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "386842309": {
+          "checkedAt": "2026-10-28T06:35:45.116Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "420496928": {
+          "checkedAt": "2026-10-28T06:35:45.116Z",
+          "ok": true
+        },
+        "426211827": {
+          "checkedAt": "2026-10-28T06:35:45.116Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:6f7d98def59f8ce7bd275bd33a36ba2c4ed5d3e69ccd8c8bb154efde82bf001e",
+          "id": 665250815,
+          "name": "KernelSU-Tailscaled-v2.0.5.zip",
+          "sha256": "6f7d98def59f8ce7bd275bd33a36ba2c4ed5d3e69ccd8c8bb154efde82bf001e",
+          "size": 73059236,
+          "url": "https://github.com/WayneShao/KernelSU-Tailscaled/releases/download/v2.0.5/KernelSU-Tailscaled-v2.0.5.zip"
+        },
+        "body": "# KernelSU-Tailscaled v2.0.5\n\nFix standalone Android control-plane connectivity and update the official\nTailscale engine directly from the module WebUI.\n\n## Android connectivity\n\n- Bundle official Tailscale 1.104.2, including upstream standalone Android DNS,\n  network monitoring, and CA support.\n- Native Android mode selects the official interface-binding implementation\n  (`TS_FORCE_LINUX_BIND_TO_DEVICE=true`). Control and UDP sockets no longer\n  depend on an absent main-table default route for marked traffic. No copied\n  default routes, hard-coded control hosts, or patched engine binaries.\n- Restrict login DNS diagnostics to actual login states; ordinary startup is\n  no longer treated as evidence of a fresh-login DNS failure.\n\n## Update the engine from WebUI\n\nOpen **Tailscale engine update** in the module dashboard, check for an official\nstable release, download and verify it, then explicitly apply it. Downloading\nalone leaves the running service untouched. Applying briefly restarts the\nmodule's service; it does not reboot Android or require signing in again.\n\n- ARM and ARM64 downloads use the official HTTPS stable server and published\n  SHA-256 checksum, with bounded downloads and restricted archive extraction.\n- Activation preserves identity and configuration, validates service recovery,\n  and restores the previous engine/state if activation fails.\n- Interrupted transactions recover on the next lifecycle operation. A later\n  stop or disable is respected; recovery does not silently override it.\n- Separately updated engines survive module updates and boot; a newer bundled\n  engine takes precedence. Downgrades are rejected by the normal updater.\n\n## Validation\n\n- Real Xiaomi test: temporarily ran 1.102.3, then checked, downloaded, verified,\n  and applied 1.104.2 using the same controller actions as WebUI. The running\n  executable changed to the downloaded engine; identity/configuration stayed\n  unchanged, and public peer connectivity recovered. Normal runtime restored.\n- OnePlus: updated engine retained across a module reinstall and authorized\n  reboot, with automatic service activation.\n- Automated coverage includes checksum/archive rejection, rollback, interrupted\n  activation, disabled/stopped intent, and browser check/download/apply flow.\n- See `docs/verification/2026-10-22-release-2.0.5.md` for evidence and limits.\n\nThe reporter's exact ROM and complete fresh-account browser authorization are\nnot yet verified. ARM32 packages are checked, but phone runtime testing is ARM64.\n\n## Install\n\nInstall the universal or architecture-specific ZIP through KernelSU Manager.\nExisting v2 identity and configuration are retained. Reopen Details after an\nupdate to load the new WebUI. The withdrawn beta.1 is not a supported release.\n",
+        "htmlUrl": "https://github.com/WayneShao/KernelSU-Tailscaled/releases/tag/v2.0.5",
+        "immutable": true,
+        "name": "KernelSU-Tailscaled v2.0.5",
+        "prerelease": false,
+        "prop": {
+          "author": "WayneShao; based on ryukora and ANASFANANI",
+          "description": "Independent Tailscale module with KernelSU WebUI, isolated state, and explicit migration.",
+          "id": "kernelsu-tailscaled",
+          "name": "KernelSU-Tailscaled",
+          "updateJson": "https://raw.githubusercontent.com/WayneShao/KernelSU-Tailscaled/main/update-kernelsu.json",
+          "version": "2.0.5",
+          "versionCode": "20000017"
+        },
+        "publishedAt": "2026-10-22T08:54:48Z",
+        "releaseId": 420496928,
+        "tag": "v2.0.5",
+        "tagCommit": "39c19cbd706498259e1ba9664531315ada777f4e",
+        "version": "2.0.5",
+        "versionCode": 20000017
+      },
+      "stars": {
+        "count": 5,
+        "fetchedAt": "2026-10-28T06:35:45.116Z",
+        "fullName": "WayneShao/KernelSU-Tailscaled",
+        "repositoryId": 1356946284,
+        "verified": "self"
+      }
+    },
     "ksuGrantToast": {
       "content": {
         "blobs": {
