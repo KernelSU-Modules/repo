@@ -317,7 +317,7 @@
       }
     },
     "bypasscap": {
-      "contentCommit": "33c07b0844db12bb47ad21ffdc4196eacb0d7241",
+      "contentCommit": "247b3441912f86ffe2ad68873fdd725d3dfc87ae",
       "fullName": "9M2PJU/ChargeBypassCap",
       "health": "error",
       "installation": "present",
@@ -326,8 +326,8 @@
       "message": "manifest-id-mismatch: module.yaml id \"chargebypasscap\" differs from the registered id \"bypasscap\".",
       "repositoryId": 1437404105,
       "request": {
-        "checkedAt": "2026-10-28T17:33:54.292Z",
-        "commit": "33c07b0844db12bb47ad21ffdc4196eacb0d7241",
+        "checkedAt": "2026-10-28T17:43:25.634Z",
+        "commit": "247b3441912f86ffe2ad68873fdd725d3dfc87ae",
         "issues": [
           {
             "code": "manifest-id-mismatch",
