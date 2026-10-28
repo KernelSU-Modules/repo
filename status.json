@@ -760,6 +760,27 @@
         "versionCode": 33
       }
     },
+    "susdock": {
+      "contentCommit": "b072ac9e81ef9fbc7c6486d9048c08f0d168eaa1",
+      "fullName": "Nixie24/susdock",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1436993054,
+      "request": {
+        "checkedAt": "2026-10-28T12:51:29.957Z",
+        "commit": "b072ac9e81ef9fbc7c6486d9048c08f0d168eaa1",
+        "issues": [],
+        "latestTag": "v0.3.2-302",
+        "ok": true,
+        "releaseId": 426597280,
+        "repositoryId": 1436993054,
+        "submissionId": "vhlu3zc9ie"
+      },
+      "stable": null
+    },
     "susfs4ksu_lkm": {
       "contentCommit": "de3465b78c67173c70096afadb350b8765795ef4",
       "fullName": "Nixie24/susdock",
