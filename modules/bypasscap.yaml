@@ -1,0 +1,19 @@
+id: bypasscap
+status: pending
+request:
+  submissionId: k5g517b2hp
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1437404105
+    ownerId: 991353
+    fullName: 9M2PJU/BypassCap
+    manifestPath: module.yaml
+  submittedBy: 991353
+  submittedByLogin: 9M2PJU
+  submittedAt: 2026-10-28T17:28:29.980Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64603
+createdAt: 2026-10-28T17:28:29.980Z
+updatedAt: 2026-10-28T17:28:29.980Z
