@@ -761,7 +761,7 @@
       }
     },
     "susdock": {
-      "contentCommit": "de299b541a479b72249a95d6aca63ae8f94bd4b9",
+      "contentCommit": "7e7a9d02a7185ca612bb0d9379e055cf1849e522",
       "fullName": "Nixie24/susdock",
       "health": "ok",
       "installation": "present",
@@ -770,12 +770,12 @@
       "message": null,
       "repositoryId": 1436993054,
       "request": {
-        "checkedAt": "2026-10-28T13:42:53.552Z",
-        "commit": "de299b541a479b72249a95d6aca63ae8f94bd4b9",
+        "checkedAt": "2026-10-28T14:28:34.653Z",
+        "commit": "7e7a9d02a7185ca612bb0d9379e055cf1849e522",
         "issues": [],
-        "latestTag": "v0.3.3-303",
+        "latestTag": "v0.3.4-304",
         "ok": true,
-        "releaseId": 426720391,
+        "releaseId": 426774751,
         "repositoryId": 1436993054,
         "submissionId": "vhlu3zc9ie"
       },
