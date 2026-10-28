@@ -317,7 +317,7 @@
       }
     },
     "bypasscap": {
-      "contentCommit": "4e355d323d1346d15842dd25f7b2f7965b01e7fe",
+      "contentCommit": "a11d3e6c146b4ddd254ac6f6503a6008b48802fa",
       "fullName": "9M2PJU/ChargeBypassCap",
       "health": "error",
       "installation": "present",
@@ -326,8 +326,8 @@
       "message": "manifest-id-mismatch: module.yaml id \"chargebypasscap\" differs from the registered id \"bypasscap\".",
       "repositoryId": 1437404105,
       "request": {
-        "checkedAt": "2026-10-28T19:18:14.983Z",
-        "commit": "4e355d323d1346d15842dd25f7b2f7965b01e7fe",
+        "checkedAt": "2026-10-28T19:28:04.221Z",
+        "commit": "a11d3e6c146b4ddd254ac6f6503a6008b48802fa",
         "issues": [
           {
             "code": "manifest-id-mismatch",
@@ -340,16 +340,16 @@
             "severity": "error"
           }
         ],
-        "latestTag": "v1.7",
+        "latestTag": "v1.7.1",
         "ok": false,
-        "releaseId": 427090327,
+        "releaseId": 427099751,
         "repositoryId": 1437404105,
         "submissionId": "k5g517b2hp"
       },
       "stable": null
     },
     "chargebypasscap-pmi": {
-      "contentCommit": "e0e68120413d6a2c53541484231f691d0f06b8b5",
+      "contentCommit": "c182bce2a014af014370b68a03537ca9fa1e6aad",
       "fullName": "9M2PJU/ChargeBypassCap-PMI",
       "health": "ok",
       "installation": "present",
@@ -358,12 +358,12 @@
       "message": null,
       "repositoryId": 1437485405,
       "request": {
-        "checkedAt": "2026-10-28T19:18:14.983Z",
-        "commit": "e0e68120413d6a2c53541484231f691d0f06b8b5",
+        "checkedAt": "2026-10-28T19:28:04.221Z",
+        "commit": "c182bce2a014af014370b68a03537ca9fa1e6aad",
         "issues": [],
-        "latestTag": "v1.3",
+        "latestTag": "v1.3.1",
         "ok": true,
-        "releaseId": 427090382,
+        "releaseId": 427099805,
         "repositoryId": 1437485405,
         "submissionId": "r4ffa5id2t"
       },
