@@ -1,7 +1,7 @@
 {
   "modules": {
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "78ad4b1d67dfb175b4e83b6e3e6ab794e59a996c",
+      "contentCommit": "225a80443edb7d8058268978b8fbc68da9bb19f4",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -10,8 +10,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-10-28T06:58:29.671Z",
-        "commit": "78ad4b1d67dfb175b4e83b6e3e6ab794e59a996c",
+        "checkedAt": "2026-10-28T11:14:47.811Z",
+        "commit": "225a80443edb7d8058268978b8fbc68da9bb19f4",
         "issues": [],
         "latestTag": "v1.2.8",
         "ok": true,
@@ -147,11 +147,11 @@
     "MagicNet": {
       "contentCommit": "70d45f8080bca2f785379af12ff133a3d360f0bb",
       "fullName": "LIghtJUNction/MagicNet",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-10-24T03:45:27.265Z",
       "maxVersionCode": 10607,
-      "message": null,
+      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
       "repositoryId": 998453022,
       "request": null,
       "stable": {

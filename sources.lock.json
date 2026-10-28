@@ -1592,10 +1592,10 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-24T03:45:27.265Z",
+        "lastAttemptAt": "2026-10-28T11:14:47.811Z",
         "lastSuccessAt": "2026-10-24T03:45:27.265Z",
-        "message": null,
-        "status": "ok"
+        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
+        "status": "stale"
       },
       "id": "MagicNet",
       "installationId": 172483675,
@@ -1914,8 +1914,8 @@
         "versionCode": 10607
       },
       "stars": {
-        "count": 207,
-        "fetchedAt": "2026-10-27T12:31:36.512Z",
+        "count": 208,
+        "fetchedAt": "2026-10-28T11:14:47.811Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -3633,8 +3633,8 @@
         "versionCode": 20260926
       },
       "stars": {
-        "count": 850,
-        "fetchedAt": "2026-10-26T15:43:05.453Z",
+        "count": 851,
+        "fetchedAt": "2026-10-28T11:14:47.811Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
