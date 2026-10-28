@@ -1,0 +1,19 @@
+id: shellscaled
+status: pending
+request:
+  submissionId: 5q1gl3xrlk
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1435874117
+    ownerId: 45789471
+    fullName: KyuubiRan/Shellscaled
+    manifestPath: module.yaml
+  submittedBy: 45789471
+  submittedByLogin: KyuubiRan
+  submittedAt: 2026-10-28T06:58:04.939Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64593
+createdAt: 2026-10-28T06:58:04.939Z
+updatedAt: 2026-10-28T06:58:04.939Z
