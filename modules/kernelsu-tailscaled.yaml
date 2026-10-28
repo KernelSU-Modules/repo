@@ -1,19 +1,23 @@
 id: kernelsu-tailscaled
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1356946284
+  ownerId: 13160811
+  fullName: WayneShao/KernelSU-Tailscaled
+  manifestPath: module.yaml
+review:
   submissionId: j83o6ztxqs
   kind: submit
-  source:
-    host: github
-    repositoryId: 1356946284
-    ownerId: 13160811
-    fullName: WayneShao/KernelSU-Tailscaled
-    manifestPath: module.yaml
   submittedBy: 13160811
-  submittedByLogin: WayneShao
   submittedAt: 2026-10-23T08:52:28.644Z
+  decision: approved
+  decidedBy: 52071314
+  decidedVia: telegram
+  decidedAt: 2026-10-28T06:35:15.709Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64576
 createdAt: 2026-10-23T08:52:28.644Z
-updatedAt: 2026-10-23T08:52:28.644Z
+updatedAt: 2026-10-28T06:35:15.709Z
