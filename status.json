@@ -150,15 +150,15 @@
       "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-10-24T03:45:27.265Z",
-      "maxVersionCode": 10607,
+      "maxVersionCode": 10608,
       "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
       "repositoryId": 998453022,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-24T03:45:11Z",
-        "tag": "v1.7.2",
-        "version": "v1.7.2",
-        "versionCode": 10607
+        "publishedAt": "2026-10-28T12:07:01Z",
+        "tag": "v1.8.0",
+        "version": "v1.8.0",
+        "versionCode": 10608
       }
     },
     "Mediatek_Mali_GPU_Governor": {

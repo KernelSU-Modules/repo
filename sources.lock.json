@@ -1592,17 +1592,47 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-28T11:14:47.811Z",
+        "lastAttemptAt": "2026-10-28T12:07:23.647Z",
         "lastSuccessAt": "2026-10-24T03:45:27.265Z",
         "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
         "status": "stale"
       },
       "id": "MagicNet",
       "installationId": 172483675,
-      "maxStableVersionCode": 10607,
-      "maxVersionCode": 10607,
+      "maxStableVersionCode": 10608,
+      "maxVersionCode": 10608,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:99bc8f1a6c7a163224242ff3f2b0626f1153f43e88fc754cc0837466ac647bcb",
+            "id": 684862345,
+            "name": "MagicNet-full.zip",
+            "sha256": "99bc8f1a6c7a163224242ff3f2b0626f1153f43e88fc754cc0837466ac647bcb",
+            "size": 65241348,
+            "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.0/MagicNet-full.zip"
+          },
+          "body": "# MagicNet v1.8.0\n\n本版按照当前 Recipkg 配方修正软件，在原有 Rust、Shell、Vue 实现上继续开发。\n\n- 节点与代理组页新增应用、域名和自定义组/出口编辑，草稿先预览，再保存并应用。\n- 自定义项通过有归属的增量层生成，保留订阅和系统管理项；订阅更新重新生成时保留自定义项，撤销时保留订阅新增项。发生名称碰撞、组循环或外部冲突时拒绝覆盖。\n- 应用选择可读取 Android 主用户的应用名称，支持名称和包名搜索。清单与凭据不进入通用操作输出。\n- WebUI 改为矿白、石墨与玉绿配色，保留 14 个页面、原有操作流程、中英俄切换与浅深色主题。\n- 包含此前合并的代理组兼容、订阅应用锁、安装与配置恢复修正。\n\n## 安装与更新\n\nAndroid arm64 root 模块。完整包 `MagicNet-full.zip` 适合离线安装；轻量安装包 `magicnet_installer.zip` 通过已发布的组件清单获取组件。安装前保留自己的配置，更新后按管理器提示重启。下载后可用同一发布页的 `SHA256SUMS` 核对完整性；这不是私钥签名。\n\n默认透明代理仍为 `tun`（`magicnet0`），仅支持显式切换 `tun|ebpf`。eBPF 仍受设备内核能力限制。\n\n## 验证范围\n\n发布前执行本地 Rust、WebUI、浏览器、Android 构建及安装包检查；具体结果记录在配方的验证记录中。浏览器的模拟设备任务和安装夹具不等于真实网络验收。多厂商 Play/GMS、热点双栈、Tailnet 连通性及长期性能场景仍需各自的真实设备证据。\n\n本地验证：Rust 808 passed / 1 ignored，前端 338 项，全套浏览器 747 passed / 3 skipped；字体统一后的布局复查 244 passed / 2 skipped。安装升级、模拟 Magisk 生命周期、9 个组件和最终安装器检查通过。实际 Android 安装与联网尚未验收。\n\n配方归档 `magicnet-0.2.0.recipe.tar.gz` 和完整构建提示词 `magicnet-0.2.0-build.md` 随本版提供。源码固定在本仓库 v1.8.0 标签，main 继续维护配方；重建方法见 [README](https://github.com/LIghtJUNction/MagicNet#重建指南)。\n",
+          "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.0",
+          "immutable": true,
+          "name": "MagicNet v1.8.0",
+          "prerelease": false,
+          "prop": {
+            "author": "LIghtJUNction",
+            "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
+            "id": "MagicNet",
+            "name": "MagicNet",
+            "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
+            "version": "v1.8.0",
+            "versionCode": "10608"
+          },
+          "publishedAt": "2026-10-28T12:07:01Z",
+          "releaseId": 426612805,
+          "tag": "v1.8.0",
+          "tagCommit": "f13ca61b9c3477aee3b1380d71815c84b3a2a6bf",
+          "version": "v1.8.0",
+          "versionCode": 10608
+        },
         {
           "asset": {
             "digest": "sha256:abe641acb18b5b318d66dc9a3b5c31ea4283f4623760e0da34109403a6705949",
@@ -1881,21 +1911,25 @@
         "422497374": {
           "checkedAt": "2026-10-24T03:45:27.265Z",
           "ok": true
+        },
+        "426612805": {
+          "checkedAt": "2026-10-28T12:07:23.647Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:abe641acb18b5b318d66dc9a3b5c31ea4283f4623760e0da34109403a6705949",
-          "id": 671181749,
+          "digest": "sha256:99bc8f1a6c7a163224242ff3f2b0626f1153f43e88fc754cc0837466ac647bcb",
+          "id": 684862345,
           "name": "MagicNet-full.zip",
-          "sha256": "abe641acb18b5b318d66dc9a3b5c31ea4283f4623760e0da34109403a6705949",
-          "size": 65316432,
-          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.2/MagicNet-full.zip"
+          "sha256": "99bc8f1a6c7a163224242ff3f2b0626f1153f43e88fc754cc0837466ac647bcb",
+          "size": 65241348,
+          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.0/MagicNet-full.zip"
         },
-        "body": "安装器下载：https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.2/magicnet_installer.zip\n\n\n\n## What's Changed\n* fix: harden runtime ownership, recovery, and audit coverage by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/401\n* fix(runtime): preserve recovery evidence and isolate status reads by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/402\n* fix(recovery): reject incomplete journals and preserve download candidates by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/403\n* fix(mcp): refuse human wifi/sub status and SSID list reads by @cursor[bot] in https://github.com/LIghtJUNction/MagicNet/pull/405\n* fix(release): prepare version bumps through pull requests by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/404\n* chore(release): prepare v1.7.2 by @github-actions[bot] in https://github.com/LIghtJUNction/MagicNet/pull/406\n\n\n**Full Changelog**: https://github.com/LIghtJUNction/MagicNet/compare/v1.7.0...v1.7.2",
-        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.7.2",
+        "body": "# MagicNet v1.8.0\n\n本版按照当前 Recipkg 配方修正软件，在原有 Rust、Shell、Vue 实现上继续开发。\n\n- 节点与代理组页新增应用、域名和自定义组/出口编辑，草稿先预览，再保存并应用。\n- 自定义项通过有归属的增量层生成，保留订阅和系统管理项；订阅更新重新生成时保留自定义项，撤销时保留订阅新增项。发生名称碰撞、组循环或外部冲突时拒绝覆盖。\n- 应用选择可读取 Android 主用户的应用名称，支持名称和包名搜索。清单与凭据不进入通用操作输出。\n- WebUI 改为矿白、石墨与玉绿配色，保留 14 个页面、原有操作流程、中英俄切换与浅深色主题。\n- 包含此前合并的代理组兼容、订阅应用锁、安装与配置恢复修正。\n\n## 安装与更新\n\nAndroid arm64 root 模块。完整包 `MagicNet-full.zip` 适合离线安装；轻量安装包 `magicnet_installer.zip` 通过已发布的组件清单获取组件。安装前保留自己的配置，更新后按管理器提示重启。下载后可用同一发布页的 `SHA256SUMS` 核对完整性；这不是私钥签名。\n\n默认透明代理仍为 `tun`（`magicnet0`），仅支持显式切换 `tun|ebpf`。eBPF 仍受设备内核能力限制。\n\n## 验证范围\n\n发布前执行本地 Rust、WebUI、浏览器、Android 构建及安装包检查；具体结果记录在配方的验证记录中。浏览器的模拟设备任务和安装夹具不等于真实网络验收。多厂商 Play/GMS、热点双栈、Tailnet 连通性及长期性能场景仍需各自的真实设备证据。\n\n本地验证：Rust 808 passed / 1 ignored，前端 338 项，全套浏览器 747 passed / 3 skipped；字体统一后的布局复查 244 passed / 2 skipped。安装升级、模拟 Magisk 生命周期、9 个组件和最终安装器检查通过。实际 Android 安装与联网尚未验收。\n\n配方归档 `magicnet-0.2.0.recipe.tar.gz` 和完整构建提示词 `magicnet-0.2.0-build.md` 随本版提供。源码固定在本仓库 v1.8.0 标签，main 继续维护配方；重建方法见 [README](https://github.com/LIghtJUNction/MagicNet#重建指南)。\n",
+        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.0",
         "immutable": true,
-        "name": "MagicNet-10607-v1.7.2",
+        "name": "MagicNet v1.8.0",
         "prerelease": false,
         "prop": {
           "author": "LIghtJUNction",
@@ -1903,15 +1937,15 @@
           "id": "MagicNet",
           "name": "MagicNet",
           "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
-          "version": "v1.7.2",
-          "versionCode": "10607"
+          "version": "v1.8.0",
+          "versionCode": "10608"
         },
-        "publishedAt": "2026-10-24T03:45:11Z",
-        "releaseId": 422497374,
-        "tag": "v1.7.2",
-        "tagCommit": "399890d27a8c936545cc0010b1a1d8c3a3ebf406",
-        "version": "v1.7.2",
-        "versionCode": 10607
+        "publishedAt": "2026-10-28T12:07:01Z",
+        "releaseId": 426612805,
+        "tag": "v1.8.0",
+        "tagCommit": "f13ca61b9c3477aee3b1380d71815c84b3a2a6bf",
+        "version": "v1.8.0",
+        "versionCode": 10608
       },
       "stars": {
         "count": 208,
