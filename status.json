@@ -317,7 +317,7 @@
       }
     },
     "bypasscap": {
-      "contentCommit": "269777ddd27d9ce93d6912f4f77c7809527847aa",
+      "contentCommit": "d9e49569b8f45683411deff2934c0dfef17a2c3a",
       "fullName": "9M2PJU/BypassCap",
       "health": "ok",
       "installation": "present",
@@ -326,12 +326,12 @@
       "message": null,
       "repositoryId": 1437404105,
       "request": {
-        "checkedAt": "2026-10-28T17:28:56.419Z",
-        "commit": "269777ddd27d9ce93d6912f4f77c7809527847aa",
+        "checkedAt": "2026-10-28T17:31:10.145Z",
+        "commit": "d9e49569b8f45683411deff2934c0dfef17a2c3a",
         "issues": [],
-        "latestTag": "v1.5.2",
+        "latestTag": "v1.5.3",
         "ok": true,
-        "releaseId": 426978482,
+        "releaseId": 426981193,
         "repositoryId": 1437404105,
         "submissionId": "k5g517b2hp"
       },
