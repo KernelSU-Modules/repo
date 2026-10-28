@@ -3644,13 +3644,13 @@
     "duck-toolbox": {
       "content": {
         "blobs": {
-          "README.md": "632c41194014f3f6ca18ae7a454a0619081d25af",
+          "README.md": "f2a952c30664dc57f6279dbd36710b51964ff7a1",
           "module.yaml": "895e6462e2734743a77d85ad998c0fbb73ce828d"
         },
-        "commit": "d7afca679d9c8e1bc30c7fd3e16829ac86d0499e",
-        "fetchedAt": "2026-10-26T17:10:02.521Z",
+        "commit": "bfe238fe9ccf76bf92a4b9e7503f630b5fe51561",
+        "fetchedAt": "2026-10-28T05:25:58.570Z",
         "files": {
-          "README.md": "eecac326f9e62e9a4949d4703746a69a97974f4141b8536baba277d55cda940b",
+          "README.md": "5e7d3944a50e2703a6fa498b13cbcb2a49f559922e6dbb833c12302f6cd1d698",
           "module.yaml": "11c9f688d565ba2b7310a01599ce6d0535f217781bf03d2ac022bf8e3d422e21"
         },
         "manifestPath": "module.yaml",
@@ -3659,28 +3659,28 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-26T17:25:26.024Z",
-        "lastSuccessAt": "2026-10-26T17:25:26.024Z",
+        "lastAttemptAt": "2026-10-28T05:25:58.570Z",
+        "lastSuccessAt": "2026-10-28T05:25:58.570Z",
         "message": null,
         "status": "ok"
       },
       "id": "duck-toolbox",
       "installationId": 170179902,
       "maxStableVersionCode": 119,
-      "maxVersionCode": 124,
+      "maxVersionCode": 126,
       "prerelease": {
         "asset": {
-          "digest": "sha256:f205f12f4e30f5c3dd3a026abb4aa9ba42490d81cdddc2d34e28b8434472a19e",
-          "id": 678902933,
-          "name": "duck-toolbox-0.2.1-Stable-124-canary.zip",
-          "sha256": "f205f12f4e30f5c3dd3a026abb4aa9ba42490d81cdddc2d34e28b8434472a19e",
-          "size": 8335646,
-          "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-2d2ae3fe-20261026T172456614309Z/duck-toolbox-0.2.1-Stable-124-canary.zip"
+          "digest": "sha256:43d2d30eb114dab60259fd28b9ee53c1c35c16b54f97aec8bde04647ff784181",
+          "id": 683936243,
+          "name": "duck-toolbox-0.2.1-Stable-126-canary.zip",
+          "sha256": "43d2d30eb114dab60259fd28b9ee53c1c35c16b54f97aec8bde04647ff784181",
+          "size": 8487412,
+          "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-bfe238fe-20261028T052533233088Z/duck-toolbox-0.2.1-Stable-126-canary.zip"
         },
-        "body": "Canary module built from commit 2d2ae3fe3697c13974e064d3831e25a1da553cf2.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/40367764742\n\nGPLv3 Play Integrity corresponding source (build commit): https://github.com/eltavine/Duck-ToolBox/tree/2d2ae3fe3697c13974e064d3831e25a1da553cf2/components/play-integrity\n",
-        "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-2d2ae3fe-20261026T172456614309Z",
+        "body": "Canary module built from commit bfe238fe9ccf76bf92a4b9e7503f630b5fe51561.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/40637533612\n\nGPLv3 Play Integrity corresponding source (build commit): https://github.com/eltavine/Duck-ToolBox/tree/bfe238fe9ccf76bf92a4b9e7503f630b5fe51561/components/play-integrity\n",
+        "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-bfe238fe-20261028T052533233088Z",
         "immutable": true,
-        "name": "nightly-2d2ae3fe-20261026T172456614309Z",
+        "name": "nightly-bfe238fe-20261028T052533233088Z",
         "prerelease": true,
         "prop": {
           "author": "Eltavine & KOW & MhmRdd",
@@ -3688,17 +3688,47 @@
           "id": "duck-toolbox",
           "name": "Duck ToolBox",
           "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
-          "version": "0.2.1-Stable (124-canary)",
-          "versionCode": "124"
+          "version": "0.2.1-Stable (126-canary)",
+          "versionCode": "126"
         },
-        "publishedAt": "2026-10-26T17:24:59Z",
-        "releaseId": 424552470,
-        "tag": "nightly-2d2ae3fe-20261026T172456614309Z",
-        "tagCommit": "2d2ae3fe3697c13974e064d3831e25a1da553cf2",
-        "version": "0.2.1-Stable (124-canary)",
-        "versionCode": 124
+        "publishedAt": "2026-10-28T05:25:36Z",
+        "releaseId": 426291834,
+        "tag": "nightly-bfe238fe-20261028T052533233088Z",
+        "tagCommit": "bfe238fe9ccf76bf92a4b9e7503f630b5fe51561",
+        "version": "0.2.1-Stable (126-canary)",
+        "versionCode": 126
       },
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:43d2d30eb114dab60259fd28b9ee53c1c35c16b54f97aec8bde04647ff784181",
+            "id": 683936243,
+            "name": "duck-toolbox-0.2.1-Stable-126-canary.zip",
+            "sha256": "43d2d30eb114dab60259fd28b9ee53c1c35c16b54f97aec8bde04647ff784181",
+            "size": 8487412,
+            "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-bfe238fe-20261028T052533233088Z/duck-toolbox-0.2.1-Stable-126-canary.zip"
+          },
+          "body": "Canary module built from commit bfe238fe9ccf76bf92a4b9e7503f630b5fe51561.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/40637533612\n\nGPLv3 Play Integrity corresponding source (build commit): https://github.com/eltavine/Duck-ToolBox/tree/bfe238fe9ccf76bf92a4b9e7503f630b5fe51561/components/play-integrity\n",
+          "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-bfe238fe-20261028T052533233088Z",
+          "immutable": true,
+          "name": "nightly-bfe238fe-20261028T052533233088Z",
+          "prerelease": true,
+          "prop": {
+            "author": "Eltavine & KOW & MhmRdd",
+            "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and device ID provisioning (Qualcomm / MediaTek TrustKernel), in one WebUI.",
+            "id": "duck-toolbox",
+            "name": "Duck ToolBox",
+            "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
+            "version": "0.2.1-Stable (126-canary)",
+            "versionCode": "126"
+          },
+          "publishedAt": "2026-10-28T05:25:36Z",
+          "releaseId": 426291834,
+          "tag": "nightly-bfe238fe-20261028T052533233088Z",
+          "tagCommit": "bfe238fe9ccf76bf92a4b9e7503f630b5fe51561",
+          "version": "0.2.1-Stable (126-canary)",
+          "versionCode": 126
+        },
         {
           "asset": {
             "digest": "sha256:f205f12f4e30f5c3dd3a026abb4aa9ba42490d81cdddc2d34e28b8434472a19e",
@@ -3968,36 +3998,6 @@
           "tagCommit": "fbbb035f1e8ae1e2f418a0d2c0fd822447ed72eb",
           "version": "0.1.8-stable (112-canary)",
           "versionCode": 112
-        },
-        {
-          "asset": {
-            "digest": "sha256:5d426d2969e88eb0fd7e34bc49160cfd4e782028d1bb301ce8c816172a7915b3",
-            "id": 672088970,
-            "name": "duck-toolbox-0.1.8-stable-111-canary.zip",
-            "sha256": "5d426d2969e88eb0fd7e34bc49160cfd4e782028d1bb301ce8c816172a7915b3",
-            "size": 8033187,
-            "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-82142a50-20261024T112700409071Z/duck-toolbox-0.1.8-stable-111-canary.zip"
-          },
-          "body": "Canary module built from commit 82142a50f3a0aacfb8302edd8237ea27b853f099.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/40089696040\n\nGPLv3 Play Integrity corresponding source (build commit): https://github.com/eltavine/Duck-ToolBox/tree/82142a50f3a0aacfb8302edd8237ea27b853f099/components/play-integrity\n",
-          "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-82142a50-20261024T112700409071Z",
-          "immutable": true,
-          "name": "nightly-82142a50-20261024T112700409071Z",
-          "prerelease": true,
-          "prop": {
-            "author": "Eltavine & KOW & MhmRdd",
-            "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and device ID provisioning (Qualcomm / MediaTek TrustKernel), in one WebUI.",
-            "id": "duck-toolbox",
-            "name": "Duck ToolBox",
-            "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
-            "version": "0.1.8-stable (111-canary)",
-            "versionCode": "111"
-          },
-          "publishedAt": "2026-10-24T11:27:03Z",
-          "releaseId": 422689817,
-          "tag": "nightly-82142a50-20261024T112700409071Z",
-          "tagCommit": "82142a50f3a0aacfb8302edd8237ea27b853f099",
-          "version": "0.1.8-stable (111-canary)",
-          "versionCode": 111
         }
       ],
       "repositoryId": 1196357682,
@@ -4169,6 +4169,10 @@
         "424552470": {
           "checkedAt": "2026-10-26T17:25:26.024Z",
           "ok": true
+        },
+        "426291834": {
+          "checkedAt": "2026-10-28T05:25:58.570Z",
+          "ok": true
         }
       },
       "stable": {
@@ -4202,8 +4206,8 @@
         "versionCode": 119
       },
       "stars": {
-        "count": 367,
-        "fetchedAt": "2026-10-27T17:42:26.082Z",
+        "count": 368,
+        "fetchedAt": "2026-10-28T05:25:58.570Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -5901,8 +5905,8 @@
         "versionCode": 1090
       },
       "stars": {
-        "count": 1299,
-        "fetchedAt": "2026-10-27T04:48:02.441Z",
+        "count": 1304,
+        "fetchedAt": "2026-10-28T05:25:58.570Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -6083,13 +6087,13 @@
     "oh_my_keymint": {
       "content": {
         "blobs": {
-          "README.md": "f2bd759751afa857a3fd02bff09d59cbd0d521e6",
+          "README.md": "5cfaaf521baf728910d05cb5ec79fe5632a3d862",
           "module.yaml": "a8bd33a5d30a38bfd5d7acb3f1a439d33b3886ca"
         },
-        "commit": "b12557c1569ed15150acd7886c825de500fc9ee9",
-        "fetchedAt": "2026-10-19T01:27:21.391Z",
+        "commit": "d43cb017041971e207778efadc19d509fa5a32cc",
+        "fetchedAt": "2026-10-28T05:25:58.570Z",
         "files": {
-          "README.md": "2be44275d73a2c94d512e7c70582dfeeeda7c71ea689332a3bc7cd7f469aae36",
+          "README.md": "af65258e7810bd10c071ab770b84f06b7daf9290ce9258babce3e5b75ed028b1",
           "module.yaml": "2244bb3fe5d6ccba573897bf9b7e4ba8d5519daed68577bcc886873e22101e1f"
         },
         "manifestPath": "module.yaml",
@@ -6098,8 +6102,8 @@
       "fullName": "qwq233/OhMyKeymint",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-19T01:27:21.391Z",
-        "lastSuccessAt": "2026-10-19T01:27:21.391Z",
+        "lastAttemptAt": "2026-10-28T05:25:58.570Z",
+        "lastSuccessAt": "2026-10-28T05:25:58.570Z",
         "message": null,
         "status": "ok"
       },
@@ -6214,8 +6218,8 @@
         "versionCode": 155
       },
       "stars": {
-        "count": 570,
-        "fetchedAt": "2026-10-27T12:31:36.512Z",
+        "count": 574,
+        "fetchedAt": "2026-10-28T05:25:58.570Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
