@@ -150,15 +150,15 @@
       "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-10-24T03:45:27.265Z",
-      "maxVersionCode": 10608,
+      "maxVersionCode": 10609,
       "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
       "repositoryId": 998453022,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-28T12:07:01Z",
-        "tag": "v1.8.0",
-        "version": "v1.8.0",
-        "versionCode": 10608
+        "publishedAt": "2026-10-29T14:21:41Z",
+        "tag": "v1.8.1",
+        "version": "v1.8.1",
+        "versionCode": 10609
       }
     },
     "Mediatek_Mali_GPU_Governor": {
@@ -847,7 +847,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "a8c5d7e82ba735c93e4b5ea09bb46947bca2dc29",
+      "contentCommit": "2517cae8695eac0a294d555718cf280d1d43c8c0",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -856,8 +856,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-10-29T12:22:21.636Z",
-        "commit": "a8c5d7e82ba735c93e4b5ea09bb46947bca2dc29",
+        "checkedAt": "2026-10-29T14:22:04.526Z",
+        "commit": "2517cae8695eac0a294d555718cf280d1d43c8c0",
         "issues": [],
         "latestTag": "v2.3.0-r18.5",
         "ok": true,

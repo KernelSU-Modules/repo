@@ -643,8 +643,8 @@
         "versionCode": 761
       },
       "stars": {
-        "count": 416,
-        "fetchedAt": "2026-10-28T12:51:29.957Z",
+        "count": 417,
+        "fetchedAt": "2026-10-29T14:22:04.526Z",
         "fullName": "AlirezaParsi/COPG",
         "repositoryId": 950100740,
         "verified": "self"
@@ -1604,17 +1604,47 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-28T12:07:23.647Z",
+        "lastAttemptAt": "2026-10-29T14:22:04.526Z",
         "lastSuccessAt": "2026-10-24T03:45:27.265Z",
         "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
         "status": "stale"
       },
       "id": "MagicNet",
       "installationId": 172483675,
-      "maxStableVersionCode": 10608,
-      "maxVersionCode": 10608,
+      "maxStableVersionCode": 10609,
+      "maxVersionCode": 10609,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:2bc8ac9acdfe8b2bc7c18db3e05ba38d849059c0fcdac45cbe0ab92d778a4740",
+            "id": 688480227,
+            "name": "MagicNet-full.zip",
+            "sha256": "2bc8ac9acdfe8b2bc7c18db3e05ba38d849059c0fcdac45cbe0ab92d778a4740",
+            "size": 65389729,
+            "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.1/MagicNet-full.zip"
+          },
+          "body": "# MagicNet v1.8.1\n\n本补丁版继续维护现有 Android root / arm64 实现，集中修正订阅处理，并恢复迁移后的正式构建发布入口。\n\n- 多来源订阅聚合保留来自不同来源的同名节点，调整来源身份、节点与代理组引用的处理，减少重名导致的覆盖或聚合失败。\n- 统一订阅 URL 的识别和去重：移除不参与请求的片段，保留路径、查询参数和百分号编码的请求含义；前端预览与设备侧保存使用一致规则。\n- 调整订阅获取、缓存、配置重建和错误传播，保留节点中的协议字段；修正相关预览、用量显示和自定义分流兼容处理。\n- 正式发行继续放在 MagicNet 仓库。构建、质量检查和 Android/KernelSU 模拟器验收使用同一固定源码提交；附件先上传草稿，核对清单及 SHA-256 后再公开。\n\n## 安装与更新\n\n`magicnet_installer.zip`、`MagicNet.zip` 和 `MagicNet-core.zip` 是同一核心包的兼容下载名，模块 ID 均为 MagicNet。`MagicNet-full.zip` 包含离线组件，适合首次安装或网络不便时使用。组件 ZIP 不作为独立模块安装。\n\n更新会保留用户配置和订阅；完成后按管理器提示重启。下载后可用同页的 `SHA256SUMS` 校验完整性，校验和不是独立公钥签名。\n\n默认仍为 `tun` / `magicnet0`，只允许显式选择 `tun|ebpf`。eBPF 可用性取决于设备内核及 cgroup/TC 能力。\n\n## 验证范围与已知限制\n\n正式发行由关联 Actions 的模块、安装迁移、组件、完整质量检查及 Android/KernelSU 模拟器门槛共同放行。模拟器和合成测试不代表 arm64 真机、真实订阅服务、加密服务器互通、多厂商网络或长期运行已经验收。\n\n本版不宣称已确认 Issue #426 的现场根因，也不把工作流通过视为全部多来源订阅场景或独立重建合同均已完成。遇到订阅问题时，请提供脱敏后的来源数量、失败阶段及诊断状态，勿提交订阅 URL 或密钥。\n\nRecipe commit: b762b8c54b99c7561914d3a02c3a635636ae6837\nImplementation commit: a5617d6371fe17494fb4b4a6f655a0c8a0f7461e\n",
+          "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.1",
+          "immutable": true,
+          "name": "MagicNet-10609-v1.8.1",
+          "prerelease": false,
+          "prop": {
+            "author": "LIghtJUNction",
+            "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
+            "id": "MagicNet",
+            "name": "MagicNet",
+            "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
+            "version": "v1.8.1",
+            "versionCode": "10609"
+          },
+          "publishedAt": "2026-10-29T14:21:41Z",
+          "releaseId": 427831362,
+          "tag": "v1.8.1",
+          "tagCommit": "b762b8c54b99c7561914d3a02c3a635636ae6837",
+          "version": "v1.8.1",
+          "versionCode": 10609
+        },
         {
           "asset": {
             "digest": "sha256:99bc8f1a6c7a163224242ff3f2b0626f1153f43e88fc754cc0837466ac647bcb",
@@ -1927,21 +1957,25 @@
         "426612805": {
           "checkedAt": "2026-10-28T12:07:23.647Z",
           "ok": true
+        },
+        "427831362": {
+          "checkedAt": "2026-10-29T14:22:04.526Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:99bc8f1a6c7a163224242ff3f2b0626f1153f43e88fc754cc0837466ac647bcb",
-          "id": 684862345,
+          "digest": "sha256:2bc8ac9acdfe8b2bc7c18db3e05ba38d849059c0fcdac45cbe0ab92d778a4740",
+          "id": 688480227,
           "name": "MagicNet-full.zip",
-          "sha256": "99bc8f1a6c7a163224242ff3f2b0626f1153f43e88fc754cc0837466ac647bcb",
-          "size": 65241348,
-          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.0/MagicNet-full.zip"
+          "sha256": "2bc8ac9acdfe8b2bc7c18db3e05ba38d849059c0fcdac45cbe0ab92d778a4740",
+          "size": 65389729,
+          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.1/MagicNet-full.zip"
         },
-        "body": "# MagicNet v1.8.0\n\n本版按照当前 Recipkg 配方修正软件，在原有 Rust、Shell、Vue 实现上继续开发。\n\n- 节点与代理组页新增应用、域名和自定义组/出口编辑，草稿先预览，再保存并应用。\n- 自定义项通过有归属的增量层生成，保留订阅和系统管理项；订阅更新重新生成时保留自定义项，撤销时保留订阅新增项。发生名称碰撞、组循环或外部冲突时拒绝覆盖。\n- 应用选择可读取 Android 主用户的应用名称，支持名称和包名搜索。清单与凭据不进入通用操作输出。\n- WebUI 改为矿白、石墨与玉绿配色，保留 14 个页面、原有操作流程、中英俄切换与浅深色主题。\n- 包含此前合并的代理组兼容、订阅应用锁、安装与配置恢复修正。\n\n## 安装与更新\n\nAndroid arm64 root 模块。完整包 `MagicNet-full.zip` 适合离线安装；轻量安装包 `magicnet_installer.zip` 通过已发布的组件清单获取组件。安装前保留自己的配置，更新后按管理器提示重启。下载后可用同一发布页的 `SHA256SUMS` 核对完整性；这不是私钥签名。\n\n默认透明代理仍为 `tun`（`magicnet0`），仅支持显式切换 `tun|ebpf`。eBPF 仍受设备内核能力限制。\n\n## 验证范围\n\n发布前执行本地 Rust、WebUI、浏览器、Android 构建及安装包检查；具体结果记录在配方的验证记录中。浏览器的模拟设备任务和安装夹具不等于真实网络验收。多厂商 Play/GMS、热点双栈、Tailnet 连通性及长期性能场景仍需各自的真实设备证据。\n\n本地验证：Rust 808 passed / 1 ignored，前端 338 项，全套浏览器 747 passed / 3 skipped；字体统一后的布局复查 244 passed / 2 skipped。安装升级、模拟 Magisk 生命周期、9 个组件和最终安装器检查通过。实际 Android 安装与联网尚未验收。\n\n配方归档 `magicnet-0.2.0.recipe.tar.gz` 和完整构建提示词 `magicnet-0.2.0-build.md` 随本版提供。源码固定在本仓库 v1.8.0 标签，main 继续维护配方；重建方法见 [README](https://github.com/LIghtJUNction/MagicNet#重建指南)。\n",
-        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.0",
+        "body": "# MagicNet v1.8.1\n\n本补丁版继续维护现有 Android root / arm64 实现，集中修正订阅处理，并恢复迁移后的正式构建发布入口。\n\n- 多来源订阅聚合保留来自不同来源的同名节点，调整来源身份、节点与代理组引用的处理，减少重名导致的覆盖或聚合失败。\n- 统一订阅 URL 的识别和去重：移除不参与请求的片段，保留路径、查询参数和百分号编码的请求含义；前端预览与设备侧保存使用一致规则。\n- 调整订阅获取、缓存、配置重建和错误传播，保留节点中的协议字段；修正相关预览、用量显示和自定义分流兼容处理。\n- 正式发行继续放在 MagicNet 仓库。构建、质量检查和 Android/KernelSU 模拟器验收使用同一固定源码提交；附件先上传草稿，核对清单及 SHA-256 后再公开。\n\n## 安装与更新\n\n`magicnet_installer.zip`、`MagicNet.zip` 和 `MagicNet-core.zip` 是同一核心包的兼容下载名，模块 ID 均为 MagicNet。`MagicNet-full.zip` 包含离线组件，适合首次安装或网络不便时使用。组件 ZIP 不作为独立模块安装。\n\n更新会保留用户配置和订阅；完成后按管理器提示重启。下载后可用同页的 `SHA256SUMS` 校验完整性，校验和不是独立公钥签名。\n\n默认仍为 `tun` / `magicnet0`，只允许显式选择 `tun|ebpf`。eBPF 可用性取决于设备内核及 cgroup/TC 能力。\n\n## 验证范围与已知限制\n\n正式发行由关联 Actions 的模块、安装迁移、组件、完整质量检查及 Android/KernelSU 模拟器门槛共同放行。模拟器和合成测试不代表 arm64 真机、真实订阅服务、加密服务器互通、多厂商网络或长期运行已经验收。\n\n本版不宣称已确认 Issue #426 的现场根因，也不把工作流通过视为全部多来源订阅场景或独立重建合同均已完成。遇到订阅问题时，请提供脱敏后的来源数量、失败阶段及诊断状态，勿提交订阅 URL 或密钥。\n\nRecipe commit: b762b8c54b99c7561914d3a02c3a635636ae6837\nImplementation commit: a5617d6371fe17494fb4b4a6f655a0c8a0f7461e\n",
+        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.1",
         "immutable": true,
-        "name": "MagicNet v1.8.0",
+        "name": "MagicNet-10609-v1.8.1",
         "prerelease": false,
         "prop": {
           "author": "LIghtJUNction",
@@ -1949,15 +1983,15 @@
           "id": "MagicNet",
           "name": "MagicNet",
           "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
-          "version": "v1.8.0",
-          "versionCode": "10608"
+          "version": "v1.8.1",
+          "versionCode": "10609"
         },
-        "publishedAt": "2026-10-28T12:07:01Z",
-        "releaseId": 426612805,
-        "tag": "v1.8.0",
-        "tagCommit": "f13ca61b9c3477aee3b1380d71815c84b3a2a6bf",
-        "version": "v1.8.0",
-        "versionCode": 10608
+        "publishedAt": "2026-10-29T14:21:41Z",
+        "releaseId": 427831362,
+        "tag": "v1.8.1",
+        "tagCommit": "b762b8c54b99c7561914d3a02c3a635636ae6837",
+        "version": "v1.8.1",
+        "versionCode": 10609
       },
       "stars": {
         "count": 211,
@@ -3228,8 +3262,8 @@
         "versionCode": 28
       },
       "stars": {
-        "count": 90,
-        "fetchedAt": "2026-10-28T12:51:29.957Z",
+        "count": 91,
+        "fetchedAt": "2026-10-29T14:22:04.526Z",
         "fullName": "Dr-TSNG/altdb",
         "repositoryId": 1368146952,
         "verified": "self"
@@ -3467,8 +3501,8 @@
         "versionCode": 7
       },
       "stars": {
-        "count": 6,
-        "fetchedAt": "2026-10-26T07:20:36.770Z",
+        "count": 7,
+        "fetchedAt": "2026-10-29T14:22:04.526Z",
         "fullName": "klmmlk/KernelSU-ClipShield",
         "repositoryId": 1417109515,
         "verified": "self"
@@ -4857,8 +4891,8 @@
         "versionCode": 602005999
       },
       "stars": {
-        "count": 1776,
-        "fetchedAt": "2026-10-28T12:51:29.957Z",
+        "count": 1781,
+        "fetchedAt": "2026-10-29T14:22:04.526Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
@@ -6640,8 +6674,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4119,
-        "fetchedAt": "2026-10-28T12:51:29.957Z",
+        "count": 4122,
+        "fetchedAt": "2026-10-29T14:22:04.526Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
