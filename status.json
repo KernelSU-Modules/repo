@@ -846,6 +846,27 @@
       "request": null,
       "stable": null
     },
+    "susfs_guard_lkm": {
+      "contentCommit": "e980ae254d177160c8f69a54fb04ef49acdb1e13",
+      "fullName": "inforcqb/susfs4ksu-for-lkm",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1361441529,
+      "request": {
+        "checkedAt": "2026-10-29T10:36:28.546Z",
+        "commit": "e980ae254d177160c8f69a54fb04ef49acdb1e13",
+        "issues": [],
+        "latestTag": "v2.3.0-r18.5",
+        "ok": true,
+        "releaseId": 426899836,
+        "repositoryId": 1361441529,
+        "submissionId": "dtus6of4l6"
+      },
+      "stable": null
+    },
     "wipe_cache": {
       "contentCommit": "a8de1f7f6d70121d154a5a290261e53546bd2742",
       "fullName": "FLYCOM-E/ClearBox",
