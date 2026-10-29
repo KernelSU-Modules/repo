@@ -2950,8 +2950,8 @@
         "versionCode": 12
       },
       "stars": {
-        "count": 19,
-        "fetchedAt": "2026-10-22T03:18:21.907Z",
+        "count": 22,
+        "fetchedAt": "2026-10-29T08:05:09.426Z",
         "fullName": "LimpidMo/SvcHub",
         "repositoryId": 1353509468,
         "verified": "self"
@@ -4260,8 +4260,8 @@
         "versionCode": 119
       },
       "stars": {
-        "count": 369,
-        "fetchedAt": "2026-10-28T06:27:24.961Z",
+        "count": 381,
+        "fetchedAt": "2026-10-29T08:05:09.426Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -4996,8 +4996,8 @@
         "versionCode": 20000017
       },
       "stars": {
-        "count": 5,
-        "fetchedAt": "2026-10-28T06:35:45.116Z",
+        "count": 6,
+        "fetchedAt": "2026-10-29T08:05:09.426Z",
         "fullName": "WayneShao/KernelSU-Tailscaled",
         "repositoryId": 1356946284,
         "verified": "self"
@@ -5581,8 +5581,8 @@
         "versionCode": 400012
       },
       "stars": {
-        "count": 583,
-        "fetchedAt": "2026-10-28T06:10:23.973Z",
+        "count": 584,
+        "fetchedAt": "2026-10-29T08:05:09.426Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
@@ -5857,8 +5857,8 @@
         "versionCode": 10411
       },
       "stars": {
-        "count": 3,
-        "fetchedAt": "2026-10-28T07:28:06.396Z",
+        "count": 4,
+        "fetchedAt": "2026-10-29T08:05:09.426Z",
         "fullName": "ahsaboy/magisk-netbird",
         "repositoryId": 1274372941,
         "verified": "self"
@@ -6106,8 +6106,8 @@
         "versionCode": 1090
       },
       "stars": {
-        "count": 1304,
-        "fetchedAt": "2026-10-28T05:25:58.570Z",
+        "count": 1305,
+        "fetchedAt": "2026-10-29T08:05:09.426Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -6419,8 +6419,8 @@
         "versionCode": 155
       },
       "stars": {
-        "count": 574,
-        "fetchedAt": "2026-10-28T05:25:58.570Z",
+        "count": 581,
+        "fetchedAt": "2026-10-29T08:05:09.426Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
@@ -6769,8 +6769,8 @@
         "versionCode": 110400212
       },
       "stars": {
-        "count": 2,
-        "fetchedAt": "2026-10-28T07:28:06.396Z",
+        "count": 9,
+        "fetchedAt": "2026-10-29T08:05:09.426Z",
         "fullName": "KyuubiRan/Shellscaled",
         "repositoryId": 1435874117,
         "verified": "self"
@@ -6794,17 +6794,46 @@
       "fullName": "mzggr0914/sidewire",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-27T01:03:27.611Z",
-        "lastSuccessAt": "2026-10-27T01:03:27.611Z",
+        "lastAttemptAt": "2026-10-29T08:05:09.426Z",
+        "lastSuccessAt": "2026-10-29T08:05:09.426Z",
         "message": null,
         "status": "ok"
       },
       "id": "sidewire",
       "installationId": 173815563,
-      "maxStableVersionCode": 33,
-      "maxVersionCode": 33,
+      "maxStableVersionCode": 34,
+      "maxVersionCode": 34,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:9e5046380a803421cda65c5ebf179bd1bb8d968843329105f2f95f79a2238a6d",
+            "id": 687819204,
+            "name": "SideWire-KernelSU-v1.0.7-arm64.zip",
+            "sha256": "9e5046380a803421cda65c5ebf179bd1bb8d968843329105f2f95f79a2238a6d",
+            "size": 1244756,
+            "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.7/SideWire-KernelSU-v1.0.7-arm64.zip"
+          },
+          "body": "Allow installation of test-only APKs with `sidewire install -t <APK>` or `--allow-test`.\n\n- Add the option to `install --help`.\n- Show a retry hint when Android rejects a test-only APK without `-t`.\n- Preserve the existing reinstall behavior and temporary APK cleanup.\n\nValidated on SM-A3460 running Android 16 with TelephonyPocObserver.apk. All 48 workspace tests, clippy, and formatting checks pass locally.\n\nUpdate the host CLI to use this option. No Android module update is required for this feature.\n\n**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.6...v1.0.7",
+          "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.7",
+          "immutable": true,
+          "name": "SideWire v1.0.7",
+          "prerelease": false,
+          "prop": {
+            "author": "SideWire contributors",
+            "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
+            "id": "sidewire",
+            "name": "SideWire",
+            "version": "1.0.7",
+            "versionCode": "34"
+          },
+          "publishedAt": "2026-10-29T08:04:45Z",
+          "releaseId": 427591192,
+          "tag": "v1.0.7",
+          "tagCommit": "de9750373270c6c1636d3da1c6420c3d95c55f9e",
+          "version": "1.0.7",
+          "versionCode": 34
+        },
         {
           "asset": {
             "digest": "sha256:f02ca15f84ec5239bfa456a2689b5f41f54df27c8e4793c59b8fd544ca1032c2",
@@ -6946,36 +6975,40 @@
         "424928590": {
           "checkedAt": "2026-10-27T01:03:27.611Z",
           "ok": true
+        },
+        "427591192": {
+          "checkedAt": "2026-10-29T08:05:09.426Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:f02ca15f84ec5239bfa456a2689b5f41f54df27c8e4793c59b8fd544ca1032c2",
-          "id": 680010719,
-          "name": "SideWire-KernelSU-v1.0.6-arm64.zip",
-          "sha256": "f02ca15f84ec5239bfa456a2689b5f41f54df27c8e4793c59b8fd544ca1032c2",
-          "size": 1244900,
-          "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.6/SideWire-KernelSU-v1.0.6-arm64.zip"
+          "digest": "sha256:9e5046380a803421cda65c5ebf179bd1bb8d968843329105f2f95f79a2238a6d",
+          "id": 687819204,
+          "name": "SideWire-KernelSU-v1.0.7-arm64.zip",
+          "sha256": "9e5046380a803421cda65c5ebf179bd1bb8d968843329105f2f95f79a2238a6d",
+          "size": 1244756,
+          "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.7/SideWire-KernelSU-v1.0.7-arm64.zip"
         },
-        "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.5...v1.0.6",
-        "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.6",
+        "body": "Allow installation of test-only APKs with `sidewire install -t <APK>` or `--allow-test`.\n\n- Add the option to `install --help`.\n- Show a retry hint when Android rejects a test-only APK without `-t`.\n- Preserve the existing reinstall behavior and temporary APK cleanup.\n\nValidated on SM-A3460 running Android 16 with TelephonyPocObserver.apk. All 48 workspace tests, clippy, and formatting checks pass locally.\n\nUpdate the host CLI to use this option. No Android module update is required for this feature.\n\n**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.6...v1.0.7",
+        "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.7",
         "immutable": true,
-        "name": "SideWire v1.0.6",
+        "name": "SideWire v1.0.7",
         "prerelease": false,
         "prop": {
           "author": "SideWire contributors",
           "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
           "id": "sidewire",
           "name": "SideWire",
-          "version": "1.0.6",
-          "versionCode": "33"
+          "version": "1.0.7",
+          "versionCode": "34"
         },
-        "publishedAt": "2026-10-27T01:03:04Z",
-        "releaseId": 424928590,
-        "tag": "v1.0.6",
-        "tagCommit": "7d75fae515f3c4b01e60880e9a276de57294820b",
-        "version": "1.0.6",
-        "versionCode": 33
+        "publishedAt": "2026-10-29T08:04:45Z",
+        "releaseId": 427591192,
+        "tag": "v1.0.7",
+        "tagCommit": "de9750373270c6c1636d3da1c6420c3d95c55f9e",
+        "version": "1.0.7",
+        "versionCode": 34
       },
       "stars": {
         "count": 39,
@@ -9018,8 +9051,8 @@
         "versionCode": 864
       },
       "stars": {
-        "count": 995,
-        "fetchedAt": "2026-10-27T12:31:36.512Z",
+        "count": 996,
+        "fetchedAt": "2026-10-29T08:05:09.426Z",
         "fullName": "LSPosed/ZygiskNext",
         "repositoryId": 1377039457,
         "verified": "self"

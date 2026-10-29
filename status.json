@@ -801,16 +801,16 @@
       "fullName": "mzggr0914/sidewire",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-27T01:03:27.611Z",
-      "maxVersionCode": 33,
+      "lastSuccessAt": "2026-10-29T08:05:09.426Z",
+      "maxVersionCode": 34,
       "message": null,
       "repositoryId": 1354975640,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-27T01:03:04Z",
-        "tag": "v1.0.6",
-        "version": "1.0.6",
-        "versionCode": 33
+        "publishedAt": "2026-10-29T08:04:45Z",
+        "tag": "v1.0.7",
+        "version": "1.0.7",
+        "versionCode": 34
       }
     },
     "susdock": {
