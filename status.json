@@ -1,7 +1,7 @@
 {
   "modules": {
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "f4bb09b5e143b9e1ab669a43b570df5130cde2fa",
+      "contentCommit": "d42620cbcf17fc01596511d8065235691ef0f7fb",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -10,8 +10,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-10-28T17:14:18.791Z",
-        "commit": "f4bb09b5e143b9e1ab669a43b570df5130cde2fa",
+        "checkedAt": "2026-10-29T02:15:55.761Z",
+        "commit": "d42620cbcf17fc01596511d8065235691ef0f7fb",
         "issues": [],
         "latestTag": "v1.2.8",
         "ok": true,
@@ -317,7 +317,7 @@
       }
     },
     "bypasscap": {
-      "contentCommit": "4465e574d4abccb2734b75bfdab090360f1156d4",
+      "contentCommit": "1f3586ace4dd73ecea6b3660502ebad6fb2523f8",
       "fullName": "9M2PJU/ChargeBypassCap",
       "health": "error",
       "installation": "present",
@@ -326,8 +326,8 @@
       "message": "manifest-id-mismatch: module.yaml id \"chargebypasscap\" differs from the registered id \"bypasscap\".",
       "repositoryId": 1437404105,
       "request": {
-        "checkedAt": "2026-10-28T19:37:27.731Z",
-        "commit": "4465e574d4abccb2734b75bfdab090360f1156d4",
+        "checkedAt": "2026-10-29T02:15:55.761Z",
+        "commit": "1f3586ace4dd73ecea6b3660502ebad6fb2523f8",
         "issues": [
           {
             "code": "manifest-id-mismatch",
@@ -349,7 +349,7 @@
       "stable": null
     },
     "chargebypasscap-pmi": {
-      "contentCommit": "2d3f32cd9052a2b458c0d2af5d0ce82f7f5852ea",
+      "contentCommit": "6532871372e8440675f1837ae609817ea90b428e",
       "fullName": "9M2PJU/ChargeBypassCap-PMI",
       "health": "ok",
       "installation": "present",
@@ -358,8 +358,8 @@
       "message": null,
       "repositoryId": 1437485405,
       "request": {
-        "checkedAt": "2026-10-28T19:37:27.731Z",
-        "commit": "2d3f32cd9052a2b458c0d2af5d0ce82f7f5852ea",
+        "checkedAt": "2026-10-29T02:15:55.761Z",
+        "commit": "6532871372e8440675f1837ae609817ea90b428e",
         "issues": [],
         "latestTag": "v1.3.1",
         "ok": true,
