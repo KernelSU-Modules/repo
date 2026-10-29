@@ -1,0 +1,19 @@
+id: susfs_guard_lkm
+status: pending
+request:
+  submissionId: dtus6of4l6
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1361441529
+    ownerId: 349445500
+    fullName: inforcqb/susfs4ksu-for-lkm
+    manifestPath: module.yaml
+  submittedBy: 62001729
+  submittedByLogin: HanaKDev
+  submittedAt: 2026-10-29T10:36:00.557Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64605
+createdAt: 2026-10-29T10:36:00.557Z
+updatedAt: 2026-10-29T10:36:00.557Z
