@@ -6707,17 +6707,76 @@
       "fullName": "KyuubiRan/Shellscaled",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-28T07:28:06.396Z",
-        "lastSuccessAt": "2026-10-28T07:28:06.396Z",
+        "lastAttemptAt": "2026-10-30T09:41:10.106Z",
+        "lastSuccessAt": "2026-10-30T09:41:10.106Z",
         "message": null,
         "status": "ok"
       },
       "id": "shellscaled",
       "installationId": 176083809,
       "maxStableVersionCode": 110400212,
-      "maxVersionCode": 110400212,
-      "prerelease": null,
+      "maxVersionCode": 110400401,
+      "prerelease": {
+        "asset": {
+          "digest": "sha256:bd6d6606e326473220cf7e352e7703aee5b6c2c919bb5a659bacee19f37da0e8",
+          "id": 691628538,
+          "name": "Shellscaled-1.104.4-r1-arm64.zip",
+          "sha256": "bd6d6606e326473220cf7e352e7703aee5b6c2c919bb5a659bacee19f37da0e8",
+          "size": 13319019,
+          "url": "https://github.com/KyuubiRan/Shellscaled/releases/download/v1.104.4-r1/Shellscaled-1.104.4-r1-arm64.zip"
+        },
+        "body": "Tailscale 1.104.4 for ARM64 Android (Magisk / KernelSU).\n\nDownload the ZIP, install it in your root manager, and reboot. Updating preserves your login and settings.\n\n[CLI source: android-v1.104.4-dev.4](https://github.com/KyuubiRan/tailscale-android-cli/releases/tag/android-v1.104.4-dev.4)\n",
+        "htmlUrl": "https://github.com/KyuubiRan/Shellscaled/releases/tag/v1.104.4-r1",
+        "immutable": true,
+        "name": "Shellscaled 1.104.4 (r1) RC",
+        "prerelease": true,
+        "prop": {
+          "architecture": "arm64",
+          "author": "KyuubiRan",
+          "description": "Tailscale for Android",
+          "id": "shellscaled",
+          "name": "Shellscaled",
+          "version": "1.104.4",
+          "versionCode": "110400401"
+        },
+        "publishedAt": "2026-10-30T09:40:45Z",
+        "releaseId": 428857515,
+        "tag": "v1.104.4-r1",
+        "tagCommit": "b67af35e5273927f4ca2c7a3a9f64faaf794ece3",
+        "version": "1.104.4",
+        "versionCode": 110400401
+      },
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:bd6d6606e326473220cf7e352e7703aee5b6c2c919bb5a659bacee19f37da0e8",
+            "id": 691628538,
+            "name": "Shellscaled-1.104.4-r1-arm64.zip",
+            "sha256": "bd6d6606e326473220cf7e352e7703aee5b6c2c919bb5a659bacee19f37da0e8",
+            "size": 13319019,
+            "url": "https://github.com/KyuubiRan/Shellscaled/releases/download/v1.104.4-r1/Shellscaled-1.104.4-r1-arm64.zip"
+          },
+          "body": "Tailscale 1.104.4 for ARM64 Android (Magisk / KernelSU).\n\nDownload the ZIP, install it in your root manager, and reboot. Updating preserves your login and settings.\n\n[CLI source: android-v1.104.4-dev.4](https://github.com/KyuubiRan/tailscale-android-cli/releases/tag/android-v1.104.4-dev.4)\n",
+          "htmlUrl": "https://github.com/KyuubiRan/Shellscaled/releases/tag/v1.104.4-r1",
+          "immutable": true,
+          "name": "Shellscaled 1.104.4 (r1) RC",
+          "prerelease": true,
+          "prop": {
+            "architecture": "arm64",
+            "author": "KyuubiRan",
+            "description": "Tailscale for Android",
+            "id": "shellscaled",
+            "name": "Shellscaled",
+            "version": "1.104.4",
+            "versionCode": "110400401"
+          },
+          "publishedAt": "2026-10-30T09:40:45Z",
+          "releaseId": 428857515,
+          "tag": "v1.104.4-r1",
+          "tagCommit": "b67af35e5273927f4ca2c7a3a9f64faaf794ece3",
+          "version": "1.104.4",
+          "versionCode": 110400401
+        },
         {
           "asset": {
             "digest": "sha256:6695f1ed4e1b142d03dc85ec9a4afadb10bfeacf1fea131f56f1c613dc4638bb",
@@ -6777,6 +6836,10 @@
         },
         "426346828": {
           "checkedAt": "2026-10-28T07:28:06.396Z",
+          "ok": true
+        },
+        "428857515": {
+          "checkedAt": "2026-10-30T09:41:10.106Z",
           "ok": true
         }
       },
@@ -8462,8 +8525,8 @@
         "versionCode": 196
       },
       "stars": {
-        "count": 19,
-        "fetchedAt": "2026-10-29T09:29:42.045Z",
+        "count": 20,
+        "fetchedAt": "2026-10-30T09:41:10.106Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"

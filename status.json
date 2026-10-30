@@ -805,8 +805,8 @@
       "fullName": "KyuubiRan/Shellscaled",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-28T07:28:06.396Z",
-      "maxVersionCode": 110400212,
+      "lastSuccessAt": "2026-10-30T09:41:10.106Z",
+      "maxVersionCode": 110400401,
       "message": null,
       "repositoryId": 1435874117,
       "request": null,
@@ -868,7 +868,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "6020cd5bad533f3382fec08cc394b777f12cd93d",
+      "contentCommit": "646c9abbd8f6c90b311ef2daba0dbf1a732d6c18",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -877,8 +877,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-10-30T08:04:02.659Z",
-        "commit": "6020cd5bad533f3382fec08cc394b777f12cd93d",
+        "checkedAt": "2026-10-30T09:41:10.106Z",
+        "commit": "646c9abbd8f6c90b311ef2daba0dbf1a732d6c18",
         "issues": [],
         "latestTag": "v2.3.0-r18.6",
         "ok": true,
