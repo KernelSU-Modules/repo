@@ -653,20 +653,20 @@
       }
     },
     "magic_mount_rs": {
-      "contentCommit": "a5be315b8f3dccca2320abfd280d98b4fcf205da",
+      "contentCommit": "9fdb7d1e0ff0cebb057f4b415c3e283ca3084737",
       "fullName": "Tools-cx-app/meta-magic_mount-rs",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-16T14:01:23.393Z",
-      "maxVersionCode": 400012,
+      "lastSuccessAt": "2026-10-30T21:42:21.414Z",
+      "maxVersionCode": 401012,
       "message": null,
       "repositoryId": 1154057975,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-16T10:33:56Z",
-        "tag": "v4.0.12",
-        "version": "v4.0.12-941",
-        "versionCode": 400012
+        "publishedAt": "2026-10-30T21:41:55Z",
+        "tag": "v4.1.12",
+        "version": "v4.1.12-959",
+        "versionCode": 401012
       }
     },
     "magisk-netbird": {
