@@ -253,6 +253,27 @@
       "request": null,
       "stable": null
     },
+    "acc": {
+      "contentCommit": "fcb77b9ef8f8cae583a4ea107dfd2d1dc6c13a14",
+      "fullName": "Infiniti151/acc-with-webui",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1296470014,
+      "request": {
+        "checkedAt": "2026-10-30T05:29:59.634Z",
+        "commit": "fcb77b9ef8f8cae583a4ea107dfd2d1dc6c13a14",
+        "issues": [],
+        "latestTag": "v1.5.1",
+        "ok": true,
+        "releaseId": 425037570,
+        "repositoryId": 1296470014,
+        "submissionId": "9gplh1mb0j"
+      },
+      "stable": null
+    },
     "aegis_firewall": {
       "contentCommit": "9366066031750ed2332cf45580b4a043e2bbd7d1",
       "fullName": "kreza6173-pixel/aegis-firewall",
