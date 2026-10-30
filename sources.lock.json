@@ -5244,6 +5244,111 @@
         "verified": "self"
       }
     },
+    "ksuwebui_demo": {
+      "content": {
+        "blobs": {
+          "README.md": "facd9ba898c77b50e7be2764c53284423cf00790",
+          "module.yaml": "206b1aae510895a69eee7e807fdef5524f2f0f55"
+        },
+        "commit": "3d33e0e0a0c7e3233fb7793b145fbf71e357912c",
+        "fetchedAt": "2026-10-30T12:52:18.696Z",
+        "files": {
+          "README.md": "ea87b09f81b54069ab58e53015bb4b097d1a68ee30e93c2f9b55626defd451a0",
+          "module.yaml": "3cba4358e38f432fb753cc01f7cd33d6259558c79805c0a8521cc28197233444"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "KOWX712/ksu-webui-demo",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-10-30T12:52:18.696Z",
+        "lastSuccessAt": "2026-10-30T12:52:18.696Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "ksuwebui_demo",
+      "installationId": 170623663,
+      "maxStableVersionCode": 330,
+      "maxVersionCode": 330,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:f98de9f3208bf245c1e952b2379c8bf79d0d84ef9e4f5b5b3d33274aa5ab298e",
+            "id": 692103008,
+            "name": "KSU_WebUI_demo.zip",
+            "sha256": "f98de9f3208bf245c1e952b2379c8bf79d0d84ef9e4f5b5b3d33274aa5ab298e",
+            "size": 84755,
+            "url": "https://github.com/KOWX712/ksu-webui-demo/releases/download/v3.3.0/KSU_WebUI_demo.zip"
+          },
+          "body": "## v3.3.0\n- Initial release.\n- New KSU pm and io api demo.",
+          "htmlUrl": "https://github.com/KOWX712/ksu-webui-demo/releases/tag/v3.3.0",
+          "immutable": true,
+          "name": "v3.3.0",
+          "prerelease": false,
+          "prop": {
+            "author": "KOWX712",
+            "description": "KernelSU WebUI javascript interface demo",
+            "id": "ksuwebui_demo",
+            "name": "KSU WebUI demo",
+            "updateJson": "https://raw.githubusercontent.com/KOWX712/ksu-webui-demo/main/update.json",
+            "version": "v3.3.0",
+            "versionCode": "330"
+          },
+          "publishedAt": "2026-10-30T12:47:29Z",
+          "releaseId": 429025712,
+          "tag": "v3.3.0",
+          "tagCommit": "3d33e0e0a0c7e3233fb7793b145fbf71e357912c",
+          "version": "v3.3.0",
+          "versionCode": 330
+        }
+      ],
+      "repositoryId": 979492994,
+      "seen": {
+        "429025712": {
+          "checkedAt": "2026-10-30T12:52:18.696Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:f98de9f3208bf245c1e952b2379c8bf79d0d84ef9e4f5b5b3d33274aa5ab298e",
+          "id": 692103008,
+          "name": "KSU_WebUI_demo.zip",
+          "sha256": "f98de9f3208bf245c1e952b2379c8bf79d0d84ef9e4f5b5b3d33274aa5ab298e",
+          "size": 84755,
+          "url": "https://github.com/KOWX712/ksu-webui-demo/releases/download/v3.3.0/KSU_WebUI_demo.zip"
+        },
+        "body": "## v3.3.0\n- Initial release.\n- New KSU pm and io api demo.",
+        "htmlUrl": "https://github.com/KOWX712/ksu-webui-demo/releases/tag/v3.3.0",
+        "immutable": true,
+        "name": "v3.3.0",
+        "prerelease": false,
+        "prop": {
+          "author": "KOWX712",
+          "description": "KernelSU WebUI javascript interface demo",
+          "id": "ksuwebui_demo",
+          "name": "KSU WebUI demo",
+          "updateJson": "https://raw.githubusercontent.com/KOWX712/ksu-webui-demo/main/update.json",
+          "version": "v3.3.0",
+          "versionCode": "330"
+        },
+        "publishedAt": "2026-10-30T12:47:29Z",
+        "releaseId": 429025712,
+        "tag": "v3.3.0",
+        "tagCommit": "3d33e0e0a0c7e3233fb7793b145fbf71e357912c",
+        "version": "v3.3.0",
+        "versionCode": 330
+      },
+      "stars": {
+        "count": 14,
+        "fetchedAt": "2026-10-30T12:52:18.696Z",
+        "fullName": "KOWX712/ksu-webui-demo",
+        "repositoryId": 979492994,
+        "verified": "self"
+      }
+    },
     "lkm4ctr": {
       "content": {
         "blobs": {
