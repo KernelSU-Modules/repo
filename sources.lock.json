@@ -7759,17 +7759,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-27T06:00:35.875Z",
-        "lastSuccessAt": "2026-10-27T06:00:35.875Z",
-        "message": "stable-unavailable: the stable release (versionCode 572) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 572 is published.",
+        "lastAttemptAt": "2026-10-30T05:24:10.840Z",
+        "lastSuccessAt": "2026-10-30T05:24:10.840Z",
+        "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 572,
-      "maxVersionCode": 572,
+      "maxStableVersionCode": 573,
+      "maxVersionCode": 573,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:645aa8a50462774b9e67a8fb62f8b263d9457e83c8f2136771653cfb3046a99a",
+            "id": 691038654,
+            "name": "Sui-v13.5.4.3_573-cab27cf-release.zip",
+            "sha256": "645aa8a50462774b9e67a8fb62f8b263d9457e83c8f2136771653cfb3046a99a",
+            "size": 1452813,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v573-cab27cf/Sui-v13.5.4.3_573-cab27cf-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (573-cab27cf-release)`\n- **VersionCode:** `573`\n- **Commit:** [`cab27cf`](https://github.com/XiaoTong6666/Sui/commit/cab27cf1a4c019c9c7f52b15391eb91ae86ad2fb)\n- **Build time:** `4m 12s`\n- **SHA256:** `645aa8a50462774b9e67a8fb62f8b263d9457e83c8f2136771653cfb3046a99a`\n\n## Message\n\n```text\nbuild(deps): bump agp from 9.4.1 to 9.5.0 (#140)\n\nBumps `agp` from 9.4.1 to 9.5.0.\n\nUpdates `com.android.application` from 9.4.1 to 9.5.0\n\nUpdates `com.android.library` from 9.4.1 to 9.5.0\n\n---\nupdated-dependencies:\n- dependency-name: com.android.application\n  dependency-version: 9.5.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n- dependency-name: com.android.library\n  dependency-version: 9.5.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v573-cab27cf",
+          "immutable": true,
+          "name": "v13.5.4.3 (573-cab27cf-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (573-cab27cf-release)",
+            "versionCode": "573"
+          },
+          "publishedAt": "2026-10-30T05:23:47Z",
+          "releaseId": 428681317,
+          "tag": "v573-cab27cf",
+          "tagCommit": "fc38f6bd4f5c3bce403c013c1de265aea1748125",
+          "version": "v13.5.4.3 (573-cab27cf-release)",
+          "versionCode": 573
+        },
         {
           "asset": {
             "digest": "sha256:fcf9ad2b3f9ff4ccee62d43bed4b6abe71ff71ddb89acbb1485148873bcb5270",
@@ -8102,9 +8132,42 @@
         "425083637": {
           "checkedAt": "2026-10-27T06:00:35.875Z",
           "ok": true
+        },
+        "428681317": {
+          "checkedAt": "2026-10-30T05:24:10.840Z",
+          "ok": true
         }
       },
-      "stable": null,
+      "stable": {
+        "asset": {
+          "digest": "sha256:645aa8a50462774b9e67a8fb62f8b263d9457e83c8f2136771653cfb3046a99a",
+          "id": 691038654,
+          "name": "Sui-v13.5.4.3_573-cab27cf-release.zip",
+          "sha256": "645aa8a50462774b9e67a8fb62f8b263d9457e83c8f2136771653cfb3046a99a",
+          "size": 1452813,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v573-cab27cf/Sui-v13.5.4.3_573-cab27cf-release.zip"
+        },
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (573-cab27cf-release)`\n- **VersionCode:** `573`\n- **Commit:** [`cab27cf`](https://github.com/XiaoTong6666/Sui/commit/cab27cf1a4c019c9c7f52b15391eb91ae86ad2fb)\n- **Build time:** `4m 12s`\n- **SHA256:** `645aa8a50462774b9e67a8fb62f8b263d9457e83c8f2136771653cfb3046a99a`\n\n## Message\n\n```text\nbuild(deps): bump agp from 9.4.1 to 9.5.0 (#140)\n\nBumps `agp` from 9.4.1 to 9.5.0.\n\nUpdates `com.android.application` from 9.4.1 to 9.5.0\n\nUpdates `com.android.library` from 9.4.1 to 9.5.0\n\n---\nupdated-dependencies:\n- dependency-name: com.android.application\n  dependency-version: 9.5.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n- dependency-name: com.android.library\n  dependency-version: 9.5.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v573-cab27cf",
+        "immutable": true,
+        "name": "v13.5.4.3 (573-cab27cf-release)",
+        "prerelease": false,
+        "prop": {
+          "author": "Sui Contributors",
+          "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+          "id": "zygisk-sui",
+          "name": "Zygisk - Sui",
+          "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+          "version": "v13.5.4.3 (573-cab27cf-release)",
+          "versionCode": "573"
+        },
+        "publishedAt": "2026-10-30T05:23:47Z",
+        "releaseId": 428681317,
+        "tag": "v573-cab27cf",
+        "tagCommit": "fc38f6bd4f5c3bce403c013c1de265aea1748125",
+        "version": "v13.5.4.3 (573-cab27cf-release)",
+        "versionCode": 573
+      },
       "stars": {
         "count": 10,
         "fetchedAt": "2026-10-28T18:59:02.703Z",
