@@ -618,6 +618,27 @@
         "versionCode": 15
       }
     },
+    "ksuwebui_demo": {
+      "contentCommit": "3d33e0e0a0c7e3233fb7793b145fbf71e357912c",
+      "fullName": "KOWX712/ksu-webui-demo",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 979492994,
+      "request": {
+        "checkedAt": "2026-10-30T12:51:29.770Z",
+        "commit": "3d33e0e0a0c7e3233fb7793b145fbf71e357912c",
+        "issues": [],
+        "latestTag": "v3.3.0",
+        "ok": true,
+        "releaseId": 429025712,
+        "repositoryId": 979492994,
+        "submissionId": "puo7x73pwi"
+      },
+      "stable": null
+    },
     "lkm4ctr": {
       "contentCommit": "d033555d2d7f9c302b45d787ebcbbe9faed434fc",
       "fullName": "cyanmint/lkm4ctr",
