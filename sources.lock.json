@@ -1621,14 +1621,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "5926f6960276800fbb46df8529325a29c47e03e0",
+          "README.md": "9864e557892e2e10f956df1a38fda213d6710245",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "70d45f8080bca2f785379af12ff133a3d360f0bb",
-        "fetchedAt": "2026-10-17T22:57:03.501Z",
+        "commit": "f0a8f6a255b87245430e96fc2eb5783376ae7c9f",
+        "fetchedAt": "2026-10-30T16:23:24.351Z",
         "files": {
-          "README.md": "467e99e074ed9749777657287902a0832082d7d9f78ca6e7f58c54153f3489c8",
+          "README.md": "11bb894b02e8673a009d774becef6880e5b2c37891672a2c0491ca499e546ec9",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -1638,10 +1638,10 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-29T14:22:04.526Z",
-        "lastSuccessAt": "2026-10-24T03:45:27.265Z",
-        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
-        "status": "stale"
+        "lastAttemptAt": "2026-10-30T16:23:24.351Z",
+        "lastSuccessAt": "2026-10-30T16:23:24.351Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "MagicNet",
       "installationId": 172483675,

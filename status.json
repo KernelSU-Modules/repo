@@ -145,13 +145,13 @@
       }
     },
     "MagicNet": {
-      "contentCommit": "70d45f8080bca2f785379af12ff133a3d360f0bb",
+      "contentCommit": "f0a8f6a255b87245430e96fc2eb5783376ae7c9f",
       "fullName": "LIghtJUNction/MagicNet",
-      "health": "stale",
+      "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-24T03:45:27.265Z",
+      "lastSuccessAt": "2026-10-30T16:23:24.351Z",
       "maxVersionCode": 10609,
-      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-missing)",
+      "message": null,
       "repositoryId": 998453022,
       "request": null,
       "stable": {
