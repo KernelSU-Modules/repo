@@ -1,19 +1,23 @@
 id: ksuwebui_demo
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 979492994
+  ownerId: 185127155
+  fullName: KOWX712/ksu-webui-demo
+  manifestPath: module.yaml
+review:
   submissionId: puo7x73pwi
   kind: submit
-  source:
-    host: github
-    repositoryId: 979492994
-    ownerId: 185127155
-    fullName: KOWX712/ksu-webui-demo
-    manifestPath: module.yaml
   submittedBy: 185127155
-  submittedByLogin: KOWX712
   submittedAt: 2026-10-30T12:51:05.229Z
+  decision: approved
+  decidedBy: 185127155
+  decidedVia: telegram
+  decidedAt: 2026-10-30T12:51:16.930Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64617
 createdAt: 2026-10-30T12:51:05.229Z
-updatedAt: 2026-10-30T12:51:05.229Z
+updatedAt: 2026-10-30T12:51:16.930Z
