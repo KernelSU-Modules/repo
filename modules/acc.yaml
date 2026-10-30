@@ -1,0 +1,19 @@
+id: acc
+status: pending
+request:
+  submissionId: 9gplh1mb0j
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1296470014
+    ownerId: 43163551
+    fullName: Infiniti151/acc-with-webui
+    manifestPath: module.yaml
+  submittedBy: 43163551
+  submittedByLogin: Infiniti151
+  submittedAt: 2026-10-30T05:29:35.754Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64616
+createdAt: 2026-10-30T05:29:35.754Z
+updatedAt: 2026-10-30T05:29:35.754Z
