@@ -805,16 +805,16 @@
       "fullName": "KyuubiRan/Shellscaled",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-30T09:52:05.843Z",
-      "maxVersionCode": 110400402,
+      "lastSuccessAt": "2026-10-30T10:35:20.985Z",
+      "maxVersionCode": 110400403,
       "message": null,
       "repositoryId": 1435874117,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-30T09:51:48Z",
-        "tag": "v1.104.4-r2",
+        "publishedAt": "2026-10-30T10:35:00Z",
+        "tag": "v1.104.4-r3",
         "version": "1.104.4",
-        "versionCode": 110400402
+        "versionCode": 110400403
       }
     },
     "sidewire": {
