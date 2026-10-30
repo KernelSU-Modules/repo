@@ -725,16 +725,16 @@
       "fullName": "qwq233/OhMyKeymint",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-28T05:25:58.570Z",
-      "maxVersionCode": 155,
+      "lastSuccessAt": "2026-10-30T14:51:32.299Z",
+      "maxVersionCode": 174,
       "message": null,
       "repositoryId": 1068442938,
       "request": null,
       "stable": {
-        "publishedAt": "2026-09-16T04:16:54Z",
-        "tag": "1.2.0-preview-a1f3241",
-        "version": "1.2.0-a1f3241",
-        "versionCode": 155
+        "publishedAt": "2026-10-30T14:51:06Z",
+        "tag": "1.2.5-17b0eb6",
+        "version": "1.2.5-17b0eb6",
+        "versionCode": 174
       }
     },
     "orbit_store": {
