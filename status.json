@@ -969,20 +969,20 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "301e92b48ad5ad7e28e0a4e42b35c8303424c56d",
+      "contentCommit": "97c893fc15edc52ed63c6e1ac7adf18e80735d96",
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-31T08:05:28.006Z",
-      "maxVersionCode": 262,
+      "lastSuccessAt": "2026-10-31T16:50:47.430Z",
+      "maxVersionCode": 269,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-31T08:04:59Z",
-        "tag": "v2.9.0",
-        "version": "v2.9.0 (262-33d6a1e-release)",
-        "versionCode": 262
+        "publishedAt": "2026-10-31T16:50:22Z",
+        "tag": "v2.10.0",
+        "version": "v2.10.0 (269-97c893f-release)",
+        "versionCode": 269
       }
     },
     "zygisksu": {
