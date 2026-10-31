@@ -463,11 +463,11 @@
       }
     },
     "duck-toolbox": {
-      "contentCommit": "3b551b15de60b111d69ae077d8f46e508c353c2e",
+      "contentCommit": "8899c332988da68ad08de07808631361251b6b46",
       "fullName": "eltavine/Duck-ToolBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-31T07:52:02.262Z",
+      "lastSuccessAt": "2026-10-31T08:05:28.006Z",
       "maxVersionCode": 135,
       "message": null,
       "repositoryId": 1196357682,
@@ -973,16 +973,16 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-31T07:26:15.502Z",
-      "maxVersionCode": 260,
+      "lastSuccessAt": "2026-10-31T08:05:28.006Z",
+      "maxVersionCode": 262,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-31T07:25:51Z",
-        "tag": "v2.8.1",
-        "version": "v2.8.1 (260-891c32a-release)",
-        "versionCode": 260
+        "publishedAt": "2026-10-31T08:04:59Z",
+        "tag": "v2.9.0",
+        "version": "v2.9.0 (262-33d6a1e-release)",
+        "versionCode": 262
       }
     },
     "zygisksu": {

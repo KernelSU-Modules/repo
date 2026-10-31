@@ -3758,13 +3758,13 @@
     "duck-toolbox": {
       "content": {
         "blobs": {
-          "README.md": "6a2b4754e1351e705e4445b6a7197db852786090",
+          "README.md": "614878101af72436f73a3f4aad6551d366ab0c9f",
           "module.yaml": "895e6462e2734743a77d85ad998c0fbb73ce828d"
         },
-        "commit": "3b551b15de60b111d69ae077d8f46e508c353c2e",
-        "fetchedAt": "2026-10-31T07:26:15.502Z",
+        "commit": "8899c332988da68ad08de07808631361251b6b46",
+        "fetchedAt": "2026-10-31T08:05:28.006Z",
         "files": {
-          "README.md": "e5855cc2fdcedb7117110b486c5b2770a745b3f861e8a7ad31bc463797318c85",
+          "README.md": "e984ba475a3f3a849290e3a77176f08ed32968052cf30edbda44ccc68fe0471d",
           "module.yaml": "11c9f688d565ba2b7310a01599ce6d0535f217781bf03d2ac022bf8e3d422e21"
         },
         "manifestPath": "module.yaml",
@@ -3773,8 +3773,8 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-31T07:52:02.262Z",
-        "lastSuccessAt": "2026-10-31T07:52:02.262Z",
+        "lastAttemptAt": "2026-10-31T08:05:28.006Z",
+        "lastSuccessAt": "2026-10-31T08:05:28.006Z",
         "message": null,
         "status": "ok"
       },
@@ -8802,17 +8802,47 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-31T07:26:15.502Z",
-        "lastSuccessAt": "2026-10-31T07:26:15.502Z",
+        "lastAttemptAt": "2026-10-31T08:05:28.006Z",
+        "lastSuccessAt": "2026-10-31T08:05:28.006Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 260,
-      "maxVersionCode": 260,
+      "maxStableVersionCode": 262,
+      "maxVersionCode": 262,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:dc1aab1f606b9168245c98c94baa8c47283bf2507c715f0869d03b661d609dab",
+            "id": 694781262,
+            "name": "ZNNext-v2.9.0-262-33d6a1e-release.zip",
+            "sha256": "dc1aab1f606b9168245c98c94baa8c47283bf2507c715f0869d03b661d609dab",
+            "size": 6646811,
+            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.9.0/ZNNext-v2.9.0-262-33d6a1e-release.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.8.1...v2.9.0\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.9.0",
+          "immutable": true,
+          "name": "v2.9.0",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "ZNNext",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
+            "version": "v2.9.0 (262-33d6a1e-release)",
+            "versionCode": "262"
+          },
+          "publishedAt": "2026-10-31T08:04:59Z",
+          "releaseId": 429801732,
+          "tag": "v2.9.0",
+          "tagCommit": "33d6a1e7bbd20d10e5c06a68fb9090a171904a09",
+          "version": "v2.9.0 (262-33d6a1e-release)",
+          "versionCode": 262
+        },
         {
           "asset": {
             "digest": "sha256:e5a029289c7ac8880bbff0f1662aac8d435fd7599d119bf07bf0c32cfd259482",
@@ -9082,36 +9112,6 @@
           "tagCommit": "28c0eb50b8b094966c5715ba2049cc8436bd536d",
           "version": "v2.2.0 (224-28c0eb5-release)",
           "versionCode": 224
-        },
-        {
-          "asset": {
-            "digest": "sha256:76b6e5eecf927449791841bb6ba84418313423d0109b576d297c377a8420e6ed",
-            "id": 669552685,
-            "name": "ZNNext-v2.1.0-222-29823c3-release.zip",
-            "sha256": "76b6e5eecf927449791841bb6ba84418313423d0109b576d297c377a8420e6ed",
-            "size": 3253298,
-            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.1.0/ZNNext-v2.1.0-222-29823c3-release.zip"
-          },
-          "body": "## What's Changed\n* feat(module): sync minsdk from gradle script by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/115\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.0.1...v2.1.0\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.1.0",
-          "immutable": true,
-          "name": "v2.1.0",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "ZNNext",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-            "version": "v2.1.0 (222-29823c3-release)",
-            "versionCode": "222"
-          },
-          "publishedAt": "2026-10-23T15:32:11Z",
-          "releaseId": 422009442,
-          "tag": "v2.1.0",
-          "tagCommit": "29823c38367696f2e2c0b1ac1c122bf46ee4d3ec",
-          "version": "v2.1.0 (222-29823c3-release)",
-          "versionCode": 222
         }
       ],
       "repositoryId": 1348255159,
@@ -9325,21 +9325,25 @@
         "429785635": {
           "checkedAt": "2026-10-31T07:26:15.502Z",
           "ok": true
+        },
+        "429801732": {
+          "checkedAt": "2026-10-31T08:05:28.006Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:e5a029289c7ac8880bbff0f1662aac8d435fd7599d119bf07bf0c32cfd259482",
-          "id": 694697750,
-          "name": "ZNNext-v2.8.1-260-891c32a-release.zip",
-          "sha256": "e5a029289c7ac8880bbff0f1662aac8d435fd7599d119bf07bf0c32cfd259482",
-          "size": 6650102,
-          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.8.1/ZNNext-v2.8.1-260-891c32a-release.zip"
+          "digest": "sha256:dc1aab1f606b9168245c98c94baa8c47283bf2507c715f0869d03b661d609dab",
+          "id": 694781262,
+          "name": "ZNNext-v2.9.0-262-33d6a1e-release.zip",
+          "sha256": "dc1aab1f606b9168245c98c94baa8c47283bf2507c715f0869d03b661d609dab",
+          "size": 6646811,
+          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.9.0/ZNNext-v2.9.0-262-33d6a1e-release.zip"
         },
-        "body": "## What's Changed\n* fix(daemon): reconcile missed exec events in late mode by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/134\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.8.0...v2.8.1\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.8.1",
+        "body": "**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.8.1...v2.9.0\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.9.0",
         "immutable": true,
-        "name": "v2.8.1",
+        "name": "v2.9.0",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -9347,15 +9351,15 @@
           "id": "zygisknextsu",
           "name": "ZNNext",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-          "version": "v2.8.1 (260-891c32a-release)",
-          "versionCode": "260"
+          "version": "v2.9.0 (262-33d6a1e-release)",
+          "versionCode": "262"
         },
-        "publishedAt": "2026-10-31T07:25:51Z",
-        "releaseId": 429785635,
-        "tag": "v2.8.1",
-        "tagCommit": "891c32a05298679623bba9b27dbfaace9b129b5e",
-        "version": "v2.8.1 (260-891c32a-release)",
-        "versionCode": 260
+        "publishedAt": "2026-10-31T08:04:59Z",
+        "releaseId": 429801732,
+        "tag": "v2.9.0",
+        "tagCommit": "33d6a1e7bbd20d10e5c06a68fb9090a171904a09",
+        "version": "v2.9.0 (262-33d6a1e-release)",
+        "versionCode": 262
       },
       "stars": {
         "count": 94,
