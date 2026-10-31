@@ -659,12 +659,12 @@
           ".github/images/overview-zh.png": "fa74b205c5e8a47ba456c905edbf3b03aef22c64",
           ".github/images/settings-zh.png": "f01b1833c2dd75d375b7d46b044c718418f0222d",
           ".github/images/trends-zh.png": "e53d03d8cebee9306cc48dd95e44e2ab8bf5dc75",
-          "README.md": "f8628bfade29421a43faacaa0cc3f9662cd2888c",
+          "README.md": "b173e96e2a998ca4ef967f28b1f3ae966b6457b1",
           "assets/icon.png": "5dc474bb718300203dce63f6f647c0d98cc4a3b6",
           "module.yaml": "99b94b13495317433d7c9f9ad9ddad25fddc4d96"
         },
-        "commit": "cdda2ce7156de6a2a3e78a16d1094ae2e8819721",
-        "fetchedAt": "2026-10-30T13:11:59.361Z",
+        "commit": "cfaeda44c67ee1cf423b00d6f6ea5d8e1a9a71de",
+        "fetchedAt": "2026-10-31T14:27:07.497Z",
         "files": {
           ".github/images/history-zh.png": "d46eb582599968a1800de7e2298c331d5579b08cc9e5dd79acb0fa69f96d0e2a",
           ".github/images/how-it-works-zh-dark.png": "862e702a5136b0dba280b6863be3addbe8b5900ce2d6dd91546c68fd9caa3fae",
@@ -672,7 +672,7 @@
           ".github/images/overview-zh.png": "f6012c245bf1834565129899c5c48147660d6d3ce7913fa45bb088f385edb3cf",
           ".github/images/settings-zh.png": "06faefa6ec0d9319185e6ca44e2957a1b2b7d6f36efad894947bdb29f4136903",
           ".github/images/trends-zh.png": "ea6257f016d41db98c95ff6f8ef894b7ae344f3f7d2ed9265978766007e89e5e",
-          "README.md": "54bfb6cf33cb39422f5ee80702758f2f781c468673cbc389e2a0d9f241896d8a",
+          "README.md": "0551a4127a24e8207f503da24ecfca939589e9b4f58b40e70774fa0a465d8121",
           "assets/icon.png": "ef5a7662da7b1a2debee42ebe7f5b3e2ad28e362adc958828c986c0026128f91",
           "module.yaml": "a7c04b69a0eb359161c2d57cfca9256b4cf1f86ab95ef47414444be46f3fecf1"
         },
@@ -682,8 +682,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-30T13:11:59.361Z",
-        "lastSuccessAt": "2026-10-30T13:11:59.361Z",
+        "lastAttemptAt": "2026-10-31T14:27:07.497Z",
+        "lastSuccessAt": "2026-10-31T14:27:07.497Z",
         "message": null,
         "status": "ok"
       },
@@ -3296,8 +3296,8 @@
         "versionCode": 28
       },
       "stars": {
-        "count": 91,
-        "fetchedAt": "2026-10-29T14:22:04.526Z",
+        "count": 92,
+        "fetchedAt": "2026-10-31T14:27:07.497Z",
         "fullName": "Dr-TSNG/altdb",
         "repositoryId": 1368146952,
         "verified": "self"
@@ -3747,8 +3747,8 @@
         "versionCode": 20260926
       },
       "stars": {
-        "count": 857,
-        "fetchedAt": "2026-10-30T12:38:42.362Z",
+        "count": 858,
+        "fetchedAt": "2026-10-31T14:27:07.497Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -5384,8 +5384,8 @@
         "versionCode": 330
       },
       "stars": {
-        "count": 14,
-        "fetchedAt": "2026-10-30T12:52:18.696Z",
+        "count": 16,
+        "fetchedAt": "2026-10-31T14:27:07.497Z",
         "fullName": "KOWX712/ksu-webui-demo",
         "repositoryId": 979492994,
         "verified": "self"
@@ -7130,8 +7130,8 @@
         "versionCode": 110400403
       },
       "stars": {
-        "count": 11,
-        "fetchedAt": "2026-10-30T10:35:20.985Z",
+        "count": 15,
+        "fetchedAt": "2026-10-31T14:27:07.497Z",
         "fullName": "KyuubiRan/Shellscaled",
         "repositoryId": 1435874117,
         "verified": "self"
@@ -7372,8 +7372,8 @@
         "versionCode": 34
       },
       "stars": {
-        "count": 39,
-        "fetchedAt": "2026-10-29T02:15:55.761Z",
+        "count": 40,
+        "fetchedAt": "2026-10-31T14:27:07.497Z",
         "fullName": "mzggr0914/sidewire",
         "repositoryId": 1354975640,
         "verified": "self"
@@ -8053,8 +8053,8 @@
         "versionCode": 10126
       },
       "stars": {
-        "count": 81,
-        "fetchedAt": "2026-10-30T12:38:42.362Z",
+        "count": 93,
+        "fetchedAt": "2026-10-31T14:27:07.497Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
@@ -8781,8 +8781,8 @@
         "versionCode": 196
       },
       "stars": {
-        "count": 20,
-        "fetchedAt": "2026-10-30T09:41:10.106Z",
+        "count": 21,
+        "fetchedAt": "2026-10-31T14:27:07.497Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
@@ -9539,8 +9539,8 @@
         "versionCode": 864
       },
       "stars": {
-        "count": 997,
-        "fetchedAt": "2026-10-30T08:06:51.660Z",
+        "count": 999,
+        "fetchedAt": "2026-10-31T14:27:07.497Z",
         "fullName": "LSPosed/ZygiskNext",
         "repositoryId": 1377039457,
         "verified": "self"

@@ -39,7 +39,7 @@
       }
     },
     "Android_Nakedcore": {
-      "contentCommit": "5b6147336456b70eac40e4354be7fd587bd8eabe",
+      "contentCommit": "1528c6046fe9be4f8d41e7e74460fd0142153513",
       "fullName": "Bcorw/Android_Nakedcore",
       "health": "ok",
       "installation": "present",
@@ -48,12 +48,12 @@
       "message": null,
       "repositoryId": 1433508547,
       "request": {
-        "checkedAt": "2026-10-27T14:59:11.458Z",
-        "commit": "5b6147336456b70eac40e4354be7fd587bd8eabe",
+        "checkedAt": "2026-10-31T14:27:07.497Z",
+        "commit": "1528c6046fe9be4f8d41e7e74460fd0142153513",
         "issues": [],
-        "latestTag": "V1.1.1",
+        "latestTag": "V1.2.0",
         "ok": true,
-        "releaseId": 425604819,
+        "releaseId": 429984767,
         "repositoryId": 1433508547,
         "submissionId": "094dzvqdg0"
       },
@@ -77,11 +77,11 @@
       }
     },
     "CRecordEvolution": {
-      "contentCommit": "cdda2ce7156de6a2a3e78a16d1094ae2e8819721",
+      "contentCommit": "cfaeda44c67ee1cf423b00d6f6ea5d8e1a9a71de",
       "fullName": "f1owkang/CRecordEvolution",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-30T13:11:59.361Z",
+      "lastSuccessAt": "2026-10-31T14:27:07.497Z",
       "maxVersionCode": 36,
       "message": null,
       "repositoryId": 678049636,
@@ -254,7 +254,7 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "fcb77b9ef8f8cae583a4ea107dfd2d1dc6c13a14",
+      "contentCommit": "3ba877543c86839c2cde7c37471b4cc54a36c037",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
@@ -263,8 +263,8 @@
       "message": null,
       "repositoryId": 1296470014,
       "request": {
-        "checkedAt": "2026-10-30T05:29:59.634Z",
-        "commit": "fcb77b9ef8f8cae583a4ea107dfd2d1dc6c13a14",
+        "checkedAt": "2026-10-31T14:27:07.497Z",
+        "commit": "3ba877543c86839c2cde7c37471b4cc54a36c037",
         "issues": [],
         "latestTag": "v1.5.1",
         "ok": true,
@@ -885,7 +885,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "646c9abbd8f6c90b311ef2daba0dbf1a732d6c18",
+      "contentCommit": "494e2dd2c725d4f5f6e6f14af933680e7052e10d",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -894,8 +894,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-10-30T09:41:10.106Z",
-        "commit": "646c9abbd8f6c90b311ef2daba0dbf1a732d6c18",
+        "checkedAt": "2026-10-31T14:27:07.497Z",
+        "commit": "494e2dd2c725d4f5f6e6f14af933680e7052e10d",
         "issues": [],
         "latestTag": "v2.3.0-r18.6",
         "ok": true,
