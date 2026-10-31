@@ -653,11 +653,11 @@
       }
     },
     "magic_mount_rs": {
-      "contentCommit": "9fdb7d1e0ff0cebb057f4b415c3e283ca3084737",
+      "contentCommit": "f9cfa8b598e8f38eaa63c75cc2bee9b4d03be26f",
       "fullName": "Tools-cx-app/meta-magic_mount-rs",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-30T21:42:21.414Z",
+      "lastSuccessAt": "2026-10-31T03:18:20.361Z",
       "maxVersionCode": 401012,
       "message": null,
       "repositoryId": 1154057975,
