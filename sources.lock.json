@@ -643,8 +643,8 @@
         "versionCode": 761
       },
       "stars": {
-        "count": 419,
-        "fetchedAt": "2026-10-30T14:35:06.991Z",
+        "count": 423,
+        "fetchedAt": "2026-10-31T16:32:14.408Z",
         "fullName": "AlirezaParsi/COPG",
         "repositoryId": 950100740,
         "verified": "self"
@@ -2619,17 +2619,47 @@
       "fullName": "xiaoji0308/Steps",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-24T07:41:28.629Z",
-        "lastSuccessAt": "2026-10-24T07:41:28.629Z",
+        "lastAttemptAt": "2026-10-31T16:32:14.408Z",
+        "lastSuccessAt": "2026-10-31T16:32:14.408Z",
         "message": null,
         "status": "ok"
       },
       "id": "S-T-E-P-S",
       "installationId": 172438629,
-      "maxStableVersionCode": 20261024,
-      "maxVersionCode": 20261024,
+      "maxStableVersionCode": 20261101,
+      "maxVersionCode": 20261101,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:13694868ee37242f3f6cec2d1b5f95c79529fb5a8c49561cd70e1fd90987a8d4",
+            "id": 695884848,
+            "name": "26.1101.zip",
+            "sha256": "13694868ee37242f3f6cec2d1b5f95c79529fb5a8c49561cd70e1fd90987a8d4",
+            "size": 41160,
+            "url": "https://github.com/xiaoji0308/Steps/releases/download/1101/26.1101.zip"
+          },
+          "body": "26.1101   优化webui启动速度,启动方式\r\n26.1031   新增七日曲线    功能配置已迁移至新增配置页面   优化页面布局和数据显示\r\n26.1028   新增一键增加步数功能 提供一些预设和自定义选项，需二次确认防止误触",
+          "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1101",
+          "immutable": true,
+          "name": "智能步数管理26.1101",
+          "prerelease": false,
+          "prop": {
+            "author": "浠浠浠   原作者：阿巴酱丨小青泽",
+            "description": "自动增加步数",
+            "id": "S-T-E-P-S",
+            "name": "A-智能步数管理［HyperOS］",
+            "version": "1101",
+            "versionCode": "20261101",
+            "webuiIcon": "webroot/icon.svg"
+          },
+          "publishedAt": "2026-10-31T16:32:08Z",
+          "releaseId": 430051068,
+          "tag": "1101",
+          "tagCommit": "65ee31a04219ee45c5213cfdcee3be54185f3d44",
+          "version": "1101",
+          "versionCode": 20261101
+        },
         {
           "asset": {
             "digest": "sha256:44dbf55ae2054232caacc19bf81e2102ab43d746a5694eb7c7b54e4efce02b1c",
@@ -2688,37 +2718,41 @@
         "422588127": {
           "checkedAt": "2026-10-24T07:41:28.629Z",
           "ok": true
+        },
+        "430051068": {
+          "checkedAt": "2026-10-31T16:32:14.408Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:44dbf55ae2054232caacc19bf81e2102ab43d746a5694eb7c7b54e4efce02b1c",
-          "id": 671612393,
-          "name": "26.1024.zip",
-          "sha256": "44dbf55ae2054232caacc19bf81e2102ab43d746a5694eb7c7b54e4efce02b1c",
-          "size": 35594,
-          "url": "https://github.com/xiaoji0308/Steps/releases/download/1024/26.1024.zip"
+          "digest": "sha256:13694868ee37242f3f6cec2d1b5f95c79529fb5a8c49561cd70e1fd90987a8d4",
+          "id": 695884848,
+          "name": "26.1101.zip",
+          "sha256": "13694868ee37242f3f6cec2d1b5f95c79529fb5a8c49561cd70e1fd90987a8d4",
+          "size": 41160,
+          "url": "https://github.com/xiaoji0308/Steps/releases/download/1101/26.1101.zip"
         },
-        "body": "WebUI 界面优化：关闭开关时自动隐藏相关设置，开启后显示\r\n新增随机最终目标，可自定义步数范围\r\n支持工作日、周末独立设置\r\n优化 WebUI 设置显示与配置",
-        "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1024",
+        "body": "26.1101   优化webui启动速度,启动方式\r\n26.1031   新增七日曲线    功能配置已迁移至新增配置页面   优化页面布局和数据显示\r\n26.1028   新增一键增加步数功能 提供一些预设和自定义选项，需二次确认防止误触",
+        "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1101",
         "immutable": true,
-        "name": "智能步數管理26.1024",
+        "name": "智能步数管理26.1101",
         "prerelease": false,
         "prop": {
           "author": "浠浠浠   原作者：阿巴酱丨小青泽",
           "description": "自动增加步数",
           "id": "S-T-E-P-S",
           "name": "A-智能步数管理［HyperOS］",
-          "version": "1024",
-          "versionCode": "20261024",
+          "version": "1101",
+          "versionCode": "20261101",
           "webuiIcon": "webroot/icon.svg"
         },
-        "publishedAt": "2026-10-24T07:41:04Z",
-        "releaseId": 422588127,
-        "tag": "1024",
-        "tagCommit": "2debfa5349eddb640619238a3bcb1bc16cde4d99",
-        "version": "1024",
-        "versionCode": 20261024
+        "publishedAt": "2026-10-31T16:32:08Z",
+        "releaseId": 430051068,
+        "tag": "1101",
+        "tagCommit": "65ee31a04219ee45c5213cfdcee3be54185f3d44",
+        "version": "1101",
+        "versionCode": 20261101
       },
       "stars": {
         "count": 7,
@@ -4933,8 +4967,8 @@
         "versionCode": 602005999
       },
       "stars": {
-        "count": 1784,
-        "fetchedAt": "2026-10-30T14:35:06.991Z",
+        "count": 1788,
+        "fetchedAt": "2026-10-31T16:32:14.408Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
@@ -6678,8 +6712,8 @@
         "versionCode": 174
       },
       "stars": {
-        "count": 586,
-        "fetchedAt": "2026-10-30T14:51:32.299Z",
+        "count": 590,
+        "fetchedAt": "2026-10-31T16:32:14.408Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
@@ -6891,8 +6925,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4125,
-        "fetchedAt": "2026-10-30T14:35:06.991Z",
+        "count": 4134,
+        "fetchedAt": "2026-10-31T16:32:14.408Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
