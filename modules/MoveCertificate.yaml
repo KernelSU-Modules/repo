@@ -1,0 +1,19 @@
+id: MoveCertificate
+status: pending
+request:
+  submissionId: 7fiio5rh1k
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1227069536
+    ownerId: 22706022
+    fullName: ys1231/MoveCertificate-ksu
+    manifestPath: module.yaml
+  submittedBy: 22706022
+  submittedByLogin: ys1231
+  submittedAt: 2026-11-01T10:12:09.519Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64628
+createdAt: 2026-11-01T10:12:09.519Z
+updatedAt: 2026-11-01T10:12:09.519Z
