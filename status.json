@@ -370,7 +370,7 @@
       "stable": null
     },
     "cacerts_bind_manager": {
-      "contentCommit": "77d633225145480b527936b47b5e314d04c73115",
+      "contentCommit": "97f1b30e6c3acc8025ab92b209d3e2eed3ed0f01",
       "fullName": "jjh138792/System-CA-Manager",
       "health": "ok",
       "installation": "present",
@@ -379,8 +379,8 @@
       "message": null,
       "repositoryId": 1441594416,
       "request": {
-        "checkedAt": "2026-11-01T08:43:06.942Z",
-        "commit": "77d633225145480b527936b47b5e314d04c73115",
+        "checkedAt": "2026-11-01T09:03:49.659Z",
+        "commit": "97f1b30e6c3acc8025ab92b209d3e2eed3ed0f01",
         "issues": [],
         "latestTag": "V1.0.0",
         "ok": true,
@@ -716,7 +716,7 @@
       "fullName": "ahsaboy/magisk-netbird",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-01T08:57:21.333Z",
+      "lastSuccessAt": "2026-11-01T09:03:49.659Z",
       "maxVersionCode": 10412,
       "message": null,
       "repositoryId": 1274372941,
