@@ -1,0 +1,19 @@
+id: auriya
+status: pending
+request:
+  submissionId: ay7w0zi22u
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1081222414
+    ownerId: 94319420
+    fullName: pavelc4/auriya
+    manifestPath: module.yaml
+  submittedBy: 94319420
+  submittedByLogin: pavelc4
+  submittedAt: 2026-11-01T12:08:24.112Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64629
+createdAt: 2026-11-01T12:08:24.112Z
+updatedAt: 2026-11-01T12:08:24.112Z
