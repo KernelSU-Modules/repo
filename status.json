@@ -567,6 +567,27 @@
       },
       "stable": null
     },
+    "gs_quick_reload": {
+      "contentCommit": "1a376f462f1bdd1265e5c5713849848b6d9ef129",
+      "fullName": "CodeFishK/gs-quick-reload",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1441423217,
+      "request": {
+        "checkedAt": "2026-11-01T02:53:26.394Z",
+        "commit": "1a376f462f1bdd1265e5c5713849848b6d9ef129",
+        "issues": [],
+        "latestTag": "v2.1.0",
+        "ok": true,
+        "releaseId": 430324216,
+        "repositoryId": 1441423217,
+        "submissionId": "i0j4r4sbux"
+      },
+      "stable": null
+    },
     "hybrid_mount": {
       "contentCommit": "89f328fd945c72794a6505d779f6d85834d131a3",
       "fullName": "Hybrid-Mount/meta-hybrid_mount",
