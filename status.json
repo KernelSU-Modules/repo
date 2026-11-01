@@ -173,6 +173,27 @@
       "request": null,
       "stable": null
     },
+    "MoveCertificate": {
+      "contentCommit": "4d845ba8156453ef0852e5f06c671d98548f16cf",
+      "fullName": "ys1231/MoveCertificate-ksu",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1227069536,
+      "request": {
+        "checkedAt": "2026-11-01T10:12:29.247Z",
+        "commit": "4d845ba8156453ef0852e5f06c671d98548f16cf",
+        "issues": [],
+        "latestTag": "v1.6.2",
+        "ok": true,
+        "releaseId": 381285049,
+        "repositoryId": 1227069536,
+        "submissionId": "7fiio5rh1k"
+      },
+      "stable": null
+    },
     "QSC_Battery": {
       "contentCommit": "01a74170c68e7a994960a63bfbe49575a7c86aa0",
       "fullName": "Eikeitsu/QSC-Battery",
@@ -644,11 +665,11 @@
       }
     },
     "ksuGrantToast": {
-      "contentCommit": "4df7947b9581e11e5c43cf6ddfb3ca2fedf11fa3",
+      "contentCommit": "f824d0e3b7f10da76c4adc91b3585c38ece6371f",
       "fullName": "NativeStar/KernelSUGrantToast",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-24T08:18:31.280Z",
+      "lastSuccessAt": "2026-11-01T10:12:29.247Z",
       "maxVersionCode": 15,
       "message": null,
       "repositoryId": 1205795668,
