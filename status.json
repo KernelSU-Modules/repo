@@ -463,12 +463,12 @@
       }
     },
     "duck-toolbox": {
-      "contentCommit": "8899c332988da68ad08de07808631361251b6b46",
+      "contentCommit": "811649a9e0ff77af95bd6e8f3f8a46808b720c67",
       "fullName": "eltavine/Duck-ToolBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-31T08:14:15.190Z",
-      "maxVersionCode": 137,
+      "lastSuccessAt": "2026-11-01T06:52:06.357Z",
+      "maxVersionCode": 144,
       "message": null,
       "repositoryId": 1196357682,
       "request": null,
@@ -742,11 +742,11 @@
       }
     },
     "oh_my_keymint": {
-      "contentCommit": "d43cb017041971e207778efadc19d509fa5a32cc",
+      "contentCommit": "7ef41b037e1ac0554ec6b6d1c38f6db457b00684",
       "fullName": "qwq233/OhMyKeymint",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-30T14:51:32.299Z",
+      "lastSuccessAt": "2026-11-01T06:52:06.357Z",
       "maxVersionCode": 174,
       "message": null,
       "repositoryId": 1068442938,
