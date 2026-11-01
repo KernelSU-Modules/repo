@@ -395,21 +395,17 @@
       "fullName": "jjh138792/System-CA-Manager",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-01T11:30:58.490Z",
+      "maxVersionCode": 100,
       "message": null,
       "repositoryId": 1441594416,
-      "request": {
-        "checkedAt": "2026-11-01T09:03:49.659Z",
-        "commit": "97f1b30e6c3acc8025ab92b209d3e2eed3ed0f01",
-        "issues": [],
-        "latestTag": "V1.0.0",
-        "ok": true,
-        "releaseId": 430444212,
-        "repositoryId": 1441594416,
-        "submissionId": "bla5u2msx2"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-01T09:13:50Z",
+        "tag": "V1.0.0",
+        "version": "v1.0.0",
+        "versionCode": 100
+      }
     },
     "chargebypasscap-pmi": {
       "contentCommit": "b02b176556042fd48e66b7f771d502b51785cfbd",
