@@ -973,16 +973,16 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-31T16:50:47.430Z",
-      "maxVersionCode": 269,
+      "lastSuccessAt": "2026-11-01T01:56:56.613Z",
+      "maxVersionCode": 271,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-31T16:50:22Z",
-        "tag": "v2.10.0",
-        "version": "v2.10.0 (269-97c893f-release)",
-        "versionCode": 269
+        "publishedAt": "2026-11-01T01:56:35Z",
+        "tag": "v2.10.1",
+        "version": "v2.10.1 (271-97484e1-release)",
+        "versionCode": 271
       }
     },
     "zygisksu": {
