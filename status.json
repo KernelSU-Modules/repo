@@ -22,11 +22,11 @@
       "stable": null
     },
     "AZenith": {
-      "contentCommit": "51076b4eee039a69f164b30abc99d7cab8e37f59",
+      "contentCommit": "993a78e02d3085ce019bb8357faaf3ea3796b554",
       "fullName": "Liliya2727/AZenith",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-23T14:46:54.062Z",
+      "lastSuccessAt": "2026-11-01T08:43:06.942Z",
       "maxVersionCode": 2049,
       "message": null,
       "repositoryId": 937420284,
@@ -366,6 +366,27 @@
         "releaseId": 428719131,
         "repositoryId": 1437404105,
         "submissionId": "k5g517b2hp"
+      },
+      "stable": null
+    },
+    "cacerts_bind_manager": {
+      "contentCommit": "77d633225145480b527936b47b5e314d04c73115",
+      "fullName": "jjh138792/System-CA-Manager",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1441594416,
+      "request": {
+        "checkedAt": "2026-11-01T08:43:06.942Z",
+        "commit": "77d633225145480b527936b47b5e314d04c73115",
+        "issues": [],
+        "latestTag": "V1.0.0",
+        "ok": true,
+        "releaseId": 430444212,
+        "repositoryId": 1441594416,
+        "submissionId": "bla5u2msx2"
       },
       "stable": null
     },

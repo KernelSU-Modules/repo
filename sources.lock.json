@@ -3,14 +3,14 @@
     "AZenith": {
       "content": {
         "blobs": {
-          "README.md": "878de287387a78e011b8254fa2b2fe564fb01973",
+          "README.md": "2eeffe9286ef33d370b9ee912ee6ee6096260de7",
           "logo.jpg": "d40c33fde33b1373ccd3594e446b4c5922164f3c",
           "module.yaml": "1742bf53efd068d7a0fa529962f9c0ace0c80618"
         },
-        "commit": "51076b4eee039a69f164b30abc99d7cab8e37f59",
-        "fetchedAt": "2026-10-16T14:51:49.717Z",
+        "commit": "993a78e02d3085ce019bb8357faaf3ea3796b554",
+        "fetchedAt": "2026-11-01T08:43:06.942Z",
         "files": {
-          "README.md": "4295a510ada1b76a2b76d306c512f50db2f2cd85eab72ab9b4bdf6a34aa890db",
+          "README.md": "5098e457d2cacb7a13a75296d6709fba25a0868c268d875a520fb0c30b6a04fd",
           "logo.jpg": "1e142f7a865af89dc6c370732f40893317ba2217611611f179c00eccf360ceb7",
           "module.yaml": "1122a63b61901a7ad1d21a03108145d280b694c05a4166c43b626f2ed12935c1"
         },
@@ -20,8 +20,8 @@
       "fullName": "Liliya2727/AZenith",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-23T14:46:54.062Z",
-        "lastSuccessAt": "2026-10-23T14:46:54.062Z",
+        "lastAttemptAt": "2026-11-01T08:43:06.942Z",
+        "lastSuccessAt": "2026-11-01T08:43:06.942Z",
         "message": null,
         "status": "ok"
       },
@@ -1181,8 +1181,8 @@
         "versionCode": 50107
       },
       "stars": {
-        "count": 45,
-        "fetchedAt": "2026-10-31T07:26:15.502Z",
+        "count": 46,
+        "fetchedAt": "2026-11-01T08:43:06.942Z",
         "fullName": "Eikeitsu/CertBridge",
         "repositoryId": 1306329220,
         "verified": "self"
@@ -6369,8 +6369,8 @@
         "versionCode": 1090
       },
       "stars": {
-        "count": 1314,
-        "fetchedAt": "2026-10-31T08:14:15.190Z",
+        "count": 1316,
+        "fetchedAt": "2026-11-01T08:43:06.942Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -8531,8 +8531,8 @@
         "versionCode": 573
       },
       "stars": {
-        "count": 11,
-        "fetchedAt": "2026-10-31T07:26:15.502Z",
+        "count": 12,
+        "fetchedAt": "2026-11-01T08:43:06.942Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
