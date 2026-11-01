@@ -359,7 +359,7 @@
       }
     },
     "auriya": {
-      "contentCommit": "9d21b11e134530cd4c8ebfff9d4ad70714bc17bf",
+      "contentCommit": "f83ec427dbe786e8bf6aa41634b4ec9920e68aae",
       "fullName": "pavelc4/auriya",
       "health": "ok",
       "installation": "present",
@@ -368,8 +368,8 @@
       "message": null,
       "repositoryId": 1081222414,
       "request": {
-        "checkedAt": "2026-11-01T12:08:47.732Z",
-        "commit": "9d21b11e134530cd4c8ebfff9d4ad70714bc17bf",
+        "checkedAt": "2026-11-01T15:37:02.342Z",
+        "commit": "f83ec427dbe786e8bf6aa41634b4ec9920e68aae",
         "issues": [],
         "latestTag": "v2.2.0",
         "ok": true,
@@ -1002,16 +1002,16 @@
       "fullName": "Rouyashiki/YukiZygisk",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-31T23:28:37.062Z",
-      "maxVersionCode": 10127,
+      "lastSuccessAt": "2026-11-01T15:37:02.342Z",
+      "maxVersionCode": 10131,
       "message": null,
       "repositoryId": 1297024368,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-31T23:28:13Z",
-        "tag": "ci-41252401185",
-        "version": "v0.2.0-10127",
-        "versionCode": 10127
+        "publishedAt": "2026-11-01T15:36:43Z",
+        "tag": "ci-41321817309",
+        "version": "v0.3.0-10131",
+        "versionCode": 10131
       }
     },
     "zygisk-sui": {
