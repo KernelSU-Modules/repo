@@ -1,19 +1,23 @@
 id: cacerts_bind_manager
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1441594416
+  ownerId: 214230890
+  fullName: jjh138792/System-CA-Manager
+  manifestPath: module.yaml
+review:
   submissionId: bla5u2msx2
   kind: submit
-  source:
-    host: github
-    repositoryId: 1441594416
-    ownerId: 214230890
-    fullName: jjh138792/System-CA-Manager
-    manifestPath: module.yaml
   submittedBy: 214230890
-  submittedByLogin: jjh138792
   submittedAt: 2026-11-01T08:42:43.616Z
+  decision: approved
+  decidedBy: 5022927
+  decidedVia: telegram
+  decidedAt: 2026-11-01T11:30:32.680Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64627
 createdAt: 2026-11-01T08:42:43.616Z
-updatedAt: 2026-11-01T08:42:43.616Z
+updatedAt: 2026-11-01T11:30:32.680Z
