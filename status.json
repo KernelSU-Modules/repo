@@ -358,6 +358,27 @@
         "versionCode": 100
       }
     },
+    "auriya": {
+      "contentCommit": "9d21b11e134530cd4c8ebfff9d4ad70714bc17bf",
+      "fullName": "pavelc4/auriya",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1081222414,
+      "request": {
+        "checkedAt": "2026-11-01T12:08:47.732Z",
+        "commit": "9d21b11e134530cd4c8ebfff9d4ad70714bc17bf",
+        "issues": [],
+        "latestTag": "v2.2.0",
+        "ok": true,
+        "releaseId": 430555288,
+        "repositoryId": 1081222414,
+        "submissionId": "ay7w0zi22u"
+      },
+      "stable": null
+    },
     "bypasscap": {
       "contentCommit": "c02ed97315f74547b13797b04b43032036ecea2f",
       "fullName": "9M2PJU/ChargeBypassCap",
