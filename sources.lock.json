@@ -3535,6 +3535,173 @@
         "verified": "self"
       }
     },
+    "auriya": {
+      "content": {
+        "blobs": {
+          "README.md": "19289f88873a7d8b25f627c9d9cd0c519cf582ac",
+          "doc/asset/config.png": "fe0eef250b12b957f5ce95fc88fe53d891d29452",
+          "doc/asset/cusztomi.png": "89866238ffb889a361e01bb3ef379e8002d93eac",
+          "doc/asset/floating.png": "6c237f7353930aef59bb878a4fd57697cf7c19a8",
+          "doc/asset/fps-result.png": "76d2e19b5461f718cac531ecaaa505ad872e42b4",
+          "doc/asset/fps.png": "94e84f4a12c93be2880957c196a1dade418fe551",
+          "doc/asset/game.png": "c9d54723548242e5d8422a8c922c04871ec61277",
+          "doc/asset/home.png": "d3a5b1c68716817599717023feb45509d62ed393",
+          "doc/asset/icon.png": "f181e0a1a7f52cfb30d2fc958006f1ca3220d240",
+          "doc/asset/settings.png": "71376bed790c6248ce8890ed08ea6bc32916dd78",
+          "doc/asset/tuing.png": "871b70526d1ab4df1a893a4dbc6a728608806ebc",
+          "module.yaml": "f31c0612aae983fbbd9f42178c474e616bd8fbf1"
+        },
+        "commit": "1619cb032d6dac2e59c781b8467aa67d55f75060",
+        "fetchedAt": "2026-11-02T10:38:05.122Z",
+        "files": {
+          "README.md": "cbe345dd344d93e563dceb413864514ec192eb82830029a09f38ab2dce295df1",
+          "doc/asset/config.png": "3a88aad0e746864b1c43e6b4cfd108b4ada22710a144a6b7fb984526b1849803",
+          "doc/asset/cusztomi.png": "79ede5281dc7dba7c5f9ed5fb15518696b566a317b04196063120f0518d5c593",
+          "doc/asset/floating.png": "c8b4f8b0285dc00d4238bb6631ba0b78f41f06ed99f72594e18144a6922ba529",
+          "doc/asset/fps-result.png": "8fde1579c170a73cfc70fc1d45be40f01b3b4a4dbb4f9fc32276ab50e7b790c9",
+          "doc/asset/fps.png": "ad6391eb731e988c9fd03d46e9a785e0ce1fe0042a343d676bfcc86feddf2a13",
+          "doc/asset/game.png": "3a2c52f2b09e3f9a2a952f91e36c23b5f37f806494686c5abb1e8afa338b845b",
+          "doc/asset/home.png": "ab756f7919bd4386254f4c54d108e40ce0c18e2c3b35b8c6440a67962022fbbc",
+          "doc/asset/icon.png": "fa21522f92290d3d4b50f633dc2c12f84370592f35a51d861afc75c0d3a7b2e9",
+          "doc/asset/settings.png": "e446744f464106f2f58dca179d10d0bcc3e9e16c772b5f174440e7d86e235f65",
+          "doc/asset/tuing.png": "c9cd4367c21a631f6c1857abbeb82c2e796d5169db91d27f548f96231c7eb5cf",
+          "module.yaml": "9bb04ee48b7dd63becbc9ceb98c2b7e24a365d87c0d448e5728a4a82b70239fc"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "pavelc4/auriya",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-02T10:38:05.122Z",
+        "lastSuccessAt": "2026-11-02T10:38:05.122Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "auriya",
+      "installationId": 174663539,
+      "maxStableVersionCode": 1,
+      "maxVersionCode": 1,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:bf1ac687fbbc2fb4283fe120f3a7451ee310c768ec6888e48cebe41aadf03cc0",
+            "id": 698224799,
+            "name": "auriya-2.2.0-1-9aef31b-release.zip",
+            "sha256": "bf1ac687fbbc2fb4283fe120f3a7451ee310c768ec6888e48cebe41aadf03cc0",
+            "size": 4019133,
+            "url": "https://github.com/pavelc4/auriya/releases/download/v2.2.0/auriya-2.2.0-1-9aef31b-release.zip"
+          },
+          "body": "## What's Changed\r\n* chore(deps): bump coil from 3.6.0 to 3.6.2 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/127\r\n* chore(deps): bump toml from 1.1.4+spec-1.1.0 to 1.1.5+spec-1.1.0 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/126\r\n* chore(deps): bump androidx.compose:compose-bom from 2026.08.00 to 2026.09.00 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/131\r\n* chore(deps): bump kotlin from 2.4.10 to 2.4.20 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/130\r\n* chore(deps): bump toml from 1.1.5+spec-1.1.0 to 1.1.6+spec-1.1.0 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/129\r\n* chore(deps): bump agp from 9.4.0 to 9.4.1 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/134\r\n* chore(deps): bump coil from 3.6.2 to 3.6.3 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/133\r\n* chore(deps): bump clap from 4.6.6 to 4.6.7 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/132\r\n* merge Staging into main by @pavelc4 in https://github.com/pavelc4/auriya/pull/135\r\n* chore(deps): bump androidx.core:core-ktx from 1.19.0 to 1.19.1 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/137\r\n* chore(deps): bump gradle-wrapper from 9.7.1 to 9.8.0 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/136\r\n* chore(deps): bump tokio from 1.53.1 to 1.53.2 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/139\r\n* chore(deps): bump libc from 0.2.189 to 0.2.190 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/138\r\n* chore(deps): bump serde_json from 1.0.151 to 1.0.154 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/140\r\n* chore(deps): bump gradle-wrapper from 9.8.0 to 9.8.1 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/143\r\n* chore(deps): bump toml from 1.1.6+spec-1.1.0 to 1.1.8+spec-1.1.0 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/141\r\n* chore(deps): bump kotlin from 2.4.20 to 2.4.21 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/142\r\n* merge Staging into main  by @pavelc4 in https://github.com/pavelc4/auriya/pull/144\r\n* chore(deps): bump agp from 9.4.1 to 9.5.0 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/149\r\n* chore(deps): bump gradle-wrapper from 9.8.1 to 9.8.2 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/148\r\n* chore(deps): bump androidx.datastore:datastore-preferences from 1.2.1 to 1.3.0 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/147\r\n* chore(deps): bump notify from 8.2.0 to 8.2.1 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/146\r\n\r\n\r\n**Full Changelog**: https://github.com/pavelc4/auriya/compare/v2.1.0...v2.2.0",
+          "htmlUrl": "https://github.com/pavelc4/auriya/releases/tag/v2.2.0",
+          "immutable": true,
+          "name": "v2.2.0",
+          "prerelease": false,
+          "prop": {
+            "author": "Pavelc4",
+            "description": "Ferris, let's goo!\nstatus: ready 🚀",
+            "id": "auriya",
+            "name": "Auriya",
+            "updateJson": "https://raw.githubusercontent.com/pavelc4/auriya/main/update.json",
+            "version": "2.2.0 (1-9aef31b-release)",
+            "versionCode": "1"
+          },
+          "publishedAt": "2026-11-01T12:03:05Z",
+          "releaseId": 430555288,
+          "tag": "v2.2.0",
+          "tagCommit": "9aef31b3acb3e7352e2231c3e5a2522c751a3c93",
+          "version": "2.2.0 (1-9aef31b-release)",
+          "versionCode": 1
+        }
+      ],
+      "repositoryId": 1081222414,
+      "seen": {
+        "267066898": {
+          "checkedAt": "2026-11-02T10:38:05.122Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "270767266": {
+          "checkedAt": "2026-11-02T10:38:05.122Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "272643659": {
+          "checkedAt": "2026-11-02T10:38:05.122Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "277618243": {
+          "checkedAt": "2026-11-02T10:38:05.122Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "299907051": {
+          "checkedAt": "2026-11-02T10:38:05.122Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "347465349": {
+          "checkedAt": "2026-11-02T10:38:05.122Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "382647830": {
+          "checkedAt": "2026-11-02T10:38:05.122Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "430555288": {
+          "checkedAt": "2026-11-02T10:38:05.122Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:bf1ac687fbbc2fb4283fe120f3a7451ee310c768ec6888e48cebe41aadf03cc0",
+          "id": 698224799,
+          "name": "auriya-2.2.0-1-9aef31b-release.zip",
+          "sha256": "bf1ac687fbbc2fb4283fe120f3a7451ee310c768ec6888e48cebe41aadf03cc0",
+          "size": 4019133,
+          "url": "https://github.com/pavelc4/auriya/releases/download/v2.2.0/auriya-2.2.0-1-9aef31b-release.zip"
+        },
+        "body": "## What's Changed\r\n* chore(deps): bump coil from 3.6.0 to 3.6.2 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/127\r\n* chore(deps): bump toml from 1.1.4+spec-1.1.0 to 1.1.5+spec-1.1.0 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/126\r\n* chore(deps): bump androidx.compose:compose-bom from 2026.08.00 to 2026.09.00 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/131\r\n* chore(deps): bump kotlin from 2.4.10 to 2.4.20 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/130\r\n* chore(deps): bump toml from 1.1.5+spec-1.1.0 to 1.1.6+spec-1.1.0 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/129\r\n* chore(deps): bump agp from 9.4.0 to 9.4.1 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/134\r\n* chore(deps): bump coil from 3.6.2 to 3.6.3 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/133\r\n* chore(deps): bump clap from 4.6.6 to 4.6.7 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/132\r\n* merge Staging into main by @pavelc4 in https://github.com/pavelc4/auriya/pull/135\r\n* chore(deps): bump androidx.core:core-ktx from 1.19.0 to 1.19.1 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/137\r\n* chore(deps): bump gradle-wrapper from 9.7.1 to 9.8.0 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/136\r\n* chore(deps): bump tokio from 1.53.1 to 1.53.2 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/139\r\n* chore(deps): bump libc from 0.2.189 to 0.2.190 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/138\r\n* chore(deps): bump serde_json from 1.0.151 to 1.0.154 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/140\r\n* chore(deps): bump gradle-wrapper from 9.8.0 to 9.8.1 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/143\r\n* chore(deps): bump toml from 1.1.6+spec-1.1.0 to 1.1.8+spec-1.1.0 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/141\r\n* chore(deps): bump kotlin from 2.4.20 to 2.4.21 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/142\r\n* merge Staging into main  by @pavelc4 in https://github.com/pavelc4/auriya/pull/144\r\n* chore(deps): bump agp from 9.4.1 to 9.5.0 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/149\r\n* chore(deps): bump gradle-wrapper from 9.8.1 to 9.8.2 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/148\r\n* chore(deps): bump androidx.datastore:datastore-preferences from 1.2.1 to 1.3.0 in /android by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/147\r\n* chore(deps): bump notify from 8.2.0 to 8.2.1 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/146\r\n\r\n\r\n**Full Changelog**: https://github.com/pavelc4/auriya/compare/v2.1.0...v2.2.0",
+        "htmlUrl": "https://github.com/pavelc4/auriya/releases/tag/v2.2.0",
+        "immutable": true,
+        "name": "v2.2.0",
+        "prerelease": false,
+        "prop": {
+          "author": "Pavelc4",
+          "description": "Ferris, let's goo!\nstatus: ready 🚀",
+          "id": "auriya",
+          "name": "Auriya",
+          "updateJson": "https://raw.githubusercontent.com/pavelc4/auriya/main/update.json",
+          "version": "2.2.0 (1-9aef31b-release)",
+          "versionCode": "1"
+        },
+        "publishedAt": "2026-11-01T12:03:05Z",
+        "releaseId": 430555288,
+        "tag": "v2.2.0",
+        "tagCommit": "9aef31b3acb3e7352e2231c3e5a2522c751a3c93",
+        "version": "2.2.0 (1-9aef31b-release)",
+        "versionCode": 1
+      },
+      "stars": {
+        "count": 29,
+        "fetchedAt": "2026-11-02T10:38:05.122Z",
+        "fullName": "pavelc4/auriya",
+        "repositoryId": 1081222414,
+        "verified": "self"
+      }
+    },
     "cacerts_bind_manager": {
       "content": {
         "blobs": {

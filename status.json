@@ -384,21 +384,17 @@
       "fullName": "pavelc4/auriya",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-02T10:38:05.122Z",
+      "maxVersionCode": 1,
       "message": null,
       "repositoryId": 1081222414,
-      "request": {
-        "checkedAt": "2026-11-02T03:18:18.583Z",
-        "commit": "1619cb032d6dac2e59c781b8467aa67d55f75060",
-        "issues": [],
-        "latestTag": "v2.2.0",
-        "ok": true,
-        "releaseId": 430555288,
-        "repositoryId": 1081222414,
-        "submissionId": "ay7w0zi22u"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-01T12:03:05Z",
+        "tag": "v2.2.0",
+        "version": "2.2.0 (1-9aef31b-release)",
+        "versionCode": 1
+      }
     },
     "bypasscap": {
       "contentCommit": "c02ed97315f74547b13797b04b43032036ecea2f",
