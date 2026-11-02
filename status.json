@@ -974,12 +974,12 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-02T03:49:52.153Z",
+        "checkedAt": "2026-11-02T04:00:24.318Z",
         "commit": "46590bbe08c6a095f57220cfcbf9d73d7891691a",
         "issues": [],
-        "latestTag": "v2.3.0-r18.7",
+        "latestTag": "v2.3.0-r18.6",
         "ok": true,
-        "releaseId": 431050949,
+        "releaseId": 428777235,
         "repositoryId": 1361441529,
         "submissionId": "dtus6of4l6"
       },
