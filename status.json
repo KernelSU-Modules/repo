@@ -911,11 +911,11 @@
       "stable": null
     },
     "shellscaled": {
-      "contentCommit": "98cd9bcdad8f0bfa44ab7f5a38e5cf62eb7a7ea2",
+      "contentCommit": "1b0d9799e3a55e4a985421fb19bfb3979509c5f8",
       "fullName": "KyuubiRan/Shellscaled",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-02T13:51:47.079Z",
+      "lastSuccessAt": "2026-11-02T14:38:07.010Z",
       "maxVersionCode": 110400413,
       "message": null,
       "repositoryId": 1435874117,

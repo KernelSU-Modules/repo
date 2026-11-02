@@ -7464,17 +7464,17 @@
     "shellscaled": {
       "content": {
         "blobs": {
-          "README.en.md": "0ba139a743e75843cc659e81c5e6872833112216",
+          "README.en.md": "e4f8e2ceabd3982469ecca92be0f5264f7711f79",
           "docs/images/webui-devices-en.png": "9317699791c08b2273ee9db020f8108aee96ce5c",
           "docs/images/webui-login-en.png": "be475da9785b195df05906ba0787a00aa037899a",
           "docs/images/webui-overview-en.png": "7948892e27f09fe8bde376700a4f918909d2b9a0",
           "docs/images/webui-settings-en.png": "284bf60a017df19eaa5ccff385ffeca6e772913a",
           "module.yaml": "313c0b4075ea01550b7abd53a46acc75a0e10bb7"
         },
-        "commit": "98cd9bcdad8f0bfa44ab7f5a38e5cf62eb7a7ea2",
-        "fetchedAt": "2026-10-28T07:28:06.396Z",
+        "commit": "1b0d9799e3a55e4a985421fb19bfb3979509c5f8",
+        "fetchedAt": "2026-11-02T14:38:07.010Z",
         "files": {
-          "README.en.md": "8fc72851494cacb4f64a72318a7e3efb3e11da80028ab95707d5234f9825be5d",
+          "README.en.md": "0cb16aad2177bb66d7f92eebafe3f651013b19b8a728d526dc1833289fa23ba7",
           "docs/images/webui-devices-en.png": "4d8e16ed448ad2295a675d9802167d2eeda1538f793c20abd5a230e049e8e175",
           "docs/images/webui-login-en.png": "2bf6c98bc054b3605240531d46a608ee22cb32e37d03adc2e31288fa147c195e",
           "docs/images/webui-overview-en.png": "7fc23f59ea6b1393d613f10d5ee7abef2db78ab80e148c9b501f996861d51171",
@@ -7487,8 +7487,8 @@
       "fullName": "KyuubiRan/Shellscaled",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-02T13:51:47.079Z",
-        "lastSuccessAt": "2026-11-02T13:51:47.079Z",
+        "lastAttemptAt": "2026-11-02T14:38:07.010Z",
+        "lastSuccessAt": "2026-11-02T14:38:07.010Z",
         "message": null,
         "status": "ok"
       },
