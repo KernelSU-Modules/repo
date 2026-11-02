@@ -246,20 +246,20 @@
       }
     },
     "SvcHub": {
-      "contentCommit": "09239641b1d0d93388e733534426706a35ff758d",
+      "contentCommit": "74e79172401630bc6cc00926345fd505d3225263",
       "fullName": "LimpidMo/SvcHub",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-23T15:07:37.882Z",
-      "maxVersionCode": 12,
+      "lastSuccessAt": "2026-11-02T02:22:28.855Z",
+      "maxVersionCode": 13,
       "message": null,
       "repositoryId": 1353509468,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-23T15:07:16Z",
-        "tag": "v1.4.2",
-        "version": "1.4.2",
-        "versionCode": 12
+        "publishedAt": "2026-11-02T02:22:05Z",
+        "tag": "v1.5.0",
+        "version": "1.5.0",
+        "versionCode": 13
       }
     },
     "VexZygisk": {

@@ -2799,26 +2799,26 @@
     "SvcHub": {
       "content": {
         "blobs": {
-          "README.md": "0bd4839be472497867f4faa5166d441d14a07ba9",
+          "README.md": "4d4cb618cfef8ce5cc279981d6944d3e7f77394e",
           "docs/public/images/01-status.png": "b612c745a6dedf1282543d66cb1d919cab02aad5",
           "docs/public/images/02-config.png": "e5fbf4567f8106eb8115d7a1b4d5a8477da3e63d",
           "docs/public/images/03-settings.png": "ff34f663f049830640e6f9119f55122420075d25",
           "docs/public/images/04-start_stop.png": "7b8e171702095f08e55d83ae24de0cb9d5928c58",
-          "docs/public/images/05-log.png": "d291f0da54ea9ef886773abeff006d8e9192f170",
-          "docs/public/images/06-login.png": "440f2d05a96db8264ef04aefba8301699e91e6b7",
+          "docs/public/images/05-update.png": "39ac558f9ee8a2721423574894cb0c772e6a7ef2",
+          "docs/public/images/06-log.png": "d291f0da54ea9ef886773abeff006d8e9192f170",
           "docs/public/images/icon.png": "ec00fadea2faf1703b248a7496a6cf0fdd52e26d",
           "module.yaml": "036cc3b6deed9ebae683b9184cfe918d6376aaed"
         },
-        "commit": "09239641b1d0d93388e733534426706a35ff758d",
-        "fetchedAt": "2026-10-21T11:00:06.604Z",
+        "commit": "74e79172401630bc6cc00926345fd505d3225263",
+        "fetchedAt": "2026-11-02T02:22:28.855Z",
         "files": {
-          "README.md": "f6d1a1b052c9e64443ceb2016d459ad1442a2f6026571ea023206465bcf6ac8f",
+          "README.md": "6d85bd1268c9d6f69d5f45e3179e60fd9315dcd9880a1a4e031ac9aef86ce70d",
           "docs/public/images/01-status.png": "3c84288e590ce6fa7aae6b3157148255ea6eb9ea57393ace689bb3d3190ac7ec",
           "docs/public/images/02-config.png": "b576031b33ba63d03143875f57be52d6fa4173c17d7dd7a33bf2d2d17eb8d612",
           "docs/public/images/03-settings.png": "f86764cce425410cb66d7a8316ec2937810ed457ac3975c81cb7a67af5e94269",
           "docs/public/images/04-start_stop.png": "b72ac713a90d7caf4b0d3583042850c7d62231d9e5ca19fdaa838deb0d3ea72b",
-          "docs/public/images/05-log.png": "a011cc5595767b9764099c43c4847182aab67f1cadbe80c93be752dee07421c9",
-          "docs/public/images/06-login.png": "89c36dd783f2dbbe533058974cd0924a6fce84711a73333d924cbbfd34fff5f5",
+          "docs/public/images/05-update.png": "2ca8e41a2740124ef29646be9c895ac0e747d22e14e56a7664a908e908ded6a6",
+          "docs/public/images/06-log.png": "a011cc5595767b9764099c43c4847182aab67f1cadbe80c93be752dee07421c9",
           "docs/public/images/icon.png": "0a2dfed188db2b04fc76b76ed420aa7e7d747f5c28b628b737196f94594e481a",
           "module.yaml": "20c51eab6601e6ccc5ab800feb066aa6f765f70a9cd1b3eefca55720535568a9"
         },
@@ -2828,17 +2828,47 @@
       "fullName": "LimpidMo/SvcHub",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-23T15:07:37.882Z",
-        "lastSuccessAt": "2026-10-23T15:07:37.882Z",
+        "lastAttemptAt": "2026-11-02T02:22:28.855Z",
+        "lastSuccessAt": "2026-11-02T02:22:28.855Z",
         "message": null,
         "status": "ok"
       },
       "id": "SvcHub",
       "installationId": 170178615,
-      "maxStableVersionCode": 12,
-      "maxVersionCode": 12,
+      "maxStableVersionCode": 13,
+      "maxVersionCode": 13,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:d70ec95ff68b158e3903d8443eb0e34a4a81786c81423045ad9ff75e13df2ee3",
+            "id": 700228928,
+            "name": "SvcHub-13-1.5.0.zip",
+            "sha256": "d70ec95ff68b158e3903d8443eb0e34a4a81786c81423045ad9ff75e13df2ee3",
+            "size": 147461,
+            "url": "https://github.com/LimpidMo/SvcHub/releases/download/v1.5.0/SvcHub-13-1.5.0.zip"
+          },
+          "body": "## [1.5.0] - 2026-11-02\n\n### Added\n- 新增二进制服务在线更新功能、支持 GitHub 仓库来源的二进制文件更新，设立每小时/天/周检查文件版本，可开启自动更新\n\n### Changed\n- 外部访问默认值按安装环境区分：Magisk 首次安装默认开启，其他管理器默认关闭\n- 外部访问首次登录强制修改默认密码，改密前业务接口全部拒绝；设新密码时禁止回设 admin\n\n### Fixed\n- 修复 Wi-Fi 名称含 emoji 等特殊字符时匹配失败的问题\n- 修复英文界面下安装提示偶发回退中文的问题\n- 修复个别情况下开机命令保存后被截断的问题\n\n",
+          "htmlUrl": "https://github.com/LimpidMo/SvcHub/releases/tag/v1.5.0",
+          "immutable": true,
+          "name": "SvcHub v1.5.0",
+          "prerelease": false,
+          "prop": {
+            "author": "LimpidMo",
+            "description": "开机自启和保活 Termux 服务与二进制服务，并提供定时/亮屏/ WIFI 启停服务和 WebUI 聚合管理",
+            "id": "SvcHub",
+            "name": "SvcHub",
+            "updateJson": "https://v4.gh-proxy.org/https://github.com/LimpidMo/SvcHub/releases/latest/download/update.json",
+            "version": "1.5.0",
+            "versionCode": "13"
+          },
+          "publishedAt": "2026-11-02T02:22:05Z",
+          "releaseId": 431007798,
+          "tag": "v1.5.0",
+          "tagCommit": "74e79172401630bc6cc00926345fd505d3225263",
+          "version": "1.5.0",
+          "versionCode": 13
+        },
         {
           "asset": {
             "digest": "sha256:1f970ee704fb9a0eca238dcc9d2adf946569aa87c5c319ebc82e6c952c80002b",
@@ -3053,21 +3083,25 @@
         "421983783": {
           "checkedAt": "2026-10-23T15:07:37.882Z",
           "ok": true
+        },
+        "431007798": {
+          "checkedAt": "2026-11-02T02:22:28.855Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:1f970ee704fb9a0eca238dcc9d2adf946569aa87c5c319ebc82e6c952c80002b",
-          "id": 669484470,
-          "name": "SvcHub-12-1.4.2.zip",
-          "sha256": "1f970ee704fb9a0eca238dcc9d2adf946569aa87c5c319ebc82e6c952c80002b",
-          "size": 112770,
-          "url": "https://github.com/LimpidMo/SvcHub/releases/download/v1.4.2/SvcHub-12-1.4.2.zip"
+          "digest": "sha256:d70ec95ff68b158e3903d8443eb0e34a4a81786c81423045ad9ff75e13df2ee3",
+          "id": 700228928,
+          "name": "SvcHub-13-1.5.0.zip",
+          "sha256": "d70ec95ff68b158e3903d8443eb0e34a4a81786c81423045ad9ff75e13df2ee3",
+          "size": 147461,
+          "url": "https://github.com/LimpidMo/SvcHub/releases/download/v1.5.0/SvcHub-13-1.5.0.zip"
         },
-        "body": "## [1.4.2] - 2026-10-23\n\n### Changed\n- 外部访问相关\n  - 优化外部访问响应速度\n  - 删除服务后确认弹窗立即关闭，保存转入后台执行，不再阻塞界面，失败回落\n\n### Fixed\n- 修复停止服务时等待时间过长的问题\n- 修复穿透后通过网页操作后掉登录的问题\n- 修复查看日志时刷新逻辑减少空转的问题\n\n",
-        "htmlUrl": "https://github.com/LimpidMo/SvcHub/releases/tag/v1.4.2",
+        "body": "## [1.5.0] - 2026-11-02\n\n### Added\n- 新增二进制服务在线更新功能、支持 GitHub 仓库来源的二进制文件更新，设立每小时/天/周检查文件版本，可开启自动更新\n\n### Changed\n- 外部访问默认值按安装环境区分：Magisk 首次安装默认开启，其他管理器默认关闭\n- 外部访问首次登录强制修改默认密码，改密前业务接口全部拒绝；设新密码时禁止回设 admin\n\n### Fixed\n- 修复 Wi-Fi 名称含 emoji 等特殊字符时匹配失败的问题\n- 修复英文界面下安装提示偶发回退中文的问题\n- 修复个别情况下开机命令保存后被截断的问题\n\n",
+        "htmlUrl": "https://github.com/LimpidMo/SvcHub/releases/tag/v1.5.0",
         "immutable": true,
-        "name": "SvcHub v1.4.2",
+        "name": "SvcHub v1.5.0",
         "prerelease": false,
         "prop": {
           "author": "LimpidMo",
@@ -3075,15 +3109,15 @@
           "id": "SvcHub",
           "name": "SvcHub",
           "updateJson": "https://v4.gh-proxy.org/https://github.com/LimpidMo/SvcHub/releases/latest/download/update.json",
-          "version": "1.4.2",
-          "versionCode": "12"
+          "version": "1.5.0",
+          "versionCode": "13"
         },
-        "publishedAt": "2026-10-23T15:07:16Z",
-        "releaseId": 421983783,
-        "tag": "v1.4.2",
-        "tagCommit": "609cc8601b99a407fb2910bdb74f1ccdc8f53f71",
-        "version": "1.4.2",
-        "versionCode": 12
+        "publishedAt": "2026-11-02T02:22:05Z",
+        "releaseId": 431007798,
+        "tag": "v1.5.0",
+        "tagCommit": "74e79172401630bc6cc00926345fd505d3225263",
+        "version": "1.5.0",
+        "versionCode": 13
       },
       "stars": {
         "count": 24,
