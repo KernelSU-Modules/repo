@@ -4555,8 +4555,8 @@
         "versionCode": 119
       },
       "stars": {
-        "count": 394,
-        "fetchedAt": "2026-11-01T06:52:06.357Z",
+        "count": 396,
+        "fetchedAt": "2026-11-02T07:11:45.766Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -6924,8 +6924,8 @@
         "versionCode": 174
       },
       "stars": {
-        "count": 593,
-        "fetchedAt": "2026-11-01T06:52:06.357Z",
+        "count": 599,
+        "fetchedAt": "2026-11-02T07:11:45.766Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
@@ -7170,28 +7170,28 @@
       "fullName": "KyuubiRan/Shellscaled",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-02T06:50:12.390Z",
-        "lastSuccessAt": "2026-11-02T06:50:12.390Z",
+        "lastAttemptAt": "2026-11-02T07:11:45.766Z",
+        "lastSuccessAt": "2026-11-02T07:11:45.766Z",
         "message": null,
         "status": "ok"
       },
       "id": "shellscaled",
       "installationId": 176083809,
       "maxStableVersionCode": 110400403,
-      "maxVersionCode": 110400406,
+      "maxVersionCode": 110400407,
       "prerelease": {
         "asset": {
-          "digest": "sha256:8e437e69b09e56be75ef9dc176db9642ebca170a3573ebefce4e3287c567f687",
-          "id": 700814640,
-          "name": "Shellscaled-1.104.4-r6-arm64.zip",
-          "sha256": "8e437e69b09e56be75ef9dc176db9642ebca170a3573ebefce4e3287c567f687",
-          "size": 13324331,
-          "url": "https://github.com/KyuubiRan/Shellscaled/releases/download/v1.104.4-r6/Shellscaled-1.104.4-r6-arm64.zip"
+          "digest": "sha256:5363a410e8cc577edeb811538d6e44229fe63fb6eb68d02e9730bd27804b31ed",
+          "id": 700864708,
+          "name": "Shellscaled-1.104.4-r7-arm64.zip",
+          "sha256": "5363a410e8cc577edeb811538d6e44229fe63fb6eb68d02e9730bd27804b31ed",
+          "size": 13325310,
+          "url": "https://github.com/KyuubiRan/Shellscaled/releases/download/v1.104.4-r7/Shellscaled-1.104.4-r7-arm64.zip"
         },
         "body": "Tailscale 1.104.4 for ARM64 Android (Magisk / KernelSU).\n\nDownload the ZIP, install it in your root manager, and reboot. Updating preserves your login and settings.\n\n[CLI source: android-v1.104.4-r5](https://github.com/KyuubiRan/tailscale-android-cli/releases/tag/android-v1.104.4-r5)\n",
-        "htmlUrl": "https://github.com/KyuubiRan/Shellscaled/releases/tag/v1.104.4-r6",
+        "htmlUrl": "https://github.com/KyuubiRan/Shellscaled/releases/tag/v1.104.4-r7",
         "immutable": true,
-        "name": "Shellscaled 1.104.4 (r6) RC",
+        "name": "Shellscaled 1.104.4 (r7) RC",
         "prerelease": true,
         "prop": {
           "architecture": "arm64",
@@ -7200,16 +7200,46 @@
           "id": "shellscaled",
           "name": "Shellscaled",
           "version": "1.104.4",
-          "versionCode": "110400406"
+          "versionCode": "110400407"
         },
-        "publishedAt": "2026-11-02T06:49:52Z",
-        "releaseId": 431146547,
-        "tag": "v1.104.4-r6",
-        "tagCommit": "146d52e112a3547f851387f34e021c6ca3466afa",
+        "publishedAt": "2026-11-02T07:11:28Z",
+        "releaseId": 431161215,
+        "tag": "v1.104.4-r7",
+        "tagCommit": "fcb36b91741a9d4c2b81100bd9e7e73d843545fd",
         "version": "1.104.4",
-        "versionCode": 110400406
+        "versionCode": 110400407
       },
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:5363a410e8cc577edeb811538d6e44229fe63fb6eb68d02e9730bd27804b31ed",
+            "id": 700864708,
+            "name": "Shellscaled-1.104.4-r7-arm64.zip",
+            "sha256": "5363a410e8cc577edeb811538d6e44229fe63fb6eb68d02e9730bd27804b31ed",
+            "size": 13325310,
+            "url": "https://github.com/KyuubiRan/Shellscaled/releases/download/v1.104.4-r7/Shellscaled-1.104.4-r7-arm64.zip"
+          },
+          "body": "Tailscale 1.104.4 for ARM64 Android (Magisk / KernelSU).\n\nDownload the ZIP, install it in your root manager, and reboot. Updating preserves your login and settings.\n\n[CLI source: android-v1.104.4-r5](https://github.com/KyuubiRan/tailscale-android-cli/releases/tag/android-v1.104.4-r5)\n",
+          "htmlUrl": "https://github.com/KyuubiRan/Shellscaled/releases/tag/v1.104.4-r7",
+          "immutable": true,
+          "name": "Shellscaled 1.104.4 (r7) RC",
+          "prerelease": true,
+          "prop": {
+            "architecture": "arm64",
+            "author": "KyuubiRan",
+            "description": "Tailscale for Android · Tailscale v1.104.4",
+            "id": "shellscaled",
+            "name": "Shellscaled",
+            "version": "1.104.4",
+            "versionCode": "110400407"
+          },
+          "publishedAt": "2026-11-02T07:11:28Z",
+          "releaseId": 431161215,
+          "tag": "v1.104.4-r7",
+          "tagCommit": "fcb36b91741a9d4c2b81100bd9e7e73d843545fd",
+          "version": "1.104.4",
+          "versionCode": 110400407
+        },
         {
           "asset": {
             "digest": "sha256:8e437e69b09e56be75ef9dc176db9642ebca170a3573ebefce4e3287c567f687",
@@ -7473,6 +7503,10 @@
         },
         "431146547": {
           "checkedAt": "2026-11-02T06:50:12.390Z",
+          "ok": true
+        },
+        "431161215": {
+          "checkedAt": "2026-11-02T07:11:45.766Z",
           "ok": true
         }
       },
