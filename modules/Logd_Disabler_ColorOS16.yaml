@@ -1,0 +1,19 @@
+id: Logd_Disabler_ColorOS16
+status: pending
+request:
+  submissionId: adow0l0qj9
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1214139400
+    ownerId: 32615040
+    fullName: starlifezzz/Logd_Disabler_ColorOS16
+    manifestPath: module.yaml
+  submittedBy: 32615040
+  submittedByLogin: starlifezzz
+  submittedAt: 2026-11-02T10:00:40.038Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64631
+createdAt: 2026-11-02T10:00:40.038Z
+updatedAt: 2026-11-02T10:00:40.038Z
