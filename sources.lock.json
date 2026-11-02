@@ -2799,7 +2799,7 @@
     "SvcHub": {
       "content": {
         "blobs": {
-          "README.md": "4d4cb618cfef8ce5cc279981d6944d3e7f77394e",
+          "README.md": "0b038ffa5bc4af6a3d23dcb6f5c1eb63c711d707",
           "docs/public/images/01-status.png": "b612c745a6dedf1282543d66cb1d919cab02aad5",
           "docs/public/images/02-config.png": "e5fbf4567f8106eb8115d7a1b4d5a8477da3e63d",
           "docs/public/images/03-settings.png": "ff34f663f049830640e6f9119f55122420075d25",
@@ -2807,12 +2807,12 @@
           "docs/public/images/05-update.png": "39ac558f9ee8a2721423574894cb0c772e6a7ef2",
           "docs/public/images/06-log.png": "d291f0da54ea9ef886773abeff006d8e9192f170",
           "docs/public/images/icon.png": "ec00fadea2faf1703b248a7496a6cf0fdd52e26d",
-          "module.yaml": "036cc3b6deed9ebae683b9184cfe918d6376aaed"
+          "module.yaml": "a04a2b948b0df55764d66360b705a1d3633c3c35"
         },
-        "commit": "74e79172401630bc6cc00926345fd505d3225263",
-        "fetchedAt": "2026-11-02T02:22:28.855Z",
+        "commit": "39876bd27ea57f9698afc779b982732cb02bd925",
+        "fetchedAt": "2026-11-02T05:02:41.659Z",
         "files": {
-          "README.md": "6d85bd1268c9d6f69d5f45e3179e60fd9315dcd9880a1a4e031ac9aef86ce70d",
+          "README.md": "2ba80ec0f95d00c17fa1153ac47e466b00fad66d05a4320fa2a5a632bdbabf1c",
           "docs/public/images/01-status.png": "3c84288e590ce6fa7aae6b3157148255ea6eb9ea57393ace689bb3d3190ac7ec",
           "docs/public/images/02-config.png": "b576031b33ba63d03143875f57be52d6fa4173c17d7dd7a33bf2d2d17eb8d612",
           "docs/public/images/03-settings.png": "f86764cce425410cb66d7a8316ec2937810ed457ac3975c81cb7a67af5e94269",
@@ -2820,7 +2820,7 @@
           "docs/public/images/05-update.png": "2ca8e41a2740124ef29646be9c895ac0e747d22e14e56a7664a908e908ded6a6",
           "docs/public/images/06-log.png": "a011cc5595767b9764099c43c4847182aab67f1cadbe80c93be752dee07421c9",
           "docs/public/images/icon.png": "0a2dfed188db2b04fc76b76ed420aa7e7d747f5c28b628b737196f94594e481a",
-          "module.yaml": "20c51eab6601e6ccc5ab800feb066aa6f765f70a9cd1b3eefca55720535568a9"
+          "module.yaml": "98e48ab131db0d026210b67a1f4a44ef7b3176e51f666435deae467ae14a58ad"
         },
         "manifestPath": "module.yaml",
         "ref": "master"
@@ -2828,8 +2828,8 @@
       "fullName": "LimpidMo/SvcHub",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-02T02:22:28.855Z",
-        "lastSuccessAt": "2026-11-02T02:22:28.855Z",
+        "lastAttemptAt": "2026-11-02T05:02:41.659Z",
+        "lastSuccessAt": "2026-11-02T05:02:41.659Z",
         "message": null,
         "status": "ok"
       },
