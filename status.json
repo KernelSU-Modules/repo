@@ -622,6 +622,27 @@
       },
       "stable": null
     },
+    "genshin_bootanim": {
+      "contentCommit": "234b46d8bb256fdc151e1e1f4e02c7604e0d21f6",
+      "fullName": "kingsznhone/genshin-bootanimation",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1443473635,
+      "request": {
+        "checkedAt": "2026-11-02T23:02:23.038Z",
+        "commit": "234b46d8bb256fdc151e1e1f4e02c7604e0d21f6",
+        "issues": [],
+        "latestTag": "1.0.0",
+        "ok": true,
+        "releaseId": 432059067,
+        "repositoryId": 1443473635,
+        "submissionId": "xah5wbhbuy"
+      },
+      "stable": null
+    },
     "gitmigrator": {
       "contentCommit": "fa9d088cbbd5eab365a0cd7406399f60ec2a8091",
       "fullName": "privshell/GitMigrator-KSU",
