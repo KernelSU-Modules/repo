@@ -965,7 +965,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "494e2dd2c725d4f5f6e6f14af933680e7052e10d",
+      "contentCommit": "46590bbe08c6a095f57220cfcbf9d73d7891691a",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -974,8 +974,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-10-31T14:27:07.497Z",
-        "commit": "494e2dd2c725d4f5f6e6f14af933680e7052e10d",
+        "checkedAt": "2026-11-02T03:48:52.749Z",
+        "commit": "46590bbe08c6a095f57220cfcbf9d73d7891691a",
         "issues": [],
         "latestTag": "v2.3.0-r18.6",
         "ok": true,
