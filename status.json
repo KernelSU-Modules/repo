@@ -144,6 +144,27 @@
         "versionCode": 30042
       }
     },
+    "Logd_Disabler_ColorOS16": {
+      "contentCommit": "b6f38100fe4aeb36ccc2e65b7d6739b997608b09",
+      "fullName": "starlifezzz/Logd_Disabler_ColorOS16",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1214139400,
+      "request": {
+        "checkedAt": "2026-11-02T10:01:08.288Z",
+        "commit": "b6f38100fe4aeb36ccc2e65b7d6739b997608b09",
+        "issues": [],
+        "latestTag": "v2.3.23",
+        "ok": true,
+        "releaseId": 431284238,
+        "repositoryId": 1214139400,
+        "submissionId": "adow0l0qj9"
+      },
+      "stable": null
+    },
     "MagicNet": {
       "contentCommit": "f0a8f6a255b87245430e96fc2eb5783376ae7c9f",
       "fullName": "LIghtJUNction/MagicNet",

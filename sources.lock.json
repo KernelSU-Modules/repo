@@ -3147,8 +3147,8 @@
       "seen": {},
       "stable": null,
       "stars": {
-        "count": 83,
-        "fetchedAt": "2026-10-29T03:18:37.637Z",
+        "count": 84,
+        "fetchedAt": "2026-11-02T10:01:08.288Z",
         "fullName": "LxyaoX/VexZygisk",
         "repositoryId": 1305247883,
         "verified": "self"
@@ -6577,8 +6577,8 @@
         "versionCode": 1090
       },
       "stars": {
-        "count": 1316,
-        "fetchedAt": "2026-11-01T08:43:06.942Z",
+        "count": 1321,
+        "fetchedAt": "2026-11-02T10:01:08.288Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -8984,8 +8984,8 @@
         "versionCode": 573
       },
       "stars": {
-        "count": 12,
-        "fetchedAt": "2026-11-01T08:43:06.942Z",
+        "count": 13,
+        "fetchedAt": "2026-11-02T10:01:08.288Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
