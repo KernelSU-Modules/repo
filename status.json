@@ -275,7 +275,7 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "821e3d4ea3cccc132a9e4902ac644f50dcdc0b1f",
+      "contentCommit": "5a4eb54438c08d109a9289168071a18d8ee913c6",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
@@ -284,8 +284,8 @@
       "message": null,
       "repositoryId": 1296470014,
       "request": {
-        "checkedAt": "2026-11-02T03:18:18.583Z",
-        "commit": "821e3d4ea3cccc132a9e4902ac644f50dcdc0b1f",
+        "checkedAt": "2026-11-02T07:49:16.886Z",
+        "commit": "5a4eb54438c08d109a9289168071a18d8ee913c6",
         "issues": [],
         "latestTag": "v1.5.1",
         "ok": true,
@@ -902,8 +902,8 @@
       "fullName": "KyuubiRan/Shellscaled",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-02T07:36:53.292Z",
-      "maxVersionCode": 110400408,
+      "lastSuccessAt": "2026-11-02T07:49:16.886Z",
+      "maxVersionCode": 110400409,
       "message": null,
       "repositoryId": 1435874117,
       "request": null,
