@@ -1,19 +1,23 @@
 id: gs_quick_reload
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1441423217
+  ownerId: 38446347
+  fullName: CodeFishK/gs-quick-reload
+  manifestPath: module.yaml
+review:
   submissionId: i0j4r4sbux
   kind: submit
-  source:
-    host: github
-    repositoryId: 1441423217
-    ownerId: 38446347
-    fullName: CodeFishK/gs-quick-reload
-    manifestPath: module.yaml
   submittedBy: 38446347
-  submittedByLogin: CodeFishK
   submittedAt: 2026-11-01T02:52:59.300Z
+  decision: approved
+  decidedBy: 52071314
+  decidedVia: telegram
+  decidedAt: 2026-11-02T10:36:23.010Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64626
 createdAt: 2026-11-01T02:52:59.300Z
-updatedAt: 2026-11-01T02:52:59.300Z
+updatedAt: 2026-11-02T10:36:23.010Z
