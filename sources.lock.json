@@ -7555,28 +7555,28 @@
       "fullName": "KyuubiRan/Shellscaled",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-03T05:21:45.287Z",
-        "lastSuccessAt": "2026-11-03T05:21:45.287Z",
+        "lastAttemptAt": "2026-11-03T05:23:29.725Z",
+        "lastSuccessAt": "2026-11-03T05:23:29.725Z",
         "message": null,
         "status": "ok"
       },
       "id": "shellscaled",
       "installationId": 176083809,
       "maxStableVersionCode": 110400414,
-      "maxVersionCode": 110400500,
+      "maxVersionCode": 110400501,
       "prerelease": {
         "asset": {
-          "digest": "sha256:79f147aaecc29e8ba586c86e55789dcd748c9397487d58777ae5e06f9b0d0dc2",
-          "id": 704414039,
-          "name": "Shellscaled-1.104.5-r0-arm64.zip",
-          "sha256": "79f147aaecc29e8ba586c86e55789dcd748c9397487d58777ae5e06f9b0d0dc2",
-          "size": 13452081,
-          "url": "https://github.com/KyuubiRan/Shellscaled/releases/download/v1.104.5-r0/Shellscaled-1.104.5-r0-arm64.zip"
+          "digest": "sha256:e6a99fe4e628c4c5f780f5c8495ba62ab4e84f916a8c15404c3d7520d367c68a",
+          "id": 704417500,
+          "name": "Shellscaled-1.104.5-r1-arm64.zip",
+          "sha256": "e6a99fe4e628c4c5f780f5c8495ba62ab4e84f916a8c15404c3d7520d367c68a",
+          "size": 13452077,
+          "url": "https://github.com/KyuubiRan/Shellscaled/releases/download/v1.104.5-r1/Shellscaled-1.104.5-r1-arm64.zip"
         },
         "body": "Tailscale 1.104.5 for ARM64 Android (Magisk / KernelSU).\n\nDownload the ZIP, install it in your root manager, and reboot. Updating preserves your login and settings.\n\n[CLI source: android-v1.104.5-dev.9](https://github.com/KyuubiRan/tailscale-android-cli/releases/tag/android-v1.104.5-dev.9)\n",
-        "htmlUrl": "https://github.com/KyuubiRan/Shellscaled/releases/tag/v1.104.5-r0",
+        "htmlUrl": "https://github.com/KyuubiRan/Shellscaled/releases/tag/v1.104.5-r1",
         "immutable": true,
-        "name": "Shellscaled 1.104.5 (r0) RC",
+        "name": "Shellscaled 1.104.5 (r1) RC",
         "prerelease": true,
         "prop": {
           "architecture": "arm64",
@@ -7585,16 +7585,46 @@
           "id": "shellscaled",
           "name": "Shellscaled",
           "version": "1.104.5",
-          "versionCode": "110400500"
+          "versionCode": "110400501"
         },
-        "publishedAt": "2026-11-03T05:21:28Z",
-        "releaseId": 432306750,
-        "tag": "v1.104.5-r0",
-        "tagCommit": "d0a70579065df01711c8fdefd85479d0ebd9eb3c",
+        "publishedAt": "2026-11-03T05:22:55Z",
+        "releaseId": 432307537,
+        "tag": "v1.104.5-r1",
+        "tagCommit": "e9fd7361cbfd458da9eb1e30e7e70dc5acbbecff",
         "version": "1.104.5",
-        "versionCode": 110400500
+        "versionCode": 110400501
       },
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:e6a99fe4e628c4c5f780f5c8495ba62ab4e84f916a8c15404c3d7520d367c68a",
+            "id": 704417500,
+            "name": "Shellscaled-1.104.5-r1-arm64.zip",
+            "sha256": "e6a99fe4e628c4c5f780f5c8495ba62ab4e84f916a8c15404c3d7520d367c68a",
+            "size": 13452077,
+            "url": "https://github.com/KyuubiRan/Shellscaled/releases/download/v1.104.5-r1/Shellscaled-1.104.5-r1-arm64.zip"
+          },
+          "body": "Tailscale 1.104.5 for ARM64 Android (Magisk / KernelSU).\n\nDownload the ZIP, install it in your root manager, and reboot. Updating preserves your login and settings.\n\n[CLI source: android-v1.104.5-dev.9](https://github.com/KyuubiRan/tailscale-android-cli/releases/tag/android-v1.104.5-dev.9)\n",
+          "htmlUrl": "https://github.com/KyuubiRan/Shellscaled/releases/tag/v1.104.5-r1",
+          "immutable": true,
+          "name": "Shellscaled 1.104.5 (r1) RC",
+          "prerelease": true,
+          "prop": {
+            "architecture": "arm64",
+            "author": "KyuubiRan",
+            "description": "Tailscale for Android · Tailscale v1.104.5",
+            "id": "shellscaled",
+            "name": "Shellscaled",
+            "version": "1.104.5",
+            "versionCode": "110400501"
+          },
+          "publishedAt": "2026-11-03T05:22:55Z",
+          "releaseId": 432307537,
+          "tag": "v1.104.5-r1",
+          "tagCommit": "e9fd7361cbfd458da9eb1e30e7e70dc5acbbecff",
+          "version": "1.104.5",
+          "versionCode": 110400501
+        },
         {
           "asset": {
             "digest": "sha256:79f147aaecc29e8ba586c86e55789dcd748c9397487d58777ae5e06f9b0d0dc2",
@@ -7864,36 +7894,6 @@
           "tagCommit": "fcb36b91741a9d4c2b81100bd9e7e73d843545fd",
           "version": "1.104.4",
           "versionCode": 110400407
-        },
-        {
-          "asset": {
-            "digest": "sha256:8e437e69b09e56be75ef9dc176db9642ebca170a3573ebefce4e3287c567f687",
-            "id": 700814640,
-            "name": "Shellscaled-1.104.4-r6-arm64.zip",
-            "sha256": "8e437e69b09e56be75ef9dc176db9642ebca170a3573ebefce4e3287c567f687",
-            "size": 13324331,
-            "url": "https://github.com/KyuubiRan/Shellscaled/releases/download/v1.104.4-r6/Shellscaled-1.104.4-r6-arm64.zip"
-          },
-          "body": "Tailscale 1.104.4 for ARM64 Android (Magisk / KernelSU).\n\nDownload the ZIP, install it in your root manager, and reboot. Updating preserves your login and settings.\n\n[CLI source: android-v1.104.4-r5](https://github.com/KyuubiRan/tailscale-android-cli/releases/tag/android-v1.104.4-r5)\n",
-          "htmlUrl": "https://github.com/KyuubiRan/Shellscaled/releases/tag/v1.104.4-r6",
-          "immutable": true,
-          "name": "Shellscaled 1.104.4 (r6) RC",
-          "prerelease": true,
-          "prop": {
-            "architecture": "arm64",
-            "author": "KyuubiRan",
-            "description": "Tailscale for Android · Tailscale v1.104.4",
-            "id": "shellscaled",
-            "name": "Shellscaled",
-            "version": "1.104.4",
-            "versionCode": "110400406"
-          },
-          "publishedAt": "2026-11-02T06:49:52Z",
-          "releaseId": 431146547,
-          "tag": "v1.104.4-r6",
-          "tagCommit": "146d52e112a3547f851387f34e021c6ca3466afa",
-          "version": "1.104.4",
-          "versionCode": 110400406
         }
       ],
       "repositoryId": 1435874117,
@@ -7984,6 +7984,10 @@
         },
         "432306750": {
           "checkedAt": "2026-11-03T05:21:45.287Z",
+          "ok": true
+        },
+        "432307537": {
+          "checkedAt": "2026-11-03T05:23:29.725Z",
           "ok": true
         }
       },
