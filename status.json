@@ -623,7 +623,7 @@
       "stable": null
     },
     "genshin_bootanim": {
-      "contentCommit": "e3af01917187f1022bb92fbdbabe6f8bea57f1df",
+      "contentCommit": "0f990bdf51e7553baa60c0bb3479ddf40f09bf2b",
       "fullName": "kingsznhone/genshin-bootanimation",
       "health": "ok",
       "installation": "present",
@@ -632,12 +632,12 @@
       "message": null,
       "repositoryId": 1443473635,
       "request": {
-        "checkedAt": "2026-11-03T00:54:24.406Z",
-        "commit": "e3af01917187f1022bb92fbdbabe6f8bea57f1df",
+        "checkedAt": "2026-11-03T01:06:34.134Z",
+        "commit": "0f990bdf51e7553baa60c0bb3479ddf40f09bf2b",
         "issues": [],
-        "latestTag": "1.0.1",
+        "latestTag": "1.0.2",
         "ok": true,
-        "releaseId": 432131430,
+        "releaseId": 432139623,
         "repositoryId": 1443473635,
         "submissionId": "xah5wbhbuy"
       },
