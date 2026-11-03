@@ -3641,17 +3641,47 @@
       "fullName": "pavelc4/auriya",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-03T13:31:40.370Z",
-        "lastSuccessAt": "2026-11-03T13:31:40.370Z",
+        "lastAttemptAt": "2026-11-03T14:03:29.079Z",
+        "lastSuccessAt": "2026-11-03T14:03:29.079Z",
         "message": null,
         "status": "ok"
       },
       "id": "auriya",
       "installationId": 174663539,
-      "maxStableVersionCode": 867,
-      "maxVersionCode": 867,
+      "maxStableVersionCode": 870,
+      "maxVersionCode": 870,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:a37b9e0ec5bae1052dd1c193a73087071db5b40cd623e6254e86b421b6ccbbcb",
+            "id": 705817357,
+            "name": "auriya-2.2.2-870-d62e265-release.zip",
+            "sha256": "a37b9e0ec5bae1052dd1c193a73087071db5b40cd623e6254e86b421b6ccbbcb",
+            "size": 4027697,
+            "url": "https://github.com/pavelc4/auriya/releases/download/v2.2.2/auriya-2.2.2-870-d62e265-release.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/pavelc4/auriya/compare/v2.2.1...v2.2.2",
+          "htmlUrl": "https://github.com/pavelc4/auriya/releases/tag/v2.2.2",
+          "immutable": true,
+          "name": "Auriya v2.2.2",
+          "prerelease": false,
+          "prop": {
+            "author": "Pavelc4",
+            "description": "Ferris, let's goo!\nstatus: ready 🚀",
+            "id": "auriya",
+            "name": "Auriya",
+            "updateJson": "https://raw.githubusercontent.com/pavelc4/auriya/main/update.json",
+            "version": "2.2.2 (870-d62e265-release)",
+            "versionCode": "870"
+          },
+          "publishedAt": "2026-11-03T14:02:50Z",
+          "releaseId": 432773165,
+          "tag": "v2.2.2",
+          "tagCommit": "d62e2654a89c0e709afbd07188be4880bfb02e16",
+          "version": "2.2.2 (870-d62e265-release)",
+          "versionCode": 870
+        },
         {
           "asset": {
             "digest": "sha256:986decad765905b74f371e225e4bb36f5f54951e46680eb320ed79dcb9418f1a",
@@ -3764,21 +3794,25 @@
         "432737018": {
           "checkedAt": "2026-11-03T13:31:40.370Z",
           "ok": true
+        },
+        "432773165": {
+          "checkedAt": "2026-11-03T14:03:29.079Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:986decad765905b74f371e225e4bb36f5f54951e46680eb320ed79dcb9418f1a",
-          "id": 705717553,
-          "name": "auriya-2.2.1-867-abc6b12-release.zip",
-          "sha256": "986decad765905b74f371e225e4bb36f5f54951e46680eb320ed79dcb9418f1a",
-          "size": 4028254,
-          "url": "https://github.com/pavelc4/auriya/releases/download/v2.2.1/auriya-2.2.1-867-abc6b12-release.zip"
+          "digest": "sha256:a37b9e0ec5bae1052dd1c193a73087071db5b40cd623e6254e86b421b6ccbbcb",
+          "id": 705817357,
+          "name": "auriya-2.2.2-870-d62e265-release.zip",
+          "sha256": "a37b9e0ec5bae1052dd1c193a73087071db5b40cd623e6254e86b421b6ccbbcb",
+          "size": 4027697,
+          "url": "https://github.com/pavelc4/auriya/releases/download/v2.2.2/auriya-2.2.2-870-d62e265-release.zip"
         },
-        "body": "## What's Changed\n* chore(deps): bump sysinfo from 0.39.6 to 0.40.0 by @dependabot[bot] in https://github.com/pavelc4/auriya/pull/150\n\n\n**Full Changelog**: https://github.com/pavelc4/auriya/compare/v2.2.0...v2.2.1",
-        "htmlUrl": "https://github.com/pavelc4/auriya/releases/tag/v2.2.1",
+        "body": "**Full Changelog**: https://github.com/pavelc4/auriya/compare/v2.2.1...v2.2.2",
+        "htmlUrl": "https://github.com/pavelc4/auriya/releases/tag/v2.2.2",
         "immutable": true,
-        "name": "Auriya v2.2.1",
+        "name": "Auriya v2.2.2",
         "prerelease": false,
         "prop": {
           "author": "Pavelc4",
@@ -3786,15 +3820,15 @@
           "id": "auriya",
           "name": "Auriya",
           "updateJson": "https://raw.githubusercontent.com/pavelc4/auriya/main/update.json",
-          "version": "2.2.1 (867-abc6b12-release)",
-          "versionCode": "867"
+          "version": "2.2.2 (870-d62e265-release)",
+          "versionCode": "870"
         },
-        "publishedAt": "2026-11-03T13:31:12Z",
-        "releaseId": 432737018,
-        "tag": "v2.2.1",
-        "tagCommit": "abc6b12fb9d70dbfa629487ae19b2847664bab7d",
-        "version": "2.2.1 (867-abc6b12-release)",
-        "versionCode": 867
+        "publishedAt": "2026-11-03T14:02:50Z",
+        "releaseId": 432773165,
+        "tag": "v2.2.2",
+        "tagCommit": "d62e2654a89c0e709afbd07188be4880bfb02e16",
+        "version": "2.2.2 (870-d62e265-release)",
+        "versionCode": 870
       },
       "stars": {
         "count": 29,
@@ -4836,8 +4870,8 @@
         "versionCode": 119
       },
       "stars": {
-        "count": 399,
-        "fetchedAt": "2026-11-02T13:46:42.972Z",
+        "count": 404,
+        "fetchedAt": "2026-11-03T14:03:29.079Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"

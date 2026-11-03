@@ -384,16 +384,16 @@
       "fullName": "pavelc4/auriya",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-03T13:31:40.370Z",
-      "maxVersionCode": 867,
+      "lastSuccessAt": "2026-11-03T14:03:29.079Z",
+      "maxVersionCode": 870,
       "message": null,
       "repositoryId": 1081222414,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-03T13:31:12Z",
-        "tag": "v2.2.1",
-        "version": "2.2.1 (867-abc6b12-release)",
-        "versionCode": 867
+        "publishedAt": "2026-11-03T14:02:50Z",
+        "tag": "v2.2.2",
+        "version": "2.2.2 (870-d62e265-release)",
+        "versionCode": 870
       }
     },
     "bypasscap": {
