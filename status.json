@@ -380,20 +380,20 @@
       }
     },
     "auriya": {
-      "contentCommit": "1619cb032d6dac2e59c781b8467aa67d55f75060",
+      "contentCommit": "cd10b39d93702b6139d5f690246d36449a7b012a",
       "fullName": "pavelc4/auriya",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-02T10:38:05.122Z",
-      "maxVersionCode": 1,
+      "lastSuccessAt": "2026-11-03T13:31:40.370Z",
+      "maxVersionCode": 867,
       "message": null,
       "repositoryId": 1081222414,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-01T12:03:05Z",
-        "tag": "v2.2.0",
-        "version": "2.2.0 (1-9aef31b-release)",
-        "versionCode": 1
+        "publishedAt": "2026-11-03T13:31:12Z",
+        "tag": "v2.2.1",
+        "version": "2.2.1 (867-abc6b12-release)",
+        "versionCode": 867
       }
     },
     "bypasscap": {
