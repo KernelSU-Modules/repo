@@ -296,7 +296,7 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "5a4eb54438c08d109a9289168071a18d8ee913c6",
+      "contentCommit": "0c4a8f7ba135aa6937c40b5d4f3f64918ce8af84",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
@@ -305,8 +305,8 @@
       "message": null,
       "repositoryId": 1296470014,
       "request": {
-        "checkedAt": "2026-11-02T07:49:16.886Z",
-        "commit": "5a4eb54438c08d109a9289168071a18d8ee913c6",
+        "checkedAt": "2026-11-03T12:44:46.567Z",
+        "commit": "0c4a8f7ba135aa6937c40b5d4f3f64918ce8af84",
         "issues": [],
         "latestTag": "v1.5.1",
         "ok": true,
