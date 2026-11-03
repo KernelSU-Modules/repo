@@ -170,16 +170,16 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-01T11:35:43.728Z",
-      "maxVersionCode": 10610,
+      "lastSuccessAt": "2026-11-03T00:48:26.733Z",
+      "maxVersionCode": 10611,
       "message": null,
       "repositoryId": 998453022,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-01T11:35:27Z",
-        "tag": "v1.8.2",
-        "version": "v1.8.2",
-        "versionCode": 10610
+        "publishedAt": "2026-11-03T00:48:10Z",
+        "tag": "v1.8.3",
+        "version": "v1.8.3",
+        "versionCode": 10611
       }
     },
     "Mediatek_Mali_GPU_Governor": {
