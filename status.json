@@ -250,21 +250,16 @@
       }
     },
     "S-T-E-P-S": {
-      "contentCommit": "7d0322af6383590ab00f7e207fe4ec99c4f161f7",
-      "fullName": "xiaoji0308/Steps",
-      "health": "stale",
+      "contentCommit": "150a500539e6eefb0a0ae385d9dd6b16a175e178",
+      "fullName": "xiaoji0308/SSS",
+      "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-31T16:32:14.408Z",
+      "lastSuccessAt": "2026-11-04T19:03:27.817Z",
       "maxVersionCode": 20261101,
-      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-id-mismatch)",
-      "repositoryId": 1423140380,
+      "message": "stable-unavailable: the stable release (versionCode 20261101) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 20261101 is published.",
+      "repositoryId": 1446052919,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-10-31T16:32:08Z",
-        "tag": "1101",
-        "version": "1101",
-        "versionCode": 20261101
-      }
+      "stable": null
     },
     "SvcHub": {
       "contentCommit": "39876bd27ea57f9698afc779b982732cb02bd925",
