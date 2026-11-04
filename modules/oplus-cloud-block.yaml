@@ -1,0 +1,19 @@
+id: oplus-cloud-block
+status: pending
+request:
+  submissionId: ypu6zil5ez
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1445900163
+    ownerId: 113168461
+    fullName: 706412584/ColorOS-thermal
+    manifestPath: module.yaml
+  submittedBy: 113168461
+  submittedByLogin: "706412584"
+  submittedAt: 2026-11-04T16:30:56.597Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64637
+createdAt: 2026-11-04T16:30:56.597Z
+updatedAt: 2026-11-04T16:30:56.597Z
