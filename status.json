@@ -296,7 +296,7 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "cff54416434a0cb728080900408c0077c1c4e4ff",
+      "contentCommit": "09c0666310b3136ee80e674bac6b8de52e0e74aa",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
@@ -305,8 +305,8 @@
       "message": null,
       "repositoryId": 1296470014,
       "request": {
-        "checkedAt": "2026-11-04T00:46:22.574Z",
-        "commit": "cff54416434a0cb728080900408c0077c1c4e4ff",
+        "checkedAt": "2026-11-04T05:40:05.056Z",
+        "commit": "09c0666310b3136ee80e674bac6b8de52e0e74aa",
         "issues": [],
         "latestTag": "v1.5.1",
         "ok": true,
@@ -397,7 +397,7 @@
       }
     },
     "bypasscap": {
-      "contentCommit": "c02ed97315f74547b13797b04b43032036ecea2f",
+      "contentCommit": "054808023f4db0cb300cbe1a443ed69c81b79e12",
       "fullName": "9M2PJU/ChargeBypassCap",
       "health": "error",
       "installation": "present",
@@ -406,8 +406,8 @@
       "message": "manifest-id-mismatch: module.yaml id \"chargebypasscap\" differs from the registered id \"bypasscap\".",
       "repositoryId": 1437404105,
       "request": {
-        "checkedAt": "2026-10-30T06:34:15.923Z",
-        "commit": "c02ed97315f74547b13797b04b43032036ecea2f",
+        "checkedAt": "2026-11-04T05:40:05.056Z",
+        "commit": "054808023f4db0cb300cbe1a443ed69c81b79e12",
         "issues": [
           {
             "code": "manifest-id-mismatch",
@@ -420,9 +420,9 @@
             "severity": "error"
           }
         ],
-        "latestTag": "v1.9",
+        "latestTag": "v1.10",
         "ok": false,
-        "releaseId": 428719131,
+        "releaseId": 433553180,
         "repositoryId": 1437404105,
         "submissionId": "k5g517b2hp"
       },
