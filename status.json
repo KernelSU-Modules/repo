@@ -296,7 +296,7 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "0c4a8f7ba135aa6937c40b5d4f3f64918ce8af84",
+      "contentCommit": "cff54416434a0cb728080900408c0077c1c4e4ff",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
@@ -305,8 +305,8 @@
       "message": null,
       "repositoryId": 1296470014,
       "request": {
-        "checkedAt": "2026-11-03T12:44:46.567Z",
-        "commit": "0c4a8f7ba135aa6937c40b5d4f3f64918ce8af84",
+        "checkedAt": "2026-11-04T00:46:22.574Z",
+        "commit": "cff54416434a0cb728080900408c0077c1c4e4ff",
         "issues": [],
         "latestTag": "v1.5.1",
         "ok": true,
@@ -599,6 +599,27 @@
       "message": "stable-unavailable: the stable release (versionCode 100) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 100 is published.",
       "repositoryId": 1413800395,
       "request": null,
+      "stable": null
+    },
+    "falcon_integrity_fix": {
+      "contentCommit": "cf226cf0e48f8b550511bd802b729d52ce7bd561",
+      "fullName": "AHMED2111X/AHMED2111X",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 929063884,
+      "request": {
+        "checkedAt": "2026-11-04T00:46:22.574Z",
+        "commit": "cf226cf0e48f8b550511bd802b729d52ce7bd561",
+        "issues": [],
+        "latestTag": "v3.26.1",
+        "ok": true,
+        "releaseId": 433366000,
+        "repositoryId": 929063884,
+        "submissionId": "30jc26ge1l"
+      },
       "stable": null
     },
     "frida-ksu": {
