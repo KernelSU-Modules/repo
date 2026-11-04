@@ -273,11 +273,11 @@
     "S-T-E-P-S": {
       "contentCommit": "150a500539e6eefb0a0ae385d9dd6b16a175e178",
       "fullName": "xiaoji0308/SSS",
-      "health": "ok",
-      "installation": "present",
+      "health": "stale",
+      "installation": "missing",
       "lastSuccessAt": "2026-11-04T19:03:27.817Z",
       "maxVersionCode": 20261101,
-      "message": "stable-unavailable: the stable release (versionCode 20261101) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 20261101 is published.",
+      "message": "installation-missing: the KernelSU Modules App is not installed on the repository; using the last synced data",
       "repositoryId": 1446052919,
       "request": null,
       "stable": null
