@@ -296,7 +296,7 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "47fdcd71833ad59ccebd50e05b777016b1ce59e1",
+      "contentCommit": "62489e3dc2e6ece790fff64320a781b4e94152d4",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
@@ -305,8 +305,8 @@
       "message": null,
       "repositoryId": 1296470014,
       "request": {
-        "checkedAt": "2026-11-04T13:00:20.793Z",
-        "commit": "47fdcd71833ad59ccebd50e05b777016b1ce59e1",
+        "checkedAt": "2026-11-04T16:17:33.583Z",
+        "commit": "62489e3dc2e6ece790fff64320a781b4e94152d4",
         "issues": [],
         "latestTag": "v1.5.1",
         "ok": true,
@@ -644,7 +644,7 @@
       "stable": null
     },
     "genshin_bootanim": {
-      "contentCommit": "e6bb6b10814f73f69f2ef79c4c40c8dcbb5f993f",
+      "contentCommit": "68e0c26bdba5596c67754aca83408fa16042d7ba",
       "fullName": "kingsznhone/genshin-bootanimation",
       "health": "ok",
       "installation": "present",
@@ -653,8 +653,8 @@
       "message": null,
       "repositoryId": 1443473635,
       "request": {
-        "checkedAt": "2026-11-03T01:59:14.470Z",
-        "commit": "e6bb6b10814f73f69f2ef79c4c40c8dcbb5f993f",
+        "checkedAt": "2026-11-04T16:17:33.583Z",
+        "commit": "68e0c26bdba5596c67754aca83408fa16042d7ba",
         "issues": [],
         "latestTag": "1.0.3",
         "ok": true,
@@ -1020,7 +1020,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "b5ce87fac27cf106550e7548aac698cbc8018253",
+      "contentCommit": "ae840af7aa8d4cf35a8eb55dc01826f8bb2abb2f",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1029,8 +1029,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-04T15:14:10.907Z",
-        "commit": "b5ce87fac27cf106550e7548aac698cbc8018253",
+        "checkedAt": "2026-11-04T16:17:33.583Z",
+        "commit": "ae840af7aa8d4cf35a8eb55dc01826f8bb2abb2f",
         "issues": [],
         "latestTag": "v2.3.0-r18.8",
         "ok": true,
@@ -1091,16 +1091,16 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-04T14:40:59.131Z",
-      "maxVersionCode": 201,
+      "lastSuccessAt": "2026-11-04T16:17:33.583Z",
+      "maxVersionCode": 202,
       "message": null,
       "repositoryId": 1417162951,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-04T14:40:36Z",
-        "tag": "v201-33b2011",
-        "version": "1.201 (201-33b2011-release)",
-        "versionCode": 201
+        "publishedAt": "2026-11-04T15:55:47Z",
+        "tag": "v202-34ca0ce",
+        "version": "1.202 (202-34ca0ce-release)",
+        "versionCode": 202
       }
     },
     "zygisknextsu": {
