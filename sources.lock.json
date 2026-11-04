@@ -2721,7 +2721,7 @@
       "fullName": "xiaoji0308/Steps",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-04T16:31:44.252Z",
+        "lastAttemptAt": "2026-11-04T18:03:51.632Z",
         "lastSuccessAt": "2026-10-31T16:32:14.408Z",
         "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-id-mismatch)",
         "status": "stale"
@@ -2824,6 +2824,12 @@
         "430051068": {
           "checkedAt": "2026-10-31T16:32:14.408Z",
           "ok": true
+        },
+        "434265453": {
+          "checkedAt": "2026-11-04T18:03:51.632Z",
+          "code": "prop-id-mismatch",
+          "message": "module.prop id \"A-STEPS\" does not equal the registered ID \"S-T-E-P-S\".",
+          "ok": false
         }
       },
       "stable": {
