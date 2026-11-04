@@ -253,10 +253,10 @@
       "contentCommit": "7d0322af6383590ab00f7e207fe4ec99c4f161f7",
       "fullName": "xiaoji0308/Steps",
       "health": "stale",
-      "installation": "missing",
+      "installation": "present",
       "lastSuccessAt": "2026-10-31T16:32:14.408Z",
       "maxVersionCode": 20261101,
-      "message": "installation-missing: the KernelSU Modules App is not installed on the repository; using the last synced data",
+      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-id-mismatch)",
       "repositoryId": 1423140380,
       "request": null,
       "stable": {

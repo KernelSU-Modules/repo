@@ -2720,14 +2720,14 @@
       },
       "fullName": "xiaoji0308/Steps",
       "health": {
-        "installation": "missing",
-        "lastAttemptAt": "2026-11-04T18:39:05.224Z",
+        "installation": "present",
+        "lastAttemptAt": "2026-11-04T18:40:02.197Z",
         "lastSuccessAt": "2026-10-31T16:32:14.408Z",
-        "message": "installation-missing: the KernelSU Modules App is not installed on the repository; using the last synced data",
+        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-id-mismatch)",
         "status": "stale"
       },
       "id": "S-T-E-P-S",
-      "installationId": null,
+      "installationId": 172438629,
       "maxStableVersionCode": 20261101,
       "maxVersionCode": 20261101,
       "prerelease": null,
