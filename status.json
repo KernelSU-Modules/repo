@@ -446,7 +446,7 @@
       }
     },
     "chargebypasscap-pmi": {
-      "contentCommit": "cb9321cdb1aecca17f3a8453155817fcdbd10343",
+      "contentCommit": "116218063afb8c921c96e556bd2ed35a21fc08ff",
       "fullName": "9M2PJU/ChargeBypassCap-PMI",
       "health": "ok",
       "installation": "present",
@@ -455,12 +455,12 @@
       "message": null,
       "repositoryId": 1437485405,
       "request": {
-        "checkedAt": "2026-11-04T07:04:54.899Z",
-        "commit": "cb9321cdb1aecca17f3a8453155817fcdbd10343",
+        "checkedAt": "2026-11-04T07:47:19.369Z",
+        "commit": "116218063afb8c921c96e556bd2ed35a21fc08ff",
         "issues": [],
-        "latestTag": "v1.8",
+        "latestTag": "v1.9",
         "ok": true,
-        "releaseId": 433590945,
+        "releaseId": 433637533,
         "repositoryId": 1437485405,
         "submissionId": "r4ffa5id2t"
       },
