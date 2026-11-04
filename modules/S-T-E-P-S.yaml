@@ -2,22 +2,19 @@ id: S-T-E-P-S
 status: listed
 source:
   host: github
-  repositoryId: 1423140380
+  repositoryId: 1446052919
   ownerId: 60456364
-  fullName: xiaoji0308/Steps
+  fullName: xiaoji0308/SSS
   manifestPath: module.yaml
 review:
-  submissionId: r633v3lplm
-  kind: submit
+  submissionId: cqmamu2tp7
+  kind: transfer
   submittedBy: 60456364
-  submittedAt: 2026-10-17T16:39:01.426Z
+  submittedAt: 2026-11-04T19:03:02.027Z
   decision: approved
-  decidedBy: 30978685
-  decidedVia: telegram
-  decidedAt: 2026-10-17T22:56:43.052Z
+  decidedBy: null
+  decidedVia: auto
+  decidedAt: 2026-11-04T19:03:02.027Z
   reason: null
-  telegram:
-    chatId: -1001860367685
-    messageId: 64412
 createdAt: 2026-10-17T16:39:01.426Z
-updatedAt: 2026-10-17T22:56:43.052Z
+updatedAt: 2026-11-04T19:03:02.027Z
