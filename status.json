@@ -1020,7 +1020,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "6c4ab849a0b6fd9b039552da8664cea77cd7743d",
+      "contentCommit": "a4a460c8bd5186f19a0626b5d6f758a5862174c2",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1029,8 +1029,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-02T04:11:37.836Z",
-        "commit": "6c4ab849a0b6fd9b039552da8664cea77cd7743d",
+        "checkedAt": "2026-11-04T13:25:03.419Z",
+        "commit": "a4a460c8bd5186f19a0626b5d6f758a5862174c2",
         "issues": [],
         "latestTag": "v2.3.0-r18.8",
         "ok": true,
@@ -1091,16 +1091,16 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-04T08:27:28.376Z",
-      "maxVersionCode": 197,
+      "lastSuccessAt": "2026-11-04T13:25:03.419Z",
+      "maxVersionCode": 199,
       "message": null,
       "repositoryId": 1417162951,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-04T08:27:06Z",
-        "tag": "v197-c59a62b",
-        "version": "1.197 (197-c59a62b-release)",
-        "versionCode": 197
+        "publishedAt": "2026-11-04T13:24:42Z",
+        "tag": "v199-a6e1d36",
+        "version": "1.199 (199-a6e1d36-release)",
+        "versionCode": 199
       }
     },
     "zygisknextsu": {

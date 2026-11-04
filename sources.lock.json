@@ -9473,17 +9473,47 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-04T08:27:28.376Z",
-        "lastSuccessAt": "2026-11-04T08:27:28.376Z",
+        "lastAttemptAt": "2026-11-04T13:25:03.419Z",
+        "lastSuccessAt": "2026-11-04T13:25:03.419Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk_fusehide",
       "installationId": 170178853,
-      "maxStableVersionCode": 197,
-      "maxVersionCode": 197,
+      "maxStableVersionCode": 199,
+      "maxVersionCode": 199,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2",
+            "id": 709600661,
+            "name": "FuseHide-1.199_199-a6e1d36-release.zip",
+            "sha256": "9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2",
+            "size": 7657170,
+            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v199-a6e1d36/FuseHide-1.199_199-a6e1d36-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.199`\n- **VersionCode:** `199`\n- **Commit:** [`a6e1d36`](https://github.com/XiaoTong6666/FuseHide/commit/a6e1d36f2392a70d416d2aafd46c79a7f656cbe7)\n- **Build time:** `5m 10s`\n- **SHA256:** `9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2`\n\n## Message\n\n```text\nfix(native): enable PAC-aware MediaProvider hooks with exact symbols Meow\n\n在 Zygisk Native Hook adapter 中使用 PAC-SP 处理路径，保留并发安全和备份验证要求，让 Android 17 MediaProvider 的 PACIASP 入口能够进入内联 Hook 流程喵（认真盯着跳板代码）\n\n复用现有 ELF 精确符号解析结果识别字符串参数入口，避免历史 profile 的 RVA 不匹配时连带跳过相关 Hook 喵\n根据目录辅助函数的精确符号和已识别的容器 ABI 选择 DirectoryEntries Hook，同时保留历史 RVA fallback，不引入新的设备白名单或硬编码偏移喵（满意地晃晃尾巴）\n\n同步更新 Dobby 子模块指针，接入新增的 PAC 感知 Hook 实现喵（把代码仔细收好）\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v199-a6e1d36",
+          "immutable": true,
+          "name": "1.199",
+          "prerelease": false,
+          "prop": {
+            "author": "XiaoTong",
+            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+            "id": "zygisk_fusehide",
+            "name": "Zygisk - FuseHide",
+            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+            "version": "1.199 (199-a6e1d36-release)",
+            "versionCode": "199"
+          },
+          "publishedAt": "2026-11-04T13:24:42Z",
+          "releaseId": 433956039,
+          "tag": "v199-a6e1d36",
+          "tagCommit": "380adeb7ce7874a9f0bc126a6ab2a24ef634667d",
+          "version": "1.199 (199-a6e1d36-release)",
+          "versionCode": 199
+        },
         {
           "asset": {
             "digest": "sha256:a32ffd5ed32a3bc05c129642ee4074d714480931f44516e81be3aabec09b4b6e",
@@ -9742,21 +9772,25 @@
         "433670222": {
           "checkedAt": "2026-11-04T08:27:28.376Z",
           "ok": true
+        },
+        "433956039": {
+          "checkedAt": "2026-11-04T13:25:03.419Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:a32ffd5ed32a3bc05c129642ee4074d714480931f44516e81be3aabec09b4b6e",
-          "id": 708801657,
-          "name": "FuseHide-1.197_197-c59a62b-release.zip",
-          "sha256": "a32ffd5ed32a3bc05c129642ee4074d714480931f44516e81be3aabec09b4b6e",
+          "digest": "sha256:9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2",
+          "id": 709600661,
+          "name": "FuseHide-1.199_199-a6e1d36-release.zip",
+          "sha256": "9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2",
           "size": 7657170,
-          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v197-c59a62b/FuseHide-1.197_197-c59a62b-release.zip"
+          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v199-a6e1d36/FuseHide-1.199_199-a6e1d36-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.197`\n- **VersionCode:** `197`\n- **Commit:** [`c59a62b`](https://github.com/XiaoTong6666/FuseHide/commit/c59a62b5d8884908aadefee0b82491d0197504b2)\n- **Build time:** `5m 53s`\n- **SHA256:** `a32ffd5ed32a3bc05c129642ee4074d714480931f44516e81be3aabec09b4b6e`\n\n## Message\n\n```text\nfix(native): 补充基于小米17(pudding) hyperos4 4.0.4.0正式版的 MediaProvider 布局适配 (#116)\n\n* fix(native): 先检测目录项 ABI 再缓存挂点计划\n\n* fix(native): 补齐 pudding MediaProvider 原生布局适配\n\n* fix(native): 补齐 pudding 的两个精确符号签名\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v197-c59a62b",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.199`\n- **VersionCode:** `199`\n- **Commit:** [`a6e1d36`](https://github.com/XiaoTong6666/FuseHide/commit/a6e1d36f2392a70d416d2aafd46c79a7f656cbe7)\n- **Build time:** `5m 10s`\n- **SHA256:** `9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2`\n\n## Message\n\n```text\nfix(native): enable PAC-aware MediaProvider hooks with exact symbols Meow\n\n在 Zygisk Native Hook adapter 中使用 PAC-SP 处理路径，保留并发安全和备份验证要求，让 Android 17 MediaProvider 的 PACIASP 入口能够进入内联 Hook 流程喵（认真盯着跳板代码）\n\n复用现有 ELF 精确符号解析结果识别字符串参数入口，避免历史 profile 的 RVA 不匹配时连带跳过相关 Hook 喵\n根据目录辅助函数的精确符号和已识别的容器 ABI 选择 DirectoryEntries Hook，同时保留历史 RVA fallback，不引入新的设备白名单或硬编码偏移喵（满意地晃晃尾巴）\n\n同步更新 Dobby 子模块指针，接入新增的 PAC 感知 Hook 实现喵（把代码仔细收好）\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v199-a6e1d36",
         "immutable": true,
-        "name": "1.197",
+        "name": "1.199",
         "prerelease": false,
         "prop": {
           "author": "XiaoTong",
@@ -9764,15 +9798,15 @@
           "id": "zygisk_fusehide",
           "name": "Zygisk - FuseHide",
           "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-          "version": "1.197 (197-c59a62b-release)",
-          "versionCode": "197"
+          "version": "1.199 (199-a6e1d36-release)",
+          "versionCode": "199"
         },
-        "publishedAt": "2026-11-04T08:27:06Z",
-        "releaseId": 433670222,
-        "tag": "v197-c59a62b",
-        "tagCommit": "c1aa34baaa6319c87dc8131a778af249020836aa",
-        "version": "1.197 (197-c59a62b-release)",
-        "versionCode": 197
+        "publishedAt": "2026-11-04T13:24:42Z",
+        "releaseId": 433956039,
+        "tag": "v199-a6e1d36",
+        "tagCommit": "380adeb7ce7874a9f0bc126a6ab2a24ef634667d",
+        "version": "1.199 (199-a6e1d36-release)",
+        "versionCode": 199
       },
       "stars": {
         "count": 22,
