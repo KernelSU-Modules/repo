@@ -1087,20 +1087,20 @@
       }
     },
     "zygisk_fusehide": {
-      "contentCommit": "7698c9002807f1a22f7631b8bd23fe4d1b4cbac1",
+      "contentCommit": "896db08c201bb807ab3527d16fc9f2e3b0873e5e",
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-04T13:25:03.419Z",
-      "maxVersionCode": 199,
+      "lastSuccessAt": "2026-11-04T14:40:59.131Z",
+      "maxVersionCode": 201,
       "message": null,
       "repositoryId": 1417162951,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-04T13:24:42Z",
-        "tag": "v199-a6e1d36",
-        "version": "1.199 (199-a6e1d36-release)",
-        "versionCode": 199
+        "publishedAt": "2026-11-04T14:40:36Z",
+        "tag": "v201-33b2011",
+        "version": "1.201 (201-33b2011-release)",
+        "versionCode": 201
       }
     },
     "zygisknextsu": {

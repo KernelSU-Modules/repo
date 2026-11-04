@@ -2857,8 +2857,8 @@
         "versionCode": 20261101
       },
       "stars": {
-        "count": 9,
-        "fetchedAt": "2026-11-02T02:01:35.942Z",
+        "count": 10,
+        "fetchedAt": "2026-11-04T14:40:59.131Z",
         "fullName": "xiaoji0308/Steps",
         "repositoryId": 1423140380,
         "verified": "self"
@@ -4870,8 +4870,8 @@
         "versionCode": 119
       },
       "stars": {
-        "count": 404,
-        "fetchedAt": "2026-11-03T14:03:29.079Z",
+        "count": 413,
+        "fetchedAt": "2026-11-04T14:40:59.131Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -9458,13 +9458,13 @@
     "zygisk_fusehide": {
       "content": {
         "blobs": {
-          "README.md": "9162b72eccc708229e6854e28e4b2344505fd60f",
+          "README.md": "fc0ec1d63ac9059cf9267808aae8a8e7ad244ca2",
           "module.yaml": "b1ef4fac555669e9f05550f8942e3aa84a321f1d"
         },
-        "commit": "7698c9002807f1a22f7631b8bd23fe4d1b4cbac1",
-        "fetchedAt": "2026-10-21T18:04:48.299Z",
+        "commit": "896db08c201bb807ab3527d16fc9f2e3b0873e5e",
+        "fetchedAt": "2026-11-04T14:40:59.131Z",
         "files": {
-          "README.md": "8fd9182ac26c9e77b1e284475caf1c2a4ac7a8d871d86493786066503266a389",
+          "README.md": "51f78eb6623c850e3913869a45f77d14cfbcbbc90a11b31c0232584ead903136",
           "module.yaml": "7630c4d850fe55a241efa6c190f0ad79725c8d7aedf811fc8951feeec1a27504"
         },
         "manifestPath": "module.yaml",
@@ -9473,17 +9473,47 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-04T13:25:03.419Z",
-        "lastSuccessAt": "2026-11-04T13:25:03.419Z",
+        "lastAttemptAt": "2026-11-04T14:40:59.131Z",
+        "lastSuccessAt": "2026-11-04T14:40:59.131Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk_fusehide",
       "installationId": 170178853,
-      "maxStableVersionCode": 199,
-      "maxVersionCode": 199,
+      "maxStableVersionCode": 201,
+      "maxVersionCode": 201,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:649b974edab2a0123ad636f51c5eb382b315f08c03d15fe59e6bc5b6d9be4a9d",
+            "id": 709836730,
+            "name": "FuseHide-1.201_201-33b2011-release.zip",
+            "sha256": "649b974edab2a0123ad636f51c5eb382b315f08c03d15fe59e6bc5b6d9be4a9d",
+            "size": 7677650,
+            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v201-33b2011/FuseHide-1.201_201-33b2011-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.201`\n- **VersionCode:** `201`\n- **Commit:** [`33b2011`](https://github.com/XiaoTong6666/FuseHide/commit/33b20118ed334fde8c27fceb3981c374b2a749c0)\n- **Build time:** `5m 41s`\n- **SHA256:** `649b974edab2a0123ad636f51c5eb382b315f08c03d15fe59e6bc5b6d9be4a9d`\n\n## Message\n\n```text\nbuild(deps): bump org.commonmark:commonmark from 0.31.0 to 0.32.0 (#117)\n\nBumps [org.commonmark:commonmark](https://github.com/commonmark/commonmark-java) from 0.31.0 to 0.32.0.\n- [Release notes](https://github.com/commonmark/commonmark-java/releases)\n- [Changelog](https://github.com/commonmark/commonmark-java/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/commonmark/commonmark-java/compare/commonmark-parent-0.31.0...commonmark-parent-0.32.0)\n\n---\nupdated-dependencies:\n- dependency-name: org.commonmark:commonmark\n  dependency-version: 0.32.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v201-33b2011",
+          "immutable": true,
+          "name": "1.201",
+          "prerelease": false,
+          "prop": {
+            "author": "XiaoTong",
+            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+            "id": "zygisk_fusehide",
+            "name": "Zygisk - FuseHide",
+            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+            "version": "1.201 (201-33b2011-release)",
+            "versionCode": "201"
+          },
+          "publishedAt": "2026-11-04T14:40:36Z",
+          "releaseId": 434048360,
+          "tag": "v201-33b2011",
+          "tagCommit": "896db08c201bb807ab3527d16fc9f2e3b0873e5e",
+          "version": "1.201 (201-33b2011-release)",
+          "versionCode": 201
+        },
         {
           "asset": {
             "digest": "sha256:9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2",
@@ -9776,21 +9806,25 @@
         "433956039": {
           "checkedAt": "2026-11-04T13:25:03.419Z",
           "ok": true
+        },
+        "434048360": {
+          "checkedAt": "2026-11-04T14:40:59.131Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2",
-          "id": 709600661,
-          "name": "FuseHide-1.199_199-a6e1d36-release.zip",
-          "sha256": "9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2",
-          "size": 7657170,
-          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v199-a6e1d36/FuseHide-1.199_199-a6e1d36-release.zip"
+          "digest": "sha256:649b974edab2a0123ad636f51c5eb382b315f08c03d15fe59e6bc5b6d9be4a9d",
+          "id": 709836730,
+          "name": "FuseHide-1.201_201-33b2011-release.zip",
+          "sha256": "649b974edab2a0123ad636f51c5eb382b315f08c03d15fe59e6bc5b6d9be4a9d",
+          "size": 7677650,
+          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v201-33b2011/FuseHide-1.201_201-33b2011-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.199`\n- **VersionCode:** `199`\n- **Commit:** [`a6e1d36`](https://github.com/XiaoTong6666/FuseHide/commit/a6e1d36f2392a70d416d2aafd46c79a7f656cbe7)\n- **Build time:** `5m 10s`\n- **SHA256:** `9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2`\n\n## Message\n\n```text\nfix(native): enable PAC-aware MediaProvider hooks with exact symbols Meow\n\n在 Zygisk Native Hook adapter 中使用 PAC-SP 处理路径，保留并发安全和备份验证要求，让 Android 17 MediaProvider 的 PACIASP 入口能够进入内联 Hook 流程喵（认真盯着跳板代码）\n\n复用现有 ELF 精确符号解析结果识别字符串参数入口，避免历史 profile 的 RVA 不匹配时连带跳过相关 Hook 喵\n根据目录辅助函数的精确符号和已识别的容器 ABI 选择 DirectoryEntries Hook，同时保留历史 RVA fallback，不引入新的设备白名单或硬编码偏移喵（满意地晃晃尾巴）\n\n同步更新 Dobby 子模块指针，接入新增的 PAC 感知 Hook 实现喵（把代码仔细收好）\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v199-a6e1d36",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.201`\n- **VersionCode:** `201`\n- **Commit:** [`33b2011`](https://github.com/XiaoTong6666/FuseHide/commit/33b20118ed334fde8c27fceb3981c374b2a749c0)\n- **Build time:** `5m 41s`\n- **SHA256:** `649b974edab2a0123ad636f51c5eb382b315f08c03d15fe59e6bc5b6d9be4a9d`\n\n## Message\n\n```text\nbuild(deps): bump org.commonmark:commonmark from 0.31.0 to 0.32.0 (#117)\n\nBumps [org.commonmark:commonmark](https://github.com/commonmark/commonmark-java) from 0.31.0 to 0.32.0.\n- [Release notes](https://github.com/commonmark/commonmark-java/releases)\n- [Changelog](https://github.com/commonmark/commonmark-java/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/commonmark/commonmark-java/compare/commonmark-parent-0.31.0...commonmark-parent-0.32.0)\n\n---\nupdated-dependencies:\n- dependency-name: org.commonmark:commonmark\n  dependency-version: 0.32.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v201-33b2011",
         "immutable": true,
-        "name": "1.199",
+        "name": "1.201",
         "prerelease": false,
         "prop": {
           "author": "XiaoTong",
@@ -9798,15 +9832,15 @@
           "id": "zygisk_fusehide",
           "name": "Zygisk - FuseHide",
           "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-          "version": "1.199 (199-a6e1d36-release)",
-          "versionCode": "199"
+          "version": "1.201 (201-33b2011-release)",
+          "versionCode": "201"
         },
-        "publishedAt": "2026-11-04T13:24:42Z",
-        "releaseId": 433956039,
-        "tag": "v199-a6e1d36",
-        "tagCommit": "380adeb7ce7874a9f0bc126a6ab2a24ef634667d",
-        "version": "1.199 (199-a6e1d36-release)",
-        "versionCode": 199
+        "publishedAt": "2026-11-04T14:40:36Z",
+        "releaseId": 434048360,
+        "tag": "v201-33b2011",
+        "tagCommit": "896db08c201bb807ab3527d16fc9f2e3b0873e5e",
+        "version": "1.201 (201-33b2011-release)",
+        "versionCode": 201
       },
       "stars": {
         "count": 22,
