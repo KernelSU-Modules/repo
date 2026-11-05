@@ -618,7 +618,7 @@
       "stable": null
     },
     "falcon_integrity_fix": {
-      "contentCommit": "b868eda237001b5f46ad7782d1beb3599d9ea7ac",
+      "contentCommit": "40b266dde8a868dbdfe2f8b480d10c792c5b6493",
       "fullName": "AHMED2111X/AHMED2111X",
       "health": "ok",
       "installation": "present",
@@ -627,12 +627,12 @@
       "message": null,
       "repositoryId": 929063884,
       "request": {
-        "checkedAt": "2026-11-05T05:42:18.506Z",
-        "commit": "b868eda237001b5f46ad7782d1beb3599d9ea7ac",
+        "checkedAt": "2026-11-05T21:15:29.632Z",
+        "commit": "40b266dde8a868dbdfe2f8b480d10c792c5b6493",
         "issues": [],
-        "latestTag": "v3.27",
+        "latestTag": "v3.28",
         "ok": true,
-        "releaseId": 434762022,
+        "releaseId": 435751550,
         "repositoryId": 929063884,
         "submissionId": "30jc26ge1l"
       },
@@ -1024,7 +1024,7 @@
       }
     },
     "susdock": {
-      "contentCommit": "827ec2fc7ee69888d0cf70eaafbc7bfde3d08591",
+      "contentCommit": "6c7d73c1d8f30e7ec9361f5779e2ed8cf3c5853d",
       "fullName": "Nixie24/susdock",
       "health": "ok",
       "installation": "present",
@@ -1033,8 +1033,8 @@
       "message": null,
       "repositoryId": 1436993054,
       "request": {
-        "checkedAt": "2026-10-28T17:14:18.791Z",
-        "commit": "827ec2fc7ee69888d0cf70eaafbc7bfde3d08591",
+        "checkedAt": "2026-11-05T21:15:29.632Z",
+        "commit": "6c7d73c1d8f30e7ec9361f5779e2ed8cf3c5853d",
         "issues": [],
         "latestTag": "v0.3.5-305",
         "ok": true,
