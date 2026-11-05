@@ -5179,14 +5179,14 @@
     "hybrid_mount": {
       "content": {
         "blobs": {
-          "README.md": "297e37661e84e31fb907c3e679663bf512f610cc",
+          "README.md": "23ae4b02c20ae3f35b43d09140aeafc9a6922c22",
           "icon.png": "0ec70554129f0f518100a4eab1b04c8a4926dc9c",
           "module.yaml": "9995ef14e920bf5e239907bf54919ba11989b343"
         },
-        "commit": "89f328fd945c72794a6505d779f6d85834d131a3",
-        "fetchedAt": "2026-10-21T02:10:31.941Z",
+        "commit": "245cf76fb39df3c7d5da729f1a577cd4efaaf8ee",
+        "fetchedAt": "2026-11-05T08:16:09.821Z",
         "files": {
-          "README.md": "d8b1ac670456e71ca87d6bc2600936ff8a17e85824aa9efd7e2582931705367e",
+          "README.md": "f961eaf8c88dc2c0f8f9f80fb3651b3a9dc1367109b9efef2b2150514aad8254",
           "icon.png": "b3a933b89393bb5f3662157d14c3aeb6bdb380fabb5befeef0523431850c0f3e",
           "module.yaml": "26e4eaf7ec1536d02918cfcfc06d32f814746c4c6b817e171d156013a43ce741"
         },
@@ -5196,17 +5196,78 @@
       "fullName": "Hybrid-Mount/meta-hybrid_mount",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-21T02:10:31.941Z",
-        "lastSuccessAt": "2026-10-21T02:10:31.941Z",
+        "lastAttemptAt": "2026-11-05T08:16:09.821Z",
+        "lastSuccessAt": "2026-11-05T08:16:09.821Z",
         "message": null,
         "status": "ok"
       },
       "id": "hybrid_mount",
       "installationId": 170149812,
       "maxStableVersionCode": 602005999,
-      "maxVersionCode": 602005999,
-      "prerelease": null,
+      "maxVersionCode": 602006301,
+      "prerelease": {
+        "asset": {
+          "digest": "sha256:224a0ad19ea68c75d0ade9cf56550136e5c5f3119f50c0c76e0f42ea386fefdc",
+          "id": 712614061,
+          "name": "Hybrid-Mount-6.2.6-rc.1-2139.zip",
+          "sha256": "224a0ad19ea68c75d0ade9cf56550136e5c5f3119f50c0c76e0f42ea386fefdc",
+          "size": 5032123,
+          "url": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6-rc.1/Hybrid-Mount-6.2.6-rc.1-2139.zip"
+        },
+        "body": "\n## v6.2.6-rc.1\n\n\n### <!-- 1 --> Features\n\n- `vfs` Restore NoMount kernel provider support\n\n\n\n### <!-- 2 --> Fixes\n\n- `vfs` Guard fabricated inode file handle encoding\n\n- `vfs` Enforce backing permissions and safe dentry lifetimes\n\n- `vfs` Detect backported VMA flag helpers\n\n- `vfs` Warn when the provider protocol is unrecognized\n\n\n\n### <!-- 5 --> Miscellaneous\n\n- 构建：下载并复用预编译通知工具\n\n- 测试：校验下载的预编译通知工具\n\n- `vfs` Refresh the prebuilt hybridmount modules\n\n- Refactor MiuixSelectField, Add icon , use MiuixArrowPerference idk why LLM not reuse it...\n\n- Refactor all miuix component and minor fix Add more icons. Use infinite MiuixProgressIndicator Add disabled series color tokens\n\n- Impl pulldowntorefresh\n\n- Fix lint\n\n- Add path rule controls to Miuix modules Allow users to add and remove module path rules, choose a mount mode in a dialog, and save a copy of the edited rules. Add localized labels across supported languages and refine module page styling.\n\n- `vfs` Refresh the prebuilt hybridmount modules\n\n\n\n",
+        "htmlUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/tag/v6.2.6-rc.1",
+        "immutable": true,
+        "name": "v6.2.6-rc.1",
+        "prerelease": true,
+        "prop": {
+          "author": "Hybrid Mount Developers",
+          "description": "Hybrid Mount: mixed OverlayFS, Magic Mount, and VFS for KernelSU and APatch",
+          "id": "hybrid_mount",
+          "metamodule": "1",
+          "name": "Hybrid Mount",
+          "updateJson": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/dev/update.json",
+          "version": "6.2.6-rc.1",
+          "versionCode": "602006301"
+        },
+        "publishedAt": "2026-11-05T08:15:55Z",
+        "releaseId": 434930996,
+        "tag": "v6.2.6-rc.1",
+        "tagCommit": "245cf76fb39df3c7d5da729f1a577cd4efaaf8ee",
+        "version": "6.2.6-rc.1",
+        "versionCode": 602006301
+      },
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:224a0ad19ea68c75d0ade9cf56550136e5c5f3119f50c0c76e0f42ea386fefdc",
+            "id": 712614061,
+            "name": "Hybrid-Mount-6.2.6-rc.1-2139.zip",
+            "sha256": "224a0ad19ea68c75d0ade9cf56550136e5c5f3119f50c0c76e0f42ea386fefdc",
+            "size": 5032123,
+            "url": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6-rc.1/Hybrid-Mount-6.2.6-rc.1-2139.zip"
+          },
+          "body": "\n## v6.2.6-rc.1\n\n\n### <!-- 1 --> Features\n\n- `vfs` Restore NoMount kernel provider support\n\n\n\n### <!-- 2 --> Fixes\n\n- `vfs` Guard fabricated inode file handle encoding\n\n- `vfs` Enforce backing permissions and safe dentry lifetimes\n\n- `vfs` Detect backported VMA flag helpers\n\n- `vfs` Warn when the provider protocol is unrecognized\n\n\n\n### <!-- 5 --> Miscellaneous\n\n- 构建：下载并复用预编译通知工具\n\n- 测试：校验下载的预编译通知工具\n\n- `vfs` Refresh the prebuilt hybridmount modules\n\n- Refactor MiuixSelectField, Add icon , use MiuixArrowPerference idk why LLM not reuse it...\n\n- Refactor all miuix component and minor fix Add more icons. Use infinite MiuixProgressIndicator Add disabled series color tokens\n\n- Impl pulldowntorefresh\n\n- Fix lint\n\n- Add path rule controls to Miuix modules Allow users to add and remove module path rules, choose a mount mode in a dialog, and save a copy of the edited rules. Add localized labels across supported languages and refine module page styling.\n\n- `vfs` Refresh the prebuilt hybridmount modules\n\n\n\n",
+          "htmlUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/tag/v6.2.6-rc.1",
+          "immutable": true,
+          "name": "v6.2.6-rc.1",
+          "prerelease": true,
+          "prop": {
+            "author": "Hybrid Mount Developers",
+            "description": "Hybrid Mount: mixed OverlayFS, Magic Mount, and VFS for KernelSU and APatch",
+            "id": "hybrid_mount",
+            "metamodule": "1",
+            "name": "Hybrid Mount",
+            "updateJson": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/dev/update.json",
+            "version": "6.2.6-rc.1",
+            "versionCode": "602006301"
+          },
+          "publishedAt": "2026-11-05T08:15:55Z",
+          "releaseId": 434930996,
+          "tag": "v6.2.6-rc.1",
+          "tagCommit": "245cf76fb39df3c7d5da729f1a577cd4efaaf8ee",
+          "version": "6.2.6-rc.1",
+          "versionCode": 602006301
+        },
         {
           "asset": {
             "digest": "sha256:973eb81dac3b8e604185369fb9b1497a2faf0709e5cdaa94cb4ffa632dd9278a",
@@ -5452,6 +5513,10 @@
         },
         "419067083": {
           "checkedAt": "2026-10-21T02:10:31.941Z",
+          "ok": true
+        },
+        "434930996": {
+          "checkedAt": "2026-11-05T08:16:09.821Z",
           "ok": true
         }
       },

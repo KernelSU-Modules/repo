@@ -719,12 +719,12 @@
       }
     },
     "hybrid_mount": {
-      "contentCommit": "89f328fd945c72794a6505d779f6d85834d131a3",
+      "contentCommit": "245cf76fb39df3c7d5da729f1a577cd4efaaf8ee",
       "fullName": "Hybrid-Mount/meta-hybrid_mount",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-21T02:10:31.941Z",
-      "maxVersionCode": 602005999,
+      "lastSuccessAt": "2026-11-05T08:16:09.821Z",
+      "maxVersionCode": 602006301,
       "message": null,
       "repositoryId": 1103029590,
       "request": null,
