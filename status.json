@@ -618,7 +618,7 @@
       "stable": null
     },
     "falcon_integrity_fix": {
-      "contentCommit": "ae9c868a76515cabdb746bd77642a74f67b0296d",
+      "contentCommit": "b868eda237001b5f46ad7782d1beb3599d9ea7ac",
       "fullName": "AHMED2111X/AHMED2111X",
       "health": "ok",
       "installation": "present",
@@ -627,8 +627,8 @@
       "message": null,
       "repositoryId": 929063884,
       "request": {
-        "checkedAt": "2026-11-05T03:51:17.208Z",
-        "commit": "ae9c868a76515cabdb746bd77642a74f67b0296d",
+        "checkedAt": "2026-11-05T05:42:18.506Z",
+        "commit": "b868eda237001b5f46ad7782d1beb3599d9ea7ac",
         "issues": [],
         "latestTag": "v3.27",
         "ok": true,
@@ -1057,7 +1057,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "5f424cbabca06b233f2d1a2b43b4f621e15730a2",
+      "contentCommit": "2623e15d1652ef5dff4934313d53cc2071c515c4",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1066,8 +1066,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-05T05:22:33.468Z",
-        "commit": "5f424cbabca06b233f2d1a2b43b4f621e15730a2",
+        "checkedAt": "2026-11-05T05:42:18.506Z",
+        "commit": "2623e15d1652ef5dff4934313d53cc2071c515c4",
         "issues": [],
         "latestTag": "v2.3.0-r18.8",
         "ok": true,
