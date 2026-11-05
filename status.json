@@ -85,16 +85,16 @@
       "fullName": "AlirezaParsi/COPG",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-04T18:02:43.496Z",
-      "maxVersionCode": 761,
+      "lastSuccessAt": "2026-11-05T10:51:09.821Z",
+      "maxVersionCode": 770,
       "message": null,
       "repositoryId": 950100740,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-25T05:11:53Z",
-        "tag": "v7.6.1",
-        "version": "7.6.1",
-        "versionCode": 761
+        "publishedAt": "2026-11-05T10:50:47Z",
+        "tag": "v7.7.0",
+        "version": "7.7.0",
+        "versionCode": 770
       }
     },
     "CRecordEvolution": {
@@ -312,7 +312,7 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "420f7a5651a9aa7398574f1af48f08201e81a2f5",
+      "contentCommit": "456b466fbc0fb7b1fe83240758b104382fbb0913",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
@@ -321,8 +321,8 @@
       "message": null,
       "repositoryId": 1296470014,
       "request": {
-        "checkedAt": "2026-11-05T08:10:13.677Z",
-        "commit": "420f7a5651a9aa7398574f1af48f08201e81a2f5",
+        "checkedAt": "2026-11-05T10:51:09.821Z",
+        "commit": "456b466fbc0fb7b1fe83240758b104382fbb0913",
         "issues": [],
         "latestTag": "v1.5.1",
         "ok": true,
@@ -462,7 +462,7 @@
       }
     },
     "chargebypasscap-pmi": {
-      "contentCommit": "369cf0ce376b91ace3a07ef8de9e4ceecd8f85ea",
+      "contentCommit": "01d0a20984ab7e11c0f47ac9012b90e302af4065",
       "fullName": "9M2PJU/ChargeBypassCap-PMI",
       "health": "ok",
       "installation": "present",
@@ -471,8 +471,8 @@
       "message": null,
       "repositoryId": 1437485405,
       "request": {
-        "checkedAt": "2026-11-04T07:58:28.381Z",
-        "commit": "369cf0ce376b91ace3a07ef8de9e4ceecd8f85ea",
+        "checkedAt": "2026-11-05T10:51:09.821Z",
+        "commit": "01d0a20984ab7e11c0f47ac9012b90e302af4065",
         "issues": [],
         "latestTag": "v1.10",
         "ok": true,
@@ -1078,7 +1078,7 @@
       "stable": null
     },
     "tailscale-bindhosts": {
-      "contentCommit": "68779cf3bea713dc73f1817e0302d0468df12c4b",
+      "contentCommit": "c8761cf8ff8643fafb57a15e1c43b419377d31ea",
       "fullName": "PEMessage/tailscale-bindhosts",
       "health": "ok",
       "installation": "present",
@@ -1087,8 +1087,8 @@
       "message": null,
       "repositoryId": 1445398567,
       "request": {
-        "checkedAt": "2026-11-05T09:16:28.723Z",
-        "commit": "68779cf3bea713dc73f1817e0302d0468df12c4b",
+        "checkedAt": "2026-11-05T10:51:09.821Z",
+        "commit": "c8761cf8ff8643fafb57a15e1c43b419377d31ea",
         "issues": [],
         "latestTag": "v1.0.0",
         "ok": true,

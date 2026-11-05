@@ -309,17 +309,50 @@
       "fullName": "AlirezaParsi/COPG",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-04T18:02:43.496Z",
-        "lastSuccessAt": "2026-11-04T18:02:43.496Z",
+        "lastAttemptAt": "2026-11-05T10:51:09.821Z",
+        "lastSuccessAt": "2026-11-05T10:51:09.821Z",
         "message": null,
         "status": "ok"
       },
       "id": "COPG",
       "installationId": 174213522,
-      "maxStableVersionCode": 761,
-      "maxVersionCode": 761,
+      "maxStableVersionCode": 770,
+      "maxVersionCode": 770,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:9207fa681edcf94502f1170349a9c0b322398c406530f94f1b28bd65184150cd",
+            "id": 713061528,
+            "name": "COPG-v7.7.0.zip",
+            "sha256": "9207fa681edcf94502f1170349a9c0b322398c406530f94f1b28bd65184150cd",
+            "size": 10546613,
+            "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.7.0/COPG-v7.7.0.zip"
+          },
+          "body": "## COPG v7.7.0\n\n*Three new per-app spoofs — Wi-Fi MAC, Bluetooth MAC and boot id — plus SKU build fields, and the GPU spoof unlocks a game's high-graphics options again.*\n\n### Wi-Fi MAC — new\n*   **Fake the Wi-Fi MAC per app (`mac`).** An app now reads a MAC you control instead of the phone's real one: `mac` for a steady fake, `mac=rnd` for a fresh one each launch, or `mac=<12 hex>` to set an exact address. **PRO.** Resident and behind the use-at-your-own-risk gate — never for competitive games.\n\n### Bluetooth MAC — new\n*   **Fake the Bluetooth MAC per app (`btmac`).** The same three forms — `btmac`, `btmac=rnd`, `btmac=<12 hex>` — for the Bluetooth address a device check can read. **PRO**, stealth (nothing stays mapped after it applies).\n\n### Boot ID — new\n*   **Per-app boot id (`bootid`).** Each app gets its own boot id, so a value that's meant to be the same for every app since the last reboot no longer links your accounts together. **PRO**, behind the use-at-your-own-risk gate.\n\n### SKU — new\n*   **SKU and ODM SKU added to the device profile.** Two more build fields you can set per device, so an app that reads the device SKU (for example the SKU row in DevCheck) sees the spoofed phone instead of your real one.\n\n### GPU spoof — unlocks high graphics again\n*   **Games that gate max FPS / HD on a flagship GPU unlock it on the spoofed profile.** The GPU spoof now reaches the exact GPU read those games use to decide which graphics options to offer, so the high-end presets open up again. *(Still resident/detectable and behind the use-at-your-own-risk gate — never for competitive games.)*\n*   **Monster Hunter Outlanders added to the device list**, ready-made with a flagship GPU so its high-graphics options unlock out of the box (both the Global and TW/HK/MO builds). **Needs PRO** — it uses the GPU spoof.\n\n### Other fixes\n*   **Hide dev-options / USB-debugging — stronger.** Now also hides it from apps that read the setting straight from the system instead of the normal lookup (a path a few detectors like Momo use), so the app still sees it off.\n*   **System-server spoofs — lower battery & CPU use.** They now wake only when you actually change a setting, instead of re-reading the config a few times a second around the clock — so they use noticeably less CPU and battery while idle, and a toggle still applies instantly.\n*   **GPU Vulkan stability** — fixed a crash at launch on some devices when the GPU spoof was on.\n*   **Resident hooks leave a cleaner footprint** — the inline hooks no longer leave a writable-and-executable page mapped, a pattern some scanners flag as tampering. More hardening here is still in progress.\n*   **Locale spoof** — no longer affects system processes (issue #80).\n*   **Root detection** — the System tab reads the *active* root manager, not a leftover binary from one you switched away from.\n*   **WebUI** — a brand filter on the Devices tab; forms no longer overflow the screen in landscape.\n*   **Translations** — all 8 community languages brought fully up to date (Arabic, German, Spanish, Indonesian, Portuguese-BR, Thai, Turkish, Chinese), including every string added or reworded since the last sync.\n\n### Heads up\n*   **32-bit phones are no longer supported** — this release is 64-bit (arm64) only. Nearly every phone from the last several years is 64-bit, so this affects only very old devices.\n\n---\n---\n**Build Date**: 2026-11-05 10:50:43 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
+          "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.7.0",
+          "immutable": true,
+          "name": "COPG v7.7.0",
+          "prerelease": false,
+          "prop": {
+            "author": "AlirezaParsi",
+            "banner": "banner.png",
+            "description": "Spoof your device for games/apps to unlock new features. Website: https://vendors.copg.my",
+            "id": "COPG",
+            "minMagisk": "20.4",
+            "name": "✨ COPG SPOOF ✨",
+            "support": "https://t.me/theaosp",
+            "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
+            "version": "7.7.0",
+            "versionCode": "770"
+          },
+          "publishedAt": "2026-11-05T10:50:47Z",
+          "releaseId": 435078012,
+          "tag": "v7.7.0",
+          "tagCommit": "2b7889f3f864138b2d89097228e921c4c8cbeea7",
+          "version": "7.7.0",
+          "versionCode": 770
+        },
         {
           "asset": {
             "digest": "sha256:de4735f7310b5048863a6cf27e6a25eb332c747033d126a70f460ee7a861d598",
@@ -607,21 +640,25 @@
         "423161710": {
           "checkedAt": "2026-10-25T05:12:12.464Z",
           "ok": true
+        },
+        "435078012": {
+          "checkedAt": "2026-11-05T10:51:09.821Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:de4735f7310b5048863a6cf27e6a25eb332c747033d126a70f460ee7a861d598",
-          "id": 674160454,
-          "name": "COPG-v7.6.1.zip",
-          "sha256": "de4735f7310b5048863a6cf27e6a25eb332c747033d126a70f460ee7a861d598",
-          "size": 10511947,
-          "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.6.1/COPG-v7.6.1.zip"
+          "digest": "sha256:9207fa681edcf94502f1170349a9c0b322398c406530f94f1b28bd65184150cd",
+          "id": 713061528,
+          "name": "COPG-v7.7.0.zip",
+          "sha256": "9207fa681edcf94502f1170349a9c0b322398c406530f94f1b28bd65184150cd",
+          "size": 10546613,
+          "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.7.0/COPG-v7.7.0.zip"
         },
-        "body": "## COPG v7.6.1\n\n*Makes the per-app ANDROID_ID spoof consistent across every read path, and fixes a `getprop` that could leak the real value.*\n\n### ANDROID_ID — consistent everywhere\n*   **The `aid` spoof no longer disagrees with itself.** Before, an app could read the faked ANDROID_ID from the normal settings lookup but still get the *real* one through a direct provider `query`/`call`, or by reading `settings_ssaid.xml` — and that mismatch is itself a giveaway. The `aid` tag now spoofs the value in the system server at the source, so every read path returns the same ID. The **Hook Status** screen gained an ANDROID_ID consistency badge on the `aid` row so you can confirm it at a glance.\n\n### getprop — matches the API\n*   **A shelled-out `getprop` now returns the spoofed value.** Closed a case where a `getprop` run through a wrapped shell slipped past the spoof and exposed the real property, so the command line and the framework API agree again.\n\n### Other\n*   Stability and hardening fixes.\n---\n**Build Date**: 2026-10-25 05:11:49 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
-        "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.6.1",
+        "body": "## COPG v7.7.0\n\n*Three new per-app spoofs — Wi-Fi MAC, Bluetooth MAC and boot id — plus SKU build fields, and the GPU spoof unlocks a game's high-graphics options again.*\n\n### Wi-Fi MAC — new\n*   **Fake the Wi-Fi MAC per app (`mac`).** An app now reads a MAC you control instead of the phone's real one: `mac` for a steady fake, `mac=rnd` for a fresh one each launch, or `mac=<12 hex>` to set an exact address. **PRO.** Resident and behind the use-at-your-own-risk gate — never for competitive games.\n\n### Bluetooth MAC — new\n*   **Fake the Bluetooth MAC per app (`btmac`).** The same three forms — `btmac`, `btmac=rnd`, `btmac=<12 hex>` — for the Bluetooth address a device check can read. **PRO**, stealth (nothing stays mapped after it applies).\n\n### Boot ID — new\n*   **Per-app boot id (`bootid`).** Each app gets its own boot id, so a value that's meant to be the same for every app since the last reboot no longer links your accounts together. **PRO**, behind the use-at-your-own-risk gate.\n\n### SKU — new\n*   **SKU and ODM SKU added to the device profile.** Two more build fields you can set per device, so an app that reads the device SKU (for example the SKU row in DevCheck) sees the spoofed phone instead of your real one.\n\n### GPU spoof — unlocks high graphics again\n*   **Games that gate max FPS / HD on a flagship GPU unlock it on the spoofed profile.** The GPU spoof now reaches the exact GPU read those games use to decide which graphics options to offer, so the high-end presets open up again. *(Still resident/detectable and behind the use-at-your-own-risk gate — never for competitive games.)*\n*   **Monster Hunter Outlanders added to the device list**, ready-made with a flagship GPU so its high-graphics options unlock out of the box (both the Global and TW/HK/MO builds). **Needs PRO** — it uses the GPU spoof.\n\n### Other fixes\n*   **Hide dev-options / USB-debugging — stronger.** Now also hides it from apps that read the setting straight from the system instead of the normal lookup (a path a few detectors like Momo use), so the app still sees it off.\n*   **System-server spoofs — lower battery & CPU use.** They now wake only when you actually change a setting, instead of re-reading the config a few times a second around the clock — so they use noticeably less CPU and battery while idle, and a toggle still applies instantly.\n*   **GPU Vulkan stability** — fixed a crash at launch on some devices when the GPU spoof was on.\n*   **Resident hooks leave a cleaner footprint** — the inline hooks no longer leave a writable-and-executable page mapped, a pattern some scanners flag as tampering. More hardening here is still in progress.\n*   **Locale spoof** — no longer affects system processes (issue #80).\n*   **Root detection** — the System tab reads the *active* root manager, not a leftover binary from one you switched away from.\n*   **WebUI** — a brand filter on the Devices tab; forms no longer overflow the screen in landscape.\n*   **Translations** — all 8 community languages brought fully up to date (Arabic, German, Spanish, Indonesian, Portuguese-BR, Thai, Turkish, Chinese), including every string added or reworded since the last sync.\n\n### Heads up\n*   **32-bit phones are no longer supported** — this release is 64-bit (arm64) only. Nearly every phone from the last several years is 64-bit, so this affects only very old devices.\n\n---\n---\n**Build Date**: 2026-11-05 10:50:43 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
+        "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.7.0",
         "immutable": true,
-        "name": "COPG v7.6.1",
+        "name": "COPG v7.7.0",
         "prerelease": false,
         "prop": {
           "author": "AlirezaParsi",
@@ -632,15 +669,15 @@
           "name": "✨ COPG SPOOF ✨",
           "support": "https://t.me/theaosp",
           "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
-          "version": "7.6.1",
-          "versionCode": "761"
+          "version": "7.7.0",
+          "versionCode": "770"
         },
-        "publishedAt": "2026-10-25T05:11:53Z",
-        "releaseId": 423161710,
-        "tag": "v7.6.1",
-        "tagCommit": "a7f76e3d08f237e96a7c3386a795f37d3e15212f",
-        "version": "7.6.1",
-        "versionCode": 761
+        "publishedAt": "2026-11-05T10:50:47Z",
+        "releaseId": 435078012,
+        "tag": "v7.7.0",
+        "tagCommit": "2b7889f3f864138b2d89097228e921c4c8cbeea7",
+        "version": "7.7.0",
+        "versionCode": 770
       },
       "stars": {
         "count": 426,
@@ -7332,8 +7369,8 @@
         "versionCode": 174
       },
       "stars": {
-        "count": 615,
-        "fetchedAt": "2026-11-04T09:38:36.211Z",
+        "count": 622,
+        "fetchedAt": "2026-11-05T10:51:09.821Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
