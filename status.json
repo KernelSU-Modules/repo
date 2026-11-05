@@ -166,7 +166,7 @@
       }
     },
     "Logd_Disabler_ColorOS16": {
-      "contentCommit": "b6f38100fe4aeb36ccc2e65b7d6739b997608b09",
+      "contentCommit": "6db1e8ab790f47d8deedc1a91b10ac417258679f",
       "fullName": "starlifezzz/Logd_Disabler_ColorOS16",
       "health": "ok",
       "installation": "present",
@@ -175,8 +175,8 @@
       "message": null,
       "repositoryId": 1214139400,
       "request": {
-        "checkedAt": "2026-11-02T10:01:08.288Z",
-        "commit": "b6f38100fe4aeb36ccc2e65b7d6739b997608b09",
+        "checkedAt": "2026-11-05T05:22:33.468Z",
+        "commit": "6db1e8ab790f47d8deedc1a91b10ac417258679f",
         "issues": [],
         "latestTag": "v2.3.23",
         "ok": true,
@@ -1057,7 +1057,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "ae840af7aa8d4cf35a8eb55dc01826f8bb2abb2f",
+      "contentCommit": "5f424cbabca06b233f2d1a2b43b4f621e15730a2",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1066,8 +1066,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-04T16:17:33.583Z",
-        "commit": "ae840af7aa8d4cf35a8eb55dc01826f8bb2abb2f",
+        "checkedAt": "2026-11-05T05:22:33.468Z",
+        "commit": "5f424cbabca06b233f2d1a2b43b4f621e15730a2",
         "issues": [],
         "latestTag": "v2.3.0-r18.8",
         "ok": true,
@@ -1094,16 +1094,16 @@
       "fullName": "Rouyashiki/YukiZygisk",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-02T23:36:18.599Z",
-      "maxVersionCode": 10135,
+      "lastSuccessAt": "2026-11-05T05:22:33.468Z",
+      "maxVersionCode": 10136,
       "message": null,
       "repositoryId": 1297024368,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-02T23:35:53Z",
-        "tag": "ci-41546108840",
-        "version": "v0.3.0-10135",
-        "versionCode": 10135
+        "publishedAt": "2026-11-05T05:22:03Z",
+        "tag": "ci-41973134583",
+        "version": "v0.3.0-10136",
+        "versionCode": 10136
       }
     },
     "zygisk-sui": {
