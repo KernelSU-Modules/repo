@@ -1077,6 +1077,27 @@
       },
       "stable": null
     },
+    "tailscale-bindhosts": {
+      "contentCommit": "68779cf3bea713dc73f1817e0302d0468df12c4b",
+      "fullName": "PEMessage/tailscale-bindhosts",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1445398567,
+      "request": {
+        "checkedAt": "2026-11-05T09:16:28.723Z",
+        "commit": "68779cf3bea713dc73f1817e0302d0468df12c4b",
+        "issues": [],
+        "latestTag": "v1.0.0",
+        "ok": true,
+        "releaseId": 434982945,
+        "repositoryId": 1445398567,
+        "submissionId": "ppmka7q91r"
+      },
+      "stable": null
+    },
     "wipe_cache": {
       "contentCommit": "a8de1f7f6d70121d154a5a290261e53546bd2742",
       "fullName": "FLYCOM-E/ClearBox",
