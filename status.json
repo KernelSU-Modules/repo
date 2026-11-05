@@ -312,7 +312,7 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "456b466fbc0fb7b1fe83240758b104382fbb0913",
+      "contentCommit": "748c830586ebb22443bc70767093085e56eef035",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
@@ -321,12 +321,12 @@
       "message": null,
       "repositoryId": 1296470014,
       "request": {
-        "checkedAt": "2026-11-05T10:51:09.821Z",
-        "commit": "456b466fbc0fb7b1fe83240758b104382fbb0913",
+        "checkedAt": "2026-11-05T16:45:24.884Z",
+        "commit": "748c830586ebb22443bc70767093085e56eef035",
         "issues": [],
-        "latestTag": "v1.5.1",
+        "latestTag": "v1.6.0",
         "ok": true,
-        "releaseId": 425037570,
+        "releaseId": 435462328,
         "repositoryId": 1296470014,
         "submissionId": "9gplh1mb0j"
       },
@@ -1057,7 +1057,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "848ff01ba95973c2674cf91a7261129a8cc0e169",
+      "contentCommit": "bcabb0a3d03424b7b3372990d7be87e6d1bf19c2",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1066,8 +1066,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-05T07:22:33.714Z",
-        "commit": "848ff01ba95973c2674cf91a7261129a8cc0e169",
+        "checkedAt": "2026-11-05T16:45:24.884Z",
+        "commit": "bcabb0a3d03424b7b3372990d7be87e6d1bf19c2",
         "issues": [],
         "latestTag": "v2.3.0-r18.8",
         "ok": true,

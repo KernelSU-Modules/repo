@@ -3111,8 +3111,8 @@
         "versionCode": 13
       },
       "stars": {
-        "count": 25,
-        "fetchedAt": "2026-11-04T16:17:33.583Z",
+        "count": 27,
+        "fetchedAt": "2026-11-05T16:45:24.884Z",
         "fullName": "LimpidMo/SvcHub",
         "repositoryId": 1353509468,
         "verified": "self"
@@ -3138,8 +3138,8 @@
       "seen": {},
       "stable": null,
       "stars": {
-        "count": 85,
-        "fetchedAt": "2026-11-03T11:31:15.437Z",
+        "count": 86,
+        "fetchedAt": "2026-11-05T16:45:24.884Z",
         "fullName": "LxyaoX/VexZygisk",
         "repositoryId": 1305247883,
         "verified": "self"
@@ -4180,8 +4180,8 @@
         "versionCode": 20260926
       },
       "stars": {
-        "count": 864,
-        "fetchedAt": "2026-11-04T13:00:20.793Z",
+        "count": 866,
+        "fetchedAt": "2026-11-05T16:45:24.884Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -7022,8 +7022,8 @@
         "versionCode": 1090
       },
       "stars": {
-        "count": 1325,
-        "fetchedAt": "2026-11-04T13:00:20.793Z",
+        "count": 1348,
+        "fetchedAt": "2026-11-05T16:45:24.884Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
