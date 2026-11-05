@@ -1,0 +1,19 @@
+id: tailscale-bindhosts
+status: pending
+request:
+  submissionId: ppmka7q91r
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1445398567
+    ownerId: 29999321
+    fullName: PEMessage/tailscale-bindhosts
+    manifestPath: module.yaml
+  submittedBy: 29999321
+  submittedByLogin: PEMessage
+  submittedAt: 2026-11-05T09:16:00.919Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64639
+createdAt: 2026-11-05T09:16:00.919Z
+updatedAt: 2026-11-05T09:16:00.919Z
