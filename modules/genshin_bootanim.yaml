@@ -1,19 +1,23 @@
 id: genshin_bootanim
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1443473635
+  ownerId: 35349300
+  fullName: kingsznhone/genshin-bootanimation
+  manifestPath: module.yaml
+review:
   submissionId: xah5wbhbuy
   kind: submit
-  source:
-    host: github
-    repositoryId: 1443473635
-    ownerId: 35349300
-    fullName: kingsznhone/genshin-bootanimation
-    manifestPath: module.yaml
   submittedBy: 35349300
-  submittedByLogin: kingsznhone
   submittedAt: 2026-11-02T23:01:46.777Z
+  decision: approved
+  decidedBy: 185127155
+  decidedVia: portal
+  decidedAt: 2026-11-06T05:15:31.250Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64633
 createdAt: 2026-11-02T23:01:46.777Z
-updatedAt: 2026-11-02T23:01:46.777Z
+updatedAt: 2026-11-06T05:15:31.250Z
