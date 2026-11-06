@@ -825,6 +825,27 @@
         "versionCode": 10412
       }
     },
+    "mirage_forge": {
+      "contentCommit": "9dc4a8b00c86901c5764b6a7e23b5e614dc26afd",
+      "fullName": "jjh138792/MirageForge",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1445526027,
+      "request": {
+        "checkedAt": "2026-11-06T12:01:06.080Z",
+        "commit": "9dc4a8b00c86901c5764b6a7e23b5e614dc26afd",
+        "issues": [],
+        "latestTag": "1.0.0",
+        "ok": true,
+        "releaseId": 436435372,
+        "repositoryId": 1445526027,
+        "submissionId": "ll23w1var7"
+      },
+      "stable": null
+    },
     "netproxy": {
       "contentCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
       "fullName": "Fanju6/NetProxy-Releases",
@@ -1041,7 +1062,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "bcabb0a3d03424b7b3372990d7be87e6d1bf19c2",
+      "contentCommit": "d96185a6db4bd74345f2de601afa9d148823fd1f",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1050,8 +1071,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-05T16:45:24.884Z",
-        "commit": "bcabb0a3d03424b7b3372990d7be87e6d1bf19c2",
+        "checkedAt": "2026-11-06T12:01:06.080Z",
+        "commit": "d96185a6db4bd74345f2de601afa9d148823fd1f",
         "issues": [],
         "latestTag": "v2.3.0-r18.8",
         "ok": true,
