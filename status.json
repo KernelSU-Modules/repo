@@ -1112,16 +1112,16 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-03T08:44:37.231Z",
-      "maxVersionCode": 574,
+      "lastSuccessAt": "2026-11-06T07:16:50.636Z",
+      "maxVersionCode": 576,
       "message": null,
       "repositoryId": 1415623276,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-03T08:44:14Z",
-        "tag": "v574-746c06c",
-        "version": "v13.5.4.3 (574-746c06c-release)",
-        "versionCode": 574
+        "publishedAt": "2026-11-06T07:16:21Z",
+        "tag": "v576-3af0920",
+        "version": "v13.5.4.3 (576-3af0920-release)",
+        "versionCode": 576
       }
     },
     "zygisk_fusehide": {
