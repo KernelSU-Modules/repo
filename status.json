@@ -22,7 +22,7 @@
       "stable": null
     },
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "1d50c77bcad9dff013bf234d5cbb7a2e9a075691",
+      "contentCommit": "c7cba667e569d544e14bcbf3c5e58637576917fc",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -31,12 +31,12 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-10-29T02:16:59.999Z",
-        "commit": "1d50c77bcad9dff013bf234d5cbb7a2e9a075691",
+        "checkedAt": "2026-11-06T08:29:15.804Z",
+        "commit": "c7cba667e569d544e14bcbf3c5e58637576917fc",
         "issues": [],
-        "latestTag": "v1.2.8",
+        "latestTag": "v1.2.11",
         "ok": true,
-        "releaseId": 424575461,
+        "releaseId": 436260227,
         "repositoryId": 1428389721,
         "submissionId": "7odtl2oc3j"
       },
@@ -308,11 +308,11 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "748c830586ebb22443bc70767093085e56eef035",
+      "contentCommit": "d3367a580fb859f86c7f07a4b30aec4ab037dace",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-06T05:18:06.651Z",
+      "lastSuccessAt": "2026-11-06T08:29:15.804Z",
       "maxVersionCode": 10600,
       "message": null,
       "repositoryId": 1296470014,

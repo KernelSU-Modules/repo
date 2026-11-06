@@ -3293,14 +3293,14 @@
     "acc": {
       "content": {
         "blobs": {
-          "README.md": "ff9541c7b2713b1197e408e7e853f22632bc3707",
+          "README.md": "763aca4e9c5aac828a3370268cc07e708c3a717a",
           "install/icon/webui.png": "7ccf08e2d10443ace2fc0589c408f22939b94eaa",
           "module.yaml": "217c4de4210853cb54c07fba50df2fc12bf66175"
         },
-        "commit": "748c830586ebb22443bc70767093085e56eef035",
-        "fetchedAt": "2026-11-06T05:18:06.651Z",
+        "commit": "d3367a580fb859f86c7f07a4b30aec4ab037dace",
+        "fetchedAt": "2026-11-06T08:29:15.804Z",
         "files": {
-          "README.md": "b7e3776ec61ddd4f50840ed356616adaf7d0ed237500f839e65aae347990e093",
+          "README.md": "68053e6717cc9d580d326021c2d7ae403af57cd3041b959fe082d833c9f17326",
           "install/icon/webui.png": "26ef13138d9c44b8b7fdcc741cc921ba51b1c2b40b8764cc609d2715933a8eea",
           "module.yaml": "e2b5b7270353dafb71358e635bcadeaf321aad421239e1f3d55ef6c9c5db1ef9"
         },
@@ -3310,8 +3310,8 @@
       "fullName": "Infiniti151/acc-with-webui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-06T05:18:06.651Z",
-        "lastSuccessAt": "2026-11-06T05:18:06.651Z",
+        "lastAttemptAt": "2026-11-06T08:29:15.804Z",
+        "lastSuccessAt": "2026-11-06T08:29:15.804Z",
         "message": null,
         "status": "ok"
       },
@@ -6374,8 +6374,8 @@
         "versionCode": 15
       },
       "stars": {
-        "count": 62,
-        "fetchedAt": "2026-10-28T19:18:14.983Z",
+        "count": 63,
+        "fetchedAt": "2026-11-06T08:29:15.804Z",
         "fullName": "NativeStar/KernelSUGrantToast",
         "repositoryId": 1205795668,
         "verified": "self"
@@ -6608,8 +6608,8 @@
         "versionCode": 40005
       },
       "stars": {
-        "count": 35,
-        "fetchedAt": "2026-11-05T07:22:33.714Z",
+        "count": 36,
+        "fetchedAt": "2026-11-06T08:29:15.804Z",
         "fullName": "cyanmint/lkm4ctr",
         "repositoryId": 1313308146,
         "verified": "self"
