@@ -719,8 +719,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-31T14:27:07.497Z",
-        "lastSuccessAt": "2026-10-31T14:27:07.497Z",
+        "lastAttemptAt": "2026-11-06T14:37:39.293Z",
+        "lastSuccessAt": "2026-11-06T14:37:39.293Z",
         "message": null,
         "status": "ok"
       },
@@ -900,6 +900,12 @@
         "429049450": {
           "checkedAt": "2026-10-30T13:11:59.361Z",
           "ok": true
+        },
+        "436607590": {
+          "checkedAt": "2026-11-06T14:37:39.293Z",
+          "code": "version-not-newer",
+          "message": "versionCode 36 is already used by the release v1.3.7. Publish a new release with a versionCode above 36.",
+          "ok": false
         }
       },
       "stable": {
@@ -933,8 +939,8 @@
         "versionCode": 36
       },
       "stars": {
-        "count": 17,
-        "fetchedAt": "2026-11-05T21:15:29.632Z",
+        "count": 18,
+        "fetchedAt": "2026-11-06T14:37:39.293Z",
         "fullName": "f1owkang/CRecordEvolution",
         "repositoryId": 678049636,
         "verified": "self"
@@ -1658,14 +1664,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "bb88bc31024367fc7bd0cc8164f5c018dd2bbe1e",
+          "README.md": "12cf9a3b81f2ed4dca168e96ace1f152ae978a09",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "d22ea2fab2b83c48a6bfc1a30180aeb26e08d0e8",
-        "fetchedAt": "2026-11-06T09:31:18.709Z",
+        "commit": "62c70b60b84dce4da9eb66d5045c2bbca688fe1c",
+        "fetchedAt": "2026-11-06T14:37:39.293Z",
         "files": {
-          "README.md": "1aa18978bf8182dacdd7e727151dd4228f5454a042bb0a37805d6a03715a277d",
+          "README.md": "fe0c1effd5083b7c55cb76d8e40fe2eebc585cbf66b7600f2f1c5a51b1757dbf",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -1675,8 +1681,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-06T09:31:18.709Z",
-        "lastSuccessAt": "2026-11-06T09:31:18.709Z",
+        "lastAttemptAt": "2026-11-06T14:37:39.293Z",
+        "lastSuccessAt": "2026-11-06T14:37:39.293Z",
         "message": null,
         "status": "ok"
       },
@@ -2167,8 +2173,8 @@
         "versionCode": 10612
       },
       "stars": {
-        "count": 222,
-        "fetchedAt": "2026-11-06T12:01:06.080Z",
+        "count": 223,
+        "fetchedAt": "2026-11-06T14:37:39.293Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -5382,8 +5388,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 3,
-        "fetchedAt": "2026-11-02T11:58:16.465Z",
+        "count": 4,
+        "fetchedAt": "2026-11-06T14:37:39.293Z",
         "fullName": "KernelSU-Modules/example-module",
         "repositoryId": 1413800395,
         "verified": "self"
@@ -10216,8 +10222,8 @@
         "versionCode": 576
       },
       "stars": {
-        "count": 14,
-        "fetchedAt": "2026-11-03T08:44:37.231Z",
+        "count": 15,
+        "fetchedAt": "2026-11-06T14:37:39.293Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
@@ -11242,8 +11248,8 @@
         "versionCode": 273
       },
       "stars": {
-        "count": 103,
-        "fetchedAt": "2026-11-05T01:02:19.827Z",
+        "count": 104,
+        "fetchedAt": "2026-11-06T14:37:39.293Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"
