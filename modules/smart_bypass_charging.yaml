@@ -1,0 +1,19 @@
+id: smart_bypass_charging
+status: pending
+request:
+  submissionId: 5ccu5lwf1b
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1448741563
+    ownerId: 3004318
+    fullName: mhmithu/Smart-Bypass-Charging
+    manifestPath: module.yaml
+  submittedBy: 3004318
+  submittedByLogin: mhmithu
+  submittedAt: 2026-11-06T22:38:39.859Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64653
+createdAt: 2026-11-06T22:38:39.859Z
+updatedAt: 2026-11-06T22:38:39.859Z
