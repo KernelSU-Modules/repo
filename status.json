@@ -462,21 +462,27 @@
       }
     },
     "chargebypasscap-pmi": {
-      "contentCommit": "01d0a20984ab7e11c0f47ac9012b90e302af4065",
+      "contentCommit": null,
       "fullName": "9M2PJU/ChargeBypassCap-PMI",
-      "health": "ok",
+      "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": null,
+      "message": "repo-not-found: github-unavailable: temporary GitHub error while checking the requested repository; will retry",
       "repositoryId": 1437485405,
       "request": {
-        "checkedAt": "2026-11-05T10:51:09.821Z",
-        "commit": "01d0a20984ab7e11c0f47ac9012b90e302af4065",
-        "issues": [],
-        "latestTag": "v1.10",
-        "ok": true,
-        "releaseId": 433646078,
+        "checkedAt": "2026-11-06T05:02:17.367Z",
+        "commit": null,
+        "issues": [
+          {
+            "code": "repo-not-found",
+            "message": "github-unavailable: temporary GitHub error while checking the requested repository; will retry",
+            "severity": "error"
+          }
+        ],
+        "latestTag": null,
+        "ok": false,
+        "releaseId": null,
         "repositoryId": 1437485405,
         "submissionId": "r4ffa5id2t"
       },
