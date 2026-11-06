@@ -1032,6 +1032,27 @@
         "versionCode": 34
       }
     },
+    "smart_bypass_charging": {
+      "contentCommit": "ace40cdc541fbf1c8803bccb05d30b081270abe7",
+      "fullName": "mhmithu/Smart-Bypass-Charging",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1448741563,
+      "request": {
+        "checkedAt": "2026-11-06T22:39:07.898Z",
+        "commit": "ace40cdc541fbf1c8803bccb05d30b081270abe7",
+        "issues": [],
+        "latestTag": "v1.0.1",
+        "ok": true,
+        "releaseId": 437124808,
+        "repositoryId": 1448741563,
+        "submissionId": "5ccu5lwf1b"
+      },
+      "stable": null
+    },
     "susdock": {
       "contentCommit": "6c7d73c1d8f30e7ec9361f5779e2ed8cf3c5853d",
       "fullName": "Nixie24/susdock",
