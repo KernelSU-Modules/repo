@@ -696,12 +696,12 @@
           ".github/images/overview-zh.png": "fa74b205c5e8a47ba456c905edbf3b03aef22c64",
           ".github/images/settings-zh.png": "f01b1833c2dd75d375b7d46b044c718418f0222d",
           ".github/images/trends-zh.png": "e53d03d8cebee9306cc48dd95e44e2ab8bf5dc75",
-          "README.md": "b173e96e2a998ca4ef967f28b1f3ae966b6457b1",
+          "README.md": "18e15195a31b752bc984870844fdc8b765318758",
           "assets/icon.png": "5dc474bb718300203dce63f6f647c0d98cc4a3b6",
           "module.yaml": "99b94b13495317433d7c9f9ad9ddad25fddc4d96"
         },
-        "commit": "cfaeda44c67ee1cf423b00d6f6ea5d8e1a9a71de",
-        "fetchedAt": "2026-10-31T14:27:07.497Z",
+        "commit": "350d11794d03ef2d37fb4a11c120d2cbb6cfed31",
+        "fetchedAt": "2026-11-06T16:51:42.874Z",
         "files": {
           ".github/images/history-zh.png": "d46eb582599968a1800de7e2298c331d5579b08cc9e5dd79acb0fa69f96d0e2a",
           ".github/images/how-it-works-zh-dark.png": "862e702a5136b0dba280b6863be3addbe8b5900ce2d6dd91546c68fd9caa3fae",
@@ -709,7 +709,7 @@
           ".github/images/overview-zh.png": "f6012c245bf1834565129899c5c48147660d6d3ce7913fa45bb088f385edb3cf",
           ".github/images/settings-zh.png": "06faefa6ec0d9319185e6ca44e2957a1b2b7d6f36efad894947bdb29f4136903",
           ".github/images/trends-zh.png": "ea6257f016d41db98c95ff6f8ef894b7ae344f3f7d2ed9265978766007e89e5e",
-          "README.md": "0551a4127a24e8207f503da24ecfca939589e9b4f58b40e70774fa0a465d8121",
+          "README.md": "d837fe0fd592330d3f9733c0ee407b4ffddc3ca5dcbcc40a67f4866badf89480",
           "assets/icon.png": "ef5a7662da7b1a2debee42ebe7f5b3e2ad28e362adc958828c986c0026128f91",
           "module.yaml": "a7c04b69a0eb359161c2d57cfca9256b4cf1f86ab95ef47414444be46f3fecf1"
         },
@@ -719,8 +719,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-06T14:37:39.293Z",
-        "lastSuccessAt": "2026-11-06T14:37:39.293Z",
+        "lastAttemptAt": "2026-11-06T16:51:42.874Z",
+        "lastSuccessAt": "2026-11-06T16:51:42.874Z",
         "message": null,
         "status": "ok"
       },
@@ -3262,8 +3262,8 @@
         "versionCode": 13
       },
       "stars": {
-        "count": 27,
-        "fetchedAt": "2026-11-05T16:45:24.884Z",
+        "count": 28,
+        "fetchedAt": "2026-11-06T16:51:42.874Z",
         "fullName": "LimpidMo/SvcHub",
         "repositoryId": 1353509468,
         "verified": "self"
@@ -3289,8 +3289,8 @@
       "seen": {},
       "stable": null,
       "stars": {
-        "count": 86,
-        "fetchedAt": "2026-11-05T16:45:24.884Z",
+        "count": 87,
+        "fetchedAt": "2026-11-06T16:51:42.874Z",
         "fullName": "LxyaoX/VexZygisk",
         "repositoryId": 1305247883,
         "verified": "self"
@@ -3711,8 +3711,8 @@
         "versionCode": 28
       },
       "stars": {
-        "count": 93,
-        "fetchedAt": "2026-11-02T11:58:16.465Z",
+        "count": 94,
+        "fetchedAt": "2026-11-06T16:51:42.874Z",
         "fullName": "Dr-TSNG/altdb",
         "repositoryId": 1368146952,
         "verified": "self"
@@ -4502,8 +4502,8 @@
         "versionCode": 20260926
       },
       "stars": {
-        "count": 866,
-        "fetchedAt": "2026-11-05T16:45:24.884Z",
+        "count": 868,
+        "fetchedAt": "2026-11-06T16:51:42.874Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -7504,8 +7504,8 @@
         "versionCode": 1090
       },
       "stars": {
-        "count": 1348,
-        "fetchedAt": "2026-11-05T16:45:24.884Z",
+        "count": 1387,
+        "fetchedAt": "2026-11-06T16:51:42.874Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -10678,17 +10678,47 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-01T03:50:01.835Z",
-        "lastSuccessAt": "2026-11-01T03:50:01.835Z",
+        "lastAttemptAt": "2026-11-06T16:51:42.874Z",
+        "lastSuccessAt": "2026-11-06T16:51:42.874Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 273,
-      "maxVersionCode": 273,
+      "maxStableVersionCode": 299,
+      "maxVersionCode": 299,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:15394e3ac4901c537fb61832728fdd7c8756174d9a47c959d89febffd5dcde05",
+            "id": 717840944,
+            "name": "ZNNext-v2.11.1-299-fa1da0d-release.zip",
+            "sha256": "15394e3ac4901c537fb61832728fdd7c8756174d9a47c959d89febffd5dcde05",
+            "size": 6874301,
+            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.11.1/ZNNext-v2.11.1-299-fa1da0d-release.zip"
+          },
+          "body": "## What's Changed\n* ci(pr): automatically generate mazoku by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/139\n* chore(deps): bump tslib from 2.8.1 to 2.9.1 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/145\n* chore(deps-dev): bump vue-tsc from 3.3.13 to 3.3.14 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/144\n* chore(deps): bump the crates group in /daemon with 2 updates by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/141\n* chore(deps): bump kernelsu from 3.0.2 to 3.3.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/142\n* chore(deps-dev): bump @types/node from 26.6.5 to 26.6.6 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/143\n* chore(deps): bump motion-v from 2.8.0 to 2.9.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/140\n* build: use python for buildscript, remove gradle by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/147\n* chore(deps): bump loader/src/external/yukiplt from `7617b35` to `a10bb6a` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/149\n* chore(deps): bump actions/setup-python from 6 to 7 by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/148\n* chore(deps): bump motion-v from 2.9.0 to 2.10.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/150\n* chore(deps): bump loader/src/external/yukiplt from `a10bb6a` to `f8988f3` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/151\n* build: no setup ndk by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/152\n* chore(deps): bump loader/src/external/frida-gum from `4917b74` to `2de865c` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/153\n* chore(deps): bump loader/src/external/yukizygisk from `baa6628` to `7d676de` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/154\n* chore(deps): bump loader/src/external/yukizygisk from `7d676de` to `509417c` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/155\n* chore(deps): bump loader/src/external/plti from `3e7cc55` to `ffbffaa` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/156\n* chore(deps): bump @m3e/web from 2.10.3 to 2.11.1 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/159\n* chore(deps): bump loader/src/external/frida-gum from `2de865c` to `c73c1bb` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/157\n* chore(deps): bump @m3e/icons from 1.0.21 to 1.0.22 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/158\n* fix(daemon): reconcile kernel mode events too by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/146\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.11.0...v2.11.1\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.11.1",
+          "immutable": true,
+          "name": "v2.11.1",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "ZNNext",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
+            "version": "v2.11.1 (299-fa1da0d-release)",
+            "versionCode": "299"
+          },
+          "publishedAt": "2026-11-06T16:51:19Z",
+          "releaseId": 436756250,
+          "tag": "v2.11.1",
+          "tagCommit": "fa1da0d1af69bc52d9485ae978486c6d5f5b6d27",
+          "version": "v2.11.1 (299-fa1da0d-release)",
+          "versionCode": 299
+        },
         {
           "asset": {
             "digest": "sha256:6a80a816a27c633a15644e0f5c6f727e173569996c1ad7ccacae63606a9ea67a",
@@ -10958,36 +10988,6 @@
           "tagCommit": "d2c08c799a770c5fef813c6dd99afa44a2adb6ca",
           "version": "v2.6.0 (235-d2c08c7-release)",
           "versionCode": 235
-        },
-        {
-          "asset": {
-            "digest": "sha256:ac979f7b3d36a0a3177371f3ed2169ce6d0bca322a01acd12b295b61507982e2",
-            "id": 674361391,
-            "name": "ZNNext-v2.5.0-231-8e48bf1-release.zip",
-            "sha256": "ac979f7b3d36a0a3177371f3ed2169ce6d0bca322a01acd12b295b61507982e2",
-            "size": 6496628,
-            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.5.0/ZNNext-v2.5.0-231-8e48bf1-release.zip"
-          },
-          "body": "## What's Changed\n* feat(hooks): add UrHook by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/119\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.4.0...v2.5.0\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.5.0",
-          "immutable": true,
-          "name": "v2.5.0",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "ZNNext",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-            "version": "v2.5.0 (231-8e48bf1-release)",
-            "versionCode": "231"
-          },
-          "publishedAt": "2026-10-25T07:14:30Z",
-          "releaseId": 423207974,
-          "tag": "v2.5.0",
-          "tagCommit": "8e48bf1a8bbea9d774e72ec0f53d4d4532f27967",
-          "version": "v2.5.0 (231-8e48bf1-release)",
-          "versionCode": 231
         }
       ],
       "repositoryId": 1348255159,
@@ -11217,21 +11217,25 @@
         "430346863": {
           "checkedAt": "2026-11-01T03:50:01.835Z",
           "ok": true
+        },
+        "436756250": {
+          "checkedAt": "2026-11-06T16:51:42.874Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:6a80a816a27c633a15644e0f5c6f727e173569996c1ad7ccacae63606a9ea67a",
-          "id": 697250415,
-          "name": "ZNNext-v2.11.0-273-3134a2f-release.zip",
-          "sha256": "6a80a816a27c633a15644e0f5c6f727e173569996c1ad7ccacae63606a9ea67a",
-          "size": 6818501,
-          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.11.0/ZNNext-v2.11.0-273-3134a2f-release.zip"
+          "digest": "sha256:15394e3ac4901c537fb61832728fdd7c8756174d9a47c959d89febffd5dcde05",
+          "id": 717840944,
+          "name": "ZNNext-v2.11.1-299-fa1da0d-release.zip",
+          "sha256": "15394e3ac4901c537fb61832728fdd7c8756174d9a47c959d89febffd5dcde05",
+          "size": 6874301,
+          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.11.1/ZNNext-v2.11.1-299-fa1da0d-release.zip"
         },
-        "body": "## What's Changed\n* feat(inlinehook): add yuki::ihook by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/138\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.10.1...v2.11.0\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.11.0",
+        "body": "## What's Changed\n* ci(pr): automatically generate mazoku by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/139\n* chore(deps): bump tslib from 2.8.1 to 2.9.1 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/145\n* chore(deps-dev): bump vue-tsc from 3.3.13 to 3.3.14 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/144\n* chore(deps): bump the crates group in /daemon with 2 updates by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/141\n* chore(deps): bump kernelsu from 3.0.2 to 3.3.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/142\n* chore(deps-dev): bump @types/node from 26.6.5 to 26.6.6 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/143\n* chore(deps): bump motion-v from 2.8.0 to 2.9.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/140\n* build: use python for buildscript, remove gradle by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/147\n* chore(deps): bump loader/src/external/yukiplt from `7617b35` to `a10bb6a` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/149\n* chore(deps): bump actions/setup-python from 6 to 7 by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/148\n* chore(deps): bump motion-v from 2.9.0 to 2.10.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/150\n* chore(deps): bump loader/src/external/yukiplt from `a10bb6a` to `f8988f3` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/151\n* build: no setup ndk by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/152\n* chore(deps): bump loader/src/external/frida-gum from `4917b74` to `2de865c` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/153\n* chore(deps): bump loader/src/external/yukizygisk from `baa6628` to `7d676de` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/154\n* chore(deps): bump loader/src/external/yukizygisk from `7d676de` to `509417c` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/155\n* chore(deps): bump loader/src/external/plti from `3e7cc55` to `ffbffaa` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/156\n* chore(deps): bump @m3e/web from 2.10.3 to 2.11.1 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/159\n* chore(deps): bump loader/src/external/frida-gum from `2de865c` to `c73c1bb` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/157\n* chore(deps): bump @m3e/icons from 1.0.21 to 1.0.22 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/158\n* fix(daemon): reconcile kernel mode events too by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/146\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.11.0...v2.11.1\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.11.1",
         "immutable": true,
-        "name": "v2.11.0",
+        "name": "v2.11.1",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -11239,15 +11243,15 @@
           "id": "zygisknextsu",
           "name": "ZNNext",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-          "version": "v2.11.0 (273-3134a2f-release)",
-          "versionCode": "273"
+          "version": "v2.11.1 (299-fa1da0d-release)",
+          "versionCode": "299"
         },
-        "publishedAt": "2026-11-01T03:49:42Z",
-        "releaseId": 430346863,
-        "tag": "v2.11.0",
-        "tagCommit": "3134a2fdc3ef330cecc2a58057859b1ba2ea048a",
-        "version": "v2.11.0 (273-3134a2f-release)",
-        "versionCode": 273
+        "publishedAt": "2026-11-06T16:51:19Z",
+        "releaseId": 436756250,
+        "tag": "v2.11.1",
+        "tagCommit": "fa1da0d1af69bc52d9485ae978486c6d5f5b6d27",
+        "version": "v2.11.1 (299-fa1da0d-release)",
+        "versionCode": 299
       },
       "stars": {
         "count": 104,
