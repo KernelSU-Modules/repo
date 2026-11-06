@@ -5075,6 +5075,131 @@
         "verified": "self"
       }
     },
+    "genshin_bootanim": {
+      "content": {
+        "blobs": {
+          "README.md": "f36a393af0350ceecd45fbca53aa2f8f9ec47d9f",
+          "assets/icon.png": "7e95c2ba9c0d3ad94df362e96902dca2eaba1164",
+          "assets/startup.jpg": "1fd40336b2a20f072f708b541bdb8c7779d90e36",
+          "module.yaml": "f63bf54e30f952dd15403edd27df02d8c5fa5d6b"
+        },
+        "commit": "68e0c26bdba5596c67754aca83408fa16042d7ba",
+        "fetchedAt": "2026-11-06T05:16:41.341Z",
+        "files": {
+          "README.md": "ca41b23b27e5a8010e65a2d7f8775a39477ace41bf15e370aa07f76035e5dbcd",
+          "assets/icon.png": "d7db11202bbd7f6f930e7dd7ec1c44bfdc4b5a941d4a887df21a210156d5f590",
+          "assets/startup.jpg": "8b558befbf312e4341002ccf67719e345435070b22cb525470c42b73d021b13e",
+          "module.yaml": "b6e8c6bbd0c21da5c6a30b1b70f1a934b1c27569b9e96197f1f44e6c07294073"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "kingsznhone/genshin-bootanimation",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-06T05:16:41.341Z",
+        "lastSuccessAt": "2026-11-06T05:16:41.341Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "genshin_bootanim",
+      "installationId": 177982585,
+      "maxStableVersionCode": 10003,
+      "maxVersionCode": 10003,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:e2390f40b693a3475db21b8e6aed13d241d78e4e0d5f5fc5824c03959b8262d5",
+            "id": 703903188,
+            "name": "genshin_bootanim-10003-1.0.3.zip",
+            "sha256": "e2390f40b693a3475db21b8e6aed13d241d78e4e0d5f5fc5824c03959b8262d5",
+            "size": 8877025,
+            "url": "https://github.com/kingsznhone/genshin-bootanimation/releases/download/1.0.3/genshin_bootanim-10003-1.0.3.zip"
+          },
+          "body": "",
+          "htmlUrl": "https://github.com/kingsznhone/genshin-bootanimation/releases/tag/1.0.3",
+          "immutable": true,
+          "name": "1.0.3",
+          "prerelease": false,
+          "prop": {
+            "author": "ZNH",
+            "description": "将开机动画替换成原神启动动画，适配分辨率 1440x3200",
+            "id": "genshin_bootanim",
+            "name": "原神开机动画 [30FPS]",
+            "version": "1.0.3",
+            "versionCode": "10003"
+          },
+          "publishedAt": "2026-11-03T01:58:50Z",
+          "releaseId": 432190060,
+          "tag": "1.0.3",
+          "tagCommit": "e6bb6b10814f73f69f2ef79c4c40c8dcbb5f993f",
+          "version": "1.0.3",
+          "versionCode": 10003
+        }
+      ],
+      "repositoryId": 1443473635,
+      "seen": {
+        "432059067": {
+          "checkedAt": "2026-11-06T05:16:41.341Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "432131430": {
+          "checkedAt": "2026-11-06T05:16:41.341Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "432139623": {
+          "checkedAt": "2026-11-06T05:16:41.341Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "432190060": {
+          "checkedAt": "2026-11-06T05:16:41.341Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:e2390f40b693a3475db21b8e6aed13d241d78e4e0d5f5fc5824c03959b8262d5",
+          "id": 703903188,
+          "name": "genshin_bootanim-10003-1.0.3.zip",
+          "sha256": "e2390f40b693a3475db21b8e6aed13d241d78e4e0d5f5fc5824c03959b8262d5",
+          "size": 8877025,
+          "url": "https://github.com/kingsznhone/genshin-bootanimation/releases/download/1.0.3/genshin_bootanim-10003-1.0.3.zip"
+        },
+        "body": "",
+        "htmlUrl": "https://github.com/kingsznhone/genshin-bootanimation/releases/tag/1.0.3",
+        "immutable": true,
+        "name": "1.0.3",
+        "prerelease": false,
+        "prop": {
+          "author": "ZNH",
+          "description": "将开机动画替换成原神启动动画，适配分辨率 1440x3200",
+          "id": "genshin_bootanim",
+          "name": "原神开机动画 [30FPS]",
+          "version": "1.0.3",
+          "versionCode": "10003"
+        },
+        "publishedAt": "2026-11-03T01:58:50Z",
+        "releaseId": 432190060,
+        "tag": "1.0.3",
+        "tagCommit": "e6bb6b10814f73f69f2ef79c4c40c8dcbb5f993f",
+        "version": "1.0.3",
+        "versionCode": 10003
+      },
+      "stars": {
+        "count": 1,
+        "fetchedAt": "2026-11-06T05:16:41.341Z",
+        "fullName": "kingsznhone/genshin-bootanimation",
+        "repositoryId": 1443473635,
+        "verified": "self"
+      }
+    },
     "gs_quick_reload": {
       "content": {
         "blobs": {
