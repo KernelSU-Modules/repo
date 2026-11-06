@@ -2222,6 +2222,151 @@
         "verified": "owner"
       }
     },
+    "MoveCertificate": {
+      "content": {
+        "blobs": {
+          "README.assets/20221109212126575.png": "89d8898ffd128b79051d1db3e24dfd03dfecea5a",
+          "README.assets/2024-02-19_01.27.27.png": "5a650eab6712fe6e812257b86a3bc173da4003fd",
+          "README.md": "bd0f001b9e684cf4aafc5be271bd2ecd7c6c461b",
+          "module.yaml": "57294e3e90117878f4cdcb07c706d5315b84c83e"
+        },
+        "commit": "4d845ba8156453ef0852e5f06c671d98548f16cf",
+        "fetchedAt": "2026-11-06T05:18:06.651Z",
+        "files": {
+          "README.assets/20221109212126575.png": "8e645e511d50a1248196f95dce970f050d7cec00f0fa14c0f91de4ab8d2f9c07",
+          "README.assets/2024-02-19_01.27.27.png": "3afdb7c5d52973266fcf580993e0451274315e4dd34c49671980e0031fab23cb",
+          "README.md": "fb7bb3bd3b2519bee704b8973731353a3d3c585d3620452313abb5569be5b377",
+          "module.yaml": "9e214060d70ec2417fe2909fe2fa7d96bffda2d3c821bd8df42673cd45cddedc"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "ys1231/MoveCertificate-ksu",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-06T05:18:06.651Z",
+        "lastSuccessAt": "2026-11-06T05:18:06.651Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "MoveCertificate",
+      "installationId": 173771139,
+      "maxStableVersionCode": 28,
+      "maxVersionCode": 28,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:38b95c51a4e0d50807bcc4e6795b58875b952acc41457d9477b518ec61591f40",
+            "id": 541217703,
+            "name": "MoveCertificate-v1.6.2.zip",
+            "sha256": "38b95c51a4e0d50807bcc4e6795b58875b952acc41457d9477b518ec61591f40",
+            "size": 571640,
+            "url": "https://github.com/ys1231/MoveCertificate-ksu/releases/download/v1.6.2/MoveCertificate-v1.6.2.zip"
+          },
+          "body": "<!-- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9wcyI6eyJpZCI6Ik1vdmVDZXJ0aWZpY2F0ZSIsIm5hbWUiOiJNb3ZlQ2VydGlmaWNhdGUiLCJ2ZXJzaW9uIjoidjEuNi4yIiwidmVyc2lvbkNvZGUiOiIyOCIsImF1dGhvciI6IkNvbnRyaWJ1dG9ycyIsImRlc2NyaXB0aW9uIjoiU3VwcG9ydHMgbWFnaXNrdjIwLjQrL2tlcm5lbHN1L0FQYXRjaCBBbmRyb2lkIDctMTYgbW92ZSBjZXJ0aWZpY2F0ZXMiLCJ1cGRhdGVKc29uIjoiaHR0cHM6Ly9wZmlsZS55czEyMzEuY24vbW9kdWxlcy9Nb3ZlQ2VydGlmaWNhdGUvdXBkYXRlLmpzb24ifSwiZG93bmxvYWRVcmwiOiJodHRwczovL2dpdGh1Yi5jb20vS2VybmVsU1UtTW9kdWxlcy1SZXBvL01vdmVDZXJ0aWZpY2F0ZS9yZWxlYXNlcy9kb3dubG9hZC92MS42LjIvTW92ZUNlcnRpZmljYXRlLXYxLjYuMi56aXAiLCJ0YWdOYW1lIjoidjEuNi4yIiwiaWF0IjoxNzg4MzU1ODA4fQ.IAxo1j0kxC3uTnGBM2d63fyVmSQmMfPiiRIDtTURSwY -->\n- feat(cert): :sparkles: 新增证书名称本地缓存，优先读取本地缓存再查询远程 API\r\n- docs(readme): :memo: 更新证书哈希计算步骤\r\n---\r\n- feat(cert): :sparkles: Add local cache for recognized certificate names, check local cache before querying remote API\r\n- docs(readme): :memo: Clarify certificate hash calculation steps\r\n\r\n## What's Changed\r\n* fix: detect and allow deletion of orphaned certificates in WebUI (fix… by @RevealedSoulEven in https://github.com/ys1231/MoveCertificate/pull/77\r\n* Enhance orphaned certificate management and refactor code by @ys1231 in https://github.com/ys1231/MoveCertificate/pull/78\r\n\r\n## New Contributors\r\n* @RevealedSoulEven made their first contribution in https://github.com/ys1231/MoveCertificate/pull/77\r\n* @ys1231 made their first contribution in https://github.com/ys1231/MoveCertificate/pull/78\r\n\r\n**Full Changelog**: https://github.com/ys1231/MoveCertificate/compare/v1.6.1...v1.6.2",
+          "htmlUrl": "https://github.com/ys1231/MoveCertificate-ksu/releases/tag/v1.6.2",
+          "immutable": true,
+          "name": "v1.6.2",
+          "prerelease": false,
+          "prop": {
+            "author": "Contributors",
+            "description": "Supports magiskv20.4+/kernelsu/APatch Android 7-16 move certificates",
+            "id": "MoveCertificate",
+            "name": "MoveCertificate",
+            "updateJson": "https://pfile.ys1231.cn/modules/MoveCertificate/update.json",
+            "version": "v1.6.2",
+            "versionCode": "28"
+          },
+          "publishedAt": "2026-09-02T13:29:48Z",
+          "releaseId": 381285049,
+          "tag": "v1.6.2",
+          "tagCommit": "86f6c9f279cba6673b126782f3c94138efb148dd",
+          "version": "v1.6.2",
+          "versionCode": 28
+        }
+      ],
+      "repositoryId": 1227069536,
+      "seen": {
+        "316678292": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "316679313": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "316681883": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "339606260": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "372834541": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "379248358": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "381285049": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:38b95c51a4e0d50807bcc4e6795b58875b952acc41457d9477b518ec61591f40",
+          "id": 541217703,
+          "name": "MoveCertificate-v1.6.2.zip",
+          "sha256": "38b95c51a4e0d50807bcc4e6795b58875b952acc41457d9477b518ec61591f40",
+          "size": 571640,
+          "url": "https://github.com/ys1231/MoveCertificate-ksu/releases/download/v1.6.2/MoveCertificate-v1.6.2.zip"
+        },
+        "body": "<!-- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9wcyI6eyJpZCI6Ik1vdmVDZXJ0aWZpY2F0ZSIsIm5hbWUiOiJNb3ZlQ2VydGlmaWNhdGUiLCJ2ZXJzaW9uIjoidjEuNi4yIiwidmVyc2lvbkNvZGUiOiIyOCIsImF1dGhvciI6IkNvbnRyaWJ1dG9ycyIsImRlc2NyaXB0aW9uIjoiU3VwcG9ydHMgbWFnaXNrdjIwLjQrL2tlcm5lbHN1L0FQYXRjaCBBbmRyb2lkIDctMTYgbW92ZSBjZXJ0aWZpY2F0ZXMiLCJ1cGRhdGVKc29uIjoiaHR0cHM6Ly9wZmlsZS55czEyMzEuY24vbW9kdWxlcy9Nb3ZlQ2VydGlmaWNhdGUvdXBkYXRlLmpzb24ifSwiZG93bmxvYWRVcmwiOiJodHRwczovL2dpdGh1Yi5jb20vS2VybmVsU1UtTW9kdWxlcy1SZXBvL01vdmVDZXJ0aWZpY2F0ZS9yZWxlYXNlcy9kb3dubG9hZC92MS42LjIvTW92ZUNlcnRpZmljYXRlLXYxLjYuMi56aXAiLCJ0YWdOYW1lIjoidjEuNi4yIiwiaWF0IjoxNzg4MzU1ODA4fQ.IAxo1j0kxC3uTnGBM2d63fyVmSQmMfPiiRIDtTURSwY -->\n- feat(cert): :sparkles: 新增证书名称本地缓存，优先读取本地缓存再查询远程 API\r\n- docs(readme): :memo: 更新证书哈希计算步骤\r\n---\r\n- feat(cert): :sparkles: Add local cache for recognized certificate names, check local cache before querying remote API\r\n- docs(readme): :memo: Clarify certificate hash calculation steps\r\n\r\n## What's Changed\r\n* fix: detect and allow deletion of orphaned certificates in WebUI (fix… by @RevealedSoulEven in https://github.com/ys1231/MoveCertificate/pull/77\r\n* Enhance orphaned certificate management and refactor code by @ys1231 in https://github.com/ys1231/MoveCertificate/pull/78\r\n\r\n## New Contributors\r\n* @RevealedSoulEven made their first contribution in https://github.com/ys1231/MoveCertificate/pull/77\r\n* @ys1231 made their first contribution in https://github.com/ys1231/MoveCertificate/pull/78\r\n\r\n**Full Changelog**: https://github.com/ys1231/MoveCertificate/compare/v1.6.1...v1.6.2",
+        "htmlUrl": "https://github.com/ys1231/MoveCertificate-ksu/releases/tag/v1.6.2",
+        "immutable": true,
+        "name": "v1.6.2",
+        "prerelease": false,
+        "prop": {
+          "author": "Contributors",
+          "description": "Supports magiskv20.4+/kernelsu/APatch Android 7-16 move certificates",
+          "id": "MoveCertificate",
+          "name": "MoveCertificate",
+          "updateJson": "https://pfile.ys1231.cn/modules/MoveCertificate/update.json",
+          "version": "v1.6.2",
+          "versionCode": "28"
+        },
+        "publishedAt": "2026-09-02T13:29:48Z",
+        "releaseId": 381285049,
+        "tag": "v1.6.2",
+        "tagCommit": "86f6c9f279cba6673b126782f3c94138efb148dd",
+        "version": "v1.6.2",
+        "versionCode": 28
+      },
+      "stars": {
+        "count": 5,
+        "fetchedAt": "2026-11-06T05:18:06.651Z",
+        "fullName": "ys1231/MoveCertificate-ksu",
+        "repositoryId": 1227069536,
+        "verified": "self"
+      }
+    },
     "QSC_Battery": {
       "content": {
         "blobs": {
@@ -3142,6 +3287,175 @@
         "fetchedAt": "2026-11-05T16:45:24.884Z",
         "fullName": "LxyaoX/VexZygisk",
         "repositoryId": 1305247883,
+        "verified": "self"
+      }
+    },
+    "acc": {
+      "content": {
+        "blobs": {
+          "README.md": "ff9541c7b2713b1197e408e7e853f22632bc3707",
+          "install/icon/webui.png": "7ccf08e2d10443ace2fc0589c408f22939b94eaa",
+          "module.yaml": "217c4de4210853cb54c07fba50df2fc12bf66175"
+        },
+        "commit": "748c830586ebb22443bc70767093085e56eef035",
+        "fetchedAt": "2026-11-06T05:18:06.651Z",
+        "files": {
+          "README.md": "b7e3776ec61ddd4f50840ed356616adaf7d0ed237500f839e65aae347990e093",
+          "install/icon/webui.png": "26ef13138d9c44b8b7fdcc741cc921ba51b1c2b40b8764cc609d2715933a8eea",
+          "module.yaml": "e2b5b7270353dafb71358e635bcadeaf321aad421239e1f3d55ef6c9c5db1ef9"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "dev"
+      },
+      "fullName": "Infiniti151/acc-with-webui",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-06T05:18:06.651Z",
+        "lastSuccessAt": "2026-11-06T05:18:06.651Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "acc",
+      "installationId": 176772704,
+      "maxStableVersionCode": 10600,
+      "maxVersionCode": 10600,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:3fbcb98833690df1486a270ae28e8a2d83b88dd45ed81373790c8ebb8e607622",
+            "id": 714086365,
+            "name": "acc-with-webui_v1.6.0_10600.zip",
+            "sha256": "3fbcb98833690df1486a270ae28e8a2d83b88dd45ed81373790c8ebb8e607622",
+            "size": 548317,
+            "url": "https://github.com/Infiniti151/acc-with-webui/releases/download/v1.6.0/acc-with-webui_v1.6.0_10600.zip"
+          },
+          "body": "### v1.6.0 (10600) - 2026-11-05\n`ACC: dev-2025-06-06`\n\nWebUI 🎛️ ->\n- Added language switcher to the WebUI banner.\n- Added animated gradient glow to the WebUI banner border to indicate active charging.\n- Added system information line to the WebUI banner displaying the root solution, Android version, and kernel version.\n- Added automatic daemon restart on configuration reset.\n- Added dynamic `accd` description system with real-time status and charging thresholds (@LegacyFreeman).\n- Added multi-language localization support (de-DE, fr-FR, pt-PT, ru-RU, tr-TR, zh-CN, zh-TW) (@LegacyFreeman). *Only Russian currently has a complete WebUI translation; the other languages currently include shell translations only. WebUI translations can be contributed through [Crowdin](https://crowdin.com/project/acc-with-webui).*\n- Centralized WebUI and Shell (action button, module description, and installation) translations in Crowdin as the single source of truth.\n- Added documentation language switcher and corrected header layout in `README.md` (@LegacyFreeman).\n- Fixed `module.prop` initialization and prevented infinite loops during background state updates (@LegacyFreeman).\n- Fixed WebUI components (`App.svelte`, `Toast.svelte`, `DropdownModal.svelte`, `banner.svelte.js`) and build workflow integration (@LegacyFreeman).\n- Fixed unwanted long-press highlighting of dropdown items in *WebUI X: Portable (WXP)* while preserving selected item styling.\n- Fixed unwanted text selection on the WebUI banner title and subtitle.\n- Fixed `Test All` card not autoscrolling correctly upon opening.\n- Fixed visual synchronization for `Charging Thresholds`, `Idle Mode`, and `Reset Battery Stats` so they update instantly on configuration reset.\n- Updated npm dependencies.\n\n",
+          "htmlUrl": "https://github.com/Infiniti151/acc-with-webui/releases/tag/v1.6.0",
+          "immutable": true,
+          "name": "Release v1.6.0 (10600)",
+          "prerelease": false,
+          "prop": {
+            "actionIcon": "icon/action.png",
+            "author": "VR25, Infiniti151",
+            "banner": "banner.jpg",
+            "description": "Extend your battery's service life by controlling charging current, temperature, and voltage.",
+            "domain": "vr25",
+            "id": "acc",
+            "name": "Advanced Charging Controller (ACC) with WebUI",
+            "updateJson": "https://raw.githubusercontent.com/Infiniti151/acc-with-webui/dev/module.json",
+            "version": "v1.6.0 (ACC: dev-2025-06-06)",
+            "versionCode": "10600",
+            "webuiIcon": "icon/webui.png"
+          },
+          "publishedAt": "2026-11-05T16:45:02Z",
+          "releaseId": 435462328,
+          "tag": "v1.6.0",
+          "tagCommit": "fbb1223a30d5b2447266b37b9448abf2d94993aa",
+          "version": "v1.6.0 (ACC: dev-2025-06-06)",
+          "versionCode": 10600
+        }
+      ],
+      "repositoryId": 1296470014,
+      "seen": {
+        "358623580": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "358838119": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367565550": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367932879": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387492263": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "387843859": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "388932059": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "424579348": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "425037570": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "435462328": {
+          "checkedAt": "2026-11-06T05:18:06.651Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:3fbcb98833690df1486a270ae28e8a2d83b88dd45ed81373790c8ebb8e607622",
+          "id": 714086365,
+          "name": "acc-with-webui_v1.6.0_10600.zip",
+          "sha256": "3fbcb98833690df1486a270ae28e8a2d83b88dd45ed81373790c8ebb8e607622",
+          "size": 548317,
+          "url": "https://github.com/Infiniti151/acc-with-webui/releases/download/v1.6.0/acc-with-webui_v1.6.0_10600.zip"
+        },
+        "body": "### v1.6.0 (10600) - 2026-11-05\n`ACC: dev-2025-06-06`\n\nWebUI 🎛️ ->\n- Added language switcher to the WebUI banner.\n- Added animated gradient glow to the WebUI banner border to indicate active charging.\n- Added system information line to the WebUI banner displaying the root solution, Android version, and kernel version.\n- Added automatic daemon restart on configuration reset.\n- Added dynamic `accd` description system with real-time status and charging thresholds (@LegacyFreeman).\n- Added multi-language localization support (de-DE, fr-FR, pt-PT, ru-RU, tr-TR, zh-CN, zh-TW) (@LegacyFreeman). *Only Russian currently has a complete WebUI translation; the other languages currently include shell translations only. WebUI translations can be contributed through [Crowdin](https://crowdin.com/project/acc-with-webui).*\n- Centralized WebUI and Shell (action button, module description, and installation) translations in Crowdin as the single source of truth.\n- Added documentation language switcher and corrected header layout in `README.md` (@LegacyFreeman).\n- Fixed `module.prop` initialization and prevented infinite loops during background state updates (@LegacyFreeman).\n- Fixed WebUI components (`App.svelte`, `Toast.svelte`, `DropdownModal.svelte`, `banner.svelte.js`) and build workflow integration (@LegacyFreeman).\n- Fixed unwanted long-press highlighting of dropdown items in *WebUI X: Portable (WXP)* while preserving selected item styling.\n- Fixed unwanted text selection on the WebUI banner title and subtitle.\n- Fixed `Test All` card not autoscrolling correctly upon opening.\n- Fixed visual synchronization for `Charging Thresholds`, `Idle Mode`, and `Reset Battery Stats` so they update instantly on configuration reset.\n- Updated npm dependencies.\n\n",
+        "htmlUrl": "https://github.com/Infiniti151/acc-with-webui/releases/tag/v1.6.0",
+        "immutable": true,
+        "name": "Release v1.6.0 (10600)",
+        "prerelease": false,
+        "prop": {
+          "actionIcon": "icon/action.png",
+          "author": "VR25, Infiniti151",
+          "banner": "banner.jpg",
+          "description": "Extend your battery's service life by controlling charging current, temperature, and voltage.",
+          "domain": "vr25",
+          "id": "acc",
+          "name": "Advanced Charging Controller (ACC) with WebUI",
+          "updateJson": "https://raw.githubusercontent.com/Infiniti151/acc-with-webui/dev/module.json",
+          "version": "v1.6.0 (ACC: dev-2025-06-06)",
+          "versionCode": "10600",
+          "webuiIcon": "icon/webui.png"
+        },
+        "publishedAt": "2026-11-05T16:45:02Z",
+        "releaseId": 435462328,
+        "tag": "v1.6.0",
+        "tagCommit": "fbb1223a30d5b2447266b37b9448abf2d94993aa",
+        "version": "v1.6.0 (ACC: dev-2025-06-06)",
+        "versionCode": 10600
+      },
+      "stars": {
+        "count": 8,
+        "fetchedAt": "2026-11-06T05:18:06.651Z",
+        "fullName": "Infiniti151/acc-with-webui",
+        "repositoryId": 1296470014,
         "verified": "self"
       }
     },

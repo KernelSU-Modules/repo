@@ -220,21 +220,17 @@
       "fullName": "ys1231/MoveCertificate-ksu",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-06T05:18:06.651Z",
+      "maxVersionCode": 28,
       "message": null,
       "repositoryId": 1227069536,
-      "request": {
-        "checkedAt": "2026-11-01T10:12:29.247Z",
-        "commit": "4d845ba8156453ef0852e5f06c671d98548f16cf",
-        "issues": [],
-        "latestTag": "v1.6.2",
-        "ok": true,
-        "releaseId": 381285049,
-        "repositoryId": 1227069536,
-        "submissionId": "7fiio5rh1k"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-09-02T13:29:48Z",
+        "tag": "v1.6.2",
+        "version": "v1.6.2",
+        "versionCode": 28
+      }
     },
     "QSC_Battery": {
       "contentCommit": "01a74170c68e7a994960a63bfbe49575a7c86aa0",
@@ -316,21 +312,17 @@
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-06T05:18:06.651Z",
+      "maxVersionCode": 10600,
       "message": null,
       "repositoryId": 1296470014,
-      "request": {
-        "checkedAt": "2026-11-05T16:45:24.884Z",
-        "commit": "748c830586ebb22443bc70767093085e56eef035",
-        "issues": [],
-        "latestTag": "v1.6.0",
-        "ok": true,
-        "releaseId": 435462328,
-        "repositoryId": 1296470014,
-        "submissionId": "9gplh1mb0j"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-05T16:45:02Z",
+        "tag": "v1.6.0",
+        "version": "v1.6.0 (ACC: dev-2025-06-06)",
+        "versionCode": 10600
+      }
     },
     "aegis_firewall": {
       "contentCommit": "9366066031750ed2332cf45580b4a043e2bbd7d1",
