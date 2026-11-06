@@ -876,16 +876,16 @@
       "fullName": "qwq233/OhMyKeymint",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-01T06:52:06.357Z",
-      "maxVersionCode": 174,
+      "lastSuccessAt": "2026-11-06T05:00:52.853Z",
+      "maxVersionCode": 180,
       "message": null,
       "repositoryId": 1068442938,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-30T14:51:06Z",
-        "tag": "1.2.5-17b0eb6",
-        "version": "1.2.5-17b0eb6",
-        "versionCode": 174
+        "publishedAt": "2026-11-06T05:00:33Z",
+        "tag": "1.2.6-9069c6c",
+        "version": "1.2.6-9069c6c",
+        "versionCode": 180
       }
     },
     "oplus-cloud-block": {

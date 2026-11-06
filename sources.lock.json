@@ -6462,8 +6462,8 @@
         "versionCode": 401012
       },
       "stars": {
-        "count": 597,
-        "fetchedAt": "2026-11-05T03:51:17.208Z",
+        "count": 598,
+        "fetchedAt": "2026-11-06T05:00:52.853Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
@@ -7219,17 +7219,47 @@
       "fullName": "qwq233/OhMyKeymint",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-01T06:52:06.357Z",
-        "lastSuccessAt": "2026-11-01T06:52:06.357Z",
+        "lastAttemptAt": "2026-11-06T05:00:52.853Z",
+        "lastSuccessAt": "2026-11-06T05:00:52.853Z",
         "message": null,
         "status": "ok"
       },
       "id": "oh_my_keymint",
       "installationId": 170250658,
-      "maxStableVersionCode": 174,
-      "maxVersionCode": 174,
+      "maxStableVersionCode": 180,
+      "maxVersionCode": 180,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:045d72dd0e5804001e3f227611e74df1eb0ac466747ff2aa0e8af8948f2e0d07",
+            "id": 715967882,
+            "name": "OhMyKeymint-release-arm64-v8a-1.2.6-9069c6c.zip",
+            "sha256": "045d72dd0e5804001e3f227611e74df1eb0ac466747ff2aa0e8af8948f2e0d07",
+            "size": 4930351,
+            "url": "https://github.com/qwq233/OhMyKeymint/releases/download/1.2.6-9069c6c/OhMyKeymint-release-arm64-v8a-1.2.6-9069c6c.zip"
+          },
+          "body": "## What's changed\r\n\r\nThis is a minor fix so i will keep old changelog.\r\n\r\n- [feat: enable SQLite batch atomic writes and preserve fdatasync](https://github.com/qwq233/OhMyKeymint/commit/45d289107ae45da11ca65266ada38bcec4105fd1)\r\n- [fix(injector): route isolated callers by host application](https://github.com/qwq233/OhMyKeymint/commit/7ef41b037e1ac0554ec6b6d1c38f6db457b00684)\r\n- [fix(injector): validate Binder receivers before OMK execution](https://github.com/qwq233/OhMyKeymint/commit/e6844a4648c9525ca7a49fffca00991ff5720e22)\r\n\r\nThese commit might fix some issue and align AOSP behavior.\r\n\r\n### 1.2.5 changes\r\n\r\nThis release updates the KeyMint and Keystore implementation to Android 17, including KeyMint v5 and ML-DSA support on the TEE path. Compatibility with older Android releases has also been improved through corrected transaction layouts and attestation application-ID resolution. VINTF manifest assembly now follows libvintf more closely, and StrongBox is only exposed when the corresponding system KeyMint HAL is present.\r\n\r\nThe injector now backs its OMK security-level and operation handles with native Binder objects, and the hooking backend has switched from `lsplt-rs` to `omhook`. Binder replies, interface metadata, one-way transactions, empty key descriptors, and operation cleanup have been corrected. Hook initialization failures no longer panic inside `keystore2`. The injected payload also connects to OMK RPC directly, with separate authentication-token and lifecycle sessions and cached connections to reduce contention and request overhead.\r\n\r\nScoop routing now consistently follows the current caller, filter decision, and per-method intercept settings. Historical `KEY_ID` or `GRANT` ownership no longer overrides that decision, and disabled methods remain on System. OMK business errors are returned unchanged, while transport and reply-boundary failures are normalized to AOSP-compatible errors such as `SYSTEM_ERROR` instead of being hidden by a successful System reply.\r\n\r\nKey derivation and compatibility with legacy OMK key and super-key formats were corrected. Stored legacy OS-version metadata is migrated to AOSP encoding, and lowering configured OS or patch levels no longer rejects existing OMK keys solely for carrying newer values. Failed localization discards only the affected mirrored auth token, and the existing `force_skip_system_biometric_hat_verification` switch takes effect correctly.\r\n\r\nAttestation trust settings now include independent OS, vendor, and boot patch levels. `os_version = \"auto\"` follows the current Android major at KeyMint startup, and automatic boot patch detection reads AVB metadata or the boot image header before property fallbacks. Patch-level-only edits can update active TAs without rebuilding them, preserving in-flight operations and per-boot state. When automatic verified-boot key or hash discovery has no usable source, the generated fallback is pinned in `config.toml` so it stays stable across restarts.\r\n\r\nDevice-ID discovery now runs on demand through the privileged Binder helper with the correct system UID and Android-version-specific telephony transactions. It retries while required services are not registered and shares the resolved snapshot between TEE and StrongBox. Single-IMEI devices, absent MEID or IMEI2, partial probe success, and explicit empty overrides are handled without invalidating unrelated attestation IDs.\r\n\r\nKeyboxes containing only a valid EC entry are now supported; RSA-key attestations use the EC signing key and certificate chain when the RSA entry is absent. Keybox rotation only retires keys actually attested by the previous keybox. The new `main.retire_stale_keybox_bound_keys` setting can preserve those client keys when required; retirement remains enabled by default.\r\n\r\nValid older configurations are migrated at startup to `config.toml` version 3 and `injector.toml` version 1. Migration from unversioned or version 1 KeyMint configs resets `os_version` to `\"auto\"`; keep all generated `[crypto]` values unchanged. The injector is now the only runtime backend, with legacy `backend = \"omk\"` accepted as an alias for `\"injector\"`. Malformed files are no longer overwritten with defaults: an invalid KeyMint config prevents startup, an invalid injector config disables routing at startup, and failed live reloads retain the last valid configuration. Log levels now apply correctly, and logs are written under `/data/misc/keystore/omk/logs/`.\r\n\r\nAdditionally, injector and KeyMint overhead was reduced, module updates no longer create an `omkdata` symlink loop, and the daemon prefers `/system/lib64` over `/vendor/lib64` in its library search path. Dependencies were updated, formatting, Android-targeted Clippy, and `cargo-deny` checks were added to CI, and configuration and troubleshooting documentation was expanded. The project now uses the General License Agreement together with the updated Oh My Keymint License; read both before using or redistributing this release.\r\n\r\n## Attestation\r\n\r\n- https://github.com/qwq233/OhMyKeymint/attestations/64354332\r\n\r\n**Full Changelog**: https://github.com/qwq233/OhMyKeymint/compare/1.2.5-17b0eb6...1.2.6-9069c6c",
+          "htmlUrl": "https://github.com/qwq233/OhMyKeymint/releases/tag/1.2.6-9069c6c",
+          "immutable": true,
+          "name": "1.2.6-9069c6c",
+          "prerelease": false,
+          "prop": {
+            "author": "James Clef",
+            "description": "Custom keystore implementation for Android Keystore Spoofer",
+            "id": "oh_my_keymint",
+            "name": "Oh My Keymint",
+            "updateJson": "https://raw.githubusercontent.com/qwq233/OhMyKeymint/changelog/update.json",
+            "version": "1.2.6-9069c6c",
+            "versionCode": "180"
+          },
+          "publishedAt": "2026-11-06T05:00:33Z",
+          "releaseId": 436106663,
+          "tag": "1.2.6-9069c6c",
+          "tagCommit": "9069c6c3030840c600fb9037d91b5c9efcc61586",
+          "version": "1.2.6-9069c6c",
+          "versionCode": 180
+        },
         {
           "asset": {
             "digest": "sha256:b033deb03a69be95e4d2c0b5a8c335b76f54b009ba8d7d0cb7edc1add2b53a84",
@@ -7336,21 +7366,25 @@
         "429110288": {
           "checkedAt": "2026-10-30T14:51:32.299Z",
           "ok": true
+        },
+        "436106663": {
+          "checkedAt": "2026-11-06T05:00:52.853Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:b033deb03a69be95e4d2c0b5a8c335b76f54b009ba8d7d0cb7edc1add2b53a84",
-          "id": 692322584,
-          "name": "OhMyKeymint-release-arm64-v8a-1.2.5-17b0eb6.zip",
-          "sha256": "b033deb03a69be95e4d2c0b5a8c335b76f54b009ba8d7d0cb7edc1add2b53a84",
-          "size": 4933635,
-          "url": "https://github.com/qwq233/OhMyKeymint/releases/download/1.2.5-17b0eb6/OhMyKeymint-release-arm64-v8a-1.2.5-17b0eb6.zip"
+          "digest": "sha256:045d72dd0e5804001e3f227611e74df1eb0ac466747ff2aa0e8af8948f2e0d07",
+          "id": 715967882,
+          "name": "OhMyKeymint-release-arm64-v8a-1.2.6-9069c6c.zip",
+          "sha256": "045d72dd0e5804001e3f227611e74df1eb0ac466747ff2aa0e8af8948f2e0d07",
+          "size": 4930351,
+          "url": "https://github.com/qwq233/OhMyKeymint/releases/download/1.2.6-9069c6c/OhMyKeymint-release-arm64-v8a-1.2.6-9069c6c.zip"
         },
-        "body": "## What's changed\r\n\r\nThis release updates the KeyMint and Keystore implementation to Android 17, including KeyMint v5 and ML-DSA support on the TEE path. Compatibility with older Android releases has also been improved through corrected transaction layouts and attestation application-ID resolution. VINTF manifest assembly now follows libvintf more closely, and StrongBox is only exposed when the corresponding system KeyMint HAL is present.\r\n\r\nThe injector now backs its OMK security-level and operation handles with native Binder objects, and the hooking backend has switched from `lsplt-rs` to `omhook`. Binder replies, interface metadata, one-way transactions, empty key descriptors, and operation cleanup have been corrected. Hook initialization failures no longer panic inside `keystore2`. The injected payload also connects to OMK RPC directly, with separate authentication-token and lifecycle sessions and cached connections to reduce contention and request overhead.\r\n\r\nScoop routing now consistently follows the current caller, filter decision, and per-method intercept settings. Historical `KEY_ID` or `GRANT` ownership no longer overrides that decision, and disabled methods remain on System. OMK business errors are returned unchanged, while transport and reply-boundary failures are normalized to AOSP-compatible errors such as `SYSTEM_ERROR` instead of being hidden by a successful System reply.\r\n\r\nKey derivation and compatibility with legacy OMK key and super-key formats were corrected. Stored legacy OS-version metadata is migrated to AOSP encoding, and lowering configured OS or patch levels no longer rejects existing OMK keys solely for carrying newer values. Failed localization discards only the affected mirrored auth token, and the existing `force_skip_system_biometric_hat_verification` switch takes effect correctly.\r\n\r\nAttestation trust settings now include independent OS, vendor, and boot patch levels. `os_version = \"auto\"` follows the current Android major at KeyMint startup, and automatic boot patch detection reads AVB metadata or the boot image header before property fallbacks. Patch-level-only edits can update active TAs without rebuilding them, preserving in-flight operations and per-boot state. When automatic verified-boot key or hash discovery has no usable source, the generated fallback is pinned in `config.toml` so it stays stable across restarts.\r\n\r\nDevice-ID discovery now runs on demand through the privileged Binder helper with the correct system UID and Android-version-specific telephony transactions. It retries while required services are not registered and shares the resolved snapshot between TEE and StrongBox. Single-IMEI devices, absent MEID or IMEI2, partial probe success, and explicit empty overrides are handled without invalidating unrelated attestation IDs.\r\n\r\nKeyboxes containing only a valid EC entry are now supported; RSA-key attestations use the EC signing key and certificate chain when the RSA entry is absent. Keybox rotation only retires keys actually attested by the previous keybox. The new `main.retire_stale_keybox_bound_keys` setting can preserve those client keys when required; retirement remains enabled by default.\r\n\r\nValid older configurations are migrated at startup to `config.toml` version 3 and `injector.toml` version 1. Migration from unversioned or version 1 KeyMint configs resets `os_version` to `\"auto\"`; keep all generated `[crypto]` values unchanged. The injector is now the only runtime backend, with legacy `backend = \"omk\"` accepted as an alias for `\"injector\"`. Malformed files are no longer overwritten with defaults: an invalid KeyMint config prevents startup, an invalid injector config disables routing at startup, and failed live reloads retain the last valid configuration. Log levels now apply correctly, and logs are written under `/data/misc/keystore/omk/logs/`.\r\n\r\nAdditionally, injector and KeyMint overhead was reduced, module updates no longer create an `omkdata` symlink loop, and the daemon prefers `/system/lib64` over `/vendor/lib64` in its library search path. Dependencies were updated, formatting, Android-targeted Clippy, and `cargo-deny` checks were added to CI, and configuration and troubleshooting documentation was expanded. The project now uses the General License Agreement together with the updated Oh My Keymint License; read both before using or redistributing this release.\r\n\r\n## Attestation\r\n\r\n- https://github.com/qwq233/OhMyKeymint/attestations/61782379\r\n\r\n**Full Changelog**: https://github.com/qwq233/OhMyKeymint/compare/v1.2.0-67dc5e7...1.2.5-17b0eb6\r\n",
-        "htmlUrl": "https://github.com/qwq233/OhMyKeymint/releases/tag/1.2.5-17b0eb6",
+        "body": "## What's changed\r\n\r\nThis is a minor fix so i will keep old changelog.\r\n\r\n- [feat: enable SQLite batch atomic writes and preserve fdatasync](https://github.com/qwq233/OhMyKeymint/commit/45d289107ae45da11ca65266ada38bcec4105fd1)\r\n- [fix(injector): route isolated callers by host application](https://github.com/qwq233/OhMyKeymint/commit/7ef41b037e1ac0554ec6b6d1c38f6db457b00684)\r\n- [fix(injector): validate Binder receivers before OMK execution](https://github.com/qwq233/OhMyKeymint/commit/e6844a4648c9525ca7a49fffca00991ff5720e22)\r\n\r\nThese commit might fix some issue and align AOSP behavior.\r\n\r\n### 1.2.5 changes\r\n\r\nThis release updates the KeyMint and Keystore implementation to Android 17, including KeyMint v5 and ML-DSA support on the TEE path. Compatibility with older Android releases has also been improved through corrected transaction layouts and attestation application-ID resolution. VINTF manifest assembly now follows libvintf more closely, and StrongBox is only exposed when the corresponding system KeyMint HAL is present.\r\n\r\nThe injector now backs its OMK security-level and operation handles with native Binder objects, and the hooking backend has switched from `lsplt-rs` to `omhook`. Binder replies, interface metadata, one-way transactions, empty key descriptors, and operation cleanup have been corrected. Hook initialization failures no longer panic inside `keystore2`. The injected payload also connects to OMK RPC directly, with separate authentication-token and lifecycle sessions and cached connections to reduce contention and request overhead.\r\n\r\nScoop routing now consistently follows the current caller, filter decision, and per-method intercept settings. Historical `KEY_ID` or `GRANT` ownership no longer overrides that decision, and disabled methods remain on System. OMK business errors are returned unchanged, while transport and reply-boundary failures are normalized to AOSP-compatible errors such as `SYSTEM_ERROR` instead of being hidden by a successful System reply.\r\n\r\nKey derivation and compatibility with legacy OMK key and super-key formats were corrected. Stored legacy OS-version metadata is migrated to AOSP encoding, and lowering configured OS or patch levels no longer rejects existing OMK keys solely for carrying newer values. Failed localization discards only the affected mirrored auth token, and the existing `force_skip_system_biometric_hat_verification` switch takes effect correctly.\r\n\r\nAttestation trust settings now include independent OS, vendor, and boot patch levels. `os_version = \"auto\"` follows the current Android major at KeyMint startup, and automatic boot patch detection reads AVB metadata or the boot image header before property fallbacks. Patch-level-only edits can update active TAs without rebuilding them, preserving in-flight operations and per-boot state. When automatic verified-boot key or hash discovery has no usable source, the generated fallback is pinned in `config.toml` so it stays stable across restarts.\r\n\r\nDevice-ID discovery now runs on demand through the privileged Binder helper with the correct system UID and Android-version-specific telephony transactions. It retries while required services are not registered and shares the resolved snapshot between TEE and StrongBox. Single-IMEI devices, absent MEID or IMEI2, partial probe success, and explicit empty overrides are handled without invalidating unrelated attestation IDs.\r\n\r\nKeyboxes containing only a valid EC entry are now supported; RSA-key attestations use the EC signing key and certificate chain when the RSA entry is absent. Keybox rotation only retires keys actually attested by the previous keybox. The new `main.retire_stale_keybox_bound_keys` setting can preserve those client keys when required; retirement remains enabled by default.\r\n\r\nValid older configurations are migrated at startup to `config.toml` version 3 and `injector.toml` version 1. Migration from unversioned or version 1 KeyMint configs resets `os_version` to `\"auto\"`; keep all generated `[crypto]` values unchanged. The injector is now the only runtime backend, with legacy `backend = \"omk\"` accepted as an alias for `\"injector\"`. Malformed files are no longer overwritten with defaults: an invalid KeyMint config prevents startup, an invalid injector config disables routing at startup, and failed live reloads retain the last valid configuration. Log levels now apply correctly, and logs are written under `/data/misc/keystore/omk/logs/`.\r\n\r\nAdditionally, injector and KeyMint overhead was reduced, module updates no longer create an `omkdata` symlink loop, and the daemon prefers `/system/lib64` over `/vendor/lib64` in its library search path. Dependencies were updated, formatting, Android-targeted Clippy, and `cargo-deny` checks were added to CI, and configuration and troubleshooting documentation was expanded. The project now uses the General License Agreement together with the updated Oh My Keymint License; read both before using or redistributing this release.\r\n\r\n## Attestation\r\n\r\n- https://github.com/qwq233/OhMyKeymint/attestations/64354332\r\n\r\n**Full Changelog**: https://github.com/qwq233/OhMyKeymint/compare/1.2.5-17b0eb6...1.2.6-9069c6c",
+        "htmlUrl": "https://github.com/qwq233/OhMyKeymint/releases/tag/1.2.6-9069c6c",
         "immutable": true,
-        "name": "1.2.5-17b0eb6",
+        "name": "1.2.6-9069c6c",
         "prerelease": false,
         "prop": {
           "author": "James Clef",
@@ -7358,19 +7392,19 @@
           "id": "oh_my_keymint",
           "name": "Oh My Keymint",
           "updateJson": "https://raw.githubusercontent.com/qwq233/OhMyKeymint/changelog/update.json",
-          "version": "1.2.5-17b0eb6",
-          "versionCode": "174"
+          "version": "1.2.6-9069c6c",
+          "versionCode": "180"
         },
-        "publishedAt": "2026-10-30T14:51:06Z",
-        "releaseId": 429110288,
-        "tag": "1.2.5-17b0eb6",
-        "tagCommit": "17b0eb6076602dd6e979cb9a5fa6e03ba4070cc1",
-        "version": "1.2.5-17b0eb6",
-        "versionCode": 174
+        "publishedAt": "2026-11-06T05:00:33Z",
+        "releaseId": 436106663,
+        "tag": "1.2.6-9069c6c",
+        "tagCommit": "9069c6c3030840c600fb9037d91b5c9efcc61586",
+        "version": "1.2.6-9069c6c",
+        "versionCode": 180
       },
       "stars": {
-        "count": 622,
-        "fetchedAt": "2026-11-05T10:51:09.821Z",
+        "count": 624,
+        "fetchedAt": "2026-11-06T05:00:52.853Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
