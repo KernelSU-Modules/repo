@@ -1016,21 +1016,17 @@
       "fullName": "Nixie24/susdock",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-06T05:21:30.122Z",
+      "maxVersionCode": 305,
       "message": null,
       "repositoryId": 1436993054,
-      "request": {
-        "checkedAt": "2026-11-05T21:15:29.632Z",
-        "commit": "6c7d73c1d8f30e7ec9361f5779e2ed8cf3c5853d",
-        "issues": [],
-        "latestTag": "v0.3.5-305",
-        "ok": true,
-        "releaseId": 426964123,
-        "repositoryId": 1436993054,
-        "submissionId": "vhlu3zc9ie"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-28T17:13:55Z",
+        "tag": "v0.3.5-305",
+        "version": "0.3.5",
+        "versionCode": 305
+      }
     },
     "susfs4ksu_lkm": {
       "contentCommit": "de3465b78c67173c70096afadb350b8765795ef4",
