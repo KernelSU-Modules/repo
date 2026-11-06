@@ -22,7 +22,7 @@
       "stable": null
     },
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "c7cba667e569d544e14bcbf3c5e58637576917fc",
+      "contentCommit": "2b72edd50018baff813d552532488b45a87010b2",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -31,8 +31,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-11-06T08:29:15.804Z",
-        "commit": "c7cba667e569d544e14bcbf3c5e58637576917fc",
+        "checkedAt": "2026-11-06T09:31:18.709Z",
+        "commit": "2b72edd50018baff813d552532488b45a87010b2",
         "issues": [],
         "latestTag": "v1.2.11",
         "ok": true,
@@ -187,11 +187,11 @@
       "stable": null
     },
     "MagicNet": {
-      "contentCommit": "f0a8f6a255b87245430e96fc2eb5783376ae7c9f",
+      "contentCommit": "d22ea2fab2b83c48a6bfc1a30180aeb26e08d0e8",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-03T03:52:31.486Z",
+      "lastSuccessAt": "2026-11-06T09:31:18.709Z",
       "maxVersionCode": 10612,
       "message": null,
       "repositoryId": 998453022,
@@ -1016,16 +1016,16 @@
       "fullName": "Nixie24/susdock",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-06T05:21:30.122Z",
-      "maxVersionCode": 305,
+      "lastSuccessAt": "2026-11-06T09:31:18.709Z",
+      "maxVersionCode": 306,
       "message": null,
       "repositoryId": 1436993054,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-28T17:13:55Z",
-        "tag": "v0.3.5-305",
-        "version": "0.3.5",
-        "versionCode": 305
+        "publishedAt": "2026-11-06T09:30:59Z",
+        "tag": "v0.3.6-306",
+        "version": "0.3.6",
+        "versionCode": 306
       }
     },
     "susfs4ksu_lkm": {

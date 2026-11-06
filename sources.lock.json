@@ -1658,14 +1658,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "9864e557892e2e10f956df1a38fda213d6710245",
+          "README.md": "bb88bc31024367fc7bd0cc8164f5c018dd2bbe1e",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "f0a8f6a255b87245430e96fc2eb5783376ae7c9f",
-        "fetchedAt": "2026-10-30T16:23:24.351Z",
+        "commit": "d22ea2fab2b83c48a6bfc1a30180aeb26e08d0e8",
+        "fetchedAt": "2026-11-06T09:31:18.709Z",
         "files": {
-          "README.md": "11bb894b02e8673a009d774becef6880e5b2c37891672a2c0491ca499e546ec9",
+          "README.md": "1aa18978bf8182dacdd7e727151dd4228f5454a042bb0a37805d6a03715a277d",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -1675,8 +1675,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-03T03:52:31.486Z",
-        "lastSuccessAt": "2026-11-03T03:52:31.486Z",
+        "lastAttemptAt": "2026-11-06T09:31:18.709Z",
+        "lastSuccessAt": "2026-11-06T09:31:18.709Z",
         "message": null,
         "status": "ok"
       },
@@ -8797,17 +8797,47 @@
       "fullName": "Nixie24/susdock",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-06T05:21:30.122Z",
-        "lastSuccessAt": "2026-11-06T05:21:30.122Z",
+        "lastAttemptAt": "2026-11-06T09:31:18.709Z",
+        "lastSuccessAt": "2026-11-06T09:31:18.709Z",
         "message": null,
         "status": "ok"
       },
       "id": "susdock",
       "installationId": 176155633,
-      "maxStableVersionCode": 305,
-      "maxVersionCode": 305,
+      "maxStableVersionCode": 306,
+      "maxVersionCode": 306,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:a9d4d8a45fc70369e128d01bd34e560a421741af780e77c4b0dfb1cf8e3d6652",
+            "id": 716619487,
+            "name": "susdock-v0.3.6-306.zip",
+            "sha256": "a9d4d8a45fc70369e128d01bd34e560a421741af780e77c4b0dfb1cf8e3d6652",
+            "size": 30383,
+            "url": "https://github.com/Nixie24/susdock/releases/download/v0.3.6-306/susdock-v0.3.6-306.zip"
+          },
+          "body": "## What's Changed\n* feat(webui): add i18n with en, ru, zh and system language by @FLAT447 in https://github.com/Nixie24/susdock/pull/6\n* feat(webui): split i18n dictionaries and add CI gates by @Nixie24 in https://github.com/Nixie24/susdock/pull/7\n* chore: bump to 0.3.6 by @Nixie24 in https://github.com/Nixie24/susdock/pull/8\n\n## New Contributors\n* @FLAT447 made their first contribution in https://github.com/Nixie24/susdock/pull/6\n\n**Full Changelog**: https://github.com/Nixie24/susdock/compare/v0.3.5-305...v0.3.6-306",
+          "htmlUrl": "https://github.com/Nixie24/susdock/releases/tag/v0.3.6-306",
+          "immutable": true,
+          "name": "v0.3.6-306",
+          "prerelease": false,
+          "prop": {
+            "author": "Nix24",
+            "description": "A SuSFS Manager for LKM Setups",
+            "id": "susdock",
+            "name": "SusDock",
+            "updateJson": "https://raw.githubusercontent.com/Nixie24/susdock/refs/heads/update/update.json",
+            "version": "0.3.6",
+            "versionCode": "306"
+          },
+          "publishedAt": "2026-11-06T09:30:59Z",
+          "releaseId": 436314180,
+          "tag": "v0.3.6-306",
+          "tagCommit": "9e7f828041b267e58ba8b36707b6c9a0cdb44d85",
+          "version": "0.3.6",
+          "versionCode": 306
+        },
         {
           "asset": {
             "digest": "sha256:9ba5187e828432b84d2eae13b8568e243dce58ae27a1728a58cd661349737982",
@@ -8862,21 +8892,25 @@
         "426964123": {
           "checkedAt": "2026-11-06T05:21:30.122Z",
           "ok": true
+        },
+        "436314180": {
+          "checkedAt": "2026-11-06T09:31:18.709Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:9ba5187e828432b84d2eae13b8568e243dce58ae27a1728a58cd661349737982",
-          "id": 685739655,
-          "name": "susdock-v0.3.5-305.zip",
-          "sha256": "9ba5187e828432b84d2eae13b8568e243dce58ae27a1728a58cd661349737982",
-          "size": 25623,
-          "url": "https://github.com/Nixie24/susdock/releases/download/v0.3.5-305/susdock-v0.3.5-305.zip"
+          "digest": "sha256:a9d4d8a45fc70369e128d01bd34e560a421741af780e77c4b0dfb1cf8e3d6652",
+          "id": 716619487,
+          "name": "susdock-v0.3.6-306.zip",
+          "sha256": "a9d4d8a45fc70369e128d01bd34e560a421741af780e77c4b0dfb1cf8e3d6652",
+          "size": 30383,
+          "url": "https://github.com/Nixie24/susdock/releases/download/v0.3.6-306/susdock-v0.3.6-306.zip"
         },
-        "body": "## What's Changed\n* feat: ksud loading, ksu_susfs status and webui-side parsing (0.3.5) by @Nixie24 in https://github.com/Nixie24/susdock/pull/5\n\n\n**Full Changelog**: https://github.com/Nixie24/susdock/compare/v0.3.4-304...v0.3.5-305",
-        "htmlUrl": "https://github.com/Nixie24/susdock/releases/tag/v0.3.5-305",
+        "body": "## What's Changed\n* feat(webui): add i18n with en, ru, zh and system language by @FLAT447 in https://github.com/Nixie24/susdock/pull/6\n* feat(webui): split i18n dictionaries and add CI gates by @Nixie24 in https://github.com/Nixie24/susdock/pull/7\n* chore: bump to 0.3.6 by @Nixie24 in https://github.com/Nixie24/susdock/pull/8\n\n## New Contributors\n* @FLAT447 made their first contribution in https://github.com/Nixie24/susdock/pull/6\n\n**Full Changelog**: https://github.com/Nixie24/susdock/compare/v0.3.5-305...v0.3.6-306",
+        "htmlUrl": "https://github.com/Nixie24/susdock/releases/tag/v0.3.6-306",
         "immutable": true,
-        "name": "v0.3.5-305",
+        "name": "v0.3.6-306",
         "prerelease": false,
         "prop": {
           "author": "Nix24",
@@ -8884,19 +8918,19 @@
           "id": "susdock",
           "name": "SusDock",
           "updateJson": "https://raw.githubusercontent.com/Nixie24/susdock/refs/heads/update/update.json",
-          "version": "0.3.5",
-          "versionCode": "305"
+          "version": "0.3.6",
+          "versionCode": "306"
         },
-        "publishedAt": "2026-10-28T17:13:55Z",
-        "releaseId": 426964123,
-        "tag": "v0.3.5-305",
-        "tagCommit": "827ec2fc7ee69888d0cf70eaafbc7bfde3d08591",
-        "version": "0.3.5",
-        "versionCode": 305
+        "publishedAt": "2026-11-06T09:30:59Z",
+        "releaseId": 436314180,
+        "tag": "v0.3.6-306",
+        "tagCommit": "9e7f828041b267e58ba8b36707b6c9a0cdb44d85",
+        "version": "0.3.6",
+        "versionCode": 306
       },
       "stars": {
-        "count": 3,
-        "fetchedAt": "2026-11-06T05:21:30.122Z",
+        "count": 4,
+        "fetchedAt": "2026-11-06T09:31:18.709Z",
         "fullName": "Nixie24/susdock",
         "repositoryId": 1436993054,
         "verified": "self"
@@ -9174,8 +9208,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 56,
-        "fetchedAt": "2026-11-05T09:16:28.723Z",
+        "count": 55,
+        "fetchedAt": "2026-11-06T09:31:18.709Z",
         "fullName": "FLYCOM-E/ClearBox",
         "repositoryId": 983784625,
         "verified": "self"
