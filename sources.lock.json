@@ -3299,14 +3299,16 @@
     "acc": {
       "content": {
         "blobs": {
-          "README.md": "763aca4e9c5aac828a3370268cc07e708c3a717a",
+          "README.md": "cf3e275e08478d07bebec97bfb7f78c5418b0741",
+          "images/localization-progress.svg": "0ca1655a47f41ca28ad243ea8b0a6481874a987c",
           "install/icon/webui.png": "7ccf08e2d10443ace2fc0589c408f22939b94eaa",
           "module.yaml": "217c4de4210853cb54c07fba50df2fc12bf66175"
         },
-        "commit": "d3367a580fb859f86c7f07a4b30aec4ab037dace",
-        "fetchedAt": "2026-11-06T08:29:15.804Z",
+        "commit": "69a02c278851033f58b53385fe4aa42404bcdcb7",
+        "fetchedAt": "2026-11-06T16:06:46.941Z",
         "files": {
-          "README.md": "68053e6717cc9d580d326021c2d7ae403af57cd3041b959fe082d833c9f17326",
+          "README.md": "8a8c545cbb4f1534c13301dfa9443d4475d6cec320af10b478cf6b66fb0bdaf0",
+          "images/localization-progress.svg": "1dde90d07735c4652161d68e47e34419dc66b271b499937790f9147ee752f33f",
           "install/icon/webui.png": "26ef13138d9c44b8b7fdcc741cc921ba51b1c2b40b8764cc609d2715933a8eea",
           "module.yaml": "e2b5b7270353dafb71358e635bcadeaf321aad421239e1f3d55ef6c9c5db1ef9"
         },
@@ -3316,8 +3318,8 @@
       "fullName": "Infiniti151/acc-with-webui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-06T08:29:15.804Z",
-        "lastSuccessAt": "2026-11-06T08:29:15.804Z",
+        "lastAttemptAt": "2026-11-06T16:06:46.941Z",
+        "lastSuccessAt": "2026-11-06T16:06:46.941Z",
         "message": null,
         "status": "ok"
       },
