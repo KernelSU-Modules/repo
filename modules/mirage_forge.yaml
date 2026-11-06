@@ -1,0 +1,19 @@
+id: mirage_forge
+status: pending
+request:
+  submissionId: ll23w1var7
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1445526027
+    ownerId: 214230890
+    fullName: jjh138792/MirageForge
+    manifestPath: module.yaml
+  submittedBy: 214230890
+  submittedByLogin: jjh138792
+  submittedAt: 2026-11-06T12:00:33.964Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64652
+createdAt: 2026-11-06T12:00:33.964Z
+updatedAt: 2026-11-06T12:00:33.964Z
