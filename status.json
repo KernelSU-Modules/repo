@@ -886,12 +886,12 @@
       "message": null,
       "repositoryId": 1445900163,
       "request": {
-        "checkedAt": "2026-11-06T10:01:26.637Z",
+        "checkedAt": "2026-11-06T10:02:22.361Z",
         "commit": "764414a3433acd78752c9b665921a34812aea9a6",
         "issues": [],
-        "latestTag": "v1.7.10",
+        "latestTag": "v1.7.11-2",
         "ok": true,
-        "releaseId": 434175630,
+        "releaseId": 436341401,
         "repositoryId": 1445900163,
         "submissionId": "ypu6zil5ez"
       },
