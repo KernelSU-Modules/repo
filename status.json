@@ -404,6 +404,27 @@
         "versionCode": 870
       }
     },
+    "autousb": {
+      "contentCommit": "f6a5286afce18ee79216e730208e892ee46d2dd4",
+      "fullName": "Shuoh118/Auto-USB",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1449056776,
+      "request": {
+        "checkedAt": "2026-11-07T06:43:18.208Z",
+        "commit": "f6a5286afce18ee79216e730208e892ee46d2dd4",
+        "issues": [],
+        "latestTag": "1.0",
+        "ok": true,
+        "releaseId": 437388580,
+        "repositoryId": 1449056776,
+        "submissionId": "u7r7vmxpsc"
+      },
+      "stable": null
+    },
     "bypasscap": {
       "contentCommit": "9569ba05034cda746676bc92081f46716d2762a2",
       "fullName": "9M2PJU/ChargeBypassCap",
