@@ -680,8 +680,8 @@
         "versionCode": 770
       },
       "stars": {
-        "count": 428,
-        "fetchedAt": "2026-11-06T03:09:44.791Z",
+        "count": 430,
+        "fetchedAt": "2026-11-07T03:18:19.086Z",
         "fullName": "AlirezaParsi/COPG",
         "repositoryId": 950100740,
         "verified": "self"
@@ -1664,14 +1664,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "003236b8433bebb98247a49eead74ac6b2a6f17a",
+          "README.md": "43a2b645fb857b164468f9b82daef79fd777e6c7",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "b1041f26b062a230bb152fcb6554dcbef55f03b7",
-        "fetchedAt": "2026-11-06T16:08:02.738Z",
+        "commit": "c9a632341928a6d2d03a60709f075ee2abf62105",
+        "fetchedAt": "2026-11-07T03:18:19.086Z",
         "files": {
-          "README.md": "f495c9d06b64e475bc1781105d6bdf99ec70af4d07dbcc7c78da4df4ce718933",
+          "README.md": "5eb689e970af718ef41849a9f8c2ca1bb98498ee39a962a06c50b50d72090235",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -1681,8 +1681,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-06T16:08:02.738Z",
-        "lastSuccessAt": "2026-11-06T16:08:02.738Z",
+        "lastAttemptAt": "2026-11-07T03:18:19.086Z",
+        "lastSuccessAt": "2026-11-07T03:18:19.086Z",
         "message": null,
         "status": "ok"
       },
@@ -2884,8 +2884,8 @@
         "versionCode": 22
       },
       "stars": {
-        "count": 114,
-        "fetchedAt": "2026-11-06T03:09:44.791Z",
+        "count": 118,
+        "fetchedAt": "2026-11-07T03:18:19.086Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -4074,8 +4074,8 @@
         "versionCode": 870
       },
       "stars": {
-        "count": 36,
-        "fetchedAt": "2026-11-06T03:09:44.791Z",
+        "count": 37,
+        "fetchedAt": "2026-11-07T03:18:19.086Z",
         "fullName": "pavelc4/auriya",
         "repositoryId": 1081222414,
         "verified": "self"
@@ -6069,8 +6069,8 @@
         "versionCode": 602005999
       },
       "stars": {
-        "count": 1801,
-        "fetchedAt": "2026-11-06T03:09:44.791Z",
+        "count": 1803,
+        "fetchedAt": "2026-11-07T03:18:19.086Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
@@ -8096,8 +8096,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4169,
-        "fetchedAt": "2026-11-06T03:09:44.791Z",
+        "count": 4174,
+        "fetchedAt": "2026-11-07T03:18:19.086Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
@@ -11429,8 +11429,8 @@
         "versionCode": 864
       },
       "stars": {
-        "count": 1032,
-        "fetchedAt": "2026-11-06T03:09:44.791Z",
+        "count": 1039,
+        "fetchedAt": "2026-11-07T03:18:19.086Z",
         "fullName": "LSPosed/ZygiskNext",
         "repositoryId": 1377039457,
         "verified": "self"
