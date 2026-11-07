@@ -550,6 +550,27 @@
         "versionCode": 2
       }
     },
+    "clouddrive2_ksu_magisk": {
+      "contentCommit": "bbdc428858a5e8b1a9bfc4bb29e1ad7112c7846d",
+      "fullName": "muort521/clouddrive2_ksu_magisk",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1449726085,
+      "request": {
+        "checkedAt": "2026-11-07T22:32:17.857Z",
+        "commit": "bbdc428858a5e8b1a9bfc4bb29e1ad7112c7846d",
+        "issues": [],
+        "latestTag": "v1.1.5-r13",
+        "ok": true,
+        "releaseId": 437885203,
+        "repositoryId": 1449726085,
+        "submissionId": "o0wuzqfnoe"
+      },
+      "stable": null
+    },
     "coloros_gplaystore_guard": {
       "contentCommit": "b5bfb6c3051083cb718ad9a74e82e44c75a7a7f0",
       "fullName": "BHLuotianyi/ColorOS-Google-Play-Store-Guard",
@@ -772,7 +793,7 @@
       }
     },
     "hypercool": {
-      "contentCommit": "ffc432bd6a60401f251ec2b604d036ca22e02ccb",
+      "contentCommit": "e96a2c487607ff46e7985da23a29e97cb981f764",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
@@ -781,8 +802,8 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-07T22:22:09.830Z",
-        "commit": "ffc432bd6a60401f251ec2b604d036ca22e02ccb",
+        "checkedAt": "2026-11-07T22:32:17.857Z",
+        "commit": "e96a2c487607ff46e7985da23a29e97cb981f764",
         "issues": [],
         "latestTag": "v2.1.1",
         "ok": true,
