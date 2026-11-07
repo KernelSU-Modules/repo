@@ -282,8 +282,8 @@
         "versionCode": 2049
       },
       "stars": {
-        "count": 138,
-        "fetchedAt": "2026-11-05T21:15:29.632Z",
+        "count": 139,
+        "fetchedAt": "2026-11-07T05:44:04.828Z",
         "fullName": "Liliya2727/AZenith",
         "repositoryId": 937420284,
         "verified": "self"
@@ -1393,17 +1393,47 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-26T13:27:18.283Z",
-        "lastSuccessAt": "2026-10-26T13:27:18.283Z",
+        "lastAttemptAt": "2026-11-07T05:44:04.828Z",
+        "lastSuccessAt": "2026-11-07T05:44:04.828Z",
         "message": null,
         "status": "ok"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
-      "maxStableVersionCode": 30042,
-      "maxVersionCode": 30042,
+      "maxStableVersionCode": 30050,
+      "maxVersionCode": 30050,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:777c0c3ebec01565e85901ccbfe0fc85d92c28d0bd99462393e40f98d5e35185",
+            "id": 719755496,
+            "name": "KernelSU-Tuner-30050-v3.5.0.zip",
+            "sha256": "777c0c3ebec01565e85901ccbfe0fc85d92c28d0bd99462393e40f98d5e35185",
+            "size": 68732,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.0/KernelSU-Tuner-30050-v3.5.0.zip"
+          },
+          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**The WebUI is bilingual now.** There is a switch button in the top right corner of both interfaces, next to the title. It swaps between Chinese and English and remembers your choice.\n\nThe English interface is `webroot/index.en.html`. It came from PR #4 by FlukyLizard and is used exactly as submitted, no edits. The Chinese one stays at `webroot/index.html`, which is still what the manager opens by default.\n\nBoth are fully self-contained. Switching reloads the page, so nothing is left half-translated.\n\n**Not covered yet:** the shell scripts in `bin/` still write Chinese into logs and command output, so those lines show Chinese in the English interface too. Same for the one-line description in `module.prop` that the manager displays. PR #4 already pointed this out.\n\n**Also in this release**\n- removed the duplicated LMK and ZRAM rows from the performance tab\n- fixed the missing indentation on the last tab entry\n\nversionCode 30050.",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.0",
+          "immutable": true,
+          "name": "v3.5.0",
+          "prerelease": false,
+          "prop": {
+            "author": "ylh440104",
+            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+            "version": "v3.5.0",
+            "versionCode": "30050"
+          },
+          "publishedAt": "2026-11-07T05:43:43Z",
+          "releaseId": 437366685,
+          "tag": "v3.5.0",
+          "tagCommit": "04f9443dd1abda65a62b2f66a3a007cb14c4280f",
+          "version": "v3.5.0",
+          "versionCode": 30050
+        },
         {
           "asset": {
             "digest": "sha256:85ff61648df0c7680739f42a372c34e30aede584cab40a1c8a7a6dceed0512db",
@@ -1655,21 +1685,25 @@
         "423740403": {
           "checkedAt": "2026-10-26T00:03:21.873Z",
           "ok": true
+        },
+        "437366685": {
+          "checkedAt": "2026-11-07T05:44:04.828Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:85ff61648df0c7680739f42a372c34e30aede584cab40a1c8a7a6dceed0512db",
-          "id": 676475526,
-          "name": "KernelSU-Tuner-30042-v3.4.2.zip",
-          "sha256": "85ff61648df0c7680739f42a372c34e30aede584cab40a1c8a7a6dceed0512db",
-          "size": 53029,
-          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.2/KernelSU-Tuner-30042-v3.4.2.zip"
+          "digest": "sha256:777c0c3ebec01565e85901ccbfe0fc85d92c28d0bd99462393e40f98d5e35185",
+          "id": 719755496,
+          "name": "KernelSU-Tuner-30050-v3.5.0.zip",
+          "sha256": "777c0c3ebec01565e85901ccbfe0fc85d92c28d0bd99462393e40f98d5e35185",
+          "size": 68732,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.0/KernelSU-Tuner-30050-v3.5.0.zip"
         },
-        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\r\n\r\nversionCode 30042.",
-        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.2",
+        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**The WebUI is bilingual now.** There is a switch button in the top right corner of both interfaces, next to the title. It swaps between Chinese and English and remembers your choice.\n\nThe English interface is `webroot/index.en.html`. It came from PR #4 by FlukyLizard and is used exactly as submitted, no edits. The Chinese one stays at `webroot/index.html`, which is still what the manager opens by default.\n\nBoth are fully self-contained. Switching reloads the page, so nothing is left half-translated.\n\n**Not covered yet:** the shell scripts in `bin/` still write Chinese into logs and command output, so those lines show Chinese in the English interface too. Same for the one-line description in `module.prop` that the manager displays. PR #4 already pointed this out.\n\n**Also in this release**\n- removed the duplicated LMK and ZRAM rows from the performance tab\n- fixed the missing indentation on the last tab entry\n\nversionCode 30050.",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.0",
         "immutable": true,
-        "name": "v3.4.2",
+        "name": "v3.5.0",
         "prerelease": false,
         "prop": {
           "author": "ylh440104",
@@ -1677,15 +1711,15 @@
           "id": "KernelSU-Tuner",
           "name": "KernelSU Tuner",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-          "version": "v3.4.2",
-          "versionCode": "30042"
+          "version": "v3.5.0",
+          "versionCode": "30050"
         },
-        "publishedAt": "2026-10-26T00:02:55Z",
-        "releaseId": 423740403,
-        "tag": "v3.4.2",
-        "tagCommit": "cfec6aa01c276a2258581c1b6da62302cf661444",
-        "version": "v3.4.2",
-        "versionCode": 30042
+        "publishedAt": "2026-11-07T05:43:43Z",
+        "releaseId": 437366685,
+        "tag": "v3.5.0",
+        "tagCommit": "04f9443dd1abda65a62b2f66a3a007cb14c4280f",
+        "version": "v3.5.0",
+        "versionCode": 30050
       },
       "stars": {
         "count": 17,
@@ -6976,8 +7010,8 @@
         "versionCode": 401012
       },
       "stars": {
-        "count": 598,
-        "fetchedAt": "2026-11-06T05:00:52.853Z",
+        "count": 600,
+        "fetchedAt": "2026-11-07T05:44:04.828Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
@@ -7917,8 +7951,8 @@
         "versionCode": 180
       },
       "stars": {
-        "count": 624,
-        "fetchedAt": "2026-11-06T05:00:52.853Z",
+        "count": 633,
+        "fetchedAt": "2026-11-07T05:44:04.828Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
