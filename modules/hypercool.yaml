@@ -1,0 +1,19 @@
+id: hypercool
+status: pending
+request:
+  submissionId: xsva3e3znd
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1446403674
+    ownerId: 45030429
+    fullName: yudharn/HyperCool
+    manifestPath: module.yaml
+  submittedBy: 45030429
+  submittedByLogin: yudharn
+  submittedAt: 2026-11-07T21:58:51.367Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64657
+createdAt: 2026-11-07T21:58:51.367Z
+updatedAt: 2026-11-07T21:58:51.367Z
