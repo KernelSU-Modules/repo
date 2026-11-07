@@ -153,16 +153,16 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T10:17:26.740Z",
-      "maxVersionCode": 30054,
+      "lastSuccessAt": "2026-11-07T10:29:24.572Z",
+      "maxVersionCode": 30055,
       "message": null,
       "repositoryId": 1414095668,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-07T10:16:57Z",
-        "tag": "v3.5.4",
-        "version": "v3.5.4",
-        "versionCode": 30054
+        "publishedAt": "2026-11-07T10:29:02Z",
+        "tag": "v3.5.5",
+        "version": "v3.5.5",
+        "versionCode": 30055
       }
     },
     "Logd_Disabler_ColorOS16": {
@@ -631,7 +631,7 @@
       "stable": null
     },
     "falcon_integrity_fix": {
-      "contentCommit": "8014d3f3d2918df104ddc4f2ba48c3dc3fd3f097",
+      "contentCommit": "eee89acfddd39bbc280b2ebbf7ccc38693397885",
       "fullName": "AHMED2111X/AHMED2111X",
       "health": "ok",
       "installation": "present",
@@ -640,12 +640,12 @@
       "message": null,
       "repositoryId": 929063884,
       "request": {
-        "checkedAt": "2026-11-07T10:28:32.759Z",
-        "commit": "8014d3f3d2918df104ddc4f2ba48c3dc3fd3f097",
+        "checkedAt": "2026-11-07T10:29:24.572Z",
+        "commit": "eee89acfddd39bbc280b2ebbf7ccc38693397885",
         "issues": [],
-        "latestTag": "v3.28.1",
+        "latestTag": "v3.28.2",
         "ok": true,
-        "releaseId": 437499607,
+        "releaseId": 437501425,
         "repositoryId": 929063884,
         "submissionId": "30jc26ge1l"
       },
