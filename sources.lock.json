@@ -9033,17 +9033,47 @@
       "fullName": "Nixie24/susdock",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-07T14:42:26.655Z",
-        "lastSuccessAt": "2026-11-07T14:42:26.655Z",
+        "lastAttemptAt": "2026-11-07T15:17:23.498Z",
+        "lastSuccessAt": "2026-11-07T15:17:23.498Z",
         "message": null,
         "status": "ok"
       },
       "id": "susdock",
       "installationId": 176155633,
-      "maxStableVersionCode": 306,
-      "maxVersionCode": 306,
+      "maxStableVersionCode": 400,
+      "maxVersionCode": 400,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:87525d1f735b2098396a15c77d01e502ed61e05cef9896f13be8db0eb0f872dd",
+            "id": 721053477,
+            "name": "susdock-v0.4.0-400.zip",
+            "sha256": "87525d1f735b2098396a15c77d01e502ed61e05cef9896f13be8db0eb0f872dd",
+            "size": 30505,
+            "url": "https://github.com/Nixie24/susdock/releases/download/v0.4.0-400/susdock-v0.4.0-400.zip"
+          },
+          "body": "## What's Changed\n* docs: rewrite README and API documentation by @Nixie24 in https://github.com/Nixie24/susdock/pull/9\n* ci: publish the update branch after a release by @Nixie24 in https://github.com/Nixie24/susdock/pull/10\n* fix(docs): remove x64 by @Nixie24 in https://github.com/Nixie24/susdock/pull/11\n* 0.4.0 by @Nixie24 in https://github.com/Nixie24/susdock/pull/12\n\n\n**Full Changelog**: https://github.com/Nixie24/susdock/compare/v0.3.6-306...v0.4.0-400",
+          "htmlUrl": "https://github.com/Nixie24/susdock/releases/tag/v0.4.0-400",
+          "immutable": true,
+          "name": "v0.4.0-400",
+          "prerelease": false,
+          "prop": {
+            "author": "Nix24",
+            "description": "A SuSFS Manager for LKM Setups",
+            "id": "susdock",
+            "name": "SusDock",
+            "updateJson": "https://raw.githubusercontent.com/Nixie24/susdock/refs/heads/update/update.json",
+            "version": "0.4.0",
+            "versionCode": "400"
+          },
+          "publishedAt": "2026-11-07T15:16:46Z",
+          "releaseId": 437653348,
+          "tag": "v0.4.0-400",
+          "tagCommit": "8fea8c5f889079f39256010d29456aaad7084fe6",
+          "version": "0.4.0",
+          "versionCode": 400
+        },
         {
           "asset": {
             "digest": "sha256:a9d4d8a45fc70369e128d01bd34e560a421741af780e77c4b0dfb1cf8e3d6652",
@@ -9132,21 +9162,25 @@
         "436314180": {
           "checkedAt": "2026-11-06T09:31:18.709Z",
           "ok": true
+        },
+        "437653348": {
+          "checkedAt": "2026-11-07T15:17:23.498Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:a9d4d8a45fc70369e128d01bd34e560a421741af780e77c4b0dfb1cf8e3d6652",
-          "id": 716619487,
-          "name": "susdock-v0.3.6-306.zip",
-          "sha256": "a9d4d8a45fc70369e128d01bd34e560a421741af780e77c4b0dfb1cf8e3d6652",
-          "size": 30383,
-          "url": "https://github.com/Nixie24/susdock/releases/download/v0.3.6-306/susdock-v0.3.6-306.zip"
+          "digest": "sha256:87525d1f735b2098396a15c77d01e502ed61e05cef9896f13be8db0eb0f872dd",
+          "id": 721053477,
+          "name": "susdock-v0.4.0-400.zip",
+          "sha256": "87525d1f735b2098396a15c77d01e502ed61e05cef9896f13be8db0eb0f872dd",
+          "size": 30505,
+          "url": "https://github.com/Nixie24/susdock/releases/download/v0.4.0-400/susdock-v0.4.0-400.zip"
         },
-        "body": "## What's Changed\n* feat(webui): add i18n with en, ru, zh and system language by @FLAT447 in https://github.com/Nixie24/susdock/pull/6\n* feat(webui): split i18n dictionaries and add CI gates by @Nixie24 in https://github.com/Nixie24/susdock/pull/7\n* chore: bump to 0.3.6 by @Nixie24 in https://github.com/Nixie24/susdock/pull/8\n\n## New Contributors\n* @FLAT447 made their first contribution in https://github.com/Nixie24/susdock/pull/6\n\n**Full Changelog**: https://github.com/Nixie24/susdock/compare/v0.3.5-305...v0.3.6-306",
-        "htmlUrl": "https://github.com/Nixie24/susdock/releases/tag/v0.3.6-306",
+        "body": "## What's Changed\n* docs: rewrite README and API documentation by @Nixie24 in https://github.com/Nixie24/susdock/pull/9\n* ci: publish the update branch after a release by @Nixie24 in https://github.com/Nixie24/susdock/pull/10\n* fix(docs): remove x64 by @Nixie24 in https://github.com/Nixie24/susdock/pull/11\n* 0.4.0 by @Nixie24 in https://github.com/Nixie24/susdock/pull/12\n\n\n**Full Changelog**: https://github.com/Nixie24/susdock/compare/v0.3.6-306...v0.4.0-400",
+        "htmlUrl": "https://github.com/Nixie24/susdock/releases/tag/v0.4.0-400",
         "immutable": true,
-        "name": "v0.3.6-306",
+        "name": "v0.4.0-400",
         "prerelease": false,
         "prop": {
           "author": "Nix24",
@@ -9154,15 +9188,15 @@
           "id": "susdock",
           "name": "SusDock",
           "updateJson": "https://raw.githubusercontent.com/Nixie24/susdock/refs/heads/update/update.json",
-          "version": "0.3.6",
-          "versionCode": "306"
+          "version": "0.4.0",
+          "versionCode": "400"
         },
-        "publishedAt": "2026-11-06T09:30:59Z",
-        "releaseId": 436314180,
-        "tag": "v0.3.6-306",
-        "tagCommit": "9e7f828041b267e58ba8b36707b6c9a0cdb44d85",
-        "version": "0.3.6",
-        "versionCode": 306
+        "publishedAt": "2026-11-07T15:16:46Z",
+        "releaseId": 437653348,
+        "tag": "v0.4.0-400",
+        "tagCommit": "8fea8c5f889079f39256010d29456aaad7084fe6",
+        "version": "0.4.0",
+        "versionCode": 400
       },
       "stars": {
         "count": 4,
