@@ -324,6 +324,27 @@
         "versionCode": 10600
       }
     },
+    "adbdisabler": {
+      "contentCommit": "b27aaa00738c09ab59ba7bfe88e99774ca74c3c9",
+      "fullName": "Shuoh118/ADB-Disabler",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1449393283,
+      "request": {
+        "checkedAt": "2026-11-07T14:34:16.907Z",
+        "commit": "b27aaa00738c09ab59ba7bfe88e99774ca74c3c9",
+        "issues": [],
+        "latestTag": "1.0.0",
+        "ok": true,
+        "releaseId": 437611544,
+        "repositoryId": 1449393283,
+        "submissionId": "uc55frw6xw"
+      },
+      "stable": null
+    },
     "aegis_firewall": {
       "contentCommit": "9366066031750ed2332cf45580b4a043e2bbd7d1",
       "fullName": "kreza6173-pixel/aegis-firewall",
@@ -1110,7 +1131,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "aaf5ac02bb458ad8f7830440c2a3a3b9b1f9acd4",
+      "contentCommit": "269766c8fcd52bb41c1f3b11841a93fc52ba68b7",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1119,8 +1140,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-07T13:25:13.210Z",
-        "commit": "aaf5ac02bb458ad8f7830440c2a3a3b9b1f9acd4",
+        "checkedAt": "2026-11-07T14:34:16.907Z",
+        "commit": "269766c8fcd52bb41c1f3b11841a93fc52ba68b7",
         "issues": [],
         "latestTag": "v2.3.0-r18.8",
         "ok": true,
