@@ -1800,14 +1800,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "7cff245249977fd130c96e056cf91727daf27ddf",
+          "README.md": "5b0581a3b6cfe84200f086cbf67aac67c58d6b45",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "09b79d322127e58ba09db614c02382c5c9b83380",
-        "fetchedAt": "2026-11-07T03:24:54.813Z",
+        "commit": "26c8d0374ce3eecfdf457eee9f3ba14ed744242a",
+        "fetchedAt": "2026-11-07T08:04:23.834Z",
         "files": {
-          "README.md": "7130125d36818f80821a2ad32094b377e1cbcfc9db3a7207018a06520665fbaa",
+          "README.md": "610b02d16e54bd903e79d1b2cf2b9553ce88d6e361d9d9184879051b9b419b72",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -1817,17 +1817,47 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-07T03:24:54.813Z",
-        "lastSuccessAt": "2026-11-07T03:24:54.813Z",
+        "lastAttemptAt": "2026-11-07T08:04:23.834Z",
+        "lastSuccessAt": "2026-11-07T08:04:23.834Z",
         "message": null,
         "status": "ok"
       },
       "id": "MagicNet",
       "installationId": 172483675,
-      "maxStableVersionCode": 10612,
-      "maxVersionCode": 10612,
+      "maxStableVersionCode": 10613,
+      "maxVersionCode": 10613,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:ae07ec061148c59bda93b1b1f179b2642e9eff1c6b8110b9b4cb71b8ee9ad784",
+            "id": 720051059,
+            "name": "MagicNet-full.zip",
+            "sha256": "ae07ec061148c59bda93b1b1f179b2642e9eff1c6b8110b9b4cb71b8ee9ad784",
+            "size": 68512250,
+            "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.5/MagicNet-full.zip"
+          },
+          "body": "# MagicNet v1.8.5\n\n本次发行候选为 `v1.8.5` / `10613`，默认模板增加五个指定目标的拦截规则，以及 16 个大陆教育服务域名后缀的默认直连分流。\n\n## 指定目标拦截\n\n| 精确域名 | 目标端口 |\n| --- | --- |\n| `flash.sec.miui.com` | 不限 |\n| `fraud-detection.engine.miui.com` | 不限 |\n| `eps.caict.ac.cn` | 不限 |\n| `gateway-papa.cloud.weizhi.com` | 不限 |\n| `dm.wo.com.cn` | 仅 `18080`，TCP/UDP |\n\n两个原生 `action: reject` 规则位于既有 DNS、嗅探、ICMP 和 `0.0.0.0` 处理之后、模式与应用及业务分流之前。命中目标的应用流量在 `rule`、`global`、`direct` 模式下均先执行拒绝；域名按完整名称匹配，父域名和子域名沿用原有规则。`dm.wo.com.cn` 的其他端口也沿用原有规则。\n\n这些拒绝规则保留既有 DNS 捕获和解析处理，作用于进入 sing-box 且能识别目标域名的流量；使用纯 IP 且缺少域名信息的连接继续按原有规则处理。\n\n## 大陆教育网站默认直连\n\n以下后缀匹配根域名及其子域名，复用现有 `cn-direct` 组，默认选择 `direct`。用户对该组的选择继续保留。\n\n| 范围 | 域名后缀 |\n| --- | --- |\n| 学校与教育科研域名 | `edu.cn` |\n| 教育公共服务 | `moe.gov.cn`、`chsi.com.cn`、`smartedu.cn`、`neea.cn`、`ncss.cn` |\n| 慕课与教学平台 | `icourse163.org`、`icourses.cn`、`xuetangx.com`、`yuketang.cn`、`chaoxing.com`、`zhihuishu.com` |\n| 教育资讯与学术资源 | `eol.cn`、`cnki.net`、`wanfangdata.com.cn`、`cqvip.com` |\n\n教育规则位于既有模式、LAN、用户与应用分流、广告和 DNS 防护之后，优先于后续国外学术、AI、游戏、开发及媒体分类。DNS 使用相同的 16 个后缀和现有本地加密解析器；前置 DNS 规则继续优先。\n\n范围以此清单为准，其他教育网站与共享 CDN 沿用原有规则。各域名的官方来源见[策略库存](https://github.com/LIghtJUNction/MagicNet/blob/main/recipes/magicnet-routing-policy/POLICY_INVENTORY.md)。\n\n## 安装与更新\n\n规则随本版内置模板分发。正式发行后，新安装和正常升级使用该模板，无需额外执行社区模板更新；更新后按模块管理器提示重启。\n\n## 验证要求与范围\n\n模板层需验证精确拦截、教育后缀与边界负例、规则优先级及 DNS 对应；生成配置须通过锁定内核校验。正式发行还需通过固定源码的官方模块构建、完整质量与 Android/KernelSU 模拟器门槛。实际结果与来源提交记录于主仓库的 `recipes/magicnet/VERIFICATION.md`；发行时由附件 `build-source.json` 记录构建来源。\n\n当前尚未公开发行，未进行真机安装或真实应用流量验收。\n\n\nRecipe snapshot: 8e9d6cf4232bd38488e6cc012813d885dac07faf\nSource commit: af3930bd9860344688efa62684afdd7ba4ba25f5\n\n<!-- magicnet-release run=42350655826 artifact=13566796921 snapshot=8e9d6cf4232bd38488e6cc012813d885dac07faf -->\n",
+          "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.5",
+          "immutable": true,
+          "name": "MagicNet-10613-v1.8.5",
+          "prerelease": false,
+          "prop": {
+            "author": "LIghtJUNction",
+            "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
+            "id": "MagicNet",
+            "name": "MagicNet",
+            "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
+            "version": "v1.8.5",
+            "versionCode": "10613"
+          },
+          "publishedAt": "2026-11-07T08:04:01Z",
+          "releaseId": 437428622,
+          "tag": "v1.8.5",
+          "tagCommit": "8e9d6cf4232bd38488e6cc012813d885dac07faf",
+          "version": "v1.8.5",
+          "versionCode": 10613
+        },
         {
           "asset": {
             "digest": "sha256:2e1c64925bf90de27fb030eaae1807a2685ecaf27475086d9932e4557b037b68",
@@ -2276,21 +2306,25 @@
         "432258496": {
           "checkedAt": "2026-11-03T03:52:31.486Z",
           "ok": true
+        },
+        "437428622": {
+          "checkedAt": "2026-11-07T08:04:23.834Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:2e1c64925bf90de27fb030eaae1807a2685ecaf27475086d9932e4557b037b68",
-          "id": 704184289,
+          "digest": "sha256:ae07ec061148c59bda93b1b1f179b2642e9eff1c6b8110b9b4cb71b8ee9ad784",
+          "id": 720051059,
           "name": "MagicNet-full.zip",
-          "sha256": "2e1c64925bf90de27fb030eaae1807a2685ecaf27475086d9932e4557b037b68",
-          "size": 65461674,
-          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.4/MagicNet-full.zip"
+          "sha256": "ae07ec061148c59bda93b1b1f179b2642e9eff1c6b8110b9b4cb71b8ee9ad784",
+          "size": 68512250,
+          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.5/MagicNet-full.zip"
         },
-        "body": "# MagicNet v1.8.4\n\n修复 [#434](https://github.com/LIghtJUNction/MagicNet/issues/434)：未设置订阅 User-Agent 时，curl 默认标识可能被订阅服务或 CDN 以 HTTP 403 拒绝。现在默认标识遇到 403 时，同一次更新内改用 `clash.meta` 重试一次；该值不会写入配置，也不会覆盖用户自定义的 User-Agent。仍被拒绝时，日志提示在订阅设置中选择客户端 User-Agent。\n\n订阅地址解析把 IPv4-mapped IPv6（`::ffff:a.b.c.d`）按嵌入的 IPv4 校验和钉选，避免 Rust 与 shell 双重校验不一致导致公网地址被误拒。\n\nMCP 通用 `magicnet_file_read` 不再读取路由/屏蔽域名清单、`block.conf` 和 `proxy-chain.json`；通用 `magicnet_cli` 拒绝人类 `warp`/`node`/`route`/`block` 默认清单。具名的 `magicnet_node_list`、`magicnet_node_current`、`magicnet_block_list` 仍可显式使用。删除无调用方的 `magicnet_prepare_singbox_nodes` 包装。\n\n本地验证：源码 Rust fmt/clippy/全部测试与 106 项 shell 主机回归通过（含真实 curl+HTTPS 的 403 回退用例）；配方检查与发布脚本测试通过。未进行真机安装验收；#434 的修复基于用户日志中的 HTTP 403，尚需报告者在设备上确认。\n\nRecipe commit: 9768fe6430efa56290e495964b75e9acc0e8ad17\nImplementation commit: d22086d28499ceb25c9f2b7d965e783ded6c286a\n",
-        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.4",
+        "body": "# MagicNet v1.8.5\n\n本次发行候选为 `v1.8.5` / `10613`，默认模板增加五个指定目标的拦截规则，以及 16 个大陆教育服务域名后缀的默认直连分流。\n\n## 指定目标拦截\n\n| 精确域名 | 目标端口 |\n| --- | --- |\n| `flash.sec.miui.com` | 不限 |\n| `fraud-detection.engine.miui.com` | 不限 |\n| `eps.caict.ac.cn` | 不限 |\n| `gateway-papa.cloud.weizhi.com` | 不限 |\n| `dm.wo.com.cn` | 仅 `18080`，TCP/UDP |\n\n两个原生 `action: reject` 规则位于既有 DNS、嗅探、ICMP 和 `0.0.0.0` 处理之后、模式与应用及业务分流之前。命中目标的应用流量在 `rule`、`global`、`direct` 模式下均先执行拒绝；域名按完整名称匹配，父域名和子域名沿用原有规则。`dm.wo.com.cn` 的其他端口也沿用原有规则。\n\n这些拒绝规则保留既有 DNS 捕获和解析处理，作用于进入 sing-box 且能识别目标域名的流量；使用纯 IP 且缺少域名信息的连接继续按原有规则处理。\n\n## 大陆教育网站默认直连\n\n以下后缀匹配根域名及其子域名，复用现有 `cn-direct` 组，默认选择 `direct`。用户对该组的选择继续保留。\n\n| 范围 | 域名后缀 |\n| --- | --- |\n| 学校与教育科研域名 | `edu.cn` |\n| 教育公共服务 | `moe.gov.cn`、`chsi.com.cn`、`smartedu.cn`、`neea.cn`、`ncss.cn` |\n| 慕课与教学平台 | `icourse163.org`、`icourses.cn`、`xuetangx.com`、`yuketang.cn`、`chaoxing.com`、`zhihuishu.com` |\n| 教育资讯与学术资源 | `eol.cn`、`cnki.net`、`wanfangdata.com.cn`、`cqvip.com` |\n\n教育规则位于既有模式、LAN、用户与应用分流、广告和 DNS 防护之后，优先于后续国外学术、AI、游戏、开发及媒体分类。DNS 使用相同的 16 个后缀和现有本地加密解析器；前置 DNS 规则继续优先。\n\n范围以此清单为准，其他教育网站与共享 CDN 沿用原有规则。各域名的官方来源见[策略库存](https://github.com/LIghtJUNction/MagicNet/blob/main/recipes/magicnet-routing-policy/POLICY_INVENTORY.md)。\n\n## 安装与更新\n\n规则随本版内置模板分发。正式发行后，新安装和正常升级使用该模板，无需额外执行社区模板更新；更新后按模块管理器提示重启。\n\n## 验证要求与范围\n\n模板层需验证精确拦截、教育后缀与边界负例、规则优先级及 DNS 对应；生成配置须通过锁定内核校验。正式发行还需通过固定源码的官方模块构建、完整质量与 Android/KernelSU 模拟器门槛。实际结果与来源提交记录于主仓库的 `recipes/magicnet/VERIFICATION.md`；发行时由附件 `build-source.json` 记录构建来源。\n\n当前尚未公开发行，未进行真机安装或真实应用流量验收。\n\n\nRecipe snapshot: 8e9d6cf4232bd38488e6cc012813d885dac07faf\nSource commit: af3930bd9860344688efa62684afdd7ba4ba25f5\n\n<!-- magicnet-release run=42350655826 artifact=13566796921 snapshot=8e9d6cf4232bd38488e6cc012813d885dac07faf -->\n",
+        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.5",
         "immutable": true,
-        "name": "MagicNet-10612-v1.8.4",
+        "name": "MagicNet-10613-v1.8.5",
         "prerelease": false,
         "prop": {
           "author": "LIghtJUNction",
@@ -2298,15 +2332,15 @@
           "id": "MagicNet",
           "name": "MagicNet",
           "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
-          "version": "v1.8.4",
-          "versionCode": "10612"
+          "version": "v1.8.5",
+          "versionCode": "10613"
         },
-        "publishedAt": "2026-11-03T03:52:07Z",
-        "releaseId": 432258496,
-        "tag": "v1.8.4",
-        "tagCommit": "9768fe6430efa56290e495964b75e9acc0e8ad17",
-        "version": "v1.8.4",
-        "versionCode": 10612
+        "publishedAt": "2026-11-07T08:04:01Z",
+        "releaseId": 437428622,
+        "tag": "v1.8.5",
+        "tagCommit": "8e9d6cf4232bd38488e6cc012813d885dac07faf",
+        "version": "v1.8.5",
+        "versionCode": 10613
       },
       "stars": {
         "count": 224,
