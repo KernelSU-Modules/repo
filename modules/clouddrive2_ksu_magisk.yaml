@@ -1,0 +1,19 @@
+id: clouddrive2_ksu_magisk
+status: pending
+request:
+  submissionId: o0wuzqfnoe
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1449726085
+    ownerId: 223193463
+    fullName: muort521/clouddrive2_ksu_magisk
+    manifestPath: module.yaml
+  submittedBy: 223193463
+  submittedByLogin: muort521
+  submittedAt: 2026-11-07T22:31:56.666Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64658
+createdAt: 2026-11-07T22:31:56.666Z
+updatedAt: 2026-11-07T22:31:56.666Z
