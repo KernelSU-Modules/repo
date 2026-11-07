@@ -11526,17 +11526,47 @@
       "fullName": "LSPosed/ZygiskNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-13T14:25:58.907Z",
-        "lastSuccessAt": "2026-10-13T14:25:58.907Z",
+        "lastAttemptAt": "2026-11-07T16:36:07.482Z",
+        "lastSuccessAt": "2026-11-07T16:36:07.482Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisksu",
       "installationId": 170198192,
-      "maxStableVersionCode": 864,
-      "maxVersionCode": 864,
+      "maxStableVersionCode": 880,
+      "maxVersionCode": 880,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67",
+            "id": 721259782,
+            "name": "Zygisk-Next-1.5.3-880-22a1bf5-release.zip",
+            "sha256": "186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67",
+            "size": 6638473,
+            "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.3/Zygisk-Next-1.5.3-880-22a1bf5-release.zip"
+          },
+          "body": "---\r\n\r\n- 适配 Android 17 QPR3\r\n- 修复一些死锁问题\r\n- 修复 16KB 页面兼容问题\r\n- 修复其他问题\r\n\r\n---\r\n\r\n- Added support for Android 17 QPR3\r\n- Fixed some deadlock issues\r\n- Fixed compatibility with 16 KB page sizes\r\n- Fixed some other issues\r\n\r\n---\r\n\r\nSHA256: 186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67",
+          "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.3",
+          "immutable": true,
+          "name": "v1.5.3",
+          "prerelease": false,
+          "prop": {
+            "author": "LSPosed Developers",
+            "description": "Standalone implementation of Zygisk.",
+            "id": "zygisksu",
+            "name": "Zygisk Next",
+            "updateJson": "https://lsposed.zip/zygisk-next/update.json",
+            "version": "1.5.3 (880-22a1bf5-release)",
+            "versionCode": "880"
+          },
+          "publishedAt": "2026-11-07T16:35:52Z",
+          "releaseId": 437697237,
+          "tag": "v1.5.3",
+          "tagCommit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
+          "version": "1.5.3 (880-22a1bf5-release)",
+          "versionCode": 880
+        },
         {
           "asset": {
             "digest": "sha256:ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
@@ -11641,21 +11671,25 @@
         "411764538": {
           "checkedAt": "2026-10-13T14:25:58.907Z",
           "ok": true
+        },
+        "437697237": {
+          "checkedAt": "2026-11-07T16:36:07.482Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
-          "id": 637267849,
-          "name": "Zygisk-Next-1.5.2-864-a4a72ce-release.zip",
-          "sha256": "ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
-          "size": 6714344,
-          "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.2/Zygisk-Next-1.5.2-864-a4a72ce-release.zip"
+          "digest": "sha256:186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67",
+          "id": 721259782,
+          "name": "Zygisk-Next-1.5.3-880-22a1bf5-release.zip",
+          "sha256": "186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67",
+          "size": 6638473,
+          "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.3/Zygisk-Next-1.5.3-880-22a1bf5-release.zip"
         },
-        "body": "- 修复某些系统上导致应用崩溃的问题\r\n\r\n---\r\n\r\n- Fixed an issue that caused the app to crash on certain systems.\r\n\r\n---\r\n\r\nSHA256: ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
-        "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.2",
+        "body": "---\r\n\r\n- 适配 Android 17 QPR3\r\n- 修复一些死锁问题\r\n- 修复 16KB 页面兼容问题\r\n- 修复其他问题\r\n\r\n---\r\n\r\n- Added support for Android 17 QPR3\r\n- Fixed some deadlock issues\r\n- Fixed compatibility with 16 KB page sizes\r\n- Fixed some other issues\r\n\r\n---\r\n\r\nSHA256: 186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67",
+        "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.3",
         "immutable": true,
-        "name": "v1.5.2",
+        "name": "v1.5.3",
         "prerelease": false,
         "prop": {
           "author": "LSPosed Developers",
@@ -11663,19 +11697,19 @@
           "id": "zygisksu",
           "name": "Zygisk Next",
           "updateJson": "https://lsposed.zip/zygisk-next/update.json",
-          "version": "1.5.2 (864-a4a72ce-release)",
-          "versionCode": "864"
+          "version": "1.5.3 (880-22a1bf5-release)",
+          "versionCode": "880"
         },
-        "publishedAt": "2026-10-13T14:24:46Z",
-        "releaseId": 411764538,
-        "tag": "v1.5.2",
+        "publishedAt": "2026-11-07T16:35:52Z",
+        "releaseId": 437697237,
+        "tag": "v1.5.3",
         "tagCommit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
-        "version": "1.5.2 (864-a4a72ce-release)",
-        "versionCode": 864
+        "version": "1.5.3 (880-22a1bf5-release)",
+        "versionCode": 880
       },
       "stars": {
-        "count": 1039,
-        "fetchedAt": "2026-11-07T03:18:19.086Z",
+        "count": 1052,
+        "fetchedAt": "2026-11-07T16:36:07.482Z",
         "fullName": "LSPosed/ZygiskNext",
         "repositoryId": 1377039457,
         "verified": "self"
