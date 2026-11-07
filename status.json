@@ -1102,11 +1102,11 @@
       "stable": null
     },
     "susdock": {
-      "contentCommit": "d3a77c31b0775aaf6ae6f45b784e1464339ce101",
+      "contentCommit": "2ddabb7cbb0cad81df153cb87bad86b72779e809",
       "fullName": "Nixie24/susdock",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T13:25:13.210Z",
+      "lastSuccessAt": "2026-11-07T14:42:26.655Z",
       "maxVersionCode": 306,
       "message": null,
       "repositoryId": 1436993054,
