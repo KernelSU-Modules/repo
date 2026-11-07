@@ -640,12 +640,12 @@
       "message": null,
       "repositoryId": 929063884,
       "request": {
-        "checkedAt": "2026-11-07T10:24:44.964Z",
+        "checkedAt": "2026-11-07T10:25:41.071Z",
         "commit": "053a6b45763d4b9f133208e99e1d3c85d3ad0fc5",
         "issues": [],
-        "latestTag": "v3.27",
+        "latestTag": "v3.28.1",
         "ok": true,
-        "releaseId": 434762022,
+        "releaseId": 437499607,
         "repositoryId": 929063884,
         "submissionId": "30jc26ge1l"
       },
