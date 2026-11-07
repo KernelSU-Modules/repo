@@ -771,6 +771,27 @@
         "versionCode": 602005999
       }
     },
+    "hypercool": {
+      "contentCommit": "9deed73bdba4161e0942b0a4071530c659f99eab",
+      "fullName": "yudharn/HyperCool",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1446403674,
+      "request": {
+        "checkedAt": "2026-11-07T21:59:17.906Z",
+        "commit": "9deed73bdba4161e0942b0a4071530c659f99eab",
+        "issues": [],
+        "latestTag": "v2.1",
+        "ok": true,
+        "releaseId": 437869387,
+        "repositoryId": 1446403674,
+        "submissionId": "xsva3e3znd"
+      },
+      "stable": null
+    },
     "kernelsu-tailscaled": {
       "contentCommit": "f53ec850408fac799a91868652dbf8d2282703a6",
       "fullName": "WayneShao/KernelSU-Tailscaled",
