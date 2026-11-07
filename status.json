@@ -847,7 +847,7 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "9dc4a8b00c86901c5764b6a7e23b5e614dc26afd",
+      "contentCommit": "c72f81ca1985305f2bfa1339e409da1f30f88708",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
@@ -856,8 +856,8 @@
       "message": null,
       "repositoryId": 1445526027,
       "request": {
-        "checkedAt": "2026-11-06T12:01:06.080Z",
-        "commit": "9dc4a8b00c86901c5764b6a7e23b5e614dc26afd",
+        "checkedAt": "2026-11-07T08:33:49.281Z",
+        "commit": "c72f81ca1985305f2bfa1339e409da1f30f88708",
         "issues": [],
         "latestTag": "1.0.0",
         "ok": true,
@@ -1209,16 +1209,16 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T08:24:34.967Z",
-      "maxVersionCode": 302,
+      "lastSuccessAt": "2026-11-07T08:33:49.281Z",
+      "maxVersionCode": 304,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-07T06:05:42Z",
-        "tag": "v2.12.0",
-        "version": "v2.12.0 (302-355c206-release)",
-        "versionCode": 302
+        "publishedAt": "2026-11-07T08:33:25Z",
+        "tag": "v2.13.0",
+        "version": "v2.13.0 (304-d2ebd23-release)",
+        "versionCode": 304
       }
     },
     "zygisksu": {
