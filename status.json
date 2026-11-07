@@ -149,20 +149,20 @@
       }
     },
     "KernelSU-Tuner": {
-      "contentCommit": "12dc3479d7736a74d368f61342a468224ba5ff99",
+      "contentCommit": "fcd7135fe2c78c99050a837b32ac298dcc4cd724",
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T05:44:04.828Z",
-      "maxVersionCode": 30050,
+      "lastSuccessAt": "2026-11-07T06:16:08.328Z",
+      "maxVersionCode": 30051,
       "message": null,
       "repositoryId": 1414095668,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-07T05:43:43Z",
-        "tag": "v3.5.0",
-        "version": "v3.5.0",
-        "versionCode": 30050
+        "publishedAt": "2026-11-07T06:15:47Z",
+        "tag": "v3.5.1",
+        "version": "v3.5.1",
+        "versionCode": 30051
       }
     },
     "Logd_Disabler_ColorOS16": {
@@ -308,11 +308,11 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "03c6c52574252b4e5dfcb9a807780b04a6ac3224",
+      "contentCommit": "0fade26ba73436b21ba7b491dec0407da8dfff00",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-06T18:13:01.848Z",
+      "lastSuccessAt": "2026-11-07T06:16:08.328Z",
       "maxVersionCode": 10600,
       "message": null,
       "repositoryId": 1296470014,
