@@ -2362,8 +2362,8 @@
         "versionCode": 10613
       },
       "stars": {
-        "count": 224,
-        "fetchedAt": "2026-11-06T16:08:02.738Z",
+        "count": 226,
+        "fetchedAt": "2026-11-07T21:48:57.804Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -9507,17 +9507,48 @@
       "fullName": "Rouyashiki/YukiZygisk",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-06T21:25:06.339Z",
-        "lastSuccessAt": "2026-11-06T21:25:06.339Z",
+        "lastAttemptAt": "2026-11-07T21:48:57.804Z",
+        "lastSuccessAt": "2026-11-07T21:48:57.804Z",
         "message": null,
         "status": "ok"
       },
       "id": "yukizygisk",
       "installationId": 170233846,
-      "maxStableVersionCode": 10140,
-      "maxVersionCode": 10140,
+      "maxStableVersionCode": 10144,
+      "maxVersionCode": 10144,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:49fbeb4025b0653b90d9d6591c16230a25f2310aecd46d1727f2854b5dc656be",
+            "id": 722041646,
+            "name": "YukiZygisk-v0.3.0-10144-all-kmi-arm64-v8a.zip",
+            "sha256": "49fbeb4025b0653b90d9d6591c16230a25f2310aecd46d1727f2854b5dc656be",
+            "size": 3391404,
+            "url": "https://github.com/Rouyashiki/YukiZygisk/releases/download/ci-42417290425/YukiZygisk-v0.3.0-10144-all-kmi-arm64-v8a.zip"
+          },
+          "body": "Automated all-KMI module build.\n\n- Version: `v0.3.0-10144`\n- Version code: `10144`\n- Ref: `main`\n- Commit: `ca161e6e1cda8b1deecc73f583174fd452f00b5a`\n- Build: https://github.com/Rouyashiki/YukiZygisk/actions/runs/42417290425\n",
+          "htmlUrl": "https://github.com/Rouyashiki/YukiZygisk/releases/tag/ci-42417290425",
+          "immutable": true,
+          "name": "YukiZygisk v0.3.0-10144 (CI 68)",
+          "prerelease": false,
+          "prop": {
+            "author": "Anatdx",
+            "description": "Standalone kernel-level Zygisk",
+            "id": "yukizygisk",
+            "name": "YukiZygisk",
+            "updateJson": "https://ci.yukizygisk.anatdx.com/update.json",
+            "version": "v0.3.0-10144",
+            "versionCode": "10144",
+            "webuiIcon": "icon.png"
+          },
+          "publishedAt": "2026-11-07T21:48:36Z",
+          "releaseId": 437865540,
+          "tag": "ci-42417290425",
+          "tagCommit": "ca161e6e1cda8b1deecc73f583174fd452f00b5a",
+          "version": "v0.3.0-10144",
+          "versionCode": 10144
+        },
         {
           "asset": {
             "digest": "sha256:16c8ccc4ee8872c79ccb34c75ddda7989422a18a05b5be3f13598bbd68b18c1a",
@@ -9796,37 +9827,6 @@
           "tagCommit": "893f4e1b11ab39bb8595b119771e95ba7ee42d9f",
           "version": "v0.2.0-10124",
           "versionCode": 10124
-        },
-        {
-          "asset": {
-            "digest": "sha256:a847df48b348c4d71930cec112be999e706035d536b91b2bc128801e048cd8b2",
-            "id": 676865649,
-            "name": "YukiZygisk-v0.2.0-10122-all-kmi-arm64-v8a.zip",
-            "sha256": "a847df48b348c4d71930cec112be999e706035d536b91b2bc128801e048cd8b2",
-            "size": 3129773,
-            "url": "https://github.com/Rouyashiki/YukiZygisk/releases/download/ci-40263138076/YukiZygisk-v0.2.0-10122-all-kmi-arm64-v8a.zip"
-          },
-          "body": "Automated all-KMI module build.\n\n- Version: `v0.2.0-10122`\n- Version code: `10122`\n- Ref: `main`\n- Commit: `eb161f79d39bccc6a944dab710806cab44474142`\n- Build: https://github.com/Rouyashiki/YukiZygisk/actions/runs/40263138076\n",
-          "htmlUrl": "https://github.com/Rouyashiki/YukiZygisk/releases/tag/ci-40263138076",
-          "immutable": true,
-          "name": "YukiZygisk v0.2.0-10122 (CI 57)",
-          "prerelease": false,
-          "prop": {
-            "author": "Anatdx",
-            "description": "Standalone kernel-level Zygisk",
-            "id": "yukizygisk",
-            "name": "YukiZygisk",
-            "updateJson": "https://ci.yukizygisk.anatdx.com/update.json",
-            "version": "v0.2.0-10122",
-            "versionCode": "10122",
-            "webuiIcon": "icon.png"
-          },
-          "publishedAt": "2026-10-26T03:19:23Z",
-          "releaseId": 423826757,
-          "tag": "ci-40263138076",
-          "tagCommit": "eb161f79d39bccc6a944dab710806cab44474142",
-          "version": "v0.2.0-10122",
-          "versionCode": 10122
         }
       ],
       "repositoryId": 1297024368,
@@ -9978,21 +9978,25 @@
         "437063316": {
           "checkedAt": "2026-11-06T21:25:06.339Z",
           "ok": true
+        },
+        "437865540": {
+          "checkedAt": "2026-11-07T21:48:57.804Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:16c8ccc4ee8872c79ccb34c75ddda7989422a18a05b5be3f13598bbd68b18c1a",
-          "id": 718617312,
-          "name": "YukiZygisk-v0.3.0-10140-all-kmi-arm64-v8a.zip",
-          "sha256": "16c8ccc4ee8872c79ccb34c75ddda7989422a18a05b5be3f13598bbd68b18c1a",
-          "size": 3362900,
-          "url": "https://github.com/Rouyashiki/YukiZygisk/releases/download/ci-42295927561/YukiZygisk-v0.3.0-10140-all-kmi-arm64-v8a.zip"
+          "digest": "sha256:49fbeb4025b0653b90d9d6591c16230a25f2310aecd46d1727f2854b5dc656be",
+          "id": 722041646,
+          "name": "YukiZygisk-v0.3.0-10144-all-kmi-arm64-v8a.zip",
+          "sha256": "49fbeb4025b0653b90d9d6591c16230a25f2310aecd46d1727f2854b5dc656be",
+          "size": 3391404,
+          "url": "https://github.com/Rouyashiki/YukiZygisk/releases/download/ci-42417290425/YukiZygisk-v0.3.0-10144-all-kmi-arm64-v8a.zip"
         },
-        "body": "Automated all-KMI module build.\n\n- Version: `v0.3.0-10140`\n- Version code: `10140`\n- Ref: `main`\n- Commit: `508b84b02869eceb94436d9050f0267989786ed6`\n- Build: https://github.com/Rouyashiki/YukiZygisk/actions/runs/42295927561\n",
-        "htmlUrl": "https://github.com/Rouyashiki/YukiZygisk/releases/tag/ci-42295927561",
+        "body": "Automated all-KMI module build.\n\n- Version: `v0.3.0-10144`\n- Version code: `10144`\n- Ref: `main`\n- Commit: `ca161e6e1cda8b1deecc73f583174fd452f00b5a`\n- Build: https://github.com/Rouyashiki/YukiZygisk/actions/runs/42417290425\n",
+        "htmlUrl": "https://github.com/Rouyashiki/YukiZygisk/releases/tag/ci-42417290425",
         "immutable": true,
-        "name": "YukiZygisk v0.3.0-10140 (CI 67)",
+        "name": "YukiZygisk v0.3.0-10144 (CI 68)",
         "prerelease": false,
         "prop": {
           "author": "Anatdx",
@@ -10000,20 +10004,20 @@
           "id": "yukizygisk",
           "name": "YukiZygisk",
           "updateJson": "https://ci.yukizygisk.anatdx.com/update.json",
-          "version": "v0.3.0-10140",
-          "versionCode": "10140",
+          "version": "v0.3.0-10144",
+          "versionCode": "10144",
           "webuiIcon": "icon.png"
         },
-        "publishedAt": "2026-11-06T21:24:47Z",
-        "releaseId": 437063316,
-        "tag": "ci-42295927561",
-        "tagCommit": "508b84b02869eceb94436d9050f0267989786ed6",
-        "version": "v0.3.0-10140",
-        "versionCode": 10140
+        "publishedAt": "2026-11-07T21:48:36Z",
+        "releaseId": 437865540,
+        "tag": "ci-42417290425",
+        "tagCommit": "ca161e6e1cda8b1deecc73f583174fd452f00b5a",
+        "version": "v0.3.0-10144",
+        "versionCode": 10144
       },
       "stars": {
-        "count": 121,
-        "fetchedAt": "2026-11-06T21:25:06.339Z",
+        "count": 123,
+        "fetchedAt": "2026-11-07T21:48:57.804Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
