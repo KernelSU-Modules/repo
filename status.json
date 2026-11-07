@@ -631,21 +631,27 @@
       "stable": null
     },
     "falcon_integrity_fix": {
-      "contentCommit": "cac18d31877f532e5dbcd9762ed4b6450b132f0d",
+      "contentCommit": null,
       "fullName": "AHMED2111X/AHMED2111X",
-      "health": "ok",
-      "installation": "present",
+      "health": "error",
+      "installation": "missing",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": null,
+      "message": "repo-not-found: The KernelSU Modules App is not installed on the requested repository.",
       "repositoryId": 929063884,
       "request": {
-        "checkedAt": "2026-11-07T10:46:03.708Z",
-        "commit": "cac18d31877f532e5dbcd9762ed4b6450b132f0d",
-        "issues": [],
-        "latestTag": "v3.28.2",
-        "ok": true,
-        "releaseId": 437501425,
+        "checkedAt": "2026-11-07T11:08:57.809Z",
+        "commit": null,
+        "issues": [
+          {
+            "code": "repo-not-found",
+            "message": "The KernelSU Modules App is not installed on the requested repository.",
+            "severity": "error"
+          }
+        ],
+        "latestTag": null,
+        "ok": false,
+        "releaseId": null,
         "repositoryId": 929063884,
         "submissionId": "30jc26ge1l"
       },
