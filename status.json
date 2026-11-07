@@ -793,7 +793,7 @@
       }
     },
     "hypercool": {
-      "contentCommit": "e96a2c487607ff46e7985da23a29e97cb981f764",
+      "contentCommit": "c9fba59f226d185d591acbc900b863c4e5634ab7",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
@@ -802,8 +802,8 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-07T22:32:17.857Z",
-        "commit": "e96a2c487607ff46e7985da23a29e97cb981f764",
+        "checkedAt": "2026-11-07T23:48:06.664Z",
+        "commit": "c9fba59f226d185d591acbc900b863c4e5634ab7",
         "issues": [],
         "latestTag": "v2.1.1",
         "ok": true,
@@ -1223,20 +1223,20 @@
       "stable": null
     },
     "yukizygisk": {
-      "contentCommit": "509417ca93a33fa5fbe4689c7837f09c37cfbb86",
+      "contentCommit": "221c83cb16591dfd7ef0d4fc65a4dee8e0a75643",
       "fullName": "Rouyashiki/YukiZygisk",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T21:48:57.804Z",
-      "maxVersionCode": 10144,
+      "lastSuccessAt": "2026-11-07T23:48:06.664Z",
+      "maxVersionCode": 10145,
       "message": null,
       "repositoryId": 1297024368,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-07T21:48:36Z",
-        "tag": "ci-42417290425",
-        "version": "v0.3.0-10144",
-        "versionCode": 10144
+        "publishedAt": "2026-11-07T23:47:48Z",
+        "tag": "ci-42426535128",
+        "version": "v0.4.0-10145",
+        "versionCode": 10145
       }
     },
     "zygisk-sui": {
