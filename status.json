@@ -43,11 +43,11 @@
       "stable": null
     },
     "AZenith": {
-      "contentCommit": "993a78e02d3085ce019bb8357faaf3ea3796b554",
+      "contentCommit": "7112908d3ea602ffcb4cdbd3c353ee5285e58205",
       "fullName": "Liliya2727/AZenith",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-01T08:43:06.942Z",
+      "lastSuccessAt": "2026-11-07T18:54:04.945Z",
       "maxVersionCode": 2049,
       "message": null,
       "repositoryId": 937420284,
@@ -1202,16 +1202,16 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-06T07:16:50.636Z",
-      "maxVersionCode": 576,
+      "lastSuccessAt": "2026-11-07T18:54:04.945Z",
+      "maxVersionCode": 577,
       "message": null,
       "repositoryId": 1415623276,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-06T07:16:21Z",
-        "tag": "v576-3af0920",
-        "version": "v13.5.4.3 (576-3af0920-release)",
-        "versionCode": 576
+        "publishedAt": "2026-11-07T18:53:41Z",
+        "tag": "v577-c5cbf06",
+        "version": "v13.5.4.3 (577-c5cbf06-release)",
+        "versionCode": 577
       }
     },
     "zygisk_fusehide": {

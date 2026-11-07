@@ -3,14 +3,14 @@
     "AZenith": {
       "content": {
         "blobs": {
-          "README.md": "2eeffe9286ef33d370b9ee912ee6ee6096260de7",
+          "README.md": "29a322360f08c71969146af79c42236f8a2c1b41",
           "logo.jpg": "d40c33fde33b1373ccd3594e446b4c5922164f3c",
           "module.yaml": "1742bf53efd068d7a0fa529962f9c0ace0c80618"
         },
-        "commit": "993a78e02d3085ce019bb8357faaf3ea3796b554",
-        "fetchedAt": "2026-11-01T08:43:06.942Z",
+        "commit": "7112908d3ea602ffcb4cdbd3c353ee5285e58205",
+        "fetchedAt": "2026-11-07T18:54:04.945Z",
         "files": {
-          "README.md": "5098e457d2cacb7a13a75296d6709fba25a0868c268d875a520fb0c30b6a04fd",
+          "README.md": "308b74baa878d86fcef6a9e3fc64f14e23bad2404b7860c982e7e90a7aa482df",
           "logo.jpg": "1e142f7a865af89dc6c370732f40893317ba2217611611f179c00eccf360ceb7",
           "module.yaml": "1122a63b61901a7ad1d21a03108145d280b694c05a4166c43b626f2ed12935c1"
         },
@@ -20,8 +20,8 @@
       "fullName": "Liliya2727/AZenith",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-01T08:43:06.942Z",
-        "lastSuccessAt": "2026-11-01T08:43:06.942Z",
+        "lastAttemptAt": "2026-11-07T18:54:04.945Z",
+        "lastSuccessAt": "2026-11-07T18:54:04.945Z",
         "message": null,
         "status": "ok"
       },
@@ -282,8 +282,8 @@
         "versionCode": 2049
       },
       "stars": {
-        "count": 139,
-        "fetchedAt": "2026-11-07T05:44:04.828Z",
+        "count": 140,
+        "fetchedAt": "2026-11-07T18:54:04.945Z",
         "fullName": "Liliya2727/AZenith",
         "repositoryId": 937420284,
         "verified": "self"
@@ -5706,8 +5706,8 @@
         "versionCode": 10003
       },
       "stars": {
-        "count": 1,
-        "fetchedAt": "2026-11-06T05:16:41.341Z",
+        "count": 2,
+        "fetchedAt": "2026-11-07T18:54:04.945Z",
         "fullName": "kingsznhone/genshin-bootanimation",
         "repositoryId": 1443473635,
         "verified": "self"
@@ -10037,17 +10037,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-06T07:16:50.636Z",
-        "lastSuccessAt": "2026-11-06T07:16:50.636Z",
+        "lastAttemptAt": "2026-11-07T18:54:04.945Z",
+        "lastSuccessAt": "2026-11-07T18:54:04.945Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 576,
-      "maxVersionCode": 576,
+      "maxStableVersionCode": 577,
+      "maxVersionCode": 577,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:fbcc286344fdb729df42e834a7d7699356afc502e86ebdd207e83d2aca8048df",
+            "id": 721617562,
+            "name": "Sui-v13.5.4.3_577-c5cbf06-release.zip",
+            "sha256": "fbcc286344fdb729df42e834a7d7699356afc502e86ebdd207e83d2aca8048df",
+            "size": 1453631,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v577-c5cbf06/Sui-v13.5.4.3_577-c5cbf06-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (577-c5cbf06-release)`\n- **VersionCode:** `577`\n- **Commit:** [`c5cbf06`](https://github.com/XiaoTong6666/Sui/commit/c5cbf06db2bacff2d6100ba7623051a91190aee5)\n- **Build time:** `2m 31s`\n- **SHA256:** `fbcc286344fdb729df42e834a7d7699356afc502e86ebdd207e83d2aca8048df`\n\n## Message\n\n```text\nfix(legacy): Harden Sui DEX directory permissions, Meow\n\n修复旧版 Android 首次启动时 /data/system/sui 权限异常导致 system_server DEX 注入失败的问题喵\n注入前校验工作目录的属主及类型，并在权限异常时自动恢复；将共享目录收紧为 0751、oat 收紧为 0700，同时清理缓存的组与其他用户权限，补充启动脚本的失败日志喵\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v577-c5cbf06",
+          "immutable": true,
+          "name": "v13.5.4.3 (577-c5cbf06-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (577-c5cbf06-release)",
+            "versionCode": "577"
+          },
+          "publishedAt": "2026-11-07T18:53:41Z",
+          "releaseId": 437773926,
+          "tag": "v577-c5cbf06",
+          "tagCommit": "1c2c368386e6ad21d0554c81f113e7866eb46f06",
+          "version": "v13.5.4.3 (577-c5cbf06-release)",
+          "versionCode": 577
+        },
         {
           "asset": {
             "digest": "sha256:b402be4be3cb38a6b0c7310bbba2be7a08d863354ffcb78911ee44e8b636c2c4",
@@ -10317,36 +10347,6 @@
           "tagCommit": "eefd5bb2ab25eaa80c498860e82af14892a0e9ec",
           "version": "v13.5.4.3 (564-e967423-release)",
           "versionCode": 564
-        },
-        {
-          "asset": {
-            "digest": "sha256:d213e91586011f488f2f8b76142e93eb027786db638169d3529c46276dca6e13",
-            "id": 642754866,
-            "name": "Sui-v13.5.4.3_563-a82856c-release.zip",
-            "sha256": "d213e91586011f488f2f8b76142e93eb027786db638169d3529c46276dca6e13",
-            "size": 1364551,
-            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v563-a82856c/Sui-v13.5.4.3_563-a82856c-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (563-a82856c-release)`\n- **VersionCode:** `563`\n- **Commit:** [`a82856c`](https://github.com/XiaoTong6666/Sui/commit/a82856cb9ea1d858437568ac930377c9df80a854)\n- **Build time:** `1m 47s`\n- **SHA256:** `d213e91586011f488f2f8b76142e93eb027786db638169d3529c46276dca6e13`\n\n## Message\n\n```text\nperf: optimize legacy Shizuku Binder compatibility and Hide, Meow\n\n为旧版 Shizuku Binder 兼容开关增加 Native 与 Java 缓存，避免每次请求都通过同步 Binder 查询全局设置。\n\n在 Native 层提前检查兼容开关和调用方 UID，减少无关广播及 Hidden 应用进入 Java 解析流程的开销。\n\n重构权限快照同步逻辑，统一管理 Hidden、Root、Denied、Shell 和默认权限状态，并保留原有 Java 权限复核。\n\n为 Bridge 权限同步增加结果确认与失败重试，降低服务重连或同步失败导致的状态不一致风险。\n\n优化旧版 Shizuku callback 处理流程，保留正常 Binder 返回功能，并阻止 Hidden 应用获取服务 Binder。\n\n优化 BinderHook 日志计数，避免超过采样次数后仍持续执行全局原子递增。\n\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v563-a82856c",
-          "immutable": true,
-          "name": "v13.5.4.3 (563-a82856c-release)",
-          "prerelease": false,
-          "prop": {
-            "author": "Sui Contributors",
-            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
-            "id": "zygisk-sui",
-            "name": "Zygisk - Sui",
-            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-            "version": "v13.5.4.3 (563-a82856c-release)",
-            "versionCode": "563"
-          },
-          "publishedAt": "2026-10-15T05:12:39Z",
-          "releaseId": 413440055,
-          "tag": "v563-a82856c",
-          "tagCommit": "7dc65a7eae53b1228271a4b331122797dba90018",
-          "version": "v13.5.4.3 (563-a82856c-release)",
-          "versionCode": 563
         }
       ],
       "repositoryId": 1415623276,
@@ -10422,21 +10422,25 @@
         "436206764": {
           "checkedAt": "2026-11-06T07:16:50.636Z",
           "ok": true
+        },
+        "437773926": {
+          "checkedAt": "2026-11-07T18:54:04.945Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:b402be4be3cb38a6b0c7310bbba2be7a08d863354ffcb78911ee44e8b636c2c4",
-          "id": 716278539,
-          "name": "Sui-v13.5.4.3_576-3af0920-release.zip",
-          "sha256": "b402be4be3cb38a6b0c7310bbba2be7a08d863354ffcb78911ee44e8b636c2c4",
-          "size": 1452547,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v576-3af0920/Sui-v13.5.4.3_576-3af0920-release.zip"
+          "digest": "sha256:fbcc286344fdb729df42e834a7d7699356afc502e86ebdd207e83d2aca8048df",
+          "id": 721617562,
+          "name": "Sui-v13.5.4.3_577-c5cbf06-release.zip",
+          "sha256": "fbcc286344fdb729df42e834a7d7699356afc502e86ebdd207e83d2aca8048df",
+          "size": 1453631,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v577-c5cbf06/Sui-v13.5.4.3_577-c5cbf06-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (576-3af0920-release)`\n- **VersionCode:** `576`\n- **Commit:** [`3af0920`](https://github.com/XiaoTong6666/Sui/commit/3af0920efc8091ac11da9bdd0981357701c53c0b)\n- **Build time:** `4m 02s`\n- **SHA256:** `b402be4be3cb38a6b0c7310bbba2be7a08d863354ffcb78911ee44e8b636c2c4`\n\n## Message\n\n```text\nbuild(deps): bump com.diffplug.spotless from 8.10.4 to 8.11.0 (#143)\n\nBumps [com.diffplug.spotless](https://github.com/diffplug/spotless) from 8.10.4 to 8.11.0.\n- [Release notes](https://github.com/diffplug/spotless/releases)\n- [Changelog](https://github.com/diffplug/spotless/blob/main/CHANGES.md)\n- [Commits](https://github.com/diffplug/spotless/compare/gradle/8.10.4...gradle/8.11.0)\n\n---\nupdated-dependencies:\n- dependency-name: com.diffplug.spotless\n  dependency-version: 8.11.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v576-3af0920",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (577-c5cbf06-release)`\n- **VersionCode:** `577`\n- **Commit:** [`c5cbf06`](https://github.com/XiaoTong6666/Sui/commit/c5cbf06db2bacff2d6100ba7623051a91190aee5)\n- **Build time:** `2m 31s`\n- **SHA256:** `fbcc286344fdb729df42e834a7d7699356afc502e86ebdd207e83d2aca8048df`\n\n## Message\n\n```text\nfix(legacy): Harden Sui DEX directory permissions, Meow\n\n修复旧版 Android 首次启动时 /data/system/sui 权限异常导致 system_server DEX 注入失败的问题喵\n注入前校验工作目录的属主及类型，并在权限异常时自动恢复；将共享目录收紧为 0751、oat 收紧为 0700，同时清理缓存的组与其他用户权限，补充启动脚本的失败日志喵\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v577-c5cbf06",
         "immutable": true,
-        "name": "v13.5.4.3 (576-3af0920-release)",
+        "name": "v13.5.4.3 (577-c5cbf06-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -10444,15 +10448,15 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (576-3af0920-release)",
-          "versionCode": "576"
+          "version": "v13.5.4.3 (577-c5cbf06-release)",
+          "versionCode": "577"
         },
-        "publishedAt": "2026-11-06T07:16:21Z",
-        "releaseId": 436206764,
-        "tag": "v576-3af0920",
-        "tagCommit": "6576b12a70baf51f8d8950b4a8f44956115af216",
-        "version": "v13.5.4.3 (576-3af0920-release)",
-        "versionCode": 576
+        "publishedAt": "2026-11-07T18:53:41Z",
+        "releaseId": 437773926,
+        "tag": "v577-c5cbf06",
+        "tagCommit": "1c2c368386e6ad21d0554c81f113e7866eb46f06",
+        "version": "v13.5.4.3 (577-c5cbf06-release)",
+        "versionCode": 577
       },
       "stars": {
         "count": 15,
