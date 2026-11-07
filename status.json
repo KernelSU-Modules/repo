@@ -856,12 +856,12 @@
       "message": null,
       "repositoryId": 1445526027,
       "request": {
-        "checkedAt": "2026-11-07T08:33:49.281Z",
+        "checkedAt": "2026-11-07T09:15:27.886Z",
         "commit": "c72f81ca1985305f2bfa1339e409da1f30f88708",
         "issues": [],
-        "latestTag": "1.0.0",
+        "latestTag": "1.0.1",
         "ok": true,
-        "releaseId": 436435372,
+        "releaseId": 437463016,
         "repositoryId": 1445526027,
         "submissionId": "ll23w1var7"
       },
