@@ -9010,13 +9010,15 @@
     "susdock": {
       "content": {
         "blobs": {
-          "README.md": "b69d2d2f047c360c25104e00e9a5d38c92bf8bac",
+          "README.md": "46a637ca78759b7b367c930ff2d069a2e12fa887",
+          "assets/favicon.svg": "633de9345df770f3e7fee075a94abed2ff607bb1",
           "module.yaml": "3bc3aa4d8e8f0ffd22e54b637a315786297898c8"
         },
-        "commit": "6c7d73c1d8f30e7ec9361f5779e2ed8cf3c5853d",
-        "fetchedAt": "2026-11-06T05:21:30.122Z",
+        "commit": "d3a77c31b0775aaf6ae6f45b784e1464339ce101",
+        "fetchedAt": "2026-11-07T13:25:13.210Z",
         "files": {
-          "README.md": "5c2029540537b2a4f3fa83ac2b6e7894c018ea274ce357e4c5b727c232786dd9",
+          "README.md": "7cc9a4a6172bacb4c6f797de4cedc940896a60add2fee15f2d54d65202bfada5",
+          "assets/favicon.svg": "d65e6e7d804cb2924dc885f47d3f4a507b7f9cad7ca6c2f42cd3c07490a29337",
           "module.yaml": "2ce923b235f67d95edae1d8449ab4cac52ea926cffb2349f444c21abdae5b0c2"
         },
         "manifestPath": "module.yaml",
@@ -9025,8 +9027,8 @@
       "fullName": "Nixie24/susdock",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-06T09:31:18.709Z",
-        "lastSuccessAt": "2026-11-06T09:31:18.709Z",
+        "lastAttemptAt": "2026-11-07T13:25:13.210Z",
+        "lastSuccessAt": "2026-11-07T13:25:13.210Z",
         "message": null,
         "status": "ok"
       },
@@ -10867,17 +10869,47 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-07T08:33:49.281Z",
-        "lastSuccessAt": "2026-11-07T08:33:49.281Z",
+        "lastAttemptAt": "2026-11-07T13:25:13.210Z",
+        "lastSuccessAt": "2026-11-07T13:25:13.210Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 304,
-      "maxVersionCode": 304,
+      "maxStableVersionCode": 306,
+      "maxVersionCode": 306,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:4743f20dec94380377a5b85997da2e69b9a710661ee7979d77b785536ac69d20",
+            "id": 720779466,
+            "name": "ZNNext-v2.14.0-306-1aa66b8-release.zip",
+            "sha256": "4743f20dec94380377a5b85997da2e69b9a710661ee7979d77b785536ac69d20",
+            "size": 7273471,
+            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.14.0/ZNNext-v2.14.0-306-1aa66b8-release.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.13.0...v2.14.0\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.14.0",
+          "immutable": true,
+          "name": "v2.14.0",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "ZNNext",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
+            "version": "v2.14.0 (306-1aa66b8-release)",
+            "versionCode": "306"
+          },
+          "publishedAt": "2026-11-07T13:24:52Z",
+          "releaseId": 437592421,
+          "tag": "v2.14.0",
+          "tagCommit": "1aa66b8472d12532faadd1923d1beec4f46eebc5",
+          "version": "v2.14.0 (306-1aa66b8-release)",
+          "versionCode": 306
+        },
         {
           "asset": {
             "digest": "sha256:ef607c45ce196484a6aeaa8052611e5c13d6ffd92f3e5c0d6999f49fb1844ac5",
@@ -11147,36 +11179,6 @@
           "tagCommit": "301e92b48ad5ad7e28e0a4e42b35c8303424c56d",
           "version": "v2.8.0 (258-301e92b-release)",
           "versionCode": 258
-        },
-        {
-          "asset": {
-            "digest": "sha256:45c4311d3b815d0c6977e5a4208ea2f1249bc6176f82f8302457e2eab3e08ac6",
-            "id": 692404819,
-            "name": "ZNNext-v2.7.1-256-950ea9f-release.zip",
-            "sha256": "45c4311d3b815d0c6977e5a4208ea2f1249bc6176f82f8302457e2eab3e08ac6",
-            "size": 6620767,
-            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.7.1/ZNNext-v2.7.1-256-950ea9f-release.zip"
-          },
-          "body": "## What's Changed\n* fix: support 16kb page size by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/131\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.7.0...v2.7.1\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.7.1",
-          "immutable": true,
-          "name": "v2.7.1",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "ZNNext",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-            "version": "v2.7.1 (256-950ea9f-release)",
-            "versionCode": "256"
-          },
-          "publishedAt": "2026-10-30T14:42:24Z",
-          "releaseId": 429141001,
-          "tag": "v2.7.1",
-          "tagCommit": "950ea9f5e0a7718d9e623af6dbe2278a6ddde955",
-          "version": "v2.7.1 (256-950ea9f-release)",
-          "versionCode": 256
         }
       ],
       "repositoryId": 1348255159,
@@ -11418,21 +11420,25 @@
         "437442843": {
           "checkedAt": "2026-11-07T08:33:49.281Z",
           "ok": true
+        },
+        "437592421": {
+          "checkedAt": "2026-11-07T13:25:13.210Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:ef607c45ce196484a6aeaa8052611e5c13d6ffd92f3e5c0d6999f49fb1844ac5",
-          "id": 720112996,
-          "name": "ZNNext-v2.13.0-304-d2ebd23-release.zip",
-          "sha256": "ef607c45ce196484a6aeaa8052611e5c13d6ffd92f3e5c0d6999f49fb1844ac5",
-          "size": 7276254,
-          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.13.0/ZNNext-v2.13.0-304-d2ebd23-release.zip"
+          "digest": "sha256:4743f20dec94380377a5b85997da2e69b9a710661ee7979d77b785536ac69d20",
+          "id": 720779466,
+          "name": "ZNNext-v2.14.0-306-1aa66b8-release.zip",
+          "sha256": "4743f20dec94380377a5b85997da2e69b9a710661ee7979d77b785536ac69d20",
+          "size": 7273471,
+          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.14.0/ZNNext-v2.14.0-306-1aa66b8-release.zip"
         },
-        "body": "## What's Changed\n* feat(plthook): add srxhook by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/162\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.12.0...v2.13.0\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.13.0",
+        "body": "**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.13.0...v2.14.0\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.14.0",
         "immutable": true,
-        "name": "v2.13.0",
+        "name": "v2.14.0",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -11440,15 +11446,15 @@
           "id": "zygisknextsu",
           "name": "ZNNext",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-          "version": "v2.13.0 (304-d2ebd23-release)",
-          "versionCode": "304"
+          "version": "v2.14.0 (306-1aa66b8-release)",
+          "versionCode": "306"
         },
-        "publishedAt": "2026-11-07T08:33:25Z",
-        "releaseId": 437442843,
-        "tag": "v2.13.0",
-        "tagCommit": "d2ebd232911089faa5cd269dcd9d695080a15fbb",
-        "version": "v2.13.0 (304-d2ebd23-release)",
-        "versionCode": 304
+        "publishedAt": "2026-11-07T13:24:52Z",
+        "releaseId": 437592421,
+        "tag": "v2.14.0",
+        "tagCommit": "1aa66b8472d12532faadd1923d1beec4f46eebc5",
+        "version": "v2.14.0 (306-1aa66b8-release)",
+        "versionCode": 306
       },
       "stars": {
         "count": 104,

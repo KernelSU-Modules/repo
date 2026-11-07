@@ -405,7 +405,7 @@
       }
     },
     "autousb": {
-      "contentCommit": "f6a5286afce18ee79216e730208e892ee46d2dd4",
+      "contentCommit": "3a5b10c6055f3aac2b2b83bb1a659617a3872bce",
       "fullName": "Shuoh118/Auto-USB",
       "health": "ok",
       "installation": "present",
@@ -414,8 +414,8 @@
       "message": null,
       "repositoryId": 1449056776,
       "request": {
-        "checkedAt": "2026-11-07T06:43:18.208Z",
-        "commit": "f6a5286afce18ee79216e730208e892ee46d2dd4",
+        "checkedAt": "2026-11-07T13:25:13.210Z",
+        "commit": "3a5b10c6055f3aac2b2b83bb1a659617a3872bce",
         "issues": [],
         "latestTag": "1.0",
         "ok": true,
@@ -1081,11 +1081,11 @@
       "stable": null
     },
     "susdock": {
-      "contentCommit": "6c7d73c1d8f30e7ec9361f5779e2ed8cf3c5853d",
+      "contentCommit": "d3a77c31b0775aaf6ae6f45b784e1464339ce101",
       "fullName": "Nixie24/susdock",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-06T09:31:18.709Z",
+      "lastSuccessAt": "2026-11-07T13:25:13.210Z",
       "maxVersionCode": 306,
       "message": null,
       "repositoryId": 1436993054,
@@ -1110,7 +1110,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "6528c491ee5d12b9d0666c8f2d2bbe33b6eb01d7",
+      "contentCommit": "aaf5ac02bb458ad8f7830440c2a3a3b9b1f9acd4",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1119,8 +1119,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-07T10:17:26.740Z",
-        "commit": "6528c491ee5d12b9d0666c8f2d2bbe33b6eb01d7",
+        "checkedAt": "2026-11-07T13:25:13.210Z",
+        "commit": "aaf5ac02bb458ad8f7830440c2a3a3b9b1f9acd4",
         "issues": [],
         "latestTag": "v2.3.0-r18.8",
         "ok": true,
@@ -1215,16 +1215,16 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T08:33:49.281Z",
-      "maxVersionCode": 304,
+      "lastSuccessAt": "2026-11-07T13:25:13.210Z",
+      "maxVersionCode": 306,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-07T08:33:25Z",
-        "tag": "v2.13.0",
-        "version": "v2.13.0 (304-d2ebd23-release)",
-        "versionCode": 304
+        "publishedAt": "2026-11-07T13:24:52Z",
+        "tag": "v2.14.0",
+        "version": "v2.14.0 (306-1aa66b8-release)",
+        "versionCode": 306
       }
     },
     "zygisksu": {
