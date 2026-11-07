@@ -153,16 +153,16 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T08:02:20.090Z",
-      "maxVersionCode": 30052,
+      "lastSuccessAt": "2026-11-07T08:24:34.967Z",
+      "maxVersionCode": 30053,
       "message": null,
       "repositoryId": 1414095668,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-07T08:01:52Z",
-        "tag": "v3.5.2",
-        "version": "v3.5.2",
-        "versionCode": 30052
+        "publishedAt": "2026-11-07T08:24:13Z",
+        "tag": "v3.5.3",
+        "version": "v3.5.3",
+        "versionCode": 30053
       }
     },
     "Logd_Disabler_ColorOS16": {
@@ -1104,7 +1104,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "1a39932c9cc79115c13483711ca08e682546cddc",
+      "contentCommit": "e5d3674983cee82c1aa82ea31c2567f003470b62",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1113,8 +1113,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-07T08:02:20.090Z",
-        "commit": "1a39932c9cc79115c13483711ca08e682546cddc",
+        "checkedAt": "2026-11-07T08:24:34.967Z",
+        "commit": "e5d3674983cee82c1aa82ea31c2567f003470b62",
         "issues": [],
         "latestTag": "v2.3.0-r18.8",
         "ok": true,
@@ -1205,11 +1205,11 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "355c20665cfd41df9827d72cb88f586c980578b0",
+      "contentCommit": "d2ebd232911089faa5cd269dcd9d695080a15fbb",
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T06:06:02.505Z",
+      "lastSuccessAt": "2026-11-07T08:24:34.967Z",
       "maxVersionCode": 302,
       "message": null,
       "repositoryId": 1348255159,
