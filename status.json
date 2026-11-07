@@ -153,16 +153,16 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T06:16:08.328Z",
-      "maxVersionCode": 30051,
+      "lastSuccessAt": "2026-11-07T08:02:20.090Z",
+      "maxVersionCode": 30052,
       "message": null,
       "repositoryId": 1414095668,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-07T06:15:47Z",
-        "tag": "v3.5.1",
-        "version": "v3.5.1",
-        "versionCode": 30051
+        "publishedAt": "2026-11-07T08:01:52Z",
+        "tag": "v3.5.2",
+        "version": "v3.5.2",
+        "versionCode": 30052
       }
     },
     "Logd_Disabler_ColorOS16": {
@@ -1104,7 +1104,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "d96185a6db4bd74345f2de601afa9d148823fd1f",
+      "contentCommit": "1a39932c9cc79115c13483711ca08e682546cddc",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1113,8 +1113,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-06T12:01:06.080Z",
-        "commit": "d96185a6db4bd74345f2de601afa9d148823fd1f",
+        "checkedAt": "2026-11-07T08:02:20.090Z",
+        "commit": "1a39932c9cc79115c13483711ca08e682546cddc",
         "issues": [],
         "latestTag": "v2.3.0-r18.8",
         "ok": true,

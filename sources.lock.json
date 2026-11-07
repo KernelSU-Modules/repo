@@ -1393,17 +1393,47 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-07T06:16:08.328Z",
-        "lastSuccessAt": "2026-11-07T06:16:08.328Z",
+        "lastAttemptAt": "2026-11-07T08:02:20.090Z",
+        "lastSuccessAt": "2026-11-07T08:02:20.090Z",
         "message": null,
         "status": "ok"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
-      "maxStableVersionCode": 30051,
-      "maxVersionCode": 30051,
+      "maxStableVersionCode": 30052,
+      "maxVersionCode": 30052,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:707a5a116bd14977ec62830a08fe59ad7ea505a30d24f8fa6fd9dafe1f5f0bb2",
+            "id": 720046124,
+            "name": "KernelSU-Tuner-30052-v3.5.2.zip",
+            "sha256": "707a5a116bd14977ec62830a08fe59ad7ea505a30d24f8fa6fd9dafe1f5f0bb2",
+            "size": 104021,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.2/KernelSU-Tuner-30052-v3.5.2.zip"
+          },
+          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nConfig writes are atomic now. Four scripts still used `sed -i` followed by an append, which leaves a half-written `config.conf` if the write is interrupted. They all go through a temp file and a rename now.\n\nUser input reaching the shell is escaped. The custom parameter, backup import, preset name and per-app fields used to be wrapped in bare single quotes, so a value containing a quote broke the command. Input is escaped properly now.\n\n`tuner.sh` and `cfg.sh` shared the same lock directory, so running both could stall one for up to 150 seconds. `cfg.sh` uses its own lock now.\n\nversionCode 30052.",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.2",
+          "immutable": true,
+          "name": "v3.5.2",
+          "prerelease": false,
+          "prop": {
+            "author": "ylh440104",
+            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+            "version": "v3.5.2",
+            "versionCode": "30052"
+          },
+          "publishedAt": "2026-11-07T08:01:52Z",
+          "releaseId": 437428310,
+          "tag": "v3.5.2",
+          "tagCommit": "5da016a35a1501ef5f8000d99440e497d586dd4d",
+          "version": "v3.5.2",
+          "versionCode": 30052
+        },
         {
           "asset": {
             "digest": "sha256:976a5e794e2abafaa3af1d09421b8233327e1c9916588cdb5c2b38c446327923",
@@ -1723,21 +1753,25 @@
         "437382257": {
           "checkedAt": "2026-11-07T06:16:08.328Z",
           "ok": true
+        },
+        "437428310": {
+          "checkedAt": "2026-11-07T08:02:20.090Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:976a5e794e2abafaa3af1d09421b8233327e1c9916588cdb5c2b38c446327923",
-          "id": 719821566,
-          "name": "KernelSU-Tuner-30051-v3.5.1.zip",
-          "sha256": "976a5e794e2abafaa3af1d09421b8233327e1c9916588cdb5c2b38c446327923",
-          "size": 103259,
-          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.1/KernelSU-Tuner-30051-v3.5.1.zip"
+          "digest": "sha256:707a5a116bd14977ec62830a08fe59ad7ea505a30d24f8fa6fd9dafe1f5f0bb2",
+          "id": 720046124,
+          "name": "KernelSU-Tuner-30052-v3.5.2.zip",
+          "sha256": "707a5a116bd14977ec62830a08fe59ad7ea505a30d24f8fa6fd9dafe1f5f0bb2",
+          "size": 104021,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.2/KernelSU-Tuner-30052-v3.5.2.zip"
         },
-        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nFour of the daemons could not actually be turned off. `autopilot`, `guard`, `appwatch` and `wipeshield` all started unconditionally when asked, and the watchdog asks every five minutes. So turning one off in the WebUI lasted until the next watchdog pass. Each one now checks its own switch first and refuses to start when it is disabled.\n\nThe watchdog also looked for `wipeshield.pid` while the script writes `shield.pid`, so it never saw the wipe guard as running. That is mapped now.\n\nThe language button stored your choice but nothing ever read it back. Both interfaces now check it on load, so picking English actually sticks.\n\nThe released zip was missing `module.yaml`, the icons, both READMEs, the license and the changelog. That was true of every release since 3.1.0. It now contains the full tree, which also means the GPL text ships with the binary.\n\nversionCode 30051.",
-        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.1",
+        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nConfig writes are atomic now. Four scripts still used `sed -i` followed by an append, which leaves a half-written `config.conf` if the write is interrupted. They all go through a temp file and a rename now.\n\nUser input reaching the shell is escaped. The custom parameter, backup import, preset name and per-app fields used to be wrapped in bare single quotes, so a value containing a quote broke the command. Input is escaped properly now.\n\n`tuner.sh` and `cfg.sh` shared the same lock directory, so running both could stall one for up to 150 seconds. `cfg.sh` uses its own lock now.\n\nversionCode 30052.",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.2",
         "immutable": true,
-        "name": "v3.5.1",
+        "name": "v3.5.2",
         "prerelease": false,
         "prop": {
           "author": "ylh440104",
@@ -1745,15 +1779,15 @@
           "id": "KernelSU-Tuner",
           "name": "KernelSU Tuner",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-          "version": "v3.5.1",
-          "versionCode": "30051"
+          "version": "v3.5.2",
+          "versionCode": "30052"
         },
-        "publishedAt": "2026-11-07T06:15:47Z",
-        "releaseId": 437382257,
-        "tag": "v3.5.1",
-        "tagCommit": "fcd7135fe2c78c99050a837b32ac298dcc4cd724",
-        "version": "v3.5.1",
-        "versionCode": 30051
+        "publishedAt": "2026-11-07T08:01:52Z",
+        "releaseId": 437428310,
+        "tag": "v3.5.2",
+        "tagCommit": "5da016a35a1501ef5f8000d99440e497d586dd4d",
+        "version": "v3.5.2",
+        "versionCode": 30052
       },
       "stars": {
         "count": 18,
@@ -7776,8 +7810,8 @@
         "versionCode": 605
       },
       "stars": {
-        "count": 632,
-        "fetchedAt": "2026-11-06T07:16:50.636Z",
+        "count": 638,
+        "fetchedAt": "2026-11-07T08:02:20.090Z",
         "fullName": "maxsteeel/nomount",
         "repositoryId": 1128821046,
         "verified": "self"
@@ -8673,8 +8707,8 @@
         "versionCode": 110400502
       },
       "stars": {
-        "count": 18,
-        "fetchedAt": "2026-11-03T11:31:15.437Z",
+        "count": 19,
+        "fetchedAt": "2026-11-07T08:02:20.090Z",
         "fullName": "KyuubiRan/Shellscaled",
         "repositoryId": 1435874117,
         "verified": "self"
