@@ -98,20 +98,20 @@
       }
     },
     "CRecordEvolution": {
-      "contentCommit": "350d11794d03ef2d37fb4a11c120d2cbb6cfed31",
+      "contentCommit": "ace9acc78904c4d12e83c13da3dcb0706397604d",
       "fullName": "f1owkang/CRecordEvolution",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-06T16:51:42.874Z",
-      "maxVersionCode": 36,
+      "lastSuccessAt": "2026-11-07T03:24:54.813Z",
+      "maxVersionCode": 37,
       "message": null,
       "repositoryId": 678049636,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-30T13:11:36Z",
-        "tag": "v1.3.7",
-        "version": "1.3.7",
-        "versionCode": 36
+        "publishedAt": "2026-11-07T03:24:36Z",
+        "tag": "v1.3.8",
+        "version": "1.3.8",
+        "versionCode": 37
       }
     },
     "CertBridge": {
@@ -187,11 +187,11 @@
       "stable": null
     },
     "MagicNet": {
-      "contentCommit": "c9a632341928a6d2d03a60709f075ee2abf62105",
+      "contentCommit": "09b79d322127e58ba09db614c02382c5c9b83380",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T03:18:19.086Z",
+      "lastSuccessAt": "2026-11-07T03:24:54.813Z",
       "maxVersionCode": 10612,
       "message": null,
       "repositoryId": 998453022,

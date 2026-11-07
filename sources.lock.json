@@ -690,26 +690,26 @@
     "CRecordEvolution": {
       "content": {
         "blobs": {
-          ".github/images/history-zh.png": "e541a41d98220ed2c7ecc4c9fafcf8cfaef96362",
+          ".github/images/history-zh.png": "a329271da01ebd34ddfd8407ce071bbea3c117c5",
           ".github/images/how-it-works-zh-dark.png": "972bc6e86870842b2c8212a7e60a196925b9e326",
           ".github/images/how-it-works-zh.png": "b4e35684716f1bc7464e8d5888fcb00d4f803f46",
-          ".github/images/overview-zh.png": "fa74b205c5e8a47ba456c905edbf3b03aef22c64",
-          ".github/images/settings-zh.png": "f01b1833c2dd75d375b7d46b044c718418f0222d",
-          ".github/images/trends-zh.png": "e53d03d8cebee9306cc48dd95e44e2ab8bf5dc75",
-          "README.md": "18e15195a31b752bc984870844fdc8b765318758",
+          ".github/images/overview-zh.png": "ad04d3d42ce33269b8c801e353146f1a705b516c",
+          ".github/images/settings-zh.png": "3d312b722b0c0d4a6708c05e66117351b635797b",
+          ".github/images/trends-zh.png": "24277eaa783f3e881258ad512f033385c4d37c86",
+          "README.md": "c5776e08c3cdc8c3ea951f2cf0e7a2d205237a3e",
           "assets/icon.png": "5dc474bb718300203dce63f6f647c0d98cc4a3b6",
           "module.yaml": "99b94b13495317433d7c9f9ad9ddad25fddc4d96"
         },
-        "commit": "350d11794d03ef2d37fb4a11c120d2cbb6cfed31",
-        "fetchedAt": "2026-11-06T16:51:42.874Z",
+        "commit": "ace9acc78904c4d12e83c13da3dcb0706397604d",
+        "fetchedAt": "2026-11-07T03:24:54.813Z",
         "files": {
-          ".github/images/history-zh.png": "d46eb582599968a1800de7e2298c331d5579b08cc9e5dd79acb0fa69f96d0e2a",
+          ".github/images/history-zh.png": "1bf83b7840c77a612a277399c5931afe704ebc121b87ed147bc5c4135c8aa248",
           ".github/images/how-it-works-zh-dark.png": "862e702a5136b0dba280b6863be3addbe8b5900ce2d6dd91546c68fd9caa3fae",
           ".github/images/how-it-works-zh.png": "0b1529af59be7c4d04d29159f635c09b45b16560044cbcb93347736e9984c288",
-          ".github/images/overview-zh.png": "f6012c245bf1834565129899c5c48147660d6d3ce7913fa45bb088f385edb3cf",
-          ".github/images/settings-zh.png": "06faefa6ec0d9319185e6ca44e2957a1b2b7d6f36efad894947bdb29f4136903",
-          ".github/images/trends-zh.png": "ea6257f016d41db98c95ff6f8ef894b7ae344f3f7d2ed9265978766007e89e5e",
-          "README.md": "d837fe0fd592330d3f9733c0ee407b4ffddc3ca5dcbcc40a67f4866badf89480",
+          ".github/images/overview-zh.png": "963ce5718ee1ffef7ff95e22485ed1a4154edd62ad1afd85fc8d58132d1be1c8",
+          ".github/images/settings-zh.png": "5cff159c3718656260f647850fe026edc12993e87368137e313d848c26985493",
+          ".github/images/trends-zh.png": "e0d9eebc0b86473a83b1598aaf112cd034e8676eeded9d18db46c53c89331fc5",
+          "README.md": "bff74278556728102e617576e6f9da6b7ebbbb7a93f2f40544cb4330595586b7",
           "assets/icon.png": "ef5a7662da7b1a2debee42ebe7f5b3e2ad28e362adc958828c986c0026128f91",
           "module.yaml": "a7c04b69a0eb359161c2d57cfca9256b4cf1f86ab95ef47414444be46f3fecf1"
         },
@@ -719,17 +719,47 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-06T16:51:42.874Z",
-        "lastSuccessAt": "2026-11-06T16:51:42.874Z",
+        "lastAttemptAt": "2026-11-07T03:24:54.813Z",
+        "lastSuccessAt": "2026-11-07T03:24:54.813Z",
         "message": null,
         "status": "ok"
       },
       "id": "CRecordEvolution",
       "installationId": 170323968,
-      "maxStableVersionCode": 36,
-      "maxVersionCode": 36,
+      "maxStableVersionCode": 37,
+      "maxVersionCode": 37,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:fb4ed1326c9c670a032621ce2e10af2552d48743e0e76a3a88e0cee6e82c96f7",
+            "id": 719465231,
+            "name": "CRecordEvolution-37-1.3.8.zip",
+            "sha256": "fb4ed1326c9c670a032621ce2e10af2552d48743e0e76a3a88e0cee6e82c96f7",
+            "size": 3135517,
+            "url": "https://github.com/f1owkang/CRecordEvolution/releases/download/v1.3.8/CRecordEvolution-37-1.3.8.zip"
+          },
+          "body": "- chore: 发布 1.3.8(37)\n- docs: 同步实时数据、历史页与元数据约定\n- add: README 截图脚本与重新生成的界面截图\n- ci: 新增元数据守卫并过滤自动化提交\n- docs: 清理代码注释中的实测与过程叙事\n- feat(webui): 概览充电实时卡、历史页状态与无障碍修整\n- feat(battery): 概览实时数据与守护进程心跳\n- docs: 同步两行状态卡约定、README 与模块初始描述\n- feat(battery): 模块描述改两行状态卡并按宽度自适应\n- fix(calib): charge_counter 单位归一，修复 mAh 机型估算始终 learning\n- docs: 统一项目叫法并压缩 AGENTS.md\n\n`CRecordEvolution_ML-37-1.3.8.zip` 为实验通道（在线学习算法），手动刷入，不提供应用内更新。\n",
+          "htmlUrl": "https://github.com/f1owkang/CRecordEvolution/releases/tag/v1.3.8",
+          "immutable": true,
+          "name": "ChargingRecord Evolution v1.3.8",
+          "prerelease": false,
+          "prop": {
+            "author": "f1owkang、hcnk3HrzQe",
+            "description": "电池健康与容量实时写入模块描述｜Battery health & capacity live in the module description",
+            "id": "CRecordEvolution",
+            "name": "ChargingRecord Evolution",
+            "updateJson": "https://raw.githubusercontent.com/f1owkang/CRecordEvolution/main/update.json",
+            "version": "1.3.8",
+            "versionCode": "37"
+          },
+          "publishedAt": "2026-11-07T03:24:36Z",
+          "releaseId": 437295934,
+          "tag": "v1.3.8",
+          "tagCommit": "2d93e6a6aed805d2392fd02680a5117cb15c4940",
+          "version": "1.3.8",
+          "versionCode": 37
+        },
         {
           "asset": {
             "digest": "sha256:2656dbf881c9658bc0e791ee57af23c4a46aac50025be2470e6d7a4bd012b1cc",
@@ -906,37 +936,41 @@
           "code": "version-not-newer",
           "message": "versionCode 36 is already used by the release v1.3.7. Publish a new release with a versionCode above 36.",
           "ok": false
+        },
+        "437295934": {
+          "checkedAt": "2026-11-07T03:24:54.813Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:2656dbf881c9658bc0e791ee57af23c4a46aac50025be2470e6d7a4bd012b1cc",
-          "id": 692166595,
-          "name": "CRecordEvolution-36-1.3.7.zip",
-          "sha256": "2656dbf881c9658bc0e791ee57af23c4a46aac50025be2470e6d7a4bd012b1cc",
-          "size": 3098213,
-          "url": "https://github.com/f1owkang/CRecordEvolution/releases/download/v1.3.7/CRecordEvolution-36-1.3.7.zip"
+          "digest": "sha256:fb4ed1326c9c670a032621ce2e10af2552d48743e0e76a3a88e0cee6e82c96f7",
+          "id": 719465231,
+          "name": "CRecordEvolution-37-1.3.8.zip",
+          "sha256": "fb4ed1326c9c670a032621ce2e10af2552d48743e0e76a3a88e0cee6e82c96f7",
+          "size": 3135517,
+          "url": "https://github.com/f1owkang/CRecordEvolution/releases/download/v1.3.8/CRecordEvolution-37-1.3.8.zip"
         },
-        "body": "- chore(git): .release-baseline 固定 LF\n- chore: 发布 1.3.7(36)\n- feat(webui): 概览温度行与趋势图点按读数，修正高亮圈裁切和双重分割线\n- feat(battery): 校准会话回填样本与 ICA 基准，互检口径加时效\n- fix(release): 更新日志基线改用 .release-baseline 并在发版后回写\n- docs: 同步校准重算、安装器排版与趋势图约定\n- fix(ui): 概览估算趋势图与趋势拟合共用窗口\n- fix(installer): 语言选择改为中英双语分行\n- fix(calib): 学到刻度时重算本会话积分与倍率\n- docs: 精简 README 并同步校准/安装器说明\n- fix(installer): 语言选择步固定中英双语输出\n- fix(calib): 放宽电流刻度吸附容差并记录异常比值\n- fix(stats): 会话总数与 SOC 区间语义\n- ci(actions): 升级到 Node 24 运行时的 action 版本\n- chore(issue): 精简反馈模板字段\n- chore(issue): 添加问题反馈与功能建议模板\n- docs: 同步校准、诊断与安装说明\n- fix(installer): 精简安装交互并修复按键抬起误触发\n- feat(webui): 设置页诊断复制与关于页改版\n- feat(battery): 自校准电流刻度并新增脱敏诊断\n- refactor(webui): 修复轮询去重并拆解百行函数\n- refactor(go): 泛型化 SQL 扫描并拆解超长函数\n- refactor(webui): 抽取数与偏好 hook 并拆分概览\n- refactor(webui): 组件改为 JSX 并拆分历史页\n- chore(tooling): 引入 Prettier 与格式化/CI 守卫\n- refactor(go): 统一微单位命名并补充 Go CI\n- feat(webui): 迁移到 Preact + Vite 构建\n- docs: 补充 WebUI 截图与工作原理流程图\n- design: 重绘为亮色电池健康脉冲图标\n- add: update.json 更新至 v1.3.6\n\n`CRecordEvolution_ML-36-1.3.7.zip` 为实验通道（在线学习算法），手动刷入，不提供应用内更新。\n",
-        "htmlUrl": "https://github.com/f1owkang/CRecordEvolution/releases/tag/v1.3.7",
+        "body": "- chore: 发布 1.3.8(37)\n- docs: 同步实时数据、历史页与元数据约定\n- add: README 截图脚本与重新生成的界面截图\n- ci: 新增元数据守卫并过滤自动化提交\n- docs: 清理代码注释中的实测与过程叙事\n- feat(webui): 概览充电实时卡、历史页状态与无障碍修整\n- feat(battery): 概览实时数据与守护进程心跳\n- docs: 同步两行状态卡约定、README 与模块初始描述\n- feat(battery): 模块描述改两行状态卡并按宽度自适应\n- fix(calib): charge_counter 单位归一，修复 mAh 机型估算始终 learning\n- docs: 统一项目叫法并压缩 AGENTS.md\n\n`CRecordEvolution_ML-37-1.3.8.zip` 为实验通道（在线学习算法），手动刷入，不提供应用内更新。\n",
+        "htmlUrl": "https://github.com/f1owkang/CRecordEvolution/releases/tag/v1.3.8",
         "immutable": true,
-        "name": "ChargingRecord Evolution v1.3.7",
+        "name": "ChargingRecord Evolution v1.3.8",
         "prerelease": false,
         "prop": {
           "author": "f1owkang、hcnk3HrzQe",
-          "description": "在管理器描述里实时显示电池健康度与容量，内置 WebUI 估算曲线 | Real-time battery health and capacity in the manager's module description, with a built-in WebUI",
+          "description": "电池健康与容量实时写入模块描述｜Battery health & capacity live in the module description",
           "id": "CRecordEvolution",
           "name": "ChargingRecord Evolution",
           "updateJson": "https://raw.githubusercontent.com/f1owkang/CRecordEvolution/main/update.json",
-          "version": "1.3.7",
-          "versionCode": "36"
+          "version": "1.3.8",
+          "versionCode": "37"
         },
-        "publishedAt": "2026-10-30T13:11:36Z",
-        "releaseId": 429049450,
-        "tag": "v1.3.7",
-        "tagCommit": "34fc541aaa02bd578f11a02ad7f5b28db6bc2825",
-        "version": "1.3.7",
-        "versionCode": 36
+        "publishedAt": "2026-11-07T03:24:36Z",
+        "releaseId": 437295934,
+        "tag": "v1.3.8",
+        "tagCommit": "2d93e6a6aed805d2392fd02680a5117cb15c4940",
+        "version": "1.3.8",
+        "versionCode": 37
       },
       "stars": {
         "count": 18,
@@ -1664,14 +1698,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "43a2b645fb857b164468f9b82daef79fd777e6c7",
+          "README.md": "7cff245249977fd130c96e056cf91727daf27ddf",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "c9a632341928a6d2d03a60709f075ee2abf62105",
-        "fetchedAt": "2026-11-07T03:18:19.086Z",
+        "commit": "09b79d322127e58ba09db614c02382c5c9b83380",
+        "fetchedAt": "2026-11-07T03:24:54.813Z",
         "files": {
-          "README.md": "5eb689e970af718ef41849a9f8c2ca1bb98498ee39a962a06c50b50d72090235",
+          "README.md": "7130125d36818f80821a2ad32094b377e1cbcfc9db3a7207018a06520665fbaa",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -1681,8 +1715,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-07T03:18:19.086Z",
-        "lastSuccessAt": "2026-11-07T03:18:19.086Z",
+        "lastAttemptAt": "2026-11-07T03:24:54.813Z",
+        "lastSuccessAt": "2026-11-07T03:24:54.813Z",
         "message": null,
         "status": "ok"
       },
@@ -10655,8 +10689,8 @@
         "versionCode": 202
       },
       "stars": {
-        "count": 24,
-        "fetchedAt": "2026-11-06T03:18:19.676Z",
+        "count": 23,
+        "fetchedAt": "2026-11-07T03:24:54.813Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
