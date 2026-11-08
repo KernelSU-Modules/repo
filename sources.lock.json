@@ -10972,17 +10972,47 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-08T08:19:11.777Z",
+        "lastAttemptAt": "2026-11-08T08:33:07.201Z",
         "lastSuccessAt": "2026-11-07T16:57:07.890Z",
         "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"master\" (manifest-schema)",
         "status": "stale"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 369,
-      "maxVersionCode": 369,
+      "maxStableVersionCode": 371,
+      "maxVersionCode": 371,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:0915c496189e2130b4cbd754f3de0cefc5b35a74951115d0e0610ce8b89f2534",
+            "id": 723382377,
+            "name": "ZNNext-v2.16.0-371-52b358c-release.zip",
+            "sha256": "0915c496189e2130b4cbd754f3de0cefc5b35a74951115d0e0610ce8b89f2534",
+            "size": 9881610,
+            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.16.0/ZNNext-v2.16.0-371-52b358c-release.zip"
+          },
+          "body": "## What's Changed\n* feat: add armeabi, mips, mips64 support by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/164\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.15.0...v2.16.0\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.16.0",
+          "immutable": true,
+          "name": "v2.16.0",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "ZNNext",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
+            "version": "v2.16.0 (371-52b358c-release)",
+            "versionCode": "371"
+          },
+          "publishedAt": "2026-11-08T08:32:49Z",
+          "releaseId": 438125342,
+          "tag": "v2.16.0",
+          "tagCommit": "52b358c6a9de6b2f32aa848a95121ae61c624c3b",
+          "version": "v2.16.0 (371-52b358c-release)",
+          "versionCode": 371
+        },
         {
           "asset": {
             "digest": "sha256:feac435a1ea6a6710f4c7199127e0ae30e18534eb8c52928f6d3b733d67dec06",
@@ -11252,36 +11282,6 @@
           "tagCommit": "97c893fc15edc52ed63c6e1ac7adf18e80735d96",
           "version": "v2.10.0 (269-97c893f-release)",
           "versionCode": 269
-        },
-        {
-          "asset": {
-            "digest": "sha256:dc1aab1f606b9168245c98c94baa8c47283bf2507c715f0869d03b661d609dab",
-            "id": 694781262,
-            "name": "ZNNext-v2.9.0-262-33d6a1e-release.zip",
-            "sha256": "dc1aab1f606b9168245c98c94baa8c47283bf2507c715f0869d03b661d609dab",
-            "size": 6646811,
-            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.9.0/ZNNext-v2.9.0-262-33d6a1e-release.zip"
-          },
-          "body": "**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.8.1...v2.9.0\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.9.0",
-          "immutable": true,
-          "name": "v2.9.0",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "ZNNext",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-            "version": "v2.9.0 (262-33d6a1e-release)",
-            "versionCode": "262"
-          },
-          "publishedAt": "2026-10-31T08:04:59Z",
-          "releaseId": 429801732,
-          "tag": "v2.9.0",
-          "tagCommit": "33d6a1e7bbd20d10e5c06a68fb9090a171904a09",
-          "version": "v2.9.0 (262-33d6a1e-release)",
-          "versionCode": 262
         }
       ],
       "repositoryId": 1348255159,
@@ -11535,21 +11535,25 @@
         "437709122": {
           "checkedAt": "2026-11-07T16:57:07.890Z",
           "ok": true
+        },
+        "438125342": {
+          "checkedAt": "2026-11-08T08:33:07.201Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:feac435a1ea6a6710f4c7199127e0ae30e18534eb8c52928f6d3b733d67dec06",
-          "id": 721315428,
-          "name": "ZNNext-v2.15.0-369-7cee6dd-release.zip",
-          "sha256": "feac435a1ea6a6710f4c7199127e0ae30e18534eb8c52928f6d3b733d67dec06",
-          "size": 7426684,
-          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.15.0/ZNNext-v2.15.0-369-7cee6dd-release.zip"
+          "digest": "sha256:0915c496189e2130b4cbd754f3de0cefc5b35a74951115d0e0610ce8b89f2534",
+          "id": 723382377,
+          "name": "ZNNext-v2.16.0-371-52b358c-release.zip",
+          "sha256": "0915c496189e2130b4cbd754f3de0cefc5b35a74951115d0e0610ce8b89f2534",
+          "size": 9881610,
+          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.16.0/ZNNext-v2.16.0-371-52b358c-release.zip"
         },
-        "body": "## What's Changed\n* feat(debugdata): add libarchive by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/163\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.14.1...v2.15.0\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.15.0",
+        "body": "## What's Changed\n* feat: add armeabi, mips, mips64 support by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/164\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.15.0...v2.16.0\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.16.0",
         "immutable": true,
-        "name": "v2.15.0",
+        "name": "v2.16.0",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -11557,15 +11561,15 @@
           "id": "zygisknextsu",
           "name": "ZNNext",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-          "version": "v2.15.0 (369-7cee6dd-release)",
-          "versionCode": "369"
+          "version": "v2.16.0 (371-52b358c-release)",
+          "versionCode": "371"
         },
-        "publishedAt": "2026-11-07T16:56:40Z",
-        "releaseId": 437709122,
-        "tag": "v2.15.0",
-        "tagCommit": "7cee6dd32f86a36dcaa7f488c51780df37059a52",
-        "version": "v2.15.0 (369-7cee6dd-release)",
-        "versionCode": 369
+        "publishedAt": "2026-11-08T08:32:49Z",
+        "releaseId": 438125342,
+        "tag": "v2.16.0",
+        "tagCommit": "52b358c6a9de6b2f32aa848a95121ae61c624c3b",
+        "version": "v2.16.0 (371-52b358c-release)",
+        "versionCode": 371
       },
       "stars": {
         "count": 105,

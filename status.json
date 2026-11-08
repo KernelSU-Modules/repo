@@ -1300,15 +1300,15 @@
       "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-07T16:57:07.890Z",
-      "maxVersionCode": 369,
+      "maxVersionCode": 371,
       "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"master\" (manifest-schema)",
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-07T16:56:40Z",
-        "tag": "v2.15.0",
-        "version": "v2.15.0 (369-7cee6dd-release)",
-        "versionCode": 369
+        "publishedAt": "2026-11-08T08:32:49Z",
+        "tag": "v2.16.0",
+        "version": "v2.16.0 (371-52b358c-release)",
+        "versionCode": 371
       }
     },
     "zygisksu": {
