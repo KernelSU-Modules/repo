@@ -1203,12 +1203,12 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-08T16:24:02.857Z",
+        "checkedAt": "2026-11-08T16:28:07.392Z",
         "commit": "8619b6ee0d0629836e9c6ce668e8a785dfd53517",
         "issues": [],
-        "latestTag": "v2.3.0-r18.8",
+        "latestTag": "v2.3.0-r18.9-1",
         "ok": true,
-        "releaseId": 431062873,
+        "releaseId": 438367051,
         "repositoryId": 1361441529,
         "submissionId": "dtus6of4l6"
       },
