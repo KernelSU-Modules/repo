@@ -309,17 +309,50 @@
       "fullName": "AlirezaParsi/COPG",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-05T10:51:09.821Z",
-        "lastSuccessAt": "2026-11-05T10:51:09.821Z",
+        "lastAttemptAt": "2026-11-08T08:19:11.777Z",
+        "lastSuccessAt": "2026-11-08T08:19:11.777Z",
         "message": null,
         "status": "ok"
       },
       "id": "COPG",
       "installationId": 174213522,
-      "maxStableVersionCode": 770,
-      "maxVersionCode": 770,
+      "maxStableVersionCode": 771,
+      "maxVersionCode": 771,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:a4d7b81ab775c6111b0098bcf895432fbb6eefe961d17799c8cc9d244b4aff84",
+            "id": 723349125,
+            "name": "COPG-v7.7.1.zip",
+            "sha256": "a4d7b81ab775c6111b0098bcf895432fbb6eefe961d17799c8cc9d244b4aff84",
+            "size": 10550305,
+            "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.7.1/COPG-v7.7.1.zip"
+          },
+          "body": "## COPG v7.7.1\n\n*Works on Zygisk Next 1.5.3 again, your config survives updates, and a few device-profile and WebUI additions.*\n\n### Zygisk Next 1.5.3 — fixed\n*   **COPG spoofed nothing on Zygisk Next 1.5.3.** The new Zygisk Next stopped granting a permission COPG used to read its own config, so every app looked \"not configured\" and ran unspoofed (the license still showed valid). COPG now ships that permission itself, so it works on 1.5.3 and older versions alike.\n\n### Updates keep your setup\n*   **Updating no longer wipes your config.** Every update used to replace your devices, packages and tags with the defaults. Now your existing COPG.json and list.json are kept, and the install screen says so. A missing or broken file still falls back to the default.\n\n### Device profile\n*   **Custom system props editor.** In a device's advanced section you can now fake any short existing system prop (for example `ril.product_code`, `ril.official_cscver`, `ro.omc.build.version`) for apps with COW Prop Spoof (`cow`) on.\n*   **Base OS field.** New build field for `Build.VERSION.BASE_OS` (and the matching prop for `cow` apps).\n*   **Separate Product field.** Product was silently overwritten with the model on every save, so a real product name (e.g. `e3qxxx` vs model `SM-S928B`) could never be set. It's its own field now; left blank it falls back to the fingerprint's product, then the model.\n\n### WebUI\n*   **Edit several packages together.** Long-press to select packages, then **Edit together**: change only the toggles you want (device, GPU, `cow`, `aid`, …) and they apply to every selected app, leaving each app's other settings as they were. Handy for clones and per-user copies.\n\n---\n---\n**Build Date**: 2026-11-08 08:18:44 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
+          "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.7.1",
+          "immutable": true,
+          "name": "COPG v7.7.1",
+          "prerelease": false,
+          "prop": {
+            "author": "AlirezaParsi",
+            "banner": "banner.png",
+            "description": "Spoof your device for games/apps to unlock new features. Website: https://vendors.copg.my",
+            "id": "COPG",
+            "minMagisk": "20.4",
+            "name": "✨ COPG SPOOF ✨",
+            "support": "https://t.me/theaosp",
+            "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
+            "version": "7.7.1",
+            "versionCode": "771"
+          },
+          "publishedAt": "2026-11-08T08:18:47Z",
+          "releaseId": 438119051,
+          "tag": "v7.7.1",
+          "tagCommit": "4dfa03ac14dfdbcd71e589ccf723c2c30c9f604a",
+          "version": "7.7.1",
+          "versionCode": 771
+        },
         {
           "asset": {
             "digest": "sha256:9207fa681edcf94502f1170349a9c0b322398c406530f94f1b28bd65184150cd",
@@ -644,21 +677,25 @@
         "435078012": {
           "checkedAt": "2026-11-05T10:51:09.821Z",
           "ok": true
+        },
+        "438119051": {
+          "checkedAt": "2026-11-08T08:19:11.777Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:9207fa681edcf94502f1170349a9c0b322398c406530f94f1b28bd65184150cd",
-          "id": 713061528,
-          "name": "COPG-v7.7.0.zip",
-          "sha256": "9207fa681edcf94502f1170349a9c0b322398c406530f94f1b28bd65184150cd",
-          "size": 10546613,
-          "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.7.0/COPG-v7.7.0.zip"
+          "digest": "sha256:a4d7b81ab775c6111b0098bcf895432fbb6eefe961d17799c8cc9d244b4aff84",
+          "id": 723349125,
+          "name": "COPG-v7.7.1.zip",
+          "sha256": "a4d7b81ab775c6111b0098bcf895432fbb6eefe961d17799c8cc9d244b4aff84",
+          "size": 10550305,
+          "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.7.1/COPG-v7.7.1.zip"
         },
-        "body": "## COPG v7.7.0\n\n*Three new per-app spoofs — Wi-Fi MAC, Bluetooth MAC and boot id — plus SKU build fields, and the GPU spoof unlocks a game's high-graphics options again.*\n\n### Wi-Fi MAC — new\n*   **Fake the Wi-Fi MAC per app (`mac`).** An app now reads a MAC you control instead of the phone's real one: `mac` for a steady fake, `mac=rnd` for a fresh one each launch, or `mac=<12 hex>` to set an exact address. **PRO.** Resident and behind the use-at-your-own-risk gate — never for competitive games.\n\n### Bluetooth MAC — new\n*   **Fake the Bluetooth MAC per app (`btmac`).** The same three forms — `btmac`, `btmac=rnd`, `btmac=<12 hex>` — for the Bluetooth address a device check can read. **PRO**, stealth (nothing stays mapped after it applies).\n\n### Boot ID — new\n*   **Per-app boot id (`bootid`).** Each app gets its own boot id, so a value that's meant to be the same for every app since the last reboot no longer links your accounts together. **PRO**, behind the use-at-your-own-risk gate.\n\n### SKU — new\n*   **SKU and ODM SKU added to the device profile.** Two more build fields you can set per device, so an app that reads the device SKU (for example the SKU row in DevCheck) sees the spoofed phone instead of your real one.\n\n### GPU spoof — unlocks high graphics again\n*   **Games that gate max FPS / HD on a flagship GPU unlock it on the spoofed profile.** The GPU spoof now reaches the exact GPU read those games use to decide which graphics options to offer, so the high-end presets open up again. *(Still resident/detectable and behind the use-at-your-own-risk gate — never for competitive games.)*\n*   **Monster Hunter Outlanders added to the device list**, ready-made with a flagship GPU so its high-graphics options unlock out of the box (both the Global and TW/HK/MO builds). **Needs PRO** — it uses the GPU spoof.\n\n### Other fixes\n*   **Hide dev-options / USB-debugging — stronger.** Now also hides it from apps that read the setting straight from the system instead of the normal lookup (a path a few detectors like Momo use), so the app still sees it off.\n*   **System-server spoofs — lower battery & CPU use.** They now wake only when you actually change a setting, instead of re-reading the config a few times a second around the clock — so they use noticeably less CPU and battery while idle, and a toggle still applies instantly.\n*   **GPU Vulkan stability** — fixed a crash at launch on some devices when the GPU spoof was on.\n*   **Resident hooks leave a cleaner footprint** — the inline hooks no longer leave a writable-and-executable page mapped, a pattern some scanners flag as tampering. More hardening here is still in progress.\n*   **Locale spoof** — no longer affects system processes (issue #80).\n*   **Root detection** — the System tab reads the *active* root manager, not a leftover binary from one you switched away from.\n*   **WebUI** — a brand filter on the Devices tab; forms no longer overflow the screen in landscape.\n*   **Translations** — all 8 community languages brought fully up to date (Arabic, German, Spanish, Indonesian, Portuguese-BR, Thai, Turkish, Chinese), including every string added or reworded since the last sync.\n\n### Heads up\n*   **32-bit phones are no longer supported** — this release is 64-bit (arm64) only. Nearly every phone from the last several years is 64-bit, so this affects only very old devices.\n\n---\n---\n**Build Date**: 2026-11-05 10:50:43 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
-        "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.7.0",
+        "body": "## COPG v7.7.1\n\n*Works on Zygisk Next 1.5.3 again, your config survives updates, and a few device-profile and WebUI additions.*\n\n### Zygisk Next 1.5.3 — fixed\n*   **COPG spoofed nothing on Zygisk Next 1.5.3.** The new Zygisk Next stopped granting a permission COPG used to read its own config, so every app looked \"not configured\" and ran unspoofed (the license still showed valid). COPG now ships that permission itself, so it works on 1.5.3 and older versions alike.\n\n### Updates keep your setup\n*   **Updating no longer wipes your config.** Every update used to replace your devices, packages and tags with the defaults. Now your existing COPG.json and list.json are kept, and the install screen says so. A missing or broken file still falls back to the default.\n\n### Device profile\n*   **Custom system props editor.** In a device's advanced section you can now fake any short existing system prop (for example `ril.product_code`, `ril.official_cscver`, `ro.omc.build.version`) for apps with COW Prop Spoof (`cow`) on.\n*   **Base OS field.** New build field for `Build.VERSION.BASE_OS` (and the matching prop for `cow` apps).\n*   **Separate Product field.** Product was silently overwritten with the model on every save, so a real product name (e.g. `e3qxxx` vs model `SM-S928B`) could never be set. It's its own field now; left blank it falls back to the fingerprint's product, then the model.\n\n### WebUI\n*   **Edit several packages together.** Long-press to select packages, then **Edit together**: change only the toggles you want (device, GPU, `cow`, `aid`, …) and they apply to every selected app, leaving each app's other settings as they were. Handy for clones and per-user copies.\n\n---\n---\n**Build Date**: 2026-11-08 08:18:44 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
+        "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.7.1",
         "immutable": true,
-        "name": "COPG v7.7.0",
+        "name": "COPG v7.7.1",
         "prerelease": false,
         "prop": {
           "author": "AlirezaParsi",
@@ -669,15 +706,15 @@
           "name": "✨ COPG SPOOF ✨",
           "support": "https://t.me/theaosp",
           "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
-          "version": "7.7.0",
-          "versionCode": "770"
+          "version": "7.7.1",
+          "versionCode": "771"
         },
-        "publishedAt": "2026-11-05T10:50:47Z",
-        "releaseId": 435078012,
-        "tag": "v7.7.0",
-        "tagCommit": "2b7889f3f864138b2d89097228e921c4c8cbeea7",
-        "version": "7.7.0",
-        "versionCode": 770
+        "publishedAt": "2026-11-08T08:18:47Z",
+        "releaseId": 438119051,
+        "tag": "v7.7.1",
+        "tagCommit": "4dfa03ac14dfdbcd71e589ccf723c2c30c9f604a",
+        "version": "7.7.1",
+        "versionCode": 771
       },
       "stars": {
         "count": 430,
@@ -7877,8 +7914,8 @@
         "versionCode": 605
       },
       "stars": {
-        "count": 638,
-        "fetchedAt": "2026-11-07T08:02:20.090Z",
+        "count": 645,
+        "fetchedAt": "2026-11-08T08:19:11.777Z",
         "fullName": "maxsteeel/nomount",
         "repositoryId": 1128821046,
         "verified": "self"
@@ -8774,8 +8811,8 @@
         "versionCode": 110400502
       },
       "stars": {
-        "count": 19,
-        "fetchedAt": "2026-11-07T08:02:20.090Z",
+        "count": 20,
+        "fetchedAt": "2026-11-08T08:19:11.777Z",
         "fullName": "KyuubiRan/Shellscaled",
         "repositoryId": 1435874117,
         "verified": "self"
@@ -10935,10 +10972,10 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-07T16:57:07.890Z",
+        "lastAttemptAt": "2026-11-08T08:19:11.777Z",
         "lastSuccessAt": "2026-11-07T16:57:07.890Z",
-        "message": null,
-        "status": "ok"
+        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"master\" (manifest-schema)",
+        "status": "stale"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,

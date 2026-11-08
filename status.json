@@ -85,16 +85,16 @@
       "fullName": "AlirezaParsi/COPG",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-05T10:51:09.821Z",
-      "maxVersionCode": 770,
+      "lastSuccessAt": "2026-11-08T08:19:11.777Z",
+      "maxVersionCode": 771,
       "message": null,
       "repositoryId": 950100740,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-05T10:50:47Z",
-        "tag": "v7.7.0",
-        "version": "7.7.0",
-        "versionCode": 770
+        "publishedAt": "2026-11-08T08:18:47Z",
+        "tag": "v7.7.1",
+        "version": "7.7.1",
+        "versionCode": 771
       }
     },
     "CRecordEvolution": {
@@ -1297,11 +1297,11 @@
     "zygisknextsu": {
       "contentCommit": "7cee6dd32f86a36dcaa7f488c51780df37059a52",
       "fullName": "VeryBaaad/ZNNext",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-07T16:57:07.890Z",
       "maxVersionCode": 369,
-      "message": null,
+      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"master\" (manifest-schema)",
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
