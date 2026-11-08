@@ -426,7 +426,7 @@
       }
     },
     "autousb": {
-      "contentCommit": "3a5b10c6055f3aac2b2b83bb1a659617a3872bce",
+      "contentCommit": "9e90ebad91610d7f772db6916d5c4b2995540825",
       "fullName": "Shuoh118/Auto-USB",
       "health": "ok",
       "installation": "present",
@@ -435,12 +435,12 @@
       "message": null,
       "repositoryId": 1449056776,
       "request": {
-        "checkedAt": "2026-11-07T13:25:13.210Z",
-        "commit": "3a5b10c6055f3aac2b2b83bb1a659617a3872bce",
+        "checkedAt": "2026-11-08T04:34:24.261Z",
+        "commit": "9e90ebad91610d7f772db6916d5c4b2995540825",
         "issues": [],
-        "latestTag": "1.0",
+        "latestTag": "1.1",
         "ok": true,
-        "releaseId": 437388580,
+        "releaseId": 438033310,
         "repositoryId": 1449056776,
         "submissionId": "u7r7vmxpsc"
       },
