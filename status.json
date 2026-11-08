@@ -1018,12 +1018,12 @@
       "message": null,
       "repositoryId": 1445900163,
       "request": {
-        "checkedAt": "2026-11-08T18:14:59.033Z",
+        "checkedAt": "2026-11-08T18:15:51.486Z",
         "commit": "0071d92c3edc7042cc8cc87ec9c4db7cdaa4aad8",
         "issues": [],
-        "latestTag": "v1.7.12",
+        "latestTag": "v1.7.11-2",
         "ok": true,
-        "releaseId": 438427508,
+        "releaseId": 436341401,
         "repositoryId": 1445900163,
         "submissionId": "ypu6zil5ez"
       },
