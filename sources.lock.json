@@ -6409,8 +6409,8 @@
         "versionCode": 20000017
       },
       "stars": {
-        "count": 12,
-        "fetchedAt": "2026-11-05T21:15:29.632Z",
+        "count": 13,
+        "fetchedAt": "2026-11-08T02:42:35.832Z",
         "fullName": "WayneShao/KernelSU-Tailscaled",
         "repositoryId": 1356946284,
         "verified": "self"
@@ -7446,8 +7446,8 @@
         "versionCode": 10412
       },
       "stars": {
-        "count": 8,
-        "fetchedAt": "2026-11-03T03:18:21.559Z",
+        "count": 9,
+        "fetchedAt": "2026-11-08T02:42:35.832Z",
         "fullName": "ahsaboy/magisk-netbird",
         "repositoryId": 1274372941,
         "verified": "self"
@@ -9507,17 +9507,48 @@
       "fullName": "Rouyashiki/YukiZygisk",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-07T23:48:06.664Z",
-        "lastSuccessAt": "2026-11-07T23:48:06.664Z",
+        "lastAttemptAt": "2026-11-08T02:42:35.832Z",
+        "lastSuccessAt": "2026-11-08T02:42:35.832Z",
         "message": null,
         "status": "ok"
       },
       "id": "yukizygisk",
       "installationId": 170233846,
-      "maxStableVersionCode": 10145,
-      "maxVersionCode": 10145,
+      "maxStableVersionCode": 10146,
+      "maxVersionCode": 10146,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:539560bfb9a9a1afc3e8ab6c868551f5cf36424406e570a25d277c4c31b6622c",
+            "id": 722668431,
+            "name": "YukiZygisk-v0.4.0-10146-all-kmi-arm64-v8a.zip",
+            "sha256": "539560bfb9a9a1afc3e8ab6c868551f5cf36424406e570a25d277c4c31b6622c",
+            "size": 3392351,
+            "url": "https://github.com/Rouyashiki/YukiZygisk/releases/download/ci-42439380654/YukiZygisk-v0.4.0-10146-all-kmi-arm64-v8a.zip"
+          },
+          "body": "Automated all-KMI module build.\n\n- Version: `v0.4.0-10146`\n- Version code: `10146`\n- Ref: `main`\n- Commit: `59b17b336f2adfc65ed9cfb0107a7481a56cf305`\n- Build: https://github.com/Rouyashiki/YukiZygisk/actions/runs/42439380654\n",
+          "htmlUrl": "https://github.com/Rouyashiki/YukiZygisk/releases/tag/ci-42439380654",
+          "immutable": true,
+          "name": "YukiZygisk v0.4.0-10146 (CI 70)",
+          "prerelease": false,
+          "prop": {
+            "author": "Rouyashiki Developers",
+            "description": "Standalone kernel-level Zygisk",
+            "id": "yukizygisk",
+            "name": "YukiZygisk",
+            "updateJson": "https://yukizygiskupdates.rouyashiki.org/update.json",
+            "version": "v0.4.0-10146",
+            "versionCode": "10146",
+            "webuiIcon": "icon.png"
+          },
+          "publishedAt": "2026-11-08T02:42:15Z",
+          "releaseId": 437990800,
+          "tag": "ci-42439380654",
+          "tagCommit": "59b17b336f2adfc65ed9cfb0107a7481a56cf305",
+          "version": "v0.4.0-10146",
+          "versionCode": 10146
+        },
         {
           "asset": {
             "digest": "sha256:dfa01c540a00013fdef59a7e135a409a1ff2bfebc49017c868543b9fb95e5d27",
@@ -9796,37 +9827,6 @@
           "tagCommit": "baa66284a39a0e63ba85e0e05c5cf72acc2961ba",
           "version": "v0.2.0-10127",
           "versionCode": 10127
-        },
-        {
-          "asset": {
-            "digest": "sha256:57e3f6d000829716c89d0024f28efa46d6d9dc7f2bd515d842a7f7576547501b",
-            "id": 689188904,
-            "name": "YukiZygisk-v0.2.0-10126-all-kmi-arm64-v8a.zip",
-            "sha256": "57e3f6d000829716c89d0024f28efa46d6d9dc7f2bd515d842a7f7576547501b",
-            "size": 3125732,
-            "url": "https://github.com/Rouyashiki/YukiZygisk/releases/download/ci-40911949456/YukiZygisk-v0.2.0-10126-all-kmi-arm64-v8a.zip"
-          },
-          "body": "Automated all-KMI module build.\n\n- Version: `v0.2.0-10126`\n- Version code: `10126`\n- Ref: `main`\n- Commit: `f073dfa3c0bb83300581cffc78948bbec6e3f0b3`\n- Build: https://github.com/Rouyashiki/YukiZygisk/actions/runs/40911949456\n",
-          "htmlUrl": "https://github.com/Rouyashiki/YukiZygisk/releases/tag/ci-40911949456",
-          "immutable": true,
-          "name": "YukiZygisk v0.2.0-10126 (CI 59)",
-          "prerelease": false,
-          "prop": {
-            "author": "Anatdx",
-            "description": "Standalone kernel-level Zygisk",
-            "id": "yukizygisk",
-            "name": "YukiZygisk",
-            "updateJson": "https://ci.yukizygisk.anatdx.com/update.json",
-            "version": "v0.2.0-10126",
-            "versionCode": "10126",
-            "webuiIcon": "icon.png"
-          },
-          "publishedAt": "2026-10-29T16:35:47Z",
-          "releaseId": 428127716,
-          "tag": "ci-40911949456",
-          "tagCommit": "f073dfa3c0bb83300581cffc78948bbec6e3f0b3",
-          "version": "v0.2.0-10126",
-          "versionCode": 10126
         }
       ],
       "repositoryId": 1297024368,
@@ -9986,21 +9986,25 @@
         "437920107": {
           "checkedAt": "2026-11-07T23:48:06.664Z",
           "ok": true
+        },
+        "437990800": {
+          "checkedAt": "2026-11-08T02:42:35.832Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:dfa01c540a00013fdef59a7e135a409a1ff2bfebc49017c868543b9fb95e5d27",
-          "id": 722312626,
-          "name": "YukiZygisk-v0.4.0-10145-all-kmi-arm64-v8a.zip",
-          "sha256": "dfa01c540a00013fdef59a7e135a409a1ff2bfebc49017c868543b9fb95e5d27",
-          "size": 3391702,
-          "url": "https://github.com/Rouyashiki/YukiZygisk/releases/download/ci-42426535128/YukiZygisk-v0.4.0-10145-all-kmi-arm64-v8a.zip"
+          "digest": "sha256:539560bfb9a9a1afc3e8ab6c868551f5cf36424406e570a25d277c4c31b6622c",
+          "id": 722668431,
+          "name": "YukiZygisk-v0.4.0-10146-all-kmi-arm64-v8a.zip",
+          "sha256": "539560bfb9a9a1afc3e8ab6c868551f5cf36424406e570a25d277c4c31b6622c",
+          "size": 3392351,
+          "url": "https://github.com/Rouyashiki/YukiZygisk/releases/download/ci-42439380654/YukiZygisk-v0.4.0-10146-all-kmi-arm64-v8a.zip"
         },
-        "body": "Automated all-KMI module build.\n\n- Version: `v0.4.0-10145`\n- Version code: `10145`\n- Ref: `main`\n- Commit: `221c83cb16591dfd7ef0d4fc65a4dee8e0a75643`\n- Build: https://github.com/Rouyashiki/YukiZygisk/actions/runs/42426535128\n",
-        "htmlUrl": "https://github.com/Rouyashiki/YukiZygisk/releases/tag/ci-42426535128",
+        "body": "Automated all-KMI module build.\n\n- Version: `v0.4.0-10146`\n- Version code: `10146`\n- Ref: `main`\n- Commit: `59b17b336f2adfc65ed9cfb0107a7481a56cf305`\n- Build: https://github.com/Rouyashiki/YukiZygisk/actions/runs/42439380654\n",
+        "htmlUrl": "https://github.com/Rouyashiki/YukiZygisk/releases/tag/ci-42439380654",
         "immutable": true,
-        "name": "YukiZygisk v0.4.0-10145 (CI 69)",
+        "name": "YukiZygisk v0.4.0-10146 (CI 70)",
         "prerelease": false,
         "prop": {
           "author": "Rouyashiki Developers",
@@ -10008,20 +10012,20 @@
           "id": "yukizygisk",
           "name": "YukiZygisk",
           "updateJson": "https://yukizygiskupdates.rouyashiki.org/update.json",
-          "version": "v0.4.0-10145",
-          "versionCode": "10145",
+          "version": "v0.4.0-10146",
+          "versionCode": "10146",
           "webuiIcon": "icon.png"
         },
-        "publishedAt": "2026-11-07T23:47:48Z",
-        "releaseId": 437920107,
-        "tag": "ci-42426535128",
-        "tagCommit": "221c83cb16591dfd7ef0d4fc65a4dee8e0a75643",
-        "version": "v0.4.0-10145",
-        "versionCode": 10145
+        "publishedAt": "2026-11-08T02:42:15Z",
+        "releaseId": 437990800,
+        "tag": "ci-42439380654",
+        "tagCommit": "59b17b336f2adfc65ed9cfb0107a7481a56cf305",
+        "version": "v0.4.0-10146",
+        "versionCode": 10146
       },
       "stars": {
-        "count": 123,
-        "fetchedAt": "2026-11-07T21:48:57.804Z",
+        "count": 122,
+        "fetchedAt": "2026-11-08T02:42:35.832Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
