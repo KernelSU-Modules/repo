@@ -1,7 +1,7 @@
 {
   "modules": {
     "A-STEPS": {
-      "contentCommit": "9710de204518ecfea91481fd32c906fceca6c578",
+      "contentCommit": "7351b92f17f91a2fdd848c58181cb8910c885417",
       "fullName": "xiaoji0308/Steps",
       "health": "ok",
       "installation": "present",
@@ -10,19 +10,19 @@
       "message": null,
       "repositoryId": 1423140380,
       "request": {
-        "checkedAt": "2026-11-06T16:06:46.941Z",
-        "commit": "9710de204518ecfea91481fd32c906fceca6c578",
+        "checkedAt": "2026-11-08T12:24:17.282Z",
+        "commit": "7351b92f17f91a2fdd848c58181cb8910c885417",
         "issues": [],
-        "latestTag": "1107",
+        "latestTag": "1108",
         "ok": true,
-        "releaseId": 436710165,
+        "releaseId": 438229275,
         "repositoryId": 1423140380,
         "submissionId": "wc1oqebvjy"
       },
       "stable": null
     },
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "2b72edd50018baff813d552532488b45a87010b2",
+      "contentCommit": "371c1b8353c794eda503ff3b80841d327b1e3b6a",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -31,8 +31,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-11-06T09:31:18.709Z",
-        "commit": "2b72edd50018baff813d552532488b45a87010b2",
+        "checkedAt": "2026-11-08T12:24:17.282Z",
+        "commit": "371c1b8353c794eda503ff3b80841d327b1e3b6a",
         "issues": [],
         "latestTag": "v1.2.11",
         "ok": true,
@@ -593,7 +593,7 @@
       "stable": null
     },
     "coloros_wifi_sense": {
-      "contentCommit": "b1db0241a02a191ff6a3ac2cbb9f92f278944825",
+      "contentCommit": "a4f6eba2eea1da2cf5ca3d15f4e1f37c604330c9",
       "fullName": "mazemingw/coloros-wifi-sense",
       "health": "ok",
       "installation": "present",
@@ -602,8 +602,8 @@
       "message": null,
       "repositoryId": 1449425812,
       "request": {
-        "checkedAt": "2026-11-08T07:45:06.584Z",
-        "commit": "b1db0241a02a191ff6a3ac2cbb9f92f278944825",
+        "checkedAt": "2026-11-08T12:24:17.282Z",
+        "commit": "a4f6eba2eea1da2cf5ca3d15f4e1f37c604330c9",
         "issues": [],
         "latestTag": "v1.2.0",
         "ok": true,
