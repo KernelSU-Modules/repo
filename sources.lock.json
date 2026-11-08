@@ -756,8 +756,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-08T08:50:20.065Z",
-        "lastSuccessAt": "2026-11-08T08:50:20.065Z",
+        "lastAttemptAt": "2026-11-08T09:01:46.803Z",
+        "lastSuccessAt": "2026-11-08T09:01:46.803Z",
         "message": null,
         "status": "ok"
       },
@@ -986,6 +986,12 @@
         },
         "438051765": {
           "checkedAt": "2026-11-08T05:24:58.195Z",
+          "code": "version-not-newer",
+          "message": "versionCode 37 is already used by the release v1.3.8. Publish a new release with a versionCode above 37.",
+          "ok": false
+        },
+        "438137110": {
+          "checkedAt": "2026-11-08T09:01:46.803Z",
           "code": "version-not-newer",
           "message": "versionCode 37 is already used by the release v1.3.8. Publish a new release with a versionCode above 37.",
           "ok": false
