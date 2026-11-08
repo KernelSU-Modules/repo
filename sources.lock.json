@@ -1405,17 +1405,47 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-07T10:29:24.572Z",
-        "lastSuccessAt": "2026-11-07T10:29:24.572Z",
+        "lastAttemptAt": "2026-11-08T05:39:15.779Z",
+        "lastSuccessAt": "2026-11-08T05:39:15.779Z",
         "message": null,
         "status": "ok"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
-      "maxStableVersionCode": 30055,
-      "maxVersionCode": 30055,
+      "maxStableVersionCode": 30056,
+      "maxVersionCode": 30056,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:a64b8f96d210e2e2797acfb2b31fad7f9e83b51e68d035039b8dace60c56147e",
+            "id": 723017382,
+            "name": "KernelSU-Tuner-30056-v3.5.6.zip",
+            "sha256": "a64b8f96d210e2e2797acfb2b31fad7f9e83b51e68d035039b8dace60c56147e",
+            "size": 105733,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.6/KernelSU-Tuner-30056-v3.5.6.zip"
+          },
+          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nTwo things were making the S25 Ultra slow.\n\nFirst, the balanced profile replaced the CPU governor. Samsung ships `performance` as the governor, and the balanced candidate list started with `schedutil`, so applying the balanced profile quietly downgraded the whole device. Balanced no longer touches the governor at all. Powersave still switches it, and performance/gaming still set `performance`.\n\nSecond, the IO tuning walked every entry under `/sys/block`. On this device that is 160 `loop` devices plus a couple of dozen `dm-*` mappings, so every apply wrote close to four hundred nodes. It now skips `loop`, `dm`, `ram`, `zram` and `sr`, and only touches real storage.\n\nVerified against a mock of the S25 Ultra layout: after applying balanced, both clusters keep `performance` and their original frequency range.\n\nIf you already have it installed, either uninstall and reinstall cleanly, or run `tuner.sh revert` first so the old governor value goes back.\n\nversionCode 30056.",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.6",
+          "immutable": true,
+          "name": "v3.5.6",
+          "prerelease": false,
+          "prop": {
+            "author": "ylh440104",
+            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+            "version": "v3.5.6",
+            "versionCode": "30056"
+          },
+          "publishedAt": "2026-11-08T05:39:14Z",
+          "releaseId": 438056598,
+          "tag": "v3.5.6",
+          "tagCommit": "8cd90126c4d1f3ea7a4cce26f4f122fa63b76db1",
+          "version": "v3.5.6",
+          "versionCode": 30056
+        },
         {
           "asset": {
             "digest": "sha256:8af0742d675a3baf7b528a8221fd81f19b392530144f32e11d4b45f8af3e789b",
@@ -1685,36 +1715,6 @@
           "tagCommit": "12dc3479d7736a74d368f61342a468224ba5ff99",
           "version": "v3.4.0",
           "versionCode": 30040
-        },
-        {
-          "asset": {
-            "digest": "sha256:8a2bbfc40f2dbecd1ce4aef32398f4e6c3939f3ef2f31ffe8378942f0f9c5a17",
-            "id": 630759466,
-            "name": "KernelSU-Tuner-30030-v3.3.0.zip",
-            "sha256": "8a2bbfc40f2dbecd1ce4aef32398f4e6c3939f3ef2f31ffe8378942f0f9c5a17",
-            "size": 44390,
-            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.3.0/KernelSU-Tuner-30030-v3.3.0.zip"
-          },
-          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**License** - the repo now carries the GPL-3.0 text that module.yaml was already claiming.\n\n**Custom presets** - save your own named profile on top of one of the four built-ins. Names are validated, and you cannot shadow a built-in.\n\n**Per-app parameters** - a node and value can be bound to a package and written only while that package is in the foreground. Range checking applies. Useful for capping one game's clocks without slowing everything else.\n\n**Dry-run preview** - before applying anything, ask what would change. It prints every node with its current and target value and writes nothing at all.\n\n**Also in this build**\n- CHANGELOG.md covering every release so far\n- English readme, linked from the Chinese one\n- a tools tab in the WebUI for backup, presets, per-app parameters and the preview, 9 tabs total\n\n**Fixed**\n- app-revert silently restored nothing: it looked up backups by the unprefixed path while the writer stored them with the KSU_SYS prefix\n- the per-app code was initially inserted inside another function and broke the script; custom.sh was rewritten with all functions at top level\n\nEverything from earlier versions is unchanged: four profiles, adaptive switching, charge limiting, app standby management, custom parameters, display tuning, boot-failure rollback, wipe protection and config export/import.",
-          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.3.0",
-          "immutable": true,
-          "name": "v3.3.0",
-          "prerelease": false,
-          "prop": {
-            "author": "Operit",
-            "description": "内核调优全家桶：四档预设、CPU 频率上下限、GPU/IO/VM/LMK/ZRAM/网络/DNS/显示调优、温控分区解锁、智能驾驶(含省电联动与定时切换)、电池守护、应用待机管理、per-app 策略与参数、自定义参数(带范围校验)、自定义预设、配置导入导出、变更预览、防砖回滚、防格机三模式，全部可逆",
-            "id": "KernelSU-Tuner",
-            "name": "KernelSU Tuner",
-            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-            "version": "v3.3.0",
-            "versionCode": "30030"
-          },
-          "publishedAt": "2026-10-11T12:58:59Z",
-          "releaseId": 409667290,
-          "tag": "v3.3.0",
-          "tagCommit": "fba7d3a611769805c50a3694447d5500571dce85",
-          "version": "v3.3.0",
-          "versionCode": 30030
         }
       ],
       "repositoryId": 1414095668,
@@ -1782,21 +1782,25 @@
         "437501908": {
           "checkedAt": "2026-11-07T10:29:24.572Z",
           "ok": true
+        },
+        "438056598": {
+          "checkedAt": "2026-11-08T05:39:15.779Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:8af0742d675a3baf7b528a8221fd81f19b392530144f32e11d4b45f8af3e789b",
-          "id": 720369366,
-          "name": "KernelSU-Tuner-30055-v3.5.5.zip",
-          "sha256": "8af0742d675a3baf7b528a8221fd81f19b392530144f32e11d4b45f8af3e789b",
-          "size": 105451,
-          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.5/KernelSU-Tuner-30055-v3.5.5.zip"
+          "digest": "sha256:a64b8f96d210e2e2797acfb2b31fad7f9e83b51e68d035039b8dace60c56147e",
+          "id": 723017382,
+          "name": "KernelSU-Tuner-30056-v3.5.6.zip",
+          "sha256": "a64b8f96d210e2e2797acfb2b31fad7f9e83b51e68d035039b8dace60c56147e",
+          "size": 105733,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.6/KernelSU-Tuner-30056-v3.5.6.zip"
         },
-        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThree switches were writing to the system even when turned off.\n\nThe thermal unlock switch, while off, forced every `thermal_zone` to `enabled`. That means each apply re-armed all the throttling limits even though you never asked for the unlock. It leaves them alone now.\n\nSame pattern for the IPv6 switch: while off, it set `disable_ipv6=0` on every interface. On a network where IPv6 does not actually work, the system tries it first and waits for the timeout before falling back, which makes things slower. It does nothing now, and the uninstall script behaves the same way.\n\nThe DNS preset pointed the system private DNS at `dns.google` on the performance profile. That does not resolve in China. It uses `opportunistic` now: encrypted when the network offers it, otherwise the carrier DNS, and it cannot break connectivity. Balanced and powersave stop touching that setting entirely; before they would turn off a private DNS you configured yourself.\n\nversionCode 30055.",
-        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.5",
+        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nTwo things were making the S25 Ultra slow.\n\nFirst, the balanced profile replaced the CPU governor. Samsung ships `performance` as the governor, and the balanced candidate list started with `schedutil`, so applying the balanced profile quietly downgraded the whole device. Balanced no longer touches the governor at all. Powersave still switches it, and performance/gaming still set `performance`.\n\nSecond, the IO tuning walked every entry under `/sys/block`. On this device that is 160 `loop` devices plus a couple of dozen `dm-*` mappings, so every apply wrote close to four hundred nodes. It now skips `loop`, `dm`, `ram`, `zram` and `sr`, and only touches real storage.\n\nVerified against a mock of the S25 Ultra layout: after applying balanced, both clusters keep `performance` and their original frequency range.\n\nIf you already have it installed, either uninstall and reinstall cleanly, or run `tuner.sh revert` first so the old governor value goes back.\n\nversionCode 30056.",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.6",
         "immutable": true,
-        "name": "v3.5.5",
+        "name": "v3.5.6",
         "prerelease": false,
         "prop": {
           "author": "ylh440104",
@@ -1804,19 +1808,19 @@
           "id": "KernelSU-Tuner",
           "name": "KernelSU Tuner",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-          "version": "v3.5.5",
-          "versionCode": "30055"
+          "version": "v3.5.6",
+          "versionCode": "30056"
         },
-        "publishedAt": "2026-11-07T10:29:02Z",
-        "releaseId": 437501908,
-        "tag": "v3.5.5",
-        "tagCommit": "57576f1bd74edb92a75b39746b3cd6884d64e2cb",
-        "version": "v3.5.5",
-        "versionCode": 30055
+        "publishedAt": "2026-11-08T05:39:14Z",
+        "releaseId": 438056598,
+        "tag": "v3.5.6",
+        "tagCommit": "8cd90126c4d1f3ea7a4cce26f4f122fa63b76db1",
+        "version": "v3.5.6",
+        "versionCode": 30056
       },
       "stars": {
-        "count": 18,
-        "fetchedAt": "2026-11-07T06:16:08.328Z",
+        "count": 19,
+        "fetchedAt": "2026-11-08T05:39:15.779Z",
         "fullName": "ylh440104/KernelSU-Tuner",
         "repositoryId": 1414095668,
         "verified": "self"
