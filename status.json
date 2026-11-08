@@ -916,7 +916,7 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "493c66a01c1b32d55bb1bbd9ac6f6e10eded6789",
+      "contentCommit": "97c9d676a4840f62458aacd34a39999a78a647cb",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
@@ -925,8 +925,8 @@
       "message": null,
       "repositoryId": 1445526027,
       "request": {
-        "checkedAt": "2026-11-08T05:17:32.527Z",
-        "commit": "493c66a01c1b32d55bb1bbd9ac6f6e10eded6789",
+        "checkedAt": "2026-11-08T07:01:47.414Z",
+        "commit": "97c9d676a4840f62458aacd34a39999a78a647cb",
         "issues": [],
         "latestTag": "1.0.1",
         "ok": true,
@@ -1173,7 +1173,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "269766c8fcd52bb41c1f3b11841a93fc52ba68b7",
+      "contentCommit": "87e738c44e148e1f4ec75b419b986c82eb7c5c0c",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1182,8 +1182,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-07T14:34:16.907Z",
-        "commit": "269766c8fcd52bb41c1f3b11841a93fc52ba68b7",
+        "checkedAt": "2026-11-08T07:01:47.414Z",
+        "commit": "87e738c44e148e1f4ec75b419b986c82eb7c5c0c",
         "issues": [],
         "latestTag": "v2.3.0-r18.8",
         "ok": true,
