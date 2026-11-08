@@ -10,12 +10,12 @@
       "message": null,
       "repositoryId": 1423140380,
       "request": {
-        "checkedAt": "2026-11-08T12:24:17.282Z",
+        "checkedAt": "2026-11-08T12:31:28.696Z",
         "commit": "7351b92f17f91a2fdd848c58181cb8910c885417",
         "issues": [],
-        "latestTag": "1108",
+        "latestTag": "1107",
         "ok": true,
-        "releaseId": 438229275,
+        "releaseId": 436710165,
         "repositoryId": 1423140380,
         "submissionId": "wc1oqebvjy"
       },
