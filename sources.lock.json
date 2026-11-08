@@ -4742,8 +4742,8 @@
         "versionCode": 20260926
       },
       "stars": {
-        "count": 870,
-        "fetchedAt": "2026-11-07T16:57:07.890Z",
+        "count": 873,
+        "fetchedAt": "2026-11-08T16:58:32.868Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -7748,8 +7748,8 @@
         "versionCode": 1090
       },
       "stars": {
-        "count": 1389,
-        "fetchedAt": "2026-11-07T16:57:07.890Z",
+        "count": 1390,
+        "fetchedAt": "2026-11-08T16:58:32.868Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -11607,10 +11607,10 @@
       "fullName": "LSPosed/ZygiskNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-07T16:36:07.482Z",
+        "lastAttemptAt": "2026-11-08T16:58:32.868Z",
         "lastSuccessAt": "2026-11-07T16:36:07.482Z",
-        "message": null,
-        "status": "ok"
+        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"notice\" (manifest-missing)",
+        "status": "stale"
       },
       "id": "zygisksu",
       "installationId": 170198192,
@@ -11789,8 +11789,8 @@
         "versionCode": 880
       },
       "stars": {
-        "count": 1052,
-        "fetchedAt": "2026-11-07T16:36:07.482Z",
+        "count": 1062,
+        "fetchedAt": "2026-11-08T16:58:32.868Z",
         "fullName": "LSPosed/ZygiskNext",
         "repositoryId": 1377039457,
         "verified": "self"

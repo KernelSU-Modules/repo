@@ -1314,11 +1314,11 @@
     "zygisksu": {
       "contentCommit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
       "fullName": "LSPosed/ZygiskNext",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-07T16:36:07.482Z",
       "maxVersionCode": 880,
-      "message": null,
+      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"notice\" (manifest-missing)",
       "repositoryId": 1377039457,
       "request": null,
       "stable": {
