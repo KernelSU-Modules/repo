@@ -593,7 +593,7 @@
       "stable": null
     },
     "coloros_wifi_sense": {
-      "contentCommit": "a4f6eba2eea1da2cf5ca3d15f4e1f37c604330c9",
+      "contentCommit": "00dd08890a3b410a7b5e2bcd254df9b3ea6a6e88",
       "fullName": "mazemingw/coloros-wifi-sense",
       "health": "ok",
       "installation": "present",
@@ -602,12 +602,12 @@
       "message": null,
       "repositoryId": 1449425812,
       "request": {
-        "checkedAt": "2026-11-08T12:24:17.282Z",
-        "commit": "a4f6eba2eea1da2cf5ca3d15f4e1f37c604330c9",
+        "checkedAt": "2026-11-08T17:35:49.456Z",
+        "commit": "00dd08890a3b410a7b5e2bcd254df9b3ea6a6e88",
         "issues": [],
-        "latestTag": "v1.2.0",
+        "latestTag": "v1.3.0",
         "ok": true,
-        "releaseId": 438102958,
+        "releaseId": 438406514,
         "repositoryId": 1449425812,
         "submissionId": "1rwwvpolsh"
       },
