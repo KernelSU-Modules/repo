@@ -166,7 +166,7 @@
       }
     },
     "Logd_Disabler_ColorOS16": {
-      "contentCommit": "6db1e8ab790f47d8deedc1a91b10ac417258679f",
+      "contentCommit": "75fa2c211171544e813c7f1b21ba6d33ca701867",
       "fullName": "starlifezzz/Logd_Disabler_ColorOS16",
       "health": "ok",
       "installation": "present",
@@ -175,8 +175,8 @@
       "message": null,
       "repositoryId": 1214139400,
       "request": {
-        "checkedAt": "2026-11-05T05:22:33.468Z",
-        "commit": "6db1e8ab790f47d8deedc1a91b10ac417258679f",
+        "checkedAt": "2026-11-08T16:24:02.857Z",
+        "commit": "75fa2c211171544e813c7f1b21ba6d33ca701867",
         "issues": [],
         "latestTag": "v2.3.23",
         "ok": true,
@@ -187,11 +187,11 @@
       "stable": null
     },
     "MagicNet": {
-      "contentCommit": "26c8d0374ce3eecfdf457eee9f3ba14ed744242a",
+      "contentCommit": "cbb613d979c25997d3ff0a50090367705e7c2e1b",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T08:04:23.834Z",
+      "lastSuccessAt": "2026-11-08T16:24:02.857Z",
       "maxVersionCode": 10613,
       "message": null,
       "repositoryId": 998453022,
@@ -1194,7 +1194,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "87e738c44e148e1f4ec75b419b986c82eb7c5c0c",
+      "contentCommit": "8619b6ee0d0629836e9c6ce668e8a785dfd53517",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1203,8 +1203,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-08T07:01:47.414Z",
-        "commit": "87e738c44e148e1f4ec75b419b986c82eb7c5c0c",
+        "checkedAt": "2026-11-08T16:24:02.857Z",
+        "commit": "8619b6ee0d0629836e9c6ce668e8a785dfd53517",
         "issues": [],
         "latestTag": "v2.3.0-r18.8",
         "ok": true,
