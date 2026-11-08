@@ -9424,8 +9424,8 @@
         "versionCode": 1
       },
       "stars": {
-        "count": 0,
-        "fetchedAt": "2026-11-06T05:15:33.200Z",
+        "count": 1,
+        "fetchedAt": "2026-11-08T15:12:25.039Z",
         "fullName": "PEMessage/tailscale-bindhosts",
         "repositoryId": 1445398567,
         "verified": "self"
