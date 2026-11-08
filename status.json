@@ -1009,7 +1009,7 @@
       }
     },
     "oplus-cloud-block": {
-      "contentCommit": "0c02a7ceeb5e358daef43ee344c66326df9dcafa",
+      "contentCommit": "0071d92c3edc7042cc8cc87ec9c4db7cdaa4aad8",
       "fullName": "706412584/ColorOS-thermal",
       "health": "ok",
       "installation": "present",
@@ -1018,8 +1018,8 @@
       "message": null,
       "repositoryId": 1445900163,
       "request": {
-        "checkedAt": "2026-11-08T18:13:56.184Z",
-        "commit": "0c02a7ceeb5e358daef43ee344c66326df9dcafa",
+        "checkedAt": "2026-11-08T18:14:59.033Z",
+        "commit": "0071d92c3edc7042cc8cc87ec9c4db7cdaa4aad8",
         "issues": [],
         "latestTag": "v1.7.12",
         "ok": true,
