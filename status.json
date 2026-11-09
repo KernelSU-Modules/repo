@@ -823,12 +823,12 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-09T10:31:07.404Z",
+        "checkedAt": "2026-11-09T10:32:14.568Z",
         "commit": "8cf1f861bc30eea6a6db4a3595dddc5e6c1b8e8a",
         "issues": [],
-        "latestTag": "v2.2",
+        "latestTag": "v2.2.1",
         "ok": true,
-        "releaseId": 438761464,
+        "releaseId": 438996268,
         "repositoryId": 1446403674,
         "submissionId": "xsva3e3znd"
       },
