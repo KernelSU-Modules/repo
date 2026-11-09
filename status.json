@@ -187,11 +187,11 @@
       "stable": null
     },
     "MagicNet": {
-      "contentCommit": "196e20f84bebf7c821784b1a4deca2b78f4b2bec",
+      "contentCommit": "2e6776bac1014bd7c03880273c30095848948faa",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-09T15:26:33.379Z",
+      "lastSuccessAt": "2026-11-09T16:26:45.468Z",
       "maxVersionCode": 10613,
       "message": null,
       "repositoryId": 998453022,
@@ -551,7 +551,7 @@
       }
     },
     "clouddrive2_ksu_magisk": {
-      "contentCommit": "ac4b899c292f88cffef75dd94bd59cb812fa8433",
+      "contentCommit": "ba501ecbcfc8b023bf6693ca730e2e363f8ba33e",
       "fullName": "muort521/clouddrive2_ksu_magisk",
       "health": "ok",
       "installation": "present",
@@ -560,8 +560,8 @@
       "message": null,
       "repositoryId": 1449726085,
       "request": {
-        "checkedAt": "2026-11-09T15:26:33.379Z",
-        "commit": "ac4b899c292f88cffef75dd94bd59cb812fa8433",
+        "checkedAt": "2026-11-09T16:26:45.468Z",
+        "commit": "ba501ecbcfc8b023bf6693ca730e2e363f8ba33e",
         "issues": [],
         "latestTag": "v1.1.6-r14",
         "ok": true,
