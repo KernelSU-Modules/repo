@@ -614,20 +614,20 @@
       "stable": null
     },
     "device_faker": {
-      "contentCommit": "164ae0b7c38f5241e28b4c5f1ee43c7a66da5e8a",
+      "contentCommit": "a3a1a8aaba8cacef6e3545b061a9b2a8133f4aa5",
       "fullName": "Seyud/device_faker_release",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-12T10:44:58.332Z",
-      "maxVersionCode": 20260926,
+      "lastSuccessAt": "2026-11-09T10:30:07.247Z",
+      "maxVersionCode": 20261109,
       "message": null,
       "repositoryId": 1415363370,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-12T09:57:40Z",
-        "tag": "v1.6.0",
-        "version": "v1.6.0",
-        "versionCode": 20260926
+        "publishedAt": "2026-11-09T10:29:46Z",
+        "tag": "v1.7.0",
+        "version": "v1.7.0 (172-9ce1894-release)",
+        "versionCode": 20261109
       }
     },
     "duck-toolbox": {

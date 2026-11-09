@@ -4689,18 +4689,18 @@
     "device_faker": {
       "content": {
         "blobs": {
-          "README.md": "dfdb98dc3df2eede5343cec7e0d3192beabb8f2c",
+          "README.md": "05c0d9aa6c4ebc3a451c84a28b71fe00e20b848a",
           "assets/icon.png": "bd3467d5f8e1b677e2ae0bc2231450b52fdc3f37",
           "logo.png": "5cc2dc97d44d16010c374d18425ee9c59baeebe6",
-          "module.yaml": "e9fa7352702adb6759f112bc1b5f3f3d3dc91611"
+          "module.yaml": "de1a27d40c48a86aab91a874fdbade1272977875"
         },
-        "commit": "164ae0b7c38f5241e28b4c5f1ee43c7a66da5e8a",
-        "fetchedAt": "2026-10-12T10:44:58.332Z",
+        "commit": "a3a1a8aaba8cacef6e3545b061a9b2a8133f4aa5",
+        "fetchedAt": "2026-11-09T10:30:07.247Z",
         "files": {
-          "README.md": "90f13efb2cbd5a01621e3559f1b29e57bf50ea4d80733710d09ba46647a8fcc6",
+          "README.md": "1ffb7e18fd0cb7f2979ea679212dcbc227de33c0a069f01dd2c301a160265426",
           "assets/icon.png": "f385b3354a656eabafa5f784c93e341c7a3448a341e513184ff456c907c5826b",
           "logo.png": "03aadb019a96f95f841df1d9ff3548fcbf89197d7526944a780a8861894b1273",
-          "module.yaml": "a3907f26f83b52ed1092f1d52e3057525639d8a4c12592b063c27d09e67adc26"
+          "module.yaml": "d847db127fe4af8b878dbcbb104e81553ab9a379b4f5411bd7f0352c6df30126"
         },
         "manifestPath": "module.yaml",
         "ref": "main"
@@ -4708,17 +4708,47 @@
       "fullName": "Seyud/device_faker_release",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-12T10:44:58.332Z",
-        "lastSuccessAt": "2026-10-12T10:44:58.332Z",
+        "lastAttemptAt": "2026-11-09T10:30:07.247Z",
+        "lastSuccessAt": "2026-11-09T10:30:07.247Z",
         "message": null,
         "status": "ok"
       },
       "id": "device_faker",
       "installationId": 170474861,
-      "maxStableVersionCode": 20260926,
-      "maxVersionCode": 20260926,
+      "maxStableVersionCode": 20261109,
+      "maxVersionCode": 20261109,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:28ebf8d4791d63eff9d9a3a99831a438d84fde1f2c7ea2e9abaa2bb2e760c043",
+            "id": 727078202,
+            "name": "device_faker_v1.7.0.zip",
+            "sha256": "28ebf8d4791d63eff9d9a3a99831a438d84fde1f2c7ea2e9abaa2bb2e760c043",
+            "size": 928204,
+            "url": "https://github.com/Seyud/device_faker_release/releases/download/v1.7.0/device_faker_v1.7.0.zip"
+          },
+          "body": "<details>\r\n<summary><strong>📝 English Changelog</strong></summary>\r\n\r\n### 🆕 New Features\r\n- 🩺 Property areas unreadable from the app domain can now be spoofed\r\n- 🚀 WebUI now uses KernelSU pm/io interfaces — package enumeration and file I/O without shell forks\r\n- 🔄 Template conversion runs fully in the frontend: import legacy module ZIP / system.prop directly, no CLI or temp files\r\n- 🎯 Online template library now searches by description and fetches one aggregated file instead of per-file requests\r\n- 🧩 Completed custom_props explicit directives and __DELETE__ (soc_model / android_version families, sdk_int deletable)\r\n- 🪟 Foreground detection now uses the TOP set, so split-screen / floating windows are no longer misjudged\r\n- 🏷️ Log now carries a version banner (version + git hash + build time)\r\n\r\n### 🐛 Bug Fixes\r\n- 🛡️ Fixed config being unreadable after Zygisk Next 1.5.3's extensive sepolicy.rule changes, which silently disabled all spoofing (config is now read by companion)\r\n- 🎲 Fixed random device model when several templates declare the same package (deterministic by config order, with a WebUI warning)\r\n- 🇨🇳 Fixed installer text falling back to English on Chinese devices\r\n- 🔍 Fixed WebUI clone config resolution; editing a clone no longer wipes the main app entry\r\n- 🧹 Fixed duplicate rows and false \"configured\" badges for one app instance, with explicit config scope labels\r\n- 🕵️ Property area copies now use anonymous-mapping camouflage\r\n- 🧪 Fixed properties not applying during the cold-start window in hybrid mode (in-process COW now also runs with companion_resetprop)\r\n\r\n### ⚡ Improvements\r\n- 🏎️ Zero-fork property reads in companion — existence checks and backups query the property areas directly\r\n- 👻 Never write properties absent on this ROM — no more enumerable ghost properties\r\n- 📦 Module no longer bundles device_faker_cli, shrinking the package\r\n- 🧱 cow_props split into 11 modules for clearer responsibilities\r\n- ⬆️ Dependency upgrades: rsbinder 0.11, 20+ WebUI dependencies, CI now on NDK r30\r\n</details>\r\n\r\n### 🆕 新功能\r\n- 🩺 app 域不可读的属性区也能伪装\r\n- 🚀 WebUI 接入 KernelSU pm/io 接口，包枚举与文件读写全程零 shell fork\r\n- 🔄 模板转换改纯前端，直接导入旧模块 ZIP / system.prop，无需 CLI 与临时文件\r\n- 🎯 在线模板库支持按模板描述搜索，一次拉取聚合文件替代逐文件请求\r\n- 🧩 补齐 custom_props 显式指令与 __DELETE__（soc_model / android_version 删族、sdk_int 可删除）\r\n- 🪟 前台应用检测改用 TOP 集合，多窗口 / 小窗下不再误识别\r\n- 🏷️ 日志新增版本 banner（版本号 + git hash + 构建时间）\r\n\r\n### 🐛 修复\r\n- 🛡️ 修复因 Zygisk Next 1.5.3 的 sepolicy.rule 大改导致读不到配置伪装全部失效（配置改由 companion 读取）\r\n- 🎲 修复多模板声明同一包名时机型随机（命中改为 config 书写顺序，WebUI 提示争用）\r\n- 🇨🇳 修复中文设备安装文案显示英文\r\n- 🔍 修复 WebUI 分身配置解析错位、编辑分身会误删主应用条目\r\n- 🧹 修复同一应用实例重复显示与「已配置」误判，并标注配置作用范围\r\n- 🕵️ 属性区副本改为匿名映射伪装\r\n- 🧪 修复 hybrid 模式冷启动窗口内属性未生效（companion_resetprop 也跑进程内 COW）\r\n\r\n### ⚡ 改进\r\n- 🏎️ companion 读取属性零 fork —— 存在性判定与备份直接查属性区\r\n- 👻 属性写入「本机不存在就不写」，不再留下可枚举的幽灵属性\r\n- 📦 模块不再打包 device_faker_cli，安装包体积减小\r\n- 🧱 cow_props 拆分为 11 个模块，职责分层便于维护\r\n- ⬆️ 依赖全量升级：rsbinder 0.11、WebUI 依赖 20+ 项、CI 升 NDK r30",
+          "htmlUrl": "https://github.com/Seyud/device_faker_release/releases/tag/v1.7.0",
+          "immutable": true,
+          "name": "v1.7.0",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@瓦力喀/GitHub@Seyud",
+            "description": "使用Zygisk实现自定义配置对应用伪装机型",
+            "id": "device_faker",
+            "name": "Device Faker",
+            "updateJson": "https://gitee.com/Seyud/device_faker/raw/master/Update.json",
+            "version": "v1.7.0 (172-9ce1894-release)",
+            "versionCode": "20261109"
+          },
+          "publishedAt": "2026-11-09T10:29:46Z",
+          "releaseId": 438994520,
+          "tag": "v1.7.0",
+          "tagCommit": "a3a1a8aaba8cacef6e3545b061a9b2a8133f4aa5",
+          "version": "v1.7.0 (172-9ce1894-release)",
+          "versionCode": 20261109
+        },
         {
           "asset": {
             "digest": "sha256:0d7b717ba25d541b3ae064b93ffd618b330af32f1f55c9abebfaf8a560f9be12",
@@ -4755,21 +4785,25 @@
         "410458358": {
           "checkedAt": "2026-10-12T10:09:46.582Z",
           "ok": true
+        },
+        "438994520": {
+          "checkedAt": "2026-11-09T10:30:07.247Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:0d7b717ba25d541b3ae064b93ffd618b330af32f1f55c9abebfaf8a560f9be12",
-          "id": 633369380,
-          "name": "device_faker_v1.6.0.zip",
-          "sha256": "0d7b717ba25d541b3ae064b93ffd618b330af32f1f55c9abebfaf8a560f9be12",
-          "size": 969705,
-          "url": "https://github.com/Seyud/device_faker_release/releases/download/v1.6.0/device_faker_v1.6.0.zip"
+          "digest": "sha256:28ebf8d4791d63eff9d9a3a99831a438d84fde1f2c7ea2e9abaa2bb2e760c043",
+          "id": 727078202,
+          "name": "device_faker_v1.7.0.zip",
+          "sha256": "28ebf8d4791d63eff9d9a3a99831a438d84fde1f2c7ea2e9abaa2bb2e760c043",
+          "size": 928204,
+          "url": "https://github.com/Seyud/device_faker_release/releases/download/v1.7.0/device_faker_v1.7.0.zip"
         },
-        "body": "### 🆕 新功能\r\r\n- 🏷️ Build层新增 Build.BOARD / Build.SOC_MODEL 伪装\r\r\n- 📅 新增 security_patch 安全补丁日期伪装字段\r\r\n- 🆔 新增 display_id / incremental 专用伪装字段\r\r\n- 📐 新增按应用 DPI 伪装支持\r\r\n- ✏️ WebUI 自定义属性伪装开放编辑\r\r\n- 📦 安装脚本 Zygisk 检测兼容独特 Zygisk 实现\r\r\n- 🔗 关注模块弹窗新增官网入口\r\r\n\r\r\n### 🐛 修复\r\r\n- 🔄 修复前台门控两类失效 — 应用首启竞态与 packages.list 快照过期\r\r\n- 🌐 修复在线模板库大量加载失败\r\r\n- 🧹 修复开关改回默认后键值残留问题\r\r\n- 🎯 修复多开包名「已配置」状态误判\r\r\n- 🔒 属性区改用进程私有副本，消除 maps 中的 rw-p 指纹\r\r\n- ⏱️ 切后台恢复提速至 0.5 秒\r\r\n\r\r\n### ⚡ 改进\r\r\n- 🏎️ 长属性值支持原地更新，无需删除重建\r\r\n- 🤖 rsbinder 升级至 0.10，适配 Android 10~17\r\r\n- 🗑️ 移除 CPU 伪装功能\r\r\n- 🔇 非 debug 模式下模块与 companion 完全静默\r\r\n- 🚀 WebUI 首屏路径瘦身与应用列表性能优化\r\r\n- 💾 安装脚本默认保留已有配置",
-        "htmlUrl": "https://github.com/Seyud/device_faker_release/releases/tag/v1.6.0",
+        "body": "<details>\r\n<summary><strong>📝 English Changelog</strong></summary>\r\n\r\n### 🆕 New Features\r\n- 🩺 Property areas unreadable from the app domain can now be spoofed\r\n- 🚀 WebUI now uses KernelSU pm/io interfaces — package enumeration and file I/O without shell forks\r\n- 🔄 Template conversion runs fully in the frontend: import legacy module ZIP / system.prop directly, no CLI or temp files\r\n- 🎯 Online template library now searches by description and fetches one aggregated file instead of per-file requests\r\n- 🧩 Completed custom_props explicit directives and __DELETE__ (soc_model / android_version families, sdk_int deletable)\r\n- 🪟 Foreground detection now uses the TOP set, so split-screen / floating windows are no longer misjudged\r\n- 🏷️ Log now carries a version banner (version + git hash + build time)\r\n\r\n### 🐛 Bug Fixes\r\n- 🛡️ Fixed config being unreadable after Zygisk Next 1.5.3's extensive sepolicy.rule changes, which silently disabled all spoofing (config is now read by companion)\r\n- 🎲 Fixed random device model when several templates declare the same package (deterministic by config order, with a WebUI warning)\r\n- 🇨🇳 Fixed installer text falling back to English on Chinese devices\r\n- 🔍 Fixed WebUI clone config resolution; editing a clone no longer wipes the main app entry\r\n- 🧹 Fixed duplicate rows and false \"configured\" badges for one app instance, with explicit config scope labels\r\n- 🕵️ Property area copies now use anonymous-mapping camouflage\r\n- 🧪 Fixed properties not applying during the cold-start window in hybrid mode (in-process COW now also runs with companion_resetprop)\r\n\r\n### ⚡ Improvements\r\n- 🏎️ Zero-fork property reads in companion — existence checks and backups query the property areas directly\r\n- 👻 Never write properties absent on this ROM — no more enumerable ghost properties\r\n- 📦 Module no longer bundles device_faker_cli, shrinking the package\r\n- 🧱 cow_props split into 11 modules for clearer responsibilities\r\n- ⬆️ Dependency upgrades: rsbinder 0.11, 20+ WebUI dependencies, CI now on NDK r30\r\n</details>\r\n\r\n### 🆕 新功能\r\n- 🩺 app 域不可读的属性区也能伪装\r\n- 🚀 WebUI 接入 KernelSU pm/io 接口，包枚举与文件读写全程零 shell fork\r\n- 🔄 模板转换改纯前端，直接导入旧模块 ZIP / system.prop，无需 CLI 与临时文件\r\n- 🎯 在线模板库支持按模板描述搜索，一次拉取聚合文件替代逐文件请求\r\n- 🧩 补齐 custom_props 显式指令与 __DELETE__（soc_model / android_version 删族、sdk_int 可删除）\r\n- 🪟 前台应用检测改用 TOP 集合，多窗口 / 小窗下不再误识别\r\n- 🏷️ 日志新增版本 banner（版本号 + git hash + 构建时间）\r\n\r\n### 🐛 修复\r\n- 🛡️ 修复因 Zygisk Next 1.5.3 的 sepolicy.rule 大改导致读不到配置伪装全部失效（配置改由 companion 读取）\r\n- 🎲 修复多模板声明同一包名时机型随机（命中改为 config 书写顺序，WebUI 提示争用）\r\n- 🇨🇳 修复中文设备安装文案显示英文\r\n- 🔍 修复 WebUI 分身配置解析错位、编辑分身会误删主应用条目\r\n- 🧹 修复同一应用实例重复显示与「已配置」误判，并标注配置作用范围\r\n- 🕵️ 属性区副本改为匿名映射伪装\r\n- 🧪 修复 hybrid 模式冷启动窗口内属性未生效（companion_resetprop 也跑进程内 COW）\r\n\r\n### ⚡ 改进\r\n- 🏎️ companion 读取属性零 fork —— 存在性判定与备份直接查属性区\r\n- 👻 属性写入「本机不存在就不写」，不再留下可枚举的幽灵属性\r\n- 📦 模块不再打包 device_faker_cli，安装包体积减小\r\n- 🧱 cow_props 拆分为 11 个模块，职责分层便于维护\r\n- ⬆️ 依赖全量升级：rsbinder 0.11、WebUI 依赖 20+ 项、CI 升 NDK r30",
+        "htmlUrl": "https://github.com/Seyud/device_faker_release/releases/tag/v1.7.0",
         "immutable": true,
-        "name": "v1.6.0",
+        "name": "v1.7.0",
         "prerelease": false,
         "prop": {
           "author": "酷安@瓦力喀/GitHub@Seyud",
@@ -4777,19 +4811,19 @@
           "id": "device_faker",
           "name": "Device Faker",
           "updateJson": "https://gitee.com/Seyud/device_faker/raw/master/Update.json",
-          "version": "v1.6.0",
-          "versionCode": "20260926"
+          "version": "v1.7.0 (172-9ce1894-release)",
+          "versionCode": "20261109"
         },
-        "publishedAt": "2026-10-12T09:57:40Z",
-        "releaseId": 410458358,
-        "tag": "v1.6.0",
-        "tagCommit": "5b7932b19c21d3d393c6004957766e6a8278aad0",
-        "version": "v1.6.0",
-        "versionCode": 20260926
+        "publishedAt": "2026-11-09T10:29:46Z",
+        "releaseId": 438994520,
+        "tag": "v1.7.0",
+        "tagCommit": "a3a1a8aaba8cacef6e3545b061a9b2a8133f4aa5",
+        "version": "v1.7.0 (172-9ce1894-release)",
+        "versionCode": 20261109
       },
       "stars": {
-        "count": 873,
-        "fetchedAt": "2026-11-08T16:58:32.868Z",
+        "count": 874,
+        "fetchedAt": "2026-11-09T10:30:07.247Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
