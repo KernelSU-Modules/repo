@@ -11069,13 +11069,13 @@
     "zygisknextsu": {
       "content": {
         "blobs": {
-          "README.md": "bad7ae3f49f0d26ceaa41682ec29d3c139398021",
+          "README.md": "c21309f5fcf19b64dbc737ca92a4af0ac8cb4e51",
           "module.yaml": "cf5c37751514a068d815acbcfb45e6cce1ac0a1b"
         },
-        "commit": "7cee6dd32f86a36dcaa7f488c51780df37059a52",
-        "fetchedAt": "2026-11-07T16:57:07.890Z",
+        "commit": "5af25c7ce64f364509ed1c4fd43b78217925b001",
+        "fetchedAt": "2026-11-09T13:14:01.369Z",
         "files": {
-          "README.md": "58382b799d0a11db9ffc312a1ff9da10c759426d9d4a60c19ce3cd4ce04d071e",
+          "README.md": "edc9c20896ac402d6e6f48bd7f70698b807662019b41ea9d06e4aa4b355ebee5",
           "module.yaml": "f1b2005573bc3c0f4250f8ac28a3e8a6c1f771ad94ee9a2f02c13b4814a911a1"
         },
         "manifestPath": "module.yaml",
@@ -11084,10 +11084,10 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-08T08:33:07.201Z",
-        "lastSuccessAt": "2026-11-07T16:57:07.890Z",
-        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"master\" (manifest-schema)",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-09T13:14:01.369Z",
+        "lastSuccessAt": "2026-11-09T13:14:01.369Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,

@@ -1295,13 +1295,13 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "7cee6dd32f86a36dcaa7f488c51780df37059a52",
+      "contentCommit": "5af25c7ce64f364509ed1c4fd43b78217925b001",
       "fullName": "VeryBaaad/ZNNext",
-      "health": "stale",
+      "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T16:57:07.890Z",
+      "lastSuccessAt": "2026-11-09T13:14:01.369Z",
       "maxVersionCode": 371,
-      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"master\" (manifest-schema)",
+      "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
