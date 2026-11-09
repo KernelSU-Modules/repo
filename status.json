@@ -551,31 +551,20 @@
       }
     },
     "clouddrive2_ksu_magisk": {
-      "contentCommit": "7ea8c2cf8656c1edb4f7d00ffe33145dea488cd1",
+      "contentCommit": "4f4764cec104c03e5d04e9c8890bbe7c8b22c064",
       "fullName": "muort521/clouddrive2_ksu_magisk",
-      "health": "error",
+      "health": "ok",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "manifest-path-missing: assets/icon.webp is referenced by module.yaml but does not exist at 7ea8c2c.",
+      "message": null,
       "repositoryId": 1449726085,
       "request": {
-        "checkedAt": "2026-11-09T06:35:28.915Z",
-        "commit": "7ea8c2cf8656c1edb4f7d00ffe33145dea488cd1",
-        "issues": [
-          {
-            "code": "manifest-path-missing",
-            "message": "assets/icon.webp is referenced by module.yaml but does not exist at 7ea8c2c.",
-            "severity": "error"
-          },
-          {
-            "code": "asset-none",
-            "message": "Release v1.1.6-r14 has no asset matching \"clouddrive2_ksu_magisk_v1.1.5-r13_apk-embedded.zip\".",
-            "severity": "error"
-          }
-        ],
+        "checkedAt": "2026-11-09T06:47:01.385Z",
+        "commit": "4f4764cec104c03e5d04e9c8890bbe7c8b22c064",
+        "issues": [],
         "latestTag": "v1.1.6-r14",
-        "ok": false,
+        "ok": true,
         "releaseId": 438797644,
         "repositoryId": 1449726085,
         "submissionId": "o0wuzqfnoe"
@@ -646,16 +635,16 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-09T06:35:28.915Z",
-      "maxVersionCode": 154,
+      "lastSuccessAt": "2026-11-09T06:47:01.385Z",
+      "maxVersionCode": 155,
       "message": null,
       "repositoryId": 1196357682,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-26T02:16:58Z",
-        "tag": "v0.2.1-Stable",
-        "version": "0.2.1-Stable",
-        "versionCode": 119
+        "publishedAt": "2026-11-09T06:46:43Z",
+        "tag": "v0.2.2-Stable",
+        "version": "0.2.2-Stable",
+        "versionCode": 155
       }
     },
     "enable_miui_adb": {
