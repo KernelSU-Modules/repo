@@ -187,11 +187,11 @@
       "stable": null
     },
     "MagicNet": {
-      "contentCommit": "2e6776bac1014bd7c03880273c30095848948faa",
+      "contentCommit": "bbdf39df706d961d356316a966204ea3051be445",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-09T16:26:45.468Z",
+      "lastSuccessAt": "2026-11-09T19:45:38.425Z",
       "maxVersionCode": 10613,
       "message": null,
       "repositoryId": 998453022,
@@ -814,7 +814,7 @@
       }
     },
     "hypercool": {
-      "contentCommit": "c24ea736729271f7d81614696c2925bf60aeed3a",
+      "contentCommit": "2005b8d61fabbb02ea4e0d2d7c1b11751a28d232",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
@@ -823,12 +823,12 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-09T14:24:33.114Z",
-        "commit": "c24ea736729271f7d81614696c2925bf60aeed3a",
+        "checkedAt": "2026-11-09T19:45:38.425Z",
+        "commit": "2005b8d61fabbb02ea4e0d2d7c1b11751a28d232",
         "issues": [],
-        "latestTag": "v2.2.2",
+        "latestTag": "v2.2.3",
         "ok": true,
-        "releaseId": 439144109,
+        "releaseId": 439562531,
         "repositoryId": 1446403674,
         "submissionId": "xsva3e3znd"
       },
