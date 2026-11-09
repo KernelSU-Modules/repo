@@ -814,7 +814,7 @@
       }
     },
     "hypercool": {
-      "contentCommit": "0dccf47993ffcc8078c86deb77f205117880697d",
+      "contentCommit": "dac9aadc4764c5c8b98d6a8f50408eb8412029a5",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
@@ -823,12 +823,12 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-09T12:36:00.074Z",
-        "commit": "0dccf47993ffcc8078c86deb77f205117880697d",
+        "checkedAt": "2026-11-09T13:06:24.522Z",
+        "commit": "dac9aadc4764c5c8b98d6a8f50408eb8412029a5",
         "issues": [],
-        "latestTag": "v2.2.1",
+        "latestTag": "v2.2.2",
         "ok": true,
-        "releaseId": 438996268,
+        "releaseId": 439144109,
         "repositoryId": 1446403674,
         "submissionId": "xsva3e3znd"
       },
