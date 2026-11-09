@@ -551,7 +551,7 @@
       }
     },
     "clouddrive2_ksu_magisk": {
-      "contentCommit": "cd6bf119c4529b549355c62d65b0783c76072bd9",
+      "contentCommit": "d8b8ca9fe7b08658da9f2fe9c714b8e7a5309bcd",
       "fullName": "muort521/clouddrive2_ksu_magisk",
       "health": "ok",
       "installation": "present",
@@ -560,8 +560,8 @@
       "message": null,
       "repositoryId": 1449726085,
       "request": {
-        "checkedAt": "2026-11-09T10:47:58.797Z",
-        "commit": "cd6bf119c4529b549355c62d65b0783c76072bd9",
+        "checkedAt": "2026-11-09T11:29:00.618Z",
+        "commit": "d8b8ca9fe7b08658da9f2fe9c714b8e7a5309bcd",
         "issues": [],
         "latestTag": "v1.1.6-r14",
         "ok": true,
@@ -814,7 +814,7 @@
       }
     },
     "hypercool": {
-      "contentCommit": "8f505e10826bb337404bf6d9fb0ce2fcc6667913",
+      "contentCommit": "d725ff6f324eae5b1a24db8bd3f622182d6584a8",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
@@ -823,8 +823,8 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-09T10:49:32.001Z",
-        "commit": "8f505e10826bb337404bf6d9fb0ce2fcc6667913",
+        "checkedAt": "2026-11-09T11:29:00.618Z",
+        "commit": "d725ff6f324eae5b1a24db8bd3f622182d6584a8",
         "issues": [],
         "latestTag": "v2.2.1",
         "ok": true,
