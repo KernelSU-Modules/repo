@@ -187,11 +187,11 @@
       "stable": null
     },
     "MagicNet": {
-      "contentCommit": "a5fa04e1ef024f445e3b13975f4b5b3886e58784",
+      "contentCommit": "196e20f84bebf7c821784b1a4deca2b78f4b2bec",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-09T14:37:02.978Z",
+      "lastSuccessAt": "2026-11-09T15:26:33.379Z",
       "maxVersionCode": 10613,
       "message": null,
       "repositoryId": 998453022,
@@ -551,7 +551,7 @@
       }
     },
     "clouddrive2_ksu_magisk": {
-      "contentCommit": "d8b8ca9fe7b08658da9f2fe9c714b8e7a5309bcd",
+      "contentCommit": "ac4b899c292f88cffef75dd94bd59cb812fa8433",
       "fullName": "muort521/clouddrive2_ksu_magisk",
       "health": "ok",
       "installation": "present",
@@ -560,8 +560,8 @@
       "message": null,
       "repositoryId": 1449726085,
       "request": {
-        "checkedAt": "2026-11-09T11:29:00.618Z",
-        "commit": "d8b8ca9fe7b08658da9f2fe9c714b8e7a5309bcd",
+        "checkedAt": "2026-11-09T15:26:33.379Z",
+        "commit": "ac4b899c292f88cffef75dd94bd59cb812fa8433",
         "issues": [],
         "latestTag": "v1.1.6-r14",
         "ok": true,
@@ -1194,7 +1194,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "f1832cb3b16cf58ab3fed28c1db8d3971872fe45",
+      "contentCommit": "d3ebdadb7ac2f9e94ab93f274160d6d59a204c2a",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1203,8 +1203,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-09T12:41:23.465Z",
-        "commit": "f1832cb3b16cf58ab3fed28c1db8d3971872fe45",
+        "checkedAt": "2026-11-09T15:26:33.379Z",
+        "commit": "d3ebdadb7ac2f9e94ab93f274160d6d59a204c2a",
         "issues": [],
         "latestTag": "v2.3.0-r18.9-1",
         "ok": true,
