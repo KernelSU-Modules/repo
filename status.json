@@ -814,7 +814,7 @@
       }
     },
     "hypercool": {
-      "contentCommit": "d725ff6f324eae5b1a24db8bd3f622182d6584a8",
+      "contentCommit": "fec4f85ee01878ee60b9c09a4df8aea5c419431c",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
@@ -823,8 +823,8 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-09T11:29:00.618Z",
-        "commit": "d725ff6f324eae5b1a24db8bd3f622182d6584a8",
+        "checkedAt": "2026-11-09T12:26:53.774Z",
+        "commit": "fec4f85ee01878ee60b9c09a4df8aea5c419431c",
         "issues": [],
         "latestTag": "v2.2.1",
         "ok": true,
@@ -937,7 +937,7 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "97c9d676a4840f62458aacd34a39999a78a647cb",
+      "contentCommit": "153c5cc775a0bee9377bf098c8051e91caad2e6b",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
@@ -946,8 +946,8 @@
       "message": null,
       "repositoryId": 1445526027,
       "request": {
-        "checkedAt": "2026-11-08T07:01:47.414Z",
-        "commit": "97c9d676a4840f62458aacd34a39999a78a647cb",
+        "checkedAt": "2026-11-09T12:26:53.774Z",
+        "commit": "153c5cc775a0bee9377bf098c8051e91caad2e6b",
         "issues": [],
         "latestTag": "1.0.1",
         "ok": true,
@@ -1194,7 +1194,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "109e37481380d40e7710db1d58a2121f2bd385a6",
+      "contentCommit": "c8410fce1729c4bab47d080dbfee2d4567bb44fd",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1203,8 +1203,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-09T07:30:09.271Z",
-        "commit": "109e37481380d40e7710db1d58a2121f2bd385a6",
+        "checkedAt": "2026-11-09T12:26:53.774Z",
+        "commit": "c8410fce1729c4bab47d080dbfee2d4567bb44fd",
         "issues": [],
         "latestTag": "v2.3.0-r18.9-1",
         "ok": true,
