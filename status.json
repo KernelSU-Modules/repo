@@ -551,21 +551,27 @@
       }
     },
     "clouddrive2_ksu_magisk": {
-      "contentCommit": "79ac71d36ed42d45ecc027133beff56ce0197b45",
+      "contentCommit": "02a8ff5b9962e2a97d2944e4ea94dc2db9d53897",
       "fullName": "muort521/clouddrive2_ksu_magisk",
-      "health": "ok",
+      "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": null,
+      "message": "asset-none: Release v1.1.6-r14 has no asset matching \"clouddrive2_ksu_magisk_v1.1.5-r13_apk-embedded.zip\".",
       "repositoryId": 1449726085,
       "request": {
-        "checkedAt": "2026-11-07T22:57:10.617Z",
-        "commit": "79ac71d36ed42d45ecc027133beff56ce0197b45",
-        "issues": [],
-        "latestTag": "v1.1.5-r13",
-        "ok": true,
-        "releaseId": 437885203,
+        "checkedAt": "2026-11-09T06:21:49.693Z",
+        "commit": "02a8ff5b9962e2a97d2944e4ea94dc2db9d53897",
+        "issues": [
+          {
+            "code": "asset-none",
+            "message": "Release v1.1.6-r14 has no asset matching \"clouddrive2_ksu_magisk_v1.1.5-r13_apk-embedded.zip\".",
+            "severity": "error"
+          }
+        ],
+        "latestTag": "v1.1.6-r14",
+        "ok": false,
+        "releaseId": 438797644,
         "repositoryId": 1449726085,
         "submissionId": "o0wuzqfnoe"
       },
