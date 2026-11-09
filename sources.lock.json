@@ -11601,206 +11601,220 @@
       "content": {
         "blobs": {
           "README.md": "95d62a57965445d264d3abd01c7fa4bca57424af",
-          "module.yaml": "50a49b873f7c4c3aac7a70ac0749102ff1d83e6c"
+          "module.yaml": "8e24759eb44cf53c9bfb8c8af3b59c509454d246"
         },
-        "commit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
-        "fetchedAt": "2026-10-11T08:50:01.932Z",
+        "commit": "a638ed1d6a60f8cd732b07223a95fcadf7ec09f2",
+        "fetchedAt": "2026-11-09T03:48:49.487Z",
         "files": {
           "README.md": "1b36b860a9b741a82354afcd10dc5af1e3d895f5207dfa42884a8f3269ee2606",
-          "module.yaml": "9f34457ea4ca743999d7c86823fc964274933bd6a665bf7cd23de864dec40734"
+          "module.yaml": "c5d4af6bac60c9a2ecdc6805f621cd27968313b1eab43a06bb6c882d6ee01aab"
         },
         "manifestPath": "module.yaml",
         "ref": "main"
       },
-      "fullName": "LSPosed/ZygiskNext",
+      "fullName": "Dr-TSNG/ZygiskNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-08T16:58:32.868Z",
-        "lastSuccessAt": "2026-11-07T16:36:07.482Z",
-        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"notice\" (manifest-missing)",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-09T03:48:49.487Z",
+        "lastSuccessAt": "2026-11-09T03:48:49.487Z",
+        "message": "stable-unavailable: the stable release (versionCode 880) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 880 is published.",
+        "status": "ok"
       },
       "id": "zygisksu",
-      "installationId": 170198192,
+      "installationId": 171730441,
       "maxStableVersionCode": 880,
       "maxVersionCode": 880,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67",
-            "id": 721259782,
-            "name": "Zygisk-Next-1.5.3-880-22a1bf5-release.zip",
-            "sha256": "186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67",
-            "size": 6638473,
-            "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.3/Zygisk-Next-1.5.3-880-22a1bf5-release.zip"
-          },
-          "body": "---\r\n\r\n- 适配 Android 17 QPR3\r\n- 修复一些死锁问题\r\n- 修复 16KB 页面兼容问题\r\n- 修复其他问题\r\n\r\n---\r\n\r\n- Added support for Android 17 QPR3\r\n- Fixed some deadlock issues\r\n- Fixed compatibility with 16 KB page sizes\r\n- Fixed some other issues\r\n\r\n---\r\n\r\nSHA256: 186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67",
-          "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.3",
-          "immutable": true,
-          "name": "v1.5.3",
-          "prerelease": false,
-          "prop": {
-            "author": "LSPosed Developers",
-            "description": "Standalone implementation of Zygisk.",
-            "id": "zygisksu",
-            "name": "Zygisk Next",
-            "updateJson": "https://lsposed.zip/zygisk-next/update.json",
-            "version": "1.5.3 (880-22a1bf5-release)",
-            "versionCode": "880"
-          },
-          "publishedAt": "2026-11-07T16:35:52Z",
-          "releaseId": 437697237,
-          "tag": "v1.5.3",
-          "tagCommit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
-          "version": "1.5.3 (880-22a1bf5-release)",
-          "versionCode": 880
-        },
-        {
-          "asset": {
-            "digest": "sha256:ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
-            "id": 637267849,
-            "name": "Zygisk-Next-1.5.2-864-a4a72ce-release.zip",
-            "sha256": "ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
-            "size": 6714344,
-            "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.2/Zygisk-Next-1.5.2-864-a4a72ce-release.zip"
-          },
-          "body": "- 修复某些系统上导致应用崩溃的问题\r\n\r\n---\r\n\r\n- Fixed an issue that caused the app to crash on certain systems.\r\n\r\n---\r\n\r\nSHA256: ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96",
-          "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.2",
-          "immutable": true,
-          "name": "v1.5.2",
-          "prerelease": false,
-          "prop": {
-            "author": "LSPosed Developers",
-            "description": "Standalone implementation of Zygisk.",
-            "id": "zygisksu",
-            "name": "Zygisk Next",
-            "updateJson": "https://lsposed.zip/zygisk-next/update.json",
-            "version": "1.5.2 (864-a4a72ce-release)",
-            "versionCode": "864"
-          },
-          "publishedAt": "2026-10-13T14:24:46Z",
-          "releaseId": 411764538,
-          "tag": "v1.5.2",
-          "tagCommit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
-          "version": "1.5.2 (864-a4a72ce-release)",
-          "versionCode": 864
-        },
-        {
-          "asset": {
-            "digest": "sha256:17c506ffea119f03e5e9d9c70acd400efdd804f35d8968d0d56a5d66fea9f3ab",
-            "id": 634026467,
-            "name": "Zygisk-Next-1.5.1-862-56ae062-release.zip",
-            "sha256": "17c506ffea119f03e5e9d9c70acd400efdd804f35d8968d0d56a5d66fea9f3ab",
-            "size": 6682412,
-            "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.1/Zygisk-Next-1.5.1-862-56ae062-release.zip"
-          },
-          "body": "- 支持 riscv64 架构\r\n- 增加 zygote-blacklist ，允许停止注入某些 zygote （通过 WebUI 开关或 `znctl zygote-blacklist` 命令设置）\r\n- 修复 Android 17 QPR2 支持\r\n- 适配开启 CONFIG_PROC_MEM_FORCE_PTRACE 的内核\r\n- 修复一些其他问题\r\n\r\n---\r\n\r\n- Added support for the riscv64 architecture\r\n- Added a zygote blacklist to allow disabling injection into specific zygotes (configurable via the WebUI toggle or the `znctl zygote-blacklist` command)\r\n- Fixed support for Android 17 QPR2\r\n- Added compatibility for kernels with `CONFIG_PROC_MEM_FORCE_PTRACE` enabled\r\n- Fixed various other issues\r\n\r\n---\r\n\r\nSHA256: 17c506ffea119f03e5e9d9c70acd400efdd804f35d8968d0d56a5d66fea9f3ab",
-          "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.1",
-          "immutable": true,
-          "name": "v1.5.1",
-          "prerelease": false,
-          "prop": {
-            "author": "LSPosed Developers",
-            "description": "Standalone implementation of Zygisk.",
-            "id": "zygisksu",
-            "name": "Zygisk Next",
-            "updateJson": "https://lsposed.zip/zygisk-next/update.json",
-            "version": "1.5.1 (862-56ae062-release)",
-            "versionCode": "862"
-          },
-          "publishedAt": "2026-10-12T14:34:55Z",
-          "releaseId": 410695642,
-          "tag": "v1.5.1",
-          "tagCommit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
-          "version": "1.5.1 (862-56ae062-release)",
-          "versionCode": 862
-        },
-        {
-          "asset": {
-            "digest": "sha256:474d58abc208c0779e7f8f1d8449db755a874d475c13b9cf8decf74bc171933b",
-            "id": 576092083,
-            "name": "Zygisk-Next-1.5.0-843-5217106-release.zip",
-            "sha256": "474d58abc208c0779e7f8f1d8449db755a874d475c13b9cf8decf74bc171933b",
-            "size": 7529581,
-            "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.0/Zygisk-Next-1.5.0-843-5217106-release.zip"
-          },
-          "body": "2026.08.26\r\n\r\n---\r\n\r\n- 适配 Android 17 QPR2 Beta 3\r\n- 新增 [HyperOS Runtime 支持](https://github.com/LSPosed/ZygiskNext/blob/main/docs/hyos_runtime.md)\r\n- 修复部分情况下 Zygisk 功能意外失效的问题\r\n- 修复 32 位 ARM 设备上的潜在异常\r\n- 调整 WebView 子进程 umount 方式，交由 Root 方案统一管理\r\n\r\n---\r\n\r\n- Supports Android 17 QPR2 Beta 3\r\n- Adds [HyperOS Runtime support](https://github.com/LSPosed/ZygiskNext/blob/main/docs/hyos_runtime.md)\r\n- Fixed an issue where Zygisk functionality would unexpectedly fail in some cases\r\n- Fixed potential anomalies on 32-bit ARM devices\r\n- Adjusted the WebView child process umount mechanism, now managed by Root solution.\r\n\r\n---\r\n\r\nSHA256: 474d58abc208c0779e7f8f1d8449db755a874d475c13b9cf8decf74bc171933b",
-          "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.0",
-          "immutable": true,
-          "name": "v1.5.0",
-          "prerelease": false,
-          "prop": {
-            "author": "5ec1cff, Nullptr, aviraxp",
-            "description": "Standalone implementation of Zygisk.",
-            "id": "zygisksu",
-            "name": "Zygisk Next",
-            "updateJson": "https://lsposed.zip/zygisk-next/update.json",
-            "version": "1.5.0 (843-5217106-release)",
-            "versionCode": "843"
-          },
-          "publishedAt": "2026-09-20T04:19:50Z",
-          "releaseId": 392309435,
-          "tag": "v1.5.0",
-          "tagCommit": "cddf38d5b1501d0cbf08393767afed09ac478b14",
-          "version": "1.5.0 (843-5217106-release)",
-          "versionCode": 843
-        }
-      ],
-      "repositoryId": 1377039457,
+      "releases": [],
+      "repositoryId": 594330628,
       "seen": {
-        "392309435": {
-          "checkedAt": "2026-10-11T08:50:01.932Z",
-          "ok": true
+        "179972981": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
         },
-        "410695642": {
-          "checkedAt": "2026-10-12T14:35:21.311Z",
-          "ok": true
+        "180869918": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
         },
-        "411764538": {
-          "checkedAt": "2026-10-13T14:25:58.907Z",
-          "ok": true
+        "180882942": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
         },
-        "437697237": {
-          "checkedAt": "2026-11-07T16:36:07.482Z",
-          "ok": true
+        "181255709": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "181984678": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "185196215": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "190226530": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "192932278": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "195500582": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "208739149": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "222048833": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "232806759": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "252429021": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "252705482": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "253686160": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "257304589": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "259516520": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "262745705": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "273089364": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "299827568": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "306450628": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "341397923": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "342542762": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "342917005": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "355054370": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "363511440": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "365293668": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "376804890": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "413314320": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "437695261": {
+          "checkedAt": "2026-11-09T03:48:49.487Z",
+          "code": "version-not-newer",
+          "message": "versionCode 880 was already accepted for this module (the release is gone); versionCodes cannot be reused. Use a versionCode above 880.",
+          "ok": false
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67",
-          "id": 721259782,
-          "name": "Zygisk-Next-1.5.3-880-22a1bf5-release.zip",
-          "sha256": "186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67",
-          "size": 6638473,
-          "url": "https://github.com/LSPosed/ZygiskNext/releases/download/v1.5.3/Zygisk-Next-1.5.3-880-22a1bf5-release.zip"
-        },
-        "body": "---\r\n\r\n- 适配 Android 17 QPR3\r\n- 修复一些死锁问题\r\n- 修复 16KB 页面兼容问题\r\n- 修复其他问题\r\n\r\n---\r\n\r\n- Added support for Android 17 QPR3\r\n- Fixed some deadlock issues\r\n- Fixed compatibility with 16 KB page sizes\r\n- Fixed some other issues\r\n\r\n---\r\n\r\nSHA256: 186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67",
-        "htmlUrl": "https://github.com/LSPosed/ZygiskNext/releases/tag/v1.5.3",
-        "immutable": true,
-        "name": "v1.5.3",
-        "prerelease": false,
-        "prop": {
-          "author": "LSPosed Developers",
-          "description": "Standalone implementation of Zygisk.",
-          "id": "zygisksu",
-          "name": "Zygisk Next",
-          "updateJson": "https://lsposed.zip/zygisk-next/update.json",
-          "version": "1.5.3 (880-22a1bf5-release)",
-          "versionCode": "880"
-        },
-        "publishedAt": "2026-11-07T16:35:52Z",
-        "releaseId": 437697237,
-        "tag": "v1.5.3",
-        "tagCommit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
-        "version": "1.5.3 (880-22a1bf5-release)",
-        "versionCode": 880
-      },
+      "stable": null,
       "stars": {
-        "count": 1062,
-        "fetchedAt": "2026-11-08T16:58:32.868Z",
-        "fullName": "LSPosed/ZygiskNext",
-        "repositoryId": 1377039457,
+        "count": 10886,
+        "fetchedAt": "2026-11-09T03:48:49.487Z",
+        "fullName": "Dr-TSNG/ZygiskNext",
+        "repositoryId": 594330628,
         "verified": "self"
       }
     }

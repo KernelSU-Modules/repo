@@ -1312,21 +1312,16 @@
       }
     },
     "zygisksu": {
-      "contentCommit": "db994f8caebd440eedd02beab38ca62f3d1f8a2a",
-      "fullName": "LSPosed/ZygiskNext",
-      "health": "stale",
+      "contentCommit": "a638ed1d6a60f8cd732b07223a95fcadf7ec09f2",
+      "fullName": "Dr-TSNG/ZygiskNext",
+      "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T16:36:07.482Z",
+      "lastSuccessAt": "2026-11-09T03:48:49.487Z",
       "maxVersionCode": 880,
-      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"notice\" (manifest-missing)",
-      "repositoryId": 1377039457,
+      "message": "stable-unavailable: the stable release (versionCode 880) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 880 is published.",
+      "repositoryId": 594330628,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-11-07T16:35:52Z",
-        "tag": "v1.5.3",
-        "version": "1.5.3 (880-22a1bf5-release)",
-        "versionCode": 880
-      }
+      "stable": null
     }
   },
   "schemaVersion": 1
