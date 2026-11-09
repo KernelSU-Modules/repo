@@ -551,18 +551,23 @@
       }
     },
     "clouddrive2_ksu_magisk": {
-      "contentCommit": "02a8ff5b9962e2a97d2944e4ea94dc2db9d53897",
+      "contentCommit": "7ea8c2cf8656c1edb4f7d00ffe33145dea488cd1",
       "fullName": "muort521/clouddrive2_ksu_magisk",
       "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "asset-none: Release v1.1.6-r14 has no asset matching \"clouddrive2_ksu_magisk_v1.1.5-r13_apk-embedded.zip\".",
+      "message": "manifest-path-missing: assets/icon.webp is referenced by module.yaml but does not exist at 7ea8c2c.",
       "repositoryId": 1449726085,
       "request": {
-        "checkedAt": "2026-11-09T06:21:49.693Z",
-        "commit": "02a8ff5b9962e2a97d2944e4ea94dc2db9d53897",
+        "checkedAt": "2026-11-09T06:35:28.915Z",
+        "commit": "7ea8c2cf8656c1edb4f7d00ffe33145dea488cd1",
         "issues": [
+          {
+            "code": "manifest-path-missing",
+            "message": "assets/icon.webp is referenced by module.yaml but does not exist at 7ea8c2c.",
+            "severity": "error"
+          },
           {
             "code": "asset-none",
             "message": "Release v1.1.6-r14 has no asset matching \"clouddrive2_ksu_magisk_v1.1.5-r13_apk-embedded.zip\".",
@@ -641,8 +646,8 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-09T06:33:16.530Z",
-      "maxVersionCode": 151,
+      "lastSuccessAt": "2026-11-09T06:35:28.915Z",
+      "maxVersionCode": 154,
       "message": null,
       "repositoryId": 1196357682,
       "request": null,

@@ -4780,28 +4780,28 @@
       "fullName": "eltavine/Duck-ToolBox",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-09T06:33:16.530Z",
-        "lastSuccessAt": "2026-11-09T06:33:16.530Z",
+        "lastAttemptAt": "2026-11-09T06:35:28.915Z",
+        "lastSuccessAt": "2026-11-09T06:35:28.915Z",
         "message": null,
         "status": "ok"
       },
       "id": "duck-toolbox",
       "installationId": 170179902,
       "maxStableVersionCode": 119,
-      "maxVersionCode": 151,
+      "maxVersionCode": 154,
       "prerelease": {
         "asset": {
-          "digest": "sha256:cf70a25ff0d76aecb670cf184b6fa8c1aa337c7d6ad640c14edb95345d26f07a",
-          "id": 720440668,
-          "name": "duck-toolbox-0.2.1-Stable-151-canary.zip",
-          "sha256": "cf70a25ff0d76aecb670cf184b6fa8c1aa337c7d6ad640c14edb95345d26f07a",
-          "size": 11419127,
-          "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-11f6041c-20261107T105915528409Z/duck-toolbox-0.2.1-Stable-151-canary.zip"
+          "digest": "sha256:ab3285ba1ea53ffe8807b2c9ce013b3b254036d637ee5456d50ba8da53afd7bb",
+          "id": 726480328,
+          "name": "duck-toolbox-0.2.1-Stable-154-canary.zip",
+          "sha256": "ab3285ba1ea53ffe8807b2c9ce013b3b254036d637ee5456d50ba8da53afd7bb",
+          "size": 11455097,
+          "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-3e872632-20261109T063409617364Z/duck-toolbox-0.2.1-Stable-154-canary.zip"
         },
-        "body": "Canary module built from commit 11f6041c71bd9b13133c9ac8181061d855a68f76.\n\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/42365750725\n\nGPLv3 device-faker corresponding source: https://github.com/eltavine/Duck-ToolBox/tree/11f6041c71bd9b13133c9ac8181061d855a68f76/components/device-faker\n\nGPLv3 play-integrity corresponding source: https://github.com/eltavine/Duck-ToolBox/tree/11f6041c71bd9b13133c9ac8181061d855a68f76/components/play-integrity\n\nThe installable ZIP has build-provenance and SPDX 2.3 SBOM attestations. The SBOM inventories delivered files and pinned source/build inputs; it is not a measured binary dependency graph.\n\nVerify the downloaded ZIP with GitHub CLI:\n\n```sh\ngh attestation verify 'duck-toolbox-0.2.1-Stable-151-canary.zip' --repo eltavine/Duck-ToolBox --signer-workflow eltavine/Duck-ToolBox/.github/workflows/ci.yml --source-digest 11f6041c71bd9b13133c9ac8181061d855a68f76 --source-ref refs/heads/main --deny-self-hosted-runners\n```\n\nFor the SBOM attestation, add `--predicate-type https://spdx.dev/Document/v2.3`. The attached Sigstore bundles can also be supplied with `--bundle`.\n",
-        "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-11f6041c-20261107T105915528409Z",
+        "body": "Canary module built from commit 3e872632382357c91e0f94b5de6f028f0a6984b8.\n\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/42573042718\n\nGPLv3 device-faker corresponding source: https://github.com/eltavine/Duck-ToolBox/tree/3e872632382357c91e0f94b5de6f028f0a6984b8/components/device-faker\n\nGPLv3 play-integrity corresponding source: https://github.com/eltavine/Duck-ToolBox/tree/3e872632382357c91e0f94b5de6f028f0a6984b8/components/play-integrity\n\n- Full (default update): `duck-toolbox-0.2.1-Stable-154-canary.zip`\n- Lite (manual installation and updates): `duck-lite-0.2.1-Stable-154-canary.zip`\n\nLite includes the Tricky Store manager, RKP workbench and device RKP issuer. It uses a separate module ID. Uninstall the other edition and reboot before switching.\n\nEach installable ZIP has build-provenance and SPDX 2.3 SBOM attestations. The SBOM inventories delivered files and pinned source/build inputs; it is not a measured binary dependency graph.\n\nVerify the downloaded ZIP with GitHub CLI:\n\n```sh\ngh attestation verify 'duck-toolbox-0.2.1-Stable-154-canary.zip' --repo eltavine/Duck-ToolBox --signer-workflow eltavine/Duck-ToolBox/.github/workflows/ci.yml --source-digest 3e872632382357c91e0f94b5de6f028f0a6984b8 --source-ref refs/heads/main --deny-self-hosted-runners\n```\n\nFor the SBOM attestation, add `--predicate-type https://spdx.dev/Document/v2.3`. Substitute the Lite filename to verify Lite. The matching Sigstore bundles can also be supplied with `--bundle`.\n",
+        "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-3e872632-20261109T063409617364Z",
         "immutable": true,
-        "name": "nightly-11f6041c-20261107T105915528409Z",
+        "name": "nightly-3e872632-20261109T063409617364Z",
         "prerelease": true,
         "prop": {
           "author": "Eltavine & KOW & MhmRdd",
@@ -4809,17 +4809,47 @@
           "id": "duck-toolbox",
           "name": "Duck ToolBox",
           "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
-          "version": "0.2.1-Stable (151-canary)",
-          "versionCode": "151"
+          "version": "0.2.1-Stable (154-canary)",
+          "versionCode": "154"
         },
-        "publishedAt": "2026-11-07T10:59:45Z",
-        "releaseId": 437517525,
-        "tag": "nightly-11f6041c-20261107T105915528409Z",
-        "tagCommit": "11f6041c71bd9b13133c9ac8181061d855a68f76",
-        "version": "0.2.1-Stable (151-canary)",
-        "versionCode": 151
+        "publishedAt": "2026-11-09T06:35:09Z",
+        "releaseId": 438805507,
+        "tag": "nightly-3e872632-20261109T063409617364Z",
+        "tagCommit": "3e872632382357c91e0f94b5de6f028f0a6984b8",
+        "version": "0.2.1-Stable (154-canary)",
+        "versionCode": 154
       },
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:ab3285ba1ea53ffe8807b2c9ce013b3b254036d637ee5456d50ba8da53afd7bb",
+            "id": 726480328,
+            "name": "duck-toolbox-0.2.1-Stable-154-canary.zip",
+            "sha256": "ab3285ba1ea53ffe8807b2c9ce013b3b254036d637ee5456d50ba8da53afd7bb",
+            "size": 11455097,
+            "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-3e872632-20261109T063409617364Z/duck-toolbox-0.2.1-Stable-154-canary.zip"
+          },
+          "body": "Canary module built from commit 3e872632382357c91e0f94b5de6f028f0a6984b8.\n\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/42573042718\n\nGPLv3 device-faker corresponding source: https://github.com/eltavine/Duck-ToolBox/tree/3e872632382357c91e0f94b5de6f028f0a6984b8/components/device-faker\n\nGPLv3 play-integrity corresponding source: https://github.com/eltavine/Duck-ToolBox/tree/3e872632382357c91e0f94b5de6f028f0a6984b8/components/play-integrity\n\n- Full (default update): `duck-toolbox-0.2.1-Stable-154-canary.zip`\n- Lite (manual installation and updates): `duck-lite-0.2.1-Stable-154-canary.zip`\n\nLite includes the Tricky Store manager, RKP workbench and device RKP issuer. It uses a separate module ID. Uninstall the other edition and reboot before switching.\n\nEach installable ZIP has build-provenance and SPDX 2.3 SBOM attestations. The SBOM inventories delivered files and pinned source/build inputs; it is not a measured binary dependency graph.\n\nVerify the downloaded ZIP with GitHub CLI:\n\n```sh\ngh attestation verify 'duck-toolbox-0.2.1-Stable-154-canary.zip' --repo eltavine/Duck-ToolBox --signer-workflow eltavine/Duck-ToolBox/.github/workflows/ci.yml --source-digest 3e872632382357c91e0f94b5de6f028f0a6984b8 --source-ref refs/heads/main --deny-self-hosted-runners\n```\n\nFor the SBOM attestation, add `--predicate-type https://spdx.dev/Document/v2.3`. Substitute the Lite filename to verify Lite. The matching Sigstore bundles can also be supplied with `--bundle`.\n",
+          "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-3e872632-20261109T063409617364Z",
+          "immutable": true,
+          "name": "nightly-3e872632-20261109T063409617364Z",
+          "prerelease": true,
+          "prop": {
+            "author": "Eltavine & KOW & MhmRdd",
+            "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and device ID provisioning (Qualcomm / MediaTek TrustKernel), in one WebUI.",
+            "id": "duck-toolbox",
+            "name": "Duck ToolBox",
+            "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
+            "version": "0.2.1-Stable (154-canary)",
+            "versionCode": "154"
+          },
+          "publishedAt": "2026-11-09T06:35:09Z",
+          "releaseId": 438805507,
+          "tag": "nightly-3e872632-20261109T063409617364Z",
+          "tagCommit": "3e872632382357c91e0f94b5de6f028f0a6984b8",
+          "version": "0.2.1-Stable (154-canary)",
+          "versionCode": 154
+        },
         {
           "asset": {
             "digest": "sha256:cf70a25ff0d76aecb670cf184b6fa8c1aa337c7d6ad640c14edb95345d26f07a",
@@ -5059,36 +5089,6 @@
           "tagCommit": "e01da3cbb128b894197ae098c9a8a3721c467dda",
           "version": "0.2.1-Stable (135-canary)",
           "versionCode": 135
-        },
-        {
-          "asset": {
-            "digest": "sha256:8d73b69ef4ab02fbe9de60fe39150515da09423f5809ae20929cd7e0ccc0d4ca",
-            "id": 688139767,
-            "name": "duck-toolbox-0.2.1-Stable-131-canary.zip",
-            "sha256": "8d73b69ef4ab02fbe9de60fe39150515da09423f5809ae20929cd7e0ccc0d4ca",
-            "size": 8980370,
-            "url": "https://github.com/eltavine/Duck-ToolBox/releases/download/nightly-f48b9759-20261029T101447647539Z/duck-toolbox-0.2.1-Stable-131-canary.zip"
-          },
-          "body": "Canary module built from commit f48b975904031fecc80726ec9d7d2d8e500d695d.\n\nCI run: https://github.com/eltavine/Duck-ToolBox/actions/runs/40855359934\n\nGPLv3 Play Integrity corresponding source (build commit): https://github.com/eltavine/Duck-ToolBox/tree/f48b975904031fecc80726ec9d7d2d8e500d695d/components/play-integrity\n",
-          "htmlUrl": "https://github.com/eltavine/Duck-ToolBox/releases/tag/nightly-f48b9759-20261029T101447647539Z",
-          "immutable": true,
-          "name": "nightly-f48b9759-20261029T101447647539Z",
-          "prerelease": true,
-          "prop": {
-            "author": "Eltavine & KOW & MhmRdd",
-            "description": "Android attestation toolbox: Tricky Store / TEESimulator / OhMyKeymint manager (a full Tricky Addon port), RKP workbench and device ID provisioning (Qualcomm / MediaTek TrustKernel), in one WebUI.",
-            "id": "duck-toolbox",
-            "name": "Duck ToolBox",
-            "updateJson": "https://raw.githubusercontent.com/eltavine/Duck-ToolBox/main/update.json",
-            "version": "0.2.1-Stable (131-canary)",
-            "versionCode": "131"
-          },
-          "publishedAt": "2026-10-29T10:14:51Z",
-          "releaseId": 427710800,
-          "tag": "nightly-f48b9759-20261029T101447647539Z",
-          "tagCommit": "f48b975904031fecc80726ec9d7d2d8e500d695d",
-          "version": "0.2.1-Stable (131-canary)",
-          "versionCode": 131
         },
         {
           "asset": {
@@ -5341,6 +5341,10 @@
         },
         "437517525": {
           "checkedAt": "2026-11-07T11:00:04.488Z",
+          "ok": true
+        },
+        "438805507": {
+          "checkedAt": "2026-11-09T06:35:28.915Z",
           "ok": true
         }
       },
