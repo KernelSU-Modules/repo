@@ -1448,17 +1448,47 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-09T02:38:21.028Z",
-        "lastSuccessAt": "2026-11-09T02:38:21.028Z",
+        "lastAttemptAt": "2026-11-09T04:57:43.098Z",
+        "lastSuccessAt": "2026-11-09T04:57:43.098Z",
         "message": null,
         "status": "ok"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
-      "maxStableVersionCode": 30057,
-      "maxVersionCode": 30057,
+      "maxStableVersionCode": 30058,
+      "maxVersionCode": 30058,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:0c8095243b6fa0d219479736d37681f10b6871aa6e9eb091b9a48e930666d24f",
+            "id": 726282719,
+            "name": "KernelSU-Tuner-30058-v3.5.8.zip",
+            "sha256": "0c8095243b6fa0d219479736d37681f10b6871aa6e9eb091b9a48e930666d24f",
+            "size": 106875,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.8/KernelSU-Tuner-30058-v3.5.8.zip"
+          },
+          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThis is the actual cause of the lag. The IO scheduler I changed last release was a real problem, but not the main one.\n\n`initrc` starts `KernelSU-Tuner_watch` with `appwatch.sh run` directly, which skips the switch check that lives in the `start` branch. So with `APPWATCH=0` the foreground polling kept running anyway. You can see it in the log you sent:\n\n```\n13:45:31 启动\n13:45:36 默认 -> balanced\n13:51:11 默认 -> performance\n```\n\nThat is the appwatch loop, while the switch was off.\n\nWhat it does every 3 seconds is `dumpsys activity activities`. That is one of the heaviest commands in Android and it holds the ActivityManager lock while it builds its output. The back gesture, launching WeChat, opening the WebUI all need that same lock, so everything waits a beat and then continues, over and over.\n\nFixes:\n- `run_loop` checks the switch itself now and exits immediately when it is off, so it cannot be started around the check any more.\n- the poll interval went from 3 seconds to 10.\n- `fg_pkg` tries `dumpsys window` first, which is far smaller. It only falls back to `dumpsys activity activities` if that returns nothing.\n\nAfter installing, reboot. The old polling process belongs to the previous version and only goes away on restart.\n\nversionCode 30058.",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.8",
+          "immutable": true,
+          "name": "v3.5.8",
+          "prerelease": false,
+          "prop": {
+            "author": "ylh440104",
+            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+            "version": "v3.5.8",
+            "versionCode": "30058"
+          },
+          "publishedAt": "2026-11-09T04:57:22Z",
+          "releaseId": 438757085,
+          "tag": "v3.5.8",
+          "tagCommit": "8616057e5b1f33f6ef530b176c1f5cde3ed9f626",
+          "version": "v3.5.8",
+          "versionCode": 30058
+        },
         {
           "asset": {
             "digest": "sha256:85836756a1c513a3c355373e2f5688f3f68a0c4399f55ed9bfe91fa0e8ac78a6",
@@ -1728,36 +1758,6 @@
           "tagCommit": "cfec6aa01c276a2258581c1b6da62302cf661444",
           "version": "v3.4.2",
           "versionCode": 30042
-        },
-        {
-          "asset": {
-            "digest": "sha256:e03c1edb5187ed6e1654af26ef867390717edb5110ed4ae8580187a27a974ca0",
-            "id": 636733638,
-            "name": "KernelSU-Tuner-30041-v3.4.1.zip",
-            "sha256": "e03c1edb5187ed6e1654af26ef867390717edb5110ed4ae8580187a27a974ca0",
-            "size": 53024,
-            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.1/KernelSU-Tuner-30041-v3.4.1.zip"
-          },
-          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**This fixes the WebUI not loading.** In 3.4.0 the string assigned to the wipe-protection command display was split across three lines. That is not valid JavaScript, so the entire script failed to parse and the interface never appeared. The newline is escaped now.\n\n**Also corrected.** The duplicate cleanup in 3.4.0 went too far: it removed the only copy of the kernel-extension and watchdog script block, which left those nine switches unrendered and six buttons dead. It also took out the live-monitor pane opening tag and the dry-run card. The script block is back, the live monitor is its own pane again, and the dry-run card with its button is restored.\n\n**Still removed:** the two genuinely duplicated rows (`CPU_FREQ`, `zoneRow`) and one copy each of the kernel-extension and watchdog cards.\n\n**Verified with** `node --check` on the extracted script, a headless run of the whole script against a DOM stub with no runtime errors, and a pass confirming all 124 ids the script references exist and all 43 buttons have listeners.\n\nEverything else is unchanged from 3.4.0.",
-          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.1",
-          "immutable": true,
-          "name": "v3.4.1",
-          "prerelease": false,
-          "prop": {
-            "author": "Operit",
-            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
-            "id": "KernelSU-Tuner",
-            "name": "KernelSU Tuner",
-            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-            "version": "v3.4.1",
-            "versionCode": "30041"
-          },
-          "publishedAt": "2026-10-13T10:52:08Z",
-          "releaseId": 411571389,
-          "tag": "v3.4.1",
-          "tagCommit": "da6548b6e7062ff338fb537f2a54bfb0e31eb1ab",
-          "version": "v3.4.1",
-          "versionCode": 30041
         }
       ],
       "repositoryId": 1414095668,
@@ -1833,21 +1833,25 @@
         "438686872": {
           "checkedAt": "2026-11-09T02:38:21.028Z",
           "ok": true
+        },
+        "438757085": {
+          "checkedAt": "2026-11-09T04:57:43.098Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:85836756a1c513a3c355373e2f5688f3f68a0c4399f55ed9bfe91fa0e8ac78a6",
-          "id": 725972460,
-          "name": "KernelSU-Tuner-30057-v3.5.7.zip",
-          "sha256": "85836756a1c513a3c355373e2f5688f3f68a0c4399f55ed9bfe91fa0e8ac78a6",
-          "size": 106441,
-          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.7/KernelSU-Tuner-30057-v3.5.7.zip"
+          "digest": "sha256:0c8095243b6fa0d219479736d37681f10b6871aa6e9eb091b9a48e930666d24f",
+          "id": 726282719,
+          "name": "KernelSU-Tuner-30058-v3.5.8.zip",
+          "sha256": "0c8095243b6fa0d219479736d37681f10b6871aa6e9eb091b9a48e930666d24f",
+          "size": 106875,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.8/KernelSU-Tuner-30058-v3.5.8.zip"
         },
-        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThe IO scheduler was the main cause. Samsung ships `ssg` as the default scheduler on this device, and the module replaced it with `none`. Every block IO goes through that scheduler, so changing it makes everything feel one beat slower: back gesture, opening a chat, even loading the WebUI.\n\nThe scheduler is only replaced now if the current one is `cfq` or `deadline`, both old and long past their best. Vendor schedulers (`ssg`, `none`, `mq-deadline`, `bfq`, `kyber`) are left alone.\n\nEach apply also restores the recorded original first, then decides whether to change anything. That means simply installing this and applying once puts `ssg` back for you; no manual revert needed.\n\nAlso in this build:\n- `read_ahead_kb` dropped a lot: 128 power save, 256 balanced, 512 performance, 1024 gaming. It used to write 2048 on performance, against a stock value of 128. Over-reading hurts random IO more than it helps.\n- performance and gaming keep `walt` if the kernel has it, instead of forcing `performance`. Samsung defaults to `walt`; forcing `performance` just builds heat and gets throttled later.\n- turning a switch off now actually restores the node. `CPU_GOV`, `CPU_FREQ`, `IO_SCHED` and `READ_AHEAD` restore their recorded originals when disabled. Before, disabling only stopped future writes, so anything already changed stayed changed, which is why flipping switches did nothing.\n\nversionCode 30057.",
-        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.7",
+        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThis is the actual cause of the lag. The IO scheduler I changed last release was a real problem, but not the main one.\n\n`initrc` starts `KernelSU-Tuner_watch` with `appwatch.sh run` directly, which skips the switch check that lives in the `start` branch. So with `APPWATCH=0` the foreground polling kept running anyway. You can see it in the log you sent:\n\n```\n13:45:31 启动\n13:45:36 默认 -> balanced\n13:51:11 默认 -> performance\n```\n\nThat is the appwatch loop, while the switch was off.\n\nWhat it does every 3 seconds is `dumpsys activity activities`. That is one of the heaviest commands in Android and it holds the ActivityManager lock while it builds its output. The back gesture, launching WeChat, opening the WebUI all need that same lock, so everything waits a beat and then continues, over and over.\n\nFixes:\n- `run_loop` checks the switch itself now and exits immediately when it is off, so it cannot be started around the check any more.\n- the poll interval went from 3 seconds to 10.\n- `fg_pkg` tries `dumpsys window` first, which is far smaller. It only falls back to `dumpsys activity activities` if that returns nothing.\n\nAfter installing, reboot. The old polling process belongs to the previous version and only goes away on restart.\n\nversionCode 30058.",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.8",
         "immutable": true,
-        "name": "v3.5.7",
+        "name": "v3.5.8",
         "prerelease": false,
         "prop": {
           "author": "ylh440104",
@@ -1855,15 +1859,15 @@
           "id": "KernelSU-Tuner",
           "name": "KernelSU Tuner",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-          "version": "v3.5.7",
-          "versionCode": "30057"
+          "version": "v3.5.8",
+          "versionCode": "30058"
         },
-        "publishedAt": "2026-11-09T02:37:59Z",
-        "releaseId": 438686872,
-        "tag": "v3.5.7",
-        "tagCommit": "f340b86e2ac44526d5cb028058d6f4f13710b22a",
-        "version": "v3.5.7",
-        "versionCode": 30057
+        "publishedAt": "2026-11-09T04:57:22Z",
+        "releaseId": 438757085,
+        "tag": "v3.5.8",
+        "tagCommit": "8616057e5b1f33f6ef530b176c1f5cde3ed9f626",
+        "version": "v3.5.8",
+        "versionCode": 30058
       },
       "stars": {
         "count": 21,
