@@ -637,11 +637,11 @@
       }
     },
     "duck-toolbox": {
-      "contentCommit": "8d6a2470b1033c35946b72bb1f9bc56d8947dd63",
+      "contentCommit": "3e872632382357c91e0f94b5de6f028f0a6984b8",
       "fullName": "eltavine/Duck-ToolBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T11:00:04.488Z",
+      "lastSuccessAt": "2026-11-09T06:33:16.530Z",
       "maxVersionCode": 151,
       "message": null,
       "repositoryId": 1196357682,
@@ -820,7 +820,7 @@
       }
     },
     "hypercool": {
-      "contentCommit": "1dbed92c9609dd8db6accc1db1e5312e0409316f",
+      "contentCommit": "4f63e08afdcafffb216cf3c80e2e1406d024b4b6",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
@@ -829,8 +829,8 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-09T06:19:46.379Z",
-        "commit": "1dbed92c9609dd8db6accc1db1e5312e0409316f",
+        "checkedAt": "2026-11-09T06:33:16.530Z",
+        "commit": "4f63e08afdcafffb216cf3c80e2e1406d024b4b6",
         "issues": [],
         "latestTag": "v2.2",
         "ok": true,
