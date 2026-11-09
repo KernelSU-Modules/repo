@@ -814,7 +814,7 @@
       }
     },
     "hypercool": {
-      "contentCommit": "4f63e08afdcafffb216cf3c80e2e1406d024b4b6",
+      "contentCommit": "d0361e3eb6d7215c0de7784b81523983c85d3d50",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
@@ -823,8 +823,8 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-09T06:33:16.530Z",
-        "commit": "4f63e08afdcafffb216cf3c80e2e1406d024b4b6",
+        "checkedAt": "2026-11-09T07:30:09.271Z",
+        "commit": "d0361e3eb6d7215c0de7784b81523983c85d3d50",
         "issues": [],
         "latestTag": "v2.2",
         "ok": true,
@@ -1194,7 +1194,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "c826b4c0aa5f153ea591c3807bb3d753dd629cfe",
+      "contentCommit": "109e37481380d40e7710db1d58a2121f2bd385a6",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1203,8 +1203,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-09T06:02:03.426Z",
-        "commit": "c826b4c0aa5f153ea591c3807bb3d753dd629cfe",
+        "checkedAt": "2026-11-09T07:30:09.271Z",
+        "commit": "109e37481380d40e7710db1d58a2121f2bd385a6",
         "issues": [],
         "latestTag": "v2.3.0-r18.9-1",
         "ok": true,
