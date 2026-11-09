@@ -1448,17 +1448,47 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-08T05:39:15.779Z",
-        "lastSuccessAt": "2026-11-08T05:39:15.779Z",
+        "lastAttemptAt": "2026-11-09T02:38:21.028Z",
+        "lastSuccessAt": "2026-11-09T02:38:21.028Z",
         "message": null,
         "status": "ok"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
-      "maxStableVersionCode": 30056,
-      "maxVersionCode": 30056,
+      "maxStableVersionCode": 30057,
+      "maxVersionCode": 30057,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:85836756a1c513a3c355373e2f5688f3f68a0c4399f55ed9bfe91fa0e8ac78a6",
+            "id": 725972460,
+            "name": "KernelSU-Tuner-30057-v3.5.7.zip",
+            "sha256": "85836756a1c513a3c355373e2f5688f3f68a0c4399f55ed9bfe91fa0e8ac78a6",
+            "size": 106441,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.7/KernelSU-Tuner-30057-v3.5.7.zip"
+          },
+          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThe IO scheduler was the main cause. Samsung ships `ssg` as the default scheduler on this device, and the module replaced it with `none`. Every block IO goes through that scheduler, so changing it makes everything feel one beat slower: back gesture, opening a chat, even loading the WebUI.\n\nThe scheduler is only replaced now if the current one is `cfq` or `deadline`, both old and long past their best. Vendor schedulers (`ssg`, `none`, `mq-deadline`, `bfq`, `kyber`) are left alone.\n\nEach apply also restores the recorded original first, then decides whether to change anything. That means simply installing this and applying once puts `ssg` back for you; no manual revert needed.\n\nAlso in this build:\n- `read_ahead_kb` dropped a lot: 128 power save, 256 balanced, 512 performance, 1024 gaming. It used to write 2048 on performance, against a stock value of 128. Over-reading hurts random IO more than it helps.\n- performance and gaming keep `walt` if the kernel has it, instead of forcing `performance`. Samsung defaults to `walt`; forcing `performance` just builds heat and gets throttled later.\n- turning a switch off now actually restores the node. `CPU_GOV`, `CPU_FREQ`, `IO_SCHED` and `READ_AHEAD` restore their recorded originals when disabled. Before, disabling only stopped future writes, so anything already changed stayed changed, which is why flipping switches did nothing.\n\nversionCode 30057.",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.7",
+          "immutable": true,
+          "name": "v3.5.7",
+          "prerelease": false,
+          "prop": {
+            "author": "ylh440104",
+            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+            "version": "v3.5.7",
+            "versionCode": "30057"
+          },
+          "publishedAt": "2026-11-09T02:37:59Z",
+          "releaseId": 438686872,
+          "tag": "v3.5.7",
+          "tagCommit": "f340b86e2ac44526d5cb028058d6f4f13710b22a",
+          "version": "v3.5.7",
+          "versionCode": 30057
+        },
         {
           "asset": {
             "digest": "sha256:a64b8f96d210e2e2797acfb2b31fad7f9e83b51e68d035039b8dace60c56147e",
@@ -1728,36 +1758,6 @@
           "tagCommit": "da6548b6e7062ff338fb537f2a54bfb0e31eb1ab",
           "version": "v3.4.1",
           "versionCode": 30041
-        },
-        {
-          "asset": {
-            "digest": "sha256:31c534b53951743834bc408f0c1cb787d3170937f2a7ecad45d481d9c23881fc",
-            "id": 631111076,
-            "name": "KernelSU-Tuner-30040-v3.4.0.zip",
-            "sha256": "31c534b53951743834bc408f0c1cb787d3170937f2a7ecad45d481d9c23881fc",
-            "size": 53132,
-            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.0/KernelSU-Tuner-30040-v3.4.0.zip"
-          },
-          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**Kernel extensions.** A new `kernel.sh` covers the areas this module had not touched: devfreq bus and memory-controller clocks, KSM deduplication, transparent hugepages, `schedtune` boost, the full three-value TCP buffers, touch boost, and the filesystem ceilings (inotify, file-max, nr_open). Each section has its own switch and all of them are off by default.\n\n**Config versioning.** Config writes now go through a temp file and an atomic rename rather than `sed -i`, so an interrupted write can no longer leave a half-written file. There is a `SCHEMA` field and a migration path that fills in new keys on existing installs without disturbing what is already set.\n\n**SELinux.** The module now ships `sepolicy.rule` with 184 rules covering the nodes it writes. Previously some writes could be silently blocked on enforcing devices.\n\n**Watchdog.** `watchdog.sh` checks autopilot, guard, appwatch and wipeshield every five minutes and restarts anything that died. They used to fail silently.\n\n**Also**\n- periodic TRIM, interval in days\n- switch to powersave automatically below a battery level you choose\n- dry run now reports what the kernel extensions would change\n- WebUI: kernel extension switches, watchdog controls, devfreq listing\n\n**Fixed**\n- safe mode appended `SAFEGUARD=0` to the config, creating a duplicate key. It rewrites in place now\n- the boot-failure counter was left as an empty file when cleared\n\nEverything from earlier versions is unchanged.",
-          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.0",
-          "immutable": true,
-          "name": "v3.4.0",
-          "prerelease": false,
-          "prop": {
-            "author": "Operit",
-            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
-            "id": "KernelSU-Tuner",
-            "name": "KernelSU Tuner",
-            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-            "version": "v3.4.0",
-            "versionCode": "30040"
-          },
-          "publishedAt": "2026-10-11T15:36:29Z",
-          "releaseId": 409755685,
-          "tag": "v3.4.0",
-          "tagCommit": "12dc3479d7736a74d368f61342a468224ba5ff99",
-          "version": "v3.4.0",
-          "versionCode": 30040
         }
       ],
       "repositoryId": 1414095668,
@@ -1829,21 +1829,25 @@
         "438056598": {
           "checkedAt": "2026-11-08T05:39:15.779Z",
           "ok": true
+        },
+        "438686872": {
+          "checkedAt": "2026-11-09T02:38:21.028Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:a64b8f96d210e2e2797acfb2b31fad7f9e83b51e68d035039b8dace60c56147e",
-          "id": 723017382,
-          "name": "KernelSU-Tuner-30056-v3.5.6.zip",
-          "sha256": "a64b8f96d210e2e2797acfb2b31fad7f9e83b51e68d035039b8dace60c56147e",
-          "size": 105733,
-          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.6/KernelSU-Tuner-30056-v3.5.6.zip"
+          "digest": "sha256:85836756a1c513a3c355373e2f5688f3f68a0c4399f55ed9bfe91fa0e8ac78a6",
+          "id": 725972460,
+          "name": "KernelSU-Tuner-30057-v3.5.7.zip",
+          "sha256": "85836756a1c513a3c355373e2f5688f3f68a0c4399f55ed9bfe91fa0e8ac78a6",
+          "size": 106441,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.7/KernelSU-Tuner-30057-v3.5.7.zip"
         },
-        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nTwo things were making the S25 Ultra slow.\n\nFirst, the balanced profile replaced the CPU governor. Samsung ships `performance` as the governor, and the balanced candidate list started with `schedutil`, so applying the balanced profile quietly downgraded the whole device. Balanced no longer touches the governor at all. Powersave still switches it, and performance/gaming still set `performance`.\n\nSecond, the IO tuning walked every entry under `/sys/block`. On this device that is 160 `loop` devices plus a couple of dozen `dm-*` mappings, so every apply wrote close to four hundred nodes. It now skips `loop`, `dm`, `ram`, `zram` and `sr`, and only touches real storage.\n\nVerified against a mock of the S25 Ultra layout: after applying balanced, both clusters keep `performance` and their original frequency range.\n\nIf you already have it installed, either uninstall and reinstall cleanly, or run `tuner.sh revert` first so the old governor value goes back.\n\nversionCode 30056.",
-        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.6",
+        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThe IO scheduler was the main cause. Samsung ships `ssg` as the default scheduler on this device, and the module replaced it with `none`. Every block IO goes through that scheduler, so changing it makes everything feel one beat slower: back gesture, opening a chat, even loading the WebUI.\n\nThe scheduler is only replaced now if the current one is `cfq` or `deadline`, both old and long past their best. Vendor schedulers (`ssg`, `none`, `mq-deadline`, `bfq`, `kyber`) are left alone.\n\nEach apply also restores the recorded original first, then decides whether to change anything. That means simply installing this and applying once puts `ssg` back for you; no manual revert needed.\n\nAlso in this build:\n- `read_ahead_kb` dropped a lot: 128 power save, 256 balanced, 512 performance, 1024 gaming. It used to write 2048 on performance, against a stock value of 128. Over-reading hurts random IO more than it helps.\n- performance and gaming keep `walt` if the kernel has it, instead of forcing `performance`. Samsung defaults to `walt`; forcing `performance` just builds heat and gets throttled later.\n- turning a switch off now actually restores the node. `CPU_GOV`, `CPU_FREQ`, `IO_SCHED` and `READ_AHEAD` restore their recorded originals when disabled. Before, disabling only stopped future writes, so anything already changed stayed changed, which is why flipping switches did nothing.\n\nversionCode 30057.",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.7",
         "immutable": true,
-        "name": "v3.5.6",
+        "name": "v3.5.7",
         "prerelease": false,
         "prop": {
           "author": "ylh440104",
@@ -1851,19 +1855,19 @@
           "id": "KernelSU-Tuner",
           "name": "KernelSU Tuner",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-          "version": "v3.5.6",
-          "versionCode": "30056"
+          "version": "v3.5.7",
+          "versionCode": "30057"
         },
-        "publishedAt": "2026-11-08T05:39:14Z",
-        "releaseId": 438056598,
-        "tag": "v3.5.6",
-        "tagCommit": "8cd90126c4d1f3ea7a4cce26f4f122fa63b76db1",
-        "version": "v3.5.6",
-        "versionCode": 30056
+        "publishedAt": "2026-11-09T02:37:59Z",
+        "releaseId": 438686872,
+        "tag": "v3.5.7",
+        "tagCommit": "f340b86e2ac44526d5cb028058d6f4f13710b22a",
+        "version": "v3.5.7",
+        "versionCode": 30057
       },
       "stars": {
-        "count": 19,
-        "fetchedAt": "2026-11-08T05:39:15.779Z",
+        "count": 21,
+        "fetchedAt": "2026-11-09T02:38:21.028Z",
         "fullName": "ylh440104/KernelSU-Tuner",
         "repositoryId": 1414095668,
         "verified": "self"
