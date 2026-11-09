@@ -727,28 +727,28 @@
     "CRecordEvolution": {
       "content": {
         "blobs": {
-          ".github/images/history-en.png": "0d0323a403bbd4ca2235187b3c5f2acaa8752d48",
+          ".github/images/history-en.png": "04904a22a5a3429c73cc0e12862bcaee40599794",
           ".github/images/how-it-works-en-dark.png": "7e5c9412e71507cfce511fb8242a41d305e30414",
           ".github/images/how-it-works-en.png": "f91878e19e75d66f8f0c536e6cc02b2089759599",
-          ".github/images/overview-en.png": "4e4f436a4b4cb88c31bbc91bab84f2dbd777fd65",
-          ".github/images/settings-en.png": "ba5e71a41bbfd5c71182e9c00acdc14e4b112740",
-          ".github/images/trends-en.png": "2d80594b43b5613eb70a0bfd77cb24273e64b3f5",
-          "README.md": "ef84247d0541c2139791903ee8ce3b0a88a26462",
+          ".github/images/overview-en.png": "5d75288249fc9d3c0a33ff98160f46872d8e4af2",
+          ".github/images/settings-en.png": "d84d0baee0a778a3c986d226bc3dbe0b2be51136",
+          ".github/images/trends-en.png": "3ea5b25bd4133fad228f0a8f04e8929237eb18d4",
+          "README.md": "ee7f644d420741bd718e924f3884cc6cd31664b2",
           "assets/icon.png": "5dc474bb718300203dce63f6f647c0d98cc4a3b6",
-          "module.yaml": "99b94b13495317433d7c9f9ad9ddad25fddc4d96"
+          "module.yaml": "af46db6ce9b3521a63f54a2523a3de272490b8a6"
         },
-        "commit": "def32764f25b99fe01c3c52a578f1940331623ec",
-        "fetchedAt": "2026-11-08T08:50:20.065Z",
+        "commit": "bbfb8bed246ef6a48b5a842e1e70a4216568d84b",
+        "fetchedAt": "2026-11-09T14:37:02.978Z",
         "files": {
-          ".github/images/history-en.png": "a334906d69fba8871bfdd1d528be47f37902be21bfb6e5ddfaeb1abaaaa6ddd6",
+          ".github/images/history-en.png": "ddf01000831d53eb33c399ae778336fbaa91788a9282cdafc31434b97cec99cf",
           ".github/images/how-it-works-en-dark.png": "39c90ed4f3604a2fb0de8341ee656c1ede0b561a7eb8f3fbaff6fb53709d2846",
           ".github/images/how-it-works-en.png": "16654f82c0b7f62be93bcb2adc367feceb004ae794babe1c940fdda85e603440",
-          ".github/images/overview-en.png": "3af37f16e69eca4f36f37b7f8e14e7ee849753e6bcd0a426f1bd432e5cb55e5b",
-          ".github/images/settings-en.png": "90cb69a14fd535d821af8ba520b37f1bb57e8fac3de87c838d3a07b2c5c97fd0",
-          ".github/images/trends-en.png": "16b13d4a6638b45a795935768ec6589e36d911319e2d3b7c07a5a29d123ae2b1",
-          "README.md": "823106ac692f69fbd8128ff88f82aa33035ccec1779875bd3efc997035bb9871",
+          ".github/images/overview-en.png": "991aba68d64c5a8280d6837bbf3d03a2f86f19e8178b86c628462df977fdab8b",
+          ".github/images/settings-en.png": "784714fb07b1781abaa04e6320ef424b58a620b4aad8eeebe05c85e2d141c18d",
+          ".github/images/trends-en.png": "de42f89279372a14a09b0fa5a4049b7b719e5fcf4956a644f211606998b4b201",
+          "README.md": "ccf10c0e341f04ce752a5cd67f7a1e169f002685c7e1f37321a1c64e4cca0474",
           "assets/icon.png": "ef5a7662da7b1a2debee42ebe7f5b3e2ad28e362adc958828c986c0026128f91",
-          "module.yaml": "a7c04b69a0eb359161c2d57cfca9256b4cf1f86ab95ef47414444be46f3fecf1"
+          "module.yaml": "ebfe31d302a3ceb7f02de8208dc4945730987a2dfff4ca8c586e4b1fa02cf1ea"
         },
         "manifestPath": "module.yaml",
         "ref": "main"
@@ -756,8 +756,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-08T09:01:46.803Z",
-        "lastSuccessAt": "2026-11-08T09:01:46.803Z",
+        "lastAttemptAt": "2026-11-09T14:37:02.978Z",
+        "lastSuccessAt": "2026-11-09T14:37:02.978Z",
         "message": null,
         "status": "ok"
       },
@@ -992,6 +992,12 @@
         },
         "438137110": {
           "checkedAt": "2026-11-08T09:01:46.803Z",
+          "code": "version-not-newer",
+          "message": "versionCode 37 is already used by the release v1.3.8. Publish a new release with a versionCode above 37.",
+          "ok": false
+        },
+        "439242317": {
+          "checkedAt": "2026-11-09T14:37:02.978Z",
           "code": "version-not-newer",
           "message": "versionCode 37 is already used by the release v1.3.8. Publish a new release with a versionCode above 37.",
           "ok": false
@@ -1884,14 +1890,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "0dc0a45f89411a2fcacfbd5a8585b0295a5b7ae5",
+          "README.md": "bdc30523aab101cd94fdf930a601c1471b63c8bb",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "76127983c07ec2af0e0a574142031124e896fd90",
-        "fetchedAt": "2026-11-09T14:24:33.114Z",
+        "commit": "a5fa04e1ef024f445e3b13975f4b5b3886e58784",
+        "fetchedAt": "2026-11-09T14:37:02.978Z",
         "files": {
-          "README.md": "eaf88aae1ab331ba1cff409d8421200c3e3d7acb69db9d6b5fab3684adb4c5aa",
+          "README.md": "db8cdab6bc9322cc90f0dc4c151d8f130628894593660cd5d7b5cf7b5bd176f8",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -1901,8 +1907,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-09T14:24:33.114Z",
-        "lastSuccessAt": "2026-11-09T14:24:33.114Z",
+        "lastAttemptAt": "2026-11-09T14:37:02.978Z",
+        "lastSuccessAt": "2026-11-09T14:37:02.978Z",
         "message": null,
         "status": "ok"
       },

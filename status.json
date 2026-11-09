@@ -98,11 +98,11 @@
       }
     },
     "CRecordEvolution": {
-      "contentCommit": "def32764f25b99fe01c3c52a578f1940331623ec",
+      "contentCommit": "bbfb8bed246ef6a48b5a842e1e70a4216568d84b",
       "fullName": "f1owkang/CRecordEvolution",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-08T09:01:46.803Z",
+      "lastSuccessAt": "2026-11-09T14:37:02.978Z",
       "maxVersionCode": 37,
       "message": null,
       "repositoryId": 678049636,
@@ -187,11 +187,11 @@
       "stable": null
     },
     "MagicNet": {
-      "contentCommit": "76127983c07ec2af0e0a574142031124e896fd90",
+      "contentCommit": "a5fa04e1ef024f445e3b13975f4b5b3886e58784",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-09T14:24:33.114Z",
+      "lastSuccessAt": "2026-11-09T14:37:02.978Z",
       "maxVersionCode": 10613,
       "message": null,
       "repositoryId": 998453022,
