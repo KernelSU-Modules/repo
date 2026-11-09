@@ -309,17 +309,50 @@
       "fullName": "AlirezaParsi/COPG",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-08T08:19:11.777Z",
-        "lastSuccessAt": "2026-11-08T08:19:11.777Z",
+        "lastAttemptAt": "2026-11-09T14:41:25.598Z",
+        "lastSuccessAt": "2026-11-09T14:41:25.598Z",
         "message": null,
         "status": "ok"
       },
       "id": "COPG",
       "installationId": 174213522,
-      "maxStableVersionCode": 771,
-      "maxVersionCode": 771,
+      "maxStableVersionCode": 772,
+      "maxVersionCode": 772,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:b20877116c5cc910bad7120bbf3b9658c1d1dbea893a485faeb589d1f9396a90",
+            "id": 727820441,
+            "name": "COPG-v7.7.2.zip",
+            "sha256": "b20877116c5cc910bad7120bbf3b9658c1d1dbea893a485faeb589d1f9396a90",
+            "size": 10634913,
+            "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.7.2/COPG-v7.7.2.zip"
+          },
+          "body": "## COPG v7.7.2\n\n*Protected apps that used to close on launch with COPG installed now work, plus a new device field and more complete translations.*\n\n### Protected apps — fixed\n*   **Some apps closed instantly when COPG was installed, even with no spoof set on them.** A few apps wrapped in certain third-party protectors would detect COPG and exit on launch (untagged apps included). COPG now leaves no trace in those apps unless you actually turn a spoof on, so they launch and stay open normally.\n*   **Extra stealth hardening** for apps that unload COPG after spoofing, so nothing of COPG is left behind for an app to find.\n\n### Device profile\n*   **Separate Device field.** `Build.DEVICE` (the product device codename) is now its own field in the device modal. Leave it blank to keep matching the fingerprint automatically; fill it only if you need a different value.\n\n### Translations\n*   **Arabic, German, Spanish, Indonesian, Thai and Chinese are now complete** — every screen is fully translated.\n\n---\n---\n**Build Date**: 2026-11-09 14:41:01 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
+          "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.7.2",
+          "immutable": true,
+          "name": "COPG v7.7.2",
+          "prerelease": false,
+          "prop": {
+            "author": "AlirezaParsi",
+            "banner": "banner.png",
+            "description": "Spoof your device for games/apps to unlock new features. Website: https://vendors.copg.my",
+            "id": "COPG",
+            "minMagisk": "20.4",
+            "name": "✨ COPG SPOOF ✨",
+            "support": "https://t.me/theaosp",
+            "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
+            "version": "7.7.2",
+            "versionCode": "772"
+          },
+          "publishedAt": "2026-11-09T14:41:07Z",
+          "releaseId": 439247624,
+          "tag": "v7.7.2",
+          "tagCommit": "d43eddce0ff165fa41bcf85a3597e126cf7eddc1",
+          "version": "7.7.2",
+          "versionCode": 772
+        },
         {
           "asset": {
             "digest": "sha256:a4d7b81ab775c6111b0098bcf895432fbb6eefe961d17799c8cc9d244b4aff84",
@@ -681,21 +714,25 @@
         "438119051": {
           "checkedAt": "2026-11-08T08:19:11.777Z",
           "ok": true
+        },
+        "439247624": {
+          "checkedAt": "2026-11-09T14:41:25.598Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:a4d7b81ab775c6111b0098bcf895432fbb6eefe961d17799c8cc9d244b4aff84",
-          "id": 723349125,
-          "name": "COPG-v7.7.1.zip",
-          "sha256": "a4d7b81ab775c6111b0098bcf895432fbb6eefe961d17799c8cc9d244b4aff84",
-          "size": 10550305,
-          "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.7.1/COPG-v7.7.1.zip"
+          "digest": "sha256:b20877116c5cc910bad7120bbf3b9658c1d1dbea893a485faeb589d1f9396a90",
+          "id": 727820441,
+          "name": "COPG-v7.7.2.zip",
+          "sha256": "b20877116c5cc910bad7120bbf3b9658c1d1dbea893a485faeb589d1f9396a90",
+          "size": 10634913,
+          "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.7.2/COPG-v7.7.2.zip"
         },
-        "body": "## COPG v7.7.1\n\n*Works on Zygisk Next 1.5.3 again, your config survives updates, and a few device-profile and WebUI additions.*\n\n### Zygisk Next 1.5.3 — fixed\n*   **COPG spoofed nothing on Zygisk Next 1.5.3.** The new Zygisk Next stopped granting a permission COPG used to read its own config, so every app looked \"not configured\" and ran unspoofed (the license still showed valid). COPG now ships that permission itself, so it works on 1.5.3 and older versions alike.\n\n### Updates keep your setup\n*   **Updating no longer wipes your config.** Every update used to replace your devices, packages and tags with the defaults. Now your existing COPG.json and list.json are kept, and the install screen says so. A missing or broken file still falls back to the default.\n\n### Device profile\n*   **Custom system props editor.** In a device's advanced section you can now fake any short existing system prop (for example `ril.product_code`, `ril.official_cscver`, `ro.omc.build.version`) for apps with COW Prop Spoof (`cow`) on.\n*   **Base OS field.** New build field for `Build.VERSION.BASE_OS` (and the matching prop for `cow` apps).\n*   **Separate Product field.** Product was silently overwritten with the model on every save, so a real product name (e.g. `e3qxxx` vs model `SM-S928B`) could never be set. It's its own field now; left blank it falls back to the fingerprint's product, then the model.\n\n### WebUI\n*   **Edit several packages together.** Long-press to select packages, then **Edit together**: change only the toggles you want (device, GPU, `cow`, `aid`, …) and they apply to every selected app, leaving each app's other settings as they were. Handy for clones and per-user copies.\n\n---\n---\n**Build Date**: 2026-11-08 08:18:44 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
-        "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.7.1",
+        "body": "## COPG v7.7.2\n\n*Protected apps that used to close on launch with COPG installed now work, plus a new device field and more complete translations.*\n\n### Protected apps — fixed\n*   **Some apps closed instantly when COPG was installed, even with no spoof set on them.** A few apps wrapped in certain third-party protectors would detect COPG and exit on launch (untagged apps included). COPG now leaves no trace in those apps unless you actually turn a spoof on, so they launch and stay open normally.\n*   **Extra stealth hardening** for apps that unload COPG after spoofing, so nothing of COPG is left behind for an app to find.\n\n### Device profile\n*   **Separate Device field.** `Build.DEVICE` (the product device codename) is now its own field in the device modal. Leave it blank to keep matching the fingerprint automatically; fill it only if you need a different value.\n\n### Translations\n*   **Arabic, German, Spanish, Indonesian, Thai and Chinese are now complete** — every screen is fully translated.\n\n---\n---\n**Build Date**: 2026-11-09 14:41:01 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
+        "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.7.2",
         "immutable": true,
-        "name": "COPG v7.7.1",
+        "name": "COPG v7.7.2",
         "prerelease": false,
         "prop": {
           "author": "AlirezaParsi",
@@ -706,15 +743,15 @@
           "name": "✨ COPG SPOOF ✨",
           "support": "https://t.me/theaosp",
           "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
-          "version": "7.7.1",
-          "versionCode": "771"
+          "version": "7.7.2",
+          "versionCode": "772"
         },
-        "publishedAt": "2026-11-08T08:18:47Z",
-        "releaseId": 438119051,
-        "tag": "v7.7.1",
-        "tagCommit": "4dfa03ac14dfdbcd71e589ccf723c2c30c9f604a",
-        "version": "7.7.1",
-        "versionCode": 771
+        "publishedAt": "2026-11-09T14:41:07Z",
+        "releaseId": 439247624,
+        "tag": "v7.7.2",
+        "tagCommit": "d43eddce0ff165fa41bcf85a3597e126cf7eddc1",
+        "version": "7.7.2",
+        "versionCode": 772
       },
       "stars": {
         "count": 430,
@@ -1034,8 +1071,8 @@
         "versionCode": 37
       },
       "stars": {
-        "count": 22,
-        "fetchedAt": "2026-11-08T08:50:20.065Z",
+        "count": 23,
+        "fetchedAt": "2026-11-09T14:41:25.598Z",
         "fullName": "f1owkang/CRecordEvolution",
         "repositoryId": 678049636,
         "verified": "self"
