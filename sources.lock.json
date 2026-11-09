@@ -1448,17 +1448,47 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-09T04:57:43.098Z",
-        "lastSuccessAt": "2026-11-09T04:57:43.098Z",
+        "lastAttemptAt": "2026-11-09T05:05:33.173Z",
+        "lastSuccessAt": "2026-11-09T05:05:33.173Z",
         "message": null,
         "status": "ok"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
-      "maxStableVersionCode": 30058,
-      "maxVersionCode": 30058,
+      "maxStableVersionCode": 30059,
+      "maxVersionCode": 30059,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:234d6603200f5190de6c5135dbed2009e6dd5420d2e46f8017c149c06791825e",
+            "id": 726300426,
+            "name": "KernelSU-Tuner-30059-v3.5.9.zip",
+            "sha256": "234d6603200f5190de6c5135dbed2009e6dd5420d2e46f8017c149c06791825e",
+            "size": 107307,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.9/KernelSU-Tuner-30059-v3.5.9.zip"
+          },
+          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThe log showed the profile being applied three times on every boot:\n\n```\n13:45:23 已应用预设: balanced\n13:45:23 initrc 服务已应用预设 balanced\n13:45:24 已应用预设: balanced\n13:45:36 已应用预设: balanced\n```\n\n`initrc` applies once, `service.sh` applies again, and `appwatch` applies a third time on its first poll because it started with an empty `last` and saw a change.\n\nEach apply walks a few dozen nodes. Three of them back to back is a noticeable chunk of the startup lag, and the third one lands half a minute after boot, which is exactly when things feel worst.\n\nChanges:\n- a marker keyed by `/proc/sys/kernel/random/boot_id`, so only the first caller applies and the rest skip. Whatever starts first wins; order does not matter.\n- `appwatch` seeds `last` with the current base profile instead of an empty string, so startup no longer triggers a redundant apply.\n- `post-fs-data` removes the previous boot's marker.\n\nVerified: same boot id applies once then skips, a new boot id applies again.\n\nversionCode 30059.",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.9",
+          "immutable": true,
+          "name": "v3.5.9",
+          "prerelease": false,
+          "prop": {
+            "author": "ylh440104",
+            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+            "version": "v3.5.9",
+            "versionCode": "30059"
+          },
+          "publishedAt": "2026-11-09T05:05:13Z",
+          "releaseId": 438760885,
+          "tag": "v3.5.9",
+          "tagCommit": "ff3c28165a72b31c8d100f037c777a3d9b372082",
+          "version": "v3.5.9",
+          "versionCode": 30059
+        },
         {
           "asset": {
             "digest": "sha256:0c8095243b6fa0d219479736d37681f10b6871aa6e9eb091b9a48e930666d24f",
@@ -1728,36 +1758,6 @@
           "tagCommit": "04f9443dd1abda65a62b2f66a3a007cb14c4280f",
           "version": "v3.5.0",
           "versionCode": 30050
-        },
-        {
-          "asset": {
-            "digest": "sha256:85ff61648df0c7680739f42a372c34e30aede584cab40a1c8a7a6dceed0512db",
-            "id": 676475526,
-            "name": "KernelSU-Tuner-30042-v3.4.2.zip",
-            "sha256": "85ff61648df0c7680739f42a372c34e30aede584cab40a1c8a7a6dceed0512db",
-            "size": 53029,
-            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.4.2/KernelSU-Tuner-30042-v3.4.2.zip"
-          },
-          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\r\n\r\nversionCode 30042.",
-          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.4.2",
-          "immutable": true,
-          "name": "v3.4.2",
-          "prerelease": false,
-          "prop": {
-            "author": "ylh440104",
-            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
-            "id": "KernelSU-Tuner",
-            "name": "KernelSU Tuner",
-            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-            "version": "v3.4.2",
-            "versionCode": "30042"
-          },
-          "publishedAt": "2026-10-26T00:02:55Z",
-          "releaseId": 423740403,
-          "tag": "v3.4.2",
-          "tagCommit": "cfec6aa01c276a2258581c1b6da62302cf661444",
-          "version": "v3.4.2",
-          "versionCode": 30042
         }
       ],
       "repositoryId": 1414095668,
@@ -1837,21 +1837,25 @@
         "438757085": {
           "checkedAt": "2026-11-09T04:57:43.098Z",
           "ok": true
+        },
+        "438760885": {
+          "checkedAt": "2026-11-09T05:05:33.173Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:0c8095243b6fa0d219479736d37681f10b6871aa6e9eb091b9a48e930666d24f",
-          "id": 726282719,
-          "name": "KernelSU-Tuner-30058-v3.5.8.zip",
-          "sha256": "0c8095243b6fa0d219479736d37681f10b6871aa6e9eb091b9a48e930666d24f",
-          "size": 106875,
-          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.8/KernelSU-Tuner-30058-v3.5.8.zip"
+          "digest": "sha256:234d6603200f5190de6c5135dbed2009e6dd5420d2e46f8017c149c06791825e",
+          "id": 726300426,
+          "name": "KernelSU-Tuner-30059-v3.5.9.zip",
+          "sha256": "234d6603200f5190de6c5135dbed2009e6dd5420d2e46f8017c149c06791825e",
+          "size": 107307,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.9/KernelSU-Tuner-30059-v3.5.9.zip"
         },
-        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThis is the actual cause of the lag. The IO scheduler I changed last release was a real problem, but not the main one.\n\n`initrc` starts `KernelSU-Tuner_watch` with `appwatch.sh run` directly, which skips the switch check that lives in the `start` branch. So with `APPWATCH=0` the foreground polling kept running anyway. You can see it in the log you sent:\n\n```\n13:45:31 启动\n13:45:36 默认 -> balanced\n13:51:11 默认 -> performance\n```\n\nThat is the appwatch loop, while the switch was off.\n\nWhat it does every 3 seconds is `dumpsys activity activities`. That is one of the heaviest commands in Android and it holds the ActivityManager lock while it builds its output. The back gesture, launching WeChat, opening the WebUI all need that same lock, so everything waits a beat and then continues, over and over.\n\nFixes:\n- `run_loop` checks the switch itself now and exits immediately when it is off, so it cannot be started around the check any more.\n- the poll interval went from 3 seconds to 10.\n- `fg_pkg` tries `dumpsys window` first, which is far smaller. It only falls back to `dumpsys activity activities` if that returns nothing.\n\nAfter installing, reboot. The old polling process belongs to the previous version and only goes away on restart.\n\nversionCode 30058.",
-        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.8",
+        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThe log showed the profile being applied three times on every boot:\n\n```\n13:45:23 已应用预设: balanced\n13:45:23 initrc 服务已应用预设 balanced\n13:45:24 已应用预设: balanced\n13:45:36 已应用预设: balanced\n```\n\n`initrc` applies once, `service.sh` applies again, and `appwatch` applies a third time on its first poll because it started with an empty `last` and saw a change.\n\nEach apply walks a few dozen nodes. Three of them back to back is a noticeable chunk of the startup lag, and the third one lands half a minute after boot, which is exactly when things feel worst.\n\nChanges:\n- a marker keyed by `/proc/sys/kernel/random/boot_id`, so only the first caller applies and the rest skip. Whatever starts first wins; order does not matter.\n- `appwatch` seeds `last` with the current base profile instead of an empty string, so startup no longer triggers a redundant apply.\n- `post-fs-data` removes the previous boot's marker.\n\nVerified: same boot id applies once then skips, a new boot id applies again.\n\nversionCode 30059.",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.9",
         "immutable": true,
-        "name": "v3.5.8",
+        "name": "v3.5.9",
         "prerelease": false,
         "prop": {
           "author": "ylh440104",
@@ -1859,15 +1863,15 @@
           "id": "KernelSU-Tuner",
           "name": "KernelSU Tuner",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-          "version": "v3.5.8",
-          "versionCode": "30058"
+          "version": "v3.5.9",
+          "versionCode": "30059"
         },
-        "publishedAt": "2026-11-09T04:57:22Z",
-        "releaseId": 438757085,
-        "tag": "v3.5.8",
-        "tagCommit": "8616057e5b1f33f6ef530b176c1f5cde3ed9f626",
-        "version": "v3.5.8",
-        "versionCode": 30058
+        "publishedAt": "2026-11-09T05:05:13Z",
+        "releaseId": 438760885,
+        "tag": "v3.5.9",
+        "tagCommit": "ff3c28165a72b31c8d100f037c777a3d9b372082",
+        "version": "v3.5.9",
+        "versionCode": 30059
       },
       "stars": {
         "count": 21,
