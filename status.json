@@ -801,8 +801,8 @@
       "fullName": "Hybrid-Mount/meta-hybrid_mount",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-06T09:34:14.574Z",
-      "maxVersionCode": 602006302,
+      "lastSuccessAt": "2026-11-09T10:49:32.001Z",
+      "maxVersionCode": 602006304,
       "message": null,
       "repositoryId": 1103029590,
       "request": null,
@@ -814,7 +814,7 @@
       }
     },
     "hypercool": {
-      "contentCommit": "8cf1f861bc30eea6a6db4a3595dddc5e6c1b8e8a",
+      "contentCommit": "8f505e10826bb337404bf6d9fb0ce2fcc6667913",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
@@ -823,8 +823,8 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-09T10:32:14.568Z",
-        "commit": "8cf1f861bc30eea6a6db4a3595dddc5e6c1b8e8a",
+        "checkedAt": "2026-11-09T10:49:32.001Z",
+        "commit": "8f505e10826bb337404bf6d9fb0ce2fcc6667913",
         "issues": [],
         "latestTag": "v2.2.1",
         "ok": true,

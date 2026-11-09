@@ -5983,28 +5983,28 @@
       "fullName": "Hybrid-Mount/meta-hybrid_mount",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-06T09:34:14.574Z",
-        "lastSuccessAt": "2026-11-06T09:34:14.574Z",
+        "lastAttemptAt": "2026-11-09T10:49:32.001Z",
+        "lastSuccessAt": "2026-11-09T10:49:32.001Z",
         "message": null,
         "status": "ok"
       },
       "id": "hybrid_mount",
       "installationId": 170149812,
       "maxStableVersionCode": 602005999,
-      "maxVersionCode": 602006302,
+      "maxVersionCode": 602006304,
       "prerelease": {
         "asset": {
-          "digest": "sha256:238647afcef3ac5f8a9fc3d9fecd0d99c84c2a2d4a4fd1807f67d1eff5de0c29",
-          "id": 716628538,
-          "name": "Hybrid-Mount-6.2.6-rc.2-2154.zip",
-          "sha256": "238647afcef3ac5f8a9fc3d9fecd0d99c84c2a2d4a4fd1807f67d1eff5de0c29",
-          "size": 5430516,
-          "url": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6-rc.2/Hybrid-Mount-6.2.6-rc.2-2154.zip"
+          "digest": "sha256:6a277de19ae8f4b563fe8fd7bb4d7f5502b37975493fd2fd549cf54653398dad",
+          "id": 727127859,
+          "name": "Hybrid-Mount-6.2.6-rc.4-2162.zip",
+          "sha256": "6a277de19ae8f4b563fe8fd7bb4d7f5502b37975493fd2fd549cf54653398dad",
+          "size": 5427969,
+          "url": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6-rc.4/Hybrid-Mount-6.2.6-rc.4-2162.zip"
         },
-        "body": "\n## v6.2.6-rc.2\n\n\n### <!-- 1 --> Features\n\n- Map existing partitions from visible mount identities\n\n- Report partition degradation and guard hot layout changes\n\n- Support guarded directory remove markers across backends\n\n\n\n### <!-- 2 --> Fixes\n\n- `vfs` Probe xattr handler members in both Kbuild paths\n\n- Use explicit rustix xattr length query APIs\n\n- Prepare complete child mount views before publishing overlays\n\n- Decode mountinfo paths before probing visible mounts\n\n- `vfs` Preserve native directory views across UID isolation\n\n\n\n### <!-- 3 --> Documentation\n\n- Record partition mapping and upstream implementation plans\n\n- `vfs` Assess upstream lifetime changes against local ownership\n\n- `vfs` Compare pinned source identity and add device probe\n\n\n\n### <!-- 4 --> Tests\n\n- `vfs` Cover native iterator bypass and concurrent source probes\n\n- Reproduce prerelease xattr label regression from issue 511\n\n\n\n### <!-- 5 --> Miscellaneous\n\n- `vfs` Refresh all supported prebuilts and record verification\n\n\n\n",
-        "htmlUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/tag/v6.2.6-rc.2",
+        "body": "\n## v6.2.6-rc.4\n\n\n> ⚠️ **Pre-release / 预发布版本（RC）**\n> This release is for testing and may cause module failures, bootloops, or data loss. Back up your data and prepare a recovery method before installing. Use a stable release if you cannot accept these risks.\n> 此版本用于测试，可能出现模块失效、无法开机或数据丢失。安装前请备份数据，并准备好禁用模块或恢复系统的方法；无法接受风险请使用正式版。\n\n\n\n### <!-- 4 --> Tests\n\n- Isolate magic mount faults and use tmpfs for whiteouts\n\n- Document literal Make variable in xattr probe\n\n\n\n### <!-- 5 --> Miscellaneous\n\n- Allow executing kernel harnesses on the test tmpfs\n\n\n\n",
+        "htmlUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/tag/v6.2.6-rc.4",
         "immutable": true,
-        "name": "v6.2.6-rc.2",
+        "name": "v6.2.6-rc.4",
         "prerelease": true,
         "prop": {
           "author": "Hybrid Mount Developers",
@@ -6013,17 +6013,48 @@
           "metamodule": "1",
           "name": "Hybrid Mount",
           "updateJson": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/dev/update.json",
-          "version": "6.2.6-rc.2",
-          "versionCode": "602006302"
+          "version": "6.2.6-rc.4",
+          "versionCode": "602006304"
         },
-        "publishedAt": "2026-11-06T09:34:01Z",
-        "releaseId": 436316742,
-        "tag": "v6.2.6-rc.2",
-        "tagCommit": "3130fa95089fc5caf1f8860c1a9f5d2b9e04cd93",
-        "version": "6.2.6-rc.2",
-        "versionCode": 602006302
+        "publishedAt": "2026-11-09T10:49:08Z",
+        "releaseId": 439012125,
+        "tag": "v6.2.6-rc.4",
+        "tagCommit": "46709e9a620cfa133a5ee94700018882afe02a17",
+        "version": "6.2.6-rc.4",
+        "versionCode": 602006304
       },
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:6a277de19ae8f4b563fe8fd7bb4d7f5502b37975493fd2fd549cf54653398dad",
+            "id": 727127859,
+            "name": "Hybrid-Mount-6.2.6-rc.4-2162.zip",
+            "sha256": "6a277de19ae8f4b563fe8fd7bb4d7f5502b37975493fd2fd549cf54653398dad",
+            "size": 5427969,
+            "url": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6-rc.4/Hybrid-Mount-6.2.6-rc.4-2162.zip"
+          },
+          "body": "\n## v6.2.6-rc.4\n\n\n> ⚠️ **Pre-release / 预发布版本（RC）**\n> This release is for testing and may cause module failures, bootloops, or data loss. Back up your data and prepare a recovery method before installing. Use a stable release if you cannot accept these risks.\n> 此版本用于测试，可能出现模块失效、无法开机或数据丢失。安装前请备份数据，并准备好禁用模块或恢复系统的方法；无法接受风险请使用正式版。\n\n\n\n### <!-- 4 --> Tests\n\n- Isolate magic mount faults and use tmpfs for whiteouts\n\n- Document literal Make variable in xattr probe\n\n\n\n### <!-- 5 --> Miscellaneous\n\n- Allow executing kernel harnesses on the test tmpfs\n\n\n\n",
+          "htmlUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/tag/v6.2.6-rc.4",
+          "immutable": true,
+          "name": "v6.2.6-rc.4",
+          "prerelease": true,
+          "prop": {
+            "author": "Hybrid Mount Developers",
+            "description": "Hybrid Mount: mixed OverlayFS, Magic Mount, and VFS for KernelSU and APatch",
+            "id": "hybrid_mount",
+            "metamodule": "1",
+            "name": "Hybrid Mount",
+            "updateJson": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/dev/update.json",
+            "version": "6.2.6-rc.4",
+            "versionCode": "602006304"
+          },
+          "publishedAt": "2026-11-09T10:49:08Z",
+          "releaseId": 439012125,
+          "tag": "v6.2.6-rc.4",
+          "tagCommit": "46709e9a620cfa133a5ee94700018882afe02a17",
+          "version": "6.2.6-rc.4",
+          "versionCode": 602006304
+        },
         {
           "asset": {
             "digest": "sha256:238647afcef3ac5f8a9fc3d9fecd0d99c84c2a2d4a4fd1807f67d1eff5de0c29",
@@ -6340,6 +6371,10 @@
         "436316742": {
           "checkedAt": "2026-11-06T09:34:14.574Z",
           "ok": true
+        },
+        "439012125": {
+          "checkedAt": "2026-11-09T10:49:32.001Z",
+          "ok": true
         }
       },
       "stable": {
@@ -6374,8 +6409,8 @@
         "versionCode": 602005999
       },
       "stars": {
-        "count": 1814,
-        "fetchedAt": "2026-11-09T04:49:17.307Z",
+        "count": 1817,
+        "fetchedAt": "2026-11-09T10:49:32.001Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
