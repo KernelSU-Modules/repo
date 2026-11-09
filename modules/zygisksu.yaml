@@ -2,22 +2,19 @@ id: zygisksu
 status: listed
 source:
   host: github
-  repositoryId: 1377039457
-  ownerId: 75879071
-  fullName: LSPosed/ZygiskNext
+  repositoryId: 594330628
+  ownerId: 52071314
+  fullName: Dr-TSNG/ZygiskNext
   manifestPath: module.yaml
 review:
-  submissionId: 8d7at1lhii
-  kind: submit
-  submittedBy: 56485584
-  submittedAt: 2026-10-11T08:48:58.480Z
+  submissionId: nwpoy366id
+  kind: transfer
+  submittedBy: 52071314
+  submittedAt: 2026-11-09T03:48:23.581Z
   decision: approved
-  decidedBy: 56485584
-  decidedVia: portal
-  decidedAt: 2026-10-11T08:49:18.586Z
+  decidedBy: null
+  decidedVia: auto
+  decidedAt: 2026-11-09T03:48:23.581Z
   reason: null
-  telegram:
-    chatId: -1001860367685
-    messageId: 64229
 createdAt: 2026-10-11T08:48:58.480Z
-updatedAt: 2026-10-11T08:49:18.586Z
+updatedAt: 2026-11-09T03:48:23.581Z
