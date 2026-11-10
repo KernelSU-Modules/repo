@@ -4044,8 +4044,8 @@
         "versionCode": 28
       },
       "stars": {
-        "count": 99,
-        "fetchedAt": "2026-11-09T02:00:14.122Z",
+        "count": 100,
+        "fetchedAt": "2026-11-10T04:32:22.614Z",
         "fullName": "Dr-TSNG/altdb",
         "repositoryId": 1368146952,
         "verified": "self"
@@ -11956,8 +11956,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 10886,
-        "fetchedAt": "2026-11-09T03:48:49.487Z",
+        "count": 10916,
+        "fetchedAt": "2026-11-10T04:32:22.614Z",
         "fullName": "Dr-TSNG/ZygiskNext",
         "repositoryId": 594330628,
         "verified": "self"
