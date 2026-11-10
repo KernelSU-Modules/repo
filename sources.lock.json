@@ -1356,8 +1356,8 @@
         "versionCode": 50107
       },
       "stars": {
-        "count": 49,
-        "fetchedAt": "2026-11-09T08:22:24.326Z",
+        "count": 53,
+        "fetchedAt": "2026-11-10T11:15:49.076Z",
         "fullName": "Eikeitsu/CertBridge",
         "repositoryId": 1306329220,
         "verified": "self"
@@ -1931,14 +1931,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "86e11afc9724cf7134c12cd189068187662fcf72",
+          "README.md": "c6816669bd702cdca5fbed284556b992f2968973",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "bbdf39df706d961d356316a966204ea3051be445",
-        "fetchedAt": "2026-11-09T19:45:38.425Z",
+        "commit": "35941b0d7164050f747003d37df1bdb915eb8802",
+        "fetchedAt": "2026-11-10T11:15:49.076Z",
         "files": {
-          "README.md": "4de65e1f21de08540bca8459dbf2248aa2abd79336dc6056e837a36f66aaa5c9",
+          "README.md": "dba770f0540b116bec1107cb1d90cd2ce45049936838d1eb0eeceeffa0e8b663",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -1948,8 +1948,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-09T19:45:38.425Z",
-        "lastSuccessAt": "2026-11-09T19:45:38.425Z",
+        "lastAttemptAt": "2026-11-10T11:15:49.076Z",
+        "lastSuccessAt": "2026-11-10T11:15:49.076Z",
         "message": null,
         "status": "ok"
       },
@@ -3624,8 +3624,8 @@
       "seen": {},
       "stable": null,
       "stars": {
-        "count": 84,
-        "fetchedAt": "2026-11-08T07:01:47.414Z",
+        "count": 85,
+        "fetchedAt": "2026-11-10T11:15:49.076Z",
         "fullName": "LxyaoX/VexZygisk",
         "repositoryId": 1305247883,
         "verified": "self"
@@ -4623,8 +4623,8 @@
         "versionCode": 7
       },
       "stars": {
-        "count": 10,
-        "fetchedAt": "2026-11-09T10:00:59.155Z",
+        "count": 9,
+        "fetchedAt": "2026-11-10T11:15:49.076Z",
         "fullName": "klmmlk/KernelSU-ClipShield",
         "repositoryId": 1417109515,
         "verified": "self"
@@ -4869,8 +4869,8 @@
         "versionCode": 20261109
       },
       "stars": {
-        "count": 874,
-        "fetchedAt": "2026-11-09T10:30:07.247Z",
+        "count": 880,
+        "fetchedAt": "2026-11-10T11:15:49.076Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -5469,8 +5469,8 @@
         "versionCode": 155
       },
       "stars": {
-        "count": 431,
-        "fetchedAt": "2026-11-09T07:59:28.904Z",
+        "count": 433,
+        "fetchedAt": "2026-11-10T11:15:49.076Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -6456,8 +6456,8 @@
         "versionCode": 602005999
       },
       "stars": {
-        "count": 1817,
-        "fetchedAt": "2026-11-09T10:49:32.001Z",
+        "count": 1819,
+        "fetchedAt": "2026-11-10T11:15:49.076Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
@@ -6603,8 +6603,8 @@
         "versionCode": 20000017
       },
       "stars": {
-        "count": 13,
-        "fetchedAt": "2026-11-08T02:42:35.832Z",
+        "count": 14,
+        "fetchedAt": "2026-11-10T11:15:49.076Z",
         "fullName": "WayneShao/KernelSU-Tailscaled",
         "repositoryId": 1356946284,
         "verified": "self"
@@ -7036,8 +7036,8 @@
         "versionCode": 40005
       },
       "stars": {
-        "count": 41,
-        "fetchedAt": "2026-11-09T09:54:36.112Z",
+        "count": 42,
+        "fetchedAt": "2026-11-10T11:15:49.076Z",
         "fullName": "cyanmint/lkm4ctr",
         "repositoryId": 1313308146,
         "verified": "self"
@@ -8061,8 +8061,8 @@
         "versionCode": 605
       },
       "stars": {
-        "count": 647,
-        "fetchedAt": "2026-11-09T08:22:24.326Z",
+        "count": 653,
+        "fetchedAt": "2026-11-10T11:15:49.076Z",
         "fullName": "maxsteeel/nomount",
         "repositoryId": 1128821046,
         "verified": "self"
@@ -8270,8 +8270,8 @@
         "versionCode": 180
       },
       "stars": {
-        "count": 648,
-        "fetchedAt": "2026-11-09T07:30:09.271Z",
+        "count": 664,
+        "fetchedAt": "2026-11-10T11:15:49.076Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"

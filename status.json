@@ -187,11 +187,11 @@
       "stable": null
     },
     "MagicNet": {
-      "contentCommit": "bbdf39df706d961d356316a966204ea3051be445",
+      "contentCommit": "35941b0d7164050f747003d37df1bdb915eb8802",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-09T19:45:38.425Z",
+      "lastSuccessAt": "2026-11-10T11:15:49.076Z",
       "maxVersionCode": 10613,
       "message": null,
       "repositoryId": 998453022,
@@ -937,7 +937,7 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "ba46b00aac2013b47b2177603e79ced37a25e229",
+      "contentCommit": "028cab524e10159da4d80771c4d39cb77d86f7f5",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
@@ -946,8 +946,8 @@
       "message": null,
       "repositoryId": 1445526027,
       "request": {
-        "checkedAt": "2026-11-10T05:29:06.396Z",
-        "commit": "ba46b00aac2013b47b2177603e79ced37a25e229",
+        "checkedAt": "2026-11-10T11:15:49.076Z",
+        "commit": "028cab524e10159da4d80771c4d39cb77d86f7f5",
         "issues": [],
         "latestTag": "1.1.0",
         "ok": true,
@@ -1194,7 +1194,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "d3ebdadb7ac2f9e94ab93f274160d6d59a204c2a",
+      "contentCommit": "f95ae4c4c7df7050b2e13bc5d26403e5e0786d00",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1203,8 +1203,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-09T15:26:33.379Z",
-        "commit": "d3ebdadb7ac2f9e94ab93f274160d6d59a204c2a",
+        "checkedAt": "2026-11-10T11:15:49.076Z",
+        "commit": "f95ae4c4c7df7050b2e13bc5d26403e5e0786d00",
         "issues": [],
         "latestTag": "v2.3.0-r18.9-1",
         "ok": true,
