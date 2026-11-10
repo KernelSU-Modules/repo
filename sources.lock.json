@@ -1491,17 +1491,47 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-09T05:05:33.173Z",
-        "lastSuccessAt": "2026-11-09T05:05:33.173Z",
+        "lastAttemptAt": "2026-11-10T00:38:00.898Z",
+        "lastSuccessAt": "2026-11-10T00:38:00.898Z",
         "message": null,
         "status": "ok"
       },
       "id": "KernelSU-Tuner",
       "installationId": 170195272,
-      "maxStableVersionCode": 30059,
-      "maxVersionCode": 30059,
+      "maxStableVersionCode": 30060,
+      "maxVersionCode": 30060,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:c620e975d52ade79bea8bdfbbe1ebecb4674f8465eef65b8ca58eeabc6975a4e",
+            "id": 729540684,
+            "name": "KernelSU-Tuner-30060-v3.6.0.zip",
+            "sha256": "c620e975d52ade79bea8bdfbbe1ebecb4674f8465eef65b8ca58eeabc6975a4e",
+            "size": 107758,
+            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.6.0/KernelSU-Tuner-30060-v3.6.0.zip"
+          },
+          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThe white flash on opening the WebUI. It was two things stacked.\n\nThe `html` element had no background colour, only `body` did. Until `body` renders, the WebView paints the root element, which defaults to white. That is the flash you see. `html` now uses the same dark colour as `body`, and `color-scheme: dark` is set so form controls and scrollbars follow.\n\n`theme-color` is set too, which the WebView uses for its own loading surface.\n\nThe language redirect was worse. It lived in the script at the end of `body`, so if you had picked English before, opening the WebUI would fully load the Chinese page first, then jump to the English one. Two loads, two flashes. It is in `head` now and uses `location.replace`, so only one page loads and no extra history entry is created.\n\nAlso the first `load()` call now runs in `setTimeout(..., 0)`, so the browser paints the interface before doing any of the shell round-trips.\n\nExpect it to still take a moment to open. That is the manager creating the WebView and injecting the bridge, which the module cannot shorten. What is gone is the white part.\n\nversionCode 30060.",
+          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.6.0",
+          "immutable": true,
+          "name": "v3.6.0",
+          "prerelease": false,
+          "prop": {
+            "author": "ylh440104",
+            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
+            "id": "KernelSU-Tuner",
+            "name": "KernelSU Tuner",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
+            "version": "v3.6.0",
+            "versionCode": "30060"
+          },
+          "publishedAt": "2026-11-10T00:37:39Z",
+          "releaseId": 439809941,
+          "tag": "v3.6.0",
+          "tagCommit": "cdc9c7630744ed16f83f4f489cbe59c294a0667d",
+          "version": "v3.6.0",
+          "versionCode": 30060
+        },
         {
           "asset": {
             "digest": "sha256:234d6603200f5190de6c5135dbed2009e6dd5420d2e46f8017c149c06791825e",
@@ -1771,36 +1801,6 @@
           "tagCommit": "fcd7135fe2c78c99050a837b32ac298dcc4cd724",
           "version": "v3.5.1",
           "versionCode": 30051
-        },
-        {
-          "asset": {
-            "digest": "sha256:777c0c3ebec01565e85901ccbfe0fc85d92c28d0bd99462393e40f98d5e35185",
-            "id": 719755496,
-            "name": "KernelSU-Tuner-30050-v3.5.0.zip",
-            "sha256": "777c0c3ebec01565e85901ccbfe0fc85d92c28d0bd99462393e40f98d5e35185",
-            "size": 68732,
-            "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.0/KernelSU-Tuner-30050-v3.5.0.zip"
-          },
-          "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\n**The WebUI is bilingual now.** There is a switch button in the top right corner of both interfaces, next to the title. It swaps between Chinese and English and remembers your choice.\n\nThe English interface is `webroot/index.en.html`. It came from PR #4 by FlukyLizard and is used exactly as submitted, no edits. The Chinese one stays at `webroot/index.html`, which is still what the manager opens by default.\n\nBoth are fully self-contained. Switching reloads the page, so nothing is left half-translated.\n\n**Not covered yet:** the shell scripts in `bin/` still write Chinese into logs and command output, so those lines show Chinese in the English interface too. Same for the one-line description in `module.prop` that the manager displays. PR #4 already pointed this out.\n\n**Also in this release**\n- removed the duplicated LMK and ZRAM rows from the performance tab\n- fixed the missing indentation on the last tab entry\n\nversionCode 30050.",
-          "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.0",
-          "immutable": true,
-          "name": "v3.5.0",
-          "prerelease": false,
-          "prop": {
-            "author": "ylh440104",
-            "description": "内核调优全家桶：四档预设、CPU/GPU/devfreq 频率控制、IO/VM/LMK/ZRAM/网络/DNS/显示调优、KSM/THP/schedtune/TCP/boost/fs 扩展调优、温控分区解锁、智能驾驶(省电+电量+定时联动)、电池守护、应用待机管理、per-app 策略与参数、自定义参数与预设、配置导入导出、变更预览、守护看门狗、防砖回滚、防格机三模式，全部可逆",
-            "id": "KernelSU-Tuner",
-            "name": "KernelSU Tuner",
-            "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-            "version": "v3.5.0",
-            "versionCode": "30050"
-          },
-          "publishedAt": "2026-11-07T05:43:43Z",
-          "releaseId": 437366685,
-          "tag": "v3.5.0",
-          "tagCommit": "04f9443dd1abda65a62b2f66a3a007cb14c4280f",
-          "version": "v3.5.0",
-          "versionCode": 30050
         }
       ],
       "repositoryId": 1414095668,
@@ -1884,21 +1884,25 @@
         "438760885": {
           "checkedAt": "2026-11-09T05:05:33.173Z",
           "ok": true
+        },
+        "439809941": {
+          "checkedAt": "2026-11-10T00:38:00.898Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:234d6603200f5190de6c5135dbed2009e6dd5420d2e46f8017c149c06791825e",
-          "id": 726300426,
-          "name": "KernelSU-Tuner-30059-v3.5.9.zip",
-          "sha256": "234d6603200f5190de6c5135dbed2009e6dd5420d2e46f8017c149c06791825e",
-          "size": 107307,
-          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.5.9/KernelSU-Tuner-30059-v3.5.9.zip"
+          "digest": "sha256:c620e975d52ade79bea8bdfbbe1ebecb4674f8465eef65b8ca58eeabc6975a4e",
+          "id": 729540684,
+          "name": "KernelSU-Tuner-30060-v3.6.0.zip",
+          "sha256": "c620e975d52ade79bea8bdfbbe1ebecb4674f8465eef65b8ca58eeabc6975a4e",
+          "size": 107758,
+          "url": "https://github.com/ylh440104/KernelSU-Tuner/releases/download/v3.6.0/KernelSU-Tuner-30060-v3.6.0.zip"
         },
-        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThe log showed the profile being applied three times on every boot:\n\n```\n13:45:23 已应用预设: balanced\n13:45:23 initrc 服务已应用预设 balanced\n13:45:24 已应用预设: balanced\n13:45:36 已应用预设: balanced\n```\n\n`initrc` applies once, `service.sh` applies again, and `appwatch` applies a third time on its first poll because it started with an empty `last` and saw a change.\n\nEach apply walks a few dozen nodes. Three of them back to back is a noticeable chunk of the startup lag, and the third one lands half a minute after boot, which is exactly when things feel worst.\n\nChanges:\n- a marker keyed by `/proc/sys/kernel/random/boot_id`, so only the first caller applies and the rest skip. Whatever starts first wins; order does not matter.\n- `appwatch` seeds `last` with the current base profile instead of an empty string, so startup no longer triggers a redundant apply.\n- `post-fs-data` removes the previous boot's marker.\n\nVerified: same boot id applies once then skips, a new boot id applies again.\n\nversionCode 30059.",
-        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.5.9",
+        "body": "Install through the KernelSU manager under Modules - Install from storage, then reboot.\n\nThe white flash on opening the WebUI. It was two things stacked.\n\nThe `html` element had no background colour, only `body` did. Until `body` renders, the WebView paints the root element, which defaults to white. That is the flash you see. `html` now uses the same dark colour as `body`, and `color-scheme: dark` is set so form controls and scrollbars follow.\n\n`theme-color` is set too, which the WebView uses for its own loading surface.\n\nThe language redirect was worse. It lived in the script at the end of `body`, so if you had picked English before, opening the WebUI would fully load the Chinese page first, then jump to the English one. Two loads, two flashes. It is in `head` now and uses `location.replace`, so only one page loads and no extra history entry is created.\n\nAlso the first `load()` call now runs in `setTimeout(..., 0)`, so the browser paints the interface before doing any of the shell round-trips.\n\nExpect it to still take a moment to open. That is the manager creating the WebView and injecting the bridge, which the module cannot shorten. What is gone is the white part.\n\nversionCode 30060.",
+        "htmlUrl": "https://github.com/ylh440104/KernelSU-Tuner/releases/tag/v3.6.0",
         "immutable": true,
-        "name": "v3.5.9",
+        "name": "v3.6.0",
         "prerelease": false,
         "prop": {
           "author": "ylh440104",
@@ -1906,19 +1910,19 @@
           "id": "KernelSU-Tuner",
           "name": "KernelSU Tuner",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/KernelSU-Tuner/update.json",
-          "version": "v3.5.9",
-          "versionCode": "30059"
+          "version": "v3.6.0",
+          "versionCode": "30060"
         },
-        "publishedAt": "2026-11-09T05:05:13Z",
-        "releaseId": 438760885,
-        "tag": "v3.5.9",
-        "tagCommit": "ff3c28165a72b31c8d100f037c777a3d9b372082",
-        "version": "v3.5.9",
-        "versionCode": 30059
+        "publishedAt": "2026-11-10T00:37:39Z",
+        "releaseId": 439809941,
+        "tag": "v3.6.0",
+        "tagCommit": "cdc9c7630744ed16f83f4f489cbe59c294a0667d",
+        "version": "v3.6.0",
+        "versionCode": 30060
       },
       "stars": {
-        "count": 21,
-        "fetchedAt": "2026-11-09T02:38:21.028Z",
+        "count": 22,
+        "fetchedAt": "2026-11-10T00:38:00.898Z",
         "fullName": "ylh440104/KernelSU-Tuner",
         "repositoryId": 1414095668,
         "verified": "self"

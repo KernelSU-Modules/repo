@@ -153,16 +153,16 @@
       "fullName": "ylh440104/KernelSU-Tuner",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-09T05:05:33.173Z",
-      "maxVersionCode": 30059,
+      "lastSuccessAt": "2026-11-10T00:38:00.898Z",
+      "maxVersionCode": 30060,
       "message": null,
       "repositoryId": 1414095668,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-09T05:05:13Z",
-        "tag": "v3.5.9",
-        "version": "v3.5.9",
-        "versionCode": 30059
+        "publishedAt": "2026-11-10T00:37:39Z",
+        "tag": "v3.6.0",
+        "version": "v3.6.0",
+        "versionCode": 30060
       }
     },
     "Logd_Disabler_ColorOS16": {
