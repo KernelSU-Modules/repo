@@ -754,8 +754,8 @@
         "versionCode": 772
       },
       "stars": {
-        "count": 431,
-        "fetchedAt": "2026-11-09T15:26:33.379Z",
+        "count": 432,
+        "fetchedAt": "2026-11-10T16:24:56.972Z",
         "fullName": "AlirezaParsi/COPG",
         "repositoryId": 950100740,
         "verified": "self"
@@ -764,26 +764,26 @@
     "CRecordEvolution": {
       "content": {
         "blobs": {
-          ".github/images/history-en.png": "04904a22a5a3429c73cc0e12862bcaee40599794",
+          ".github/images/history-en.png": "352580498646d21529d6bc68b6d43d028777200a",
           ".github/images/how-it-works-en-dark.png": "7e5c9412e71507cfce511fb8242a41d305e30414",
           ".github/images/how-it-works-en.png": "f91878e19e75d66f8f0c536e6cc02b2089759599",
-          ".github/images/overview-en.png": "5d75288249fc9d3c0a33ff98160f46872d8e4af2",
-          ".github/images/settings-en.png": "d84d0baee0a778a3c986d226bc3dbe0b2be51136",
-          ".github/images/trends-en.png": "3ea5b25bd4133fad228f0a8f04e8929237eb18d4",
-          "README.md": "ee7f644d420741bd718e924f3884cc6cd31664b2",
+          ".github/images/overview-en.png": "8d33e676fb88a291f37e1051d1827a9a204891e3",
+          ".github/images/settings-en.png": "87917e096dd4571079357cd442e74936f00f9fbe",
+          ".github/images/trends-en.png": "d579c99fa31af804714074e7cb9e966bfa31779f",
+          "README.md": "d0c75a20e9579c6c9873bd3371bcccf0548e4c9d",
           "assets/icon.png": "5dc474bb718300203dce63f6f647c0d98cc4a3b6",
           "module.yaml": "af46db6ce9b3521a63f54a2523a3de272490b8a6"
         },
-        "commit": "bbfb8bed246ef6a48b5a842e1e70a4216568d84b",
-        "fetchedAt": "2026-11-09T14:37:02.978Z",
+        "commit": "9722edcfe0e0dbb07af78ba97e1adb73dba38218",
+        "fetchedAt": "2026-11-10T16:24:56.972Z",
         "files": {
-          ".github/images/history-en.png": "ddf01000831d53eb33c399ae778336fbaa91788a9282cdafc31434b97cec99cf",
+          ".github/images/history-en.png": "cdd593fbdd7d366336833c0a8eb20e9d457f2a780f7baeb0038c7c2dcaa61199",
           ".github/images/how-it-works-en-dark.png": "39c90ed4f3604a2fb0de8341ee656c1ede0b561a7eb8f3fbaff6fb53709d2846",
           ".github/images/how-it-works-en.png": "16654f82c0b7f62be93bcb2adc367feceb004ae794babe1c940fdda85e603440",
-          ".github/images/overview-en.png": "991aba68d64c5a8280d6837bbf3d03a2f86f19e8178b86c628462df977fdab8b",
-          ".github/images/settings-en.png": "784714fb07b1781abaa04e6320ef424b58a620b4aad8eeebe05c85e2d141c18d",
-          ".github/images/trends-en.png": "de42f89279372a14a09b0fa5a4049b7b719e5fcf4956a644f211606998b4b201",
-          "README.md": "ccf10c0e341f04ce752a5cd67f7a1e169f002685c7e1f37321a1c64e4cca0474",
+          ".github/images/overview-en.png": "5c937c72f524a410d73bb582f8e99fd0eaff2c2ea9bb0c1521fcce2a0b94c33f",
+          ".github/images/settings-en.png": "74d03e6e9c43bafdeebfcf3843cc9e667c31631ca3183bc845edd3cd538993ee",
+          ".github/images/trends-en.png": "1d176e87c5ba3e09115667e3f337b39fc39e75abd722022d54c3eb13753721b9",
+          "README.md": "44d56ad0b726a28292c0ba22b2c050540fee66e599384b64623829d47240e841",
           "assets/icon.png": "ef5a7662da7b1a2debee42ebe7f5b3e2ad28e362adc958828c986c0026128f91",
           "module.yaml": "ebfe31d302a3ceb7f02de8208dc4945730987a2dfff4ca8c586e4b1fa02cf1ea"
         },
@@ -793,8 +793,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-09T14:37:02.978Z",
-        "lastSuccessAt": "2026-11-09T14:37:02.978Z",
+        "lastAttemptAt": "2026-11-10T16:24:56.972Z",
+        "lastSuccessAt": "2026-11-10T16:24:56.972Z",
         "message": null,
         "status": "ok"
       },
@@ -1035,6 +1035,12 @@
         },
         "439242317": {
           "checkedAt": "2026-11-09T14:37:02.978Z",
+          "code": "version-not-newer",
+          "message": "versionCode 37 is already used by the release v1.3.8. Publish a new release with a versionCode above 37.",
+          "ok": false
+        },
+        "440610041": {
+          "checkedAt": "2026-11-10T16:24:56.972Z",
           "code": "version-not-newer",
           "message": "versionCode 37 is already used by the release v1.3.8. Publish a new release with a versionCode above 37.",
           "ok": false
@@ -2508,8 +2514,8 @@
         "versionCode": 10614
       },
       "stars": {
-        "count": 225,
-        "fetchedAt": "2026-11-09T14:24:33.114Z",
+        "count": 226,
+        "fetchedAt": "2026-11-10T16:24:56.972Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -3631,8 +3637,8 @@
         "versionCode": 14
       },
       "stars": {
-        "count": 31,
-        "fetchedAt": "2026-11-09T03:18:17.111Z",
+        "count": 32,
+        "fetchedAt": "2026-11-10T16:24:56.972Z",
         "fullName": "LimpidMo/SvcHub",
         "repositoryId": 1353509468,
         "verified": "self"
@@ -4443,8 +4449,8 @@
         "versionCode": 870
       },
       "stars": {
-        "count": 37,
-        "fetchedAt": "2026-11-07T03:18:19.086Z",
+        "count": 38,
+        "fetchedAt": "2026-11-10T16:24:56.972Z",
         "fullName": "pavelc4/auriya",
         "repositoryId": 1081222414,
         "verified": "self"
@@ -7363,8 +7369,8 @@
         "versionCode": 401012
       },
       "stars": {
-        "count": 604,
-        "fetchedAt": "2026-11-09T07:30:09.271Z",
+        "count": 605,
+        "fetchedAt": "2026-11-10T16:24:56.972Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
@@ -11769,8 +11775,8 @@
         "versionCode": 371
       },
       "stars": {
-        "count": 105,
-        "fetchedAt": "2026-11-07T16:26:58.983Z",
+        "count": 106,
+        "fetchedAt": "2026-11-10T16:24:56.972Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"
