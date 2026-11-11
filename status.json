@@ -98,11 +98,11 @@
       }
     },
     "CRecordEvolution": {
-      "contentCommit": "9722edcfe0e0dbb07af78ba97e1adb73dba38218",
+      "contentCommit": "77a158a283b19df07ccdaed552386d589e0c5dbd",
       "fullName": "f1owkang/CRecordEvolution",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-10T16:24:56.972Z",
+      "lastSuccessAt": "2026-11-11T13:09:02.269Z",
       "maxVersionCode": 37,
       "message": null,
       "repositoryId": 678049636,
@@ -937,7 +937,7 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "c3494efd39f12c1a932af074f9024c5fbb11243b",
+      "contentCommit": "d0723c96008332b38ab5c2b5721ba8fbdd0a9caf",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
@@ -946,8 +946,8 @@
       "message": null,
       "repositoryId": 1445526027,
       "request": {
-        "checkedAt": "2026-11-10T11:46:44.233Z",
-        "commit": "c3494efd39f12c1a932af074f9024c5fbb11243b",
+        "checkedAt": "2026-11-11T13:09:02.269Z",
+        "commit": "d0723c96008332b38ab5c2b5721ba8fbdd0a9caf",
         "issues": [],
         "latestTag": "1.1.0",
         "ok": true,

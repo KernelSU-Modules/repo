@@ -764,25 +764,25 @@
     "CRecordEvolution": {
       "content": {
         "blobs": {
-          ".github/images/history-en.png": "352580498646d21529d6bc68b6d43d028777200a",
+          ".github/images/history-en.png": "142f57a9940a5bc07055fe3347beeada98cdc309",
           ".github/images/how-it-works-en-dark.png": "7e5c9412e71507cfce511fb8242a41d305e30414",
           ".github/images/how-it-works-en.png": "f91878e19e75d66f8f0c536e6cc02b2089759599",
-          ".github/images/overview-en.png": "8d33e676fb88a291f37e1051d1827a9a204891e3",
-          ".github/images/settings-en.png": "87917e096dd4571079357cd442e74936f00f9fbe",
-          ".github/images/trends-en.png": "d579c99fa31af804714074e7cb9e966bfa31779f",
+          ".github/images/overview-en.png": "db694f45436a35432575a5bccd200dad641924d1",
+          ".github/images/settings-en.png": "0bdbf5ea9d3e3107cf13a392bab5b8404bb3f2cd",
+          ".github/images/trends-en.png": "c8f8aad8c4b9dddde094b0c97467717b4bc2270d",
           "README.md": "d0c75a20e9579c6c9873bd3371bcccf0548e4c9d",
           "assets/icon.png": "5dc474bb718300203dce63f6f647c0d98cc4a3b6",
           "module.yaml": "af46db6ce9b3521a63f54a2523a3de272490b8a6"
         },
-        "commit": "9722edcfe0e0dbb07af78ba97e1adb73dba38218",
-        "fetchedAt": "2026-11-10T16:24:56.972Z",
+        "commit": "77a158a283b19df07ccdaed552386d589e0c5dbd",
+        "fetchedAt": "2026-11-11T13:09:02.269Z",
         "files": {
-          ".github/images/history-en.png": "cdd593fbdd7d366336833c0a8eb20e9d457f2a780f7baeb0038c7c2dcaa61199",
+          ".github/images/history-en.png": "59b6dc9b5f674185cf9df495923627c4f4a83380df81e2ba4b4c4887e63068be",
           ".github/images/how-it-works-en-dark.png": "39c90ed4f3604a2fb0de8341ee656c1ede0b561a7eb8f3fbaff6fb53709d2846",
           ".github/images/how-it-works-en.png": "16654f82c0b7f62be93bcb2adc367feceb004ae794babe1c940fdda85e603440",
-          ".github/images/overview-en.png": "5c937c72f524a410d73bb582f8e99fd0eaff2c2ea9bb0c1521fcce2a0b94c33f",
-          ".github/images/settings-en.png": "74d03e6e9c43bafdeebfcf3843cc9e667c31631ca3183bc845edd3cd538993ee",
-          ".github/images/trends-en.png": "1d176e87c5ba3e09115667e3f337b39fc39e75abd722022d54c3eb13753721b9",
+          ".github/images/overview-en.png": "1abdabfdcae6506faa689b86f723ab082ccbf606ba2a992ea5a826c2394aa4aa",
+          ".github/images/settings-en.png": "2e7e0cf13dae1f5d1533e1219abeafa8e471f1260cde7df5c8291bbf070293ce",
+          ".github/images/trends-en.png": "acd4f71b06900732fe7c821afe155fa7f96811efaf7bc74747620aee396bf9fb",
           "README.md": "44d56ad0b726a28292c0ba22b2c050540fee66e599384b64623829d47240e841",
           "assets/icon.png": "ef5a7662da7b1a2debee42ebe7f5b3e2ad28e362adc958828c986c0026128f91",
           "module.yaml": "ebfe31d302a3ceb7f02de8208dc4945730987a2dfff4ca8c586e4b1fa02cf1ea"
@@ -793,8 +793,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-10T16:24:56.972Z",
-        "lastSuccessAt": "2026-11-10T16:24:56.972Z",
+        "lastAttemptAt": "2026-11-11T13:09:02.269Z",
+        "lastSuccessAt": "2026-11-11T13:09:02.269Z",
         "message": null,
         "status": "ok"
       },
@@ -1041,6 +1041,12 @@
         },
         "440610041": {
           "checkedAt": "2026-11-10T16:24:56.972Z",
+          "code": "version-not-newer",
+          "message": "versionCode 37 is already used by the release v1.3.8. Publish a new release with a versionCode above 37.",
+          "ok": false
+        },
+        "441708687": {
+          "checkedAt": "2026-11-11T13:09:02.269Z",
           "code": "version-not-newer",
           "message": "versionCode 37 is already used by the release v1.3.8. Publish a new release with a versionCode above 37.",
           "ok": false
