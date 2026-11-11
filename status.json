@@ -593,7 +593,7 @@
       "stable": null
     },
     "coloros_wifi_sense": {
-      "contentCommit": "a8744dc53d28df8b3ff2d9bb9c89f1e4ea85fe8c",
+      "contentCommit": "0b67e69922447dfcb06878e480aeba4d71d0b4ab",
       "fullName": "mazemingw/coloros-wifi-sense",
       "health": "ok",
       "installation": "present",
@@ -602,12 +602,12 @@
       "message": null,
       "repositoryId": 1449425812,
       "request": {
-        "checkedAt": "2026-11-11T01:42:21.577Z",
-        "commit": "a8744dc53d28df8b3ff2d9bb9c89f1e4ea85fe8c",
+        "checkedAt": "2026-11-11T15:30:47.653Z",
+        "commit": "0b67e69922447dfcb06878e480aeba4d71d0b4ab",
         "issues": [],
-        "latestTag": "v1.4.0",
+        "latestTag": "v1.4.1",
         "ok": true,
-        "releaseId": 441138736,
+        "releaseId": 441874564,
         "repositoryId": 1449425812,
         "submissionId": "1rwwvpolsh"
       },
@@ -920,20 +920,20 @@
       }
     },
     "magisk-netbird": {
-      "contentCommit": "4da7eab0de412f6d694308b32e575e152334ce40",
+      "contentCommit": "6b6d86e6ae69a7f4dfaced3238da280b5b9199ca",
       "fullName": "ahsaboy/magisk-netbird",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-01T09:03:49.659Z",
-      "maxVersionCode": 10412,
+      "lastSuccessAt": "2026-11-11T15:30:47.653Z",
+      "maxVersionCode": 10413,
       "message": null,
       "repositoryId": 1274372941,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-01T09:57:00Z",
-        "tag": "v1.4.12",
-        "version": "v1.4.12-0.82.0",
-        "versionCode": 10412
+        "publishedAt": "2026-11-11T15:30:49Z",
+        "tag": "v1.4.13",
+        "version": "v1.4.13-0.82.1",
+        "versionCode": 10413
       }
     },
     "mirage_forge": {
