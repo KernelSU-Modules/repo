@@ -43,11 +43,11 @@
       "stable": null
     },
     "AZenith": {
-      "contentCommit": "7112908d3ea602ffcb4cdbd3c353ee5285e58205",
+      "contentCommit": "4f96533305572302d5bf333432d85f441b4b8629",
       "fullName": "Liliya2727/AZenith",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T18:54:04.945Z",
+      "lastSuccessAt": "2026-11-11T08:38:03.013Z",
       "maxVersionCode": 2049,
       "message": null,
       "repositoryId": 937420284,
@@ -187,20 +187,20 @@
       "stable": null
     },
     "MagicNet": {
-      "contentCommit": "8bf401a7356a35029af11f7056f50526874ca3b1",
+      "contentCommit": "061f1bd9e3ee431ebc4617832efe4e07784530b5",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-10T12:04:41.510Z",
-      "maxVersionCode": 10614,
+      "lastSuccessAt": "2026-11-11T08:38:03.013Z",
+      "maxVersionCode": 10615,
       "message": null,
       "repositoryId": 998453022,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-10T12:03:04Z",
-        "tag": "v1.8.6",
-        "version": "v1.8.6",
-        "versionCode": 10614
+        "publishedAt": "2026-11-11T08:37:59Z",
+        "tag": "v1.8.7",
+        "version": "v1.8.7",
+        "versionCode": 10615
       }
     },
     "Mediatek_Mali_GPU_Governor": {
@@ -814,7 +814,7 @@
       }
     },
     "hypercool": {
-      "contentCommit": "346950c1b957ea38cea2753c31b7256c8566a413",
+      "contentCommit": "0830b2bdeb990434f48b53bf646c42308193f8a6",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
@@ -823,8 +823,8 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-10T22:03:51.539Z",
-        "commit": "346950c1b957ea38cea2753c31b7256c8566a413",
+        "checkedAt": "2026-11-11T08:38:03.013Z",
+        "commit": "0830b2bdeb990434f48b53bf646c42308193f8a6",
         "issues": [],
         "latestTag": "v2.2.3",
         "ok": true,

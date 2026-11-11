@@ -3,14 +3,14 @@
     "AZenith": {
       "content": {
         "blobs": {
-          "README.md": "29a322360f08c71969146af79c42236f8a2c1b41",
+          "README.md": "f0ebf6729b91644c476bc484e2b358509ebc128c",
           "logo.jpg": "d40c33fde33b1373ccd3594e446b4c5922164f3c",
           "module.yaml": "1742bf53efd068d7a0fa529962f9c0ace0c80618"
         },
-        "commit": "7112908d3ea602ffcb4cdbd3c353ee5285e58205",
-        "fetchedAt": "2026-11-07T18:54:04.945Z",
+        "commit": "4f96533305572302d5bf333432d85f441b4b8629",
+        "fetchedAt": "2026-11-11T08:38:03.013Z",
         "files": {
-          "README.md": "308b74baa878d86fcef6a9e3fc64f14e23bad2404b7860c982e7e90a7aa482df",
+          "README.md": "46f24b97cab9c3e27360ebe47d87256312c63bba645286507f23a865ba0ac250",
           "logo.jpg": "1e142f7a865af89dc6c370732f40893317ba2217611611f179c00eccf360ceb7",
           "module.yaml": "1122a63b61901a7ad1d21a03108145d280b694c05a4166c43b626f2ed12935c1"
         },
@@ -20,8 +20,8 @@
       "fullName": "Liliya2727/AZenith",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-07T18:54:04.945Z",
-        "lastSuccessAt": "2026-11-07T18:54:04.945Z",
+        "lastAttemptAt": "2026-11-11T08:38:03.013Z",
+        "lastSuccessAt": "2026-11-11T08:38:03.013Z",
         "message": null,
         "status": "ok"
       },
@@ -1469,8 +1469,8 @@
         "versionCode": 20260821
       },
       "stars": {
-        "count": 312,
-        "fetchedAt": "2026-11-07T16:26:58.983Z",
+        "count": 314,
+        "fetchedAt": "2026-11-11T08:38:03.013Z",
         "fullName": "Seyud/FreePPS",
         "repositoryId": 1063205512,
         "requested": "Seyud/FreePPS",
@@ -1937,14 +1937,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "ea1bc762d4f9539942b646f15836d4f096631093",
+          "README.md": "42105786c1825d291efac7320d3e57ee9d582ace",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "8bf401a7356a35029af11f7056f50526874ca3b1",
-        "fetchedAt": "2026-11-10T12:04:41.510Z",
+        "commit": "061f1bd9e3ee431ebc4617832efe4e07784530b5",
+        "fetchedAt": "2026-11-11T08:38:03.013Z",
         "files": {
-          "README.md": "d273af8415bab4dd03b35871e3874145fe148d639601d3638c862a756b5ca3dd",
+          "README.md": "23f79a372c23fa20d92aac66941e436880cc3624d57c1fdb618566df84243c21",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -1954,17 +1954,47 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-10T12:04:41.510Z",
-        "lastSuccessAt": "2026-11-10T12:04:41.510Z",
+        "lastAttemptAt": "2026-11-11T08:38:03.013Z",
+        "lastSuccessAt": "2026-11-11T08:38:03.013Z",
         "message": null,
         "status": "ok"
       },
       "id": "MagicNet",
       "installationId": 172483675,
-      "maxStableVersionCode": 10614,
-      "maxVersionCode": 10614,
+      "maxStableVersionCode": 10615,
+      "maxVersionCode": 10615,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:b7aa887c045f4f0b6f159d69175f9451cd780aff9b0f8aaf0162da01100bcfb7",
+            "id": 734772046,
+            "name": "MagicNet-full.zip",
+            "sha256": "b7aa887c045f4f0b6f159d69175f9451cd780aff9b0f8aaf0162da01100bcfb7",
+            "size": 68532114,
+            "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.7/MagicNet-full.zip"
+          },
+          "body": "# MagicNet v1.8.7\n\n## 证书策略默认关闭\n\n- 系统证书禁用功能默认关闭，未配置 enabled 时按 false 处理。\n- 开机 apply 在未启用或已关闭时直接返回，保持系统证书状态。\n- 需要禁用时可显式运行 certificate-policy disable，preview 与 restore 继续可用。\n- 保留已经明确设置的用户意图。曾手动禁用的证书需要显式恢复。\n\n本地真实 X.509 回归覆盖默认关闭、开机无操作、显式禁用、恢复、幂等与归属冲突恢复。\n\n## 模拟器验收修复\n\n- 修复 Wi-Fi 上联故障注入后只恢复链路、未恢复 Android Wi-Fi 框架关联的问题。\n- 前台和独立延迟恢复 guard 使用相同的系统 Wi-Fi 恢复流程，并有界等待接口重建。\n- 保留恢复后真实默认路由、TUN、就绪和同应用 UID TCP 流量验收，报告门禁核对恢复方法。\n\n\nRecipe snapshot: ebbefe01bd29680faf21d000860c606638f56ee1\nSource commit: dc4433d1cfbeade114d51f3f3c429378d3d7b68d\n\n<!-- magicnet-release run=42982936016 artifact=13840432313 snapshot=ebbefe01bd29680faf21d000860c606638f56ee1 -->\n",
+          "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.7",
+          "immutable": true,
+          "name": "MagicNet-10615-v1.8.7",
+          "prerelease": false,
+          "prop": {
+            "author": "LIghtJUNction",
+            "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
+            "id": "MagicNet",
+            "name": "MagicNet",
+            "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
+            "version": "v1.8.7",
+            "versionCode": "10615"
+          },
+          "publishedAt": "2026-11-11T08:37:59Z",
+          "releaseId": 441417042,
+          "tag": "v1.8.7",
+          "tagCommit": "ebbefe01bd29680faf21d000860c606638f56ee1",
+          "version": "v1.8.7",
+          "versionCode": 10615
+        },
         {
           "asset": {
             "digest": "sha256:578e6acfcf6fb46dd2ff191eedf9b7c2d167d20c2928779bb975cd78e7212358",
@@ -2234,36 +2264,6 @@
           "tagCommit": "4d32c02b11428a4d2d4c3b9a4acd9ecf1e14c0a6",
           "version": "v1.7.0",
           "versionCode": 10605
-        },
-        {
-          "asset": {
-            "digest": "sha256:f4e80afc86dbd3e7ad3e96ae0a4bce8873ec9b565665d62ec6c56cbba134f726",
-            "id": 651462108,
-            "name": "MagicNet-full.zip",
-            "sha256": "f4e80afc86dbd3e7ad3e96ae0a4bce8873ec9b565665d62ec6c56cbba134f726",
-            "size": 65263801,
-            "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.6.2/MagicNet-full.zip"
-          },
-          "body": "安装器下载：https://github.com/LIghtJUNction/MagicNet/releases/download/v1.6.2/magicnet_installer.zip\n\n# MagicNet v1.6.2\n\n## 版本码迁移 / Version code migration\n\n本版本将 `versionCode` 从历史毫秒级数值迁移为 `10602`，以符合 KernelSU Modules 的 32 位正整数限制（最大 `2147483647`）。后续版本码继续递增。\n\n**v1.6.1 及更早的旧版本用户需要手动安装一次。** 旧版本码大于新版本码，管理器的自动更新比较无法完成这次迁移。先备份 MagicNet 配置，从本项目 Release 下载 `MagicNet-full.zip`，在 root 管理器中直接手动安装并按提示重启，不要先卸载模块。迁移完成后确认版本为 `v1.6.2`、版本码为 `10602`；后续更新恢复递增顺序。\n\nExisting users must manually install this release once because the legacy version code is larger than the new code. Back up your configuration, download `MagicNet-full.zip` from this project's Release, install it directly through your root manager, and reboot as prompted. Do not uninstall first. Confirm `v1.6.2` / `10602` after installation. Future version codes will increase normally.\n\n## 发布与收录\n\n- 添加 KernelSU Modules 的 `module.yaml`，目录下载入口指定完整离线包 `MagicNet-full.zip`。\n- 开启 GitHub Release immutability；新发布的附件与标签发布后不能替换。\n- 发布准备脚本提前拒绝超范围版本码，递增达到上限时在写文件前失败。\n- KernelSU 目录是否收录，以开发者门户的维护者审核结果为准。\n\n\n**Full Changelog**: https://github.com/LIghtJUNction/MagicNet/compare/v1.6.1...v1.6.2",
-          "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.6.2",
-          "immutable": true,
-          "name": "MagicNet-10602-v1.6.2",
-          "prerelease": false,
-          "prop": {
-            "author": "LIghtJUNction",
-            "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
-            "id": "MagicNet",
-            "name": "MagicNet",
-            "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
-            "version": "v1.6.2",
-            "versionCode": "10602"
-          },
-          "publishedAt": "2026-10-17T20:03:51Z",
-          "releaseId": 416030326,
-          "tag": "v1.6.2",
-          "tagCommit": "70d45f8080bca2f785379af12ff133a3d360f0bb",
-          "version": "v1.6.2",
-          "versionCode": 10602
         }
       ],
       "repositoryId": 998453022,
@@ -2481,21 +2481,25 @@
         "440303794": {
           "checkedAt": "2026-11-10T12:03:28.148Z",
           "ok": true
+        },
+        "441417042": {
+          "checkedAt": "2026-11-11T08:38:03.013Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:578e6acfcf6fb46dd2ff191eedf9b7c2d167d20c2928779bb975cd78e7212358",
-          "id": 731277021,
+          "digest": "sha256:b7aa887c045f4f0b6f159d69175f9451cd780aff9b0f8aaf0162da01100bcfb7",
+          "id": 734772046,
           "name": "MagicNet-full.zip",
-          "sha256": "578e6acfcf6fb46dd2ff191eedf9b7c2d167d20c2928779bb975cd78e7212358",
-          "size": 68531953,
-          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.6/MagicNet-full.zip"
+          "sha256": "b7aa887c045f4f0b6f159d69175f9451cd780aff9b0f8aaf0162da01100bcfb7",
+          "size": 68532114,
+          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.7/MagicNet-full.zip"
         },
-        "body": "# MagicNet v1.8.6\n\n新增可恢复的系统证书禁用策略：支持 SHA-256 指纹、完整主体精确匹配及大小写无关关键词匹配；默认禁用大陆公共 CA 策略，支持预览、幂等禁用、持久恢复和卸载还原模块管理的项。\n\n命令：`/data/adb/modules/MagicNet/certificate-policy preview|disable|restore|status`。自带信任库的应用可能不受系统禁用影响。\n\n构建、完整质量门禁及资产校验通过。正式 Android 验收两次未通过（上联重连超时、netd 网络权限证据不足），本次按维护者明确授权跳过该门禁直接发布；不代表完整 Android 验收或物理设备安装通过。\n\nSource commit: 406938e3e396676770a5a9b4911006f19db1c338\nRecipe snapshot: 63b062c0e4cff469195036e106100afc3afd3d3f\nBuild: https://github.com/LIghtJUNction/MagicNet/actions/runs/42796283786\n<!-- magicnet-release run=42796283786 artifact=13756203637 snapshot=63b062c0e4cff469195036e106100afc3afd3d3f -->\n",
-        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.6",
+        "body": "# MagicNet v1.8.7\n\n## 证书策略默认关闭\n\n- 系统证书禁用功能默认关闭，未配置 enabled 时按 false 处理。\n- 开机 apply 在未启用或已关闭时直接返回，保持系统证书状态。\n- 需要禁用时可显式运行 certificate-policy disable，preview 与 restore 继续可用。\n- 保留已经明确设置的用户意图。曾手动禁用的证书需要显式恢复。\n\n本地真实 X.509 回归覆盖默认关闭、开机无操作、显式禁用、恢复、幂等与归属冲突恢复。\n\n## 模拟器验收修复\n\n- 修复 Wi-Fi 上联故障注入后只恢复链路、未恢复 Android Wi-Fi 框架关联的问题。\n- 前台和独立延迟恢复 guard 使用相同的系统 Wi-Fi 恢复流程，并有界等待接口重建。\n- 保留恢复后真实默认路由、TUN、就绪和同应用 UID TCP 流量验收，报告门禁核对恢复方法。\n\n\nRecipe snapshot: ebbefe01bd29680faf21d000860c606638f56ee1\nSource commit: dc4433d1cfbeade114d51f3f3c429378d3d7b68d\n\n<!-- magicnet-release run=42982936016 artifact=13840432313 snapshot=ebbefe01bd29680faf21d000860c606638f56ee1 -->\n",
+        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.7",
         "immutable": true,
-        "name": "MagicNet-10614-v1.8.6",
+        "name": "MagicNet-10615-v1.8.7",
         "prerelease": false,
         "prop": {
           "author": "LIghtJUNction",
@@ -2503,19 +2507,19 @@
           "id": "MagicNet",
           "name": "MagicNet",
           "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
-          "version": "v1.8.6",
-          "versionCode": "10614"
+          "version": "v1.8.7",
+          "versionCode": "10615"
         },
-        "publishedAt": "2026-11-10T12:03:04Z",
-        "releaseId": 440303794,
-        "tag": "v1.8.6",
-        "tagCommit": "63b062c0e4cff469195036e106100afc3afd3d3f",
-        "version": "v1.8.6",
-        "versionCode": 10614
+        "publishedAt": "2026-11-11T08:37:59Z",
+        "releaseId": 441417042,
+        "tag": "v1.8.7",
+        "tagCommit": "ebbefe01bd29680faf21d000860c606638f56ee1",
+        "version": "v1.8.7",
+        "versionCode": 10615
       },
       "stars": {
-        "count": 226,
-        "fetchedAt": "2026-11-10T16:24:56.972Z",
+        "count": 227,
+        "fetchedAt": "2026-11-11T08:38:03.013Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -3225,8 +3229,8 @@
         "versionCode": 22
       },
       "stars": {
-        "count": 130,
-        "fetchedAt": "2026-11-10T05:29:06.396Z",
+        "count": 138,
+        "fetchedAt": "2026-11-11T08:38:03.013Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -8523,8 +8527,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4185,
-        "fetchedAt": "2026-11-10T05:29:06.396Z",
+        "count": 4189,
+        "fetchedAt": "2026-11-11T08:38:03.013Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
@@ -10270,8 +10274,8 @@
         "versionCode": 10150
       },
       "stars": {
-        "count": 125,
-        "fetchedAt": "2026-11-10T03:27:59.844Z",
+        "count": 127,
+        "fetchedAt": "2026-11-11T08:38:03.013Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
@@ -11996,8 +12000,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 10916,
-        "fetchedAt": "2026-11-10T04:32:22.614Z",
+        "count": 10936,
+        "fetchedAt": "2026-11-11T08:38:03.013Z",
         "fullName": "Dr-TSNG/ZygiskNext",
         "repositoryId": 594330628,
         "verified": "self"
