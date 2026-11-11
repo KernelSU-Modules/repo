@@ -1215,11 +1215,11 @@
       "stable": null
     },
     "tailscale-bindhosts": {
-      "contentCommit": "c8761cf8ff8643fafb57a15e1c43b419377d31ea",
+      "contentCommit": "4799494b910c78566bc8ef24457cb9967d3852fe",
       "fullName": "PEMessage/tailscale-bindhosts",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-06T05:15:33.200Z",
+      "lastSuccessAt": "2026-11-11T12:56:51.210Z",
       "maxVersionCode": 1,
       "message": null,
       "repositoryId": 1445398567,
