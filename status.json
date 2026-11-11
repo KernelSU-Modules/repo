@@ -814,7 +814,7 @@
       }
     },
     "hypercool": {
-      "contentCommit": "dc37ff91ae239c27e6707834784514bad9257955",
+      "contentCommit": "80d72b12478f7f40bb574bafad86658317525ab1",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
@@ -823,12 +823,12 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-11T12:33:08.994Z",
-        "commit": "dc37ff91ae239c27e6707834784514bad9257955",
+        "checkedAt": "2026-11-11T13:58:39.892Z",
+        "commit": "80d72b12478f7f40bb574bafad86658317525ab1",
         "issues": [],
-        "latestTag": "v2.2.3",
+        "latestTag": "v2.2.4",
         "ok": true,
-        "releaseId": 439562531,
+        "releaseId": 441768442,
         "repositoryId": 1446403674,
         "submissionId": "xsva3e3znd"
       },
@@ -937,7 +937,7 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "d0723c96008332b38ab5c2b5721ba8fbdd0a9caf",
+      "contentCommit": "b46384661611348673d9c6a9ad1f26dab9f117ca",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
@@ -946,8 +946,8 @@
       "message": null,
       "repositoryId": 1445526027,
       "request": {
-        "checkedAt": "2026-11-11T13:09:02.269Z",
-        "commit": "d0723c96008332b38ab5c2b5721ba8fbdd0a9caf",
+        "checkedAt": "2026-11-11T13:58:39.892Z",
+        "commit": "b46384661611348673d9c6a9ad1f26dab9f117ca",
         "issues": [],
         "latestTag": "1.1.0",
         "ok": true,
