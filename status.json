@@ -814,7 +814,7 @@
       }
     },
     "hypercool": {
-      "contentCommit": "8dff154a9536ab61abee08b6ccd003e1a1b401b9",
+      "contentCommit": "dc37ff91ae239c27e6707834784514bad9257955",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
@@ -823,8 +823,8 @@
       "message": null,
       "repositoryId": 1446403674,
       "request": {
-        "checkedAt": "2026-11-11T11:16:15.988Z",
-        "commit": "8dff154a9536ab61abee08b6ccd003e1a1b401b9",
+        "checkedAt": "2026-11-11T12:33:08.994Z",
+        "commit": "dc37ff91ae239c27e6707834784514bad9257955",
         "issues": [],
         "latestTag": "v2.2.3",
         "ok": true,
@@ -1114,16 +1114,16 @@
       "fullName": "KyuubiRan/Shellscaled",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-11T11:16:15.988Z",
-      "maxVersionCode": 110400600,
+      "lastSuccessAt": "2026-11-11T12:33:08.994Z",
+      "maxVersionCode": 110400601,
       "message": null,
       "repositoryId": 1435874117,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-03T06:51:53Z",
-        "tag": "v1.104.5-r2",
-        "version": "1.104.5",
-        "versionCode": 110400502
+        "publishedAt": "2026-11-11T12:32:44Z",
+        "tag": "v1.104.6-r1",
+        "version": "1.104.6",
+        "versionCode": 110400601
       }
     },
     "sidewire": {
