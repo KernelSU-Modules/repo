@@ -22,7 +22,7 @@
       "stable": null
     },
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "852ed28c00807ebb7b41b77f2f858662ec90fe38",
+      "contentCommit": "e6c8032d426e545dd804ed154c7026047acf5e3b",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -31,8 +31,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-11-12T05:16:40.829Z",
-        "commit": "852ed28c00807ebb7b41b77f2f858662ec90fe38",
+        "checkedAt": "2026-11-12T10:48:48.809Z",
+        "commit": "e6c8032d426e545dd804ed154c7026047acf5e3b",
         "issues": [],
         "latestTag": "v1.2.13",
         "ok": true,
@@ -593,7 +593,7 @@
       "stable": null
     },
     "coloros_wifi_sense": {
-      "contentCommit": "0b67e69922447dfcb06878e480aeba4d71d0b4ab",
+      "contentCommit": "0c4f4662018746cbe91306b0ec337632357b1fb4",
       "fullName": "mazemingw/coloros-wifi-sense",
       "health": "ok",
       "installation": "present",
@@ -602,12 +602,12 @@
       "message": null,
       "repositoryId": 1449425812,
       "request": {
-        "checkedAt": "2026-11-11T15:30:47.653Z",
-        "commit": "0b67e69922447dfcb06878e480aeba4d71d0b4ab",
+        "checkedAt": "2026-11-12T10:48:48.809Z",
+        "commit": "0c4f4662018746cbe91306b0ec337632357b1fb4",
         "issues": [],
-        "latestTag": "v1.4.1",
+        "latestTag": "v1.5.0",
         "ok": true,
-        "releaseId": 441874564,
+        "releaseId": 442811371,
         "repositoryId": 1449425812,
         "submissionId": "1rwwvpolsh"
       },
