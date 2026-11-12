@@ -22,7 +22,7 @@
       "stable": null
     },
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "ef18f966cd083a0b98dda7eabff3942f6d24e4ba",
+      "contentCommit": "3d79c97f2da6699aeba065523d637ec2b0148af0",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -31,12 +31,12 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-11-12T03:18:17.942Z",
-        "commit": "ef18f966cd083a0b98dda7eabff3942f6d24e4ba",
+        "checkedAt": "2026-11-12T03:51:17.202Z",
+        "commit": "3d79c97f2da6699aeba065523d637ec2b0148af0",
         "issues": [],
-        "latestTag": "v1.2.12",
+        "latestTag": "v1.2.13",
         "ok": true,
-        "releaseId": 442441539,
+        "releaseId": 442473327,
         "repositoryId": 1428389721,
         "submissionId": "7odtl2oc3j"
       },
