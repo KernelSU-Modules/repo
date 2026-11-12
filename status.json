@@ -962,16 +962,16 @@
       "fullName": "Fanju6/NetProxy-Releases",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-26T04:40:18.124Z",
-      "maxVersionCode": 1090,
+      "lastSuccessAt": "2026-11-12T08:41:33.295Z",
+      "maxVersionCode": 1100,
       "message": null,
       "repositoryId": 1414363922,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-26T04:39:56Z",
-        "tag": "v8.6.2",
-        "version": "v8.6.2",
-        "versionCode": 1090
+        "publishedAt": "2026-11-12T08:41:08Z",
+        "tag": "v8.7.0",
+        "version": "v8.7.0",
+        "versionCode": 1100
       }
     },
     "nomount": {
