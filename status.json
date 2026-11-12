@@ -1295,11 +1295,11 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "5af25c7ce64f364509ed1c4fd43b78217925b001",
+      "contentCommit": "1efc580945967dbeceb49471cf842ac0edbd84f6",
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-09T13:14:01.369Z",
+      "lastSuccessAt": "2026-11-12T14:32:28.175Z",
       "maxVersionCode": 371,
       "message": null,
       "repositoryId": 1348255159,

@@ -11248,14 +11248,14 @@
     "zygisknextsu": {
       "content": {
         "blobs": {
-          "README.md": "c21309f5fcf19b64dbc737ca92a4af0ac8cb4e51",
-          "module.yaml": "cf5c37751514a068d815acbcfb45e6cce1ac0a1b"
+          "README.md": "ef811f6ac26af69a2ed6fd2ee4b74052f0a9cbac",
+          "module.yaml": "36a601961d8c8a4515be4c8cab6ee17f8ebbf5ab"
         },
-        "commit": "5af25c7ce64f364509ed1c4fd43b78217925b001",
-        "fetchedAt": "2026-11-09T13:14:01.369Z",
+        "commit": "1efc580945967dbeceb49471cf842ac0edbd84f6",
+        "fetchedAt": "2026-11-12T14:32:28.175Z",
         "files": {
-          "README.md": "edc9c20896ac402d6e6f48bd7f70698b807662019b41ea9d06e4aa4b355ebee5",
-          "module.yaml": "f1b2005573bc3c0f4250f8ac28a3e8a6c1f771ad94ee9a2f02c13b4814a911a1"
+          "README.md": "9ff3eb0f73f4e2e9e4a4e1207d85eedd80355501ca0f58193dc9c8cf3c478f50",
+          "module.yaml": "775089488c7f73e76a0c8a33a22ba885c0b77cf491b1a26cbbdf255f9c1dcdb2"
         },
         "manifestPath": "module.yaml",
         "ref": "master"
@@ -11263,8 +11263,8 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-09T13:14:01.369Z",
-        "lastSuccessAt": "2026-11-09T13:14:01.369Z",
+        "lastAttemptAt": "2026-11-12T14:32:28.175Z",
+        "lastSuccessAt": "2026-11-12T14:32:28.175Z",
         "message": null,
         "status": "ok"
       },
