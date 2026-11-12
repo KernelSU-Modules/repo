@@ -31,12 +31,12 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-11-12T10:48:48.809Z",
+        "checkedAt": "2026-11-12T12:14:15.181Z",
         "commit": "e6c8032d426e545dd804ed154c7026047acf5e3b",
         "issues": [],
-        "latestTag": "v1.2.13",
+        "latestTag": "v1.2.14",
         "ok": true,
-        "releaseId": 442473327,
+        "releaseId": 442897754,
         "repositoryId": 1428389721,
         "submissionId": "7odtl2oc3j"
       },
