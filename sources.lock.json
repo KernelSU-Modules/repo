@@ -10896,17 +10896,47 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-08T13:55:19.760Z",
-        "lastSuccessAt": "2026-11-08T13:55:19.760Z",
+        "lastAttemptAt": "2026-11-12T20:14:09.282Z",
+        "lastSuccessAt": "2026-11-12T20:14:09.282Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk_fusehide",
       "installationId": 170178853,
-      "maxStableVersionCode": 204,
-      "maxVersionCode": 204,
+      "maxStableVersionCode": 205,
+      "maxVersionCode": 205,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:01bac69d6730001ab1f4b0f572449c1155b0ca9f5c28d623796d98837fa2edd5",
+            "id": 740929089,
+            "name": "FuseHide-1.205_205-54d38de-release.zip",
+            "sha256": "01bac69d6730001ab1f4b0f572449c1155b0ca9f5c28d623796d98837fa2edd5",
+            "size": 7677650,
+            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v205-54d38de/FuseHide-1.205_205-54d38de-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.205`\n- **VersionCode:** `205`\n- **Commit:** [`54d38de`](https://github.com/XiaoTong6666/FuseHide/commit/54d38de40573794bcb8b2503aa11883847d2ae58)\n- **Build time:** `6m 32s`\n- **SHA256:** `01bac69d6730001ab1f4b0f572449c1155b0ca9f5c28d623796d98837fa2edd5`\n\n## Message\n\n```text\nbuild(deps): bump androidx.test.uiautomator:uiautomator (#124)\n\nBumps androidx.test.uiautomator:uiautomator from 2.4.0 to 2.4.1.\n\n---\nupdated-dependencies:\n- dependency-name: androidx.test.uiautomator:uiautomator\n  dependency-version: 2.4.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v205-54d38de",
+          "immutable": true,
+          "name": "1.205",
+          "prerelease": false,
+          "prop": {
+            "author": "XiaoTong",
+            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+            "id": "zygisk_fusehide",
+            "name": "Zygisk - FuseHide",
+            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+            "version": "1.205 (205-54d38de-release)",
+            "versionCode": "205"
+          },
+          "publishedAt": "2026-11-12T20:13:46Z",
+          "releaseId": 443457414,
+          "tag": "v205-54d38de",
+          "tagCommit": "c5ee9988a01fb589b39a4ef2688cee708f4cd65d",
+          "version": "1.205 (205-54d38de-release)",
+          "versionCode": 205
+        },
         {
           "asset": {
             "digest": "sha256:0ebda4e0b1ca4561772fba7f013da2328575f52255e5a8bddceded2e7735cf48",
@@ -11176,36 +11206,6 @@
           "tagCommit": "192da10e713bc3e7853ad94a40e89a4d205d757a",
           "version": "1.190 (190-2ea586d-release)",
           "versionCode": 190
-        },
-        {
-          "asset": {
-            "digest": "sha256:3137bd085537866a279a406665d121978e45192807f304e7d0352d60210cedb6",
-            "id": 652729616,
-            "name": "FuseHide-1.189_189-fac2421-release.zip",
-            "sha256": "3137bd085537866a279a406665d121978e45192807f304e7d0352d60210cedb6",
-            "size": 7534307,
-            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v189-fac2421/FuseHide-1.189_189-fac2421-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.189`\n- **VersionCode:** `189`\n- **Commit:** [`fac2421`](https://github.com/XiaoTong6666/FuseHide/commit/fac2421a4bc2e7b16b33b1f3c11dada9604ed36b)\n- **Build time:** `8m 37s`\n- **SHA256:** `3137bd085537866a279a406665d121978e45192807f304e7d0352d60210cedb6`\n\n## Message\n\n```text\nfix(ui): Resolve scaffold padding lint and missing translations Meow\n\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v189-fac2421",
-          "immutable": true,
-          "name": "1.189",
-          "prerelease": false,
-          "prop": {
-            "author": "XiaoTong",
-            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
-            "id": "zygisk_fusehide",
-            "name": "Zygisk - FuseHide",
-            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-            "version": "1.189 (189-fac2421-release)",
-            "versionCode": "189"
-          },
-          "publishedAt": "2026-10-18T06:52:03Z",
-          "releaseId": 416286168,
-          "tag": "v189-fac2421",
-          "tagCommit": "f20e2f2dc9955a138d00886851f3d70b7432241f",
-          "version": "1.189 (189-fac2421-release)",
-          "versionCode": 189
         }
       ],
       "repositoryId": 1417162951,
@@ -11271,21 +11271,25 @@
         "438280114": {
           "checkedAt": "2026-11-08T13:55:19.760Z",
           "ok": true
+        },
+        "443457414": {
+          "checkedAt": "2026-11-12T20:14:09.282Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:0ebda4e0b1ca4561772fba7f013da2328575f52255e5a8bddceded2e7735cf48",
-          "id": 724091087,
-          "name": "FuseHide-1.204_204-d739791-release.zip",
-          "sha256": "0ebda4e0b1ca4561772fba7f013da2328575f52255e5a8bddceded2e7735cf48",
+          "digest": "sha256:01bac69d6730001ab1f4b0f572449c1155b0ca9f5c28d623796d98837fa2edd5",
+          "id": 740929089,
+          "name": "FuseHide-1.205_205-54d38de-release.zip",
+          "sha256": "01bac69d6730001ab1f4b0f572449c1155b0ca9f5c28d623796d98837fa2edd5",
           "size": 7677650,
-          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v204-d739791/FuseHide-1.204_204-d739791-release.zip"
+          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v205-54d38de/FuseHide-1.205_205-54d38de-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.204`\n- **VersionCode:** `204`\n- **Commit:** [`d739791`](https://github.com/XiaoTong6666/FuseHide/commit/d739791e92d24a783ad52e70d85043d689d72cd7)\n- **Build time:** `8m 36s`\n- **SHA256:** `0ebda4e0b1ca4561772fba7f013da2328575f52255e5a8bddceded2e7735cf48`\n\n## Message\n\n```text\nbuild(deps): bump agp from 9.5.0 to 9.5.1 (#120)\n\nBumps `agp` from 9.5.0 to 9.5.1.\n\nUpdates `com.android.application` from 9.5.0 to 9.5.1\n\nUpdates `com.android.library` from 9.5.0 to 9.5.1\n\n---\nupdated-dependencies:\n- dependency-name: com.android.application\n  dependency-version: 9.5.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n- dependency-name: com.android.library\n  dependency-version: 9.5.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v204-d739791",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.205`\n- **VersionCode:** `205`\n- **Commit:** [`54d38de`](https://github.com/XiaoTong6666/FuseHide/commit/54d38de40573794bcb8b2503aa11883847d2ae58)\n- **Build time:** `6m 32s`\n- **SHA256:** `01bac69d6730001ab1f4b0f572449c1155b0ca9f5c28d623796d98837fa2edd5`\n\n## Message\n\n```text\nbuild(deps): bump androidx.test.uiautomator:uiautomator (#124)\n\nBumps androidx.test.uiautomator:uiautomator from 2.4.0 to 2.4.1.\n\n---\nupdated-dependencies:\n- dependency-name: androidx.test.uiautomator:uiautomator\n  dependency-version: 2.4.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v205-54d38de",
         "immutable": true,
-        "name": "1.204",
+        "name": "1.205",
         "prerelease": false,
         "prop": {
           "author": "XiaoTong",
@@ -11293,15 +11297,15 @@
           "id": "zygisk_fusehide",
           "name": "Zygisk - FuseHide",
           "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-          "version": "1.204 (204-d739791-release)",
-          "versionCode": "204"
+          "version": "1.205 (205-54d38de-release)",
+          "versionCode": "205"
         },
-        "publishedAt": "2026-11-08T13:54:51Z",
-        "releaseId": 438280114,
-        "tag": "v204-d739791",
-        "tagCommit": "3abf62d7d8a82d47944d248d485c97e64dcf7c77",
-        "version": "1.204 (204-d739791-release)",
-        "versionCode": 204
+        "publishedAt": "2026-11-12T20:13:46Z",
+        "releaseId": 443457414,
+        "tag": "v205-54d38de",
+        "tagCommit": "c5ee9988a01fb589b39a4ef2688cee708f4cd65d",
+        "version": "1.205 (205-54d38de-release)",
+        "versionCode": 205
       },
       "stars": {
         "count": 23,
