@@ -5925,16 +5925,16 @@
     "gs_quick_reload": {
       "content": {
         "blobs": {
-          "README.md": "11b4138eb1e3e2514667228e5077a2466a63de3d",
+          "README.md": "2852ddba7b0bb6ed9c04c4112517cca4a9c946f7",
           "assets/icon.png": "57b75d47b29bb6da35baf6dd79b8948c15a5f555",
-          "module.yaml": "a64459c9a771c66064ff6ba808884ccacb475a0e"
+          "module.yaml": "c84d2c3e7eed5289a91230acc256c36ae163c2e1"
         },
-        "commit": "be56e15c0ffcde10e2fba472fc2a434dc05fda16",
-        "fetchedAt": "2026-11-12T15:57:53.963Z",
+        "commit": "2e12e86a5b6ad7faaa88aefbcc5ad7625b27137b",
+        "fetchedAt": "2026-11-12T16:27:31.507Z",
         "files": {
-          "README.md": "08d3b81a11502ffb5a716fbdab1724157531770aafa64bea29bf2c2692cb3195",
+          "README.md": "0cfc4840ba43089eb5ed88ad6ac7f8fc60a8f487c196d0c38a93ada474f9c08e",
           "assets/icon.png": "daf86036a0c053082d5c41a79ea07ee540a6f1bbe33f2eb5848fff3a8d15b2ca",
-          "module.yaml": "2d8a0bb9979f7671e080ec9648fa4dff90a3d08f6b6c2239e462f393da8cd8a4"
+          "module.yaml": "9f8b3c5a91f01426359e20d019e17274d6be5cc0463a719856adb19e912d42fe"
         },
         "manifestPath": "module.yaml",
         "ref": "main"
@@ -5942,17 +5942,46 @@
       "fullName": "CodeFishK/gs-quick-reload",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-12T15:59:10.416Z",
-        "lastSuccessAt": "2026-11-12T15:59:10.416Z",
+        "lastAttemptAt": "2026-11-12T16:27:31.507Z",
+        "lastSuccessAt": "2026-11-12T16:27:31.507Z",
         "message": null,
         "status": "ok"
       },
       "id": "gs_quick_reload",
       "installationId": 177378641,
-      "maxStableVersionCode": 5,
-      "maxVersionCode": 5,
+      "maxStableVersionCode": 6,
+      "maxVersionCode": 6,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:d648ee99e7641171fa3e972df507cf2f85b85f65db0ebd61fdcbd20b5b88ff51",
+            "id": 740192656,
+            "name": "gs_quick_reload-6-v2.4.zip",
+            "sha256": "d648ee99e7641171fa3e972df507cf2f85b85f65db0ebd61fdcbd20b5b88ff51",
+            "size": 24672,
+            "url": "https://github.com/CodeFishK/gs-quick-reload/releases/download/v2.4.0/gs_quick_reload-6-v2.4.zip"
+          },
+          "body": "夜间守护第二次收紧：被系统拨回浅色后 **2 分钟内**纠回。\n\n- **复查间隔 10 分钟 → 2 分钟**：11-13 00:12 `com.samsung.android.lool` 把判定拨回浅色，旧版要 2 分钟才发现\n- **判据多一层**：Twilight 日出日落 → 三星「黑暗模式定时」(`display_night_theme_*`) → 19:00–07:00 兜底。本机 Twilight 恒为 `null`，以前只能吃硬编码\n- **防拉锯**：30 分钟内被外部改回 5 次即让位 45 分钟，不跟系统例程对打\n- 日志加 `源=sun/sched/fallback`、`zen=`、每 30 分钟一次心跳\n- 说明文字精简：`module.prop` description / `module.yaml` summary / README 开头\n\n适用：三星 Galaxy Z Fold7（SM-F966B / Android 17）。完整变更见 CHANGELOG。",
+          "htmlUrl": "https://github.com/CodeFishK/gs-quick-reload/releases/tag/v2.4.0",
+          "immutable": true,
+          "name": "v2.4 · 夜间模式：2 分钟复查 + 防拉锯",
+          "prerelease": false,
+          "prop": {
+            "author": "CodeFishK",
+            "description": "Galaxy Z Fold7 专用（Android 17）：点「执行」重载 KernelSU 模块，只重启 zygote、跳过 stop/start，副屏不掉。含体检与夜间模式自愈。",
+            "id": "gs_quick_reload",
+            "name": "一键重载模块（Fold7）",
+            "version": "v2.4",
+            "versionCode": "6"
+          },
+          "publishedAt": "2026-11-12T16:27:03Z",
+          "releaseId": 443213351,
+          "tag": "v2.4.0",
+          "tagCommit": "2e12e86a5b6ad7faaa88aefbcc5ad7625b27137b",
+          "version": "v2.4",
+          "versionCode": 6
+        },
         {
           "asset": {
             "digest": "sha256:52fde2fac09d838ee9d24a29cd9509aa0492eeb31d0e7ace576a829ce0dd1dfe",
@@ -6054,36 +6083,40 @@
         "443175250": {
           "checkedAt": "2026-11-12T15:57:53.963Z",
           "ok": true
+        },
+        "443213351": {
+          "checkedAt": "2026-11-12T16:27:31.507Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:52fde2fac09d838ee9d24a29cd9509aa0492eeb31d0e7ace576a829ce0dd1dfe",
-          "id": 740090742,
-          "name": "gs_quick_reload-5-v2.3.zip",
-          "sha256": "52fde2fac09d838ee9d24a29cd9509aa0492eeb31d0e7ace576a829ce0dd1dfe",
-          "size": 23795,
-          "url": "https://github.com/CodeFishK/gs-quick-reload/releases/download/v2.3.0/gs_quick_reload-5-v2.3.zip"
+          "digest": "sha256:d648ee99e7641171fa3e972df507cf2f85b85f65db0ebd61fdcbd20b5b88ff51",
+          "id": 740192656,
+          "name": "gs_quick_reload-6-v2.4.zip",
+          "sha256": "d648ee99e7641171fa3e972df507cf2f85b85f65db0ebd61fdcbd20b5b88ff51",
+          "size": 24672,
+          "url": "https://github.com/CodeFishK/gs-quick-reload/releases/download/v2.4.0/gs_quick_reload-6-v2.4.zip"
         },
-        "body": "## v2.3 —— 夜间模式改成「绝对判据 + 周期复查」（versionCode 5）\n\n修一个会让「日落到日出」整晚不生效的判定缺陷。\n\n- **根因**：v2.1 的守护拿「重启前那一刻的昼夜判定」当基准，重启前若已经是错的，\n  纠正逻辑就会把错的当成对的。11-12 20:19 那次：日落 17:11，重启前后都是浅色，\n  守护写「判定正确」就收工，整晚没变深色，只能手动重设。\n- **现在**：每次从 `dumpsys uimode` 读 `sunrise` / `sunset`（拿不到按 19:00–07:00），\n  算出「此刻应该深色还是浅色」，不再参考重启前的值。\n- 重启后 45 秒、90 秒各查一次；之后每 10 分钟复查、持续 12 小时，\n  日落/日出两个边界即使系统没生效也会在 10 分钟内被拉回。\n- 你一旦自己改了模式（切成始终浅色/深色），守护立即退出，不跟用户抢。\n- 新增 `NIGHT_STEP` / `NIGHT_SPAN` 两个环境变量可调节奏；`night` 子命令同样改为按 Twilight 判定。\n- 读取 `dumpsys` 失败的轮次直接跳过，不会因为读不到状态而乱改模式。\n",
-        "htmlUrl": "https://github.com/CodeFishK/gs-quick-reload/releases/tag/v2.3.0",
+        "body": "夜间守护第二次收紧：被系统拨回浅色后 **2 分钟内**纠回。\n\n- **复查间隔 10 分钟 → 2 分钟**：11-13 00:12 `com.samsung.android.lool` 把判定拨回浅色，旧版要 2 分钟才发现\n- **判据多一层**：Twilight 日出日落 → 三星「黑暗模式定时」(`display_night_theme_*`) → 19:00–07:00 兜底。本机 Twilight 恒为 `null`，以前只能吃硬编码\n- **防拉锯**：30 分钟内被外部改回 5 次即让位 45 分钟，不跟系统例程对打\n- 日志加 `源=sun/sched/fallback`、`zen=`、每 30 分钟一次心跳\n- 说明文字精简：`module.prop` description / `module.yaml` summary / README 开头\n\n适用：三星 Galaxy Z Fold7（SM-F966B / Android 17）。完整变更见 CHANGELOG。",
+        "htmlUrl": "https://github.com/CodeFishK/gs-quick-reload/releases/tag/v2.4.0",
         "immutable": true,
-        "name": "v2.3 · 夜间模式修复（Twilight 绝对判据 + 12h 复查）",
+        "name": "v2.4 · 夜间模式：2 分钟复查 + 防拉锯",
         "prerelease": false,
         "prop": {
           "author": "CodeFishK",
-          "description": "三星 Galaxy Z Fold7 专用（SM-F966B / One UI 9 / Android 17）：点「执行」让 KernelSU 模块生效，走 ksud 两阶段 + 只重启 zygote，不执行 stop/start，折叠屏副屏不会掉。附带 check 体检、mods 清单、dump 打包、trim 清理、night 还原夜间模式。基于 GhostSam 临时 root（https://github.com/snothin/GhostSam）实测。",
+          "description": "Galaxy Z Fold7 专用（Android 17）：点「执行」重载 KernelSU 模块，只重启 zygote、跳过 stop/start，副屏不掉。含体检与夜间模式自愈。",
           "id": "gs_quick_reload",
           "name": "一键重载模块（Fold7）",
-          "version": "v2.3",
-          "versionCode": "5"
+          "version": "v2.4",
+          "versionCode": "6"
         },
-        "publishedAt": "2026-11-12T15:57:31Z",
-        "releaseId": 443175250,
-        "tag": "v2.3.0",
-        "tagCommit": "be56e15c0ffcde10e2fba472fc2a434dc05fda16",
-        "version": "v2.3",
-        "versionCode": 5
+        "publishedAt": "2026-11-12T16:27:03Z",
+        "releaseId": 443213351,
+        "tag": "v2.4.0",
+        "tagCommit": "2e12e86a5b6ad7faaa88aefbcc5ad7625b27137b",
+        "version": "v2.4",
+        "versionCode": 6
       },
       "stars": {
         "count": 1,

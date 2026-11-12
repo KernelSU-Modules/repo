@@ -780,20 +780,20 @@
       "stable": null
     },
     "gs_quick_reload": {
-      "contentCommit": "be56e15c0ffcde10e2fba472fc2a434dc05fda16",
+      "contentCommit": "2e12e86a5b6ad7faaa88aefbcc5ad7625b27137b",
       "fullName": "CodeFishK/gs-quick-reload",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-12T15:59:10.416Z",
-      "maxVersionCode": 5,
+      "lastSuccessAt": "2026-11-12T16:27:31.507Z",
+      "maxVersionCode": 6,
       "message": null,
       "repositoryId": 1441423217,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-12T15:57:31Z",
-        "tag": "v2.3.0",
-        "version": "v2.3",
-        "versionCode": 5
+        "publishedAt": "2026-11-12T16:27:03Z",
+        "tag": "v2.4.0",
+        "version": "v2.4",
+        "versionCode": 6
       }
     },
     "hybrid_mount": {
