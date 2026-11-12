@@ -22,7 +22,7 @@
       "stable": null
     },
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "3d79c97f2da6699aeba065523d637ec2b0148af0",
+      "contentCommit": "852ed28c00807ebb7b41b77f2f858662ec90fe38",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
@@ -31,8 +31,8 @@
       "message": null,
       "repositoryId": 1428389721,
       "request": {
-        "checkedAt": "2026-11-12T03:51:17.202Z",
-        "commit": "3d79c97f2da6699aeba065523d637ec2b0148af0",
+        "checkedAt": "2026-11-12T05:16:40.829Z",
+        "commit": "852ed28c00807ebb7b41b77f2f858662ec90fe38",
         "issues": [],
         "latestTag": "v1.2.13",
         "ok": true,
@@ -937,7 +937,7 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "94f24798aaaeadcf68f7599cf528e6d646a07c5c",
+      "contentCommit": "dfedf87755a36cf0758003d8db2a810e7d87c737",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
@@ -946,12 +946,12 @@
       "message": null,
       "repositoryId": 1445526027,
       "request": {
-        "checkedAt": "2026-11-11T23:09:10.455Z",
-        "commit": "94f24798aaaeadcf68f7599cf528e6d646a07c5c",
+        "checkedAt": "2026-11-12T05:16:40.829Z",
+        "commit": "dfedf87755a36cf0758003d8db2a810e7d87c737",
         "issues": [],
-        "latestTag": "1.1.0",
+        "latestTag": "1.2.0",
         "ok": true,
-        "releaseId": 439981387,
+        "releaseId": 442524626,
         "repositoryId": 1445526027,
         "submissionId": "ll23w1var7"
       },
@@ -1194,7 +1194,7 @@
       "stable": null
     },
     "susfs_guard_lkm": {
-      "contentCommit": "f95ae4c4c7df7050b2e13bc5d26403e5e0786d00",
+      "contentCommit": "86793a0148cb85fb937b04a6094e28defdab12a4",
       "fullName": "inforcqb/susfs4ksu-for-lkm",
       "health": "ok",
       "installation": "present",
@@ -1203,8 +1203,8 @@
       "message": null,
       "repositoryId": 1361441529,
       "request": {
-        "checkedAt": "2026-11-10T11:15:49.076Z",
-        "commit": "f95ae4c4c7df7050b2e13bc5d26403e5e0786d00",
+        "checkedAt": "2026-11-12T05:16:40.829Z",
+        "commit": "86793a0148cb85fb937b04a6094e28defdab12a4",
         "issues": [],
         "latestTag": "v2.3.0-r18.9-1",
         "ok": true,
