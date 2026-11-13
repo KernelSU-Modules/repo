@@ -1,19 +1,23 @@
 id: A-STEPS
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1423140380
+  ownerId: 60456364
+  fullName: xiaoji0308/Steps
+  manifestPath: module.yaml
+review:
   submissionId: wc1oqebvjy
   kind: submit
-  source:
-    host: github
-    repositoryId: 1423140380
-    ownerId: 60456364
-    fullName: xiaoji0308/Steps
-    manifestPath: module.yaml
   submittedBy: 60456364
-  submittedByLogin: xiaoji0308
   submittedAt: 2026-11-04T19:03:45.594Z
+  decision: approved
+  decidedBy: 185127155
+  decidedVia: portal
+  decidedAt: 2026-11-13T11:32:25.483Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64638
 createdAt: 2026-11-04T19:03:45.594Z
-updatedAt: 2026-11-04T19:03:45.594Z
+updatedAt: 2026-11-13T11:32:25.483Z
