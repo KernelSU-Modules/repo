@@ -1047,16 +1047,16 @@
       "fullName": "maxsteeel/nomount",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-13T23:01:42.300Z",
-      "maxVersionCode": 605,
+      "lastSuccessAt": "2026-11-13T23:12:15.833Z",
+      "maxVersionCode": 720,
       "message": null,
       "repositoryId": 1128821046,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-22T16:42:59Z",
-        "tag": "v2.2.0",
-        "version": "v2.2.0 (605)",
-        "versionCode": 605
+        "publishedAt": "2026-11-13T23:11:43Z",
+        "tag": "v2.3.0.0",
+        "version": "v2.3.0 (720)",
+        "versionCode": 720
       }
     },
     "oh_my_keymint": {
