@@ -76,6 +76,27 @@
       },
       "stable": null
     },
+    "ByeBlur": {
+      "contentCommit": "e082caa455df7a324c9d80505b152f5987f084d0",
+      "fullName": "LeanxModulostk/Bye-Blur",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 744575047,
+      "request": {
+        "checkedAt": "2026-11-13T22:00:48.800Z",
+        "commit": "e082caa455df7a324c9d80505b152f5987f084d0",
+        "issues": [],
+        "latestTag": "v9",
+        "ok": true,
+        "releaseId": 444780536,
+        "repositoryId": 744575047,
+        "submissionId": "al6jbkr1xl"
+      },
+      "stable": null
+    },
     "COPG": {
       "contentCommit": "2b7889f3f864138b2d89097228e921c4c8cbeea7",
       "fullName": "AlirezaParsi/COPG",
