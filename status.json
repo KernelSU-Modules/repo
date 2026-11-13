@@ -183,11 +183,11 @@
       "stable": null
     },
     "MagicNet": {
-      "contentCommit": "0ca295da653853d4600204c7aace40c978d303c9",
+      "contentCommit": "cac2a6fb58d395206a60275fbe3cc6191c841ce1",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-13T06:41:15.659Z",
+      "lastSuccessAt": "2026-11-13T18:54:17.185Z",
       "maxVersionCode": 10615,
       "message": null,
       "repositoryId": 998453022,
@@ -823,11 +823,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "9bdf33e79d8cbce75d82474ec3312dd8ccadfdfb",
+      "contentCommit": "452e947d2ce0930221466db4ccfff0e2c296a102",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-13T11:33:30.324Z",
+      "lastSuccessAt": "2026-11-13T18:54:17.185Z",
       "maxVersionCode": 225,
       "message": null,
       "repositoryId": 1446403674,
@@ -963,7 +963,7 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "be7e010174cc8842f5adb442e3a004be7b30d595",
+      "contentCommit": "9cb37ebff491fc4c2ea2228bb88a932241d8e0ef",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
@@ -972,8 +972,8 @@
       "message": null,
       "repositoryId": 1445526027,
       "request": {
-        "checkedAt": "2026-11-13T05:36:13.195Z",
-        "commit": "be7e010174cc8842f5adb442e3a004be7b30d595",
+        "checkedAt": "2026-11-13T18:54:17.185Z",
+        "commit": "9cb37ebff491fc4c2ea2228bb88a932241d8e0ef",
         "issues": [],
         "latestTag": "1.2.0",
         "ok": true,
@@ -1300,16 +1300,16 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-12T20:14:09.282Z",
-      "maxVersionCode": 205,
+      "lastSuccessAt": "2026-11-13T18:54:17.185Z",
+      "maxVersionCode": 206,
       "message": null,
       "repositoryId": 1417162951,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-12T20:13:46Z",
-        "tag": "v205-54d38de",
-        "version": "1.205 (205-54d38de-release)",
-        "versionCode": 205
+        "publishedAt": "2026-11-13T18:53:57Z",
+        "tag": "v206-b7e36d0",
+        "version": "1.206 (206-b7e36d0-release)",
+        "versionCode": 206
       }
     },
     "zygisknextsu": {
