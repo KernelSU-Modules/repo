@@ -8710,7 +8710,7 @@
     "nomount": {
       "content": {
         "blobs": {
-          "README.md": "8d84b7acc9a637f9fb4ab8ac35dc1722468be538",
+          "README.md": "cd7f46d5fb80e1ab4bacec5fbcb601770410cf22",
           "assets/module_1.jpg": "d09e2054cf969eb4f415a72a87762b43110537df",
           "assets/module_2.jpg": "02f9169999fdc671da2b294c0f020806b2272bb8",
           "assets/module_3.jpg": "23420dbf47a9fe32cfb93da3272187e59044b0a7",
@@ -8721,10 +8721,10 @@
           "assets/module_8.jpg": "2076a48c65dc005f1fa844fd1397b845441c7325",
           "module.yaml": "7c1b26eca7783abf46a9ea41e18fa3f8189ffcf5"
         },
-        "commit": "bf1847f98fed382369c43bfd652cd93774b9b8e3",
-        "fetchedAt": "2026-10-22T17:26:13.394Z",
+        "commit": "ab93ee32a589ccb021257b3c1f280e058520d844",
+        "fetchedAt": "2026-11-13T23:01:42.300Z",
         "files": {
-          "README.md": "09f344c135dfa9b89c1faf8fb8d80dac37d09eed28be48eff3b6258057ff05ea",
+          "README.md": "57d4f1ccc764c5e230095b4b9e881d970d2fb7e70f0b7b4feb0f3c67405f3590",
           "assets/module_1.jpg": "f27a988a931c741136dedbb46cf346c179f2d95eca99c53eb50e72e943d6bf18",
           "assets/module_2.jpg": "a4b63917a451f4c2ae329710c2eed266d20da2f9cd186021741f4db5f5675d69",
           "assets/module_3.jpg": "3f1032df07c51be55b3619a153cf85ca39d526c92f0e6f7661f5aad08bfc1750",
@@ -8741,8 +8741,8 @@
       "fullName": "maxsteeel/nomount",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-22T17:26:13.394Z",
-        "lastSuccessAt": "2026-10-22T17:26:13.394Z",
+        "lastAttemptAt": "2026-11-13T23:01:42.300Z",
+        "lastSuccessAt": "2026-11-13T23:01:42.300Z",
         "message": null,
         "status": "ok"
       },
@@ -8837,6 +8837,12 @@
         "420948781": {
           "checkedAt": "2026-10-22T17:26:13.394Z",
           "ok": true
+        },
+        "444825861": {
+          "checkedAt": "2026-11-13T23:01:42.300Z",
+          "code": "prop-missing",
+          "message": "The ZIP has no module.prop at its root.",
+          "ok": false
         }
       },
       "stable": {

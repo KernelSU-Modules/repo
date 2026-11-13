@@ -1043,11 +1043,11 @@
       }
     },
     "nomount": {
-      "contentCommit": "bf1847f98fed382369c43bfd652cd93774b9b8e3",
+      "contentCommit": "ab93ee32a589ccb021257b3c1f280e058520d844",
       "fullName": "maxsteeel/nomount",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-22T17:26:13.394Z",
+      "lastSuccessAt": "2026-11-13T23:01:42.300Z",
       "maxVersionCode": 605,
       "message": null,
       "repositoryId": 1128821046,
