@@ -8741,8 +8741,8 @@
       "fullName": "maxsteeel/nomount",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-13T23:13:19.524Z",
-        "lastSuccessAt": "2026-11-13T23:13:19.524Z",
+        "lastAttemptAt": "2026-11-13T23:14:18.964Z",
+        "lastSuccessAt": "2026-11-13T23:14:18.964Z",
         "message": "stable-unavailable: the stable release (versionCode 720) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 720 is published.",
         "status": "ok"
       },
@@ -8847,6 +8847,12 @@
         "444832092": {
           "checkedAt": "2026-11-13T23:12:15.833Z",
           "ok": true
+        },
+        "444833489": {
+          "checkedAt": "2026-11-13T23:14:18.964Z",
+          "code": "version-not-newer",
+          "message": "versionCode 720 was already accepted for this module (the release is gone); versionCodes cannot be reused. Use a versionCode above 720.",
+          "ok": false
         }
       },
       "stable": null,

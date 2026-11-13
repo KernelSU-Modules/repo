@@ -1047,7 +1047,7 @@
       "fullName": "maxsteeel/nomount",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-13T23:13:19.524Z",
+      "lastSuccessAt": "2026-11-13T23:14:18.964Z",
       "maxVersionCode": 720,
       "message": "stable-unavailable: the stable release (versionCode 720) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 720 is published.",
       "repositoryId": 1128821046,
