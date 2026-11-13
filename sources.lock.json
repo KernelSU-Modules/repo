@@ -8793,6 +8793,123 @@
         "verified": "self"
       }
     },
+    "power11": {
+      "content": {
+        "blobs": {
+          "README.md": "94f03f438f3b38e2c638f5455d37e5a5f99d122f",
+          "assets/icon.png": "b0d28300ecfe3ed4557b31345e0b2c0c5fc79ad6",
+          "module.yaml": "ea0e28d59d05fcc376ba7f0248c6905ec7e1dfe8",
+          "module/banner.png": "f9d335bc22a885a73e6a758f71086e503120afe6"
+        },
+        "commit": "e823276c975d794e8e515f302cec28c39f8d8fa0",
+        "fetchedAt": "2026-11-13T11:32:25.479Z",
+        "files": {
+          "README.md": "219dc12d83592e42241afd09fe2d488a600afdf750536599bd9afec87d1f8a15",
+          "assets/icon.png": "ad128c7a9d17ce87677deb3c202a3a384a9c0324db9254abd2bd628f27ace17f",
+          "module.yaml": "492a0bee83535fb8bc89ba60bb1bbf408c5164f5b53a43fc43b17d9a750717b9",
+          "module/banner.png": "6dfbfcf9443d756af0033f8bb858aa5a4ddc270ea07fc768e1a11a07da1b40ac"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "LuigiColantuono/Power11",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-13T11:32:25.479Z",
+        "lastSuccessAt": "2026-11-13T11:32:25.479Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "power11",
+      "installationId": 175658617,
+      "maxStableVersionCode": 302,
+      "maxVersionCode": 302,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:9ca231fb093b0f22e7f050fb2b5b260c7448ed540b264ce95ddfb92b893820b1",
+            "id": 680079256,
+            "name": "Power11_v3.0.2.zip",
+            "sha256": "9ca231fb093b0f22e7f050fb2b5b260c7448ed540b264ce95ddfb92b893820b1",
+            "size": 191673,
+            "url": "https://github.com/LuigiColantuono/Power11/releases/download/v3.0.2/Power11_v3.0.2.zip"
+          },
+          "body": "**Bring back the old gem from Android 11.** The classic AOSP power menu on HyperOS / MIUI, with custom items, reboot entries and blur.\r\n\r\n### Highlights\r\n- AOSP power menu on HyperOS / MIUI\r\n- Pick any items in any order: Recovery, Restart, Bootloader, Power off, SystemUI, Soft reboot, Emergency, Lockdown and more\r\n- Presets *Essential 2×2* and *All-in 2×3*, 2 or 3 columns\r\n- Optional background blur with adjustable strength\r\n- Black glass WebUI with live preview\r\n\r\n### Changes in v3.0.2\r\n- The Power11 app is now installed as a regular app, so Vector/LSPosed lists it\r\n- Plugin components disabled by AOSP Power Menu v1/v2 are taken over correctly\r\n\r\n### Install\r\n1. Download `Power11_v3.0.1.zip` below → KernelSU Next → Modules → Install from storage → reboot\r\n2. Vector (or LSPosed) → Modules → enable **Power11**, scope **System UI**\r\n3. Power11 WebUI → *Restart* SystemUI, then pick your items\r\n\r\nRequires KernelSU Next and Android 12+. Vector/LSPosed is needed only for custom items and order: the AOSP menu itself works without it.\r\n\r\nUpgrading from *AOSP Power Menu* v1/v2? Just install Power11: it replaces the old module and keeps your settings.",
+          "htmlUrl": "https://github.com/LuigiColantuono/Power11/releases/tag/v3.0.2",
+          "immutable": true,
+          "name": "Power11 v3.0.2",
+          "prerelease": false,
+          "prop": {
+            "author": "Luigi Colantuono",
+            "banner": "banner.png",
+            "description": "Bring back the old gem from Android 11. The classic AOSP power menu on HyperOS, with custom items, reboot entries and blur.",
+            "id": "power11",
+            "name": "Power11",
+            "updateJson": "https://raw.githubusercontent.com/LuigiColantuono/Power11/main/update.json",
+            "version": "v3.0.2",
+            "versionCode": "302"
+          },
+          "publishedAt": "2026-10-27T01:35:05Z",
+          "releaseId": 424944911,
+          "tag": "v3.0.2",
+          "tagCommit": "e823276c975d794e8e515f302cec28c39f8d8fa0",
+          "version": "v3.0.2",
+          "versionCode": 302
+        }
+      ],
+      "repositoryId": 1435050229,
+      "seen": {
+        "424898599": {
+          "checkedAt": "2026-11-13T11:32:25.479Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "424944911": {
+          "checkedAt": "2026-11-13T11:32:25.479Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:9ca231fb093b0f22e7f050fb2b5b260c7448ed540b264ce95ddfb92b893820b1",
+          "id": 680079256,
+          "name": "Power11_v3.0.2.zip",
+          "sha256": "9ca231fb093b0f22e7f050fb2b5b260c7448ed540b264ce95ddfb92b893820b1",
+          "size": 191673,
+          "url": "https://github.com/LuigiColantuono/Power11/releases/download/v3.0.2/Power11_v3.0.2.zip"
+        },
+        "body": "**Bring back the old gem from Android 11.** The classic AOSP power menu on HyperOS / MIUI, with custom items, reboot entries and blur.\r\n\r\n### Highlights\r\n- AOSP power menu on HyperOS / MIUI\r\n- Pick any items in any order: Recovery, Restart, Bootloader, Power off, SystemUI, Soft reboot, Emergency, Lockdown and more\r\n- Presets *Essential 2×2* and *All-in 2×3*, 2 or 3 columns\r\n- Optional background blur with adjustable strength\r\n- Black glass WebUI with live preview\r\n\r\n### Changes in v3.0.2\r\n- The Power11 app is now installed as a regular app, so Vector/LSPosed lists it\r\n- Plugin components disabled by AOSP Power Menu v1/v2 are taken over correctly\r\n\r\n### Install\r\n1. Download `Power11_v3.0.1.zip` below → KernelSU Next → Modules → Install from storage → reboot\r\n2. Vector (or LSPosed) → Modules → enable **Power11**, scope **System UI**\r\n3. Power11 WebUI → *Restart* SystemUI, then pick your items\r\n\r\nRequires KernelSU Next and Android 12+. Vector/LSPosed is needed only for custom items and order: the AOSP menu itself works without it.\r\n\r\nUpgrading from *AOSP Power Menu* v1/v2? Just install Power11: it replaces the old module and keeps your settings.",
+        "htmlUrl": "https://github.com/LuigiColantuono/Power11/releases/tag/v3.0.2",
+        "immutable": true,
+        "name": "Power11 v3.0.2",
+        "prerelease": false,
+        "prop": {
+          "author": "Luigi Colantuono",
+          "banner": "banner.png",
+          "description": "Bring back the old gem from Android 11. The classic AOSP power menu on HyperOS, with custom items, reboot entries and blur.",
+          "id": "power11",
+          "name": "Power11",
+          "updateJson": "https://raw.githubusercontent.com/LuigiColantuono/Power11/main/update.json",
+          "version": "v3.0.2",
+          "versionCode": "302"
+        },
+        "publishedAt": "2026-10-27T01:35:05Z",
+        "releaseId": 424944911,
+        "tag": "v3.0.2",
+        "tagCommit": "e823276c975d794e8e515f302cec28c39f8d8fa0",
+        "version": "v3.0.2",
+        "versionCode": 302
+      },
+      "stars": {
+        "count": 1,
+        "fetchedAt": "2026-11-13T11:32:25.479Z",
+        "fullName": "LuigiColantuono/Power11",
+        "repositoryId": 1435050229,
+        "verified": "self"
+      }
+    },
     "shellscaled": {
       "content": {
         "blobs": {
