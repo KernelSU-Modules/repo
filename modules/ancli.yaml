@@ -1,0 +1,19 @@
+id: ancli
+status: pending
+request:
+  submissionId: imq88c93o3
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1285638838
+    ownerId: 118657956
+    fullName: AHLLX/AnCLI
+    manifestPath: module.yaml
+  submittedBy: 118657956
+  submittedByLogin: AHLLX
+  submittedAt: 2026-11-13T06:40:38.858Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64906
+createdAt: 2026-11-13T06:40:38.858Z
+updatedAt: 2026-11-13T06:40:38.858Z
