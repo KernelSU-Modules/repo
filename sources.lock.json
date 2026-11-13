@@ -1,5 +1,172 @@
 {
   "modules": {
+    "A-STEPS": {
+      "content": {
+        "blobs": {
+          "README.md": "494c883e6b800f85c98e2734970a88f67e43d6af",
+          "module.yaml": "8cf87a86259d321371c529ec4a95f6de1bc2f785"
+        },
+        "commit": "865145eb20232f9c7dc8ff68885aa2de92b91f5b",
+        "fetchedAt": "2026-11-13T11:33:30.324Z",
+        "files": {
+          "README.md": "1d69ee0096f80e76085812d797e6981fd93c55aa4dfc1985c472141942a4e647",
+          "module.yaml": "eaaea186985b0ea6f3c03a24dd1c29a5b8bec58e5ce3d9d6abf78c386b0f4506"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "xiaoji0308/Steps",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-13T11:33:30.324Z",
+        "lastSuccessAt": "2026-11-13T11:33:30.324Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "A-STEPS",
+      "installationId": 172438629,
+      "maxStableVersionCode": 20261110,
+      "maxVersionCode": 20261110,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:37b4dde57c76c3b4c3b374e676e39fe7ea015ede4db9c07448c7c6fab26cd55d",
+            "id": 729895023,
+            "name": "26.1110.zip",
+            "sha256": "37b4dde57c76c3b4c3b374e676e39fe7ea015ede4db9c07448c7c6fab26cd55d",
+            "size": 61224,
+            "url": "https://github.com/xiaoji0308/Steps/releases/download/1110/26.1110.zip"
+          },
+          "body": "26.1110\r\n    重构底层逻辑解决启动后未检测到进程，系统拦截等\r\n    增加多种写入方式以支持更多的运行环境\r\n    自动续跑：因达到目标步数或活跃时间结束而停止后，调高目标值或延长活跃结束时间，即可自动恢复运行。\r\n    日志按类型着色，一眼分清\r\n    守护进程未运行时，首页会给出提示以及解决方法\r\n26.1108\r\n    内容调整：移除 1104—1106 版本中的相关内容。\r\n    版本重构：重新调整设计与结构，重新进行模块重构。\r\n    UI 优化：新增多套 UI 设计方案，共计 6 套不同风格。\r\n    UI 切换功能：新增 UI 切换选项，根据个人喜好自由选择不同的界面风格\r\n<img width=\"1080\" height=\"1658\" alt=\"IMG_20261110_110529\" src=\"https://github.com/user-attachments/assets/037fae33-6abb-473f-af07-3a2ea6803253\" />",
+          "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1110",
+          "immutable": true,
+          "name": "智能步数管理26.1110（重要更新）",
+          "prerelease": false,
+          "prop": {
+            "author": "浠浠浠",
+            "description": "自动增加步数",
+            "id": "A-STEPS",
+            "name": "A-智能步数管理［HyperOS］",
+            "updateJson": "https://raw.githubusercontent.com/xiaoji0308/Steps/main/ksu-update.json",
+            "version": "1110",
+            "versionCode": "20261110",
+            "webuiIcon": "webroot/icon.svg"
+          },
+          "publishedAt": "2026-11-10T03:07:15Z",
+          "releaseId": 439898121,
+          "tag": "1110",
+          "tagCommit": "0055511a2f3601e4d6db195c663f98b913771a3d",
+          "version": "1110",
+          "versionCode": 20261110
+        }
+      ],
+      "repositoryId": 1423140380,
+      "seen": {
+        "415852567": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "415939360": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "416206627": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "416258460": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "417950263": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "422588127": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "430051068": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "434265453": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "436390203": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "436710165": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "439898121": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:37b4dde57c76c3b4c3b374e676e39fe7ea015ede4db9c07448c7c6fab26cd55d",
+          "id": 729895023,
+          "name": "26.1110.zip",
+          "sha256": "37b4dde57c76c3b4c3b374e676e39fe7ea015ede4db9c07448c7c6fab26cd55d",
+          "size": 61224,
+          "url": "https://github.com/xiaoji0308/Steps/releases/download/1110/26.1110.zip"
+        },
+        "body": "26.1110\r\n    重构底层逻辑解决启动后未检测到进程，系统拦截等\r\n    增加多种写入方式以支持更多的运行环境\r\n    自动续跑：因达到目标步数或活跃时间结束而停止后，调高目标值或延长活跃结束时间，即可自动恢复运行。\r\n    日志按类型着色，一眼分清\r\n    守护进程未运行时，首页会给出提示以及解决方法\r\n26.1108\r\n    内容调整：移除 1104—1106 版本中的相关内容。\r\n    版本重构：重新调整设计与结构，重新进行模块重构。\r\n    UI 优化：新增多套 UI 设计方案，共计 6 套不同风格。\r\n    UI 切换功能：新增 UI 切换选项，根据个人喜好自由选择不同的界面风格\r\n<img width=\"1080\" height=\"1658\" alt=\"IMG_20261110_110529\" src=\"https://github.com/user-attachments/assets/037fae33-6abb-473f-af07-3a2ea6803253\" />",
+        "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1110",
+        "immutable": true,
+        "name": "智能步数管理26.1110（重要更新）",
+        "prerelease": false,
+        "prop": {
+          "author": "浠浠浠",
+          "description": "自动增加步数",
+          "id": "A-STEPS",
+          "name": "A-智能步数管理［HyperOS］",
+          "updateJson": "https://raw.githubusercontent.com/xiaoji0308/Steps/main/ksu-update.json",
+          "version": "1110",
+          "versionCode": "20261110",
+          "webuiIcon": "webroot/icon.svg"
+        },
+        "publishedAt": "2026-11-10T03:07:15Z",
+        "releaseId": 439898121,
+        "tag": "1110",
+        "tagCommit": "0055511a2f3601e4d6db195c663f98b913771a3d",
+        "version": "1110",
+        "versionCode": 20261110
+      },
+      "stars": {
+        "count": 16,
+        "fetchedAt": "2026-11-13T11:33:30.324Z",
+        "fullName": "xiaoji0308/Steps",
+        "repositoryId": 1423140380,
+        "verified": "self"
+      }
+    },
     "AZenith": {
       "content": {
         "blobs": {
@@ -6693,6 +6860,211 @@
         "fetchedAt": "2026-11-12T12:14:15.181Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
+        "verified": "self"
+      }
+    },
+    "hypercool": {
+      "content": {
+        "blobs": {
+          "README.md": "cea8dfad4193c185e240aee29a8464b93deaec07",
+          "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
+          "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
+          "docs/badges/downloads.svg": "e584a1af8b8552aa995b70bb463e49d427f5a79e",
+          "docs/badges/release.svg": "2753edd739974a60fc65a30a6ae34706093bf40e",
+          "docs/badges/stars.svg": "66a770472f4952bc22547e9d920b180725f47388",
+          "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
+          "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
+          "docs/screenshots/app-cache.png": "6c9a644eb5fc9aa8d61036867b504362d1962218",
+          "docs/screenshots/appearance-status.png": "2c125bbe5aeb001999a0f2447c40205e2f7d2416",
+          "docs/screenshots/battery-calibration.png": "33f3e6aef7a9111b1cc3afc47eaddfffbd31e24e",
+          "docs/screenshots/battery-drain-system.png": "d50c0687f7adc04306ff2e6807a4e623f92be122",
+          "docs/screenshots/battery-drain.png": "7aefa2f4e43a3450e7c4a4d6cdf33f3e14bc94db",
+          "docs/screenshots/extra-kernel-tuning.png": "72a45824ffd685ab70db1f840f5851ede5caf876",
+          "docs/screenshots/extra-power-saving.png": "7443aceb1811042f9faca1c1a54ba494789c4ad4",
+          "docs/screenshots/google-services.png": "1b9c16e3a478ea62e5c359bacc0b74be65b4ec35",
+          "docs/screenshots/heat-control.png": "31393291622884442b9696db93d732b50d118b06",
+          "docs/screenshots/home.png": "9cd397120dbb21d01138f04a77424b68ea1ad0f0",
+          "docs/screenshots/long-battery.png": "db243a24610c7d9674d4d321f82d49e235f479e6",
+          "docs/screenshots/protected-apps.png": "ba40b7e7b31e207643e711d9ca430af22ab70684",
+          "docs/screenshots/ram-management.png": "988b6c80740f183585f9403440a33ce91285405a",
+          "docs/screenshots/storage.png": "2cb8bbf21d41a3abdf4d8d33df4401490d4085e0",
+          "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
+          "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
+        },
+        "commit": "9bdf33e79d8cbce75d82474ec3312dd8ccadfdfb",
+        "fetchedAt": "2026-11-13T11:33:30.324Z",
+        "files": {
+          "README.md": "a66a2013c93e968597d6f30b9c03c0a94f30160ef84891b0a507a1a829ce85d2",
+          "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
+          "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
+          "docs/badges/downloads.svg": "0e7d36068624348a89aec6710400bab10e330b28d84eb0520676c766b361ba09",
+          "docs/badges/release.svg": "8d3de630d0744d4cea6d4cc66f5bd068791c813e1392e5b121e9bf9609c5aae2",
+          "docs/badges/stars.svg": "a46c6b1fb1dc93f3bb3f6433a8cfd984b686d26d437e26295eaef6193ae278fd",
+          "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
+          "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
+          "docs/screenshots/app-cache.png": "74ec72f4f19a4a5f6ed51c1e1f8e18f2f196a7b14950fe0124db778644838d43",
+          "docs/screenshots/appearance-status.png": "3347687bf3716f0fd86ca8700b86f96276d54270e5bad86a82bb3d465208aa16",
+          "docs/screenshots/battery-calibration.png": "2f8e4ddf39963286994f4d34b96731a20dbce741f8b478721ad69f070d4898c4",
+          "docs/screenshots/battery-drain-system.png": "8a861d6bc183ba1d43b45650bd35802e1a9b723247b3417d27ed9306fda4798b",
+          "docs/screenshots/battery-drain.png": "8118b2c0563103dade74d9d2b7bcfecb5eb7f5dea46cd01dc0c015881500659c",
+          "docs/screenshots/extra-kernel-tuning.png": "532c49587c4ebbe4139281c9cf1ddbdaeb39b4cc72da5e09553dbf25109d2bc3",
+          "docs/screenshots/extra-power-saving.png": "bda66521b1ec297d20e9fccd5cf877c20012131c6b40c5d136171ff626483f39",
+          "docs/screenshots/google-services.png": "16a0be75da31d17fafc22f8bf423b456a9fa4c0c4b41236e207a4d1e680e0054",
+          "docs/screenshots/heat-control.png": "d6f2539cbceda4fc695a33ec033502f0f4821e462ed4edff0171b1ad953a96b5",
+          "docs/screenshots/home.png": "1300e645013e74b2d063f0ee3cfa168648c2a2f4b986b452d6e2120144515ca1",
+          "docs/screenshots/long-battery.png": "e34564357902e16e6b7f4e41c0cb6e5a9961d8a7faeb252405f03947fe64f8b3",
+          "docs/screenshots/protected-apps.png": "40c705d6a44b1e3cf4baf96347bdb86fc16692c346564d2fab6e697857d00e40",
+          "docs/screenshots/ram-management.png": "d5a3c4a80d343cb6532081b8b826e5d39b1be8dbe15a734e20d30aa60120048d",
+          "docs/screenshots/storage.png": "d8e8463c91e54408b58e9b5f3ca7abd33ba1f82f0a3c64e1e853642fac466d68",
+          "icon.png": "f94576f5a240381974ce860b1fb0fe6fb02ef81e1711ab641815747a633a8c48",
+          "module.yaml": "11ad75b59899c6e7afa0a71c5c07e6212ade24e4a0dd8ccf695895a1be493ce1"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "master"
+      },
+      "fullName": "yudharn/HyperCool",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-13T11:33:30.324Z",
+        "lastSuccessAt": "2026-11-13T11:33:30.324Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "hypercool",
+      "installationId": 179696560,
+      "maxStableVersionCode": 225,
+      "maxVersionCode": 225,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:fb1ffdd72a0ef3879f17315c2adf9a520909ff19177679336e2fe6fac9eccb8b",
+            "id": 740004102,
+            "name": "HyperCool_v2.2.5.zip",
+            "sha256": "fb1ffdd72a0ef3879f17315c2adf9a520909ff19177679336e2fe6fac9eccb8b",
+            "size": 328532,
+            "url": "https://github.com/yudharn/HyperCool/releases/download/v2.2.5/HyperCool_v2.2.5.zip"
+          },
+          "body": "\n- Fixed: ZRAM keeps priority -2 when possible. The module tries `swapon -p -2`, checks the live value in `/proc/swaps`, and falls back to the kernel default; the status names the swap that already holds -2 instead of claiming it.\n- Fixed: the background-app compaction check no longer overflows on large-RAM devices, and battery calibration skips an unreadable temperature instead of calculating with it.\n- Fixed: GMS Doze reports off/failed when its whitelist cannot be restored, and a manual app optimization run releases its wake lock after 12 hours at most.\n- Fixed: Runtime power detects input devices correctly when only one input glob matches; the RAM optimizer status no longer claims ZRAM tuning.\n- Fixed: Keep Wi-Fi on counts every attempt for its limiter, but only reports a re-enable when Wi-Fi is really on.\n- WebUI: Home stats use tabular monospace numbers, and the cache details describe the real measured paths and keep-list behavior.\n\n",
+          "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.2.5",
+          "immutable": true,
+          "name": "HyperCool v2.2.5",
+          "prerelease": false,
+          "prop": {
+            "author": "Yudharn",
+            "banner": "banner.jpg",
+            "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
+            "id": "hypercool",
+            "name": "HyperCool - Heat & Battery Fix",
+            "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
+            "version": "v2.2.5",
+            "versionCode": "225"
+          },
+          "publishedAt": "2026-11-12T15:30:30Z",
+          "releaseId": 443139874,
+          "tag": "v2.2.5",
+          "tagCommit": "f9c22df575894164a62bfbe7cc33b4fa8424b5cc",
+          "version": "v2.2.5",
+          "versionCode": 225
+        }
+      ],
+      "repositoryId": 1446403674,
+      "seen": {
+        "434674648": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "437246103": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "437869387": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "437881058": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "438761464": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "438996268": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "439144109": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "439562531": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "441768442": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "443139874": {
+          "checkedAt": "2026-11-13T11:33:30.324Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:fb1ffdd72a0ef3879f17315c2adf9a520909ff19177679336e2fe6fac9eccb8b",
+          "id": 740004102,
+          "name": "HyperCool_v2.2.5.zip",
+          "sha256": "fb1ffdd72a0ef3879f17315c2adf9a520909ff19177679336e2fe6fac9eccb8b",
+          "size": 328532,
+          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.2.5/HyperCool_v2.2.5.zip"
+        },
+        "body": "\n- Fixed: ZRAM keeps priority -2 when possible. The module tries `swapon -p -2`, checks the live value in `/proc/swaps`, and falls back to the kernel default; the status names the swap that already holds -2 instead of claiming it.\n- Fixed: the background-app compaction check no longer overflows on large-RAM devices, and battery calibration skips an unreadable temperature instead of calculating with it.\n- Fixed: GMS Doze reports off/failed when its whitelist cannot be restored, and a manual app optimization run releases its wake lock after 12 hours at most.\n- Fixed: Runtime power detects input devices correctly when only one input glob matches; the RAM optimizer status no longer claims ZRAM tuning.\n- Fixed: Keep Wi-Fi on counts every attempt for its limiter, but only reports a re-enable when Wi-Fi is really on.\n- WebUI: Home stats use tabular monospace numbers, and the cache details describe the real measured paths and keep-list behavior.\n\n",
+        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.2.5",
+        "immutable": true,
+        "name": "HyperCool v2.2.5",
+        "prerelease": false,
+        "prop": {
+          "author": "Yudharn",
+          "banner": "banner.jpg",
+          "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
+          "id": "hypercool",
+          "name": "HyperCool - Heat & Battery Fix",
+          "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
+          "version": "v2.2.5",
+          "versionCode": "225"
+        },
+        "publishedAt": "2026-11-12T15:30:30Z",
+        "releaseId": 443139874,
+        "tag": "v2.2.5",
+        "tagCommit": "f9c22df575894164a62bfbe7cc33b4fa8424b5cc",
+        "version": "v2.2.5",
+        "versionCode": 225
+      },
+      "stars": {
+        "count": 15,
+        "fetchedAt": "2026-11-13T11:33:30.324Z",
+        "fullName": "yudharn/HyperCool",
+        "repositoryId": 1446403674,
         "verified": "self"
       }
     },

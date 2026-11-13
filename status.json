@@ -5,21 +5,17 @@
       "fullName": "xiaoji0308/Steps",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-13T11:33:30.324Z",
+      "maxVersionCode": 20261110,
       "message": null,
       "repositoryId": 1423140380,
-      "request": {
-        "checkedAt": "2026-11-10T03:07:40.122Z",
-        "commit": "865145eb20232f9c7dc8ff68885aa2de92b91f5b",
-        "issues": [],
-        "latestTag": "1110",
-        "ok": true,
-        "releaseId": 439898121,
-        "repositoryId": 1423140380,
-        "submissionId": "wc1oqebvjy"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-10T03:07:15Z",
+        "tag": "1110",
+        "version": "1110",
+        "versionCode": 20261110
+      }
     },
     "AD_Killer_By_NFQUEUE": {
       "contentCommit": "f331523d9ec3696e52240728931fd6da7d2a1d99",
@@ -835,21 +831,17 @@
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-13T11:33:30.324Z",
+      "maxVersionCode": 225,
       "message": null,
       "repositoryId": 1446403674,
-      "request": {
-        "checkedAt": "2026-11-13T05:36:13.195Z",
-        "commit": "9bdf33e79d8cbce75d82474ec3312dd8ccadfdfb",
-        "issues": [],
-        "latestTag": "v2.2.5",
-        "ok": true,
-        "releaseId": 443139874,
-        "repositoryId": 1446403674,
-        "submissionId": "xsva3e3znd"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-12T15:30:30Z",
+        "tag": "v2.2.5",
+        "version": "v2.2.5",
+        "versionCode": 225
+      }
     },
     "kernelsu-tailscaled": {
       "contentCommit": "f53ec850408fac799a91868652dbf8d2282703a6",
