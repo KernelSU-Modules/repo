@@ -1047,17 +1047,12 @@
       "fullName": "maxsteeel/nomount",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-13T23:12:15.833Z",
+      "lastSuccessAt": "2026-11-13T23:13:19.524Z",
       "maxVersionCode": 720,
-      "message": null,
+      "message": "stable-unavailable: the stable release (versionCode 720) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 720 is published.",
       "repositoryId": 1128821046,
       "request": null,
-      "stable": {
-        "publishedAt": "2026-11-13T23:11:43Z",
-        "tag": "v2.3.0.0",
-        "version": "v2.3.0 (720)",
-        "versionCode": 720
-      }
+      "stable": null
     },
     "oh_my_keymint": {
       "contentCommit": "7ef41b037e1ac0554ec6b6d1c38f6db457b00684",
