@@ -187,11 +187,11 @@
       "stable": null
     },
     "MagicNet": {
-      "contentCommit": "c528e7b548c8f387c346c51258432b36c1c24e4d",
+      "contentCommit": "0ca295da653853d4600204c7aace40c978d303c9",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-11T08:39:27.564Z",
+      "lastSuccessAt": "2026-11-13T06:41:15.659Z",
       "maxVersionCode": 10615,
       "message": null,
       "repositoryId": 998453022,
@@ -378,6 +378,27 @@
         "version": "v0.3.0",
         "versionCode": 28
       }
+    },
+    "ancli": {
+      "contentCommit": "22215d9a95744d81174677d2ec7f758654b824e2",
+      "fullName": "AHLLX/AnCLI",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1285638838,
+      "request": {
+        "checkedAt": "2026-11-13T06:41:15.659Z",
+        "commit": "22215d9a95744d81174677d2ec7f758654b824e2",
+        "issues": [],
+        "latestTag": "v1.2.607",
+        "ok": true,
+        "releaseId": 443879912,
+        "repositoryId": 1285638838,
+        "submissionId": "imq88c93o3"
+      },
+      "stable": null
     },
     "android_packages_apps_SamsungServiceMode": {
       "contentCommit": null,
