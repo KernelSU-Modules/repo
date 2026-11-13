@@ -291,6 +291,27 @@
         "versionCode": 14
       }
     },
+    "VanadiumWebviewManager": {
+      "contentCommit": "efc0da76900d41412e77c6c616aa79f9ca5fe5a8",
+      "fullName": "LeanxModulostk/VanadiumWebviewManager",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1430564726,
+      "request": {
+        "checkedAt": "2026-11-13T21:35:22.595Z",
+        "commit": "efc0da76900d41412e77c6c616aa79f9ca5fe5a8",
+        "issues": [],
+        "latestTag": "v31",
+        "ok": true,
+        "releaseId": 444758647,
+        "repositoryId": 1430564726,
+        "submissionId": "y28avr4oly"
+      },
+      "stable": null
+    },
     "VexZygisk": {
       "contentCommit": null,
       "fullName": "LxyaoX/VexZygisk",
