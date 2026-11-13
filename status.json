@@ -1039,21 +1039,17 @@
       "fullName": "706412584/ColorOS-thermal",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-13T11:35:48.625Z",
+      "maxVersionCode": 184,
       "message": null,
       "repositoryId": 1445900163,
-      "request": {
-        "checkedAt": "2026-11-08T18:18:10.672Z",
-        "commit": "6f985a6304334156130edf88bdf8ca1f2c0a70ea",
-        "issues": [],
-        "latestTag": "v1.7.13",
-        "ok": true,
-        "releaseId": 438429914,
-        "repositoryId": 1445900163,
-        "submissionId": "ypu6zil5ez"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-08T18:17:50Z",
+        "tag": "v1.7.13",
+        "version": "1.7.13",
+        "versionCode": 184
+      }
     },
     "orbit_store": {
       "contentCommit": "8867972050198f0795eafcf013494f6166408bda",

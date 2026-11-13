@@ -9087,6 +9087,131 @@
         "verified": "self"
       }
     },
+    "oplus-cloud-block": {
+      "content": {
+        "blobs": {
+          "README.md": "933897f5c860147ceca88ab420164fa9f7f90911",
+          "assets/icon.png": "a21783e7d114300af399704bc5c06f972641bcad",
+          "module.yaml": "c49c69ca98b055f5230da17971828550ffe2018c"
+        },
+        "commit": "6f985a6304334156130edf88bdf8ca1f2c0a70ea",
+        "fetchedAt": "2026-11-13T11:35:48.625Z",
+        "files": {
+          "README.md": "b640a162ea1b008c3e30ebbc82de22cb0f8740d9cd891e6236e70c1b1a2a45e9",
+          "assets/icon.png": "560d9b835338b4aa2d43695fbbd4432029ac3022e1e35add935400eb5062740d",
+          "module.yaml": "599e06f519700cf138f7fc1da9d5f7bffddb4e9c633a2a7c67daacc4f44a0d2c"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "706412584/ColorOS-thermal",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-13T11:35:48.625Z",
+        "lastSuccessAt": "2026-11-13T11:35:48.625Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "oplus-cloud-block",
+      "installationId": 178620842,
+      "maxStableVersionCode": 184,
+      "maxVersionCode": 184,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:4ed5afff1b8499a3f6dd95c4557ed434b8ee54b86253d60b21ce852f844b9204",
+            "id": 724792842,
+            "name": "oplus-cloud-block-v1.7.13.zip",
+            "sha256": "4ed5afff1b8499a3f6dd95c4557ed434b8ee54b86253d60b21ce852f844b9204",
+            "size": 121016,
+            "url": "https://github.com/706412584/ColorOS-thermal/releases/download/v1.7.13/oplus-cloud-block-v1.7.13.zip"
+          },
+          "body": "天玑机型支持与多簇显示修复\n\n见 CHANGELOG.md",
+          "htmlUrl": "https://github.com/706412584/ColorOS-thermal/releases/tag/v1.7.13",
+          "immutable": true,
+          "name": "ColorOS 温控与云控 v1.7.13",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@谋事在人成事在天",
+            "description": "ColorOS/一加系列通用工具：①解除出厂 CPU 频率上限（高通机型大核 58%→100%，两层天花板；天玑机型解除被厂商钉死的频率，均带温度保护与一键还原）②拦截 OTA/系统静默更新/云控（云控按组件拦截，不影响账号登录与游戏联运）③内存/CPU 面板与一键清理 ④云控残留清理（可回滚）⑤游戏记录（每局帧率/1% Low/CPU·GPU 频率/温度/耗电）。点开 WebUI 使用，重启后自动重新生效。",
+            "id": "oplus-cloud-block",
+            "name": "ColorOS 温控与云控",
+            "updateJson": "https://gitee.com/wu-yongchengsvip/oplus-thermal/raw/master/update.json",
+            "version": "1.7.13",
+            "versionCode": "184"
+          },
+          "publishedAt": "2026-11-08T18:17:50Z",
+          "releaseId": 438429914,
+          "tag": "v1.7.13",
+          "tagCommit": "6f985a6304334156130edf88bdf8ca1f2c0a70ea",
+          "version": "1.7.13",
+          "versionCode": 184
+        }
+      ],
+      "repositoryId": 1445900163,
+      "seen": {
+        "434162085": {
+          "checkedAt": "2026-11-13T11:35:48.625Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "434175630": {
+          "checkedAt": "2026-11-13T11:35:48.625Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "436341401": {
+          "checkedAt": "2026-11-13T11:35:48.625Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "438429914": {
+          "checkedAt": "2026-11-13T11:35:48.625Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:4ed5afff1b8499a3f6dd95c4557ed434b8ee54b86253d60b21ce852f844b9204",
+          "id": 724792842,
+          "name": "oplus-cloud-block-v1.7.13.zip",
+          "sha256": "4ed5afff1b8499a3f6dd95c4557ed434b8ee54b86253d60b21ce852f844b9204",
+          "size": 121016,
+          "url": "https://github.com/706412584/ColorOS-thermal/releases/download/v1.7.13/oplus-cloud-block-v1.7.13.zip"
+        },
+        "body": "天玑机型支持与多簇显示修复\n\n见 CHANGELOG.md",
+        "htmlUrl": "https://github.com/706412584/ColorOS-thermal/releases/tag/v1.7.13",
+        "immutable": true,
+        "name": "ColorOS 温控与云控 v1.7.13",
+        "prerelease": false,
+        "prop": {
+          "author": "酷安@谋事在人成事在天",
+          "description": "ColorOS/一加系列通用工具：①解除出厂 CPU 频率上限（高通机型大核 58%→100%，两层天花板；天玑机型解除被厂商钉死的频率，均带温度保护与一键还原）②拦截 OTA/系统静默更新/云控（云控按组件拦截，不影响账号登录与游戏联运）③内存/CPU 面板与一键清理 ④云控残留清理（可回滚）⑤游戏记录（每局帧率/1% Low/CPU·GPU 频率/温度/耗电）。点开 WebUI 使用，重启后自动重新生效。",
+          "id": "oplus-cloud-block",
+          "name": "ColorOS 温控与云控",
+          "updateJson": "https://gitee.com/wu-yongchengsvip/oplus-thermal/raw/master/update.json",
+          "version": "1.7.13",
+          "versionCode": "184"
+        },
+        "publishedAt": "2026-11-08T18:17:50Z",
+        "releaseId": 438429914,
+        "tag": "v1.7.13",
+        "tagCommit": "6f985a6304334156130edf88bdf8ca1f2c0a70ea",
+        "version": "1.7.13",
+        "versionCode": 184
+      },
+      "stars": {
+        "count": 3,
+        "fetchedAt": "2026-11-13T11:35:48.625Z",
+        "fullName": "706412584/ColorOS-thermal",
+        "repositoryId": 1445900163,
+        "verified": "self"
+      }
+    },
     "playintegrityfix": {
       "content": {
         "blobs": {
