@@ -614,21 +614,17 @@
       "fullName": "mazemingw/coloros-wifi-sense",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-13T11:34:42.971Z",
+      "maxVersionCode": 8,
       "message": null,
       "repositoryId": 1449425812,
-      "request": {
-        "checkedAt": "2026-11-12T10:48:48.809Z",
-        "commit": "0c4f4662018746cbe91306b0ec337632357b1fb4",
-        "issues": [],
-        "latestTag": "v1.5.0",
-        "ok": true,
-        "releaseId": 442811371,
-        "repositoryId": 1449425812,
-        "submissionId": "1rwwvpolsh"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-12T10:48:27Z",
+        "tag": "v1.5.0",
+        "version": "v1.5.0",
+        "versionCode": 8
+      }
     },
     "device_faker": {
       "contentCommit": "a3a1a8aaba8cacef6e3545b061a9b2a8133f4aa5",

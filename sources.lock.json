@@ -4950,6 +4950,141 @@
         "verified": "self"
       }
     },
+    "coloros_wifi_sense": {
+      "content": {
+        "blobs": {
+          "README.md": "e6254996f71bb64f98861182f71ef0ad330dea41",
+          "module.yaml": "b8c5900e2ed1a9d603343a311dfcfeaba1040f2f"
+        },
+        "commit": "0c4f4662018746cbe91306b0ec337632357b1fb4",
+        "fetchedAt": "2026-11-13T11:34:42.971Z",
+        "files": {
+          "README.md": "3b1603d81ca1b94faeee6ae50154891dd66df51e1a4e85f6b0c6f2a902d29642",
+          "module.yaml": "1cb86d574780de5a3e30d8f6bd2f04b88c2ac0019373b99324297a7e6ed167d7"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "mazemingw/coloros-wifi-sense",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-13T11:34:42.971Z",
+        "lastSuccessAt": "2026-11-13T11:34:42.971Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "coloros_wifi_sense",
+      "installationId": 179794143,
+      "maxStableVersionCode": 8,
+      "maxVersionCode": 8,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:79db70944ea4f751ff7d6d00c8268074f0183d8b56f6d896a172ede7df93526e",
+            "id": 739104004,
+            "name": "coloros-wifi-sense-v1.5.0.zip",
+            "sha256": "79db70944ea4f751ff7d6d00c8268074f0183d8b56f6d896a172ede7df93526e",
+            "size": 129191,
+            "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.5.0/coloros-wifi-sense-v1.5.0.zip"
+          },
+          "body": "- 新增「息屏也可断开」，默认关闭。开启后，息屏仍可检测弱信号和已开启的通网检测。流体云提醒仅在亮屏时显示。\n- 新增 1–10 dB 回升余量，默认 3 dB。阈值设为 −80 dBm 时，信号回到 −77 dBm 才取消倒计时，减少覆盖边缘反复弹出。\n- 缩短 WebUI 的说明、状态和保存提示。\n\n在一加 PLK110 / ColorOS 17 实机确认，关闭开关时熄屏暂停，开启后 Wi-Fi 在屏幕熄灭时实际断开。96 项场景测试和 ZIP 校验通过。\r\n",
+          "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.5.0",
+          "immutable": true,
+          "name": "ColorOS WIFI感知 v1.5.0",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@NVMEX夜莺",
+            "description": "弱 Wi-Fi 自动断开，可选息屏检测。WebUI 可调断开阈值、回升余量和倒计时，支持流体云、SSID 暂避、通网检测和仅 5GHz。",
+            "id": "coloros_wifi_sense",
+            "name": "colorOSWIFI感知",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/coloros_wifi_sense/update.json",
+            "version": "v1.5.0",
+            "versionCode": "8"
+          },
+          "publishedAt": "2026-11-12T10:48:27Z",
+          "releaseId": 442811371,
+          "tag": "v1.5.0",
+          "tagCommit": "0c4f4662018746cbe91306b0ec337632357b1fb4",
+          "version": "v1.5.0",
+          "versionCode": 8
+        }
+      ],
+      "repositoryId": 1449425812,
+      "seen": {
+        "437622648": {
+          "checkedAt": "2026-11-13T11:34:42.971Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "438102958": {
+          "checkedAt": "2026-11-13T11:34:42.971Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "438406514": {
+          "checkedAt": "2026-11-13T11:34:42.971Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "441138736": {
+          "checkedAt": "2026-11-13T11:34:42.971Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "441874564": {
+          "checkedAt": "2026-11-13T11:34:42.971Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "442811371": {
+          "checkedAt": "2026-11-13T11:34:42.971Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:79db70944ea4f751ff7d6d00c8268074f0183d8b56f6d896a172ede7df93526e",
+          "id": 739104004,
+          "name": "coloros-wifi-sense-v1.5.0.zip",
+          "sha256": "79db70944ea4f751ff7d6d00c8268074f0183d8b56f6d896a172ede7df93526e",
+          "size": 129191,
+          "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.5.0/coloros-wifi-sense-v1.5.0.zip"
+        },
+        "body": "- 新增「息屏也可断开」，默认关闭。开启后，息屏仍可检测弱信号和已开启的通网检测。流体云提醒仅在亮屏时显示。\n- 新增 1–10 dB 回升余量，默认 3 dB。阈值设为 −80 dBm 时，信号回到 −77 dBm 才取消倒计时，减少覆盖边缘反复弹出。\n- 缩短 WebUI 的说明、状态和保存提示。\n\n在一加 PLK110 / ColorOS 17 实机确认，关闭开关时熄屏暂停，开启后 Wi-Fi 在屏幕熄灭时实际断开。96 项场景测试和 ZIP 校验通过。\r\n",
+        "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.5.0",
+        "immutable": true,
+        "name": "ColorOS WIFI感知 v1.5.0",
+        "prerelease": false,
+        "prop": {
+          "author": "酷安@NVMEX夜莺",
+          "description": "弱 Wi-Fi 自动断开，可选息屏检测。WebUI 可调断开阈值、回升余量和倒计时，支持流体云、SSID 暂避、通网检测和仅 5GHz。",
+          "id": "coloros_wifi_sense",
+          "name": "colorOSWIFI感知",
+          "updateJson": "https://modules.kernelsu.org/api/v1/modules/coloros_wifi_sense/update.json",
+          "version": "v1.5.0",
+          "versionCode": "8"
+        },
+        "publishedAt": "2026-11-12T10:48:27Z",
+        "releaseId": 442811371,
+        "tag": "v1.5.0",
+        "tagCommit": "0c4f4662018746cbe91306b0ec337632357b1fb4",
+        "version": "v1.5.0",
+        "versionCode": 8
+      },
+      "stars": {
+        "count": 10,
+        "fetchedAt": "2026-11-13T11:34:42.971Z",
+        "fullName": "mazemingw/coloros-wifi-sense",
+        "repositoryId": 1449425812,
+        "verified": "self"
+      }
+    },
     "device_faker": {
       "content": {
         "blobs": {
