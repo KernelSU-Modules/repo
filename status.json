@@ -940,6 +940,27 @@
         "versionCode": 401012
       }
     },
+    "magicap": {
+      "contentCommit": "e683ad64c39ccba50999022638326b1ced1a5b56",
+      "fullName": "LIghtJUNction/Magicap",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1456196622,
+      "request": {
+        "checkedAt": "2026-11-13T10:44:43.451Z",
+        "commit": "e683ad64c39ccba50999022638326b1ced1a5b56",
+        "issues": [],
+        "latestTag": "v0.2.1",
+        "ok": true,
+        "releaseId": 444106832,
+        "repositoryId": 1456196622,
+        "submissionId": "aihwv7y0xh"
+      },
+      "stable": null
+    },
     "magisk-netbird": {
       "contentCommit": "6b6d86e6ae69a7f4dfaced3238da280b5b9199ca",
       "fullName": "ahsaboy/magisk-netbird",
