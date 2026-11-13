@@ -1,19 +1,23 @@
 id: coloros_wifi_sense
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1449425812
+  ownerId: 58734446
+  fullName: mazemingw/coloros-wifi-sense
+  manifestPath: module.yaml
+review:
   submissionId: 1rwwvpolsh
   kind: submit
-  source:
-    host: github
-    repositoryId: 1449425812
-    ownerId: 58734446
-    fullName: mazemingw/coloros-wifi-sense
-    manifestPath: module.yaml
   submittedBy: 58734446
-  submittedByLogin: mazemingw
   submittedAt: 2026-11-08T07:44:42.576Z
+  decision: approved
+  decidedBy: 185127155
+  decidedVia: portal
+  decidedAt: 2026-11-13T11:34:14.841Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64659
 createdAt: 2026-11-08T07:44:42.576Z
-updatedAt: 2026-11-08T07:44:42.576Z
+updatedAt: 2026-11-13T11:34:14.841Z
