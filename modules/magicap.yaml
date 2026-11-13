@@ -1,0 +1,19 @@
+id: magicap
+status: pending
+request:
+  submissionId: aihwv7y0xh
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1456196622
+    ownerId: 106986785
+    fullName: LIghtJUNction/Magicap
+    manifestPath: module.yaml
+  submittedBy: 106986785
+  submittedByLogin: LIghtJUNction
+  submittedAt: 2026-11-13T10:44:17.447Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 64910
+createdAt: 2026-11-13T10:44:17.447Z
+updatedAt: 2026-11-13T10:44:17.447Z
