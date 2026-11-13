@@ -746,21 +746,17 @@
       "fullName": "ReverserID/KSU_Frida",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-13T11:31:25.145Z",
+      "maxVersionCode": 172404,
       "message": null,
       "repositoryId": 1434784462,
-      "request": {
-        "checkedAt": "2026-10-27T12:31:36.512Z",
-        "commit": "eda496a917e96a288e4796e7acb83fee86ab7ecd",
-        "issues": [],
-        "latestTag": "v17.24.3-2",
-        "ok": true,
-        "releaseId": 425433085,
-        "repositoryId": 1434784462,
-        "submissionId": "h25m4wgt67"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-10-27T12:31:16Z",
+        "tag": "v17.24.3-2",
+        "version": "v17.24.3",
+        "versionCode": 172404
+      }
     },
     "genshin_bootanim": {
       "contentCommit": "68e0c26bdba5596c67754aca83408fa16042d7ba",

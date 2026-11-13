@@ -5797,6 +5797,123 @@
         "verified": "self"
       }
     },
+    "frida-ksu": {
+      "content": {
+        "blobs": {
+          "README.md": "a4d74e7882a1f300b9669d3b7b620707b8ac691b",
+          "assets/icon.png": "746d2e0928f34db36d6097a7e375f9c9d9a8f0f1",
+          "docs/screenshot.png": "940d96d10288cb840df5eeed65229b6006595fa1",
+          "module.yaml": "075fc5b36b77afb9c56e33f1532a73542d798cd4"
+        },
+        "commit": "eda496a917e96a288e4796e7acb83fee86ab7ecd",
+        "fetchedAt": "2026-11-13T11:31:25.145Z",
+        "files": {
+          "README.md": "704e061657c4fe0a85a7c17e20eaaa08447d91020b3269391d90250e662ba180",
+          "assets/icon.png": "0c5eed5f45b6ed5241323985b1183d672220a3adebe27c2b696771ee3d8960f2",
+          "docs/screenshot.png": "ed70a44a9e976228e9e3e505bfd3dbc3ed125917feffb33208e2f816b9ad8da5",
+          "module.yaml": "ed8680f6e7b41cdc27d2e7f04cbe587a2bbf863d96741c6c0115f684a18228ab"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "ReverserID/KSU_Frida",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-13T11:31:25.145Z",
+        "lastSuccessAt": "2026-11-13T11:31:25.145Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "frida-ksu",
+      "installationId": 175567532,
+      "maxStableVersionCode": 172404,
+      "maxVersionCode": 172404,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:f9190b694b936cb4974e02c12a78acd7ef8d6fd501ae90fb5b98d464418780c2",
+            "id": 681542473,
+            "name": "frida-ksu-17.24.3.zip",
+            "sha256": "f9190b694b936cb4974e02c12a78acd7ef8d6fd501ae90fb5b98d464418780c2",
+            "size": 101044,
+            "url": "https://github.com/ReverserID/KSU_Frida/releases/download/v17.24.3-2/frida-ksu-17.24.3.zip"
+          },
+          "body": "Adds ReverserID logo (portal icon, WebUI header). Same frida-server 17.24.3.",
+          "htmlUrl": "https://github.com/ReverserID/KSU_Frida/releases/tag/v17.24.3-2",
+          "immutable": true,
+          "name": "frida-ksu v17.24.3 (r2)",
+          "prerelease": false,
+          "prop": {
+            "author": "reverser.id",
+            "description": "Frida server as root daemon by reverser.id (auto latest on install, Action checks updates). Listens on 27042.",
+            "id": "frida-ksu",
+            "name": "Frida Server (KernelSU)",
+            "updateJson": "https://raw.githubusercontent.com/ReverserID/KSU_Frida/main/update.json",
+            "version": "v17.24.3",
+            "versionCode": "172404",
+            "webuiIcon": "webroot/icon.png"
+          },
+          "publishedAt": "2026-10-27T12:31:16Z",
+          "releaseId": 425433085,
+          "tag": "v17.24.3-2",
+          "tagCommit": "bc006b6fdcd162ffc34533f335472e0b76f5d065",
+          "version": "v17.24.3",
+          "versionCode": 172404
+        }
+      ],
+      "repositoryId": 1434784462,
+      "seen": {
+        "424633823": {
+          "checkedAt": "2026-11-13T11:31:25.145Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "425433085": {
+          "checkedAt": "2026-11-13T11:31:25.145Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:f9190b694b936cb4974e02c12a78acd7ef8d6fd501ae90fb5b98d464418780c2",
+          "id": 681542473,
+          "name": "frida-ksu-17.24.3.zip",
+          "sha256": "f9190b694b936cb4974e02c12a78acd7ef8d6fd501ae90fb5b98d464418780c2",
+          "size": 101044,
+          "url": "https://github.com/ReverserID/KSU_Frida/releases/download/v17.24.3-2/frida-ksu-17.24.3.zip"
+        },
+        "body": "Adds ReverserID logo (portal icon, WebUI header). Same frida-server 17.24.3.",
+        "htmlUrl": "https://github.com/ReverserID/KSU_Frida/releases/tag/v17.24.3-2",
+        "immutable": true,
+        "name": "frida-ksu v17.24.3 (r2)",
+        "prerelease": false,
+        "prop": {
+          "author": "reverser.id",
+          "description": "Frida server as root daemon by reverser.id (auto latest on install, Action checks updates). Listens on 27042.",
+          "id": "frida-ksu",
+          "name": "Frida Server (KernelSU)",
+          "updateJson": "https://raw.githubusercontent.com/ReverserID/KSU_Frida/main/update.json",
+          "version": "v17.24.3",
+          "versionCode": "172404",
+          "webuiIcon": "webroot/icon.png"
+        },
+        "publishedAt": "2026-10-27T12:31:16Z",
+        "releaseId": 425433085,
+        "tag": "v17.24.3-2",
+        "tagCommit": "bc006b6fdcd162ffc34533f335472e0b76f5d065",
+        "version": "v17.24.3",
+        "versionCode": 172404
+      },
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-11-13T11:31:25.145Z",
+        "fullName": "ReverserID/KSU_Frida",
+        "repositoryId": 1434784462,
+        "verified": "self"
+      }
+    },
     "genshin_bootanim": {
       "content": {
         "blobs": {
