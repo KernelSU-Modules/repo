@@ -793,7 +793,7 @@
       }
     },
     "galaxy_watch_nfc_provide": {
-      "contentCommit": "660de93f8d1f018db84b70c9512f1c3915508077",
+      "contentCommit": "34c8b0fed3cd30163a412dffe78199c3d5563a9a",
       "fullName": "gohj99/galaxy_watch_nfc_provide",
       "health": "ok",
       "installation": "present",
@@ -802,12 +802,12 @@
       "message": null,
       "repositoryId": 1457795971,
       "request": {
-        "checkedAt": "2026-11-14T14:51:10.099Z",
-        "commit": "660de93f8d1f018db84b70c9512f1c3915508077",
+        "checkedAt": "2026-11-14T15:19:00.378Z",
+        "commit": "34c8b0fed3cd30163a412dffe78199c3d5563a9a",
         "issues": [],
-        "latestTag": "v1.0.7",
+        "latestTag": "v1.0.8",
         "ok": true,
-        "releaseId": 445360820,
+        "releaseId": 445386409,
         "repositoryId": 1457795971,
         "submissionId": "kvgeklaedc"
       },
