@@ -848,28 +848,28 @@
       }
     },
     "hybrid_mount": {
-      "contentCommit": "245cf76fb39df3c7d5da729f1a577cd4efaaf8ee",
+      "contentCommit": "0a047415b795e760bfdb84e98ef7d4b653485c50",
       "fullName": "Hybrid-Mount/meta-hybrid_mount",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-09T10:49:32.001Z",
-      "maxVersionCode": 602006304,
+      "lastSuccessAt": "2026-11-14T11:39:56.348Z",
+      "maxVersionCode": 602006999,
       "message": null,
       "repositoryId": 1103029590,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-21T02:10:12Z",
-        "tag": "v6.2.5",
-        "version": "6.2.5",
-        "versionCode": 602005999
+        "publishedAt": "2026-11-14T11:39:33Z",
+        "tag": "v6.2.6",
+        "version": "6.2.6",
+        "versionCode": 602006999
       }
     },
     "hypercool": {
-      "contentCommit": "452e947d2ce0930221466db4ccfff0e2c296a102",
+      "contentCommit": "28c9c6373d7765a11f82a98b6f3842e51ec9e0da",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-13T18:54:17.185Z",
+      "lastSuccessAt": "2026-11-14T11:39:56.348Z",
       "maxVersionCode": 225,
       "message": null,
       "repositoryId": 1446403674,

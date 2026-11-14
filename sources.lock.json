@@ -921,8 +921,8 @@
         "versionCode": 772
       },
       "stars": {
-        "count": 433,
-        "fetchedAt": "2026-11-13T09:33:10.718Z",
+        "count": 437,
+        "fetchedAt": "2026-11-14T11:39:56.348Z",
         "fullName": "AlirezaParsi/COPG",
         "repositoryId": 950100740,
         "verified": "self"
@@ -3402,8 +3402,8 @@
         "versionCode": 22
       },
       "stars": {
-        "count": 141,
-        "fetchedAt": "2026-11-13T09:33:10.718Z",
+        "count": 143,
+        "fetchedAt": "2026-11-14T11:39:56.348Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -5078,8 +5078,8 @@
         "versionCode": 8
       },
       "stars": {
-        "count": 10,
-        "fetchedAt": "2026-11-13T11:34:42.971Z",
+        "count": 12,
+        "fetchedAt": "2026-11-14T11:39:56.348Z",
         "fullName": "mazemingw/coloros-wifi-sense",
         "repositoryId": 1449425812,
         "verified": "self"
@@ -6548,14 +6548,14 @@
     "hybrid_mount": {
       "content": {
         "blobs": {
-          "README.md": "23ae4b02c20ae3f35b43d09140aeafc9a6922c22",
+          "README.md": "2b3c104191dbdd265c33e41d09e326feb5a2a4b6",
           "icon.png": "0ec70554129f0f518100a4eab1b04c8a4926dc9c",
           "module.yaml": "9995ef14e920bf5e239907bf54919ba11989b343"
         },
-        "commit": "245cf76fb39df3c7d5da729f1a577cd4efaaf8ee",
-        "fetchedAt": "2026-11-05T08:16:09.821Z",
+        "commit": "0a047415b795e760bfdb84e98ef7d4b653485c50",
+        "fetchedAt": "2026-11-14T11:39:56.348Z",
         "files": {
-          "README.md": "f961eaf8c88dc2c0f8f9f80fb3651b3a9dc1367109b9efef2b2150514aad8254",
+          "README.md": "3738d4b62cb8dc1ad2f03bdb7d125a7c90a3ca3edb693d136f21cc0e0ea12dff",
           "icon.png": "b3a933b89393bb5f3662157d14c3aeb6bdb380fabb5befeef0523431850c0f3e",
           "module.yaml": "26e4eaf7ec1536d02918cfcfc06d32f814746c4c6b817e171d156013a43ce741"
         },
@@ -6565,47 +6565,48 @@
       "fullName": "Hybrid-Mount/meta-hybrid_mount",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-09T10:49:32.001Z",
-        "lastSuccessAt": "2026-11-09T10:49:32.001Z",
+        "lastAttemptAt": "2026-11-14T11:39:56.348Z",
+        "lastSuccessAt": "2026-11-14T11:39:56.348Z",
         "message": null,
         "status": "ok"
       },
       "id": "hybrid_mount",
       "installationId": 170149812,
-      "maxStableVersionCode": 602005999,
-      "maxVersionCode": 602006304,
-      "prerelease": {
-        "asset": {
-          "digest": "sha256:6a277de19ae8f4b563fe8fd7bb4d7f5502b37975493fd2fd549cf54653398dad",
-          "id": 727127859,
-          "name": "Hybrid-Mount-6.2.6-rc.4-2162.zip",
-          "sha256": "6a277de19ae8f4b563fe8fd7bb4d7f5502b37975493fd2fd549cf54653398dad",
-          "size": 5427969,
-          "url": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6-rc.4/Hybrid-Mount-6.2.6-rc.4-2162.zip"
-        },
-        "body": "\n## v6.2.6-rc.4\n\n\n> ⚠️ **Pre-release / 预发布版本（RC）**\n> This release is for testing and may cause module failures, bootloops, or data loss. Back up your data and prepare a recovery method before installing. Use a stable release if you cannot accept these risks.\n> 此版本用于测试，可能出现模块失效、无法开机或数据丢失。安装前请备份数据，并准备好禁用模块或恢复系统的方法；无法接受风险请使用正式版。\n\n\n\n### <!-- 4 --> Tests\n\n- Isolate magic mount faults and use tmpfs for whiteouts\n\n- Document literal Make variable in xattr probe\n\n\n\n### <!-- 5 --> Miscellaneous\n\n- Allow executing kernel harnesses on the test tmpfs\n\n\n\n",
-        "htmlUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/tag/v6.2.6-rc.4",
-        "immutable": true,
-        "name": "v6.2.6-rc.4",
-        "prerelease": true,
-        "prop": {
-          "author": "Hybrid Mount Developers",
-          "description": "Hybrid Mount: mixed OverlayFS, Magic Mount, and VFS for KernelSU and APatch",
-          "id": "hybrid_mount",
-          "metamodule": "1",
-          "name": "Hybrid Mount",
-          "updateJson": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/dev/update.json",
-          "version": "6.2.6-rc.4",
-          "versionCode": "602006304"
-        },
-        "publishedAt": "2026-11-09T10:49:08Z",
-        "releaseId": 439012125,
-        "tag": "v6.2.6-rc.4",
-        "tagCommit": "46709e9a620cfa133a5ee94700018882afe02a17",
-        "version": "6.2.6-rc.4",
-        "versionCode": 602006304
-      },
+      "maxStableVersionCode": 602006999,
+      "maxVersionCode": 602006999,
+      "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:c2c91d098bf8f502ba9429b41dbb8b93e1e3685452d78fda204f837e2b2a7172",
+            "id": 747305675,
+            "name": "Hybrid-Mount-6.2.6-2168.zip",
+            "sha256": "c2c91d098bf8f502ba9429b41dbb8b93e1e3685452d78fda204f837e2b2a7172",
+            "size": 5453903,
+            "url": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6/Hybrid-Mount-6.2.6-2168.zip"
+          },
+          "body": "\n## v6.2.6\n\n\n\n### <!-- 1 --> Features\n\n- `vfs` Support NoMount v23 and per-rule UID exclusions Refs #514\n\n- `magic-mount` Support upstream boot-time Lua hooks\n\n\n\n### <!-- 2 --> Fixes\n\n- `lkm` Sync Mountify ext4 modules and support Android 17\n\n- `overlayfs` Restore native child mounts on overlay failure\n\n\n\n### <!-- 5 --> Miscellaneous\n\n- Remove upstream Magic Mount custom mount hooks\n\n\n\n",
+          "htmlUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/tag/v6.2.6",
+          "immutable": true,
+          "name": "v6.2.6",
+          "prerelease": false,
+          "prop": {
+            "author": "Hybrid Mount Developers",
+            "description": "Hybrid Mount: mixed OverlayFS, Magic Mount, and VFS for KernelSU and APatch",
+            "id": "hybrid_mount",
+            "metamodule": "1",
+            "name": "Hybrid Mount",
+            "updateJson": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/dev/update.json",
+            "version": "6.2.6",
+            "versionCode": "602006999"
+          },
+          "publishedAt": "2026-11-14T11:39:33Z",
+          "releaseId": 445252757,
+          "tag": "v6.2.6",
+          "tagCommit": "0a047415b795e760bfdb84e98ef7d4b653485c50",
+          "version": "6.2.6",
+          "versionCode": 602006999
+        },
         {
           "asset": {
             "digest": "sha256:6a277de19ae8f4b563fe8fd7bb4d7f5502b37975493fd2fd549cf54653398dad",
@@ -6957,21 +6958,25 @@
         "439012125": {
           "checkedAt": "2026-11-09T10:49:32.001Z",
           "ok": true
+        },
+        "445252757": {
+          "checkedAt": "2026-11-14T11:39:56.348Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:973eb81dac3b8e604185369fb9b1497a2faf0709e5cdaa94cb4ffa632dd9278a",
-          "id": 661084949,
-          "name": "Hybrid-Mount-6.2.5-2118.zip",
-          "sha256": "973eb81dac3b8e604185369fb9b1497a2faf0709e5cdaa94cb4ffa632dd9278a",
-          "size": 4959776,
-          "url": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.5/Hybrid-Mount-6.2.5-2118.zip"
+          "digest": "sha256:c2c91d098bf8f502ba9429b41dbb8b93e1e3685452d78fda204f837e2b2a7172",
+          "id": 747305675,
+          "name": "Hybrid-Mount-6.2.6-2168.zip",
+          "sha256": "c2c91d098bf8f502ba9429b41dbb8b93e1e3685452d78fda204f837e2b2a7172",
+          "size": 5453903,
+          "url": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/download/v6.2.6/Hybrid-Mount-6.2.6-2168.zip"
         },
-        "body": "\n## v6.2.5\n\n\n### <!-- 1 --> Features\n\n- Guard SUSFS LKM conflicts with KernelSU Next exemption\n\n\n\n### <!-- 2 --> Fixes\n\n- `vfs` Preserve rule topology and reader lifetimes across updates Keep child rules when deleting a parent, snapshot RCU entries and pin directory nodes across sleeping callbacks. Preserve inode source identity, retain active directory operations, prepare hooks before publishing children, bound unsigned UID cursors, and correct inode flags, dirents and legacy xattrs. Add 98 production-function host regression cases and device parent-deletion coverage. Align userspace delete readback with derived parent topology and document validation. Host checks pass; GKI modules must be rebuilt by the existing dev workflow before packaging.\n\n- `vfs` Enforce cursor, UID and hook lifetime boundaries\n\n- `vfs` Accept owned UID structural parents during reconciliation\n\n- `webui` Tighten miuix spacing to native list metrics Drop the md3-oriented `.page` padding/gap that doubled every miuix gutter to 24px, and align select rows, banners and action bars with miuix's own metrics.‘ Assisted-by: LLM chrome-devtools-protocol eslint vue-tsc luyanci: 黑板赔我10元钱！！！当是精神损失费了(bushi\n\n- Enforce issue templates and correct APatch mount ordering\n\n\n\n### <!-- 3 --> Documentation\n\n- Document existing WebView policy controls for issue 497 Trace Hybrid Mount try-umount registration and the existing KernelSU WebView profile. Record the device checks needed to distinguish server recovery from renderer mount visibility; do not change KernelSU or broaden mount exemptions.\n\n- Remove completed review notes and implementation plans\n\n\n\n### <!-- 4 --> Tests\n\n- `vfs` Benchmark child lookup filters against production search Compare fixed64, adaptive Bloom and small-directory matching with a linear result oracle and collision cases. Record userspace-only timing and memory limits; keep the current production filter pending device measurements.\n\n- `vfs` Use portable 64-bit cursor fixture types\n\n\n\n### <!-- 5 --> Miscellaneous\n\n- Sync source to AtomGit and add community entry points\n\n- Revert \"feat: guard SUSFS LKM conflicts with KernelSU Next exemption\" This reverts commit f1ea5c9128c9a8475779a485ac6eb912661188db. Remove the installer and runtime SUSFS object guard, including the KernelSU Next exemption, as requested; disabled loader files must not prevent VFS insertion.\n\n- `vfs` Refresh the prebuilt hybridmount modules\n\n- `vfs` Refresh verified DDK modules and portable source stamps\n\n- Merge branch 'codex/vfs-boundary-fixes' into dev # Conflicts: # module/vfs/binaries/hybridmount-android12-5.10.ko # module/vfs/binaries/hybridmount-android13-5.10.ko # module/vfs/binaries/hybridmount-android13-5.15.ko # module/vfs/binaries/hybridmount-android14-5.15.ko # module/vfs/binaries/hybridmount-android14-6.1.ko # module/vfs/binaries/hybridmount-android15-6.6.ko # module/vfs/binaries/hybridmount-android16-6.12.ko # module/vfs/binaries/list.txt # module/vfs/binaries/sources.txt\n\n- `webui` Refactor info hero in miuix Also adjusted icon\n\n- Update Ukrainian localization strings (#499) @luyanci Full quality Ukrainian 🇺🇦 translate ![Screenshot_20261018-112419_BakaSU.png](https://github.com/user-attachments/assets/ee9f41cd-7a9d-41e7-a844-6c35335924ed) ![Screenshot_20261018-112359_BakaSU.png](https://github.com/user-attachments/assets/32aa2c25-0562-4d17-8a46-1a0dd27f5261) ![Screenshot_20261018-112445_BakaSU.png](https://github.com/user-attachments/assets/97b1ff51-2a40-4997-9067-25a695c48afb) ![markup_1000006265.png](https://github.com/user-attachments/assets/5edb3136-cda9-400f-931e-7587b9911860) ![Screenshot_20261018-112326_BakaSU.png](https://github.com/user-attachments/assets/15b3c6e6-f6de-46d9-b414-a2eb6b06276f) --------- Co-authored-by: 由崎黑板 <94628337+YuzakiKokuban@users.noreply.github.com> Co-authored-by: xiaoyu <116065395+xxiaoyuu625@users.noreply.github.com>\n\n- Trim redundant docs and mandatory documentation rules\n\n- Remove explanatory comments from tests\n\n- 更新AtomGit链接 (#492)\n\n- 删除 sync-atomgit.yml\n\n- 删除 ATOMGIT_SYNC.md\n\n- `webui` Format Ukrainian welcome entry\n\n\n\n",
-        "htmlUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/tag/v6.2.5",
+        "body": "\n## v6.2.6\n\n\n\n### <!-- 1 --> Features\n\n- `vfs` Support NoMount v23 and per-rule UID exclusions Refs #514\n\n- `magic-mount` Support upstream boot-time Lua hooks\n\n\n\n### <!-- 2 --> Fixes\n\n- `lkm` Sync Mountify ext4 modules and support Android 17\n\n- `overlayfs` Restore native child mounts on overlay failure\n\n\n\n### <!-- 5 --> Miscellaneous\n\n- Remove upstream Magic Mount custom mount hooks\n\n\n\n",
+        "htmlUrl": "https://github.com/Hybrid-Mount/meta-hybrid_mount/releases/tag/v6.2.6",
         "immutable": true,
-        "name": "v6.2.5",
+        "name": "v6.2.6",
         "prerelease": false,
         "prop": {
           "author": "Hybrid Mount Developers",
@@ -6980,19 +6985,19 @@
           "metamodule": "1",
           "name": "Hybrid Mount",
           "updateJson": "https://raw.githubusercontent.com/Hybrid-Mount/meta-hybrid_mount/dev/update.json",
-          "version": "6.2.5",
-          "versionCode": "602005999"
+          "version": "6.2.6",
+          "versionCode": "602006999"
         },
-        "publishedAt": "2026-10-21T02:10:12Z",
-        "releaseId": 419067083,
-        "tag": "v6.2.5",
-        "tagCommit": "89f328fd945c72794a6505d779f6d85834d131a3",
-        "version": "6.2.5",
-        "versionCode": 602005999
+        "publishedAt": "2026-11-14T11:39:33Z",
+        "releaseId": 445252757,
+        "tag": "v6.2.6",
+        "tagCommit": "0a047415b795e760bfdb84e98ef7d4b653485c50",
+        "version": "6.2.6",
+        "versionCode": 602006999
       },
       "stars": {
-        "count": 1832,
-        "fetchedAt": "2026-11-13T18:54:17.185Z",
+        "count": 1836,
+        "fetchedAt": "2026-11-14T11:39:56.348Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
@@ -7004,9 +7009,9 @@
           "README.md": "cea8dfad4193c185e240aee29a8464b93deaec07",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
-          "docs/badges/downloads.svg": "5610b722cd936916b7e1c37ece58001f878346da",
+          "docs/badges/downloads.svg": "d483ed27b278142d868ccdefb751682257e78ac5",
           "docs/badges/release.svg": "2753edd739974a60fc65a30a6ae34706093bf40e",
-          "docs/badges/stars.svg": "66a770472f4952bc22547e9d920b180725f47388",
+          "docs/badges/stars.svg": "71412bd095560c753cf7a66784412a1c7eefea9a",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
           "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
           "docs/screenshots/app-cache.png": "6c9a644eb5fc9aa8d61036867b504362d1962218",
@@ -7026,15 +7031,15 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "452e947d2ce0930221466db4ccfff0e2c296a102",
-        "fetchedAt": "2026-11-13T18:54:17.185Z",
+        "commit": "28c9c6373d7765a11f82a98b6f3842e51ec9e0da",
+        "fetchedAt": "2026-11-14T11:39:56.348Z",
         "files": {
           "README.md": "a66a2013c93e968597d6f30b9c03c0a94f30160ef84891b0a507a1a829ce85d2",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
-          "docs/badges/downloads.svg": "033a83a8063a8e02fe31f4f9bcfcf0d86bb43465449fe7665c4d857a1fa47f2f",
+          "docs/badges/downloads.svg": "f7f09e65244f9672ee86306acf7e8bce49831f1ae8176782ab8befe0ae51537e",
           "docs/badges/release.svg": "8d3de630d0744d4cea6d4cc66f5bd068791c813e1392e5b121e9bf9609c5aae2",
-          "docs/badges/stars.svg": "a46c6b1fb1dc93f3bb3f6433a8cfd984b686d26d437e26295eaef6193ae278fd",
+          "docs/badges/stars.svg": "61e6af319161dc28949c14b8712a347425d15c9fd644f938b3290227c66ae6a2",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
           "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
           "docs/screenshots/app-cache.png": "74ec72f4f19a4a5f6ed51c1e1f8e18f2f196a7b14950fe0124db778644838d43",
@@ -7060,8 +7065,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-13T18:54:17.185Z",
-        "lastSuccessAt": "2026-11-13T18:54:17.185Z",
+        "lastAttemptAt": "2026-11-14T11:39:56.348Z",
+        "lastSuccessAt": "2026-11-14T11:39:56.348Z",
         "message": null,
         "status": "ok"
       },
@@ -7196,8 +7201,8 @@
         "versionCode": 225
       },
       "stars": {
-        "count": 16,
-        "fetchedAt": "2026-11-13T18:54:17.185Z",
+        "count": 18,
+        "fetchedAt": "2026-11-14T11:39:56.348Z",
         "fullName": "yudharn/HyperCool",
         "repositoryId": 1446403674,
         "verified": "self"
@@ -8699,8 +8704,8 @@
         "versionCode": 1100
       },
       "stars": {
-        "count": 1427,
-        "fetchedAt": "2026-11-13T09:33:10.718Z",
+        "count": 1429,
+        "fetchedAt": "2026-11-14T11:39:56.348Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -9404,8 +9409,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4197,
-        "fetchedAt": "2026-11-13T09:33:10.718Z",
+        "count": 4204,
+        "fetchedAt": "2026-11-14T11:39:56.348Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
@@ -11276,8 +11281,8 @@
         "versionCode": 10150
       },
       "stars": {
-        "count": 134,
-        "fetchedAt": "2026-11-13T09:33:10.718Z",
+        "count": 135,
+        "fetchedAt": "2026-11-14T11:39:56.348Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
@@ -12789,8 +12794,8 @@
         "versionCode": 371
       },
       "stars": {
-        "count": 107,
-        "fetchedAt": "2026-11-13T09:33:10.718Z",
+        "count": 108,
+        "fetchedAt": "2026-11-14T11:39:56.348Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"
@@ -13010,8 +13015,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 10974,
-        "fetchedAt": "2026-11-13T09:33:10.718Z",
+        "count": 10993,
+        "fetchedAt": "2026-11-14T11:39:56.348Z",
         "fullName": "Dr-TSNG/ZygiskNext",
         "repositoryId": 594330628,
         "verified": "self"
