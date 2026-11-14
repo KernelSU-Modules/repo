@@ -363,7 +363,7 @@
       }
     },
     "adbdisabler": {
-      "contentCommit": "b27aaa00738c09ab59ba7bfe88e99774ca74c3c9",
+      "contentCommit": "0bab6c8e4500b15c9ae2be0d688057d3433d0e9f",
       "fullName": "Shuoh118/ADB-Disabler",
       "health": "ok",
       "installation": "present",
@@ -372,8 +372,8 @@
       "message": null,
       "repositoryId": 1449393283,
       "request": {
-        "checkedAt": "2026-11-07T14:34:16.907Z",
-        "commit": "b27aaa00738c09ab59ba7bfe88e99774ca74c3c9",
+        "checkedAt": "2026-11-14T08:54:37.929Z",
+        "commit": "0bab6c8e4500b15c9ae2be0d688057d3433d0e9f",
         "issues": [],
         "latestTag": "1.0.0",
         "ok": true,
