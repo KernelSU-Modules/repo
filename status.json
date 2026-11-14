@@ -1026,7 +1026,7 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "9cb37ebff491fc4c2ea2228bb88a932241d8e0ef",
+      "contentCommit": "12de43c6d5f349a5a5c50528b01798b0f840a618",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
@@ -1035,8 +1035,8 @@
       "message": null,
       "repositoryId": 1445526027,
       "request": {
-        "checkedAt": "2026-11-13T18:54:17.185Z",
-        "commit": "9cb37ebff491fc4c2ea2228bb88a932241d8e0ef",
+        "checkedAt": "2026-11-14T23:10:19.864Z",
+        "commit": "12de43c6d5f349a5a5c50528b01798b0f840a618",
         "issues": [],
         "latestTag": "1.2.0",
         "ok": true,
