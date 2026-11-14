@@ -610,7 +610,7 @@
       }
     },
     "clouddrive2_ksu_magisk": {
-      "contentCommit": "ba501ecbcfc8b023bf6693ca730e2e363f8ba33e",
+      "contentCommit": "23db139cb5b736f3083558cd109474f9ffe203b3",
       "fullName": "muort521/clouddrive2_ksu_magisk",
       "health": "ok",
       "installation": "present",
@@ -619,12 +619,12 @@
       "message": null,
       "repositoryId": 1449726085,
       "request": {
-        "checkedAt": "2026-11-09T16:26:45.468Z",
-        "commit": "ba501ecbcfc8b023bf6693ca730e2e363f8ba33e",
+        "checkedAt": "2026-11-14T18:43:48.097Z",
+        "commit": "23db139cb5b736f3083558cd109474f9ffe203b3",
         "issues": [],
-        "latestTag": "v1.1.6-r14",
+        "latestTag": "v1.1.7-r15",
         "ok": true,
-        "releaseId": 438797644,
+        "releaseId": 445511025,
         "repositoryId": 1449726085,
         "submissionId": "o0wuzqfnoe"
       },
