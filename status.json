@@ -427,12 +427,12 @@
       "message": null,
       "repositoryId": 1285638838,
       "request": {
-        "checkedAt": "2026-11-15T13:49:35.592Z",
+        "checkedAt": "2026-11-15T13:52:02.770Z",
         "commit": "a2442c4db461504a7335cd627b9fbdc86ea6aba2",
         "issues": [],
-        "latestTag": "v1.2.613-beta",
+        "latestTag": "v1.2.612",
         "ok": true,
-        "releaseId": 446094071,
+        "releaseId": 445948111,
         "repositoryId": 1285638838,
         "submissionId": "imq88c93o3"
       },
