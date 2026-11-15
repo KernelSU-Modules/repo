@@ -7044,7 +7044,7 @@
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
           "docs/badges/downloads.svg": "17a09f7cc071b3be1168c2596007c30cf347320b",
-          "docs/badges/release.svg": "70b3df47ee86be8ca557db2c29ead82afd16b68e",
+          "docs/badges/release.svg": "4444aa33abf3224038a4e2d9098017cc6e4cc7c6",
           "docs/badges/stars.svg": "a98dcf2392e2c1d2bd96a7d702dd24cee125018b",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
           "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
@@ -7065,14 +7065,14 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "1a44f7f064c9ddfcd377735624d47ae2c1a56d00",
-        "fetchedAt": "2026-11-15T09:59:37.501Z",
+        "commit": "2ca6c3044dca96cde041f9cc223ad3a7b6b7d88e",
+        "fetchedAt": "2026-11-15T10:57:50.252Z",
         "files": {
           "README.md": "21a2db53a2782bcf9fc357b57a5bfad9ec00b1e595698c676cbf619d8ecf34f8",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
           "docs/badges/downloads.svg": "98018485ae58252810df0d58a295fd3f5164d3d337cde53cdf7fb43084c441ec",
-          "docs/badges/release.svg": "fd5ae675e34181b5faf1a54e90f8a6a15081bb64bca4b5fd02977d8b4afd045e",
+          "docs/badges/release.svg": "815c41f4d4c6888fd5d86b8c557baa8417bb61e7c22b8d63338ec50ad28eeafc",
           "docs/badges/stars.svg": "65a0b222b2b36e922f54c33c16245d257f8556d7dabcb4d9c439160002f69610",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
           "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
@@ -7099,8 +7099,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-15T10:56:30.324Z",
-        "lastSuccessAt": "2026-11-15T10:56:30.324Z",
+        "lastAttemptAt": "2026-11-15T10:57:50.252Z",
+        "lastSuccessAt": "2026-11-15T10:57:50.252Z",
         "message": null,
         "status": "ok"
       },
