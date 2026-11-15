@@ -7099,17 +7099,48 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-15T09:40:14.862Z",
-        "lastSuccessAt": "2026-11-15T09:40:14.862Z",
+        "lastAttemptAt": "2026-11-15T09:58:35.491Z",
+        "lastSuccessAt": "2026-11-15T09:58:35.491Z",
         "message": null,
         "status": "ok"
       },
       "id": "hypercool",
       "installationId": 179696560,
-      "maxStableVersionCode": 226,
-      "maxVersionCode": 226,
+      "maxStableVersionCode": 230,
+      "maxVersionCode": 230,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:18beb89d27a5d1e92b0ddc03fb559025b0d9908c885d1bd25a14f7060cf3fa5c",
+            "id": 750556470,
+            "name": "HyperCool_v2.3.0.zip",
+            "sha256": "18beb89d27a5d1e92b0ddc03fb559025b0d9908c885d1bd25a14f7060cf3fa5c",
+            "size": 333667,
+            "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.0/HyperCool_v2.3.0.zip"
+          },
+          "body": "\n- New: WebUI Mono theme. Appearance > Mono theme switches to a neutral black and white look with the system font, rounded cards and lists. The Colors option is disabled while Mono is on. Design inspired by Duck ToolBox by Eltavine (MIT).\n- New: Mobile data and NFC off during screen-off (off by default). After the configured delay, mobile data and NFC are switched off while the screen is off and come back when it turns on. It waits during calls, audio playback and tethering.\n- WebUI: the Allow deep CPU sleep card now opens its details panel, so Last boot and What it changes are visible.\n\n",
+          "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.0",
+          "immutable": true,
+          "name": "HyperCool v2.3.0",
+          "prerelease": false,
+          "prop": {
+            "author": "Yudharn",
+            "banner": "banner.jpg",
+            "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
+            "id": "hypercool",
+            "name": "HyperCool - Heat & Battery Fix",
+            "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
+            "version": "v2.3.0",
+            "versionCode": "230"
+          },
+          "publishedAt": "2026-11-15T09:58:16Z",
+          "releaseId": 445957581,
+          "tag": "v2.3.0",
+          "tagCommit": "10d1a2b9da948c3e0270f47d38555e63ea0ae019",
+          "version": "v2.3.0",
+          "versionCode": 230
+        },
         {
           "asset": {
             "digest": "sha256:7b22c2501e59092e584afd5d30709032c4193473c5b5e51dcaa59fb6afae196f",
@@ -7236,21 +7267,25 @@
         "445784005": {
           "checkedAt": "2026-11-15T03:28:30.383Z",
           "ok": true
+        },
+        "445957581": {
+          "checkedAt": "2026-11-15T09:58:35.491Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:7b22c2501e59092e584afd5d30709032c4193473c5b5e51dcaa59fb6afae196f",
-          "id": 749686694,
-          "name": "HyperCool_v2.2.6.zip",
-          "sha256": "7b22c2501e59092e584afd5d30709032c4193473c5b5e51dcaa59fb6afae196f",
-          "size": 328704,
-          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.2.6/HyperCool_v2.2.6.zip"
+          "digest": "sha256:18beb89d27a5d1e92b0ddc03fb559025b0d9908c885d1bd25a14f7060cf3fa5c",
+          "id": 750556470,
+          "name": "HyperCool_v2.3.0.zip",
+          "sha256": "18beb89d27a5d1e92b0ddc03fb559025b0d9908c885d1bd25a14f7060cf3fa5c",
+          "size": 333667,
+          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.0/HyperCool_v2.3.0.zip"
         },
-        "body": "\n- Fixed: the F2FS GC wake-lock timeout overflowed mksh's 32-bit arithmetic and became negative, so the kernel rejected it. The timeout is now written correctly.\n- Fixed: Location could stay off after the screen turned on when the ROM ignored the location command but accepted the `location_mode` fallback. The old mode is now restored immediately if the switch cannot be completed, instead of leaving Location off without a restore record.\n- Fixed: Create bug report reported \"Report failed\" after saving when `boot.log` did not exist yet.\n- Fixed: Auto optimize apps treated battery temperatures below 0 °C as unreadable and stopped with \"too warm\".\n- Fixed: the Max battery preset description claimed that Bluetooth was turned off; the preset only turns Location off. The Bluetooth option now also mentions that a smartwatch or fitness band loses its connection while Bluetooth is off.\n- Fixed: `uninstall.sh` could not find the module files when started as `sh uninstall.sh` from inside the module directory.\n- Changed: the Max battery preset now also sets the Little-core frequency cap to 80%.\n\n",
-        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.2.6",
+        "body": "\n- New: WebUI Mono theme. Appearance > Mono theme switches to a neutral black and white look with the system font, rounded cards and lists. The Colors option is disabled while Mono is on. Design inspired by Duck ToolBox by Eltavine (MIT).\n- New: Mobile data and NFC off during screen-off (off by default). After the configured delay, mobile data and NFC are switched off while the screen is off and come back when it turns on. It waits during calls, audio playback and tethering.\n- WebUI: the Allow deep CPU sleep card now opens its details panel, so Last boot and What it changes are visible.\n\n",
+        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.0",
         "immutable": true,
-        "name": "HyperCool v2.2.6",
+        "name": "HyperCool v2.3.0",
         "prerelease": false,
         "prop": {
           "author": "Yudharn",
@@ -7259,15 +7294,15 @@
           "id": "hypercool",
           "name": "HyperCool - Heat & Battery Fix",
           "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
-          "version": "v2.2.6",
-          "versionCode": "226"
+          "version": "v2.3.0",
+          "versionCode": "230"
         },
-        "publishedAt": "2026-11-15T03:27:58Z",
-        "releaseId": 445784005,
-        "tag": "v2.2.6",
-        "tagCommit": "4951fa0acf54bd66eda3afe4137514336a8b35bb",
-        "version": "v2.2.6",
-        "versionCode": 226
+        "publishedAt": "2026-11-15T09:58:16Z",
+        "releaseId": 445957581,
+        "tag": "v2.3.0",
+        "tagCommit": "10d1a2b9da948c3e0270f47d38555e63ea0ae019",
+        "version": "v2.3.0",
+        "versionCode": 230
       },
       "stars": {
         "count": 21,

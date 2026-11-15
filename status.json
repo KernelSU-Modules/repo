@@ -890,16 +890,16 @@
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-15T09:40:14.862Z",
-      "maxVersionCode": 226,
+      "lastSuccessAt": "2026-11-15T09:58:35.491Z",
+      "maxVersionCode": 230,
       "message": null,
       "repositoryId": 1446403674,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-15T03:27:58Z",
-        "tag": "v2.2.6",
-        "version": "v2.2.6",
-        "versionCode": 226
+        "publishedAt": "2026-11-15T09:58:16Z",
+        "tag": "v2.3.0",
+        "version": "v2.3.0",
+        "versionCode": 230
       }
     },
     "kernelsu-tailscaled": {
