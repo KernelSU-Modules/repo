@@ -7099,17 +7099,48 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-15T09:59:37.501Z",
-        "lastSuccessAt": "2026-11-15T09:59:37.501Z",
+        "lastAttemptAt": "2026-11-15T10:56:30.324Z",
+        "lastSuccessAt": "2026-11-15T10:56:30.324Z",
         "message": null,
         "status": "ok"
       },
       "id": "hypercool",
       "installationId": 179696560,
-      "maxStableVersionCode": 230,
-      "maxVersionCode": 230,
+      "maxStableVersionCode": 231,
+      "maxVersionCode": 231,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:9b60105587a950d104edd544b7382c2d7d345af0ed480593423052d0fbcc86da",
+            "id": 750697967,
+            "name": "HyperCool_v2.3.1.zip",
+            "sha256": "9b60105587a950d104edd544b7382c2d7d345af0ed480593423052d0fbcc86da",
+            "size": 333819,
+            "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.1/HyperCool_v2.3.1.zip"
+          },
+          "body": "\n- WebUI: the Mono theme status pills are neutral now, the applied state uses the normal text colour, and the partial state uses a dashed outline. Added matching warning/ok state colours for the Mono theme.\n- WebUI: the Extra block I/O tuning card now opens its details panel, so \"What it changes\" is visible.\n- WebUI: Clean cache and Clean RAM now use the primary button style.\n\n",
+          "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.1",
+          "immutable": true,
+          "name": "HyperCool v2.3.1",
+          "prerelease": false,
+          "prop": {
+            "author": "Yudharn",
+            "banner": "banner.jpg",
+            "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
+            "id": "hypercool",
+            "name": "HyperCool - Heat & Battery Fix",
+            "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
+            "version": "v2.3.1",
+            "versionCode": "231"
+          },
+          "publishedAt": "2026-11-15T10:56:06Z",
+          "releaseId": 445989626,
+          "tag": "v2.3.1",
+          "tagCommit": "15a45d33a3eef62f53bb67f56b0bcab975686d04",
+          "version": "v2.3.1",
+          "versionCode": 231
+        },
         {
           "asset": {
             "digest": "sha256:18beb89d27a5d1e92b0ddc03fb559025b0d9908c885d1bd25a14f7060cf3fa5c",
@@ -7271,21 +7302,25 @@
         "445957581": {
           "checkedAt": "2026-11-15T09:58:35.491Z",
           "ok": true
+        },
+        "445989626": {
+          "checkedAt": "2026-11-15T10:56:30.324Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:18beb89d27a5d1e92b0ddc03fb559025b0d9908c885d1bd25a14f7060cf3fa5c",
-          "id": 750556470,
-          "name": "HyperCool_v2.3.0.zip",
-          "sha256": "18beb89d27a5d1e92b0ddc03fb559025b0d9908c885d1bd25a14f7060cf3fa5c",
-          "size": 333667,
-          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.0/HyperCool_v2.3.0.zip"
+          "digest": "sha256:9b60105587a950d104edd544b7382c2d7d345af0ed480593423052d0fbcc86da",
+          "id": 750697967,
+          "name": "HyperCool_v2.3.1.zip",
+          "sha256": "9b60105587a950d104edd544b7382c2d7d345af0ed480593423052d0fbcc86da",
+          "size": 333819,
+          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.1/HyperCool_v2.3.1.zip"
         },
-        "body": "\n- New: WebUI Mono theme. Appearance > Mono theme switches to a neutral black and white look with the system font, rounded cards and lists. The Colors option is disabled while Mono is on. Design inspired by Duck ToolBox by Eltavine (MIT).\n- New: Mobile data and NFC off during screen-off (off by default). After the configured delay, mobile data and NFC are switched off while the screen is off and come back when it turns on. It waits during calls, audio playback and tethering.\n- WebUI: the Allow deep CPU sleep card now opens its details panel, so Last boot and What it changes are visible.\n\n",
-        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.0",
+        "body": "\n- WebUI: the Mono theme status pills are neutral now, the applied state uses the normal text colour, and the partial state uses a dashed outline. Added matching warning/ok state colours for the Mono theme.\n- WebUI: the Extra block I/O tuning card now opens its details panel, so \"What it changes\" is visible.\n- WebUI: Clean cache and Clean RAM now use the primary button style.\n\n",
+        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.1",
         "immutable": true,
-        "name": "HyperCool v2.3.0",
+        "name": "HyperCool v2.3.1",
         "prerelease": false,
         "prop": {
           "author": "Yudharn",
@@ -7294,15 +7329,15 @@
           "id": "hypercool",
           "name": "HyperCool - Heat & Battery Fix",
           "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
-          "version": "v2.3.0",
-          "versionCode": "230"
+          "version": "v2.3.1",
+          "versionCode": "231"
         },
-        "publishedAt": "2026-11-15T09:58:16Z",
-        "releaseId": 445957581,
-        "tag": "v2.3.0",
-        "tagCommit": "10d1a2b9da948c3e0270f47d38555e63ea0ae019",
-        "version": "v2.3.0",
-        "versionCode": 230
+        "publishedAt": "2026-11-15T10:56:06Z",
+        "releaseId": 445989626,
+        "tag": "v2.3.1",
+        "tagCommit": "15a45d33a3eef62f53bb67f56b0bcab975686d04",
+        "version": "v2.3.1",
+        "versionCode": 231
       },
       "stars": {
         "count": 21,
