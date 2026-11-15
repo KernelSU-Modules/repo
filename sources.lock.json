@@ -2144,14 +2144,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "93f13a6141dc7317fb3de8aebf55b7a75b364589",
+          "README.md": "7d7f077f276c8318db7832fd825d34423b8b3335",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "cac2a6fb58d395206a60275fbe3cc6191c841ce1",
-        "fetchedAt": "2026-11-13T18:54:17.185Z",
+        "commit": "f6c808ed7f66276c398d4b3e5d9f7108d80ed7ae",
+        "fetchedAt": "2026-11-15T10:32:40.513Z",
         "files": {
-          "README.md": "b3a6298868a7145535de2a517e76b5bcf6afe09d7d00f97b9e9e46782331b808",
+          "README.md": "23e2c45fcf578e5ee9930e300ad5cb4d011655554898676a5431b01d73cb5a34",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -2161,8 +2161,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-13T18:54:17.185Z",
-        "lastSuccessAt": "2026-11-13T18:54:17.185Z",
+        "lastAttemptAt": "2026-11-15T10:32:40.513Z",
+        "lastSuccessAt": "2026-11-15T10:32:40.513Z",
         "message": null,
         "status": "ok"
       },
@@ -2725,8 +2725,8 @@
         "versionCode": 10615
       },
       "stars": {
-        "count": 228,
-        "fetchedAt": "2026-11-14T17:13:25.154Z",
+        "count": 229,
+        "fetchedAt": "2026-11-15T10:32:40.513Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -12283,13 +12283,13 @@
     "zygisknextsu": {
       "content": {
         "blobs": {
-          "README.md": "0799b0999f16fdf00a47cfff5cff491730bbaa0a",
+          "README.md": "2d55305302ad64f2778ac627654bbf0deaaf0f86",
           "module.yaml": "e247ea24daaf8b0479da70584df9834166993095"
         },
-        "commit": "13921632dfa4a2730541897800642dcf18d2ae67",
-        "fetchedAt": "2026-11-14T17:13:25.154Z",
+        "commit": "9f19f08df7cb0f711d45166903fbc6dd7f9db455",
+        "fetchedAt": "2026-11-15T10:32:40.513Z",
         "files": {
-          "README.md": "036d8e6797757afe499b7293ced5ee7fe8414e7fe6f9e804b8a84fab232f56d4",
+          "README.md": "c5995ef625e47cd7e1925db6cdf117bd9b97549a09a2bed3a3c13801ce2af95e",
           "module.yaml": "54bdb455d9d9ceb3235387c12ac566e4e98f1c8e55a4a0320dcdddded8b71c1b"
         },
         "manifestPath": "module.yaml",
@@ -12298,17 +12298,47 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-15T06:03:44.160Z",
-        "lastSuccessAt": "2026-11-15T06:03:44.160Z",
+        "lastAttemptAt": "2026-11-15T10:32:40.513Z",
+        "lastSuccessAt": "2026-11-15T10:32:40.513Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 402,
-      "maxVersionCode": 402,
+      "maxStableVersionCode": 406,
+      "maxVersionCode": 406,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:2c594191caa1923933d1a5b98ebbb174ca00960f50027e615050af772752124f",
+            "id": 750639666,
+            "name": "ZNNext-v2.18.0-406-a5d3ce6-release.zip",
+            "sha256": "2c594191caa1923933d1a5b98ebbb174ca00960f50027e615050af772752124f",
+            "size": 11368756,
+            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0/ZNNext-v2.18.0-406-a5d3ce6-release.zip"
+          },
+          "body": "## What's Changed\n* feat(inlinehook): add SandHook by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/196\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.17.0...v2.18.0\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.18.0",
+          "immutable": true,
+          "name": "v2.18.0",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "ZNNext",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
+            "version": "v2.18.0 (406-a5d3ce6-release)",
+            "versionCode": "406"
+          },
+          "publishedAt": "2026-11-15T10:32:18Z",
+          "releaseId": 445976571,
+          "tag": "v2.18.0",
+          "tagCommit": "a5d3ce6ebd5cf56579f338c59a5d257a829fbeb4",
+          "version": "v2.18.0 (406-a5d3ce6-release)",
+          "versionCode": 406
+        },
         {
           "asset": {
             "digest": "sha256:2c49bbe6a8db26ac3cb7496f10d9049a41b1166fdbab6c56977049c4b4590f38",
@@ -12578,36 +12608,6 @@
           "tagCommit": "fa1da0d1af69bc52d9485ae978486c6d5f5b6d27",
           "version": "v2.11.1 (299-fa1da0d-release)",
           "versionCode": 299
-        },
-        {
-          "asset": {
-            "digest": "sha256:6a80a816a27c633a15644e0f5c6f727e173569996c1ad7ccacae63606a9ea67a",
-            "id": 697250415,
-            "name": "ZNNext-v2.11.0-273-3134a2f-release.zip",
-            "sha256": "6a80a816a27c633a15644e0f5c6f727e173569996c1ad7ccacae63606a9ea67a",
-            "size": 6818501,
-            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.11.0/ZNNext-v2.11.0-273-3134a2f-release.zip"
-          },
-          "body": "## What's Changed\n* feat(inlinehook): add yuki::ihook by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/138\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.10.1...v2.11.0\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.11.0",
-          "immutable": true,
-          "name": "v2.11.0",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "ZNNext",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-            "version": "v2.11.0 (273-3134a2f-release)",
-            "versionCode": "273"
-          },
-          "publishedAt": "2026-11-01T03:49:42Z",
-          "releaseId": 430346863,
-          "tag": "v2.11.0",
-          "tagCommit": "3134a2fdc3ef330cecc2a58057859b1ba2ea048a",
-          "version": "v2.11.0 (273-3134a2f-release)",
-          "versionCode": 273
         }
       ],
       "repositoryId": 1348255159,
@@ -12873,21 +12873,25 @@
         "445847384": {
           "checkedAt": "2026-11-15T06:03:44.160Z",
           "ok": true
+        },
+        "445976571": {
+          "checkedAt": "2026-11-15T10:32:40.513Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:2c49bbe6a8db26ac3cb7496f10d9049a41b1166fdbab6c56977049c4b4590f38",
-          "id": 750016368,
-          "name": "ZNNext-v2.17.0-402-fdd9111-release.zip",
-          "sha256": "2c49bbe6a8db26ac3cb7496f10d9049a41b1166fdbab6c56977049c4b4590f38",
-          "size": 9969352,
-          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.17.0/ZNNext-v2.17.0-402-fdd9111-release.zip"
+          "digest": "sha256:2c594191caa1923933d1a5b98ebbb174ca00960f50027e615050af772752124f",
+          "id": 750639666,
+          "name": "ZNNext-v2.18.0-406-a5d3ce6-release.zip",
+          "sha256": "2c594191caa1923933d1a5b98ebbb174ca00960f50027e615050af772752124f",
+          "size": 11368756,
+          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0/ZNNext-v2.18.0-406-a5d3ce6-release.zip"
         },
-        "body": "## What's Changed\n* feat: add hot update by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/194\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.16.0.1...v2.17.0\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.17.0",
+        "body": "## What's Changed\n* feat(inlinehook): add SandHook by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/196\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.17.0...v2.18.0\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.18.0",
         "immutable": true,
-        "name": "v2.17.0",
+        "name": "v2.18.0",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -12895,19 +12899,19 @@
           "id": "zygisknextsu",
           "name": "ZNNext",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-          "version": "v2.17.0 (402-fdd9111-release)",
-          "versionCode": "402"
+          "version": "v2.18.0 (406-a5d3ce6-release)",
+          "versionCode": "406"
         },
-        "publishedAt": "2026-11-15T06:03:16Z",
-        "releaseId": 445847384,
-        "tag": "v2.17.0",
-        "tagCommit": "fdd91110ff9f7c1886778e56c195121c33ce0414",
-        "version": "v2.17.0 (402-fdd9111-release)",
-        "versionCode": 402
+        "publishedAt": "2026-11-15T10:32:18Z",
+        "releaseId": 445976571,
+        "tag": "v2.18.0",
+        "tagCommit": "a5d3ce6ebd5cf56579f338c59a5d257a829fbeb4",
+        "version": "v2.18.0 (406-a5d3ce6-release)",
+        "versionCode": 406
       },
       "stars": {
-        "count": 108,
-        "fetchedAt": "2026-11-14T11:39:56.348Z",
+        "count": 109,
+        "fetchedAt": "2026-11-15T10:32:40.513Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"
