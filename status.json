@@ -418,7 +418,7 @@
       }
     },
     "ancli": {
-      "contentCommit": "042a8d9027544a254548a458d62b034f68fbf33f",
+      "contentCommit": "a2442c4db461504a7335cd627b9fbdc86ea6aba2",
       "fullName": "AHLLX/AnCLI",
       "health": "ok",
       "installation": "present",
@@ -427,12 +427,12 @@
       "message": null,
       "repositoryId": 1285638838,
       "request": {
-        "checkedAt": "2026-11-15T09:40:14.862Z",
-        "commit": "042a8d9027544a254548a458d62b034f68fbf33f",
+        "checkedAt": "2026-11-15T13:49:35.592Z",
+        "commit": "a2442c4db461504a7335cd627b9fbdc86ea6aba2",
         "issues": [],
-        "latestTag": "v1.2.612",
+        "latestTag": "v1.2.613-beta",
         "ok": true,
-        "releaseId": 445948111,
+        "releaseId": 446094071,
         "repositoryId": 1285638838,
         "submissionId": "imq88c93o3"
       },
@@ -1371,11 +1371,11 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "926f55e11d1a71c48b40b0a6f2caec563e5dc087",
+      "contentCommit": "4192737fb72f6a88d946d3c71c08275a68398029",
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-15T13:00:05.535Z",
+      "lastSuccessAt": "2026-11-15T13:49:35.592Z",
       "maxVersionCode": 409,
       "message": null,
       "repositoryId": 1348255159,

@@ -7721,8 +7721,8 @@
         "versionCode": 15
       },
       "stars": {
-        "count": 63,
-        "fetchedAt": "2026-11-06T08:29:15.804Z",
+        "count": 64,
+        "fetchedAt": "2026-11-15T13:49:35.592Z",
         "fullName": "NativeStar/KernelSUGrantToast",
         "repositoryId": 1205795668,
         "verified": "self"
@@ -12357,13 +12357,13 @@
     "zygisknextsu": {
       "content": {
         "blobs": {
-          "README.md": "fec0e7d5eb19fe2be6800181d13e3394d52ee0c1",
+          "README.md": "33de9ec55694234a17d78d30a522ef76739d977c",
           "module.yaml": "e247ea24daaf8b0479da70584df9834166993095"
         },
-        "commit": "926f55e11d1a71c48b40b0a6f2caec563e5dc087",
-        "fetchedAt": "2026-11-15T13:00:05.535Z",
+        "commit": "4192737fb72f6a88d946d3c71c08275a68398029",
+        "fetchedAt": "2026-11-15T13:49:35.592Z",
         "files": {
-          "README.md": "e10ae144c04d5f5f7c733d864453dc48c1767c0194bf1c389071a7ff04fbcb38",
+          "README.md": "b614cc4e6fc8d1ebb54051cbb170034b12c26743ce1e1519a268734b57592167",
           "module.yaml": "54bdb455d9d9ceb3235387c12ac566e4e98f1c8e55a4a0320dcdddded8b71c1b"
         },
         "manifestPath": "module.yaml",
@@ -12372,8 +12372,8 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-15T13:00:05.535Z",
-        "lastSuccessAt": "2026-11-15T13:00:05.535Z",
+        "lastAttemptAt": "2026-11-15T13:49:35.592Z",
+        "lastSuccessAt": "2026-11-15T13:49:35.592Z",
         "message": null,
         "status": "ok"
       },
@@ -12988,8 +12988,8 @@
         "versionCode": 409
       },
       "stars": {
-        "count": 110,
-        "fetchedAt": "2026-11-15T13:00:05.535Z",
+        "count": 109,
+        "fetchedAt": "2026-11-15T13:49:35.592Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"
