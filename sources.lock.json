@@ -1284,8 +1284,8 @@
         "versionCode": 39
       },
       "stars": {
-        "count": 26,
-        "fetchedAt": "2026-11-14T12:37:21.288Z",
+        "count": 27,
+        "fetchedAt": "2026-11-15T12:46:38.273Z",
         "fullName": "f1owkang/CRecordEvolution",
         "repositoryId": 678049636,
         "verified": "self"
@@ -3436,8 +3436,8 @@
         "versionCode": 22
       },
       "stars": {
-        "count": 143,
-        "fetchedAt": "2026-11-14T11:39:56.348Z",
+        "count": 148,
+        "fetchedAt": "2026-11-15T12:46:38.273Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -5112,8 +5112,8 @@
         "versionCode": 8
       },
       "stars": {
-        "count": 12,
-        "fetchedAt": "2026-11-14T11:39:56.348Z",
+        "count": 13,
+        "fetchedAt": "2026-11-15T12:46:38.273Z",
         "fullName": "mazemingw/coloros-wifi-sense",
         "repositoryId": 1449425812,
         "verified": "self"
@@ -7030,8 +7030,8 @@
         "versionCode": 602006999
       },
       "stars": {
-        "count": 1836,
-        "fetchedAt": "2026-11-14T11:39:56.348Z",
+        "count": 1837,
+        "fetchedAt": "2026-11-15T12:46:38.273Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
@@ -7043,7 +7043,7 @@
           "README.md": "c62321acd9f4c89e20f199d612d79fd1641e0f1c",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
-          "docs/badges/downloads.svg": "17a09f7cc071b3be1168c2596007c30cf347320b",
+          "docs/badges/downloads.svg": "1570b44867f4ac44577e872a38ca57823a4cb050",
           "docs/badges/release.svg": "4444aa33abf3224038a4e2d9098017cc6e4cc7c6",
           "docs/badges/stars.svg": "a98dcf2392e2c1d2bd96a7d702dd24cee125018b",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
@@ -7065,13 +7065,13 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "e9b043f9051e659b5db9df5e6a1f8ec2f57fc6d9",
-        "fetchedAt": "2026-11-15T11:37:13.039Z",
+        "commit": "25861e7e3cd13e240c51ef304fcfac7f12f57a59",
+        "fetchedAt": "2026-11-15T12:46:38.273Z",
         "files": {
           "README.md": "cf55e4fbf655c63d4a33f651b9cdbb7312acddb4a087a29827d6a4f020461d72",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
-          "docs/badges/downloads.svg": "98018485ae58252810df0d58a295fd3f5164d3d337cde53cdf7fb43084c441ec",
+          "docs/badges/downloads.svg": "665c51a082308b6604c767a03a21a310eb27fa8bc2e7d10a322aeed2c2712bff",
           "docs/badges/release.svg": "815c41f4d4c6888fd5d86b8c557baa8417bb61e7c22b8d63338ec50ad28eeafc",
           "docs/badges/stars.svg": "65a0b222b2b36e922f54c33c16245d257f8556d7dabcb4d9c439160002f69610",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
@@ -7099,17 +7099,48 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-15T11:37:13.039Z",
-        "lastSuccessAt": "2026-11-15T11:37:13.039Z",
+        "lastAttemptAt": "2026-11-15T12:46:38.273Z",
+        "lastSuccessAt": "2026-11-15T12:46:38.273Z",
         "message": null,
         "status": "ok"
       },
       "id": "hypercool",
       "installationId": 179696560,
-      "maxStableVersionCode": 231,
-      "maxVersionCode": 231,
+      "maxStableVersionCode": 232,
+      "maxVersionCode": 232,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:cd1fd75d8882375544974a129ee4647dae6fccc04f60e26f53b3f6fbf73c40b7",
+            "id": 750979363,
+            "name": "HyperCool_v2.3.2.zip",
+            "sha256": "cd1fd75d8882375544974a129ee4647dae6fccc04f60e26f53b3f6fbf73c40b7",
+            "size": 334072,
+            "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.2/HyperCool_v2.3.2.zip"
+          },
+          "body": "\n- Fixed: Mobile data and NFC off during screen-off is more reliable now: call detection checks every SIM slot, tethering is detected from the current state instead of the event log, NFC \"turning\" is handled while restoring, and radios are saved before switching with failed switches undone.\n- WebUI: the Mono theme title is bold.\n\n",
+          "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.2",
+          "immutable": true,
+          "name": "HyperCool v2.3.2",
+          "prerelease": false,
+          "prop": {
+            "author": "Yudharn",
+            "banner": "banner.jpg",
+            "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
+            "id": "hypercool",
+            "name": "HyperCool - Heat & Battery Fix",
+            "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
+            "version": "v2.3.2",
+            "versionCode": "232"
+          },
+          "publishedAt": "2026-11-15T12:46:12Z",
+          "releaseId": 446055641,
+          "tag": "v2.3.2",
+          "tagCommit": "25861e7e3cd13e240c51ef304fcfac7f12f57a59",
+          "version": "v2.3.2",
+          "versionCode": 232
+        },
         {
           "asset": {
             "digest": "sha256:9b60105587a950d104edd544b7382c2d7d345af0ed480593423052d0fbcc86da",
@@ -7306,21 +7337,25 @@
         "445989626": {
           "checkedAt": "2026-11-15T10:56:30.324Z",
           "ok": true
+        },
+        "446055641": {
+          "checkedAt": "2026-11-15T12:46:38.273Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:9b60105587a950d104edd544b7382c2d7d345af0ed480593423052d0fbcc86da",
-          "id": 750697967,
-          "name": "HyperCool_v2.3.1.zip",
-          "sha256": "9b60105587a950d104edd544b7382c2d7d345af0ed480593423052d0fbcc86da",
-          "size": 333819,
-          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.1/HyperCool_v2.3.1.zip"
+          "digest": "sha256:cd1fd75d8882375544974a129ee4647dae6fccc04f60e26f53b3f6fbf73c40b7",
+          "id": 750979363,
+          "name": "HyperCool_v2.3.2.zip",
+          "sha256": "cd1fd75d8882375544974a129ee4647dae6fccc04f60e26f53b3f6fbf73c40b7",
+          "size": 334072,
+          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.2/HyperCool_v2.3.2.zip"
         },
-        "body": "\n- WebUI: the Mono theme status pills are neutral now, the applied state uses the normal text colour, and the partial state uses a dashed outline. Added matching warning/ok state colours for the Mono theme.\n- WebUI: the Extra block I/O tuning card now opens its details panel, so \"What it changes\" is visible.\n- WebUI: Clean cache and Clean RAM now use the primary button style.\n\n",
-        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.1",
+        "body": "\n- Fixed: Mobile data and NFC off during screen-off is more reliable now: call detection checks every SIM slot, tethering is detected from the current state instead of the event log, NFC \"turning\" is handled while restoring, and radios are saved before switching with failed switches undone.\n- WebUI: the Mono theme title is bold.\n\n",
+        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.2",
         "immutable": true,
-        "name": "HyperCool v2.3.1",
+        "name": "HyperCool v2.3.2",
         "prerelease": false,
         "prop": {
           "author": "Yudharn",
@@ -7329,15 +7364,15 @@
           "id": "hypercool",
           "name": "HyperCool - Heat & Battery Fix",
           "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
-          "version": "v2.3.1",
-          "versionCode": "231"
+          "version": "v2.3.2",
+          "versionCode": "232"
         },
-        "publishedAt": "2026-11-15T10:56:06Z",
-        "releaseId": 445989626,
-        "tag": "v2.3.1",
-        "tagCommit": "15a45d33a3eef62f53bb67f56b0bcab975686d04",
-        "version": "v2.3.1",
-        "versionCode": 231
+        "publishedAt": "2026-11-15T12:46:12Z",
+        "releaseId": 446055641,
+        "tag": "v2.3.2",
+        "tagCommit": "25861e7e3cd13e240c51ef304fcfac7f12f57a59",
+        "version": "v2.3.2",
+        "versionCode": 232
       },
       "stars": {
         "count": 21,
@@ -8843,8 +8878,8 @@
         "versionCode": 1100
       },
       "stars": {
-        "count": 1429,
-        "fetchedAt": "2026-11-14T11:39:56.348Z",
+        "count": 1435,
+        "fetchedAt": "2026-11-15T12:46:38.273Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -9548,8 +9583,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4204,
-        "fetchedAt": "2026-11-14T11:39:56.348Z",
+        "count": 4207,
+        "fetchedAt": "2026-11-15T12:46:38.273Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
@@ -13170,8 +13205,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 10993,
-        "fetchedAt": "2026-11-14T11:39:56.348Z",
+        "count": 11007,
+        "fetchedAt": "2026-11-15T12:46:38.273Z",
         "fullName": "Dr-TSNG/ZygiskNext",
         "repositoryId": 594330628,
         "verified": "self"
