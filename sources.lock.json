@@ -7040,12 +7040,12 @@
     "hypercool": {
       "content": {
         "blobs": {
-          "README.md": "cea8dfad4193c185e240aee29a8464b93deaec07",
+          "README.md": "5030bee61952d108edd40b7a9d7328522931ad10",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
-          "docs/badges/downloads.svg": "d483ed27b278142d868ccdefb751682257e78ac5",
+          "docs/badges/downloads.svg": "baa5c1a53c462acb1bd17374fb431eabf1221321",
           "docs/badges/release.svg": "2753edd739974a60fc65a30a6ae34706093bf40e",
-          "docs/badges/stars.svg": "71412bd095560c753cf7a66784412a1c7eefea9a",
+          "docs/badges/stars.svg": "a98dcf2392e2c1d2bd96a7d702dd24cee125018b",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
           "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
           "docs/screenshots/app-cache.png": "6c9a644eb5fc9aa8d61036867b504362d1962218",
@@ -7065,15 +7065,15 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "28c9c6373d7765a11f82a98b6f3842e51ec9e0da",
-        "fetchedAt": "2026-11-14T11:39:56.348Z",
+        "commit": "018fcbfac9ebbe966ba510fba9cabf6779929288",
+        "fetchedAt": "2026-11-15T03:04:57.249Z",
         "files": {
-          "README.md": "a66a2013c93e968597d6f30b9c03c0a94f30160ef84891b0a507a1a829ce85d2",
+          "README.md": "ec632e8be52b546eecbd0584a7758ec779a390331efcc9e6c228c275e9103dc7",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
-          "docs/badges/downloads.svg": "f7f09e65244f9672ee86306acf7e8bce49831f1ae8176782ab8befe0ae51537e",
+          "docs/badges/downloads.svg": "73afe163e8f60c931a28782c700e595a4270c8e1390a0145bb8e86a6cc7b46ea",
           "docs/badges/release.svg": "8d3de630d0744d4cea6d4cc66f5bd068791c813e1392e5b121e9bf9609c5aae2",
-          "docs/badges/stars.svg": "61e6af319161dc28949c14b8712a347425d15c9fd644f938b3290227c66ae6a2",
+          "docs/badges/stars.svg": "65a0b222b2b36e922f54c33c16245d257f8556d7dabcb4d9c439160002f69610",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
           "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
           "docs/screenshots/app-cache.png": "74ec72f4f19a4a5f6ed51c1e1f8e18f2f196a7b14950fe0124db778644838d43",
@@ -7099,8 +7099,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-14T11:39:56.348Z",
-        "lastSuccessAt": "2026-11-14T11:39:56.348Z",
+        "lastAttemptAt": "2026-11-15T03:04:57.249Z",
+        "lastSuccessAt": "2026-11-15T03:04:57.249Z",
         "message": null,
         "status": "ok"
       },

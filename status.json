@@ -886,11 +886,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "28c9c6373d7765a11f82a98b6f3842e51ec9e0da",
+      "contentCommit": "018fcbfac9ebbe966ba510fba9cabf6779929288",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-14T11:39:56.348Z",
+      "lastSuccessAt": "2026-11-15T03:04:57.249Z",
       "maxVersionCode": 225,
       "message": null,
       "repositoryId": 1446403674,
