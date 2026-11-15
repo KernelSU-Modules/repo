@@ -960,8 +960,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-14T12:37:21.288Z",
-        "lastSuccessAt": "2026-11-14T12:37:21.288Z",
+        "lastAttemptAt": "2026-11-15T16:17:20.460Z",
+        "lastSuccessAt": "2026-11-15T16:17:20.460Z",
         "message": null,
         "status": "ok"
       },
@@ -1251,6 +1251,12 @@
         "445285523": {
           "checkedAt": "2026-11-14T12:37:21.288Z",
           "ok": true
+        },
+        "446187724": {
+          "checkedAt": "2026-11-15T16:17:20.460Z",
+          "code": "version-not-newer",
+          "message": "versionCode 39 is already used by the release v1.3.10. Publish a new release with a versionCode above 39.",
+          "ok": false
         }
       },
       "stable": {
@@ -2144,14 +2150,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "9da5ba0c1879ce2f5b4b2f2eb26e3adfb3dbf70e",
+          "README.md": "3bd02e12395a4e238515e76744f9e7bf188ab30e",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "2fe7177f34037854ba090f62c4e5e18efabc8790",
-        "fetchedAt": "2026-11-15T15:03:31.988Z",
+        "commit": "a0b645835cb1b0a397ebbdd24e736d1e0d07d3e9",
+        "fetchedAt": "2026-11-15T16:17:20.460Z",
         "files": {
-          "README.md": "8c34eb77fcbf0f71bc6fbb140a1f482ef5cae2fe47228d7836f5dbae25ffb866",
+          "README.md": "ce157cfeaf0594dc0a0ba472b0c20d680859a8f87c856c77eeb3c6cdb2520259",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -2161,8 +2167,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-15T15:03:31.988Z",
-        "lastSuccessAt": "2026-11-15T15:03:31.988Z",
+        "lastAttemptAt": "2026-11-15T16:17:20.460Z",
+        "lastSuccessAt": "2026-11-15T16:17:20.460Z",
         "message": null,
         "status": "ok"
       },
