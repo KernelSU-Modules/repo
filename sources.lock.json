@@ -4295,8 +4295,8 @@
         "versionCode": 28
       },
       "stars": {
-        "count": 103,
-        "fetchedAt": "2026-11-14T03:18:29.463Z",
+        "count": 104,
+        "fetchedAt": "2026-11-15T03:28:30.383Z",
         "fullName": "Dr-TSNG/altdb",
         "repositoryId": 1368146952,
         "verified": "self"
@@ -7099,17 +7099,48 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-15T03:04:57.249Z",
-        "lastSuccessAt": "2026-11-15T03:04:57.249Z",
+        "lastAttemptAt": "2026-11-15T03:28:30.383Z",
+        "lastSuccessAt": "2026-11-15T03:28:30.383Z",
         "message": null,
         "status": "ok"
       },
       "id": "hypercool",
       "installationId": 179696560,
-      "maxStableVersionCode": 225,
-      "maxVersionCode": 225,
+      "maxStableVersionCode": 226,
+      "maxVersionCode": 226,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:7b22c2501e59092e584afd5d30709032c4193473c5b5e51dcaa59fb6afae196f",
+            "id": 749686694,
+            "name": "HyperCool_v2.2.6.zip",
+            "sha256": "7b22c2501e59092e584afd5d30709032c4193473c5b5e51dcaa59fb6afae196f",
+            "size": 328704,
+            "url": "https://github.com/yudharn/HyperCool/releases/download/v2.2.6/HyperCool_v2.2.6.zip"
+          },
+          "body": "\n- Fixed: the F2FS GC wake-lock timeout overflowed mksh's 32-bit arithmetic and became negative, so the kernel rejected it. The timeout is now written correctly.\n- Fixed: Location could stay off after the screen turned on when the ROM ignored the location command but accepted the `location_mode` fallback. The old mode is now restored immediately if the switch cannot be completed, instead of leaving Location off without a restore record.\n- Fixed: Create bug report reported \"Report failed\" after saving when `boot.log` did not exist yet.\n- Fixed: Auto optimize apps treated battery temperatures below 0 °C as unreadable and stopped with \"too warm\".\n- Fixed: the Max battery preset description claimed that Bluetooth was turned off; the preset only turns Location off. The Bluetooth option now also mentions that a smartwatch or fitness band loses its connection while Bluetooth is off.\n- Fixed: `uninstall.sh` could not find the module files when started as `sh uninstall.sh` from inside the module directory.\n- Changed: the Max battery preset now also sets the Little-core frequency cap to 80%.\n\n",
+          "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.2.6",
+          "immutable": true,
+          "name": "HyperCool v2.2.6",
+          "prerelease": false,
+          "prop": {
+            "author": "Yudharn",
+            "banner": "banner.jpg",
+            "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
+            "id": "hypercool",
+            "name": "HyperCool - Heat & Battery Fix",
+            "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
+            "version": "v2.2.6",
+            "versionCode": "226"
+          },
+          "publishedAt": "2026-11-15T03:27:58Z",
+          "releaseId": 445784005,
+          "tag": "v2.2.6",
+          "tagCommit": "4951fa0acf54bd66eda3afe4137514336a8b35bb",
+          "version": "v2.2.6",
+          "versionCode": 226
+        },
         {
           "asset": {
             "digest": "sha256:fb1ffdd72a0ef3879f17315c2adf9a520909ff19177679336e2fe6fac9eccb8b",
@@ -7201,21 +7232,25 @@
         "443139874": {
           "checkedAt": "2026-11-13T11:33:30.324Z",
           "ok": true
+        },
+        "445784005": {
+          "checkedAt": "2026-11-15T03:28:30.383Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:fb1ffdd72a0ef3879f17315c2adf9a520909ff19177679336e2fe6fac9eccb8b",
-          "id": 740004102,
-          "name": "HyperCool_v2.2.5.zip",
-          "sha256": "fb1ffdd72a0ef3879f17315c2adf9a520909ff19177679336e2fe6fac9eccb8b",
-          "size": 328532,
-          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.2.5/HyperCool_v2.2.5.zip"
+          "digest": "sha256:7b22c2501e59092e584afd5d30709032c4193473c5b5e51dcaa59fb6afae196f",
+          "id": 749686694,
+          "name": "HyperCool_v2.2.6.zip",
+          "sha256": "7b22c2501e59092e584afd5d30709032c4193473c5b5e51dcaa59fb6afae196f",
+          "size": 328704,
+          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.2.6/HyperCool_v2.2.6.zip"
         },
-        "body": "\n- Fixed: ZRAM keeps priority -2 when possible. The module tries `swapon -p -2`, checks the live value in `/proc/swaps`, and falls back to the kernel default; the status names the swap that already holds -2 instead of claiming it.\n- Fixed: the background-app compaction check no longer overflows on large-RAM devices, and battery calibration skips an unreadable temperature instead of calculating with it.\n- Fixed: GMS Doze reports off/failed when its whitelist cannot be restored, and a manual app optimization run releases its wake lock after 12 hours at most.\n- Fixed: Runtime power detects input devices correctly when only one input glob matches; the RAM optimizer status no longer claims ZRAM tuning.\n- Fixed: Keep Wi-Fi on counts every attempt for its limiter, but only reports a re-enable when Wi-Fi is really on.\n- WebUI: Home stats use tabular monospace numbers, and the cache details describe the real measured paths and keep-list behavior.\n\n",
-        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.2.5",
+        "body": "\n- Fixed: the F2FS GC wake-lock timeout overflowed mksh's 32-bit arithmetic and became negative, so the kernel rejected it. The timeout is now written correctly.\n- Fixed: Location could stay off after the screen turned on when the ROM ignored the location command but accepted the `location_mode` fallback. The old mode is now restored immediately if the switch cannot be completed, instead of leaving Location off without a restore record.\n- Fixed: Create bug report reported \"Report failed\" after saving when `boot.log` did not exist yet.\n- Fixed: Auto optimize apps treated battery temperatures below 0 °C as unreadable and stopped with \"too warm\".\n- Fixed: the Max battery preset description claimed that Bluetooth was turned off; the preset only turns Location off. The Bluetooth option now also mentions that a smartwatch or fitness band loses its connection while Bluetooth is off.\n- Fixed: `uninstall.sh` could not find the module files when started as `sh uninstall.sh` from inside the module directory.\n- Changed: the Max battery preset now also sets the Little-core frequency cap to 80%.\n\n",
+        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.2.6",
         "immutable": true,
-        "name": "HyperCool v2.2.5",
+        "name": "HyperCool v2.2.6",
         "prerelease": false,
         "prop": {
           "author": "Yudharn",
@@ -7224,15 +7259,15 @@
           "id": "hypercool",
           "name": "HyperCool - Heat & Battery Fix",
           "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
-          "version": "v2.2.5",
-          "versionCode": "225"
+          "version": "v2.2.6",
+          "versionCode": "226"
         },
-        "publishedAt": "2026-11-12T15:30:30Z",
-        "releaseId": 443139874,
-        "tag": "v2.2.5",
-        "tagCommit": "f9c22df575894164a62bfbe7cc33b4fa8424b5cc",
-        "version": "v2.2.5",
-        "versionCode": 225
+        "publishedAt": "2026-11-15T03:27:58Z",
+        "releaseId": 445784005,
+        "tag": "v2.2.6",
+        "tagCommit": "4951fa0acf54bd66eda3afe4137514336a8b35bb",
+        "version": "v2.2.6",
+        "versionCode": 226
       },
       "stars": {
         "count": 21,
@@ -8108,8 +8143,8 @@
         "versionCode": 401012
       },
       "stars": {
-        "count": 609,
-        "fetchedAt": "2026-11-14T03:18:29.463Z",
+        "count": 613,
+        "fetchedAt": "2026-11-15T03:28:30.383Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
