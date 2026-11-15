@@ -204,11 +204,11 @@
       "stable": null
     },
     "MagicNet": {
-      "contentCommit": "f6c808ed7f66276c398d4b3e5d9f7108d80ed7ae",
+      "contentCommit": "2fe7177f34037854ba090f62c4e5e18efabc8790",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-15T10:32:40.513Z",
+      "lastSuccessAt": "2026-11-15T15:03:31.988Z",
       "maxVersionCode": 10615,
       "message": null,
       "repositoryId": 998453022,
@@ -418,7 +418,7 @@
       }
     },
     "ancli": {
-      "contentCommit": "a2442c4db461504a7335cd627b9fbdc86ea6aba2",
+      "contentCommit": "214c37b938ddbd24cb5f1dd8fb65fc2e83de292b",
       "fullName": "AHLLX/AnCLI",
       "health": "ok",
       "installation": "present",
@@ -427,8 +427,8 @@
       "message": null,
       "repositoryId": 1285638838,
       "request": {
-        "checkedAt": "2026-11-15T13:52:02.770Z",
-        "commit": "a2442c4db461504a7335cd627b9fbdc86ea6aba2",
+        "checkedAt": "2026-11-15T15:03:31.988Z",
+        "commit": "214c37b938ddbd24cb5f1dd8fb65fc2e83de292b",
         "issues": [],
         "latestTag": "v1.2.612",
         "ok": true,
