@@ -1575,8 +1575,8 @@
         "versionCode": 50107
       },
       "stars": {
-        "count": 57,
-        "fetchedAt": "2026-11-14T23:10:19.864Z",
+        "count": 58,
+        "fetchedAt": "2026-11-16T07:33:28.737Z",
         "fullName": "Eikeitsu/CertBridge",
         "repositoryId": 1306329220,
         "verified": "self"
@@ -5978,8 +5978,8 @@
         "versionCode": 111
       },
       "stars": {
-        "count": 124,
-        "fetchedAt": "2026-11-09T07:30:09.271Z",
+        "count": 125,
+        "fetchedAt": "2026-11-16T07:33:28.737Z",
         "fullName": "Ylarod/enable-miui-adb",
         "repositoryId": 457318262,
         "verified": "self"
@@ -9278,17 +9278,47 @@
       "fullName": "706412584/ColorOS-thermal",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-13T11:35:48.625Z",
-        "lastSuccessAt": "2026-11-13T11:35:48.625Z",
+        "lastAttemptAt": "2026-11-16T07:33:28.737Z",
+        "lastSuccessAt": "2026-11-16T07:33:28.737Z",
         "message": null,
         "status": "ok"
       },
       "id": "oplus-cloud-block",
       "installationId": 178620842,
-      "maxStableVersionCode": 184,
-      "maxVersionCode": 184,
+      "maxStableVersionCode": 185,
+      "maxVersionCode": 185,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:f8d8095cd8d37dfb3b54ae3ad8eb77605db6871496a65e64fb4940aac68e3c92",
+            "id": 753913352,
+            "name": "oplus-cloud-block-v01.7.74.zip",
+            "sha256": "f8d8095cd8d37dfb3b54ae3ad8eb77605db6871496a65e64fb4940aac68e3c92",
+            "size": 138225,
+            "url": "https://github.com/706412584/ColorOS-thermal/releases/download/v01.7.74/oplus-cloud-block-v01.7.74.zip"
+          },
+          "body": "中大核限频提示、面板自动刷新与无 WebUI 数字菜单\n\n见 CHANGELOG.md",
+          "htmlUrl": "https://github.com/706412584/ColorOS-thermal/releases/tag/v01.7.74",
+          "immutable": true,
+          "name": "ColorOS 温控与云控 v01.7.74",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@谋事在人成事在天",
+            "description": "ColorOS/一加系列通用工具：①解除出厂 CPU 频率上限（高通机型大核 58%→100%，两层天花板；天玑机型解除被厂商钉死的频率，均带温度保护与一键还原）②拦截 OTA/系统静默更新/云控（云控按组件拦截，不影响账号登录与游戏联运）③内存/CPU 面板与一键清理 ④云控残留清理（可回滚）⑤游戏记录（每局帧率/1% Low/CPU·GPU 频率/温度/耗电）⑥可选智能调和与显式规则线程 affinity（默认关闭，收益需实测）。点开 WebUI 使用，重启后自动重新生效。",
+            "id": "oplus-cloud-block",
+            "name": "ColorOS 温控与云控",
+            "updateJson": "https://gitee.com/wu-yongchengsvip/oplus-thermal/raw/master/update.json",
+            "version": "01.7.74",
+            "versionCode": "185"
+          },
+          "publishedAt": "2026-11-16T07:33:08Z",
+          "releaseId": 446725386,
+          "tag": "v01.7.74",
+          "tagCommit": "c2021e5fb923b78cc6e32aba8f275224f14430ef",
+          "version": "01.7.74",
+          "versionCode": 185
+        },
         {
           "asset": {
             "digest": "sha256:4ed5afff1b8499a3f6dd95c4557ed434b8ee54b86253d60b21ce852f844b9204",
@@ -9343,37 +9373,41 @@
         "438429914": {
           "checkedAt": "2026-11-13T11:35:48.625Z",
           "ok": true
+        },
+        "446725386": {
+          "checkedAt": "2026-11-16T07:33:28.737Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:4ed5afff1b8499a3f6dd95c4557ed434b8ee54b86253d60b21ce852f844b9204",
-          "id": 724792842,
-          "name": "oplus-cloud-block-v1.7.13.zip",
-          "sha256": "4ed5afff1b8499a3f6dd95c4557ed434b8ee54b86253d60b21ce852f844b9204",
-          "size": 121016,
-          "url": "https://github.com/706412584/ColorOS-thermal/releases/download/v1.7.13/oplus-cloud-block-v1.7.13.zip"
+          "digest": "sha256:f8d8095cd8d37dfb3b54ae3ad8eb77605db6871496a65e64fb4940aac68e3c92",
+          "id": 753913352,
+          "name": "oplus-cloud-block-v01.7.74.zip",
+          "sha256": "f8d8095cd8d37dfb3b54ae3ad8eb77605db6871496a65e64fb4940aac68e3c92",
+          "size": 138225,
+          "url": "https://github.com/706412584/ColorOS-thermal/releases/download/v01.7.74/oplus-cloud-block-v01.7.74.zip"
         },
-        "body": "天玑机型支持与多簇显示修复\n\n见 CHANGELOG.md",
-        "htmlUrl": "https://github.com/706412584/ColorOS-thermal/releases/tag/v1.7.13",
+        "body": "中大核限频提示、面板自动刷新与无 WebUI 数字菜单\n\n见 CHANGELOG.md",
+        "htmlUrl": "https://github.com/706412584/ColorOS-thermal/releases/tag/v01.7.74",
         "immutable": true,
-        "name": "ColorOS 温控与云控 v1.7.13",
+        "name": "ColorOS 温控与云控 v01.7.74",
         "prerelease": false,
         "prop": {
           "author": "酷安@谋事在人成事在天",
-          "description": "ColorOS/一加系列通用工具：①解除出厂 CPU 频率上限（高通机型大核 58%→100%，两层天花板；天玑机型解除被厂商钉死的频率，均带温度保护与一键还原）②拦截 OTA/系统静默更新/云控（云控按组件拦截，不影响账号登录与游戏联运）③内存/CPU 面板与一键清理 ④云控残留清理（可回滚）⑤游戏记录（每局帧率/1% Low/CPU·GPU 频率/温度/耗电）。点开 WebUI 使用，重启后自动重新生效。",
+          "description": "ColorOS/一加系列通用工具：①解除出厂 CPU 频率上限（高通机型大核 58%→100%，两层天花板；天玑机型解除被厂商钉死的频率，均带温度保护与一键还原）②拦截 OTA/系统静默更新/云控（云控按组件拦截，不影响账号登录与游戏联运）③内存/CPU 面板与一键清理 ④云控残留清理（可回滚）⑤游戏记录（每局帧率/1% Low/CPU·GPU 频率/温度/耗电）⑥可选智能调和与显式规则线程 affinity（默认关闭，收益需实测）。点开 WebUI 使用，重启后自动重新生效。",
           "id": "oplus-cloud-block",
           "name": "ColorOS 温控与云控",
           "updateJson": "https://gitee.com/wu-yongchengsvip/oplus-thermal/raw/master/update.json",
-          "version": "1.7.13",
-          "versionCode": "184"
+          "version": "01.7.74",
+          "versionCode": "185"
         },
-        "publishedAt": "2026-11-08T18:17:50Z",
-        "releaseId": 438429914,
-        "tag": "v1.7.13",
-        "tagCommit": "6f985a6304334156130edf88bdf8ca1f2c0a70ea",
-        "version": "1.7.13",
-        "versionCode": 184
+        "publishedAt": "2026-11-16T07:33:08Z",
+        "releaseId": 446725386,
+        "tag": "v01.7.74",
+        "tagCommit": "c2021e5fb923b78cc6e32aba8f275224f14430ef",
+        "version": "01.7.74",
+        "versionCode": 185
       },
       "stars": {
         "count": 3,
@@ -10796,8 +10830,8 @@
         "versionCode": 1
       },
       "stars": {
-        "count": 2,
-        "fetchedAt": "2026-11-12T05:16:40.829Z",
+        "count": 3,
+        "fetchedAt": "2026-11-16T07:33:28.737Z",
         "fullName": "PEMessage/tailscale-bindhosts",
         "repositoryId": 1445398567,
         "verified": "self"
