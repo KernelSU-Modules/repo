@@ -1,19 +1,18 @@
 id: smart_bypass_charging
-status: pending
-request:
+status: rejected
+review:
   submissionId: 5ccu5lwf1b
   kind: submit
-  source:
-    host: github
-    repositoryId: 1448741563
-    ownerId: 3004318
-    fullName: mhmithu/Smart-Bypass-Charging
-    manifestPath: module.yaml
   submittedBy: 3004318
-  submittedByLogin: mhmithu
   submittedAt: 2026-11-06T22:38:39.859Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:15:20.585Z
+  reasonCode: other
+  reason: "Please fix and resubmit: bypass detection is unreliable (current threshold is 5000 uA while the comment says 50mA; input_suspend discharge counts as success); when no node works, service.sh re-probes ~25 charging sysfs nodes every 2s forever - cache the failure; the custom 6-line update-binary breaks Magisk install (use the standard installer); add a risk notice about writing charging control nodes to the README."
   telegram:
     chatId: -1001860367685
     messageId: 64653
 createdAt: 2026-11-06T22:38:39.859Z
-updatedAt: 2026-11-06T22:38:39.859Z
+updatedAt: 2026-11-16T12:15:20.585Z
