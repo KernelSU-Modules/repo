@@ -98,7 +98,7 @@
       "fullName": "AlirezaParsi/COPG",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-09T14:41:25.598Z",
+      "lastSuccessAt": "2026-11-16T11:53:57.596Z",
       "maxVersionCode": 772,
       "message": null,
       "repositoryId": 950100740,
@@ -221,12 +221,17 @@
       "fullName": "Seyud/Mediatek_Mali_GPU_Governor_release",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+      "lastSuccessAt": "2026-11-16T11:53:57.596Z",
       "maxVersionCode": 20261012,
-      "message": "stable-unavailable: the stable release (versionCode 20261012) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 20261012 is published.",
+      "message": null,
       "repositoryId": 1414978843,
       "request": null,
-      "stable": null
+      "stable": {
+        "publishedAt": "2026-10-12T04:39:36Z",
+        "tag": "v2.12.5",
+        "version": "v2.12.5",
+        "versionCode": 20261012
+      }
     },
     "MoveCertificate": {
       "contentCommit": "4d845ba8156453ef0852e5f06c671d98548f16cf",

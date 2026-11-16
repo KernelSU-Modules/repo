@@ -609,8 +609,8 @@
       "fullName": "AlirezaParsi/COPG",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-09T14:41:25.598Z",
-        "lastSuccessAt": "2026-11-09T14:41:25.598Z",
+        "lastAttemptAt": "2026-11-16T11:53:57.596Z",
+        "lastSuccessAt": "2026-11-16T11:53:57.596Z",
         "message": null,
         "status": "ok"
       },
@@ -652,39 +652,6 @@
           "tagCommit": "d43eddce0ff165fa41bcf85a3597e126cf7eddc1",
           "version": "7.7.2",
           "versionCode": 772
-        },
-        {
-          "asset": {
-            "digest": "sha256:a4d7b81ab775c6111b0098bcf895432fbb6eefe961d17799c8cc9d244b4aff84",
-            "id": 723349125,
-            "name": "COPG-v7.7.1.zip",
-            "sha256": "a4d7b81ab775c6111b0098bcf895432fbb6eefe961d17799c8cc9d244b4aff84",
-            "size": 10550305,
-            "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.7.1/COPG-v7.7.1.zip"
-          },
-          "body": "## COPG v7.7.1\n\n*Works on Zygisk Next 1.5.3 again, your config survives updates, and a few device-profile and WebUI additions.*\n\n### Zygisk Next 1.5.3 — fixed\n*   **COPG spoofed nothing on Zygisk Next 1.5.3.** The new Zygisk Next stopped granting a permission COPG used to read its own config, so every app looked \"not configured\" and ran unspoofed (the license still showed valid). COPG now ships that permission itself, so it works on 1.5.3 and older versions alike.\n\n### Updates keep your setup\n*   **Updating no longer wipes your config.** Every update used to replace your devices, packages and tags with the defaults. Now your existing COPG.json and list.json are kept, and the install screen says so. A missing or broken file still falls back to the default.\n\n### Device profile\n*   **Custom system props editor.** In a device's advanced section you can now fake any short existing system prop (for example `ril.product_code`, `ril.official_cscver`, `ro.omc.build.version`) for apps with COW Prop Spoof (`cow`) on.\n*   **Base OS field.** New build field for `Build.VERSION.BASE_OS` (and the matching prop for `cow` apps).\n*   **Separate Product field.** Product was silently overwritten with the model on every save, so a real product name (e.g. `e3qxxx` vs model `SM-S928B`) could never be set. It's its own field now; left blank it falls back to the fingerprint's product, then the model.\n\n### WebUI\n*   **Edit several packages together.** Long-press to select packages, then **Edit together**: change only the toggles you want (device, GPU, `cow`, `aid`, …) and they apply to every selected app, leaving each app's other settings as they were. Handy for clones and per-user copies.\n\n---\n---\n**Build Date**: 2026-11-08 08:18:44 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
-          "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.7.1",
-          "immutable": true,
-          "name": "COPG v7.7.1",
-          "prerelease": false,
-          "prop": {
-            "author": "AlirezaParsi",
-            "banner": "banner.png",
-            "description": "Spoof your device for games/apps to unlock new features. Website: https://vendors.copg.my",
-            "id": "COPG",
-            "minMagisk": "20.4",
-            "name": "✨ COPG SPOOF ✨",
-            "support": "https://t.me/theaosp",
-            "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
-            "version": "7.7.1",
-            "versionCode": "771"
-          },
-          "publishedAt": "2026-11-08T08:18:47Z",
-          "releaseId": 438119051,
-          "tag": "v7.7.1",
-          "tagCommit": "4dfa03ac14dfdbcd71e589ccf723c2c30c9f604a",
-          "version": "7.7.1",
-          "versionCode": 771
         },
         {
           "asset": {
@@ -2891,9 +2858,9 @@
       "fullName": "Seyud/Mediatek_Mali_GPU_Governor_release",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-22T15:16:40.084Z",
-        "lastSuccessAt": "2026-10-22T15:16:40.084Z",
-        "message": "stable-unavailable: the stable release (versionCode 20261012) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 20261012 is published.",
+        "lastAttemptAt": "2026-11-16T11:53:57.596Z",
+        "lastSuccessAt": "2026-11-16T11:53:57.596Z",
+        "message": null,
         "status": "ok"
       },
       "id": "Mediatek_Mali_GPU_Governor",
@@ -2901,15 +2868,75 @@
       "maxStableVersionCode": 20261012,
       "maxVersionCode": 20261012,
       "prerelease": null,
-      "releases": [],
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:d636a9ab8bf3dbfedc6648a95d12a1ef6139836a2ff4012d38c3d71142c44876",
+            "id": 632677965,
+            "name": "Mediatek_Mali_GPU_Governor_v2.12.5.zip",
+            "sha256": "d636a9ab8bf3dbfedc6648a95d12a1ef6139836a2ff4012d38c3d71142c44876",
+            "size": 975589,
+            "url": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/download/v2.12.5/Mediatek_Mali_GPU_Governor_v2.12.5.zip"
+          },
+          "body": "##  v2.12.3 → v2.12.5\n<details>\n<summary><strong>📝 更新日志</strong></summary>\n\n\n## ⬆️ v2.12.3 → v2.12.5 (2026-10-12)\n\n### 🔧 功能改进\n\n- **移除废弃宏并消除 unsafe 代码** 🦀\n  - 清理废弃宏并移除 unsafe 代码，提升代码安全性。\n\n### 🪲 问题修复\n\n- **修复配置解析无法读取整数型浮点** ⚙️\n  - 修复 `config.toml` 中 `1.0` 这类整数型浮点参数被忽略、不生效的问题。\n\n- **修复 WebUI 保存配置时整数字段被序列化为浮点** 🌐\n  - 保存后配置文件不再出现 `40.0` 这类写法，与手动编辑的结果保持一致。\n\n\n</details>\n\n<details>\n<summary><strong>📝 CHANGELOG</strong></summary>\n\n\n## ⬆️ v2.12.3 → v2.12.5 (October 12, 2026)\n\n### 🔧 Improvements\n\n- **Remove deprecated macros and eliminate unsafe code** 🦀\n  - Cleaned up deprecated macros and removed unsafe code for better safety.\n\n### 🐛 Bug Fixes\n\n- **Fix integer-valued floats being unreadable during config parsing** ⚙️\n  - Values such as `1.0` in `config.toml` are no longer ignored, so those parameters now take effect.\n\n- **Fix integer fields being serialized as floats when saving from the WebUI** 🌐\n  - Saved configuration no longer contains values like `40.0`, matching the result of editing the file by hand.\n\n\n</details>\n\n**Full Changelog**: https://github.com/Seyud/Mediatek_Mali_GPU_Governor/compare/v2.12.3...v2.12.5\n",
+          "htmlUrl": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/tag/v2.12.5",
+          "immutable": true,
+          "name": "v2.12.5",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@瓦力喀/GitHub@Seyud, Tools-cx-app",
+            "description": "适用于Mediatek_Mali_GPU的GPU动态调速器，优化高负载场景下的功耗与性能平衡",
+            "id": "Mediatek_Mali_GPU_Governor",
+            "name": "天玑GPU调速器",
+            "updateJson": "https://gitee.com/Seyud/MMGG_deploy/raw/master/Update.json",
+            "version": "v2.12.5",
+            "versionCode": "20261012"
+          },
+          "publishedAt": "2026-10-12T04:39:36Z",
+          "releaseId": 410168819,
+          "tag": "v2.12.5",
+          "tagCommit": "00a3f990515fc86c1d777365262d48f2d4c69c0c",
+          "version": "v2.12.5",
+          "versionCode": 20261012
+        }
+      ],
       "repositoryId": 1414978843,
       "seen": {
         "410168819": {
-          "checkedAt": "2026-10-12T04:47:49.269Z",
+          "checkedAt": "2026-11-16T11:53:57.596Z",
           "ok": true
         }
       },
-      "stable": null,
+      "stable": {
+        "asset": {
+          "digest": "sha256:d636a9ab8bf3dbfedc6648a95d12a1ef6139836a2ff4012d38c3d71142c44876",
+          "id": 632677965,
+          "name": "Mediatek_Mali_GPU_Governor_v2.12.5.zip",
+          "sha256": "d636a9ab8bf3dbfedc6648a95d12a1ef6139836a2ff4012d38c3d71142c44876",
+          "size": 975589,
+          "url": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/download/v2.12.5/Mediatek_Mali_GPU_Governor_v2.12.5.zip"
+        },
+        "body": "##  v2.12.3 → v2.12.5\n<details>\n<summary><strong>📝 更新日志</strong></summary>\n\n\n## ⬆️ v2.12.3 → v2.12.5 (2026-10-12)\n\n### 🔧 功能改进\n\n- **移除废弃宏并消除 unsafe 代码** 🦀\n  - 清理废弃宏并移除 unsafe 代码，提升代码安全性。\n\n### 🪲 问题修复\n\n- **修复配置解析无法读取整数型浮点** ⚙️\n  - 修复 `config.toml` 中 `1.0` 这类整数型浮点参数被忽略、不生效的问题。\n\n- **修复 WebUI 保存配置时整数字段被序列化为浮点** 🌐\n  - 保存后配置文件不再出现 `40.0` 这类写法，与手动编辑的结果保持一致。\n\n\n</details>\n\n<details>\n<summary><strong>📝 CHANGELOG</strong></summary>\n\n\n## ⬆️ v2.12.3 → v2.12.5 (October 12, 2026)\n\n### 🔧 Improvements\n\n- **Remove deprecated macros and eliminate unsafe code** 🦀\n  - Cleaned up deprecated macros and removed unsafe code for better safety.\n\n### 🐛 Bug Fixes\n\n- **Fix integer-valued floats being unreadable during config parsing** ⚙️\n  - Values such as `1.0` in `config.toml` are no longer ignored, so those parameters now take effect.\n\n- **Fix integer fields being serialized as floats when saving from the WebUI** 🌐\n  - Saved configuration no longer contains values like `40.0`, matching the result of editing the file by hand.\n\n\n</details>\n\n**Full Changelog**: https://github.com/Seyud/Mediatek_Mali_GPU_Governor/compare/v2.12.3...v2.12.5\n",
+        "htmlUrl": "https://github.com/Seyud/Mediatek_Mali_GPU_Governor_release/releases/tag/v2.12.5",
+        "immutable": true,
+        "name": "v2.12.5",
+        "prerelease": false,
+        "prop": {
+          "author": "酷安@瓦力喀/GitHub@Seyud, Tools-cx-app",
+          "description": "适用于Mediatek_Mali_GPU的GPU动态调速器，优化高负载场景下的功耗与性能平衡",
+          "id": "Mediatek_Mali_GPU_Governor",
+          "name": "天玑GPU调速器",
+          "updateJson": "https://gitee.com/Seyud/MMGG_deploy/raw/master/Update.json",
+          "version": "v2.12.5",
+          "versionCode": "20261012"
+        },
+        "publishedAt": "2026-10-12T04:39:36Z",
+        "releaseId": 410168819,
+        "tag": "v2.12.5",
+        "tagCommit": "00a3f990515fc86c1d777365262d48f2d4c69c0c",
+        "version": "v2.12.5",
+        "versionCode": 20261012
+      },
       "stars": {
         "count": 82,
         "fetchedAt": "2026-10-26T13:27:18.283Z",
@@ -7825,8 +7852,8 @@
         "versionCode": 20000017
       },
       "stars": {
-        "count": 16,
-        "fetchedAt": "2026-11-14T18:43:48.097Z",
+        "count": 17,
+        "fetchedAt": "2026-11-16T11:53:57.596Z",
         "fullName": "WayneShao/KernelSU-Tailscaled",
         "repositoryId": 1356946284,
         "verified": "self"
@@ -11862,8 +11889,8 @@
         "versionCode": 10151
       },
       "stars": {
-        "count": 137,
-        "fetchedAt": "2026-11-15T11:37:13.039Z",
+        "count": 141,
+        "fetchedAt": "2026-11-16T11:53:57.596Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
