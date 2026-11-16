@@ -496,21 +496,27 @@
       }
     },
     "clouddrive2_ksu_magisk": {
-      "contentCommit": "23db139cb5b736f3083558cd109474f9ffe203b3",
+      "contentCommit": null,
       "fullName": "muort521/clouddrive2_ksu_magisk",
-      "health": "ok",
-      "installation": "present",
+      "health": "error",
+      "installation": "missing",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": null,
+      "message": "repo-not-found: The KernelSU Modules App is not installed on the requested repository.",
       "repositoryId": 1449726085,
       "request": {
-        "checkedAt": "2026-11-16T20:27:08.186Z",
-        "commit": "23db139cb5b736f3083558cd109474f9ffe203b3",
-        "issues": [],
-        "latestTag": "v1.1.7-r15",
-        "ok": true,
-        "releaseId": 445511025,
+        "checkedAt": "2026-11-16T20:32:46.629Z",
+        "commit": null,
+        "issues": [
+          {
+            "code": "repo-not-found",
+            "message": "The KernelSU Modules App is not installed on the requested repository.",
+            "severity": "error"
+          }
+        ],
+        "latestTag": null,
+        "ok": false,
+        "releaseId": null,
         "repositoryId": 1449726085,
         "submissionId": "7ib5wxxvpj"
       },
