@@ -1,19 +1,18 @@
 id: ancli
-status: pending
-request:
+status: rejected
+review:
   submissionId: imq88c93o3
   kind: submit
-  source:
-    host: github
-    repositoryId: 1285638838
-    ownerId: 118657956
-    fullName: AHLLX/AnCLI
-    manifestPath: module.yaml
   submittedBy: 118657956
-  submittedByLogin: AHLLX
   submittedAt: 2026-11-13T06:40:38.858Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:14:38.466Z
+  reasonCode: other
+  reason: "Security issues: customize.sh runs apt as root with AllowUnauthenticated/AllowInsecureRepositories and --allow-unauthenticated; the rootfs tarball is downloaded without checksum; bin/proot is an opaque prebuilt binary with no source/provenance and the repo has no LICENSE; a fake bash is overlaid onto /system/bin/bash and files are written into /data/adb/ksu/bin. Fix these (CI-built proot, verified downloads, no global bash override) and resubmit."
   telegram:
     chatId: -1001860367685
     messageId: 64906
 createdAt: 2026-11-13T06:40:38.858Z
-updatedAt: 2026-11-13T06:40:38.858Z
+updatedAt: 2026-11-16T12:14:38.466Z
