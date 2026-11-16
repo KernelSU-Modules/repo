@@ -1,19 +1,18 @@
 id: gitmigrator
-status: pending
-request:
+status: rejected
+review:
   submissionId: uqwvq4ukjk
   kind: submit
-  source:
-    host: github
-    repositoryId: 1430545346
-    ownerId: 224095028
-    fullName: privshell/GitMigrator-KSU
-    manifestPath: module.yaml
   submittedBy: 224095028
-  submittedByLogin: privshell
   submittedAt: 2026-10-24T10:46:39.660Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:14:33.524Z
+  reasonCode: other
+  reason: "Release v1.0.2 ZIP is broken: it lacks bin/gm.sh and bin/gm.py that webroot/app.js calls, so the module does nothing. It is also a Termux-dependent tool wrapped as a module (no system modification), and the README describes evading GitHub abuse flagging, which we will not list."
   telegram:
     chatId: -1001860367685
     messageId: 64587
 createdAt: 2026-10-24T10:46:39.660Z
-updatedAt: 2026-10-24T10:46:39.660Z
+updatedAt: 2026-11-16T12:14:33.524Z
