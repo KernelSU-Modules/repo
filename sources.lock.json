@@ -167,6 +167,211 @@
         "verified": "self"
       }
     },
+    "AD_Killer_By_NFQUEUE": {
+      "content": {
+        "blobs": {
+          "README.md": "58df75acffe2016f794f71d3711e968b43d42c72",
+          "docs/screenshots/apps.png": "48135b54232fc5174761e02a064332d2a61d9820",
+          "docs/screenshots/overview.png": "2148fcd07ca6873c1a1468ee081c8d0c32b1e785",
+          "docs/screenshots/rules.png": "ce6e822ee0cf0a2dfdcecbb9323ed1eaccca0fcc",
+          "docs/screenshots/settings.png": "35326caf59cf944b68c1032727c35016082d508e",
+          "module.yaml": "5168ceb0bfc60baa53d89ed9be24d527a5388f6a"
+        },
+        "commit": "f331523d9ec3696e52240728931fd6da7d2a1d99",
+        "fetchedAt": "2026-11-16T12:13:46.309Z",
+        "files": {
+          "README.md": "5d85952d8eb92f8812b9cfe3cda6bb23e10eeabf7b74855737d7605ded194be6",
+          "docs/screenshots/apps.png": "fe6c8b1d5a608a7d42e29c414dd87643fadfcdbdc6b8e9be2a60e158494f34d9",
+          "docs/screenshots/overview.png": "02adf89df97ab8fcbb49b260159c5e506159f12b4ec524678bb8d07bcc118d63",
+          "docs/screenshots/rules.png": "e1554c624c32a874331f9e86e2289d011ee942886324fca4060c3425b24dfd4d",
+          "docs/screenshots/settings.png": "da0fb554c60e5678627044d4b3e3ded27f24dbbfb0c7f7f19b2635281099d0d4",
+          "module.yaml": "bfa1b5c01bd3aca7cd64b7635f4134cf1edbe1a93c73aa7dc2bc755fa99bde00"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-16T12:13:46.309Z",
+        "lastSuccessAt": "2026-11-16T12:13:46.309Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "AD_Killer_By_NFQUEUE",
+      "installationId": 174143190,
+      "maxStableVersionCode": 13401,
+      "maxVersionCode": 13401,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:ae28e823c2e5d3cee30b833dcb7ec98bc433dc28d63efac7099ac8f0656ce88b",
+            "id": 739361917,
+            "name": "AD_Killer_By_NFQUEUE-v1.2.14.zip",
+            "sha256": "ae28e823c2e5d3cee30b833dcb7ec98bc433dc28d63efac7099ac8f0656ce88b",
+            "size": 813069,
+            "url": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/download/v1.2.14/AD_Killer_By_NFQUEUE-v1.2.14.zip"
+          },
+          "body": "# v1.2.14 · 规则同步进度与更新体验\n\n- 模块更新改为确认目标版本后，连续完成下载、校验和安装；全程显示状态，完成后提示手动软重启。\n- 概览显示并发同步进度、逐源结果与重试次数；来源列表精简状态说明，增加“需要处理”筛选和详细原因。\n- 设置新增同步时间间隔，默认 30 分钟：再次手动同步复用有效成功缓存，失败来源继续下载；不会自动定时同步。\n- 设置新增每源失败重试次数，默认 2 次（首次失败后额外重试），支持 0–5 次；并发数仍默认 10、最高 20。\n- 失败来源不再阻止其余来源准备缓存；继续保持全部启用来源通过后整体更新，失败时保留完整旧规则。\n\n**升级保留规则、来源、应用名单和设置；卸载默认删除本模块全部数据，包括日志和下载缓存。** 安装后请自行软重启，再检查守护和规则生效状态。\n",
+          "htmlUrl": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/tag/v1.2.14",
+          "immutable": true,
+          "name": "v1.2.14",
+          "prerelease": false,
+          "prop": {
+            "author": "fengwenhua",
+            "description": "基于 Linux 内核 NFQUEUE 的系统级去广告模块。纯 C++ 实现,规则源可自定义,无运行期外部依赖。",
+            "id": "AD_Killer_By_NFQUEUE",
+            "name": "AD Killer (by NFQUEUE)",
+            "releaseChannel": "stable",
+            "updateJson": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/latest/download/update.json",
+            "version": "v1.2.14",
+            "versionCode": "13401"
+          },
+          "publishedAt": "2026-11-12T12:13:56Z",
+          "releaseId": 442897754,
+          "tag": "v1.2.14",
+          "tagCommit": "0d9fb31d3aef5acb236026d22fc813a640d71a27",
+          "version": "v1.2.14",
+          "versionCode": 13401
+        }
+      ],
+      "repositoryId": 1428389721,
+      "seen": {
+        "419595585": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "419635031": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "419702775": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "419766565": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "419828787": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "420240351": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "420292158": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "420324493": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "420818354": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "423950206": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "424575461": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "427393969": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "436260227": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "442441539": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "442473327": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "442897754": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:ae28e823c2e5d3cee30b833dcb7ec98bc433dc28d63efac7099ac8f0656ce88b",
+          "id": 739361917,
+          "name": "AD_Killer_By_NFQUEUE-v1.2.14.zip",
+          "sha256": "ae28e823c2e5d3cee30b833dcb7ec98bc433dc28d63efac7099ac8f0656ce88b",
+          "size": 813069,
+          "url": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/download/v1.2.14/AD_Killer_By_NFQUEUE-v1.2.14.zip"
+        },
+        "body": "# v1.2.14 · 规则同步进度与更新体验\n\n- 模块更新改为确认目标版本后，连续完成下载、校验和安装；全程显示状态，完成后提示手动软重启。\n- 概览显示并发同步进度、逐源结果与重试次数；来源列表精简状态说明，增加“需要处理”筛选和详细原因。\n- 设置新增同步时间间隔，默认 30 分钟：再次手动同步复用有效成功缓存，失败来源继续下载；不会自动定时同步。\n- 设置新增每源失败重试次数，默认 2 次（首次失败后额外重试），支持 0–5 次；并发数仍默认 10、最高 20。\n- 失败来源不再阻止其余来源准备缓存；继续保持全部启用来源通过后整体更新，失败时保留完整旧规则。\n\n**升级保留规则、来源、应用名单和设置；卸载默认删除本模块全部数据，包括日志和下载缓存。** 安装后请自行软重启，再检查守护和规则生效状态。\n",
+        "htmlUrl": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/tag/v1.2.14",
+        "immutable": true,
+        "name": "v1.2.14",
+        "prerelease": false,
+        "prop": {
+          "author": "fengwenhua",
+          "description": "基于 Linux 内核 NFQUEUE 的系统级去广告模块。纯 C++ 实现,规则源可自定义,无运行期外部依赖。",
+          "id": "AD_Killer_By_NFQUEUE",
+          "name": "AD Killer (by NFQUEUE)",
+          "releaseChannel": "stable",
+          "updateJson": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/latest/download/update.json",
+          "version": "v1.2.14",
+          "versionCode": "13401"
+        },
+        "publishedAt": "2026-11-12T12:13:56Z",
+        "releaseId": 442897754,
+        "tag": "v1.2.14",
+        "tagCommit": "0d9fb31d3aef5acb236026d22fc813a640d71a27",
+        "version": "v1.2.14",
+        "versionCode": 13401
+      },
+      "stars": {
+        "count": 1,
+        "fetchedAt": "2026-11-16T12:13:46.309Z",
+        "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
+        "repositoryId": 1428389721,
+        "verified": "self"
+      }
+    },
     "AZenith": {
       "content": {
         "blobs": {
@@ -4343,6 +4548,109 @@
         "fetchedAt": "2026-11-16T00:37:27.675Z",
         "fullName": "Infiniti151/acc-with-webui",
         "repositoryId": 1296470014,
+        "verified": "self"
+      }
+    },
+    "adbdisabler": {
+      "content": {
+        "blobs": {
+          "README.md": "0270228ad77dd3df27a91d429760b1d189b12d08",
+          "module.yaml": "9a6991296a935048cc7e059eb62871afdd5c7c2e"
+        },
+        "commit": "0bab6c8e4500b15c9ae2be0d688057d3433d0e9f",
+        "fetchedAt": "2026-11-16T12:13:46.309Z",
+        "files": {
+          "README.md": "c19232dec87e47ea2d5cdbc083bca95416ab23669343b0053dba2023470c3618",
+          "module.yaml": "faa1963aaf947c84a30eedf009fe4c3412e3ed98c57673f8970187a7bfa41c8a"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "Shuoh118/ADB-Disabler",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-16T12:13:46.309Z",
+        "lastSuccessAt": "2026-11-16T12:13:46.309Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "adbdisabler",
+      "installationId": 179488269,
+      "maxStableVersionCode": 10000,
+      "maxVersionCode": 10000,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:c4c441bf83bcedfca6fb7063ee97e210ef68de86a95e725d3d0c468f359240dd",
+            "id": 720863678,
+            "name": "ADB-Disabler-1.0.0.zip",
+            "sha256": "c4c441bf83bcedfca6fb7063ee97e210ef68de86a95e725d3d0c468f359240dd",
+            "size": 22662,
+            "url": "https://github.com/Shuoh118/ADB-Disabler/releases/download/1.0.0/ADB-Disabler-1.0.0.zip"
+          },
+          "body": "### ADB Disablee\r\n\r\n开机后关闭 adb、开发者选项和 OEM 解锁\r\n\r\n## 安装\r\n\r\n下载 `ADB-Disabler-1.0.0.zip`，在管理器里刷入，重启。\r\n\r\n- Magisk 20.4+\r\n- KernelSU 0.9.0+\r\n- APatch 10.7+\r\n\r\n## 关闭项\r\n\r\n| 项目 | 时机 |\r\n|---|---|\r\n| adb 开关 | 开机完成后 |\r\n| adbd 进程 | 开机完成后 |\r\n| 开发者选项 | 开机完成后 |\r\n| ro.debuggable | post-fs-data |\r\n| ro.adb.secure | post-fs-data |\r\n| OEM 解锁 | post-fs-data |\r\n| USB 组合 | post-fs-data |\r\n",
+          "htmlUrl": "https://github.com/Shuoh118/ADB-Disabler/releases/tag/1.0.0",
+          "immutable": true,
+          "name": "ADB Disablerv1.0.0",
+          "prerelease": false,
+          "prop": {
+            "author": "Shuoh118",
+            "description": "开机禁用 adb / 开发者选项 / OEM 解锁，USB 默认走不带 adb 的组合。状态被改回去会自动压回。支持 Magisk / KernelSU / APatch。",
+            "id": "adbdisabler",
+            "name": "ADB Disabler",
+            "version": "1.0.0",
+            "versionCode": "10000"
+          },
+          "publishedAt": "2026-11-07T14:01:01Z",
+          "releaseId": 437611544,
+          "tag": "1.0.0",
+          "tagCommit": "646a7ea3d1a63f5c46f5e03c46d8e8cc51e54139",
+          "version": "1.0.0",
+          "versionCode": 10000
+        }
+      ],
+      "repositoryId": 1449393283,
+      "seen": {
+        "437611544": {
+          "checkedAt": "2026-11-16T12:13:46.309Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:c4c441bf83bcedfca6fb7063ee97e210ef68de86a95e725d3d0c468f359240dd",
+          "id": 720863678,
+          "name": "ADB-Disabler-1.0.0.zip",
+          "sha256": "c4c441bf83bcedfca6fb7063ee97e210ef68de86a95e725d3d0c468f359240dd",
+          "size": 22662,
+          "url": "https://github.com/Shuoh118/ADB-Disabler/releases/download/1.0.0/ADB-Disabler-1.0.0.zip"
+        },
+        "body": "### ADB Disablee\r\n\r\n开机后关闭 adb、开发者选项和 OEM 解锁\r\n\r\n## 安装\r\n\r\n下载 `ADB-Disabler-1.0.0.zip`，在管理器里刷入，重启。\r\n\r\n- Magisk 20.4+\r\n- KernelSU 0.9.0+\r\n- APatch 10.7+\r\n\r\n## 关闭项\r\n\r\n| 项目 | 时机 |\r\n|---|---|\r\n| adb 开关 | 开机完成后 |\r\n| adbd 进程 | 开机完成后 |\r\n| 开发者选项 | 开机完成后 |\r\n| ro.debuggable | post-fs-data |\r\n| ro.adb.secure | post-fs-data |\r\n| OEM 解锁 | post-fs-data |\r\n| USB 组合 | post-fs-data |\r\n",
+        "htmlUrl": "https://github.com/Shuoh118/ADB-Disabler/releases/tag/1.0.0",
+        "immutable": true,
+        "name": "ADB Disablerv1.0.0",
+        "prerelease": false,
+        "prop": {
+          "author": "Shuoh118",
+          "description": "开机禁用 adb / 开发者选项 / OEM 解锁，USB 默认走不带 adb 的组合。状态被改回去会自动压回。支持 Magisk / KernelSU / APatch。",
+          "id": "adbdisabler",
+          "name": "ADB Disabler",
+          "version": "1.0.0",
+          "versionCode": "10000"
+        },
+        "publishedAt": "2026-11-07T14:01:01Z",
+        "releaseId": 437611544,
+        "tag": "1.0.0",
+        "tagCommit": "646a7ea3d1a63f5c46f5e03c46d8e8cc51e54139",
+        "version": "1.0.0",
+        "versionCode": 10000
+      },
+      "stars": {
+        "count": 1,
+        "fetchedAt": "2026-11-16T12:13:46.309Z",
+        "fullName": "Shuoh118/ADB-Disabler",
+        "repositoryId": 1449393283,
         "verified": "self"
       }
     },
