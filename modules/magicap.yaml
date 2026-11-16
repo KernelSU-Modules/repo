@@ -1,19 +1,18 @@
 id: magicap
-status: pending
-request:
+status: rejected
+review:
   submissionId: aihwv7y0xh
   kind: submit
-  source:
-    host: github
-    repositoryId: 1456196622
-    ownerId: 106986785
-    fullName: LIghtJUNction/Magicap
-    manifestPath: module.yaml
   submittedBy: 106986785
-  submittedByLogin: LIghtJUNction
   submittedAt: 2026-11-13T10:44:17.447Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:15:03.287Z
+  reasonCode: other
+  reason: "Please fix and resubmit: (1) the local API/MCP has no auth when Secret is empty, so any local app can read decrypted traffic (/api/sessions, /api/har) and use /api/replay - generate a random secret by default and require it; (2) binaries are uploaded manually, build them in CI from source; (3) installing trusts the CA system-wide immediately - make it opt-in or disclose clearly; (4) remove unused kamfw scripts (mihomo/singbox/binstall)."
   telegram:
     chatId: -1001860367685
     messageId: 64910
 createdAt: 2026-11-13T10:44:17.447Z
-updatedAt: 2026-11-13T10:44:17.447Z
+updatedAt: 2026-11-16T12:15:03.287Z
