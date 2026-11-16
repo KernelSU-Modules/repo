@@ -171,11 +171,11 @@
       }
     },
     "MagicNet": {
-      "contentCommit": "9a7ec3b94817625ea96cc887c9992b98a65e2861",
+      "contentCommit": "828a0d58633104b28214c2ec0127999a921c2cab",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T15:23:41.682Z",
+      "lastSuccessAt": "2026-11-16T18:15:00.058Z",
       "maxVersionCode": 10615,
       "message": null,
       "repositoryId": 998453022,
@@ -314,11 +314,11 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "0fade26ba73436b21ba7b491dec0407da8dfff00",
+      "contentCommit": "c3e6b7148ead83938e19ce0e677fcd1579c1ce80",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-07T06:16:08.328Z",
+      "lastSuccessAt": "2026-11-16T18:15:00.058Z",
       "maxVersionCode": 10600,
       "message": null,
       "repositoryId": 1296470014,
@@ -819,20 +819,20 @@
       }
     },
     "motion_cues_port": {
-      "contentCommit": "b5aa13b851c8705b261707b3d45fe78f8ac05c07",
-      "fullName": "yibgt/oplus-antidizzy-module",
+      "contentCommit": "a8960fdddc9aa1015978a46b5d09fe873d375009",
+      "fullName": "MieAiiii/oplus-antidizzy-module",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T12:15:03.847Z",
-      "maxVersionCode": 72,
+      "lastSuccessAt": "2026-11-16T18:15:00.058Z",
+      "maxVersionCode": 73,
       "message": null,
       "repositoryId": 1459448539,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-16T08:07:47Z",
-        "tag": "v7.2",
-        "version": "v7.2",
-        "versionCode": 72
+        "publishedAt": "2026-11-16T18:14:36Z",
+        "tag": "v7.3",
+        "version": "v7.3",
+        "versionCode": 73
       }
     },
     "netproxy": {

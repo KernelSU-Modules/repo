@@ -2668,14 +2668,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "48c9de8160faec8199991a72d87ec92546daf9f0",
+          "README.md": "468c6778fa7147a7ed8b8d036483ae3cf7bffe29",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "9a7ec3b94817625ea96cc887c9992b98a65e2861",
-        "fetchedAt": "2026-11-16T15:23:41.682Z",
+        "commit": "828a0d58633104b28214c2ec0127999a921c2cab",
+        "fetchedAt": "2026-11-16T18:15:00.058Z",
         "files": {
-          "README.md": "182aa2fa194f2d5f64a34488e7a37f4c739953790c3d03343e728b510cd4296a",
+          "README.md": "0f29892b0531a8edb742d9f30c3f58a5713b2250933769f40e307812b6d64db7",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -2685,8 +2685,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T15:23:41.682Z",
-        "lastSuccessAt": "2026-11-16T15:23:41.682Z",
+        "lastAttemptAt": "2026-11-16T18:15:00.058Z",
+        "lastSuccessAt": "2026-11-16T18:15:00.058Z",
         "message": null,
         "status": "ok"
       },
@@ -4598,14 +4598,14 @@
     "acc": {
       "content": {
         "blobs": {
-          "README.md": "60e85f1835d3c47d800ddd5a17a74dddecb7241b",
+          "README.md": "47e227e20e154e9d06d98678f2f383ced26b6736",
           "install/icon/webui.png": "7ccf08e2d10443ace2fc0589c408f22939b94eaa",
           "module.yaml": "217c4de4210853cb54c07fba50df2fc12bf66175"
         },
-        "commit": "0fade26ba73436b21ba7b491dec0407da8dfff00",
-        "fetchedAt": "2026-11-07T06:16:08.328Z",
+        "commit": "c3e6b7148ead83938e19ce0e677fcd1579c1ce80",
+        "fetchedAt": "2026-11-16T18:15:00.058Z",
         "files": {
-          "README.md": "4e291c91fa2c4a16ec908c0c6f1118639372f75f056d10dce4b1cb803211286c",
+          "README.md": "9bb9dc98aa61b4fcbc9a195a16afb5f9c0795fee34adbd0675bdfd0f7c7dd859",
           "install/icon/webui.png": "26ef13138d9c44b8b7fdcc741cc921ba51b1c2b40b8764cc609d2715933a8eea",
           "module.yaml": "e2b5b7270353dafb71358e635bcadeaf321aad421239e1f3d55ef6c9c5db1ef9"
         },
@@ -4615,8 +4615,8 @@
       "fullName": "Infiniti151/acc-with-webui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-07T06:16:08.328Z",
-        "lastSuccessAt": "2026-11-07T06:16:08.328Z",
+        "lastAttemptAt": "2026-11-16T18:15:00.058Z",
+        "lastSuccessAt": "2026-11-16T18:15:00.058Z",
         "message": null,
         "status": "ok"
       },
@@ -5509,8 +5509,8 @@
         "versionCode": 870
       },
       "stars": {
-        "count": 39,
-        "fetchedAt": "2026-11-15T17:59:47.494Z",
+        "count": 40,
+        "fetchedAt": "2026-11-16T18:15:00.058Z",
         "fullName": "pavelc4/auriya",
         "repositoryId": 1081222414,
         "verified": "self"
@@ -9989,16 +9989,16 @@
     "motion_cues_port": {
       "content": {
         "blobs": {
-          "README.md": "8ef155e8a64d380d5c04c0b2a0e4c20f4abbb932",
+          "README.md": "19102480893d4a248df64ecf392e15eff547df91",
           "docs/images/antialias-compare.png": "844e19c168142a38a624f307fda1682fabfc6519",
           "docs/images/native-settings.png": "c5c6181a49f30d255425ba5e241dd23e68794c7a",
           "docs/images/webui.png": "25a6633cda4063624850b49cbd385b3887cf6404",
           "module.yaml": "1ee9d9e818e34138989a726f7e767442751b2f1e"
         },
-        "commit": "b5aa13b851c8705b261707b3d45fe78f8ac05c07",
-        "fetchedAt": "2026-11-16T12:15:03.847Z",
+        "commit": "a8960fdddc9aa1015978a46b5d09fe873d375009",
+        "fetchedAt": "2026-11-16T18:15:00.058Z",
         "files": {
-          "README.md": "be628a0d557cbe23d53602d4e3380eb604e7deb90674510d6d50c3706073b05d",
+          "README.md": "351a6db7a7646ec06d74d5e630051397d7aaacbae8b945d4ae755203185e5b4c",
           "docs/images/antialias-compare.png": "a2c0ffe46b2e3b051f3db644019a4a88a067d4150c2d770e10eadebb16d76e1e",
           "docs/images/native-settings.png": "724cd7cad973be5d3dad35cf92a73bb58676d8e968e868b97f1c81ac3eb444f6",
           "docs/images/webui.png": "1209f12eb782ad777b4c5408b524d27f5c9842078e14e83a1b10dd1925e80b44",
@@ -10007,20 +10007,49 @@
         "manifestPath": "module.yaml",
         "ref": "main"
       },
-      "fullName": "yibgt/oplus-antidizzy-module",
+      "fullName": "MieAiiii/oplus-antidizzy-module",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T12:15:03.847Z",
-        "lastSuccessAt": "2026-11-16T12:15:03.847Z",
+        "lastAttemptAt": "2026-11-16T18:15:00.058Z",
+        "lastSuccessAt": "2026-11-16T18:15:00.058Z",
         "message": null,
         "status": "ok"
       },
       "id": "motion_cues_port",
       "installationId": 182483899,
-      "maxStableVersionCode": 72,
-      "maxVersionCode": 72,
+      "maxStableVersionCode": 73,
+      "maxVersionCode": 73,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:a1d3af663473170d80fa6680bf885b56f9af7b8c82c9e81ec78e8e923a17b85e",
+            "id": 755910892,
+            "name": "oplus-antidizzy-module-v7.3.zip",
+            "sha256": "a1d3af663473170d80fa6680bf885b56f9af7b8c82c9e81ec78e8e923a17b85e",
+            "size": 34489,
+            "url": "https://github.com/MieAiiii/oplus-antidizzy-module/releases/download/v7.3/oplus-antidizzy-module-v7.3.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/MieAiiii/oplus-antidizzy-module/compare/v7.2...v7.3",
+          "htmlUrl": "https://github.com/MieAiiii/oplus-antidizzy-module/releases/tag/v7.3",
+          "immutable": true,
+          "name": "v7.3",
+          "prerelease": false,
+          "prop": {
+            "author": "三重&大肥鱼   酷安@MieAi ",
+            "description": "为缺少「晕动舒缓显示」的 OPPO/一加/realme(欧加) ColorOS 16 机型补全原生功能：自动识别机型与传感器、驱动原厂 AntiDizzy 渲染、圆点边缘抗锯齿自适应任意分辨率、车辆运动识别（抗手持误判）",
+            "id": "motion_cues_port",
+            "name": "晕动舒缓显示（欧加通用）",
+            "version": "v7.3",
+            "versionCode": "73"
+          },
+          "publishedAt": "2026-11-16T18:14:36Z",
+          "releaseId": 447412278,
+          "tag": "v7.3",
+          "tagCommit": "a8960fdddc9aa1015978a46b5d09fe873d375009",
+          "version": "v7.3",
+          "versionCode": 73
+        },
         {
           "asset": {
             "digest": "sha256:109abd5f05f50d0ca7279d9b079756bf5eae97214090fe90602d35e59b83bf68",
@@ -10110,41 +10139,45 @@
         "446752041": {
           "checkedAt": "2026-11-16T12:15:03.847Z",
           "ok": true
+        },
+        "447412278": {
+          "checkedAt": "2026-11-16T18:15:00.058Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:109abd5f05f50d0ca7279d9b079756bf5eae97214090fe90602d35e59b83bf68",
-          "id": 754003554,
-          "name": "oplus-antidizzy-module-v7.2.zip",
-          "sha256": "109abd5f05f50d0ca7279d9b079756bf5eae97214090fe90602d35e59b83bf68",
-          "size": 33593,
-          "url": "https://github.com/yibgt/oplus-antidizzy-module/releases/download/v7.2/oplus-antidizzy-module-v7.2.zip"
+          "digest": "sha256:a1d3af663473170d80fa6680bf885b56f9af7b8c82c9e81ec78e8e923a17b85e",
+          "id": 755910892,
+          "name": "oplus-antidizzy-module-v7.3.zip",
+          "sha256": "a1d3af663473170d80fa6680bf885b56f9af7b8c82c9e81ec78e8e923a17b85e",
+          "size": 34489,
+          "url": "https://github.com/MieAiiii/oplus-antidizzy-module/releases/download/v7.3/oplus-antidizzy-module-v7.3.zip"
         },
-        "body": "**Full Changelog**: https://github.com/yibgt/oplus-antidizzy-module/compare/v7.1...v7.2",
-        "htmlUrl": "https://github.com/yibgt/oplus-antidizzy-module/releases/tag/v7.2",
+        "body": "**Full Changelog**: https://github.com/MieAiiii/oplus-antidizzy-module/compare/v7.2...v7.3",
+        "htmlUrl": "https://github.com/MieAiiii/oplus-antidizzy-module/releases/tag/v7.3",
         "immutable": true,
-        "name": "v7.2",
+        "name": "v7.3",
         "prerelease": false,
         "prop": {
           "author": "三重&大肥鱼   酷安@MieAi ",
           "description": "为缺少「晕动舒缓显示」的 OPPO/一加/realme(欧加) ColorOS 16 机型补全原生功能：自动识别机型与传感器、驱动原厂 AntiDizzy 渲染、圆点边缘抗锯齿自适应任意分辨率、车辆运动识别（抗手持误判）",
           "id": "motion_cues_port",
           "name": "晕动舒缓显示（欧加通用）",
-          "version": "v7.2",
-          "versionCode": "72"
+          "version": "v7.3",
+          "versionCode": "73"
         },
-        "publishedAt": "2026-11-16T08:07:47Z",
-        "releaseId": 446752041,
-        "tag": "v7.2",
-        "tagCommit": "b5aa13b851c8705b261707b3d45fe78f8ac05c07",
-        "version": "v7.2",
-        "versionCode": 72
+        "publishedAt": "2026-11-16T18:14:36Z",
+        "releaseId": 447412278,
+        "tag": "v7.3",
+        "tagCommit": "a8960fdddc9aa1015978a46b5d09fe873d375009",
+        "version": "v7.3",
+        "versionCode": 73
       },
       "stars": {
         "count": 2,
-        "fetchedAt": "2026-11-16T12:15:03.847Z",
-        "fullName": "yibgt/oplus-antidizzy-module",
+        "fetchedAt": "2026-11-16T18:15:00.058Z",
+        "fullName": "MieAiiii/oplus-antidizzy-module",
         "repositoryId": 1459448539,
         "verified": "self"
       }
@@ -12230,8 +12263,8 @@
         "versionCode": 400
       },
       "stars": {
-        "count": 6,
-        "fetchedAt": "2026-11-15T17:59:47.494Z",
+        "count": 7,
+        "fetchedAt": "2026-11-16T18:15:00.058Z",
         "fullName": "Nixie24/susdock",
         "repositoryId": 1436993054,
         "verified": "self"
