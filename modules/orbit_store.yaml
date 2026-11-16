@@ -1,19 +1,18 @@
 id: orbit_store
-status: pending
-request:
+status: rejected
+review:
   submissionId: umdjkfrv3z
   kind: submit
-  source:
-    host: github
-    repositoryId: 1421086526
-    ownerId: 224095028
-    fullName: privshell/orbit-store
-    manifestPath: module.yaml
   submittedBy: 224095028
-  submittedByLogin: privshell
   submittedAt: 2026-10-24T08:42:37.319Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:14:20.738Z
+  reasonCode: violation
+  reason: A module store that installs arbitrary third-party module ZIPs as root (Alt-Repo repacks, arbitrary GitHub releases, user-added sources), often without any checksum, bypasses this repository's review. Third-party stores/installers are not accepted.
   telegram:
     chatId: -1001860367685
     messageId: 64586
 createdAt: 2026-10-24T08:42:37.319Z
-updatedAt: 2026-10-24T08:42:37.319Z
+updatedAt: 2026-11-16T12:14:20.738Z
