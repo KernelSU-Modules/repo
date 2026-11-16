@@ -171,11 +171,11 @@
       }
     },
     "MagicNet": {
-      "contentCommit": "828a0d58633104b28214c2ec0127999a921c2cab",
+      "contentCommit": "b4748381bfe083cf608a53f2bf0bd3a2e9139e81",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T18:15:00.058Z",
+      "lastSuccessAt": "2026-11-16T18:37:10.908Z",
       "maxVersionCode": 10615,
       "message": null,
       "repositoryId": 998453022,
@@ -819,20 +819,20 @@
       }
     },
     "motion_cues_port": {
-      "contentCommit": "a8960fdddc9aa1015978a46b5d09fe873d375009",
+      "contentCommit": "d7e106548b532b73518d3de5badffe4b72efbef5",
       "fullName": "MieAiiii/oplus-antidizzy-module",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T18:15:00.058Z",
-      "maxVersionCode": 73,
+      "lastSuccessAt": "2026-11-16T18:37:10.908Z",
+      "maxVersionCode": 74,
       "message": null,
       "repositoryId": 1459448539,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-16T18:14:36Z",
-        "tag": "v7.3",
-        "version": "v7.3",
-        "versionCode": 73
+        "publishedAt": "2026-11-16T18:36:46Z",
+        "tag": "v7.4",
+        "version": "v7.4",
+        "versionCode": 74
       }
     },
     "netproxy": {
