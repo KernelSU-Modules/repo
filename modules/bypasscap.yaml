@@ -1,19 +1,18 @@
 id: bypasscap
-status: pending
-request:
+status: rejected
+review:
   submissionId: k5g517b2hp
   kind: submit
-  source:
-    host: github
-    repositoryId: 1437404105
-    ownerId: 991353
-    fullName: 9M2PJU/BypassCap
-    manifestPath: module.yaml
   submittedBy: 991353
-  submittedByLogin: 9M2PJU
   submittedAt: 2026-10-28T17:28:29.980Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:15:36.647Z
+  reasonCode: bad-id
+  reason: "module.prop/module.yaml id is 'chargebypasscap' but the registered id is 'bypasscap'; they must match. Please resubmit with a matching id. Suggestion: reset the charging node to 0 in uninstall.sh so charging resumes if uninstalled while bypass is active."
   telegram:
     chatId: -1001860367685
     messageId: 64603
 createdAt: 2026-10-28T17:28:29.980Z
-updatedAt: 2026-10-28T17:28:29.980Z
+updatedAt: 2026-11-16T12:15:36.647Z
