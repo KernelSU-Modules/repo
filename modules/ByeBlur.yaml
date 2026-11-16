@@ -1,19 +1,23 @@
 id: ByeBlur
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 744575047
+  ownerId: 105339980
+  fullName: LeanxModulostk/Bye-Blur
+  manifestPath: module.yaml
+review:
   submissionId: al6jbkr1xl
   kind: submit
-  source:
-    host: github
-    repositoryId: 744575047
-    ownerId: 105339980
-    fullName: LeanxModulostk/Bye-Blur
-    manifestPath: module.yaml
   submittedBy: 105339980
-  submittedByLogin: LeanxModulostk
   submittedAt: 2026-11-13T22:00:20.482Z
+  decision: approved
+  decidedBy: 185127155
+  decidedVia: portal
+  decidedAt: 2026-11-16T08:58:25.511Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64945
 createdAt: 2026-11-13T22:00:20.482Z
-updatedAt: 2026-11-13T22:00:20.482Z
+updatedAt: 2026-11-16T08:58:25.511Z
