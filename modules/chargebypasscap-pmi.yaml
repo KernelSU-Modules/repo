@@ -1,19 +1,23 @@
 id: chargebypasscap-pmi
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1437485405
+  ownerId: 991353
+  fullName: 9M2PJU/ChargeBypassCap-PMI
+  manifestPath: module.yaml
+review:
   submissionId: r4ffa5id2t
   kind: submit
-  source:
-    host: github
-    repositoryId: 1437485405
-    ownerId: 991353
-    fullName: 9M2PJU/ChargeBypassCap-PMI
-    manifestPath: module.yaml
   submittedBy: 991353
-  submittedByLogin: 9M2PJU
   submittedAt: 2026-10-28T18:58:28.102Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:13:57.646Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64604
 createdAt: 2026-10-28T18:58:28.102Z
-updatedAt: 2026-10-28T18:58:28.102Z
+updatedAt: 2026-11-16T12:13:57.646Z
