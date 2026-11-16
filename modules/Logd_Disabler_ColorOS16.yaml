@@ -1,33 +1,23 @@
 id: Logd_Disabler_ColorOS16
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1214139400
+  ownerId: 32615040
+  fullName: starlifezzz/Logd_Disabler_ColorOS16
+  manifestPath: module.yaml
+review:
   submissionId: tu8vhicv5k
   kind: submit
-  source:
-    host: github
-    repositoryId: 1214139400
-    ownerId: 32615040
-    fullName: starlifezzz/Logd_Disabler_ColorOS16
-    manifestPath: module.yaml
   submittedBy: 32615040
-  submittedByLogin: starlifezzz
   submittedAt: 2026-11-16T12:43:11.979Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:49:48.712Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 65246
-review:
-  submissionId: adow0l0qj9
-  kind: submit
-  submittedBy: 32615040
-  submittedAt: 2026-11-02T10:00:40.038Z
-  decision: rejected
-  decidedBy: 30978685
-  decidedVia: portal
-  decidedAt: 2026-11-16T12:15:15.202Z
-  reasonCode: other
-  reason: "Please fix and resubmit: service.sh unconditionally disables a third-party app (pm disable-user com.wifi.masterkey.lite) with no toggle and no mention in the README - make it an opt-in option and document it. Also document the overheating risk of the thermal-disable option in the README."
-  telegram:
-    chatId: -1001860367685
-    messageId: 64631
 createdAt: 2026-11-02T10:00:40.038Z
-updatedAt: 2026-11-16T12:43:11.979Z
+updatedAt: 2026-11-16T12:49:48.712Z
