@@ -1046,6 +1046,27 @@
       },
       "stable": null
     },
+    "motion_cues_port": {
+      "contentCommit": "b5aa13b851c8705b261707b3d45fe78f8ac05c07",
+      "fullName": "yibgt/oplus-antidizzy-module",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1459448539,
+      "request": {
+        "checkedAt": "2026-11-16T08:35:01.399Z",
+        "commit": "b5aa13b851c8705b261707b3d45fe78f8ac05c07",
+        "issues": [],
+        "latestTag": "v7.2",
+        "ok": true,
+        "releaseId": 446752041,
+        "repositoryId": 1459448539,
+        "submissionId": "0wt504mw8d"
+      },
+      "stable": null
+    },
     "netproxy": {
       "contentCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
       "fullName": "Fanju6/NetProxy-Releases",
