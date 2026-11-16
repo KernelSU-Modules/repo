@@ -1,19 +1,23 @@
 id: motion_cues_port
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1459448539
+  ownerId: 79390866
+  fullName: yibgt/oplus-antidizzy-module
+  manifestPath: module.yaml
+review:
   submissionId: 0wt504mw8d
   kind: submit
-  source:
-    host: github
-    repositoryId: 1459448539
-    ownerId: 79390866
-    fullName: yibgt/oplus-antidizzy-module
-    manifestPath: module.yaml
   submittedBy: 79390866
-  submittedByLogin: yibgt
   submittedAt: 2026-11-16T08:34:35.696Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:13:46.230Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 65230
 createdAt: 2026-11-16T08:34:35.696Z
-updatedAt: 2026-11-16T08:34:35.696Z
+updatedAt: 2026-11-16T12:13:46.230Z
