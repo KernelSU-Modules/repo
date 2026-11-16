@@ -1,19 +1,18 @@
 id: coloros_gplaystore_guard
-status: pending
-request:
+status: rejected
+review:
   submissionId: 8jzgchogbk
   kind: submit
-  source:
-    host: github
-    repositoryId: 1429856603
-    ownerId: 62016462
-    fullName: BHLuotianyi/ColorOS-Google-Play-Store-Guard
-    manifestPath: module.yaml
   submittedBy: 62016462
-  submittedByLogin: BHLuotianyi
   submittedAt: 2026-10-22T15:16:11.560Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:15:25.310Z
+  reasonCode: other
+  reason: "Minor fixes needed before listing: watcher.sh polls getprop every 0.1s forever (battery drain) - use ~1s or an event-based approach; README says re-running apply_fix.sh refreshes the base APK but it never re-saves it - fix code or docs; document the risk of clearing the pms_restore rescue mode; avoid committing dist/*.zip. Please resubmit after fixing."
   telegram:
     chatId: -1001860367685
     messageId: 64569
 createdAt: 2026-10-22T15:16:11.560Z
-updatedAt: 2026-10-22T15:16:11.560Z
+updatedAt: 2026-11-16T12:15:25.310Z
