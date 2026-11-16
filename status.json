@@ -171,11 +171,11 @@
       }
     },
     "MagicNet": {
-      "contentCommit": "a0b645835cb1b0a397ebbdd24e736d1e0d07d3e9",
+      "contentCommit": "9a7ec3b94817625ea96cc887c9992b98a65e2861",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-15T16:17:20.460Z",
+      "lastSuccessAt": "2026-11-16T15:23:41.682Z",
       "maxVersionCode": 10615,
       "message": null,
       "repositoryId": 998453022,
@@ -971,6 +971,27 @@
         "versionCode": 34
       }
     },
+    "smallbattery": {
+      "contentCommit": "a038c0a3b1eb93e3cdc08d06e0553cd246a80d91",
+      "fullName": "LeanxModulostk/SmallBattery",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 681883979,
+      "request": {
+        "checkedAt": "2026-11-16T15:23:41.682Z",
+        "commit": "a038c0a3b1eb93e3cdc08d06e0553cd246a80d91",
+        "issues": [],
+        "latestTag": "v2",
+        "ok": true,
+        "releaseId": 447216501,
+        "repositoryId": 681883979,
+        "submissionId": "zospvjkgjl"
+      },
+      "stable": null
+    },
     "susdock": {
       "contentCommit": "2ddabb7cbb0cad81df153cb87bad86b72779e809",
       "fullName": "Nixie24/susdock",
@@ -1088,11 +1109,11 @@
     "zygisknextsu": {
       "contentCommit": "4192737fb72f6a88d946d3c71c08275a68398029",
       "fullName": "VeryBaaad/ZNNext",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-15T13:49:35.592Z",
       "maxVersionCode": 409,
-      "message": null,
+      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"master\" (manifest-path-missing)",
       "repositoryId": 1348255159,
       "request": null,
       "stable": {

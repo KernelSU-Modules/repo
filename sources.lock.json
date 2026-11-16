@@ -1987,8 +1987,8 @@
         "versionCode": 20260821
       },
       "stars": {
-        "count": 316,
-        "fetchedAt": "2026-11-14T17:13:25.154Z",
+        "count": 317,
+        "fetchedAt": "2026-11-16T15:23:41.682Z",
         "fullName": "Seyud/FreePPS",
         "repositoryId": 1063205512,
         "requested": "Seyud/FreePPS",
@@ -2668,14 +2668,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "3bd02e12395a4e238515e76744f9e7bf188ab30e",
+          "README.md": "48c9de8160faec8199991a72d87ec92546daf9f0",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "a0b645835cb1b0a397ebbdd24e736d1e0d07d3e9",
-        "fetchedAt": "2026-11-15T16:17:20.460Z",
+        "commit": "9a7ec3b94817625ea96cc887c9992b98a65e2861",
+        "fetchedAt": "2026-11-16T15:23:41.682Z",
         "files": {
-          "README.md": "ce157cfeaf0594dc0a0ba472b0c20d680859a8f87c856c77eeb3c6cdb2520259",
+          "README.md": "182aa2fa194f2d5f64a34488e7a37f4c739953790c3d03343e728b510cd4296a",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -2685,8 +2685,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-15T16:17:20.460Z",
-        "lastSuccessAt": "2026-11-15T16:17:20.460Z",
+        "lastAttemptAt": "2026-11-16T15:23:41.682Z",
+        "lastSuccessAt": "2026-11-16T15:23:41.682Z",
         "message": null,
         "status": "ok"
       },
@@ -8955,8 +8955,8 @@
         "versionCode": 15
       },
       "stars": {
-        "count": 64,
-        "fetchedAt": "2026-11-15T13:49:35.592Z",
+        "count": 63,
+        "fetchedAt": "2026-11-16T15:23:41.682Z",
         "fullName": "NativeStar/KernelSUGrantToast",
         "repositoryId": 1205795668,
         "verified": "self"
@@ -14050,10 +14050,10 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-15T13:49:35.592Z",
+        "lastAttemptAt": "2026-11-16T15:23:41.682Z",
         "lastSuccessAt": "2026-11-15T13:49:35.592Z",
-        "message": null,
-        "status": "ok"
+        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"master\" (manifest-path-missing)",
+        "status": "stale"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
@@ -14666,8 +14666,8 @@
         "versionCode": 409
       },
       "stars": {
-        "count": 109,
-        "fetchedAt": "2026-11-15T13:49:35.592Z",
+        "count": 112,
+        "fetchedAt": "2026-11-16T15:23:41.682Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"
