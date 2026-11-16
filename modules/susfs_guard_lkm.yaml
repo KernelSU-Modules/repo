@@ -1,19 +1,18 @@
 id: susfs_guard_lkm
-status: pending
-request:
+status: rejected
+review:
   submissionId: dtus6of4l6
   kind: submit
-  source:
-    host: github
-    repositoryId: 1361441529
-    ownerId: 349445500
-    fullName: inforcqb/susfs4ksu-for-lkm
-    manifestPath: module.yaml
   submittedBy: 62001729
-  submittedByLogin: HanaKDev
   submittedAt: 2026-10-29T10:36:00.557Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:15:56.593Z
+  reasonCode: other
+  reason: Technically fine, but the submitter (HanaKDev) is not a visible owner/member/contributor of inforcqb/susfs4ksu-for-lkm. Please have the repository owner submit it (or show authorization). Also update module.yaml homepage/support, which still point to the old repo name inforcqb/susfs4ksu-lkm.
   telegram:
     chatId: -1001860367685
     messageId: 64605
 createdAt: 2026-10-29T10:36:00.557Z
-updatedAt: 2026-10-29T10:36:00.557Z
+updatedAt: 2026-11-16T12:15:56.593Z
