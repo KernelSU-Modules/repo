@@ -4554,13 +4554,13 @@
     "adbdisabler": {
       "content": {
         "blobs": {
-          "README.md": "0270228ad77dd3df27a91d429760b1d189b12d08",
+          "README.md": "3235a86437e8fc89e4506ea5550986f2beb46cd6",
           "module.yaml": "9a6991296a935048cc7e059eb62871afdd5c7c2e"
         },
-        "commit": "0bab6c8e4500b15c9ae2be0d688057d3433d0e9f",
-        "fetchedAt": "2026-11-16T12:13:46.309Z",
+        "commit": "abf7f2898df91afcf1cb018c25d7423aeaa7f785",
+        "fetchedAt": "2026-11-16T12:30:59.251Z",
         "files": {
-          "README.md": "c19232dec87e47ea2d5cdbc083bca95416ab23669343b0053dba2023470c3618",
+          "README.md": "63d6b197883610ca55ce4df111c08627c77433020e8c5e64f74fee94361fbaf2",
           "module.yaml": "faa1963aaf947c84a30eedf009fe4c3412e3ed98c57673f8970187a7bfa41c8a"
         },
         "manifestPath": "module.yaml",
@@ -4569,17 +4569,46 @@
       "fullName": "Shuoh118/ADB-Disabler",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T12:13:46.309Z",
-        "lastSuccessAt": "2026-11-16T12:13:46.309Z",
+        "lastAttemptAt": "2026-11-16T12:30:59.251Z",
+        "lastSuccessAt": "2026-11-16T12:30:59.251Z",
         "message": null,
         "status": "ok"
       },
       "id": "adbdisabler",
       "installationId": 179488269,
-      "maxStableVersionCode": 10000,
-      "maxVersionCode": 10000,
+      "maxStableVersionCode": 10001,
+      "maxVersionCode": 10001,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:6cd7708a004e2d3646a1e069b8c22178590380d04b746d887d9a85ad9ad40102",
+            "id": 754777538,
+            "name": "ADB-Disabler-1.0.1.zip",
+            "sha256": "6cd7708a004e2d3646a1e069b8c22178590380d04b746d887d9a85ad9ad40102",
+            "size": 2009,
+            "url": "https://github.com/Shuoh118/ADB-Disabler/releases/download/1.0.1/ADB-Disabler-1.0.1.zip"
+          },
+          "body": "### ADB Disabler\r\n## 本次更新日志\r\n- 彻底重构模块\r\n- 修复了一堆已知bug\r\n- 减小模块体积\r\n\r\n\r\n开机后关闭 adb、开发者选项和 OEM 解锁\r\n\r\n## 安装\r\n\r\n下载 `ADB-Disabler-1.0.1.zip`，在管理器里刷入，重启。\r\n\r\n- Magisk 20.4+\r\n- KernelSU 0.9.0+\r\n- APatch 10.7+\r\n\r\n## 关闭项\r\n\r\n| 项目 | 时机 |\r\n|---|---|\r\n| adb 开关 | 开机完成后 |\r\n| adbd 进程 | 开机完成后 |\r\n| 开发者选项 | 开机完成后 |\r\n| ro.debuggable | post-fs-data |\r\n| ro.adb.secure | post-fs-data |\r\n| OEM 解锁 | post-fs-data |\r\n| USB 组合 | post-fs-data |\r\n",
+          "htmlUrl": "https://github.com/Shuoh118/ADB-Disabler/releases/tag/1.0.1",
+          "immutable": true,
+          "name": "ADB Disabler v1.0.1",
+          "prerelease": false,
+          "prop": {
+            "author": "Shuoh118",
+            "description": "开机禁用 adb、开发者选项和 OEM 解锁",
+            "id": "adbdisabler",
+            "name": "ADB Disabler",
+            "version": "1.0.1",
+            "versionCode": "10001"
+          },
+          "publishedAt": "2026-11-16T12:30:47Z",
+          "releaseId": 447013494,
+          "tag": "1.0.1",
+          "tagCommit": "abf7f2898df91afcf1cb018c25d7423aeaa7f785",
+          "version": "1.0.1",
+          "versionCode": 10001
+        },
         {
           "asset": {
             "digest": "sha256:c4c441bf83bcedfca6fb7063ee97e210ef68de86a95e725d3d0c468f359240dd",
@@ -4615,36 +4644,40 @@
         "437611544": {
           "checkedAt": "2026-11-16T12:13:46.309Z",
           "ok": true
+        },
+        "447013494": {
+          "checkedAt": "2026-11-16T12:30:59.251Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:c4c441bf83bcedfca6fb7063ee97e210ef68de86a95e725d3d0c468f359240dd",
-          "id": 720863678,
-          "name": "ADB-Disabler-1.0.0.zip",
-          "sha256": "c4c441bf83bcedfca6fb7063ee97e210ef68de86a95e725d3d0c468f359240dd",
-          "size": 22662,
-          "url": "https://github.com/Shuoh118/ADB-Disabler/releases/download/1.0.0/ADB-Disabler-1.0.0.zip"
+          "digest": "sha256:6cd7708a004e2d3646a1e069b8c22178590380d04b746d887d9a85ad9ad40102",
+          "id": 754777538,
+          "name": "ADB-Disabler-1.0.1.zip",
+          "sha256": "6cd7708a004e2d3646a1e069b8c22178590380d04b746d887d9a85ad9ad40102",
+          "size": 2009,
+          "url": "https://github.com/Shuoh118/ADB-Disabler/releases/download/1.0.1/ADB-Disabler-1.0.1.zip"
         },
-        "body": "### ADB Disablee\r\n\r\n开机后关闭 adb、开发者选项和 OEM 解锁\r\n\r\n## 安装\r\n\r\n下载 `ADB-Disabler-1.0.0.zip`，在管理器里刷入，重启。\r\n\r\n- Magisk 20.4+\r\n- KernelSU 0.9.0+\r\n- APatch 10.7+\r\n\r\n## 关闭项\r\n\r\n| 项目 | 时机 |\r\n|---|---|\r\n| adb 开关 | 开机完成后 |\r\n| adbd 进程 | 开机完成后 |\r\n| 开发者选项 | 开机完成后 |\r\n| ro.debuggable | post-fs-data |\r\n| ro.adb.secure | post-fs-data |\r\n| OEM 解锁 | post-fs-data |\r\n| USB 组合 | post-fs-data |\r\n",
-        "htmlUrl": "https://github.com/Shuoh118/ADB-Disabler/releases/tag/1.0.0",
+        "body": "### ADB Disabler\r\n## 本次更新日志\r\n- 彻底重构模块\r\n- 修复了一堆已知bug\r\n- 减小模块体积\r\n\r\n\r\n开机后关闭 adb、开发者选项和 OEM 解锁\r\n\r\n## 安装\r\n\r\n下载 `ADB-Disabler-1.0.1.zip`，在管理器里刷入，重启。\r\n\r\n- Magisk 20.4+\r\n- KernelSU 0.9.0+\r\n- APatch 10.7+\r\n\r\n## 关闭项\r\n\r\n| 项目 | 时机 |\r\n|---|---|\r\n| adb 开关 | 开机完成后 |\r\n| adbd 进程 | 开机完成后 |\r\n| 开发者选项 | 开机完成后 |\r\n| ro.debuggable | post-fs-data |\r\n| ro.adb.secure | post-fs-data |\r\n| OEM 解锁 | post-fs-data |\r\n| USB 组合 | post-fs-data |\r\n",
+        "htmlUrl": "https://github.com/Shuoh118/ADB-Disabler/releases/tag/1.0.1",
         "immutable": true,
-        "name": "ADB Disablerv1.0.0",
+        "name": "ADB Disabler v1.0.1",
         "prerelease": false,
         "prop": {
           "author": "Shuoh118",
-          "description": "开机禁用 adb / 开发者选项 / OEM 解锁，USB 默认走不带 adb 的组合。状态被改回去会自动压回。支持 Magisk / KernelSU / APatch。",
+          "description": "开机禁用 adb、开发者选项和 OEM 解锁",
           "id": "adbdisabler",
           "name": "ADB Disabler",
-          "version": "1.0.0",
-          "versionCode": "10000"
+          "version": "1.0.1",
+          "versionCode": "10001"
         },
-        "publishedAt": "2026-11-07T14:01:01Z",
-        "releaseId": 437611544,
-        "tag": "1.0.0",
-        "tagCommit": "646a7ea3d1a63f5c46f5e03c46d8e8cc51e54139",
-        "version": "1.0.0",
-        "versionCode": 10000
+        "publishedAt": "2026-11-16T12:30:47Z",
+        "releaseId": 447013494,
+        "tag": "1.0.1",
+        "tagCommit": "abf7f2898df91afcf1cb018c25d7423aeaa7f785",
+        "version": "1.0.1",
+        "versionCode": 10001
       },
       "stars": {
         "count": 1,

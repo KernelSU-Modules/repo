@@ -51,27 +51,6 @@
         "versionCode": 2049
       }
     },
-    "Android_Nakedcore": {
-      "contentCommit": "1528c6046fe9be4f8d41e7e74460fd0142153513",
-      "fullName": "Bcorw/Android_Nakedcore",
-      "health": "ok",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": null,
-      "repositoryId": 1433508547,
-      "request": {
-        "checkedAt": "2026-10-31T14:27:07.497Z",
-        "commit": "1528c6046fe9be4f8d41e7e74460fd0142153513",
-        "issues": [],
-        "latestTag": "V1.2.0",
-        "ok": true,
-        "releaseId": 429984767,
-        "repositoryId": 1433508547,
-        "submissionId": "094dzvqdg0"
-      },
-      "stable": null
-    },
     "ByeBlur": {
       "contentCommit": "1d70bc71b34caba4e689c4e8d59e2bfcb4fa1927",
       "fullName": "LeanxModulostk/Bye-Blur",
@@ -173,27 +152,6 @@
         "version": "v3.6.0",
         "versionCode": 30060
       }
-    },
-    "Logd_Disabler_ColorOS16": {
-      "contentCommit": "75fa2c211171544e813c7f1b21ba6d33ca701867",
-      "fullName": "starlifezzz/Logd_Disabler_ColorOS16",
-      "health": "ok",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": null,
-      "repositoryId": 1214139400,
-      "request": {
-        "checkedAt": "2026-11-08T16:24:02.857Z",
-        "commit": "75fa2c211171544e813c7f1b21ba6d33ca701867",
-        "issues": [],
-        "latestTag": "v2.3.23",
-        "ok": true,
-        "releaseId": 431284238,
-        "repositoryId": 1214139400,
-        "submissionId": "adow0l0qj9"
-      },
-      "stable": null
     },
     "MagicNet": {
       "contentCommit": "a0b645835cb1b0a397ebbdd24e736d1e0d07d3e9",
@@ -356,20 +314,20 @@
       }
     },
     "adbdisabler": {
-      "contentCommit": "0bab6c8e4500b15c9ae2be0d688057d3433d0e9f",
+      "contentCommit": "abf7f2898df91afcf1cb018c25d7423aeaa7f785",
       "fullName": "Shuoh118/ADB-Disabler",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T12:13:46.309Z",
-      "maxVersionCode": 10000,
+      "lastSuccessAt": "2026-11-16T12:30:59.251Z",
+      "maxVersionCode": 10001,
       "message": null,
       "repositoryId": 1449393283,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-07T14:01:01Z",
-        "tag": "1.0.0",
-        "version": "1.0.0",
-        "versionCode": 10000
+        "publishedAt": "2026-11-16T12:30:47Z",
+        "tag": "1.0.1",
+        "version": "1.0.1",
+        "versionCode": 10001
       }
     },
     "aegis_firewall": {
@@ -452,59 +410,6 @@
         "versionCode": 870
       }
     },
-    "autousb": {
-      "contentCommit": "45c190eac0acab6e04e5e0b81e4e06c28e44b67d",
-      "fullName": "Shuoh118/Auto-USB",
-      "health": "ok",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": null,
-      "repositoryId": 1449056776,
-      "request": {
-        "checkedAt": "2026-11-13T04:13:23.921Z",
-        "commit": "45c190eac0acab6e04e5e0b81e4e06c28e44b67d",
-        "issues": [],
-        "latestTag": "1.1",
-        "ok": true,
-        "releaseId": 438033310,
-        "repositoryId": 1449056776,
-        "submissionId": "u7r7vmxpsc"
-      },
-      "stable": null
-    },
-    "bypasscap": {
-      "contentCommit": "9569ba05034cda746676bc92081f46716d2762a2",
-      "fullName": "9M2PJU/ChargeBypassCap",
-      "health": "error",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": "manifest-id-mismatch: module.yaml id \"chargebypasscap\" differs from the registered id \"bypasscap\".",
-      "repositoryId": 1437404105,
-      "request": {
-        "checkedAt": "2026-11-04T07:58:28.381Z",
-        "commit": "9569ba05034cda746676bc92081f46716d2762a2",
-        "issues": [
-          {
-            "code": "manifest-id-mismatch",
-            "message": "module.yaml id \"chargebypasscap\" differs from the registered id \"bypasscap\".",
-            "severity": "error"
-          },
-          {
-            "code": "prop-id-mismatch",
-            "message": "module.prop id \"chargebypasscap\" does not equal the registered ID \"bypasscap\".",
-            "severity": "error"
-          }
-        ],
-        "latestTag": "v1.15",
-        "ok": false,
-        "releaseId": 433645948,
-        "repositoryId": 1437404105,
-        "submissionId": "k5g517b2hp"
-      },
-      "stable": null
-    },
     "cacerts_bind_manager": {
       "contentCommit": "97f1b30e6c3acc8025ab92b209d3e2eed3ed0f01",
       "fullName": "jjh138792/System-CA-Manager",
@@ -572,27 +477,6 @@
         "version": "V1.1",
         "versionCode": 2
       }
-    },
-    "coloros_gplaystore_guard": {
-      "contentCommit": "b5bfb6c3051083cb718ad9a74e82e44c75a7a7f0",
-      "fullName": "BHLuotianyi/ColorOS-Google-Play-Store-Guard",
-      "health": "ok",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": null,
-      "repositoryId": 1429856603,
-      "request": {
-        "checkedAt": "2026-10-22T15:16:40.084Z",
-        "commit": "b5bfb6c3051083cb718ad9a74e82e44c75a7a7f0",
-        "issues": [],
-        "latestTag": "v1.0.1",
-        "ok": true,
-        "releaseId": 420871699,
-        "repositoryId": 1429856603,
-        "submissionId": "8jzgchogbk"
-      },
-      "stable": null
     },
     "coloros_wifi_sense": {
       "contentCommit": "0c4f4662018746cbe91306b0ec337632357b1fb4",
@@ -695,33 +579,6 @@
         "version": "v1.0.0",
         "versionCode": 100
       }
-    },
-    "falcon_integrity_fix": {
-      "contentCommit": null,
-      "fullName": "AHMED2111X/AHMED2111X",
-      "health": "error",
-      "installation": "missing",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": "repo-not-found: The KernelSU Modules App is not installed on the requested repository.",
-      "repositoryId": 929063884,
-      "request": {
-        "checkedAt": "2026-11-07T11:08:57.809Z",
-        "commit": null,
-        "issues": [
-          {
-            "code": "repo-not-found",
-            "message": "The KernelSU Modules App is not installed on the requested repository.",
-            "severity": "error"
-          }
-        ],
-        "latestTag": null,
-        "ok": false,
-        "releaseId": null,
-        "repositoryId": 929063884,
-        "submissionId": "30jc26ge1l"
-      },
-      "stable": null
     },
     "frida-ksu": {
       "contentCommit": "eda496a917e96a288e4796e7acb83fee86ab7ecd",
@@ -910,27 +767,6 @@
         "versionCode": 401012
       }
     },
-    "magicap": {
-      "contentCommit": "e683ad64c39ccba50999022638326b1ced1a5b56",
-      "fullName": "LIghtJUNction/Magicap",
-      "health": "ok",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": null,
-      "repositoryId": 1456196622,
-      "request": {
-        "checkedAt": "2026-11-13T10:44:43.451Z",
-        "commit": "e683ad64c39ccba50999022638326b1ced1a5b56",
-        "issues": [],
-        "latestTag": "v0.2.1",
-        "ok": true,
-        "releaseId": 444106832,
-        "repositoryId": 1456196622,
-        "submissionId": "aihwv7y0xh"
-      },
-      "stable": null
-    },
     "magisk-netbird": {
       "contentCommit": "6b6d86e6ae69a7f4dfaced3238da280b5b9199ca",
       "fullName": "ahsaboy/magisk-netbird",
@@ -1084,27 +920,6 @@
         "versionCode": 302
       }
     },
-    "privacykit_zygisk": {
-      "contentCommit": "35ef36b383dd389182cc9321f60e7b34e1e2480b",
-      "fullName": "Mohithash/privacykit-zygisk",
-      "health": "ok",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": null,
-      "repositoryId": 1425338410,
-      "request": {
-        "checkedAt": "2026-10-22T17:26:13.394Z",
-        "commit": "35ef36b383dd389182cc9321f60e7b34e1e2480b",
-        "issues": [],
-        "latestTag": "v1.35",
-        "ok": true,
-        "releaseId": 417646228,
-        "repositoryId": 1425338410,
-        "submissionId": "f8l84bsyot"
-      },
-      "stable": null
-    },
     "shellscaled": {
       "contentCommit": "1b0d9799e3a55e4a985421fb19bfb3979509c5f8",
       "fullName": "KyuubiRan/Shellscaled",
@@ -1139,27 +954,6 @@
         "versionCode": 34
       }
     },
-    "smart_bypass_charging": {
-      "contentCommit": "ace40cdc541fbf1c8803bccb05d30b081270abe7",
-      "fullName": "mhmithu/Smart-Bypass-Charging",
-      "health": "ok",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": null,
-      "repositoryId": 1448741563,
-      "request": {
-        "checkedAt": "2026-11-06T22:39:07.898Z",
-        "commit": "ace40cdc541fbf1c8803bccb05d30b081270abe7",
-        "issues": [],
-        "latestTag": "v1.0.1",
-        "ok": true,
-        "releaseId": 437124808,
-        "repositoryId": 1448741563,
-        "submissionId": "5ccu5lwf1b"
-      },
-      "stable": null
-    },
     "susdock": {
       "contentCommit": "2ddabb7cbb0cad81df153cb87bad86b72779e809",
       "fullName": "Nixie24/susdock",
@@ -1187,27 +981,6 @@
       "message": "installation-missing: the KernelSU Modules App is not installed on the repository; using the last synced data",
       "repositoryId": 1411850723,
       "request": null,
-      "stable": null
-    },
-    "susfs_guard_lkm": {
-      "contentCommit": "761b93083afd846858257221453bf306465042a3",
-      "fullName": "inforcqb/susfs4ksu-for-lkm",
-      "health": "ok",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": null,
-      "repositoryId": 1361441529,
-      "request": {
-        "checkedAt": "2026-11-12T15:30:54.675Z",
-        "commit": "761b93083afd846858257221453bf306465042a3",
-        "issues": [],
-        "latestTag": "v2.3.0-r18.9-1",
-        "ok": true,
-        "releaseId": 438367051,
-        "repositoryId": 1361441529,
-        "submissionId": "dtus6of4l6"
-      },
       "stable": null
     },
     "tailscale-bindhosts": {
