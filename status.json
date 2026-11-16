@@ -171,20 +171,20 @@
       }
     },
     "MagicNet": {
-      "contentCommit": "2bb8399993bc4e30205d543dff1df0a58a50c490",
+      "contentCommit": "4334f6d93e0ef36f31ab46c1f653ce4dce71a366",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T19:20:44.959Z",
-      "maxVersionCode": 10615,
+      "lastSuccessAt": "2026-11-16T19:50:08.822Z",
+      "maxVersionCode": 10617,
       "message": null,
       "repositoryId": 998453022,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-11T08:37:59Z",
-        "tag": "v1.8.7",
-        "version": "v1.8.7",
-        "versionCode": 10615
+        "publishedAt": "2026-11-16T19:49:59Z",
+        "tag": "v1.8.9",
+        "version": "v1.8.9",
+        "versionCode": 10617
       }
     },
     "Mediatek_Mali_GPU_Governor": {

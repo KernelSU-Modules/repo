@@ -2668,14 +2668,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "616c59060f062ad3cf5d9605eb50ef22ed110ff2",
+          "README.md": "3023bcfc333b3a0c5ca730b85de68e86000ff7e3",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "2bb8399993bc4e30205d543dff1df0a58a50c490",
-        "fetchedAt": "2026-11-16T19:20:44.959Z",
+        "commit": "4334f6d93e0ef36f31ab46c1f653ce4dce71a366",
+        "fetchedAt": "2026-11-16T19:50:08.822Z",
         "files": {
-          "README.md": "d4e934d129ba8ee5b130a4dfef9e7e42e0bc7012942191bdcf23a2863390c814",
+          "README.md": "efab2d967c6b1a946117114c79ad928a955c9a9a8b97a9dad0dcb87cf11eb124",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -2685,17 +2685,47 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T19:20:44.959Z",
-        "lastSuccessAt": "2026-11-16T19:20:44.959Z",
+        "lastAttemptAt": "2026-11-16T19:50:08.822Z",
+        "lastSuccessAt": "2026-11-16T19:50:08.822Z",
         "message": null,
         "status": "ok"
       },
       "id": "MagicNet",
       "installationId": 172483675,
-      "maxStableVersionCode": 10615,
-      "maxVersionCode": 10615,
+      "maxStableVersionCode": 10617,
+      "maxVersionCode": 10617,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:c062b8c789994da58dcac677554d092079a97a96a188814f56bb2d66b7095940",
+            "id": 756214556,
+            "name": "MagicNet-full.zip",
+            "sha256": "c062b8c789994da58dcac677554d092079a97a96a188814f56bb2d66b7095940",
+            "size": 61366576,
+            "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.9/MagicNet-full.zip"
+          },
+          "body": "# MagicNet v1.8.9\n\n本版修复 Android 构建输入下载和 GitHub 草稿发行定位，更新 sing-box fork、规则、构建工具与兼容依赖，并保留现有透明代理及文本诊断行为。Android versionCode 为 10617。\n\n## 发布与构建修复\n\n发布器直接使用创建草稿响应中的数字 release ID，避免创建成功后因列表尚未更新而中断。原有源码、run、artifact、目标版本和附件摘要检查继续执行；全部必需门禁通过后公开发行。\n\nzlib 固定下载源改为官方 GitHub Release 资产。缓存命中先校验摘要，损坏缓存重新下载，校验成功才替换；HTTP 200 的错误页面仍会被拒绝。curl、OpenSSL、zlib 和 Mozilla CA 共用构建锁，Android 验收从同一锁读取内嵌证书包的摘要、字节数和证书数。\n\n## 固定输入\n\n| 组件 | 本版固定值 |\n| --- | --- |\n| sing-box fork | LIghtJUNction/sing-box@5604500d0b894af3b6fbc3c48a4ee71c1ff0e167；基础版本 1.15.0-alpha.13 |\n| 规则 | rules-20261116-df4863416dd56ad6 |\n| curl / OpenSSL / zlib | 8.23.0 / 3.5.9 LTS / 1.4 |\n| Mozilla CA | 2026-11-05，118 个证书 |\n| yq / jq | 4.54.3 / 1.8.2 |\n| eCapture | 2.11.0 Android ARM64 |\n| Zashboard | 3.30.0，无外部字体资产 |\n| WebUI | Vue 3.5.45、Vite 8.3.8、Tailwind 4.3.5、KernelSU SDK 3.3.0 |\n| 浏览器测试 | Playwright 1.65.1 |\n\nfork 本次新增两个 CI 修复提交，基础协议版本保持。规则发行沿用同一配方提交，下载和安装继续核验清单、归档及每个规则文件。\n\n## 兼容与代码精简\n\nAndroid 可执行文件检查读取 ELF 结构，识别系统 Android 解释器与无外部动态依赖的静态可执行文件。新版 eCapture 的 static PIE 格式纳入验证，同时拒绝普通共享库、错误架构和 GNU 动态加载器。\n\nTLS/GoTLS 文本诊断显式使用 eCapture 的 hook 来源，避免上游新默认值改变现有捕获方式。原有时长、输出上限和 PID/UID 过滤保留。规则安装只比较一次文件内容，未变的规则不重写，损坏的目标仍会修复。\n\nRust 兼容依赖和 npm/Bun 双锁同步更新。TypeScript 保持 5.9 系列；机器接口、持久化字段和默认 TUN 模式保持既有合同。\n\n生产包与模拟器的 eCapture 固定为同一版本，跨架构资产分别核验；AVD 的 yq 直接读取生产构建锁。WebUI 的 Zashboard 默认与候选下载同步为 3.30.0，保留自定义输入。早期合同检查覆盖版本失配，避免到完整 Android 准备阶段才发现遗漏。\n\n## 安装与验证\n\n正式安装入口为本发行的模块 ZIP。MagicNet-core.zip、MagicNet.zip、magicnet_installer.zip 提供同一在线安装入口；MagicNet-full.zip 提供完整离线组件。资产身份和校验值以本发行的 build-source.json、components.json 和 SHA256SUMS 为准。\n\n发布流程对固定源码执行完整质量检查、模块构建、Android/KernelSU 模拟器生命周期、网络恢复证据及最终资产验证。模拟器与物理 ARM64 手机、实际订阅和实际网络的验证范围分别记录；本轮未对用户手机执行升级或重新配置网络。\n\n\nRecipe snapshot: 81e558051819dc3a8b61c0aaa5c37b421d4808f8\nSource commit: c5a1368639da929ae619a5a74444dc79e657618a\n\n<!-- magicnet-release run=43936244947 artifact=14263069380 snapshot=81e558051819dc3a8b61c0aaa5c37b421d4808f8 -->\n",
+          "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.9",
+          "immutable": true,
+          "name": "MagicNet-10617-v1.8.9",
+          "prerelease": false,
+          "prop": {
+            "author": "LIghtJUNction",
+            "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
+            "id": "MagicNet",
+            "name": "MagicNet",
+            "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
+            "version": "v1.8.9",
+            "versionCode": "10617"
+          },
+          "publishedAt": "2026-11-16T19:49:59Z",
+          "releaseId": 447518808,
+          "tag": "v1.8.9",
+          "tagCommit": "81e558051819dc3a8b61c0aaa5c37b421d4808f8",
+          "version": "v1.8.9",
+          "versionCode": 10617
+        },
         {
           "asset": {
             "digest": "sha256:b7aa887c045f4f0b6f159d69175f9451cd780aff9b0f8aaf0162da01100bcfb7",
@@ -2965,36 +2995,6 @@
           "tagCommit": "399890d27a8c936545cc0010b1a1d8c3a3ebf406",
           "version": "v1.7.2",
           "versionCode": 10607
-        },
-        {
-          "asset": {
-            "digest": "sha256:0e28ee205f08fe3a121bf9a3345533244c8b24daccf85d749cea4650fa48809e",
-            "id": 664677050,
-            "name": "MagicNet-full.zip",
-            "sha256": "0e28ee205f08fe3a121bf9a3345533244c8b24daccf85d749cea4650fa48809e",
-            "size": 65307679,
-            "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.0/MagicNet-full.zip"
-          },
-          "body": "安装器下载：https://github.com/LIghtJUNction/MagicNet/releases/download/v1.7.0/magicnet_installer.zip\n\n\n\n## What's Changed\n* fix(installer): 收拢组件存储、修复配置安装并完善订阅提示 by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/384\n* fix: repair subscription integrity and TUN lifecycle by @cursor[bot] in https://github.com/LIghtJUNction/MagicNet/pull/383\n* fix(ci): require same-commit Android acceptance for bot-bumped releases by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/386\n* fix(webui): preserve settings drafts and improve mobile usability by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/388\n* fix(webui): 改善手机操作布局并修复保存与成功提示 by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/387\n* Fix hotspot TUN return routing and false-ready status by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/390\n* Keep selected mobile section visible on direct page loads by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/391\n* fix: 修复热点生命周期、重复路由与后台操作状态 by @LIghtJUNction in https://github.com/LIghtJUNction/MagicNet/pull/399\n* chore(deps-dev): bump vite from 8.0.16 to 8.3.5 in /webui in the npm_and_yarn group across 1 directory by @dependabot[bot] in https://github.com/LIghtJUNction/MagicNet/pull/400\n\n\n**Full Changelog**: https://github.com/LIghtJUNction/MagicNet/compare/v1.6.2...v1.7.0",
-          "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.7.0",
-          "immutable": true,
-          "name": "MagicNet-10605-v1.7.0",
-          "prerelease": false,
-          "prop": {
-            "author": "LIghtJUNction",
-            "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
-            "id": "MagicNet",
-            "name": "MagicNet",
-            "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
-            "version": "v1.7.0",
-            "versionCode": "10605"
-          },
-          "publishedAt": "2026-10-22T04:33:26Z",
-          "releaseId": 420310683,
-          "tag": "v1.7.0",
-          "tagCommit": "4d32c02b11428a4d2d4c3b9a4acd9ecf1e14c0a6",
-          "version": "v1.7.0",
-          "versionCode": 10605
         }
       ],
       "repositoryId": 998453022,
@@ -3216,21 +3216,25 @@
         "441417042": {
           "checkedAt": "2026-11-11T08:38:03.013Z",
           "ok": true
+        },
+        "447518808": {
+          "checkedAt": "2026-11-16T19:50:08.822Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:b7aa887c045f4f0b6f159d69175f9451cd780aff9b0f8aaf0162da01100bcfb7",
-          "id": 734772046,
+          "digest": "sha256:c062b8c789994da58dcac677554d092079a97a96a188814f56bb2d66b7095940",
+          "id": 756214556,
           "name": "MagicNet-full.zip",
-          "sha256": "b7aa887c045f4f0b6f159d69175f9451cd780aff9b0f8aaf0162da01100bcfb7",
-          "size": 68532114,
-          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.7/MagicNet-full.zip"
+          "sha256": "c062b8c789994da58dcac677554d092079a97a96a188814f56bb2d66b7095940",
+          "size": 61366576,
+          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.9/MagicNet-full.zip"
         },
-        "body": "# MagicNet v1.8.7\n\n## 证书策略默认关闭\n\n- 系统证书禁用功能默认关闭，未配置 enabled 时按 false 处理。\n- 开机 apply 在未启用或已关闭时直接返回，保持系统证书状态。\n- 需要禁用时可显式运行 certificate-policy disable，preview 与 restore 继续可用。\n- 保留已经明确设置的用户意图。曾手动禁用的证书需要显式恢复。\n\n本地真实 X.509 回归覆盖默认关闭、开机无操作、显式禁用、恢复、幂等与归属冲突恢复。\n\n## 模拟器验收修复\n\n- 修复 Wi-Fi 上联故障注入后只恢复链路、未恢复 Android Wi-Fi 框架关联的问题。\n- 前台和独立延迟恢复 guard 使用相同的系统 Wi-Fi 恢复流程，并有界等待接口重建。\n- 保留恢复后真实默认路由、TUN、就绪和同应用 UID TCP 流量验收，报告门禁核对恢复方法。\n\n\nRecipe snapshot: ebbefe01bd29680faf21d000860c606638f56ee1\nSource commit: dc4433d1cfbeade114d51f3f3c429378d3d7b68d\n\n<!-- magicnet-release run=42982936016 artifact=13840432313 snapshot=ebbefe01bd29680faf21d000860c606638f56ee1 -->\n",
-        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.7",
+        "body": "# MagicNet v1.8.9\n\n本版修复 Android 构建输入下载和 GitHub 草稿发行定位，更新 sing-box fork、规则、构建工具与兼容依赖，并保留现有透明代理及文本诊断行为。Android versionCode 为 10617。\n\n## 发布与构建修复\n\n发布器直接使用创建草稿响应中的数字 release ID，避免创建成功后因列表尚未更新而中断。原有源码、run、artifact、目标版本和附件摘要检查继续执行；全部必需门禁通过后公开发行。\n\nzlib 固定下载源改为官方 GitHub Release 资产。缓存命中先校验摘要，损坏缓存重新下载，校验成功才替换；HTTP 200 的错误页面仍会被拒绝。curl、OpenSSL、zlib 和 Mozilla CA 共用构建锁，Android 验收从同一锁读取内嵌证书包的摘要、字节数和证书数。\n\n## 固定输入\n\n| 组件 | 本版固定值 |\n| --- | --- |\n| sing-box fork | LIghtJUNction/sing-box@5604500d0b894af3b6fbc3c48a4ee71c1ff0e167；基础版本 1.15.0-alpha.13 |\n| 规则 | rules-20261116-df4863416dd56ad6 |\n| curl / OpenSSL / zlib | 8.23.0 / 3.5.9 LTS / 1.4 |\n| Mozilla CA | 2026-11-05，118 个证书 |\n| yq / jq | 4.54.3 / 1.8.2 |\n| eCapture | 2.11.0 Android ARM64 |\n| Zashboard | 3.30.0，无外部字体资产 |\n| WebUI | Vue 3.5.45、Vite 8.3.8、Tailwind 4.3.5、KernelSU SDK 3.3.0 |\n| 浏览器测试 | Playwright 1.65.1 |\n\nfork 本次新增两个 CI 修复提交，基础协议版本保持。规则发行沿用同一配方提交，下载和安装继续核验清单、归档及每个规则文件。\n\n## 兼容与代码精简\n\nAndroid 可执行文件检查读取 ELF 结构，识别系统 Android 解释器与无外部动态依赖的静态可执行文件。新版 eCapture 的 static PIE 格式纳入验证，同时拒绝普通共享库、错误架构和 GNU 动态加载器。\n\nTLS/GoTLS 文本诊断显式使用 eCapture 的 hook 来源，避免上游新默认值改变现有捕获方式。原有时长、输出上限和 PID/UID 过滤保留。规则安装只比较一次文件内容，未变的规则不重写，损坏的目标仍会修复。\n\nRust 兼容依赖和 npm/Bun 双锁同步更新。TypeScript 保持 5.9 系列；机器接口、持久化字段和默认 TUN 模式保持既有合同。\n\n生产包与模拟器的 eCapture 固定为同一版本，跨架构资产分别核验；AVD 的 yq 直接读取生产构建锁。WebUI 的 Zashboard 默认与候选下载同步为 3.30.0，保留自定义输入。早期合同检查覆盖版本失配，避免到完整 Android 准备阶段才发现遗漏。\n\n## 安装与验证\n\n正式安装入口为本发行的模块 ZIP。MagicNet-core.zip、MagicNet.zip、magicnet_installer.zip 提供同一在线安装入口；MagicNet-full.zip 提供完整离线组件。资产身份和校验值以本发行的 build-source.json、components.json 和 SHA256SUMS 为准。\n\n发布流程对固定源码执行完整质量检查、模块构建、Android/KernelSU 模拟器生命周期、网络恢复证据及最终资产验证。模拟器与物理 ARM64 手机、实际订阅和实际网络的验证范围分别记录；本轮未对用户手机执行升级或重新配置网络。\n\n\nRecipe snapshot: 81e558051819dc3a8b61c0aaa5c37b421d4808f8\nSource commit: c5a1368639da929ae619a5a74444dc79e657618a\n\n<!-- magicnet-release run=43936244947 artifact=14263069380 snapshot=81e558051819dc3a8b61c0aaa5c37b421d4808f8 -->\n",
+        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.9",
         "immutable": true,
-        "name": "MagicNet-10615-v1.8.7",
+        "name": "MagicNet-10617-v1.8.9",
         "prerelease": false,
         "prop": {
           "author": "LIghtJUNction",
@@ -3238,15 +3242,15 @@
           "id": "MagicNet",
           "name": "MagicNet",
           "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
-          "version": "v1.8.7",
-          "versionCode": "10615"
+          "version": "v1.8.9",
+          "versionCode": "10617"
         },
-        "publishedAt": "2026-11-11T08:37:59Z",
-        "releaseId": 441417042,
-        "tag": "v1.8.7",
-        "tagCommit": "ebbefe01bd29680faf21d000860c606638f56ee1",
-        "version": "v1.8.7",
-        "versionCode": 10615
+        "publishedAt": "2026-11-16T19:49:59Z",
+        "releaseId": 447518808,
+        "tag": "v1.8.9",
+        "tagCommit": "81e558051819dc3a8b61c0aaa5c37b421d4808f8",
+        "version": "v1.8.9",
+        "versionCode": 10617
       },
       "stars": {
         "count": 233,
