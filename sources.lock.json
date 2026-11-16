@@ -4143,8 +4143,8 @@
       "seen": {},
       "stable": null,
       "stars": {
-        "count": 87,
-        "fetchedAt": "2026-11-15T09:40:14.862Z",
+        "count": 88,
+        "fetchedAt": "2026-11-16T11:01:27.632Z",
         "fullName": "LxyaoX/VexZygisk",
         "repositoryId": 1305247883,
         "verified": "self"
@@ -7367,17 +7367,48 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-15T12:48:23.023Z",
-        "lastSuccessAt": "2026-11-15T12:48:23.023Z",
+        "lastAttemptAt": "2026-11-16T11:01:27.632Z",
+        "lastSuccessAt": "2026-11-16T11:01:27.632Z",
         "message": null,
         "status": "ok"
       },
       "id": "hypercool",
       "installationId": 179696560,
-      "maxStableVersionCode": 232,
-      "maxVersionCode": 232,
+      "maxStableVersionCode": 233,
+      "maxVersionCode": 233,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:0e736c3e50b8a44cd46329025c7f6183fa855e94f68efa202a847edc6470f067",
+            "id": 754512562,
+            "name": "HyperCool_v2.3.3.zip",
+            "sha256": "0e736c3e50b8a44cd46329025c7f6183fa855e94f68efa202a847edc6470f067",
+            "size": 342105,
+            "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.3/HyperCool_v2.3.3.zip"
+          },
+          "body": "\n- Changed: battery-tuned defaults for 12 numeric inputs (cpu_cap 95 to 88, gpu_idle_timer 64 to 20, walt_hispeed_load 95 to 99, walt_up_rate 1000 to 5000, bg_uclamp 30 to 25, soff_cpu 60 to 30, soff_radio_min 15 to 5, soff_data_min 10 to 5, vm_writeback 3000 to 6000, vm_stat_interval 10 to 60, vm_dirty_bg 10 to 20, vm_dirty 30 to 40). Feature switches and levels are unchanged.\n- New: adaptive refresh rate uses the panel's highest Hz while active and lowest Hz while idle (1 Hz on LTPO), with manual overrides and a 90/30 fallback.\n- Changed: updating the module applies the new battery defaults only where the value is still the old default, so user changes are kept (cfg_ver 4).\n- Fixed: Location restore returns the saved location_mode even when Location is already on, and the Wi-Fi scan-off and Doze writes are verified by reading them back.\n- WebUI: Source code link added after Telegram, and the soff_radio and scan_off descriptions match the module.\n\n",
+          "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.3",
+          "immutable": true,
+          "name": "HyperCool v2.3.3",
+          "prerelease": false,
+          "prop": {
+            "author": "Yudharn",
+            "banner": "banner.jpg",
+            "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
+            "id": "hypercool",
+            "name": "HyperCool - Heat & Battery Fix",
+            "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
+            "version": "v2.3.3",
+            "versionCode": "233"
+          },
+          "publishedAt": "2026-11-16T11:01:03Z",
+          "releaseId": 446922144,
+          "tag": "v2.3.3",
+          "tagCommit": "0d20119b5738075f6265f3cbace0530da654cd53",
+          "version": "v2.3.3",
+          "versionCode": 233
+        },
         {
           "asset": {
             "digest": "sha256:cd1fd75d8882375544974a129ee4647dae6fccc04f60e26f53b3f6fbf73c40b7",
@@ -7609,21 +7640,25 @@
         "446055641": {
           "checkedAt": "2026-11-15T12:46:38.273Z",
           "ok": true
+        },
+        "446922144": {
+          "checkedAt": "2026-11-16T11:01:27.632Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:cd1fd75d8882375544974a129ee4647dae6fccc04f60e26f53b3f6fbf73c40b7",
-          "id": 750979363,
-          "name": "HyperCool_v2.3.2.zip",
-          "sha256": "cd1fd75d8882375544974a129ee4647dae6fccc04f60e26f53b3f6fbf73c40b7",
-          "size": 334072,
-          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.2/HyperCool_v2.3.2.zip"
+          "digest": "sha256:0e736c3e50b8a44cd46329025c7f6183fa855e94f68efa202a847edc6470f067",
+          "id": 754512562,
+          "name": "HyperCool_v2.3.3.zip",
+          "sha256": "0e736c3e50b8a44cd46329025c7f6183fa855e94f68efa202a847edc6470f067",
+          "size": 342105,
+          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.3/HyperCool_v2.3.3.zip"
         },
-        "body": "\n- Fixed: Mobile data and NFC off during screen-off is more reliable now: call detection checks every SIM slot, tethering is detected from the current state instead of the event log, NFC \"turning\" is handled while restoring, and radios are saved before switching with failed switches undone.\n- WebUI: the Mono theme title is bold.\n\n",
-        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.2",
+        "body": "\n- Changed: battery-tuned defaults for 12 numeric inputs (cpu_cap 95 to 88, gpu_idle_timer 64 to 20, walt_hispeed_load 95 to 99, walt_up_rate 1000 to 5000, bg_uclamp 30 to 25, soff_cpu 60 to 30, soff_radio_min 15 to 5, soff_data_min 10 to 5, vm_writeback 3000 to 6000, vm_stat_interval 10 to 60, vm_dirty_bg 10 to 20, vm_dirty 30 to 40). Feature switches and levels are unchanged.\n- New: adaptive refresh rate uses the panel's highest Hz while active and lowest Hz while idle (1 Hz on LTPO), with manual overrides and a 90/30 fallback.\n- Changed: updating the module applies the new battery defaults only where the value is still the old default, so user changes are kept (cfg_ver 4).\n- Fixed: Location restore returns the saved location_mode even when Location is already on, and the Wi-Fi scan-off and Doze writes are verified by reading them back.\n- WebUI: Source code link added after Telegram, and the soff_radio and scan_off descriptions match the module.\n\n",
+        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.3",
         "immutable": true,
-        "name": "HyperCool v2.3.2",
+        "name": "HyperCool v2.3.3",
         "prerelease": false,
         "prop": {
           "author": "Yudharn",
@@ -7632,15 +7667,15 @@
           "id": "hypercool",
           "name": "HyperCool - Heat & Battery Fix",
           "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
-          "version": "v2.3.2",
-          "versionCode": "232"
+          "version": "v2.3.3",
+          "versionCode": "233"
         },
-        "publishedAt": "2026-11-15T12:46:12Z",
-        "releaseId": 446055641,
-        "tag": "v2.3.2",
-        "tagCommit": "25861e7e3cd13e240c51ef304fcfac7f12f57a59",
-        "version": "v2.3.2",
-        "versionCode": 232
+        "publishedAt": "2026-11-16T11:01:03Z",
+        "releaseId": 446922144,
+        "tag": "v2.3.3",
+        "tagCommit": "0d20119b5738075f6265f3cbace0530da654cd53",
+        "version": "v2.3.3",
+        "versionCode": 233
       },
       "stars": {
         "count": 24,
@@ -9304,8 +9339,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 680,
-        "fetchedAt": "2026-11-15T09:40:14.862Z",
+        "count": 689,
+        "fetchedAt": "2026-11-16T11:01:27.632Z",
         "fullName": "maxsteeel/nomount",
         "repositoryId": 1128821046,
         "verified": "self"
@@ -12715,8 +12750,8 @@
         "versionCode": 206
       },
       "stars": {
-        "count": 26,
-        "fetchedAt": "2026-11-15T09:40:14.862Z",
+        "count": 27,
+        "fetchedAt": "2026-11-16T11:01:27.632Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
