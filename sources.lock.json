@@ -456,6 +456,139 @@
         "verified": "self"
       }
     },
+    "ByeBlur": {
+      "content": {
+        "blobs": {
+          "README.md": "3c083b1e6498ced02dafb5c8c87254953b7d9582",
+          "lean.jpg": "477f250cc88141ea6088ba481df75ea7b60cdb8a",
+          "module.yaml": "b2a12c9f626bd63173c8179384d28d130e3c78a5"
+        },
+        "commit": "1d70bc71b34caba4e689c4e8d59e2bfcb4fa1927",
+        "fetchedAt": "2026-11-16T08:58:51.970Z",
+        "files": {
+          "README.md": "395934038c1c77477224c9ae0919beafa69ebebeef00c43f1cf41305472b9702",
+          "lean.jpg": "6fc6bb874bb5ad22849082c154eb6cd940197d552569345985b19d3d2a2f4df5",
+          "module.yaml": "405c3405c1350ba8d91e30b93c521d4008029cd43cec690850b5603e7f3df72c"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "LeanxModulostk/Bye-Blur",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-16T08:58:51.970Z",
+        "lastSuccessAt": "2026-11-16T08:58:51.970Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "ByeBlur",
+      "installationId": 181726682,
+      "maxStableVersionCode": 9,
+      "maxVersionCode": 9,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:690385a9b9f3ed7c785f1bc8a33df66328d56f1977c6a880b000488a69014dc5",
+            "id": 745327673,
+            "name": "Bye.Blur-v9.zip",
+            "sha256": "690385a9b9f3ed7c785f1bc8a33df66328d56f1977c6a880b000488a69014dc5",
+            "size": 629462,
+            "url": "https://github.com/LeanxModulostk/Bye-Blur/releases/download/v9/Bye.Blur-v9.zip"
+          },
+          "body": "<img width=\"2000\" height=\"2000\" alt=\"lean\" src=\"https://github.com/user-attachments/assets/2b3f69a3-2372-4781-94e3-3ed5d949e054\" />\r\n\r\n\r\n_Disable the blur effect, this improves performance by discarding this complex visual effect_\r\n\r\n- Donations: [PayPal](https://www.paypal.me/LeanHijosdesusMadres) - [LiberaPay](https://liberapay.com/LeanHijosdesusMadres) - [Ko-fi](https://ko-fi.com/leantupapi) - [Binance](https://app.binance.com/qr/dplk7b28e9c123ff4e378b472505b0adba63) - [SociaBuzz](https://sociabuzz.com/leanhijosdesusmadres/support) - [More](https://t.me/modulemagiskChiase/4846)\r\n\r\n## Lean",
+          "htmlUrl": "https://github.com/LeanxModulostk/Bye-Blur/releases/tag/v9",
+          "immutable": true,
+          "name": "Bye Blur v9",
+          "prerelease": false,
+          "prop": {
+            "actionIcon": "lean.jpg",
+            "author": "@LeanHijosdesusMadres",
+            "banner": "leanbanner.jpg",
+            "description": "Disable the blur effect, this improves performance by discarding this complex visual effect.",
+            "donate": "https://www.paypal.me/LeanHijosdesusMadres",
+            "id": "ByeBlur",
+            "name": "Bye Blur",
+            "support": "https://t.me/modulostk",
+            "updateJson": "https://raw.githubusercontent.com/LeanxModulostk/Bye-Blur/master/module.json",
+            "version": "v9",
+            "versionCode": "9"
+          },
+          "publishedAt": "2026-11-13T21:57:55Z",
+          "releaseId": 444780536,
+          "tag": "v9",
+          "tagCommit": "5cb08523c7d2572748f66e0b1e7977e78bdf18be",
+          "version": "v9",
+          "versionCode": 9
+        }
+      ],
+      "repositoryId": 744575047,
+      "seen": {
+        "157195803": {
+          "checkedAt": "2026-11-16T08:58:51.970Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "410791508": {
+          "checkedAt": "2026-11-16T08:58:51.970Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "423190668": {
+          "checkedAt": "2026-11-16T08:58:51.970Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "444780536": {
+          "checkedAt": "2026-11-16T08:58:51.970Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:690385a9b9f3ed7c785f1bc8a33df66328d56f1977c6a880b000488a69014dc5",
+          "id": 745327673,
+          "name": "Bye.Blur-v9.zip",
+          "sha256": "690385a9b9f3ed7c785f1bc8a33df66328d56f1977c6a880b000488a69014dc5",
+          "size": 629462,
+          "url": "https://github.com/LeanxModulostk/Bye-Blur/releases/download/v9/Bye.Blur-v9.zip"
+        },
+        "body": "<img width=\"2000\" height=\"2000\" alt=\"lean\" src=\"https://github.com/user-attachments/assets/2b3f69a3-2372-4781-94e3-3ed5d949e054\" />\r\n\r\n\r\n_Disable the blur effect, this improves performance by discarding this complex visual effect_\r\n\r\n- Donations: [PayPal](https://www.paypal.me/LeanHijosdesusMadres) - [LiberaPay](https://liberapay.com/LeanHijosdesusMadres) - [Ko-fi](https://ko-fi.com/leantupapi) - [Binance](https://app.binance.com/qr/dplk7b28e9c123ff4e378b472505b0adba63) - [SociaBuzz](https://sociabuzz.com/leanhijosdesusmadres/support) - [More](https://t.me/modulemagiskChiase/4846)\r\n\r\n## Lean",
+        "htmlUrl": "https://github.com/LeanxModulostk/Bye-Blur/releases/tag/v9",
+        "immutable": true,
+        "name": "Bye Blur v9",
+        "prerelease": false,
+        "prop": {
+          "actionIcon": "lean.jpg",
+          "author": "@LeanHijosdesusMadres",
+          "banner": "leanbanner.jpg",
+          "description": "Disable the blur effect, this improves performance by discarding this complex visual effect.",
+          "donate": "https://www.paypal.me/LeanHijosdesusMadres",
+          "id": "ByeBlur",
+          "name": "Bye Blur",
+          "support": "https://t.me/modulostk",
+          "updateJson": "https://raw.githubusercontent.com/LeanxModulostk/Bye-Blur/master/module.json",
+          "version": "v9",
+          "versionCode": "9"
+        },
+        "publishedAt": "2026-11-13T21:57:55Z",
+        "releaseId": 444780536,
+        "tag": "v9",
+        "tagCommit": "5cb08523c7d2572748f66e0b1e7977e78bdf18be",
+        "version": "v9",
+        "versionCode": 9
+      },
+      "stars": {
+        "count": 16,
+        "fetchedAt": "2026-11-16T08:58:51.970Z",
+        "fullName": "LeanxModulostk/Bye-Blur",
+        "repositoryId": 744575047,
+        "verified": "self"
+      }
+    },
     "COPG": {
       "content": {
         "blobs": {

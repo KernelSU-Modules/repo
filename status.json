@@ -81,21 +81,17 @@
       "fullName": "LeanxModulostk/Bye-Blur",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-16T08:58:51.970Z",
+      "maxVersionCode": 9,
       "message": null,
       "repositoryId": 744575047,
-      "request": {
-        "checkedAt": "2026-11-14T02:44:22.611Z",
-        "commit": "1d70bc71b34caba4e689c4e8d59e2bfcb4fa1927",
-        "issues": [],
-        "latestTag": "v9",
-        "ok": true,
-        "releaseId": 444780536,
-        "repositoryId": 744575047,
-        "submissionId": "al6jbkr1xl"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-13T21:57:55Z",
+        "tag": "v9",
+        "version": "v9",
+        "versionCode": 9
+      }
     },
     "COPG": {
       "contentCommit": "2b7889f3f864138b2d89097228e921c4c8cbeea7",
