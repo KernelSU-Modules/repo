@@ -1,19 +1,18 @@
 id: falcon_integrity_fix
-status: pending
-request:
+status: rejected
+review:
   submissionId: 30jc26ge1l
   kind: submit
-  source:
-    host: github
-    repositoryId: 929063884
-    ownerId: 198259339
-    fullName: AHMED2111X/AHMED2111X
-    manifestPath: module.yaml
   submittedBy: 198259339
-  submittedByLogin: AHMED2111X
   submittedAt: 2026-11-04T00:45:59.180Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:14:51.278Z
+  reasonCode: other
+  reason: "The submitted repository AHMED2111X/AHMED2111X does not exist / the KernelSU Modules App is not installed on it. Note: modules that bundle leaked or third-party attestation keyboxes will not be accepted."
   telegram:
     chatId: -1001860367685
     messageId: 64634
 createdAt: 2026-11-04T00:45:59.180Z
-updatedAt: 2026-11-04T00:45:59.180Z
+updatedAt: 2026-11-16T12:14:51.278Z
