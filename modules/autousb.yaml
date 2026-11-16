@@ -1,19 +1,18 @@
 id: autousb
-status: pending
-request:
+status: rejected
+review:
   submissionId: u7r7vmxpsc
   kind: submit
-  source:
-    host: github
-    repositoryId: 1449056776
-    ownerId: 206189022
-    fullName: Shuoh118/Auto-USB
-    manifestPath: module.yaml
   submittedBy: 206189022
-  submittedByLogin: Shuoh118
   submittedAt: 2026-11-07T06:42:56.534Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:14:57.482Z
+  reasonCode: other
+  reason: "Blocking security issue: by default (INSECURE_ADB=1, ADB_ON_CONNECT=1) post-fs-data.sh sets ro.adb.secure=0, ro.debuggable=1, service.adb.root=1 and service.sh forces adb on, giving unauthenticated (root) ADB to anyone with a cable, even when locked; README does not disclose this. Make insecure ADB opt-in and clearly documented, remove the debuggable/adb.root changes by default, and drop the unused usbauth.sh code (references missing APK/.so). Then resubmit."
   telegram:
     chatId: -1001860367685
     messageId: 64654
 createdAt: 2026-11-07T06:42:56.534Z
-updatedAt: 2026-11-07T06:42:56.534Z
+updatedAt: 2026-11-16T12:14:57.482Z
