@@ -1,19 +1,23 @@
 id: adbdisabler
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1449393283
+  ownerId: 206189022
+  fullName: Shuoh118/ADB-Disabler
+  manifestPath: module.yaml
+review:
   submissionId: uc55frw6xw
   kind: submit
-  source:
-    host: github
-    repositoryId: 1449393283
-    ownerId: 206189022
-    fullName: Shuoh118/ADB-Disabler
-    manifestPath: module.yaml
   submittedBy: 206189022
-  submittedByLogin: Shuoh118
   submittedAt: 2026-11-07T14:33:56.048Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:13:27.453Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64655
 createdAt: 2026-11-07T14:33:56.048Z
-updatedAt: 2026-11-07T14:33:56.048Z
+updatedAt: 2026-11-16T12:13:27.453Z
