@@ -3994,6 +3994,135 @@
         "verified": "self"
       }
     },
+    "VanadiumWebviewManager": {
+      "content": {
+        "blobs": {
+          "README.md": "5f71b5648b0b7499f49b167cb39fff67ceab0208",
+          "lean.jpg": "477f250cc88141ea6088ba481df75ea7b60cdb8a",
+          "module.yaml": "d4f7d99fab50366d3041b95c639cea8684b5f6fc"
+        },
+        "commit": "efc0da76900d41412e77c6c616aa79f9ca5fe5a8",
+        "fetchedAt": "2026-11-16T08:59:56.855Z",
+        "files": {
+          "README.md": "1d03c8b45c57efa4c367fe8b6d0aa585c8ea86e242f15fdb52ef27ed729abc8e",
+          "lean.jpg": "6fc6bb874bb5ad22849082c154eb6cd940197d552569345985b19d3d2a2f4df5",
+          "module.yaml": "ae7809f14f2b1ab55414c371ed499f85980d5dcd750c64e12d0919141b1bc710"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "LeanxModulostk/VanadiumWebviewManager",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-16T08:59:56.855Z",
+        "lastSuccessAt": "2026-11-16T08:59:56.855Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "VanadiumWebviewManager",
+      "installationId": 181726682,
+      "maxStableVersionCode": 31,
+      "maxVersionCode": 31,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:534a84938d3d5cd7bf8c8b80e3b8591a070aab04742569d6afedc6275ea8c67b",
+            "id": 745253007,
+            "name": "Vanadium_Webview_Manager_v3.1.zip",
+            "sha256": "534a84938d3d5cd7bf8c8b80e3b8591a070aab04742569d6afedc6275ea8c67b",
+            "size": 4060477,
+            "url": "https://github.com/LeanxModulostk/VanadiumWebviewManager/releases/download/v31/Vanadium_Webview_Manager_v3.1.zip"
+          },
+          "body": "<img width=\"1200\" height=\"600\" alt=\"banner\" src=\"https://github.com/user-attachments/assets/3f25e548-0246-48f4-a93a-b4832ce3ea75\" />\r\n\r\nVanadium is the privacy and security focused browser and Android System WebView from GrapheneOS, based on Chromium. It includes hardening against exploits, reduced attack surface and privacy improvements, and it receives frequent updates to stay in sync with upstream Chromium security fixes.\r\n\r\nThis module installs and updates Vanadium WebView, Browser and Config, and sets Vanadium as the active system WebView.\r\n\r\nChangelog:\r\nAdd button to access webview settings \r\n\r\n[Channels Telegram](https://t.me/modulostk)",
+          "htmlUrl": "https://github.com/LeanxModulostk/VanadiumWebviewManager/releases/tag/v31",
+          "immutable": true,
+          "name": "Vanadium WebView Manager v3.1",
+          "prerelease": false,
+          "prop": {
+            "actionIcon": "lean.jpg",
+            "author": "@LeanHijosdesusMadres",
+            "banner": "leanbanner.jpg",
+            "description": "Vanadium: GrapheneOS's hardened Chromium-based browser and WebView, focused on security and privacy. Installs and updates WebView, Browser and Config, with WebUI.",
+            "donate": "https://www.paypal.me/LeanHijosdesusMadres",
+            "iasthathelped": "claude and gemini",
+            "id": "VanadiumWebviewManager",
+            "name": "Vanadium WebView Manager",
+            "support": "https://t.me/modulostk",
+            "updateJson": "https://raw.githubusercontent.com/LeanxModulostk/VanadiumWebviewManager/master/module.json",
+            "version": "3.1",
+            "versionCode": "31"
+          },
+          "publishedAt": "2026-11-13T21:31:26Z",
+          "releaseId": 444758647,
+          "tag": "v31",
+          "tagCommit": "378c96ac4c0e486ff3521a98454cfd237639ef4a",
+          "version": "3.1",
+          "versionCode": 31
+        }
+      ],
+      "repositoryId": 1430564726,
+      "seen": {
+        "421449564": {
+          "checkedAt": "2026-11-16T08:59:56.855Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "421989501": {
+          "checkedAt": "2026-11-16T08:59:56.855Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "444758647": {
+          "checkedAt": "2026-11-16T08:59:56.855Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:534a84938d3d5cd7bf8c8b80e3b8591a070aab04742569d6afedc6275ea8c67b",
+          "id": 745253007,
+          "name": "Vanadium_Webview_Manager_v3.1.zip",
+          "sha256": "534a84938d3d5cd7bf8c8b80e3b8591a070aab04742569d6afedc6275ea8c67b",
+          "size": 4060477,
+          "url": "https://github.com/LeanxModulostk/VanadiumWebviewManager/releases/download/v31/Vanadium_Webview_Manager_v3.1.zip"
+        },
+        "body": "<img width=\"1200\" height=\"600\" alt=\"banner\" src=\"https://github.com/user-attachments/assets/3f25e548-0246-48f4-a93a-b4832ce3ea75\" />\r\n\r\nVanadium is the privacy and security focused browser and Android System WebView from GrapheneOS, based on Chromium. It includes hardening against exploits, reduced attack surface and privacy improvements, and it receives frequent updates to stay in sync with upstream Chromium security fixes.\r\n\r\nThis module installs and updates Vanadium WebView, Browser and Config, and sets Vanadium as the active system WebView.\r\n\r\nChangelog:\r\nAdd button to access webview settings \r\n\r\n[Channels Telegram](https://t.me/modulostk)",
+        "htmlUrl": "https://github.com/LeanxModulostk/VanadiumWebviewManager/releases/tag/v31",
+        "immutable": true,
+        "name": "Vanadium WebView Manager v3.1",
+        "prerelease": false,
+        "prop": {
+          "actionIcon": "lean.jpg",
+          "author": "@LeanHijosdesusMadres",
+          "banner": "leanbanner.jpg",
+          "description": "Vanadium: GrapheneOS's hardened Chromium-based browser and WebView, focused on security and privacy. Installs and updates WebView, Browser and Config, with WebUI.",
+          "donate": "https://www.paypal.me/LeanHijosdesusMadres",
+          "iasthathelped": "claude and gemini",
+          "id": "VanadiumWebviewManager",
+          "name": "Vanadium WebView Manager",
+          "support": "https://t.me/modulostk",
+          "updateJson": "https://raw.githubusercontent.com/LeanxModulostk/VanadiumWebviewManager/master/module.json",
+          "version": "3.1",
+          "versionCode": "31"
+        },
+        "publishedAt": "2026-11-13T21:31:26Z",
+        "releaseId": 444758647,
+        "tag": "v31",
+        "tagCommit": "378c96ac4c0e486ff3521a98454cfd237639ef4a",
+        "version": "3.1",
+        "versionCode": 31
+      },
+      "stars": {
+        "count": 15,
+        "fetchedAt": "2026-11-16T08:59:56.855Z",
+        "fullName": "LeanxModulostk/VanadiumWebviewManager",
+        "repositoryId": 1430564726,
+        "verified": "self"
+      }
+    },
     "VexZygisk": {
       "content": null,
       "fullName": "LxyaoX/VexZygisk",

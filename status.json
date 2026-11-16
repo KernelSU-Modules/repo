@@ -313,21 +313,17 @@
       "fullName": "LeanxModulostk/VanadiumWebviewManager",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-16T08:59:56.855Z",
+      "maxVersionCode": 31,
       "message": null,
       "repositoryId": 1430564726,
-      "request": {
-        "checkedAt": "2026-11-13T21:35:22.595Z",
-        "commit": "efc0da76900d41412e77c6c616aa79f9ca5fe5a8",
-        "issues": [],
-        "latestTag": "v31",
-        "ok": true,
-        "releaseId": 444758647,
-        "repositoryId": 1430564726,
-        "submissionId": "y28avr4oly"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-13T21:31:26Z",
+        "tag": "v31",
+        "version": "3.1",
+        "versionCode": 31
+      }
     },
     "VexZygisk": {
       "contentCommit": null,
