@@ -10823,17 +10823,49 @@
       "fullName": "FLYCOM-E/ClearBox",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-26T04:40:18.124Z",
-        "lastSuccessAt": "2026-10-26T04:40:18.124Z",
-        "message": "stable-unavailable: the stable release (versionCode 101) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 101 is published.",
+        "lastAttemptAt": "2026-11-16T00:53:12.083Z",
+        "lastSuccessAt": "2026-11-16T00:53:12.083Z",
+        "message": null,
         "status": "ok"
       },
       "id": "wipe_cache",
       "installationId": 170625483,
-      "maxStableVersionCode": 101,
-      "maxVersionCode": 101,
+      "maxStableVersionCode": 102,
+      "maxVersionCode": 102,
       "prerelease": null,
-      "releases": [],
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:f13ff3e567c36f76c4181444deb56a182b43252bbf0cbe84e38a791bbb62fdc2",
+            "id": 752909287,
+            "name": "ClearBox-V5.2.2-102.zip",
+            "sha256": "f13ff3e567c36f76c4181444deb56a182b43252bbf0cbe84e38a791bbb62fdc2",
+            "size": 3283835,
+            "url": "https://github.com/FLYCOM-E/ClearBox/releases/download/102-V5.2.2/ClearBox-V5.2.2-102.zip"
+          },
+          "body": "<details>\r\n  <summary> English </summary>\r\n\r\n## ADD \r\n\r\n- The automatic cleaning settings page now shows the last run time; if never run/configured, it displays as empty\r\n- Added app cleaning rule preset: WeChat (com.tencent.mm)\r\n\r\n## UPDATE\r\n\r\n- App splash screen reworked to follow relevant guidelines; no longer displays a custom splash on startup\r\n- File organization no longer shows items with a count of 0\r\n- Timed language auto-refresh interval changed to 5 minutes, fixing delayed language updates\r\n- App code optimization: removed dead code, updated some legacy code\r\n- Removed the useless Tab bar at the bottom of the App to improve the full-screen experience\r\n- App storage cache cleaning no longer reports errors on failure, since most failures are simply due to the cache directory not existing\r\n- Directory reorganization: whitelist files are no longer scattered in the config directory but placed in a dedicated directory\r\n- The whitelist now applies to app private directories in internal storage, preventing junk and empty folders from being cleaned within them\r\n- Custom rule cleaning now displays the total cleaned size\r\n\r\n## FIX\r\n\r\n- [Test] Tested fix for disappearing downloaded themes in `Xiaomi Themes` and abnormal image loading in `TIM`\r\n- Fixed a bug where the search box in the App chooser interface merged into the status bar\r\n\r\n</details>\r\n<details>\r\n  <summary> 简体中文 </summary>\r\n\r\n## ADD \r\n\r\n- 自动清理设置页面现在会显示上次运行时间，如果从未运行/设置过则显示为空\r\n- 新增软件清理规则预设: 微信/WeChat (com.tencent.mm)\r\n\r\n## UPDATE\r\n\r\n- App 启动屏改造，遵循相关规范，启动时不再显示自定义 Splash\r\n- 现在文件归类不再显示归类数量为 0 的项\r\n- Timed 语言自动更新时间改为 5 分钟，修复语言更新不及时问题\r\n- App 代码优化，删除无效代码，修改部分老旧代码\r\n- 删除 App 底部无用 Tab 栏，提高全面屏体验\r\n- 现在 App 储存缓存清理失败不再报错，因为其中大多数仅因缓存目录不存在\r\n- 目录整理：白名单文件现在不再散落于配置目录而是专有目录内\r\n- 现在白名单对内部储存 App 私有目录生效，不会再清理其内垃圾、空文件夹\r\n- 现在自定义规则清理会显示总清理大小\r\n\r\n## FIX\r\n\r\n- [Test] 测试修复 `小米主题` 下载主题消失及 `TIM` 图片加载异常问题\r\n- 修复 App 选择界面搜索框融进状态栏的 Bug\r\n\r\n</details>\r\n<details>\r\n  <summary> 正體中文 </summary>\r\n\r\n## ADD \r\n\r\n- 自動清理設定頁面現在會顯示上次執行時間，如果從未執行/設定過則顯示為空\r\n- 新增軟體清理規則預設: 微信/WeChat (com.tencent.mm)\r\n\r\n## UPDATE\r\n\r\n- App 啟動畫面改造，遵循相關規範，啟動時不再顯示自訂 Splash\r\n- 現在檔案歸類不再顯示歸類數量為 0 的項目\r\n- Timed 語言自動更新時間改為 5 分鐘，修復語言更新不及時問題\r\n- App 程式碼最佳化，刪除無效程式碼，修改部分老舊程式碼\r\n- 刪除 App 底部無用 Tab 欄，提高全螢幕體驗\r\n- 現在 App 儲存快取清理失敗不再報錯，因為其中大多數僅因快取目錄不存在\r\n- 目錄整理：白名單檔案現在不再散落於設定目錄而是專有目錄內\r\n- 現在白名單對內部儲存 App 私有目錄生效，不會再清理其內垃圾、空資料夾\r\n- 現在自訂規則清理會顯示總清理大小\r\n\r\n## FIX\r\n\r\n- [Test] 測試修復 `小米主題` 下載主題消失及 `TIM` 圖片載入異常問題\r\n- 修復 App 選擇介面搜尋框融入狀態列的 Bug\r\n\r\n</details>\r\n<details>\r\n  <summary> Русский </summary>\r\n\r\n## ADD \r\n\r\n- На странице настроек автоматической очистки теперь отображается время последнего запуска; если очистка никогда не запускалась/не настраивалась, поле остаётся пустым\r\n- Добавлен предустановленный набор правил очистки приложений: WeChat (com.tencent.mm)\r\n\r\n## UPDATE\r\n\r\n- Переработан экран запуска App в соответствии с рекомендациями; при запуске больше не отображается пользовательский Splash\r\n- Классификация файлов больше не показывает элементы с количеством 0\r\n- Интервал автоматического обновления языка в Timed изменён на 5 минут, исправлена задержка обновления языка\r\n- Оптимизация кода App: удалён неиспользуемый код, обновлён некоторый устаревший код\r\n- Удалена бесполезная нижняя панель Tab в App для улучшения полноэкранного опыта\r\n- Очистка кэша хранилища App больше не сообщает об ошибке при неудаче, поскольку в большинстве случаев причина — отсутствие каталога кэша\r\n- Реорганизация каталогов: файлы белого списка больше не разбросаны по каталогу конфигурации, а находятся в отдельном каталоге\r\n- Белый список теперь применяется к приватным каталогам приложений во внутреннем хранилище — мусор и пустые папки внутри них больше не очищаются\r\n- Очистка по пользовательским правилам теперь отображает общий размер очистки\r\n\r\n## FIX\r\n\r\n- [Test] Протестировано исправление исчезновения загруженных тем в `Xiaomi Themes` и аномальной загрузки изображений в `TIM`\r\n- Исправлена ошибка, из-за которой строка поиска в интерфейсе выбора App сливалась со строкой состояния\r\n\r\n</details>\r\n<details>\r\n  <summary> 한국어 </summary>\r\n\r\n## ADD \r\n\r\n- 자동 정리 설정 페이지에 마지막 실행 시간이 표시됩니다. 한 번도 실행/설정하지 않은 경우 비어 있음으로 표시됩니다\r\n- 앱 정리 규칙 사전 설정 추가: WeChat (com.tencent.mm)\r\n\r\n## UPDATE\r\n\r\n- App 시작 화면 개편, 관련 가이드라인 준수, 시작 시 커스텀 Splash를 더 이상 표시하지 않음\r\n- 파일 분류에서 개수가 0인 항목을 더 이상 표시하지 않음\r\n- Timed 언어 자동 업데이트 간격을 5분으로 변경, 언어 업데이트 지연 문제 수정\r\n- App 코드 최적화: 불필요한 코드 삭제, 일부 오래된 코드 수정\r\n- App 하단의 불필요한 Tab 바를 삭제하여 전체 화면 경험 개선\r\n- App 저장소 캐시 정리 실패 시 더 이상 오류를 보고하지 않음. 실패의 대부분은 캐시 디렉터리가 존재하지 않기 때문임\r\n- 디렉터리 정리: 화이트리스트 파일이 더 이상 구성 디렉터리에 흩어져 있지 않고 전용 디렉터리에 위치함\r\n- 화이트리스트가 내부 저장소의 앱 개인 디렉터리에 적용되어, 그 안의 쓰레기 및 빈 폴더를 더 이상 정리하지 않음\r\n- 커스텀 규칙 정리 시 총 정리 크기가 표시됨\r\n\r\n## FIX\r\n\r\n- [Test] `小米 테마`에서 다운로드한 테마가 사라지는 문제 및 `TIM` 이미지 로딩 이상 문제 수정 테스트\r\n- App 선택 인터페이스의 검색창이 상태 표시줄에 겹치는 버그 수정\r\n\r\n</details>\r\n<details>\r\n  <summary> 日本語 </summary>\r\n\r\n## ADD \r\n\r\n- 自動クリーン設定ページに前回実行時間が表示されるようになりました。一度も実行/設定されていない場合は空で表示されます\r\n- アプリクリーンルールプリセットを追加: WeChat (com.tencent.mm)\r\n\r\n## UPDATE\r\n\r\n- App 起動画面を刷新し、関連ガイドラインに準拠。起動時にカスタム Splash を表示しなくなりました\r\n- ファイル分類で件数が 0 の項目を表示しなくなりました\r\n- Timed の言語自動更新間隔を 5 分に変更し、言語更新の遅延問題を修正\r\n- App コード最適化：無効なコードを削除し、一部の古いコードを更新\r\n- App 下部の不要な Tab バーを削除し、全画面表示の体験を向上\r\n- App のストレージキャッシュクリーン失敗時にエラーを報告しなくなりました。失敗のほとんどはキャッシュディレクトリが存在しないことが原因のためです\r\n- ディレクトリ整理：ホワイトリストファイルは設定ディレクトリに散在せず、専用ディレクトリに配置されるようになりました\r\n- ホワイトリストが内部ストレージのアプリプライベートディレクトリに適用され、その中のゴミや空フォルダがクリーンされなくなりました\r\n- カスタムルールクリーンで合計クリーンサイズが表示されるようになりました\r\n\r\n## FIX\r\n\r\n- [Test] `小米テーマ` でダウンロードしたテーマが消える問題と、`TIM` の画像読み込み異常の修正をテスト\r\n- App 選択画面の検索ボックスがステータスバーに重なるバグを修正\r\n\r\n</details>",
+          "htmlUrl": "https://github.com/FLYCOM-E/ClearBox/releases/tag/102-V5.2.2",
+          "immutable": true,
+          "name": "Version 5.2.2",
+          "prerelease": false,
+          "prop": {
+            "author": "FlyCome",
+            "description": "A Cleaner & More...",
+            "id": "wipe_cache",
+            "name": "ClearBox",
+            "str": "Are You,| OK 🍀？",
+            "updateJson": "https://raw.githubusercontent.com/FLYCOM-E/ClearBox/main/UpdateJson/@LANG/update.json",
+            "version": "V5.2.2",
+            "versionCode": "102"
+          },
+          "publishedAt": "2026-11-16T00:53:00Z",
+          "releaseId": 446490682,
+          "tag": "102-V5.2.2",
+          "tagCommit": "8691f941648cdf05555f0c2e662efddad218ac4c",
+          "version": "V5.2.2",
+          "versionCode": 102
+        }
+      ],
       "repositoryId": 983784625,
       "seen": {
         "218707096": {
@@ -10899,9 +10931,43 @@
         "411715996": {
           "checkedAt": "2026-10-13T13:58:11.086Z",
           "ok": true
+        },
+        "446490682": {
+          "checkedAt": "2026-11-16T00:53:12.083Z",
+          "ok": true
         }
       },
-      "stable": null,
+      "stable": {
+        "asset": {
+          "digest": "sha256:f13ff3e567c36f76c4181444deb56a182b43252bbf0cbe84e38a791bbb62fdc2",
+          "id": 752909287,
+          "name": "ClearBox-V5.2.2-102.zip",
+          "sha256": "f13ff3e567c36f76c4181444deb56a182b43252bbf0cbe84e38a791bbb62fdc2",
+          "size": 3283835,
+          "url": "https://github.com/FLYCOM-E/ClearBox/releases/download/102-V5.2.2/ClearBox-V5.2.2-102.zip"
+        },
+        "body": "<details>\r\n  <summary> English </summary>\r\n\r\n## ADD \r\n\r\n- The automatic cleaning settings page now shows the last run time; if never run/configured, it displays as empty\r\n- Added app cleaning rule preset: WeChat (com.tencent.mm)\r\n\r\n## UPDATE\r\n\r\n- App splash screen reworked to follow relevant guidelines; no longer displays a custom splash on startup\r\n- File organization no longer shows items with a count of 0\r\n- Timed language auto-refresh interval changed to 5 minutes, fixing delayed language updates\r\n- App code optimization: removed dead code, updated some legacy code\r\n- Removed the useless Tab bar at the bottom of the App to improve the full-screen experience\r\n- App storage cache cleaning no longer reports errors on failure, since most failures are simply due to the cache directory not existing\r\n- Directory reorganization: whitelist files are no longer scattered in the config directory but placed in a dedicated directory\r\n- The whitelist now applies to app private directories in internal storage, preventing junk and empty folders from being cleaned within them\r\n- Custom rule cleaning now displays the total cleaned size\r\n\r\n## FIX\r\n\r\n- [Test] Tested fix for disappearing downloaded themes in `Xiaomi Themes` and abnormal image loading in `TIM`\r\n- Fixed a bug where the search box in the App chooser interface merged into the status bar\r\n\r\n</details>\r\n<details>\r\n  <summary> 简体中文 </summary>\r\n\r\n## ADD \r\n\r\n- 自动清理设置页面现在会显示上次运行时间，如果从未运行/设置过则显示为空\r\n- 新增软件清理规则预设: 微信/WeChat (com.tencent.mm)\r\n\r\n## UPDATE\r\n\r\n- App 启动屏改造，遵循相关规范，启动时不再显示自定义 Splash\r\n- 现在文件归类不再显示归类数量为 0 的项\r\n- Timed 语言自动更新时间改为 5 分钟，修复语言更新不及时问题\r\n- App 代码优化，删除无效代码，修改部分老旧代码\r\n- 删除 App 底部无用 Tab 栏，提高全面屏体验\r\n- 现在 App 储存缓存清理失败不再报错，因为其中大多数仅因缓存目录不存在\r\n- 目录整理：白名单文件现在不再散落于配置目录而是专有目录内\r\n- 现在白名单对内部储存 App 私有目录生效，不会再清理其内垃圾、空文件夹\r\n- 现在自定义规则清理会显示总清理大小\r\n\r\n## FIX\r\n\r\n- [Test] 测试修复 `小米主题` 下载主题消失及 `TIM` 图片加载异常问题\r\n- 修复 App 选择界面搜索框融进状态栏的 Bug\r\n\r\n</details>\r\n<details>\r\n  <summary> 正體中文 </summary>\r\n\r\n## ADD \r\n\r\n- 自動清理設定頁面現在會顯示上次執行時間，如果從未執行/設定過則顯示為空\r\n- 新增軟體清理規則預設: 微信/WeChat (com.tencent.mm)\r\n\r\n## UPDATE\r\n\r\n- App 啟動畫面改造，遵循相關規範，啟動時不再顯示自訂 Splash\r\n- 現在檔案歸類不再顯示歸類數量為 0 的項目\r\n- Timed 語言自動更新時間改為 5 分鐘，修復語言更新不及時問題\r\n- App 程式碼最佳化，刪除無效程式碼，修改部分老舊程式碼\r\n- 刪除 App 底部無用 Tab 欄，提高全螢幕體驗\r\n- 現在 App 儲存快取清理失敗不再報錯，因為其中大多數僅因快取目錄不存在\r\n- 目錄整理：白名單檔案現在不再散落於設定目錄而是專有目錄內\r\n- 現在白名單對內部儲存 App 私有目錄生效，不會再清理其內垃圾、空資料夾\r\n- 現在自訂規則清理會顯示總清理大小\r\n\r\n## FIX\r\n\r\n- [Test] 測試修復 `小米主題` 下載主題消失及 `TIM` 圖片載入異常問題\r\n- 修復 App 選擇介面搜尋框融入狀態列的 Bug\r\n\r\n</details>\r\n<details>\r\n  <summary> Русский </summary>\r\n\r\n## ADD \r\n\r\n- На странице настроек автоматической очистки теперь отображается время последнего запуска; если очистка никогда не запускалась/не настраивалась, поле остаётся пустым\r\n- Добавлен предустановленный набор правил очистки приложений: WeChat (com.tencent.mm)\r\n\r\n## UPDATE\r\n\r\n- Переработан экран запуска App в соответствии с рекомендациями; при запуске больше не отображается пользовательский Splash\r\n- Классификация файлов больше не показывает элементы с количеством 0\r\n- Интервал автоматического обновления языка в Timed изменён на 5 минут, исправлена задержка обновления языка\r\n- Оптимизация кода App: удалён неиспользуемый код, обновлён некоторый устаревший код\r\n- Удалена бесполезная нижняя панель Tab в App для улучшения полноэкранного опыта\r\n- Очистка кэша хранилища App больше не сообщает об ошибке при неудаче, поскольку в большинстве случаев причина — отсутствие каталога кэша\r\n- Реорганизация каталогов: файлы белого списка больше не разбросаны по каталогу конфигурации, а находятся в отдельном каталоге\r\n- Белый список теперь применяется к приватным каталогам приложений во внутреннем хранилище — мусор и пустые папки внутри них больше не очищаются\r\n- Очистка по пользовательским правилам теперь отображает общий размер очистки\r\n\r\n## FIX\r\n\r\n- [Test] Протестировано исправление исчезновения загруженных тем в `Xiaomi Themes` и аномальной загрузки изображений в `TIM`\r\n- Исправлена ошибка, из-за которой строка поиска в интерфейсе выбора App сливалась со строкой состояния\r\n\r\n</details>\r\n<details>\r\n  <summary> 한국어 </summary>\r\n\r\n## ADD \r\n\r\n- 자동 정리 설정 페이지에 마지막 실행 시간이 표시됩니다. 한 번도 실행/설정하지 않은 경우 비어 있음으로 표시됩니다\r\n- 앱 정리 규칙 사전 설정 추가: WeChat (com.tencent.mm)\r\n\r\n## UPDATE\r\n\r\n- App 시작 화면 개편, 관련 가이드라인 준수, 시작 시 커스텀 Splash를 더 이상 표시하지 않음\r\n- 파일 분류에서 개수가 0인 항목을 더 이상 표시하지 않음\r\n- Timed 언어 자동 업데이트 간격을 5분으로 변경, 언어 업데이트 지연 문제 수정\r\n- App 코드 최적화: 불필요한 코드 삭제, 일부 오래된 코드 수정\r\n- App 하단의 불필요한 Tab 바를 삭제하여 전체 화면 경험 개선\r\n- App 저장소 캐시 정리 실패 시 더 이상 오류를 보고하지 않음. 실패의 대부분은 캐시 디렉터리가 존재하지 않기 때문임\r\n- 디렉터리 정리: 화이트리스트 파일이 더 이상 구성 디렉터리에 흩어져 있지 않고 전용 디렉터리에 위치함\r\n- 화이트리스트가 내부 저장소의 앱 개인 디렉터리에 적용되어, 그 안의 쓰레기 및 빈 폴더를 더 이상 정리하지 않음\r\n- 커스텀 규칙 정리 시 총 정리 크기가 표시됨\r\n\r\n## FIX\r\n\r\n- [Test] `小米 테마`에서 다운로드한 테마가 사라지는 문제 및 `TIM` 이미지 로딩 이상 문제 수정 테스트\r\n- App 선택 인터페이스의 검색창이 상태 표시줄에 겹치는 버그 수정\r\n\r\n</details>\r\n<details>\r\n  <summary> 日本語 </summary>\r\n\r\n## ADD \r\n\r\n- 自動クリーン設定ページに前回実行時間が表示されるようになりました。一度も実行/設定されていない場合は空で表示されます\r\n- アプリクリーンルールプリセットを追加: WeChat (com.tencent.mm)\r\n\r\n## UPDATE\r\n\r\n- App 起動画面を刷新し、関連ガイドラインに準拠。起動時にカスタム Splash を表示しなくなりました\r\n- ファイル分類で件数が 0 の項目を表示しなくなりました\r\n- Timed の言語自動更新間隔を 5 分に変更し、言語更新の遅延問題を修正\r\n- App コード最適化：無効なコードを削除し、一部の古いコードを更新\r\n- App 下部の不要な Tab バーを削除し、全画面表示の体験を向上\r\n- App のストレージキャッシュクリーン失敗時にエラーを報告しなくなりました。失敗のほとんどはキャッシュディレクトリが存在しないことが原因のためです\r\n- ディレクトリ整理：ホワイトリストファイルは設定ディレクトリに散在せず、専用ディレクトリに配置されるようになりました\r\n- ホワイトリストが内部ストレージのアプリプライベートディレクトリに適用され、その中のゴミや空フォルダがクリーンされなくなりました\r\n- カスタムルールクリーンで合計クリーンサイズが表示されるようになりました\r\n\r\n## FIX\r\n\r\n- [Test] `小米テーマ` でダウンロードしたテーマが消える問題と、`TIM` の画像読み込み異常の修正をテスト\r\n- App 選択画面の検索ボックスがステータスバーに重なるバグを修正\r\n\r\n</details>",
+        "htmlUrl": "https://github.com/FLYCOM-E/ClearBox/releases/tag/102-V5.2.2",
+        "immutable": true,
+        "name": "Version 5.2.2",
+        "prerelease": false,
+        "prop": {
+          "author": "FlyCome",
+          "description": "A Cleaner & More...",
+          "id": "wipe_cache",
+          "name": "ClearBox",
+          "str": "Are You,| OK 🍀？",
+          "updateJson": "https://raw.githubusercontent.com/FLYCOM-E/ClearBox/main/UpdateJson/@LANG/update.json",
+          "version": "V5.2.2",
+          "versionCode": "102"
+        },
+        "publishedAt": "2026-11-16T00:53:00Z",
+        "releaseId": 446490682,
+        "tag": "102-V5.2.2",
+        "tagCommit": "8691f941648cdf05555f0c2e662efddad218ac4c",
+        "version": "V5.2.2",
+        "versionCode": 102
+      },
       "stars": {
         "count": 55,
         "fetchedAt": "2026-11-06T09:31:18.709Z",

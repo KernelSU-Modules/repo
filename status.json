@@ -1312,12 +1312,17 @@
       "fullName": "FLYCOM-E/ClearBox",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-26T04:40:18.124Z",
-      "maxVersionCode": 101,
-      "message": "stable-unavailable: the stable release (versionCode 101) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 101 is published.",
+      "lastSuccessAt": "2026-11-16T00:53:12.083Z",
+      "maxVersionCode": 102,
+      "message": null,
       "repositoryId": 983784625,
       "request": null,
-      "stable": null
+      "stable": {
+        "publishedAt": "2026-11-16T00:53:00Z",
+        "tag": "102-V5.2.2",
+        "version": "V5.2.2",
+        "versionCode": 102
+      }
     },
     "yukizygisk": {
       "contentCommit": "2a767ad8f6de824895596619a16ff55eb2b0e58f",
