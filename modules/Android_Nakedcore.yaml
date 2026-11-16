@@ -1,19 +1,18 @@
 id: Android_Nakedcore
-status: pending
-request:
+status: rejected
+review:
   submissionId: 094dzvqdg0
   kind: submit
-  source:
-    host: github
-    repositoryId: 1433508547
-    ownerId: 131515566
-    fullName: Bcorw/Android_Nakedcore
-    manifestPath: module.yaml
   submittedBy: 131515566
-  submittedByLogin: Bcorw
   submittedAt: 2026-10-25T19:32:24.005Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:15:08.129Z
+  reasonCode: other
+  reason: "Please fix and resubmit: sing-box/mihomo/Node binaries are downloaded and run as root with no checksum verification, and all GitHub downloads go through the third-party mirror gh-proxy.com by default (scripts/common.sh NC_DEF_GH_PROXY). Make the proxy opt-in (empty default), verify sha256/digests of downloads, and do not write into root manager directories (/data/adb/ksu/bin, /data/adb/ap/bin, /data/adb/magisk)."
   telegram:
     chatId: -1001860367685
     messageId: 64590
 createdAt: 2026-10-25T19:32:24.005Z
-updatedAt: 2026-10-25T19:32:24.005Z
+updatedAt: 2026-11-16T12:15:08.129Z
