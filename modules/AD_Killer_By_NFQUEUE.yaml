@@ -1,19 +1,23 @@
 id: AD_Killer_By_NFQUEUE
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1428389721
+  ownerId: 26518808
+  fullName: fengwenhua/AD_Killer_By_NFQUEUE
+  manifestPath: module.yaml
+review:
   submissionId: 7odtl2oc3j
   kind: submit
-  source:
-    host: github
-    repositoryId: 1428389721
-    ownerId: 26518808
-    fullName: fengwenhua/AD_Killer_By_NFQUEUE
-    manifestPath: module.yaml
   submittedBy: 26518808
-  submittedByLogin: fengwenhua
   submittedAt: 2026-10-22T14:29:33.815Z
+  decision: approved
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:13:21.724Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64568
 createdAt: 2026-10-22T14:29:33.815Z
-updatedAt: 2026-10-22T14:29:33.815Z
+updatedAt: 2026-11-16T12:13:21.724Z
