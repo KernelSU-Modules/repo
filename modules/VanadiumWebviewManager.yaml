@@ -1,19 +1,23 @@
 id: VanadiumWebviewManager
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 1430564726
+  ownerId: 105339980
+  fullName: LeanxModulostk/VanadiumWebviewManager
+  manifestPath: module.yaml
+review:
   submissionId: y28avr4oly
   kind: submit
-  source:
-    host: github
-    repositoryId: 1430564726
-    ownerId: 105339980
-    fullName: LeanxModulostk/VanadiumWebviewManager
-    manifestPath: module.yaml
   submittedBy: 105339980
-  submittedByLogin: LeanxModulostk
   submittedAt: 2026-11-13T21:34:55.775Z
+  decision: approved
+  decidedBy: 185127155
+  decidedVia: portal
+  decidedAt: 2026-11-16T08:58:47.034Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 64944
 createdAt: 2026-11-13T21:34:55.775Z
-updatedAt: 2026-11-13T21:34:55.775Z
+updatedAt: 2026-11-16T08:58:47.034Z
