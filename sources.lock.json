@@ -2452,6 +2452,219 @@
         "verified": "self"
       }
     },
+    "Logd_Disabler_ColorOS16": {
+      "content": {
+        "blobs": {
+          ".github/sponsor/alipay.jpg": "6e2af242768ebf88ca948a2f9fd2d573cd197c6e",
+          ".github/sponsor/wechat.png": "33bcdd45c8811dff22b7fd034aeaa4b7c436557c",
+          "README.md": "0e1497f0c5bc09d58973c6543c6caed6a7126925",
+          "module.yaml": "ce75d53503a415357137bc0c501d030d7712d59b"
+        },
+        "commit": "d4cf4e84d3374043181d39d5192b3518f2742e5c",
+        "fetchedAt": "2026-11-16T12:50:15.693Z",
+        "files": {
+          ".github/sponsor/alipay.jpg": "0e3d7cca49ce06d3d3bbfec5e7983507f03e28c322dd0aae9e97182da10c5954",
+          ".github/sponsor/wechat.png": "0966113dc6b3e7e5bcc046f87860f92e9edafca2cf0233bfb017edda1529cbc0",
+          "README.md": "f850ffff4e2159508e397a5acff103faee091e244cfd11ba84040a3f4a240a9a",
+          "module.yaml": "1c805e10cd827dfc87ea864b6c4e859fb80b3b4ce2211c6c32d24a434dfa8122"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "starlifezzz/Logd_Disabler_ColorOS16",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-16T12:50:15.693Z",
+        "lastSuccessAt": "2026-11-16T12:50:15.693Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "Logd_Disabler_ColorOS16",
+      "installationId": 177777871,
+      "maxStableVersionCode": 62,
+      "maxVersionCode": 62,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:4ebad2ba0dec00bbbe3217ce4cb34c073734def5600732b8944b781982733ead",
+            "id": 754798131,
+            "name": "Logd_Disabler_ColorOS16-62-v2.3.29.zip",
+            "sha256": "4ebad2ba0dec00bbbe3217ce4cb34c073734def5600732b8944b781982733ead",
+            "size": 642548,
+            "url": "https://github.com/starlifezzz/Logd_Disabler_ColorOS16/releases/download/v2.3.29/Logd_Disabler_ColorOS16-62-v2.3.29.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/starlifezzz/Logd_Disabler_ColorOS16/compare/v2.3.23...v2.3.29",
+          "htmlUrl": "https://github.com/starlifezzz/Logd_Disabler_ColorOS16/releases/tag/v2.3.29",
+          "immutable": true,
+          "name": "v2.3.29",
+          "prerelease": false,
+          "prop": {
+            "author": "zhangchongjie",
+            "description": "基于Web UI的ColorOS16系统优化模块",
+            "id": "Logd_Disabler_ColorOS16",
+            "name": "ColorOS16 优化版",
+            "updateJson": "https://raw.githubusercontent.com/starlifezzz/Logd_Disabler_ColorOS16/main/update.json",
+            "version": "v2.3.29",
+            "versionCode": "62",
+            "webui": "true"
+          },
+          "publishedAt": "2026-11-16T12:37:00Z",
+          "releaseId": 447020302,
+          "tag": "v2.3.29",
+          "tagCommit": "3324a9c6ce21852e190f68ff587bbeb17d3a7928",
+          "version": "v2.3.29",
+          "versionCode": 62
+        }
+      ],
+      "repositoryId": 1214139400,
+      "seen": {
+        "352430027": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "352486130": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "359736454": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367414060": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367416590": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367418293": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367454562": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367465050": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367729461": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367774864": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367787359": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "367833193": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "372206294": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "372208024": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "397279940": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "399677097": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "431284238": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "447020302": {
+          "checkedAt": "2026-11-16T12:50:15.693Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:4ebad2ba0dec00bbbe3217ce4cb34c073734def5600732b8944b781982733ead",
+          "id": 754798131,
+          "name": "Logd_Disabler_ColorOS16-62-v2.3.29.zip",
+          "sha256": "4ebad2ba0dec00bbbe3217ce4cb34c073734def5600732b8944b781982733ead",
+          "size": 642548,
+          "url": "https://github.com/starlifezzz/Logd_Disabler_ColorOS16/releases/download/v2.3.29/Logd_Disabler_ColorOS16-62-v2.3.29.zip"
+        },
+        "body": "**Full Changelog**: https://github.com/starlifezzz/Logd_Disabler_ColorOS16/compare/v2.3.23...v2.3.29",
+        "htmlUrl": "https://github.com/starlifezzz/Logd_Disabler_ColorOS16/releases/tag/v2.3.29",
+        "immutable": true,
+        "name": "v2.3.29",
+        "prerelease": false,
+        "prop": {
+          "author": "zhangchongjie",
+          "description": "基于Web UI的ColorOS16系统优化模块",
+          "id": "Logd_Disabler_ColorOS16",
+          "name": "ColorOS16 优化版",
+          "updateJson": "https://raw.githubusercontent.com/starlifezzz/Logd_Disabler_ColorOS16/main/update.json",
+          "version": "v2.3.29",
+          "versionCode": "62",
+          "webui": "true"
+        },
+        "publishedAt": "2026-11-16T12:37:00Z",
+        "releaseId": 447020302,
+        "tag": "v2.3.29",
+        "tagCommit": "3324a9c6ce21852e190f68ff587bbeb17d3a7928",
+        "version": "v2.3.29",
+        "versionCode": 62
+      },
+      "stars": {
+        "count": 22,
+        "fetchedAt": "2026-11-16T12:50:15.693Z",
+        "fullName": "starlifezzz/Logd_Disabler_ColorOS16",
+        "repositoryId": 1214139400,
+        "verified": "self"
+      }
+    },
     "MagicNet": {
       "content": {
         "blobs": {
@@ -3807,8 +4020,8 @@
         "versionCode": 22
       },
       "stars": {
-        "count": 148,
-        "fetchedAt": "2026-11-15T12:46:38.273Z",
+        "count": 153,
+        "fetchedAt": "2026-11-16T12:50:15.693Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -8016,8 +8229,8 @@
         "versionCode": 602006999
       },
       "stars": {
-        "count": 1837,
-        "fetchedAt": "2026-11-15T12:46:38.273Z",
+        "count": 1841,
+        "fetchedAt": "2026-11-16T12:50:15.693Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
@@ -10213,8 +10426,8 @@
         "versionCode": 1100
       },
       "stars": {
-        "count": 1435,
-        "fetchedAt": "2026-11-15T12:46:38.273Z",
+        "count": 1441,
+        "fetchedAt": "2026-11-16T12:50:15.693Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -10982,8 +11195,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4207,
-        "fetchedAt": "2026-11-15T12:46:38.273Z",
+        "count": 4212,
+        "fetchedAt": "2026-11-16T12:50:15.693Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"

@@ -158,21 +158,17 @@
       "fullName": "starlifezzz/Logd_Disabler_ColorOS16",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-16T12:50:15.693Z",
+      "maxVersionCode": 62,
       "message": null,
       "repositoryId": 1214139400,
-      "request": {
-        "checkedAt": "2026-11-16T12:43:47.839Z",
-        "commit": "d4cf4e84d3374043181d39d5192b3518f2742e5c",
-        "issues": [],
-        "latestTag": "v2.3.29",
-        "ok": true,
-        "releaseId": 447020302,
-        "repositoryId": 1214139400,
-        "submissionId": "tu8vhicv5k"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-16T12:37:00Z",
+        "tag": "v2.3.29",
+        "version": "v2.3.29",
+        "versionCode": 62
+      }
     },
     "MagicNet": {
       "contentCommit": "a0b645835cb1b0a397ebbdd24e736d1e0d07d3e9",
