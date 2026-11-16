@@ -406,27 +406,6 @@
         "versionCode": 28
       }
     },
-    "ancli": {
-      "contentCommit": "cd2dc1901806cab8c6d0eb4bf715c1f25fa12b30",
-      "fullName": "AHLLX/AnCLI",
-      "health": "ok",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": null,
-      "repositoryId": 1285638838,
-      "request": {
-        "checkedAt": "2026-11-16T04:56:07.375Z",
-        "commit": "cd2dc1901806cab8c6d0eb4bf715c1f25fa12b30",
-        "issues": [],
-        "latestTag": "v1.2.623-beta",
-        "ok": true,
-        "releaseId": 446621601,
-        "repositoryId": 1285638838,
-        "submissionId": "imq88c93o3"
-      },
-      "stable": null
-    },
     "android_packages_apps_SamsungServiceMode": {
       "contentCommit": null,
       "fullName": "dasloy1996-droid/android_packages_apps_SamsungServiceMode",
@@ -548,21 +527,17 @@
       "fullName": "9M2PJU/ChargeBypassCap-PMI",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-16T12:15:03.847Z",
+      "maxVersionCode": 12,
       "message": null,
       "repositoryId": 1437485405,
-      "request": {
-        "checkedAt": "2026-11-06T05:15:33.200Z",
-        "commit": "01d0a20984ab7e11c0f47ac9012b90e302af4065",
-        "issues": [],
-        "latestTag": "v1.10",
-        "ok": true,
-        "releaseId": 433646078,
-        "repositoryId": 1437485405,
-        "submissionId": "r4ffa5id2t"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-04T07:58:15Z",
+        "tag": "v1.10",
+        "version": "v1.10",
+        "versionCode": 12
+      }
     },
     "clipshield": {
       "contentCommit": "d8f93a074897019af9a91320864a00c59c55b0bc",
@@ -597,27 +572,6 @@
         "version": "V1.1",
         "versionCode": 2
       }
-    },
-    "clouddrive2_ksu_magisk": {
-      "contentCommit": "23db139cb5b736f3083558cd109474f9ffe203b3",
-      "fullName": "muort521/clouddrive2_ksu_magisk",
-      "health": "ok",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": null,
-      "repositoryId": 1449726085,
-      "request": {
-        "checkedAt": "2026-11-14T18:43:48.097Z",
-        "commit": "23db139cb5b736f3083558cd109474f9ffe203b3",
-        "issues": [],
-        "latestTag": "v1.1.7-r15",
-        "ok": true,
-        "releaseId": 445511025,
-        "repositoryId": 1449726085,
-        "submissionId": "o0wuzqfnoe"
-      },
-      "stable": null
     },
     "coloros_gplaystore_guard": {
       "contentCommit": "b5bfb6c3051083cb718ad9a74e82e44c75a7a7f0",
@@ -791,21 +745,17 @@
       "fullName": "gohj99/galaxy_watch_nfc_provide",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-16T12:15:03.847Z",
+      "maxVersionCode": 108,
       "message": null,
       "repositoryId": 1457795971,
-      "request": {
-        "checkedAt": "2026-11-14T15:19:00.378Z",
-        "commit": "34c8b0fed3cd30163a412dffe78199c3d5563a9a",
-        "issues": [],
-        "latestTag": "v1.0.8",
-        "ok": true,
-        "releaseId": 445386409,
-        "repositoryId": 1457795971,
-        "submissionId": "kvgeklaedc"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-14T15:18:42Z",
+        "tag": "v1.0.8",
+        "version": "1.0.8",
+        "versionCode": 108
+      }
     },
     "genshin_bootanim": {
       "contentCommit": "68e0c26bdba5596c67754aca83408fa16042d7ba",
@@ -823,27 +773,6 @@
         "version": "1.0.3",
         "versionCode": 10003
       }
-    },
-    "gitmigrator": {
-      "contentCommit": "fa9d088cbbd5eab365a0cd7406399f60ec2a8091",
-      "fullName": "privshell/GitMigrator-KSU",
-      "health": "ok",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": null,
-      "repositoryId": 1430545346,
-      "request": {
-        "checkedAt": "2026-10-25T03:18:22.506Z",
-        "commit": "fa9d088cbbd5eab365a0cd7406399f60ec2a8091",
-        "issues": [],
-        "latestTag": "v1.0.2",
-        "ok": true,
-        "releaseId": 422670415,
-        "repositoryId": 1430545346,
-        "submissionId": "uqwvq4ukjk"
-      },
-      "stable": null
     },
     "gs_quick_reload": {
       "contentCommit": "2e12e86a5b6ad7faaa88aefbcc5ad7625b27137b",
@@ -1024,42 +953,34 @@
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-16T12:15:03.847Z",
+      "maxVersionCode": 120,
       "message": null,
       "repositoryId": 1445526027,
-      "request": {
-        "checkedAt": "2026-11-16T12:13:46.309Z",
-        "commit": "dfa3e893dc9c7e5d03dfade9da46aaf69898f714",
-        "issues": [],
-        "latestTag": "1.2.0",
-        "ok": true,
-        "releaseId": 442524626,
-        "repositoryId": 1445526027,
-        "submissionId": "ll23w1var7"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-12T05:16:19Z",
+        "tag": "1.2.0",
+        "version": "1.2.0",
+        "versionCode": 120
+      }
     },
     "motion_cues_port": {
       "contentCommit": "b5aa13b851c8705b261707b3d45fe78f8ac05c07",
       "fullName": "yibgt/oplus-antidizzy-module",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-16T12:15:03.847Z",
+      "maxVersionCode": 72,
       "message": null,
       "repositoryId": 1459448539,
-      "request": {
-        "checkedAt": "2026-11-16T08:35:01.399Z",
-        "commit": "b5aa13b851c8705b261707b3d45fe78f8ac05c07",
-        "issues": [],
-        "latestTag": "v7.2",
-        "ok": true,
-        "releaseId": 446752041,
-        "repositoryId": 1459448539,
-        "submissionId": "0wt504mw8d"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-16T08:07:47Z",
+        "tag": "v7.2",
+        "version": "v7.2",
+        "versionCode": 72
+      }
     },
     "netproxy": {
       "contentCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
@@ -1128,27 +1049,6 @@
         "version": "01.7.74",
         "versionCode": 185
       }
-    },
-    "orbit_store": {
-      "contentCommit": "8867972050198f0795eafcf013494f6166408bda",
-      "fullName": "privshell/orbit-store",
-      "health": "ok",
-      "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
-      "message": null,
-      "repositoryId": 1421086526,
-      "request": {
-        "checkedAt": "2026-10-24T08:43:02.723Z",
-        "commit": "8867972050198f0795eafcf013494f6166408bda",
-        "issues": [],
-        "latestTag": "v1.1.0",
-        "ok": true,
-        "releaseId": 422614236,
-        "repositoryId": 1421086526,
-        "submissionId": "umdjkfrv3z"
-      },
-      "stable": null
     },
     "playintegrityfix": {
       "contentCommit": "cc06c31e1de8c6d4d25e48c62c2dbc3995979fc3",

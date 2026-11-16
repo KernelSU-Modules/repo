@@ -5375,6 +5375,181 @@
         "verified": "self"
       }
     },
+    "chargebypasscap-pmi": {
+      "content": {
+        "blobs": {
+          "README.md": "79303594a3f2d3818b2bbbb834699bcfc4abe211",
+          "logo.jpg": "b1194f382a62ac955d6758ee80c933839cbfec57",
+          "module.yaml": "bb4f24a6c9855779bba15d7a221a6c8cdefaf9c7"
+        },
+        "commit": "01d0a20984ab7e11c0f47ac9012b90e302af4065",
+        "fetchedAt": "2026-11-16T12:15:03.847Z",
+        "files": {
+          "README.md": "e2b28d4279c530431098e959ef1cd3543ff9387d9dd3922140ec784389128c75",
+          "logo.jpg": "ceb76a51899caca1ce12d383ed1c8e18059f58716ace3afc9b5b4beacbdddf32",
+          "module.yaml": "f5b6247b89b955ff2b80b0a42b5d90e1c60ae9efd354609cacd5b185bc040b01"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "9M2PJU/ChargeBypassCap-PMI",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-16T12:15:03.847Z",
+        "lastSuccessAt": "2026-11-16T12:15:03.847Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "chargebypasscap-pmi",
+      "installationId": 176264662,
+      "maxStableVersionCode": 12,
+      "maxVersionCode": 12,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:6dee96bf82d4dc52b1cde2f689e004a5fa8393b38efeeffb19d2fc94f86c8032",
+            "id": 708724116,
+            "name": "chargebypasscap-pmi-v1.10.zip",
+            "sha256": "6dee96bf82d4dc52b1cde2f689e004a5fa8393b38efeeffb19d2fc94f86c8032",
+            "size": 31370,
+            "url": "https://github.com/9M2PJU/ChargeBypassCap-PMI/releases/download/v1.10/chargebypasscap-pmi-v1.10.zip"
+          },
+          "body": "Docs refresh, code identical to v1.9. Bundles the current README: Support section (donation button moved out of the header), TOC covers Watchdog, universal Requirements with node self-check, no device targeting language.",
+          "htmlUrl": "https://github.com/9M2PJU/ChargeBypassCap-PMI/releases/tag/v1.10",
+          "immutable": true,
+          "name": "v1.10",
+          "prerelease": false,
+          "prop": {
+            "author": "9M2PJU",
+            "description": "[🔋 charging] 80% cap via input_suspend. Open=set cap, Action=full charge.",
+            "donate": "https://buymeacoffee.com/9m2pju",
+            "id": "chargebypasscap-pmi",
+            "name": "ChargeBypassCap PMI",
+            "support": "https://github.com/9M2PJU/ChargeBypassCap-PMI/issues",
+            "version": "v1.10",
+            "versionCode": "12"
+          },
+          "publishedAt": "2026-11-04T07:58:15Z",
+          "releaseId": 433646078,
+          "tag": "v1.10",
+          "tagCommit": "369cf0ce376b91ace3a07ef8de9e4ceecd8f85ea",
+          "version": "v1.10",
+          "versionCode": 12
+        }
+      ],
+      "repositoryId": 1437485405,
+      "seen": {
+        "427045622": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "427047134": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "427065930": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "427090382": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "427099805": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "427430327": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "428719222": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "433559450": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "433574037": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "433590945": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "433637533": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "433646078": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:6dee96bf82d4dc52b1cde2f689e004a5fa8393b38efeeffb19d2fc94f86c8032",
+          "id": 708724116,
+          "name": "chargebypasscap-pmi-v1.10.zip",
+          "sha256": "6dee96bf82d4dc52b1cde2f689e004a5fa8393b38efeeffb19d2fc94f86c8032",
+          "size": 31370,
+          "url": "https://github.com/9M2PJU/ChargeBypassCap-PMI/releases/download/v1.10/chargebypasscap-pmi-v1.10.zip"
+        },
+        "body": "Docs refresh, code identical to v1.9. Bundles the current README: Support section (donation button moved out of the header), TOC covers Watchdog, universal Requirements with node self-check, no device targeting language.",
+        "htmlUrl": "https://github.com/9M2PJU/ChargeBypassCap-PMI/releases/tag/v1.10",
+        "immutable": true,
+        "name": "v1.10",
+        "prerelease": false,
+        "prop": {
+          "author": "9M2PJU",
+          "description": "[🔋 charging] 80% cap via input_suspend. Open=set cap, Action=full charge.",
+          "donate": "https://buymeacoffee.com/9m2pju",
+          "id": "chargebypasscap-pmi",
+          "name": "ChargeBypassCap PMI",
+          "support": "https://github.com/9M2PJU/ChargeBypassCap-PMI/issues",
+          "version": "v1.10",
+          "versionCode": "12"
+        },
+        "publishedAt": "2026-11-04T07:58:15Z",
+        "releaseId": 433646078,
+        "tag": "v1.10",
+        "tagCommit": "369cf0ce376b91ace3a07ef8de9e4ceecd8f85ea",
+        "version": "v1.10",
+        "versionCode": 12
+      },
+      "stars": {
+        "count": 2,
+        "fetchedAt": "2026-11-16T12:15:03.847Z",
+        "fullName": "9M2PJU/ChargeBypassCap-PMI",
+        "repositoryId": 1437485405,
+        "verified": "self"
+      }
+    },
     "clipshield": {
       "content": {
         "blobs": {
@@ -6910,6 +7085,121 @@
         "fetchedAt": "2026-11-13T11:31:25.145Z",
         "fullName": "ReverserID/KSU_Frida",
         "repositoryId": 1434784462,
+        "verified": "self"
+      }
+    },
+    "galaxy_watch_nfc_provide": {
+      "content": {
+        "blobs": {
+          "README.md": "ee94d7e37e94ff8d82191f03dbdd61ab64ecd886",
+          "module.yaml": "2870bb78ddc1492be0ccf4b88d72de7d45114b9d"
+        },
+        "commit": "34c8b0fed3cd30163a412dffe78199c3d5563a9a",
+        "fetchedAt": "2026-11-16T12:15:03.847Z",
+        "files": {
+          "README.md": "08fadcefd01a482f376818d54eee4745319be2e3a16a793f4fd1b5cbcb6902d3",
+          "module.yaml": "98869ae0020530db0157ad5d8246a0e7dcf1abc87bb11031862fba961b069078"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "master"
+      },
+      "fullName": "gohj99/galaxy_watch_nfc_provide",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-16T12:15:03.847Z",
+        "lastSuccessAt": "2026-11-16T12:15:03.847Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "galaxy_watch_nfc_provide",
+      "installationId": 181934897,
+      "maxStableVersionCode": 108,
+      "maxVersionCode": 108,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:ca8418092ff7c662d03334017ceafbfc9f3b19485d12e5f207bf50a27eb2a6b0",
+            "id": 747875338,
+            "name": "galaxy_watch_nfc_provide-v1.0.8.zip",
+            "sha256": "ca8418092ff7c662d03334017ceafbfc9f3b19485d12e5f207bf50a27eb2a6b0",
+            "size": 27301,
+            "url": "https://github.com/gohj99/galaxy_watch_nfc_provide/releases/download/v1.0.8/galaxy_watch_nfc_provide-v1.0.8.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/gohj99/galaxy_watch_nfc_provide/compare/v1.0.7...v1.0.8",
+          "htmlUrl": "https://github.com/gohj99/galaxy_watch_nfc_provide/releases/tag/v1.0.8",
+          "immutable": true,
+          "name": "v1.0.8",
+          "prerelease": false,
+          "prop": {
+            "author": "gohj99",
+            "description": "Device-derived NFC polling with editable NXP and Samsung routing configuration copies managed by Magic Mount-rs, plus optional guarded UID tooling.",
+            "id": "galaxy_watch_nfc_provide",
+            "name": "Galaxy Watch NFC Provide",
+            "version": "1.0.8",
+            "versionCode": "108"
+          },
+          "publishedAt": "2026-11-14T15:18:42Z",
+          "releaseId": 445386409,
+          "tag": "v1.0.8",
+          "tagCommit": "34c8b0fed3cd30163a412dffe78199c3d5563a9a",
+          "version": "1.0.8",
+          "versionCode": 108
+        }
+      ],
+      "repositoryId": 1457795971,
+      "seen": {
+        "445348503": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "445360820": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "445386409": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:ca8418092ff7c662d03334017ceafbfc9f3b19485d12e5f207bf50a27eb2a6b0",
+          "id": 747875338,
+          "name": "galaxy_watch_nfc_provide-v1.0.8.zip",
+          "sha256": "ca8418092ff7c662d03334017ceafbfc9f3b19485d12e5f207bf50a27eb2a6b0",
+          "size": 27301,
+          "url": "https://github.com/gohj99/galaxy_watch_nfc_provide/releases/download/v1.0.8/galaxy_watch_nfc_provide-v1.0.8.zip"
+        },
+        "body": "**Full Changelog**: https://github.com/gohj99/galaxy_watch_nfc_provide/compare/v1.0.7...v1.0.8",
+        "htmlUrl": "https://github.com/gohj99/galaxy_watch_nfc_provide/releases/tag/v1.0.8",
+        "immutable": true,
+        "name": "v1.0.8",
+        "prerelease": false,
+        "prop": {
+          "author": "gohj99",
+          "description": "Device-derived NFC polling with editable NXP and Samsung routing configuration copies managed by Magic Mount-rs, plus optional guarded UID tooling.",
+          "id": "galaxy_watch_nfc_provide",
+          "name": "Galaxy Watch NFC Provide",
+          "version": "1.0.8",
+          "versionCode": "108"
+        },
+        "publishedAt": "2026-11-14T15:18:42Z",
+        "releaseId": 445386409,
+        "tag": "v1.0.8",
+        "tagCommit": "34c8b0fed3cd30163a412dffe78199c3d5563a9a",
+        "version": "1.0.8",
+        "versionCode": 108
+      },
+      "stars": {
+        "count": 1,
+        "fetchedAt": "2026-11-16T12:15:03.847Z",
+        "fullName": "gohj99/galaxy_watch_nfc_provide",
+        "repositoryId": 1457795971,
         "verified": "self"
       }
     },
@@ -9296,6 +9586,320 @@
         "fetchedAt": "2026-11-14T08:54:37.929Z",
         "fullName": "ahsaboy/magisk-netbird",
         "repositoryId": 1274372941,
+        "verified": "self"
+      }
+    },
+    "mirage_forge": {
+      "content": {
+        "blobs": {
+          ".github/logo.png": "69a5399b0353886699c2ac24136ccc024acb891d",
+          "README.md": "f09e8ce569948d2875c5517fd54258211a896c75",
+          "module.yaml": "e8aa44dd3b8f0584742886f4abcb776e765fc6bc",
+          "webui/public/mirageforge-logo.svg": "ab663dd05861c628adf49d4aad0ebed8fe85768e"
+        },
+        "commit": "dfa3e893dc9c7e5d03dfade9da46aaf69898f714",
+        "fetchedAt": "2026-11-16T12:15:03.847Z",
+        "files": {
+          ".github/logo.png": "bf87da9eba197fa767a10921920d77d783fb3dc6f1b46513975f5ea6defa1f2d",
+          "README.md": "a674d01cc39b92801444779dd1b3c61b05ca986593ff820b19f0f6cbb52aaffd",
+          "module.yaml": "e84f417a435685063136750153b739ff81119024da473a63b074a8bcc7701c7f",
+          "webui/public/mirageforge-logo.svg": "82d43251ac75b5bade3db5aa538013c7eea593d27220303e2730d0afdb7737a9"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "jjh138792/MirageForge",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-16T12:15:03.847Z",
+        "lastSuccessAt": "2026-11-16T12:15:03.847Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "mirage_forge",
+      "installationId": 177437801,
+      "maxStableVersionCode": 120,
+      "maxVersionCode": 120,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:60bcecf40881c74f3c35a10dbc6a9d8c64a87749ee8164af28f82264664e3e9e",
+            "id": 738176207,
+            "name": "MirageForge-Zygisk-1.2.0.zip",
+            "sha256": "60bcecf40881c74f3c35a10dbc6a9d8c64a87749ee8164af28f82264664e3e9e",
+            "size": 2181768,
+            "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.0/MirageForge-Zygisk-1.2.0.zip"
+          },
+          "body": "## MirageForge v1.2.0\n\n- **核心安全**：虚拟属性池升级为 `r--p` 只读匿名 `mmap` 内存页，反射字典在 `postAppSpecialize` 后阅后即焚，防堆内存特征扫描\n- **伪装扩展**：新增 `Build.BOARD`、`Build.SOC_MODEL`、`DISPLAY_ID`、`INCREMENTAL`、`SECURITY_PATCH`、SELinux app 域受限属性区与按应用独立 DPI 缩放\n- **液态玻璃 WebUI**：引入球面法线光学折射透镜与二阶胡克定律弹簧阻尼导航球（支持长按放大与阻尼拖拽），新增日/夜/跟随系统三态平滑切换\n- **零 Shell Fork**：接入 KernelSU `pm`/`io` 原生接口，包枚举与配置读写零子进程开销\n- **版本统一**：全端动态读取 `module.prop` 版本号，彻底消除硬编码\n",
+          "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.0",
+          "immutable": true,
+          "name": "MirageForge 1.2.0",
+          "prerelease": false,
+          "prop": {
+            "author": "jjh138792",
+            "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
+            "id": "mirage_forge",
+            "name": "蜃楼工坊 · MirageForge",
+            "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
+            "version": "1.2.0",
+            "versionCode": "120"
+          },
+          "publishedAt": "2026-11-12T05:16:19Z",
+          "releaseId": 442524626,
+          "tag": "1.2.0",
+          "tagCommit": "dfedf87755a36cf0758003d8db2a810e7d87c737",
+          "version": "1.2.0",
+          "versionCode": 120
+        }
+      ],
+      "repositoryId": 1445526027,
+      "seen": {
+        "436435372": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "437463016": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "438049173": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "438087945": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "439114004": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "439981387": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "442524626": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "ok": true
+        },
+        "443561746": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:60bcecf40881c74f3c35a10dbc6a9d8c64a87749ee8164af28f82264664e3e9e",
+          "id": 738176207,
+          "name": "MirageForge-Zygisk-1.2.0.zip",
+          "sha256": "60bcecf40881c74f3c35a10dbc6a9d8c64a87749ee8164af28f82264664e3e9e",
+          "size": 2181768,
+          "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.0/MirageForge-Zygisk-1.2.0.zip"
+        },
+        "body": "## MirageForge v1.2.0\n\n- **核心安全**：虚拟属性池升级为 `r--p` 只读匿名 `mmap` 内存页，反射字典在 `postAppSpecialize` 后阅后即焚，防堆内存特征扫描\n- **伪装扩展**：新增 `Build.BOARD`、`Build.SOC_MODEL`、`DISPLAY_ID`、`INCREMENTAL`、`SECURITY_PATCH`、SELinux app 域受限属性区与按应用独立 DPI 缩放\n- **液态玻璃 WebUI**：引入球面法线光学折射透镜与二阶胡克定律弹簧阻尼导航球（支持长按放大与阻尼拖拽），新增日/夜/跟随系统三态平滑切换\n- **零 Shell Fork**：接入 KernelSU `pm`/`io` 原生接口，包枚举与配置读写零子进程开销\n- **版本统一**：全端动态读取 `module.prop` 版本号，彻底消除硬编码\n",
+        "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.0",
+        "immutable": true,
+        "name": "MirageForge 1.2.0",
+        "prerelease": false,
+        "prop": {
+          "author": "jjh138792",
+          "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
+          "id": "mirage_forge",
+          "name": "蜃楼工坊 · MirageForge",
+          "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
+          "version": "1.2.0",
+          "versionCode": "120"
+        },
+        "publishedAt": "2026-11-12T05:16:19Z",
+        "releaseId": 442524626,
+        "tag": "1.2.0",
+        "tagCommit": "dfedf87755a36cf0758003d8db2a810e7d87c737",
+        "version": "1.2.0",
+        "versionCode": 120
+      },
+      "stars": {
+        "count": 2,
+        "fetchedAt": "2026-11-16T12:15:03.847Z",
+        "fullName": "jjh138792/MirageForge",
+        "repositoryId": 1445526027,
+        "verified": "self"
+      }
+    },
+    "motion_cues_port": {
+      "content": {
+        "blobs": {
+          "README.md": "8ef155e8a64d380d5c04c0b2a0e4c20f4abbb932",
+          "docs/images/antialias-compare.png": "844e19c168142a38a624f307fda1682fabfc6519",
+          "docs/images/native-settings.png": "c5c6181a49f30d255425ba5e241dd23e68794c7a",
+          "docs/images/webui.png": "25a6633cda4063624850b49cbd385b3887cf6404",
+          "module.yaml": "1ee9d9e818e34138989a726f7e767442751b2f1e"
+        },
+        "commit": "b5aa13b851c8705b261707b3d45fe78f8ac05c07",
+        "fetchedAt": "2026-11-16T12:15:03.847Z",
+        "files": {
+          "README.md": "be628a0d557cbe23d53602d4e3380eb604e7deb90674510d6d50c3706073b05d",
+          "docs/images/antialias-compare.png": "a2c0ffe46b2e3b051f3db644019a4a88a067d4150c2d770e10eadebb16d76e1e",
+          "docs/images/native-settings.png": "724cd7cad973be5d3dad35cf92a73bb58676d8e968e868b97f1c81ac3eb444f6",
+          "docs/images/webui.png": "1209f12eb782ad777b4c5408b524d27f5c9842078e14e83a1b10dd1925e80b44",
+          "module.yaml": "4f668c5374fa0c80961706c6b7ab3b423642551e8755a2afd0ba233afc11afbb"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "yibgt/oplus-antidizzy-module",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-16T12:15:03.847Z",
+        "lastSuccessAt": "2026-11-16T12:15:03.847Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "motion_cues_port",
+      "installationId": 182483899,
+      "maxStableVersionCode": 72,
+      "maxVersionCode": 72,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:109abd5f05f50d0ca7279d9b079756bf5eae97214090fe90602d35e59b83bf68",
+            "id": 754003554,
+            "name": "oplus-antidizzy-module-v7.2.zip",
+            "sha256": "109abd5f05f50d0ca7279d9b079756bf5eae97214090fe90602d35e59b83bf68",
+            "size": 33593,
+            "url": "https://github.com/yibgt/oplus-antidizzy-module/releases/download/v7.2/oplus-antidizzy-module-v7.2.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/yibgt/oplus-antidizzy-module/compare/v7.1...v7.2",
+          "htmlUrl": "https://github.com/yibgt/oplus-antidizzy-module/releases/tag/v7.2",
+          "immutable": true,
+          "name": "v7.2",
+          "prerelease": false,
+          "prop": {
+            "author": "三重&大肥鱼   酷安@MieAi ",
+            "description": "为缺少「晕动舒缓显示」的 OPPO/一加/realme(欧加) ColorOS 16 机型补全原生功能：自动识别机型与传感器、驱动原厂 AntiDizzy 渲染、圆点边缘抗锯齿自适应任意分辨率、车辆运动识别（抗手持误判）",
+            "id": "motion_cues_port",
+            "name": "晕动舒缓显示（欧加通用）",
+            "version": "v7.2",
+            "versionCode": "72"
+          },
+          "publishedAt": "2026-11-16T08:07:47Z",
+          "releaseId": 446752041,
+          "tag": "v7.2",
+          "tagCommit": "b5aa13b851c8705b261707b3d45fe78f8ac05c07",
+          "version": "v7.2",
+          "versionCode": 72
+        }
+      ],
+      "repositoryId": 1459448539,
+      "seen": {
+        "446537556": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "446562207": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "446615402": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "446629026": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "446635837": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "446639006": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "446652883": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "446657511": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "446669043": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "446752041": {
+          "checkedAt": "2026-11-16T12:15:03.847Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:109abd5f05f50d0ca7279d9b079756bf5eae97214090fe90602d35e59b83bf68",
+          "id": 754003554,
+          "name": "oplus-antidizzy-module-v7.2.zip",
+          "sha256": "109abd5f05f50d0ca7279d9b079756bf5eae97214090fe90602d35e59b83bf68",
+          "size": 33593,
+          "url": "https://github.com/yibgt/oplus-antidizzy-module/releases/download/v7.2/oplus-antidizzy-module-v7.2.zip"
+        },
+        "body": "**Full Changelog**: https://github.com/yibgt/oplus-antidizzy-module/compare/v7.1...v7.2",
+        "htmlUrl": "https://github.com/yibgt/oplus-antidizzy-module/releases/tag/v7.2",
+        "immutable": true,
+        "name": "v7.2",
+        "prerelease": false,
+        "prop": {
+          "author": "三重&大肥鱼   酷安@MieAi ",
+          "description": "为缺少「晕动舒缓显示」的 OPPO/一加/realme(欧加) ColorOS 16 机型补全原生功能：自动识别机型与传感器、驱动原厂 AntiDizzy 渲染、圆点边缘抗锯齿自适应任意分辨率、车辆运动识别（抗手持误判）",
+          "id": "motion_cues_port",
+          "name": "晕动舒缓显示（欧加通用）",
+          "version": "v7.2",
+          "versionCode": "72"
+        },
+        "publishedAt": "2026-11-16T08:07:47Z",
+        "releaseId": 446752041,
+        "tag": "v7.2",
+        "tagCommit": "b5aa13b851c8705b261707b3d45fe78f8ac05c07",
+        "version": "v7.2",
+        "versionCode": 72
+      },
+      "stars": {
+        "count": 2,
+        "fetchedAt": "2026-11-16T12:15:03.847Z",
+        "fullName": "yibgt/oplus-antidizzy-module",
+        "repositoryId": 1459448539,
         "verified": "self"
       }
     },
