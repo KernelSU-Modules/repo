@@ -1,19 +1,18 @@
 id: clouddrive2_ksu_magisk
-status: pending
-request:
+status: rejected
+review:
   submissionId: o0wuzqfnoe
   kind: submit
-  source:
-    host: github
-    repositoryId: 1449726085
-    ownerId: 223193463
-    fullName: muort521/clouddrive2_ksu_magisk
-    manifestPath: module.yaml
   submittedBy: 223193463
-  submittedByLogin: muort521
   submittedAt: 2026-11-07T22:31:56.666Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:14:10.632Z
+  reasonCode: violation
+  reason: "The bundled CloudDrive2.apk is not the official build: the native clouddrive binaries are binary-patched (functions forced to return true/0), yet the README calls it the official APK. CloudDrive2 is proprietary and no redistribution permission is shown; LICENSE also claims 'KernelSU-Modules contributors' copyright. The installer downloads binaries via third-party ghproxy mirrors without hash verification."
   telegram:
     chatId: -1001860367685
     messageId: 64658
 createdAt: 2026-11-07T22:31:56.666Z
-updatedAt: 2026-11-07T22:31:56.666Z
+updatedAt: 2026-11-16T12:14:10.632Z
