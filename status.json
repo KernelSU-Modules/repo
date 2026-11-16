@@ -738,12 +738,17 @@
       "fullName": "KernelSU-Modules/example-module",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-22T15:16:40.084Z",
+      "lastSuccessAt": "2026-11-16T11:56:41.092Z",
       "maxVersionCode": 100,
-      "message": "stable-unavailable: the stable release (versionCode 100) was deleted or marked as prerelease; the module is hidden until a release with a versionCode above 100 is published.",
+      "message": null,
       "repositoryId": 1413800395,
       "request": null,
-      "stable": null
+      "stable": {
+        "publishedAt": "2026-10-11T01:26:58Z",
+        "tag": "v1.0.0",
+        "version": "v1.0.0",
+        "versionCode": 100
+      }
     },
     "falcon_integrity_fix": {
       "contentCommit": null,
