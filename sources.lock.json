@@ -4767,13 +4767,13 @@
     "adbdisabler": {
       "content": {
         "blobs": {
-          "README.md": "3235a86437e8fc89e4506ea5550986f2beb46cd6",
+          "README.md": "510062184c1f4dcf99eca743fbeb0535f6532cbf",
           "module.yaml": "9a6991296a935048cc7e059eb62871afdd5c7c2e"
         },
-        "commit": "abf7f2898df91afcf1cb018c25d7423aeaa7f785",
-        "fetchedAt": "2026-11-16T12:30:59.251Z",
+        "commit": "07fe0c6ff125de95f981ebb117674541d48b501b",
+        "fetchedAt": "2026-11-16T13:17:01.714Z",
         "files": {
-          "README.md": "63d6b197883610ca55ce4df111c08627c77433020e8c5e64f74fee94361fbaf2",
+          "README.md": "131c3ee57c49514073e093252e488648b8eec0bc61c1484057281f8d05896d33",
           "module.yaml": "faa1963aaf947c84a30eedf009fe4c3412e3ed98c57673f8970187a7bfa41c8a"
         },
         "manifestPath": "module.yaml",
@@ -4782,8 +4782,8 @@
       "fullName": "Shuoh118/ADB-Disabler",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T12:30:59.251Z",
-        "lastSuccessAt": "2026-11-16T12:30:59.251Z",
+        "lastAttemptAt": "2026-11-16T13:17:01.714Z",
+        "lastSuccessAt": "2026-11-16T13:17:01.714Z",
         "message": null,
         "status": "ok"
       },
@@ -8242,9 +8242,9 @@
           "README.md": "c62321acd9f4c89e20f199d612d79fd1641e0f1c",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
-          "docs/badges/downloads.svg": "fdfd516bdd7323ed7e331fb6808503d4ed704927",
-          "docs/badges/release.svg": "5af245089a3ea95b7f6b8fc993afe9fb341cdf4b",
-          "docs/badges/stars.svg": "a98dcf2392e2c1d2bd96a7d702dd24cee125018b",
+          "docs/badges/downloads.svg": "f5e4ea445c76ae872b588da24b132aa98699569a",
+          "docs/badges/release.svg": "18567fb2dc052aeb3589d53b46d459239c52c414",
+          "docs/badges/stars.svg": "549fe785122209cf720b160e4001bd8a611e8218",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
           "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
           "docs/screenshots/app-cache.png": "6c9a644eb5fc9aa8d61036867b504362d1962218",
@@ -8264,15 +8264,15 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "0232ace594b59681795a1808c51f74321aa8a656",
-        "fetchedAt": "2026-11-15T12:48:23.023Z",
+        "commit": "e67db03ed893483aea9a132b7336173e0319e54b",
+        "fetchedAt": "2026-11-16T13:17:01.714Z",
         "files": {
           "README.md": "cf55e4fbf655c63d4a33f651b9cdbb7312acddb4a087a29827d6a4f020461d72",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
-          "docs/badges/downloads.svg": "25742efaed2fe7a7ef47f743b5e74ab1a9f5629e560518f6d9d01e53d3ff0312",
-          "docs/badges/release.svg": "37257911004557e2d24a7c52008fbc5c9b27f5bb89108c7c9ec39e3043a9397c",
-          "docs/badges/stars.svg": "65a0b222b2b36e922f54c33c16245d257f8556d7dabcb4d9c439160002f69610",
+          "docs/badges/downloads.svg": "91029a5dae94968dfa81b8407a87e0273a728730871e6a53f0320039b8da7ba5",
+          "docs/badges/release.svg": "6ab59c3eea30c6af8c3da941ed9de03a00e415e4e64ba085151c12decfdd020f",
+          "docs/badges/stars.svg": "0dd0b9631774af161fa3af4ef04a5685b8b69b5d00e73b0111d31e2b2b8739d0",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
           "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
           "docs/screenshots/app-cache.png": "74ec72f4f19a4a5f6ed51c1e1f8e18f2f196a7b14950fe0124db778644838d43",
@@ -8298,8 +8298,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T11:01:27.632Z",
-        "lastSuccessAt": "2026-11-16T11:01:27.632Z",
+        "lastAttemptAt": "2026-11-16T13:17:01.714Z",
+        "lastSuccessAt": "2026-11-16T13:17:01.714Z",
         "message": null,
         "status": "ok"
       },

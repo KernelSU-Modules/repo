@@ -331,11 +331,11 @@
       }
     },
     "adbdisabler": {
-      "contentCommit": "abf7f2898df91afcf1cb018c25d7423aeaa7f785",
+      "contentCommit": "07fe0c6ff125de95f981ebb117674541d48b501b",
       "fullName": "Shuoh118/ADB-Disabler",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T12:30:59.251Z",
+      "lastSuccessAt": "2026-11-16T13:17:01.714Z",
       "maxVersionCode": 10001,
       "message": null,
       "repositoryId": 1449393283,
@@ -683,11 +683,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "0232ace594b59681795a1808c51f74321aa8a656",
+      "contentCommit": "e67db03ed893483aea9a132b7336173e0319e54b",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T11:01:27.632Z",
+      "lastSuccessAt": "2026-11-16T13:17:01.714Z",
       "maxVersionCode": 233,
       "message": null,
       "repositoryId": 1446403674,
