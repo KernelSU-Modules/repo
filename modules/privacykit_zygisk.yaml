@@ -1,19 +1,18 @@
 id: privacykit_zygisk
-status: pending
-request:
+status: rejected
+review:
   submissionId: f8l84bsyot
   kind: submit
-  source:
-    host: github
-    repositoryId: 1425338410
-    ownerId: 17986082
-    fullName: Mohithash/privacykit-zygisk
-    manifestPath: module.yaml
   submittedBy: 17986082
-  submittedByLogin: Mohithash
   submittedAt: 2026-10-19T19:07:16.079Z
+  decision: rejected
+  decidedBy: 30978685
+  decidedVia: portal
+  decidedAt: 2026-11-16T12:15:49.576Z
+  reasonCode: other
+  reason: The module only ships stripped, closed-source Zygisk .so files that are injected into every app process and hook binder/Keystore/properties; there is no source, LICENSE or CI build, so it cannot be audited. Please publish the source, build releases in CI, add a LICENSE and a README stating requirements (Zygisk Next/ReZygisk, companion app). customize.sh also prints v1.22 instead of v1.35.
   telegram:
     chatId: -1001860367685
     messageId: 64513
 createdAt: 2026-10-19T19:07:16.079Z
-updatedAt: 2026-10-19T19:07:16.079Z
+updatedAt: 2026-11-16T12:15:49.576Z
