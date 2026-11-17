@@ -1,19 +1,23 @@
 id: smallbattery
-status: pending
-request:
+status: listed
+source:
+  host: github
+  repositoryId: 681883979
+  ownerId: 105339980
+  fullName: LeanxModulostk/SmallBattery
+  manifestPath: module.yaml
+review:
   submissionId: zospvjkgjl
   kind: submit
-  source:
-    host: github
-    repositoryId: 681883979
-    ownerId: 105339980
-    fullName: LeanxModulostk/SmallBattery
-    manifestPath: module.yaml
   submittedBy: 105339980
-  submittedByLogin: LeanxModulostk
   submittedAt: 2026-11-16T15:23:12.773Z
+  decision: approved
+  decidedBy: 185127155
+  decidedVia: portal
+  decidedAt: 2026-11-17T18:27:29.385Z
+  reason: null
   telegram:
     chatId: -1001860367685
     messageId: 65252
 createdAt: 2026-11-16T15:23:12.773Z
-updatedAt: 2026-11-16T15:23:12.773Z
+updatedAt: 2026-11-17T18:27:29.385Z
