@@ -4565,8 +4565,8 @@
         "versionCode": 31
       },
       "stars": {
-        "count": 15,
-        "fetchedAt": "2026-11-16T08:59:56.855Z",
+        "count": 16,
+        "fetchedAt": "2026-11-17T11:19:38.116Z",
         "fullName": "LeanxModulostk/VanadiumWebviewManager",
         "repositoryId": 1430564726,
         "verified": "self"
@@ -9913,15 +9913,15 @@
       "content": {
         "blobs": {
           ".github/logo.png": "69a5399b0353886699c2ac24136ccc024acb891d",
-          "README.md": "f09e8ce569948d2875c5517fd54258211a896c75",
+          "README.md": "aedb02d9b04f7be77027877f3db44c1ce0461814",
           "module.yaml": "e8aa44dd3b8f0584742886f4abcb776e765fc6bc",
           "webui/public/mirageforge-logo.svg": "ab663dd05861c628adf49d4aad0ebed8fe85768e"
         },
-        "commit": "dfa3e893dc9c7e5d03dfade9da46aaf69898f714",
-        "fetchedAt": "2026-11-16T12:15:03.847Z",
+        "commit": "1c30d1461b0ef2cb9c933e889d3c270b8e8f5f94",
+        "fetchedAt": "2026-11-17T11:19:38.116Z",
         "files": {
           ".github/logo.png": "bf87da9eba197fa767a10921920d77d783fb3dc6f1b46513975f5ea6defa1f2d",
-          "README.md": "a674d01cc39b92801444779dd1b3c61b05ca986593ff820b19f0f6cbb52aaffd",
+          "README.md": "f4a42b0c8a6c9c56d3935fcf8be60a9831697ba8c24fdf86b96cd335a70e4aa7",
           "module.yaml": "e84f417a435685063136750153b739ff81119024da473a63b074a8bcc7701c7f",
           "webui/public/mirageforge-logo.svg": "82d43251ac75b5bade3db5aa538013c7eea593d27220303e2730d0afdb7737a9"
         },
@@ -9931,8 +9931,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T12:15:03.847Z",
-        "lastSuccessAt": "2026-11-16T12:15:03.847Z",
+        "lastAttemptAt": "2026-11-17T11:19:38.116Z",
+        "lastSuccessAt": "2026-11-17T11:19:38.116Z",
         "message": null,
         "status": "ok"
       },
@@ -9951,7 +9951,7 @@
             "size": 2181768,
             "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.0/MirageForge-Zygisk-1.2.0.zip"
           },
-          "body": "## MirageForge v1.2.0\n\n- **核心安全**：虚拟属性池升级为 `r--p` 只读匿名 `mmap` 内存页，反射字典在 `postAppSpecialize` 后阅后即焚，防堆内存特征扫描\n- **伪装扩展**：新增 `Build.BOARD`、`Build.SOC_MODEL`、`DISPLAY_ID`、`INCREMENTAL`、`SECURITY_PATCH`、SELinux app 域受限属性区与按应用独立 DPI 缩放\n- **液态玻璃 WebUI**：引入球面法线光学折射透镜与二阶胡克定律弹簧阻尼导航球（支持长按放大与阻尼拖拽），新增日/夜/跟随系统三态平滑切换\n- **零 Shell Fork**：接入 KernelSU `pm`/`io` 原生接口，包枚举与配置读写零子进程开销\n- **版本统一**：全端动态读取 `module.prop` 版本号，彻底消除硬编码\n",
+          "body": "## MirageForge v1.2.0\r\n> 注：有些功能参考device_faker\r\n- **核心安全**：虚拟属性池升级为 `r--p` 只读匿名 `mmap` 内存页，反射字典在 `postAppSpecialize` 后阅后即焚，防堆内存特征扫描\r\n- **伪装扩展**：新增 `Build.BOARD`、`Build.SOC_MODEL`、`DISPLAY_ID`、`INCREMENTAL`、`SECURITY_PATCH`、SELinux app 域受限属性区与按应用独立 DPI 缩放\r\n- **液态玻璃 WebUI**：引入球面法线光学折射透镜与二阶胡克定律弹簧阻尼导航球（支持长按放大与阻尼拖拽），新增日/夜/跟随系统三态平滑切换\r\n- **零 Shell Fork**：接入 KernelSU `pm`/`io` 原生接口，包枚举与配置读写零子进程开销\r\n- **版本统一**：全端动态读取 `module.prop` 版本号，彻底消除硬编码\r\n",
           "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.0",
           "immutable": true,
           "name": "MirageForge 1.2.0",
@@ -10031,7 +10031,7 @@
           "size": 2181768,
           "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.0/MirageForge-Zygisk-1.2.0.zip"
         },
-        "body": "## MirageForge v1.2.0\n\n- **核心安全**：虚拟属性池升级为 `r--p` 只读匿名 `mmap` 内存页，反射字典在 `postAppSpecialize` 后阅后即焚，防堆内存特征扫描\n- **伪装扩展**：新增 `Build.BOARD`、`Build.SOC_MODEL`、`DISPLAY_ID`、`INCREMENTAL`、`SECURITY_PATCH`、SELinux app 域受限属性区与按应用独立 DPI 缩放\n- **液态玻璃 WebUI**：引入球面法线光学折射透镜与二阶胡克定律弹簧阻尼导航球（支持长按放大与阻尼拖拽），新增日/夜/跟随系统三态平滑切换\n- **零 Shell Fork**：接入 KernelSU `pm`/`io` 原生接口，包枚举与配置读写零子进程开销\n- **版本统一**：全端动态读取 `module.prop` 版本号，彻底消除硬编码\n",
+        "body": "## MirageForge v1.2.0\r\n> 注：有些功能参考device_faker\r\n- **核心安全**：虚拟属性池升级为 `r--p` 只读匿名 `mmap` 内存页，反射字典在 `postAppSpecialize` 后阅后即焚，防堆内存特征扫描\r\n- **伪装扩展**：新增 `Build.BOARD`、`Build.SOC_MODEL`、`DISPLAY_ID`、`INCREMENTAL`、`SECURITY_PATCH`、SELinux app 域受限属性区与按应用独立 DPI 缩放\r\n- **液态玻璃 WebUI**：引入球面法线光学折射透镜与二阶胡克定律弹簧阻尼导航球（支持长按放大与阻尼拖拽），新增日/夜/跟随系统三态平滑切换\r\n- **零 Shell Fork**：接入 KernelSU `pm`/`io` 原生接口，包枚举与配置读写零子进程开销\r\n- **版本统一**：全端动态读取 `module.prop` 版本号，彻底消除硬编码\r\n",
         "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.0",
         "immutable": true,
         "name": "MirageForge 1.2.0",
@@ -10053,8 +10053,8 @@
         "versionCode": 120
       },
       "stars": {
-        "count": 2,
-        "fetchedAt": "2026-11-16T12:15:03.847Z",
+        "count": 4,
+        "fetchedAt": "2026-11-17T11:19:38.116Z",
         "fullName": "jjh138792/MirageForge",
         "repositoryId": 1445526027,
         "verified": "self"
@@ -10754,8 +10754,8 @@
         "versionCode": 605
       },
       "stars": {
-        "count": 689,
-        "fetchedAt": "2026-11-16T11:01:27.632Z",
+        "count": 694,
+        "fetchedAt": "2026-11-17T11:19:38.116Z",
         "fullName": "maxsteeel/nomount",
         "repositoryId": 1128821046,
         "verified": "self"
@@ -12542,8 +12542,8 @@
         "versionCode": 1
       },
       "stars": {
-        "count": 3,
-        "fetchedAt": "2026-11-16T07:33:28.737Z",
+        "count": 4,
+        "fetchedAt": "2026-11-17T11:19:38.116Z",
         "fullName": "PEMessage/tailscale-bindhosts",
         "repositoryId": 1445398567,
         "verified": "self"

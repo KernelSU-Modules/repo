@@ -829,11 +829,11 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "dfa3e893dc9c7e5d03dfade9da46aaf69898f714",
+      "contentCommit": "1c30d1461b0ef2cb9c933e889d3c270b8e8f5f94",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T12:15:03.847Z",
+      "lastSuccessAt": "2026-11-17T11:19:38.116Z",
       "maxVersionCode": 120,
       "message": null,
       "repositoryId": 1445526027,
