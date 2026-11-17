@@ -1134,20 +1134,20 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "4192737fb72f6a88d946d3c71c08275a68398029",
+      "contentCommit": "770efca8c4ac2f1ab491962b1529f535807d9c21",
       "fullName": "VeryBaaad/ZNNext",
-      "health": "stale",
+      "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-15T13:49:35.592Z",
-      "maxVersionCode": 409,
-      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"master\" (manifest-path-missing)",
+      "lastSuccessAt": "2026-11-17T16:16:34.316Z",
+      "maxVersionCode": 424,
+      "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-15T12:59:37Z",
-        "tag": "v2.18.0.1",
-        "version": "v2.18.0.1 (409-14c2bdd-release)",
-        "versionCode": 409
+        "publishedAt": "2026-11-17T16:16:12Z",
+        "tag": "v2.18.0.2",
+        "version": "v2.18.0.2 (424-770efca-release)",
+        "versionCode": 424
       }
     },
     "zygisksu": {

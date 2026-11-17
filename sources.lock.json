@@ -1987,8 +1987,8 @@
         "versionCode": 20260821
       },
       "stars": {
-        "count": 317,
-        "fetchedAt": "2026-11-16T15:23:41.682Z",
+        "count": 320,
+        "fetchedAt": "2026-11-17T16:16:34.316Z",
         "fullName": "Seyud/FreePPS",
         "repositoryId": 1063205512,
         "requested": "Seyud/FreePPS",
@@ -14247,13 +14247,13 @@
     "zygisknextsu": {
       "content": {
         "blobs": {
-          "README.md": "33de9ec55694234a17d78d30a522ef76739d977c",
+          "README.md": "845796df14ed7e0e95580ad3521b7d8adfa2403b",
           "module.yaml": "e247ea24daaf8b0479da70584df9834166993095"
         },
-        "commit": "4192737fb72f6a88d946d3c71c08275a68398029",
-        "fetchedAt": "2026-11-15T13:49:35.592Z",
+        "commit": "770efca8c4ac2f1ab491962b1529f535807d9c21",
+        "fetchedAt": "2026-11-17T16:16:34.316Z",
         "files": {
-          "README.md": "b614cc4e6fc8d1ebb54051cbb170034b12c26743ce1e1519a268734b57592167",
+          "README.md": "7998a49ba809d5e2b9250e79d5fa9a60d9f235112f01ea2a4366e76d97b7dfab",
           "module.yaml": "54bdb455d9d9ceb3235387c12ac566e4e98f1c8e55a4a0320dcdddded8b71c1b"
         },
         "manifestPath": "module.yaml",
@@ -14262,17 +14262,47 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T15:23:41.682Z",
-        "lastSuccessAt": "2026-11-15T13:49:35.592Z",
-        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"master\" (manifest-path-missing)",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-17T16:16:34.316Z",
+        "lastSuccessAt": "2026-11-17T16:16:34.316Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 409,
-      "maxVersionCode": 409,
+      "maxStableVersionCode": 424,
+      "maxVersionCode": 424,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:38340b3ce132abf8dc56ee3af1429a728308cc33037c2778219195632172b746",
+            "id": 759742281,
+            "name": "ZNNext-v2.18.0.2-424-770efca-release.zip",
+            "sha256": "38340b3ce132abf8dc56ee3af1429a728308cc33037c2778219195632172b746",
+            "size": 6146217,
+            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0.2/ZNNext-v2.18.0.2-424-770efca-release.zip"
+          },
+          "body": "## What's Changed\n* chore(deps): bump loader/src/external/srx_hook/srx_hook from `99e27c0` to `481c45a` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/198\n* chore(deps): bump @m3e/web from 2.12.0 to 2.12.1 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/203\n* chore(deps): bump loader/src/external/frida-gum/src from `00a0528` to `79d5c73` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/204\n* chore(deps): bump loader/src/external/plti from `ffbffaa` to `ba339e9` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/197\n* chore(deps): bump loader/src/external/libarchive from `d0bf2da` to `2d39738` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/199\n* chore(deps): bump motion-v from 2.11.1 to 2.12.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/201\n* chore(deps): bump @material-symbols/font-400 from 0.48.3 to 0.49.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/202\n* chore(deps-dev): bump @vitejs/plugin-vue from 6.0.10 to 6.0.11 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/200\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.18.0.1...v2.18.0.2\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.18.0.2",
+          "immutable": true,
+          "name": "v2.18.0.2",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "ZNNext",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
+            "version": "v2.18.0.2 (424-770efca-release)",
+            "versionCode": "424"
+          },
+          "publishedAt": "2026-11-17T16:16:12Z",
+          "releaseId": 448885442,
+          "tag": "v2.18.0.2",
+          "tagCommit": "770efca8c4ac2f1ab491962b1529f535807d9c21",
+          "version": "v2.18.0.2 (424-770efca-release)",
+          "versionCode": 424
+        },
         {
           "asset": {
             "digest": "sha256:78bb9781a68befdd2306316f3ad3ca9638980c19f1b5dbda2d593331a22ab1a9",
@@ -14542,36 +14572,6 @@
           "tagCommit": "d2ebd232911089faa5cd269dcd9d695080a15fbb",
           "version": "v2.13.0 (304-d2ebd23-release)",
           "versionCode": 304
-        },
-        {
-          "asset": {
-            "digest": "sha256:9a4574766e8f1b54c7567bf2dfbf359ff35f4f8b1043f126cffbee9ddffd46b9",
-            "id": 719801194,
-            "name": "ZNNext-v2.12.0-302-355c206-release.zip",
-            "sha256": "9a4574766e8f1b54c7567bf2dfbf359ff35f4f8b1043f126cffbee9ddffd46b9",
-            "size": 6884437,
-            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.12.0/ZNNext-v2.12.0-302-355c206-release.zip"
-          },
-          "body": "## What's Changed\n* refactor: improve directory structure by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/160\n* feat(plthook): add profilo by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/161\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.11.1...v2.12.0\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.12.0",
-          "immutable": true,
-          "name": "v2.12.0",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "ZNNext",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-            "version": "v2.12.0 (302-355c206-release)",
-            "versionCode": "302"
-          },
-          "publishedAt": "2026-11-07T06:05:42Z",
-          "releaseId": 437377532,
-          "tag": "v2.12.0",
-          "tagCommit": "355c20665cfd41df9827d72cb88f586c980578b0",
-          "version": "v2.12.0 (302-355c206-release)",
-          "versionCode": 302
         }
       ],
       "repositoryId": 1348255159,
@@ -14845,21 +14845,25 @@
         "446063343": {
           "checkedAt": "2026-11-15T13:00:05.535Z",
           "ok": true
+        },
+        "448885442": {
+          "checkedAt": "2026-11-17T16:16:34.316Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:78bb9781a68befdd2306316f3ad3ca9638980c19f1b5dbda2d593331a22ab1a9",
-          "id": 751016479,
-          "name": "ZNNext-v2.18.0.1-409-14c2bdd-release.zip",
-          "sha256": "78bb9781a68befdd2306316f3ad3ca9638980c19f1b5dbda2d593331a22ab1a9",
-          "size": 6148462,
-          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0.1/ZNNext-v2.18.0.1-409-14c2bdd-release.zip"
+          "digest": "sha256:38340b3ce132abf8dc56ee3af1429a728308cc33037c2778219195632172b746",
+          "id": 759742281,
+          "name": "ZNNext-v2.18.0.2-424-770efca-release.zip",
+          "sha256": "38340b3ce132abf8dc56ee3af1429a728308cc33037c2778219195632172b746",
+          "size": 6146217,
+          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0.2/ZNNext-v2.18.0.2-424-770efca-release.zip"
         },
-        "body": "**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.18.0...v2.18.0.1\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.18.0.1",
+        "body": "## What's Changed\n* chore(deps): bump loader/src/external/srx_hook/srx_hook from `99e27c0` to `481c45a` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/198\n* chore(deps): bump @m3e/web from 2.12.0 to 2.12.1 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/203\n* chore(deps): bump loader/src/external/frida-gum/src from `00a0528` to `79d5c73` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/204\n* chore(deps): bump loader/src/external/plti from `ffbffaa` to `ba339e9` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/197\n* chore(deps): bump loader/src/external/libarchive from `d0bf2da` to `2d39738` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/199\n* chore(deps): bump motion-v from 2.11.1 to 2.12.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/201\n* chore(deps): bump @material-symbols/font-400 from 0.48.3 to 0.49.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/202\n* chore(deps-dev): bump @vitejs/plugin-vue from 6.0.10 to 6.0.11 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/200\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.18.0.1...v2.18.0.2\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.18.0.2",
         "immutable": true,
-        "name": "v2.18.0.1",
+        "name": "v2.18.0.2",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -14867,19 +14871,19 @@
           "id": "zygisknextsu",
           "name": "ZNNext",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-          "version": "v2.18.0.1 (409-14c2bdd-release)",
-          "versionCode": "409"
+          "version": "v2.18.0.2 (424-770efca-release)",
+          "versionCode": "424"
         },
-        "publishedAt": "2026-11-15T12:59:37Z",
-        "releaseId": 446063343,
-        "tag": "v2.18.0.1",
-        "tagCommit": "14c2bdd24cfd335b0d12aaa0c71a6538547f7a7b",
-        "version": "v2.18.0.1 (409-14c2bdd-release)",
-        "versionCode": 409
+        "publishedAt": "2026-11-17T16:16:12Z",
+        "releaseId": 448885442,
+        "tag": "v2.18.0.2",
+        "tagCommit": "770efca8c4ac2f1ab491962b1529f535807d9c21",
+        "version": "v2.18.0.2 (424-770efca-release)",
+        "versionCode": 424
       },
       "stars": {
-        "count": 112,
-        "fetchedAt": "2026-11-16T15:23:41.682Z",
+        "count": 113,
+        "fetchedAt": "2026-11-17T16:16:34.316Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"
