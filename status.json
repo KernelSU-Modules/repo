@@ -171,11 +171,11 @@
       }
     },
     "MagicNet": {
-      "contentCommit": "4334f6d93e0ef36f31ab46c1f653ce4dce71a366",
+      "contentCommit": "b4efabb6b0169062d7ebbf4485fe45a576c794de",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T19:50:08.822Z",
+      "lastSuccessAt": "2026-11-17T18:27:57.012Z",
       "maxVersionCode": 10617,
       "message": null,
       "repositoryId": 998453022,
@@ -314,11 +314,11 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "c3e6b7148ead83938e19ce0e677fcd1579c1ce80",
+      "contentCommit": "1c4b794afd8fc30232c33b0499f9fbe3dd60a6f4",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T18:15:00.058Z",
+      "lastSuccessAt": "2026-11-17T18:27:57.012Z",
       "maxVersionCode": 10600,
       "message": null,
       "repositoryId": 1296470014,
@@ -1003,21 +1003,17 @@
       "fullName": "LeanxModulostk/SmallBattery",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-17T18:27:57.012Z",
+      "maxVersionCode": 2,
       "message": null,
       "repositoryId": 681883979,
-      "request": {
-        "checkedAt": "2026-11-16T15:23:41.682Z",
-        "commit": "a038c0a3b1eb93e3cdc08d06e0553cd246a80d91",
-        "issues": [],
-        "latestTag": "v2",
-        "ok": true,
-        "releaseId": 447216501,
-        "repositoryId": 681883979,
-        "submissionId": "zospvjkgjl"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-16T15:22:29Z",
+        "tag": "v2",
+        "version": "v2",
+        "versionCode": 2
+      }
     },
     "susdock": {
       "contentCommit": "2ddabb7cbb0cad81df153cb87bad86b72779e809",

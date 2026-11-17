@@ -2668,14 +2668,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "3023bcfc333b3a0c5ca730b85de68e86000ff7e3",
+          "README.md": "5c861d48f6ba5093cf94e98bc3f1ad8a84695b96",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "4334f6d93e0ef36f31ab46c1f653ce4dce71a366",
-        "fetchedAt": "2026-11-16T19:50:08.822Z",
+        "commit": "b4efabb6b0169062d7ebbf4485fe45a576c794de",
+        "fetchedAt": "2026-11-17T18:27:57.012Z",
         "files": {
-          "README.md": "efab2d967c6b1a946117114c79ad928a955c9a9a8b97a9dad0dcb87cf11eb124",
+          "README.md": "b04f139ca81399d1aa3d60de97be8ad7066b4ed719d9904ce656ccf83e470aa3",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -2685,8 +2685,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T19:50:08.822Z",
-        "lastSuccessAt": "2026-11-16T19:50:08.822Z",
+        "lastAttemptAt": "2026-11-17T18:27:57.012Z",
+        "lastSuccessAt": "2026-11-17T18:27:57.012Z",
         "message": null,
         "status": "ok"
       },
@@ -4602,14 +4602,14 @@
     "acc": {
       "content": {
         "blobs": {
-          "README.md": "47e227e20e154e9d06d98678f2f383ced26b6736",
+          "README.md": "3cb34add4f4ddf1c9e87d3727d1cb81010a5eb5d",
           "install/icon/webui.png": "7ccf08e2d10443ace2fc0589c408f22939b94eaa",
           "module.yaml": "217c4de4210853cb54c07fba50df2fc12bf66175"
         },
-        "commit": "c3e6b7148ead83938e19ce0e677fcd1579c1ce80",
-        "fetchedAt": "2026-11-16T18:15:00.058Z",
+        "commit": "1c4b794afd8fc30232c33b0499f9fbe3dd60a6f4",
+        "fetchedAt": "2026-11-17T18:27:57.012Z",
         "files": {
-          "README.md": "9bb9dc98aa61b4fcbc9a195a16afb5f9c0795fee34adbd0675bdfd0f7c7dd859",
+          "README.md": "afb019d41545b4e5554684a832247ebc51b879242bd45dbd9424de44d534f159",
           "install/icon/webui.png": "26ef13138d9c44b8b7fdcc741cc921ba51b1c2b40b8764cc609d2715933a8eea",
           "module.yaml": "e2b5b7270353dafb71358e635bcadeaf321aad421239e1f3d55ef6c9c5db1ef9"
         },
@@ -4619,8 +4619,8 @@
       "fullName": "Infiniti151/acc-with-webui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T18:15:00.058Z",
-        "lastSuccessAt": "2026-11-16T18:15:00.058Z",
+        "lastAttemptAt": "2026-11-17T18:27:57.012Z",
+        "lastSuccessAt": "2026-11-17T18:27:57.012Z",
         "message": null,
         "status": "ok"
       },
@@ -5148,8 +5148,8 @@
         "versionCode": 28
       },
       "stars": {
-        "count": 105,
-        "fetchedAt": "2026-11-16T04:56:07.375Z",
+        "count": 106,
+        "fetchedAt": "2026-11-17T18:27:57.012Z",
         "fullName": "Dr-TSNG/altdb",
         "repositoryId": 1368146952,
         "verified": "self"
@@ -5513,8 +5513,8 @@
         "versionCode": 870
       },
       "stars": {
-        "count": 40,
-        "fetchedAt": "2026-11-16T18:15:00.058Z",
+        "count": 39,
+        "fetchedAt": "2026-11-17T18:27:57.012Z",
         "fullName": "pavelc4/auriya",
         "repositoryId": 1081222414,
         "verified": "self"
@@ -12252,6 +12252,125 @@
         "verified": "self"
       }
     },
+    "smallbattery": {
+      "content": {
+        "blobs": {
+          "README.md": "d66f455fd483d6a5f9f02dfcb152ada039f1234c",
+          "lean.jpg": "afd3f7c9a79cb9cd80bdeb0094c20fd006955d8a",
+          "module.yaml": "7b57f39ef80edae9e97b400a09a59df7a0b31452"
+        },
+        "commit": "a038c0a3b1eb93e3cdc08d06e0553cd246a80d91",
+        "fetchedAt": "2026-11-17T18:27:57.012Z",
+        "files": {
+          "README.md": "6546b271a61001335527d2c48d2ad9a932c93fd1b7e28e22941a2226f8acf88e",
+          "lean.jpg": "d0edba7d345331fbfaeb8f8e141b3de462da0e02deb02c18d7b6bff6fa094b63",
+          "module.yaml": "0307971f2af570308ba943dc2484d9870eda263d418eb80368263313e329d5ae"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "LeanxModulostk/SmallBattery",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-17T18:27:57.012Z",
+        "lastSuccessAt": "2026-11-17T18:27:57.012Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "smallbattery",
+      "installationId": 181726682,
+      "maxStableVersionCode": 2,
+      "maxVersionCode": 2,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:5f7c3c324f7d6643626000c12164286af76f7013236c4ba9f853305a7d8a0709",
+            "id": 755338536,
+            "name": "Small-Battery-v2.zip",
+            "sha256": "5f7c3c324f7d6643626000c12164286af76f7013236c4ba9f853305a7d8a0709",
+            "size": 984132,
+            "url": "https://github.com/LeanxModulostk/SmallBattery/releases/download/v2/Small-Battery-v2.zip"
+          },
+          "body": "<img width=\"2000\" height=\"2000\" alt=\"lean\" src=\"https://github.com/user-attachments/assets/2b3f69a3-2372-4781-94e3-3ed5d949e054\" />\r\n\r\n\r\n_This module makes the system think that it has a smaller battery than normal, which will apply more precise adjustments to save battery._\r\n\r\n- Donations: [PayPal](https://www.paypal.me/LeanHijosdesusMadres) - [LiberaPay](https://liberapay.com/LeanHijosdesusMadres) - [Ko-fi](https://ko-fi.com/leantupapi) - [Binance](https://app.binance.com/qr/dplk7b28e9c123ff4e378b472505b0adba63) - [SociaBuzz](https://sociabuzz.com/leanhijosdesusmadres/support) - [More](https://t.me/modulemagiskChiase/4846)",
+          "htmlUrl": "https://github.com/LeanxModulostk/SmallBattery/releases/tag/v2",
+          "immutable": true,
+          "name": "Small Battery v2",
+          "prerelease": false,
+          "prop": {
+            "actionIcon": "lean.jpg",
+            "author": "@LeanHijosdesusMadres",
+            "banner": "leanbanner.jpg",
+            "description": "This module makes the system think that it has a smaller battery than normal, which will apply more precise adjustments to save battery.",
+            "donate": "https://www.paypal.me/LeanHijosdesusMadres",
+            "id": "smallbattery",
+            "name": "Small Battery",
+            "support": "https://t.me/modulostk",
+            "version": "v2",
+            "versionCode": "2"
+          },
+          "publishedAt": "2026-11-16T15:22:29Z",
+          "releaseId": 447216501,
+          "tag": "v2",
+          "tagCommit": "a038c0a3b1eb93e3cdc08d06e0553cd246a80d91",
+          "version": "v2",
+          "versionCode": 2
+        }
+      ],
+      "repositoryId": 681883979,
+      "seen": {
+        "118303385": {
+          "checkedAt": "2026-11-17T18:27:57.012Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "447216501": {
+          "checkedAt": "2026-11-17T18:27:57.012Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:5f7c3c324f7d6643626000c12164286af76f7013236c4ba9f853305a7d8a0709",
+          "id": 755338536,
+          "name": "Small-Battery-v2.zip",
+          "sha256": "5f7c3c324f7d6643626000c12164286af76f7013236c4ba9f853305a7d8a0709",
+          "size": 984132,
+          "url": "https://github.com/LeanxModulostk/SmallBattery/releases/download/v2/Small-Battery-v2.zip"
+        },
+        "body": "<img width=\"2000\" height=\"2000\" alt=\"lean\" src=\"https://github.com/user-attachments/assets/2b3f69a3-2372-4781-94e3-3ed5d949e054\" />\r\n\r\n\r\n_This module makes the system think that it has a smaller battery than normal, which will apply more precise adjustments to save battery._\r\n\r\n- Donations: [PayPal](https://www.paypal.me/LeanHijosdesusMadres) - [LiberaPay](https://liberapay.com/LeanHijosdesusMadres) - [Ko-fi](https://ko-fi.com/leantupapi) - [Binance](https://app.binance.com/qr/dplk7b28e9c123ff4e378b472505b0adba63) - [SociaBuzz](https://sociabuzz.com/leanhijosdesusmadres/support) - [More](https://t.me/modulemagiskChiase/4846)",
+        "htmlUrl": "https://github.com/LeanxModulostk/SmallBattery/releases/tag/v2",
+        "immutable": true,
+        "name": "Small Battery v2",
+        "prerelease": false,
+        "prop": {
+          "actionIcon": "lean.jpg",
+          "author": "@LeanHijosdesusMadres",
+          "banner": "leanbanner.jpg",
+          "description": "This module makes the system think that it has a smaller battery than normal, which will apply more precise adjustments to save battery.",
+          "donate": "https://www.paypal.me/LeanHijosdesusMadres",
+          "id": "smallbattery",
+          "name": "Small Battery",
+          "support": "https://t.me/modulostk",
+          "version": "v2",
+          "versionCode": "2"
+        },
+        "publishedAt": "2026-11-16T15:22:29Z",
+        "releaseId": 447216501,
+        "tag": "v2",
+        "tagCommit": "a038c0a3b1eb93e3cdc08d06e0553cd246a80d91",
+        "version": "v2",
+        "versionCode": 2
+      },
+      "stars": {
+        "count": 23,
+        "fetchedAt": "2026-11-17T18:27:57.012Z",
+        "fullName": "LeanxModulostk/SmallBattery",
+        "repositoryId": 681883979,
+        "verified": "self"
+      }
+    },
     "susdock": {
       "content": {
         "blobs": {
@@ -13792,8 +13911,8 @@
         "versionCode": 577
       },
       "stars": {
-        "count": 16,
-        "fetchedAt": "2026-11-12T02:56:46.406Z",
+        "count": 17,
+        "fetchedAt": "2026-11-17T18:27:57.012Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
