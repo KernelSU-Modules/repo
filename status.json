@@ -710,20 +710,20 @@
       }
     },
     "hypercool": {
-      "contentCommit": "e67db03ed893483aea9a132b7336173e0319e54b",
+      "contentCommit": "bc84819a15c44e0a4435bd0e01daf74ba0c5437c",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T13:17:01.714Z",
-      "maxVersionCode": 233,
+      "lastSuccessAt": "2026-11-17T02:45:18.589Z",
+      "maxVersionCode": 234,
       "message": null,
       "repositoryId": 1446403674,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-16T11:01:03Z",
-        "tag": "v2.3.3",
-        "version": "v2.3.3",
-        "versionCode": 233
+        "publishedAt": "2026-11-17T02:44:48Z",
+        "tag": "v2.3.4",
+        "version": "v2.3.4",
+        "versionCode": 234
       }
     },
     "kernelsu-tailscaled": {

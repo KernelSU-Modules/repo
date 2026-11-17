@@ -1226,8 +1226,8 @@
         "versionCode": 772
       },
       "stars": {
-        "count": 437,
-        "fetchedAt": "2026-11-14T11:39:56.348Z",
+        "count": 436,
+        "fetchedAt": "2026-11-17T02:45:18.589Z",
         "fullName": "AlirezaParsi/COPG",
         "repositoryId": 950100740,
         "verified": "self"
@@ -3253,8 +3253,8 @@
         "versionCode": 10617
       },
       "stars": {
-        "count": 233,
-        "fetchedAt": "2026-11-15T15:03:31.988Z",
+        "count": 234,
+        "fetchedAt": "2026-11-17T02:45:18.589Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -5902,8 +5902,8 @@
         "versionCode": 7
       },
       "stars": {
-        "count": 9,
-        "fetchedAt": "2026-11-10T11:15:49.076Z",
+        "count": 10,
+        "fetchedAt": "2026-11-17T02:45:18.589Z",
         "fullName": "klmmlk/KernelSU-ClipShield",
         "repositoryId": 1417109515,
         "verified": "self"
@@ -6283,8 +6283,8 @@
         "versionCode": 20261109
       },
       "stars": {
-        "count": 900,
-        "fetchedAt": "2026-11-16T00:37:27.675Z",
+        "count": 902,
+        "fetchedAt": "2026-11-17T02:45:18.589Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -6883,8 +6883,8 @@
         "versionCode": 155
       },
       "stars": {
-        "count": 464,
-        "fetchedAt": "2026-11-16T00:37:27.675Z",
+        "count": 462,
+        "fetchedAt": "2026-11-17T02:45:18.589Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -8243,7 +8243,7 @@
     "hypercool": {
       "content": {
         "blobs": {
-          "README.md": "c62321acd9f4c89e20f199d612d79fd1641e0f1c",
+          "README.md": "591ddad5f869597d35b7f3fd0bb745e5004028b5",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
           "docs/badges/downloads.svg": "f5e4ea445c76ae872b588da24b132aa98699569a",
@@ -8268,10 +8268,10 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "e67db03ed893483aea9a132b7336173e0319e54b",
-        "fetchedAt": "2026-11-16T13:17:01.714Z",
+        "commit": "bc84819a15c44e0a4435bd0e01daf74ba0c5437c",
+        "fetchedAt": "2026-11-17T02:45:18.589Z",
         "files": {
-          "README.md": "cf55e4fbf655c63d4a33f651b9cdbb7312acddb4a087a29827d6a4f020461d72",
+          "README.md": "43c337b71b9df483b9b8aec71e6cbe571051078be135c0c7d624e13b326faef3",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
           "docs/badges/downloads.svg": "91029a5dae94968dfa81b8407a87e0273a728730871e6a53f0320039b8da7ba5",
@@ -8302,17 +8302,48 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T13:17:01.714Z",
-        "lastSuccessAt": "2026-11-16T13:17:01.714Z",
+        "lastAttemptAt": "2026-11-17T02:45:18.589Z",
+        "lastSuccessAt": "2026-11-17T02:45:18.589Z",
         "message": null,
         "status": "ok"
       },
       "id": "hypercool",
       "installationId": 179696560,
-      "maxStableVersionCode": 233,
-      "maxVersionCode": 233,
+      "maxStableVersionCode": 234,
+      "maxVersionCode": 234,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:befc42059dcc672d5c3ff7d66552d4ce15792678b4bfa1dd91f53dcbdc47ebc4",
+            "id": 757344857,
+            "name": "HyperCool_v2.3.4.zip",
+            "sha256": "befc42059dcc672d5c3ff7d66552d4ce15792678b4bfa1dd91f53dcbdc47ebc4",
+            "size": 352486,
+            "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.4/HyperCool_v2.3.4.zip"
+          },
+          "body": "\n- New: Heat guard (experimental, off by default) lowers the big-core CPU cap and the refresh rate while the battery is hot, then restores both after cool-down. Applied limits are also put back when the keeper stops, on reboot, when the module is disabled, or on uninstall.\n- New: `rr_hold` (1–5 s, default 2 s) replaces the fixed 2 s idle delay of the touch refresh keeper.\n- New: Recent activity on Home lists keeper actions, including CPU cap, charge limit, cache clean, calibration, screen-off, F2FS, dex2oat, and manual cache/RAM actions. It refreshes automatically when Home opens or becomes visible again, and the manual Refresh button is gone.\n- Changed: the existing tuning lists now include scheduler RT clamp, quiet-kernel entries, RAM compaction and page-cluster, more props, an extra GMS freeze component, and four more Dropbox tags. WebUI descriptions list the new entries.\n- Changed: `joyose_off` moved to the experimental risk group.\n- Fixed: invalid battery temperatures such as `-`, `--`, and `1-2` are rejected, so a hot CPU cap is not kept when the temperature cannot be read.\n- Fixed: with Adaptive refresh rate on, the heat guard also lowers `min_refresh_rate` when it is above the heat cap and restores it after cool-down.\n- Fixed: WebUI no longer downgrades `cfg_ver` when loading or importing a config from a newer build.\n- Fixed: \"Battery hot\" is logged only when a limit was actually lowered, and the cool-down log no longer ends with an empty detail.\n- Fixed: Wi-Fi pause and failure logs use titles that match the event, and module status only reports \"heat guard running\" when the keeper is applied or partial.\n\n",
+          "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.4",
+          "immutable": true,
+          "name": "HyperCool v2.3.4",
+          "prerelease": false,
+          "prop": {
+            "author": "Yudharn",
+            "banner": "banner.jpg",
+            "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
+            "id": "hypercool",
+            "name": "HyperCool - Heat & Battery Fix",
+            "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
+            "version": "v2.3.4",
+            "versionCode": "234"
+          },
+          "publishedAt": "2026-11-17T02:44:48Z",
+          "releaseId": 448015591,
+          "tag": "v2.3.4",
+          "tagCommit": "bc84819a15c44e0a4435bd0e01daf74ba0c5437c",
+          "version": "v2.3.4",
+          "versionCode": 234
+        },
         {
           "asset": {
             "digest": "sha256:0e736c3e50b8a44cd46329025c7f6183fa855e94f68efa202a847edc6470f067",
@@ -8579,21 +8610,25 @@
         "446922144": {
           "checkedAt": "2026-11-16T11:01:27.632Z",
           "ok": true
+        },
+        "448015591": {
+          "checkedAt": "2026-11-17T02:45:18.589Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:0e736c3e50b8a44cd46329025c7f6183fa855e94f68efa202a847edc6470f067",
-          "id": 754512562,
-          "name": "HyperCool_v2.3.3.zip",
-          "sha256": "0e736c3e50b8a44cd46329025c7f6183fa855e94f68efa202a847edc6470f067",
-          "size": 342105,
-          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.3/HyperCool_v2.3.3.zip"
+          "digest": "sha256:befc42059dcc672d5c3ff7d66552d4ce15792678b4bfa1dd91f53dcbdc47ebc4",
+          "id": 757344857,
+          "name": "HyperCool_v2.3.4.zip",
+          "sha256": "befc42059dcc672d5c3ff7d66552d4ce15792678b4bfa1dd91f53dcbdc47ebc4",
+          "size": 352486,
+          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.4/HyperCool_v2.3.4.zip"
         },
-        "body": "\n- Changed: battery-tuned defaults for 12 numeric inputs (cpu_cap 95 to 88, gpu_idle_timer 64 to 20, walt_hispeed_load 95 to 99, walt_up_rate 1000 to 5000, bg_uclamp 30 to 25, soff_cpu 60 to 30, soff_radio_min 15 to 5, soff_data_min 10 to 5, vm_writeback 3000 to 6000, vm_stat_interval 10 to 60, vm_dirty_bg 10 to 20, vm_dirty 30 to 40). Feature switches and levels are unchanged.\n- New: adaptive refresh rate uses the panel's highest Hz while active and lowest Hz while idle (1 Hz on LTPO), with manual overrides and a 90/30 fallback.\n- Changed: updating the module applies the new battery defaults only where the value is still the old default, so user changes are kept (cfg_ver 4).\n- Fixed: Location restore returns the saved location_mode even when Location is already on, and the Wi-Fi scan-off and Doze writes are verified by reading them back.\n- WebUI: Source code link added after Telegram, and the soff_radio and scan_off descriptions match the module.\n\n",
-        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.3",
+        "body": "\n- New: Heat guard (experimental, off by default) lowers the big-core CPU cap and the refresh rate while the battery is hot, then restores both after cool-down. Applied limits are also put back when the keeper stops, on reboot, when the module is disabled, or on uninstall.\n- New: `rr_hold` (1–5 s, default 2 s) replaces the fixed 2 s idle delay of the touch refresh keeper.\n- New: Recent activity on Home lists keeper actions, including CPU cap, charge limit, cache clean, calibration, screen-off, F2FS, dex2oat, and manual cache/RAM actions. It refreshes automatically when Home opens or becomes visible again, and the manual Refresh button is gone.\n- Changed: the existing tuning lists now include scheduler RT clamp, quiet-kernel entries, RAM compaction and page-cluster, more props, an extra GMS freeze component, and four more Dropbox tags. WebUI descriptions list the new entries.\n- Changed: `joyose_off` moved to the experimental risk group.\n- Fixed: invalid battery temperatures such as `-`, `--`, and `1-2` are rejected, so a hot CPU cap is not kept when the temperature cannot be read.\n- Fixed: with Adaptive refresh rate on, the heat guard also lowers `min_refresh_rate` when it is above the heat cap and restores it after cool-down.\n- Fixed: WebUI no longer downgrades `cfg_ver` when loading or importing a config from a newer build.\n- Fixed: \"Battery hot\" is logged only when a limit was actually lowered, and the cool-down log no longer ends with an empty detail.\n- Fixed: Wi-Fi pause and failure logs use titles that match the event, and module status only reports \"heat guard running\" when the keeper is applied or partial.\n\n",
+        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.4",
         "immutable": true,
-        "name": "HyperCool v2.3.3",
+        "name": "HyperCool v2.3.4",
         "prerelease": false,
         "prop": {
           "author": "Yudharn",
@@ -8602,19 +8637,19 @@
           "id": "hypercool",
           "name": "HyperCool - Heat & Battery Fix",
           "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
-          "version": "v2.3.3",
-          "versionCode": "233"
+          "version": "v2.3.4",
+          "versionCode": "234"
         },
-        "publishedAt": "2026-11-16T11:01:03Z",
-        "releaseId": 446922144,
-        "tag": "v2.3.3",
-        "tagCommit": "0d20119b5738075f6265f3cbace0530da654cd53",
-        "version": "v2.3.3",
-        "versionCode": 233
+        "publishedAt": "2026-11-17T02:44:48Z",
+        "releaseId": 448015591,
+        "tag": "v2.3.4",
+        "tagCommit": "bc84819a15c44e0a4435bd0e01daf74ba0c5437c",
+        "version": "v2.3.4",
+        "versionCode": 234
       },
       "stars": {
-        "count": 24,
-        "fetchedAt": "2026-11-16T01:30:50.680Z",
+        "count": 25,
+        "fetchedAt": "2026-11-17T02:45:18.589Z",
         "fullName": "yudharn/HyperCool",
         "repositoryId": 1446403674,
         "verified": "self"
@@ -10893,8 +10928,8 @@
         "versionCode": 180
       },
       "stars": {
-        "count": 714,
-        "fetchedAt": "2026-11-16T00:37:27.675Z",
+        "count": 723,
+        "fetchedAt": "2026-11-17T02:45:18.589Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
