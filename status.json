@@ -710,11 +710,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "93f48b8ed655e49f05122e49acfbe36c7d96278e",
+      "contentCommit": "1ddeeaafccc1ff11dd8c66741674a5144f932f7a",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-17T07:00:54.020Z",
+      "lastSuccessAt": "2026-11-17T14:43:02.594Z",
       "maxVersionCode": 235,
       "message": null,
       "repositoryId": 1446403674,
@@ -846,20 +846,20 @@
       }
     },
     "motion_cues_port": {
-      "contentCommit": "d7e106548b532b73518d3de5badffe4b72efbef5",
+      "contentCommit": "35da8ec655b6ac0899042ac77be3d802e8f701ac",
       "fullName": "MieAiiii/oplus-antidizzy-module",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T18:37:10.908Z",
-      "maxVersionCode": 74,
+      "lastSuccessAt": "2026-11-17T14:43:02.594Z",
+      "maxVersionCode": 75,
       "message": null,
       "repositoryId": 1459448539,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-16T18:36:46Z",
-        "tag": "v7.4",
-        "version": "v7.4",
-        "versionCode": 74
+        "publishedAt": "2026-11-17T14:42:22Z",
+        "tag": "v7.5",
+        "version": "v7.5",
+        "versionCode": 75
       }
     },
     "netproxy": {
