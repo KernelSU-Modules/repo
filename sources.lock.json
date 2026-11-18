@@ -2668,14 +2668,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "94bfa4eedeb7002630cf508cae4677657f3d5264",
+          "README.md": "053e8ff62df9d9e9ef97b87226b2c6ac95f93e72",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "4bbe8da8586544e4c8c1ae502610b86d95f6396f",
-        "fetchedAt": "2026-11-18T11:22:52.737Z",
+        "commit": "896c813424be189c2fee8cc906e981d1cc6f0132",
+        "fetchedAt": "2026-11-18T11:33:01.829Z",
         "files": {
-          "README.md": "d3202a8a480c96a370f88161f2e72b6731b3b9c4cdf4a6cfd8047f594df051d5",
+          "README.md": "f641f35a22337d0931c0db4a5320f17895f72a4bbb1251da05adeb371d659e76",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -2685,8 +2685,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-18T11:22:52.737Z",
-        "lastSuccessAt": "2026-11-18T11:22:52.737Z",
+        "lastAttemptAt": "2026-11-18T11:33:01.829Z",
+        "lastSuccessAt": "2026-11-18T11:33:01.829Z",
         "message": null,
         "status": "ok"
       },
@@ -6025,13 +6025,13 @@
     "coloros_wifi_sense": {
       "content": {
         "blobs": {
-          "README.md": "07ad86e9890a802d110d7afb1bb9fbeb6925d45a",
+          "README.md": "9e6a4896d770c73eac25391557c4fe45d0be8053",
           "module.yaml": "b8c5900e2ed1a9d603343a311dfcfeaba1040f2f"
         },
-        "commit": "841c99a9b6ca73dc7df024b5d36b872a2150516f",
-        "fetchedAt": "2026-11-18T01:23:15.169Z",
+        "commit": "0f03cb3cea2cf1b070084ebb3433a5c0c6ba9a72",
+        "fetchedAt": "2026-11-18T11:33:01.829Z",
         "files": {
-          "README.md": "ea3aa7df591273b3becfc75d7b07dcaaf011df2b3095717ca6e39f9a7224aa28",
+          "README.md": "51b026efa0925d802afcc7e59dd2bea638f7f940128d91bf71727d7c05f679cf",
           "module.yaml": "1cb86d574780de5a3e30d8f6bd2f04b88c2ac0019373b99324297a7e6ed167d7"
         },
         "manifestPath": "module.yaml",
@@ -6040,17 +6040,47 @@
       "fullName": "mazemingw/coloros-wifi-sense",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-18T01:23:15.169Z",
-        "lastSuccessAt": "2026-11-18T01:23:15.169Z",
+        "lastAttemptAt": "2026-11-18T11:33:01.829Z",
+        "lastSuccessAt": "2026-11-18T11:33:01.829Z",
         "message": null,
         "status": "ok"
       },
       "id": "coloros_wifi_sense",
       "installationId": 179794143,
-      "maxStableVersionCode": 9,
-      "maxVersionCode": 9,
+      "maxStableVersionCode": 10,
+      "maxVersionCode": 10,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:7822cd9ce8dfd3647473493d845a8688b8618284d839ba646960153cfc282f23",
+            "id": 763148684,
+            "name": "coloros-wifi-sense-v1.6.1.zip",
+            "sha256": "7822cd9ce8dfd3647473493d845a8688b8618284d839ba646960153cfc282f23",
+            "size": 133950,
+            "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.6.1/coloros-wifi-sense-v1.6.1.zip"
+          },
+          "body": "- 暂停时停止弱信号和通网检测，到期自动恢复。\n- 暂停流体云在通知中心静默显示，可点「恢复检测」，遵循流体云总开关。\r\n",
+          "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.6.1",
+          "immutable": true,
+          "name": "ColorOS WIFI感知 v1.6.1",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@NVMEX夜莺",
+            "description": "弱 Wi-Fi 自动断开，支持定时暂停和息屏检测。WebUI 可调阈值、回升余量和倒计时，支持流体云、SSID 暂避、通网检测和仅 5GHz。",
+            "id": "coloros_wifi_sense",
+            "name": "colorOSWIFI感知",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/coloros_wifi_sense/update.json",
+            "version": "v1.6.1",
+            "versionCode": "10"
+          },
+          "publishedAt": "2026-11-18T11:32:40Z",
+          "releaseId": 449894067,
+          "tag": "v1.6.1",
+          "tagCommit": "0f03cb3cea2cf1b070084ebb3433a5c0c6ba9a72",
+          "version": "v1.6.1",
+          "versionCode": 10
+        },
         {
           "asset": {
             "digest": "sha256:ea3dd8fcb919fee9d1a03cd11b9b8b3485dd97503c4c3408b364dc25ab9cf1a6",
@@ -6060,7 +6090,7 @@
             "size": 131647,
             "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.6.0/coloros-wifi-sense-v1.6.0.zip"
           },
-          "body": "- WebUI 首位新增「暂停弱信号断开」，支持 1–1440 分钟，默认 30 分钟。\n- 开始暂停会取消当前弱信号倒计时和提醒，暂停期间停止弱信号采样，到期从当前信号重新判断。\n- 支持「立即恢复」和「重新计时」。保存的到期时间可跨 WebUI 关闭及监控进程重启。\n- 通网检测照常运行，WebUI 会显示预计恢复时间，到期后更新显示。\n- 编译、109 项场景测试、原策略断言和 ZIP 校验通过。本轮 ADB 无设备，新增功能尚未实机验证。\r\n",
+          "body": "- 新增定时暂停弱信号断开，可设置时长，支持提前恢复和重新计时。\r\n",
           "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.6.0",
           "immutable": true,
           "name": "ColorOS WIFI感知 v1.6.0",
@@ -6151,21 +6181,25 @@
         "449402525": {
           "checkedAt": "2026-11-18T01:23:15.169Z",
           "ok": true
+        },
+        "449894067": {
+          "checkedAt": "2026-11-18T11:33:01.829Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:ea3dd8fcb919fee9d1a03cd11b9b8b3485dd97503c4c3408b364dc25ab9cf1a6",
-          "id": 761365530,
-          "name": "coloros-wifi-sense-v1.6.0.zip",
-          "sha256": "ea3dd8fcb919fee9d1a03cd11b9b8b3485dd97503c4c3408b364dc25ab9cf1a6",
-          "size": 131647,
-          "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.6.0/coloros-wifi-sense-v1.6.0.zip"
+          "digest": "sha256:7822cd9ce8dfd3647473493d845a8688b8618284d839ba646960153cfc282f23",
+          "id": 763148684,
+          "name": "coloros-wifi-sense-v1.6.1.zip",
+          "sha256": "7822cd9ce8dfd3647473493d845a8688b8618284d839ba646960153cfc282f23",
+          "size": 133950,
+          "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.6.1/coloros-wifi-sense-v1.6.1.zip"
         },
-        "body": "- WebUI 首位新增「暂停弱信号断开」，支持 1–1440 分钟，默认 30 分钟。\n- 开始暂停会取消当前弱信号倒计时和提醒，暂停期间停止弱信号采样，到期从当前信号重新判断。\n- 支持「立即恢复」和「重新计时」。保存的到期时间可跨 WebUI 关闭及监控进程重启。\n- 通网检测照常运行，WebUI 会显示预计恢复时间，到期后更新显示。\n- 编译、109 项场景测试、原策略断言和 ZIP 校验通过。本轮 ADB 无设备，新增功能尚未实机验证。\r\n",
-        "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.6.0",
+        "body": "- 暂停时停止弱信号和通网检测，到期自动恢复。\n- 暂停流体云在通知中心静默显示，可点「恢复检测」，遵循流体云总开关。\r\n",
+        "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.6.1",
         "immutable": true,
-        "name": "ColorOS WIFI感知 v1.6.0",
+        "name": "ColorOS WIFI感知 v1.6.1",
         "prerelease": false,
         "prop": {
           "author": "酷安@NVMEX夜莺",
@@ -6173,15 +6207,15 @@
           "id": "coloros_wifi_sense",
           "name": "colorOSWIFI感知",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/coloros_wifi_sense/update.json",
-          "version": "v1.6.0",
-          "versionCode": "9"
+          "version": "v1.6.1",
+          "versionCode": "10"
         },
-        "publishedAt": "2026-11-18T01:22:36Z",
-        "releaseId": 449402525,
-        "tag": "v1.6.0",
-        "tagCommit": "841c99a9b6ca73dc7df024b5d36b872a2150516f",
-        "version": "v1.6.0",
-        "versionCode": 9
+        "publishedAt": "2026-11-18T11:32:40Z",
+        "releaseId": 449894067,
+        "tag": "v1.6.1",
+        "tagCommit": "0f03cb3cea2cf1b070084ebb3433a5c0c6ba9a72",
+        "version": "v1.6.1",
+        "versionCode": 10
       },
       "stars": {
         "count": 14,
