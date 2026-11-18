@@ -2668,14 +2668,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "7242df8db32ed34fc001127744acd63479887772",
+          "README.md": "9fdb607810a0e689c7c57a5cccc8284fb2390bca",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "75217e7319410276a8bbf588c6e1b1ac0c4aa008",
-        "fetchedAt": "2026-11-17T21:42:59.976Z",
+        "commit": "37557b57b6f5260f71e96cb1937f2e471ba519a6",
+        "fetchedAt": "2026-11-18T09:30:16.639Z",
         "files": {
-          "README.md": "1cce29be49da472b194b1601b42375684779a7625ce6954f9859791af895c62d",
+          "README.md": "a2b2e6d8f031b79aa7bdaa898b6f0fadd1aa6c262531c1ac7d8619ffa7d90f5b",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -2685,8 +2685,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-17T21:44:04.788Z",
-        "lastSuccessAt": "2026-11-17T21:44:04.788Z",
+        "lastAttemptAt": "2026-11-18T09:30:16.639Z",
+        "lastSuccessAt": "2026-11-18T09:30:16.639Z",
         "message": null,
         "status": "ok"
       },
@@ -9631,8 +9631,8 @@
         "versionCode": 401012
       },
       "stars": {
-        "count": 622,
-        "fetchedAt": "2026-11-17T06:59:47.398Z",
+        "count": 621,
+        "fetchedAt": "2026-11-18T09:30:16.639Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
@@ -9988,15 +9988,15 @@
       "content": {
         "blobs": {
           ".github/logo.png": "69a5399b0353886699c2ac24136ccc024acb891d",
-          "README.md": "aedb02d9b04f7be77027877f3db44c1ce0461814",
+          "README.md": "1f5b3a57c3282535aab9ccc560c566634e350ebc",
           "module.yaml": "e8aa44dd3b8f0584742886f4abcb776e765fc6bc",
           "webui/public/mirageforge-logo.svg": "ab663dd05861c628adf49d4aad0ebed8fe85768e"
         },
-        "commit": "1c30d1461b0ef2cb9c933e889d3c270b8e8f5f94",
-        "fetchedAt": "2026-11-17T11:19:38.116Z",
+        "commit": "74bd8718f0c0bbbd60437d26d6253b861de3a385",
+        "fetchedAt": "2026-11-18T09:30:16.639Z",
         "files": {
           ".github/logo.png": "bf87da9eba197fa767a10921920d77d783fb3dc6f1b46513975f5ea6defa1f2d",
-          "README.md": "f4a42b0c8a6c9c56d3935fcf8be60a9831697ba8c24fdf86b96cd335a70e4aa7",
+          "README.md": "48d2e03adff0ae6f650340f7f41cddc705ce4b3d8b9fb48b70d7ada288f66144",
           "module.yaml": "e84f417a435685063136750153b739ff81119024da473a63b074a8bcc7701c7f",
           "webui/public/mirageforge-logo.svg": "82d43251ac75b5bade3db5aa538013c7eea593d27220303e2730d0afdb7737a9"
         },
@@ -10006,8 +10006,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-17T11:19:38.116Z",
-        "lastSuccessAt": "2026-11-17T11:19:38.116Z",
+        "lastAttemptAt": "2026-11-18T09:30:16.639Z",
+        "lastSuccessAt": "2026-11-18T09:30:16.639Z",
         "message": null,
         "status": "ok"
       },
@@ -12043,8 +12043,8 @@
         "versionCode": 110400601
       },
       "stars": {
-        "count": 26,
-        "fetchedAt": "2026-11-15T09:40:14.862Z",
+        "count": 29,
+        "fetchedAt": "2026-11-18T09:30:16.639Z",
         "fullName": "KyuubiRan/Shellscaled",
         "repositoryId": 1435874117,
         "verified": "self"
@@ -12053,13 +12053,13 @@
     "sidewire": {
       "content": {
         "blobs": {
-          "README.md": "83ac93e5fcc92656f59a28a7c14b468a70692096",
+          "README.md": "690f12c4f574b32ac1378bc3483a65b143b6f35c",
           "module.yaml": "9ce18950e6cae1ae5792b61e67f042a8e78ec422"
         },
-        "commit": "5544bb664f056e0bc0fbb9575babe460af97cc4e",
-        "fetchedAt": "2026-10-24T10:39:05.410Z",
+        "commit": "2573960d2d02ac52d886ec58b4df6d879e486e46",
+        "fetchedAt": "2026-11-18T09:30:16.639Z",
         "files": {
-          "README.md": "afb99c6c08f261bddec847d1583a2ac55f4cd35b36f512824d828676768ccb27",
+          "README.md": "9305a1b2cf61354982b797c3fa975264ebdd0e9b13e14127276c792f3fa5f5c1",
           "module.yaml": "07dff387aa3c3fe60ba1d79975ba635372e945af3dad398ffa22865e233b7c83"
         },
         "manifestPath": "module.yaml",
@@ -12068,17 +12068,46 @@
       "fullName": "mzggr0914/sidewire",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-29T08:05:09.426Z",
-        "lastSuccessAt": "2026-10-29T08:05:09.426Z",
+        "lastAttemptAt": "2026-11-18T09:30:16.639Z",
+        "lastSuccessAt": "2026-11-18T09:30:16.639Z",
         "message": null,
         "status": "ok"
       },
       "id": "sidewire",
       "installationId": 173815563,
-      "maxStableVersionCode": 34,
-      "maxVersionCode": 34,
+      "maxStableVersionCode": 35,
+      "maxVersionCode": 35,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:7bcced2b7e4504a2cfa189a7913db8b79eb8065c6666d1f2dd6fb82f37fb6565",
+            "id": 762759003,
+            "name": "SideWire-KernelSU-v1.0.8-arm64.zip",
+            "sha256": "7bcced2b7e4504a2cfa189a7913db8b79eb8065c6666d1f2dd6fb82f37fb6565",
+            "size": 1217661,
+            "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.8/SideWire-KernelSU-v1.0.8-arm64.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.7...v1.0.8",
+          "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.8",
+          "immutable": true,
+          "name": "SideWire v1.0.8",
+          "prerelease": false,
+          "prop": {
+            "author": "SideWire contributors",
+            "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
+            "id": "sidewire",
+            "name": "SideWire",
+            "version": "1.0.8",
+            "versionCode": "35"
+          },
+          "publishedAt": "2026-11-18T09:29:41Z",
+          "releaseId": 449761161,
+          "tag": "v1.0.8",
+          "tagCommit": "2573960d2d02ac52d886ec58b4df6d879e486e46",
+          "version": "1.0.8",
+          "versionCode": 35
+        },
         {
           "asset": {
             "digest": "sha256:9e5046380a803421cda65c5ebf179bd1bb8d968843329105f2f95f79a2238a6d",
@@ -12253,36 +12282,40 @@
         "427591192": {
           "checkedAt": "2026-10-29T08:05:09.426Z",
           "ok": true
+        },
+        "449761161": {
+          "checkedAt": "2026-11-18T09:30:16.639Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:9e5046380a803421cda65c5ebf179bd1bb8d968843329105f2f95f79a2238a6d",
-          "id": 687819204,
-          "name": "SideWire-KernelSU-v1.0.7-arm64.zip",
-          "sha256": "9e5046380a803421cda65c5ebf179bd1bb8d968843329105f2f95f79a2238a6d",
-          "size": 1244756,
-          "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.7/SideWire-KernelSU-v1.0.7-arm64.zip"
+          "digest": "sha256:7bcced2b7e4504a2cfa189a7913db8b79eb8065c6666d1f2dd6fb82f37fb6565",
+          "id": 762759003,
+          "name": "SideWire-KernelSU-v1.0.8-arm64.zip",
+          "sha256": "7bcced2b7e4504a2cfa189a7913db8b79eb8065c6666d1f2dd6fb82f37fb6565",
+          "size": 1217661,
+          "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.8/SideWire-KernelSU-v1.0.8-arm64.zip"
         },
-        "body": "Allow installation of test-only APKs with `sidewire install -t <APK>` or `--allow-test`.\n\n- Add the option to `install --help`.\n- Show a retry hint when Android rejects a test-only APK without `-t`.\n- Preserve the existing reinstall behavior and temporary APK cleanup.\n\nValidated on SM-A3460 running Android 16 with TelephonyPocObserver.apk. All 48 workspace tests, clippy, and formatting checks pass locally.\n\nUpdate the host CLI to use this option. No Android module update is required for this feature.\n\n**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.6...v1.0.7",
-        "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.7",
+        "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.7...v1.0.8",
+        "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.8",
         "immutable": true,
-        "name": "SideWire v1.0.7",
+        "name": "SideWire v1.0.8",
         "prerelease": false,
         "prop": {
           "author": "SideWire contributors",
           "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
           "id": "sidewire",
           "name": "SideWire",
-          "version": "1.0.7",
-          "versionCode": "34"
+          "version": "1.0.8",
+          "versionCode": "35"
         },
-        "publishedAt": "2026-10-29T08:04:45Z",
-        "releaseId": 427591192,
-        "tag": "v1.0.7",
-        "tagCommit": "de9750373270c6c1636d3da1c6420c3d95c55f9e",
-        "version": "1.0.7",
-        "versionCode": 34
+        "publishedAt": "2026-11-18T09:29:41Z",
+        "releaseId": 449761161,
+        "tag": "v1.0.8",
+        "tagCommit": "2573960d2d02ac52d886ec58b4df6d879e486e46",
+        "version": "1.0.8",
+        "versionCode": 35
       },
       "stars": {
         "count": 42,
@@ -12942,8 +12975,8 @@
         "versionCode": 102
       },
       "stars": {
-        "count": 57,
-        "fetchedAt": "2026-11-17T06:59:47.398Z",
+        "count": 59,
+        "fetchedAt": "2026-11-18T09:30:16.639Z",
         "fullName": "FLYCOM-E/ClearBox",
         "repositoryId": 983784625,
         "verified": "self"

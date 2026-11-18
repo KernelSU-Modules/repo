@@ -171,11 +171,11 @@
       }
     },
     "MagicNet": {
-      "contentCommit": "75217e7319410276a8bbf588c6e1b1ac0c4aa008",
+      "contentCommit": "37557b57b6f5260f71e96cb1937f2e471ba519a6",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-17T21:44:04.788Z",
+      "lastSuccessAt": "2026-11-18T09:30:16.639Z",
       "maxVersionCode": 10618,
       "message": null,
       "repositoryId": 998453022,
@@ -829,11 +829,11 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "1c30d1461b0ef2cb9c933e889d3c270b8e8f5f94",
+      "contentCommit": "74bd8718f0c0bbbd60437d26d6253b861de3a385",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-17T11:19:38.116Z",
+      "lastSuccessAt": "2026-11-18T09:30:16.639Z",
       "maxVersionCode": 120,
       "message": null,
       "repositoryId": 1445526027,
@@ -982,20 +982,20 @@
       }
     },
     "sidewire": {
-      "contentCommit": "5544bb664f056e0bc0fbb9575babe460af97cc4e",
+      "contentCommit": "2573960d2d02ac52d886ec58b4df6d879e486e46",
       "fullName": "mzggr0914/sidewire",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-29T08:05:09.426Z",
-      "maxVersionCode": 34,
+      "lastSuccessAt": "2026-11-18T09:30:16.639Z",
+      "maxVersionCode": 35,
       "message": null,
       "repositoryId": 1354975640,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-29T08:04:45Z",
-        "tag": "v1.0.7",
-        "version": "1.0.7",
-        "versionCode": 34
+        "publishedAt": "2026-11-18T09:29:41Z",
+        "tag": "v1.0.8",
+        "version": "1.0.8",
+        "versionCode": 35
       }
     },
     "smallbattery": {
