@@ -2445,8 +2445,8 @@
         "versionCode": 30060
       },
       "stars": {
-        "count": 24,
-        "fetchedAt": "2026-11-13T18:54:17.185Z",
+        "count": 25,
+        "fetchedAt": "2026-11-18T01:23:15.169Z",
         "fullName": "ylh440104/KernelSU-Tuner",
         "repositoryId": 1414095668,
         "verified": "self"
@@ -4085,7 +4085,7 @@
     "SvcHub": {
       "content": {
         "blobs": {
-          "README.md": "0d3ea9f299355608bc6a676b1d945d63cf15121a",
+          "README.md": "38228ee11851b1648e9f1778cf820525a7cafbf0",
           "docs/public/images/01-status.png": "b612c745a6dedf1282543d66cb1d919cab02aad5",
           "docs/public/images/02-config.png": "e5fbf4567f8106eb8115d7a1b4d5a8477da3e63d",
           "docs/public/images/03-settings.png": "ff34f663f049830640e6f9119f55122420075d25",
@@ -4095,10 +4095,10 @@
           "docs/public/images/icon.png": "ec00fadea2faf1703b248a7496a6cf0fdd52e26d",
           "module.yaml": "a04a2b948b0df55764d66360b705a1d3633c3c35"
         },
-        "commit": "3c49756e530b24f3bcfd7d84bac4b03a973e05a9",
-        "fetchedAt": "2026-11-09T08:02:00.967Z",
+        "commit": "a3a0be4cf2621730451d38bd7e59ece339293956",
+        "fetchedAt": "2026-11-18T01:23:15.169Z",
         "files": {
-          "README.md": "e5d4cd538be9e831e2ce6730e81859a610c739a77ab6ebaad713b9405afb0882",
+          "README.md": "d7b2c89ad9d01f9977e1e7d53a80fc135e14a50771d01b832d17ad317e227c39",
           "docs/public/images/01-status.png": "3c84288e590ce6fa7aae6b3157148255ea6eb9ea57393ace689bb3d3190ac7ec",
           "docs/public/images/02-config.png": "b576031b33ba63d03143875f57be52d6fa4173c17d7dd7a33bf2d2d17eb8d612",
           "docs/public/images/03-settings.png": "f86764cce425410cb66d7a8316ec2937810ed457ac3975c81cb7a67af5e94269",
@@ -4114,8 +4114,8 @@
       "fullName": "LimpidMo/SvcHub",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-09T08:02:00.967Z",
-        "lastSuccessAt": "2026-11-09T08:02:00.967Z",
+        "lastAttemptAt": "2026-11-18T01:23:15.169Z",
+        "lastSuccessAt": "2026-11-18T01:23:15.169Z",
         "message": null,
         "status": "ok"
       },
@@ -5292,7 +5292,7 @@
     "auriya": {
       "content": {
         "blobs": {
-          "README.md": "a87bd863fd50c0a2a3128bb4513fc963f8b98934",
+          "README.md": "3dad0df79064eacefb2615d3ddfc2ea0170ac76f",
           "doc/asset/config.png": "fe0eef250b12b957f5ce95fc88fe53d891d29452",
           "doc/asset/cusztomi.png": "89866238ffb889a361e01bb3ef379e8002d93eac",
           "doc/asset/floating.png": "6c237f7353930aef59bb878a4fd57697cf7c19a8",
@@ -5301,14 +5301,15 @@
           "doc/asset/game.png": "c9d54723548242e5d8422a8c922c04871ec61277",
           "doc/asset/home.png": "d3a5b1c68716817599717023feb45509d62ed393",
           "doc/asset/icon.png": "f181e0a1a7f52cfb30d2fc958006f1ca3220d240",
+          "doc/asset/logo.png": "2880479cdbbca455f12fba86e92b384e9a698341",
           "doc/asset/settings.png": "71376bed790c6248ce8890ed08ea6bc32916dd78",
           "doc/asset/tuing.png": "871b70526d1ab4df1a893a4dbc6a728608806ebc",
           "module.yaml": "f31c0612aae983fbbd9f42178c474e616bd8fbf1"
         },
-        "commit": "cd10b39d93702b6139d5f690246d36449a7b012a",
-        "fetchedAt": "2026-11-03T13:31:40.370Z",
+        "commit": "eefcf2b58725c20fc47f09af99463c172c269483",
+        "fetchedAt": "2026-11-18T01:23:15.169Z",
         "files": {
-          "README.md": "4b21c9c7821e1429a2173427b32b6271d0b95957b17853951899dff3f5dd1989",
+          "README.md": "4d017c949187e6452d2f6fd952b8ededd6f60eafca9385beebddafac016aa8d9",
           "doc/asset/config.png": "3a88aad0e746864b1c43e6b4cfd108b4ada22710a144a6b7fb984526b1849803",
           "doc/asset/cusztomi.png": "79ede5281dc7dba7c5f9ed5fb15518696b566a317b04196063120f0518d5c593",
           "doc/asset/floating.png": "c8b4f8b0285dc00d4238bb6631ba0b78f41f06ed99f72594e18144a6922ba529",
@@ -5317,6 +5318,7 @@
           "doc/asset/game.png": "3a2c52f2b09e3f9a2a952f91e36c23b5f37f806494686c5abb1e8afa338b845b",
           "doc/asset/home.png": "ab756f7919bd4386254f4c54d108e40ce0c18e2c3b35b8c6440a67962022fbbc",
           "doc/asset/icon.png": "fa21522f92290d3d4b50f633dc2c12f84370592f35a51d861afc75c0d3a7b2e9",
+          "doc/asset/logo.png": "ea2dc01924a53089568f0859dd48793cee5f73743609b69122f22a6a0002b642",
           "doc/asset/settings.png": "e446744f464106f2f58dca179d10d0bcc3e9e16c772b5f174440e7d86e235f65",
           "doc/asset/tuing.png": "c9cd4367c21a631f6c1857abbeb82c2e796d5169db91d27f548f96231c7eb5cf",
           "module.yaml": "9bb04ee48b7dd63becbc9ceb98c2b7e24a365d87c0d448e5728a4a82b70239fc"
@@ -5327,8 +5329,8 @@
       "fullName": "pavelc4/auriya",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-03T14:03:29.079Z",
-        "lastSuccessAt": "2026-11-03T14:03:29.079Z",
+        "lastAttemptAt": "2026-11-18T01:23:15.169Z",
+        "lastSuccessAt": "2026-11-18T01:23:15.169Z",
         "message": null,
         "status": "ok"
       },
@@ -6019,13 +6021,13 @@
     "coloros_wifi_sense": {
       "content": {
         "blobs": {
-          "README.md": "e6254996f71bb64f98861182f71ef0ad330dea41",
+          "README.md": "07ad86e9890a802d110d7afb1bb9fbeb6925d45a",
           "module.yaml": "b8c5900e2ed1a9d603343a311dfcfeaba1040f2f"
         },
-        "commit": "0c4f4662018746cbe91306b0ec337632357b1fb4",
-        "fetchedAt": "2026-11-13T11:34:42.971Z",
+        "commit": "841c99a9b6ca73dc7df024b5d36b872a2150516f",
+        "fetchedAt": "2026-11-18T01:23:15.169Z",
         "files": {
-          "README.md": "3b1603d81ca1b94faeee6ae50154891dd66df51e1a4e85f6b0c6f2a902d29642",
+          "README.md": "ea3aa7df591273b3becfc75d7b07dcaaf011df2b3095717ca6e39f9a7224aa28",
           "module.yaml": "1cb86d574780de5a3e30d8f6bd2f04b88c2ac0019373b99324297a7e6ed167d7"
         },
         "manifestPath": "module.yaml",
@@ -6034,17 +6036,47 @@
       "fullName": "mazemingw/coloros-wifi-sense",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-13T11:34:42.971Z",
-        "lastSuccessAt": "2026-11-13T11:34:42.971Z",
+        "lastAttemptAt": "2026-11-18T01:23:15.169Z",
+        "lastSuccessAt": "2026-11-18T01:23:15.169Z",
         "message": null,
         "status": "ok"
       },
       "id": "coloros_wifi_sense",
       "installationId": 179794143,
-      "maxStableVersionCode": 8,
-      "maxVersionCode": 8,
+      "maxStableVersionCode": 9,
+      "maxVersionCode": 9,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:ea3dd8fcb919fee9d1a03cd11b9b8b3485dd97503c4c3408b364dc25ab9cf1a6",
+            "id": 761365530,
+            "name": "coloros-wifi-sense-v1.6.0.zip",
+            "sha256": "ea3dd8fcb919fee9d1a03cd11b9b8b3485dd97503c4c3408b364dc25ab9cf1a6",
+            "size": 131647,
+            "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.6.0/coloros-wifi-sense-v1.6.0.zip"
+          },
+          "body": "- WebUI 首位新增「暂停弱信号断开」，支持 1–1440 分钟，默认 30 分钟。\n- 开始暂停会取消当前弱信号倒计时和提醒，暂停期间停止弱信号采样，到期从当前信号重新判断。\n- 支持「立即恢复」和「重新计时」。保存的到期时间可跨 WebUI 关闭及监控进程重启。\n- 通网检测照常运行，WebUI 会显示预计恢复时间，到期后更新显示。\n- 编译、109 项场景测试、原策略断言和 ZIP 校验通过。本轮 ADB 无设备，新增功能尚未实机验证。\r\n",
+          "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.6.0",
+          "immutable": true,
+          "name": "ColorOS WIFI感知 v1.6.0",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@NVMEX夜莺",
+            "description": "弱 Wi-Fi 自动断开，支持定时暂停和息屏检测。WebUI 可调阈值、回升余量和倒计时，支持流体云、SSID 暂避、通网检测和仅 5GHz。",
+            "id": "coloros_wifi_sense",
+            "name": "colorOSWIFI感知",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/coloros_wifi_sense/update.json",
+            "version": "v1.6.0",
+            "versionCode": "9"
+          },
+          "publishedAt": "2026-11-18T01:22:36Z",
+          "releaseId": 449402525,
+          "tag": "v1.6.0",
+          "tagCommit": "841c99a9b6ca73dc7df024b5d36b872a2150516f",
+          "version": "v1.6.0",
+          "versionCode": 9
+        },
         {
           "asset": {
             "digest": "sha256:79db70944ea4f751ff7d6d00c8268074f0183d8b56f6d896a172ede7df93526e",
@@ -6111,37 +6143,41 @@
         "442811371": {
           "checkedAt": "2026-11-13T11:34:42.971Z",
           "ok": true
+        },
+        "449402525": {
+          "checkedAt": "2026-11-18T01:23:15.169Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:79db70944ea4f751ff7d6d00c8268074f0183d8b56f6d896a172ede7df93526e",
-          "id": 739104004,
-          "name": "coloros-wifi-sense-v1.5.0.zip",
-          "sha256": "79db70944ea4f751ff7d6d00c8268074f0183d8b56f6d896a172ede7df93526e",
-          "size": 129191,
-          "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.5.0/coloros-wifi-sense-v1.5.0.zip"
+          "digest": "sha256:ea3dd8fcb919fee9d1a03cd11b9b8b3485dd97503c4c3408b364dc25ab9cf1a6",
+          "id": 761365530,
+          "name": "coloros-wifi-sense-v1.6.0.zip",
+          "sha256": "ea3dd8fcb919fee9d1a03cd11b9b8b3485dd97503c4c3408b364dc25ab9cf1a6",
+          "size": 131647,
+          "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.6.0/coloros-wifi-sense-v1.6.0.zip"
         },
-        "body": "- 新增「息屏也可断开」，默认关闭。开启后，息屏仍可检测弱信号和已开启的通网检测。流体云提醒仅在亮屏时显示。\n- 新增 1–10 dB 回升余量，默认 3 dB。阈值设为 −80 dBm 时，信号回到 −77 dBm 才取消倒计时，减少覆盖边缘反复弹出。\n- 缩短 WebUI 的说明、状态和保存提示。\n\n在一加 PLK110 / ColorOS 17 实机确认，关闭开关时熄屏暂停，开启后 Wi-Fi 在屏幕熄灭时实际断开。96 项场景测试和 ZIP 校验通过。\r\n",
-        "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.5.0",
+        "body": "- WebUI 首位新增「暂停弱信号断开」，支持 1–1440 分钟，默认 30 分钟。\n- 开始暂停会取消当前弱信号倒计时和提醒，暂停期间停止弱信号采样，到期从当前信号重新判断。\n- 支持「立即恢复」和「重新计时」。保存的到期时间可跨 WebUI 关闭及监控进程重启。\n- 通网检测照常运行，WebUI 会显示预计恢复时间，到期后更新显示。\n- 编译、109 项场景测试、原策略断言和 ZIP 校验通过。本轮 ADB 无设备，新增功能尚未实机验证。\r\n",
+        "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.6.0",
         "immutable": true,
-        "name": "ColorOS WIFI感知 v1.5.0",
+        "name": "ColorOS WIFI感知 v1.6.0",
         "prerelease": false,
         "prop": {
           "author": "酷安@NVMEX夜莺",
-          "description": "弱 Wi-Fi 自动断开，可选息屏检测。WebUI 可调断开阈值、回升余量和倒计时，支持流体云、SSID 暂避、通网检测和仅 5GHz。",
+          "description": "弱 Wi-Fi 自动断开，支持定时暂停和息屏检测。WebUI 可调阈值、回升余量和倒计时，支持流体云、SSID 暂避、通网检测和仅 5GHz。",
           "id": "coloros_wifi_sense",
           "name": "colorOSWIFI感知",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/coloros_wifi_sense/update.json",
-          "version": "v1.5.0",
-          "versionCode": "8"
+          "version": "v1.6.0",
+          "versionCode": "9"
         },
-        "publishedAt": "2026-11-12T10:48:27Z",
-        "releaseId": 442811371,
-        "tag": "v1.5.0",
-        "tagCommit": "0c4f4662018746cbe91306b0ec337632357b1fb4",
-        "version": "v1.5.0",
-        "versionCode": 8
+        "publishedAt": "2026-11-18T01:22:36Z",
+        "releaseId": 449402525,
+        "tag": "v1.6.0",
+        "tagCommit": "841c99a9b6ca73dc7df024b5d36b872a2150516f",
+        "version": "v1.6.0",
+        "versionCode": 9
       },
       "stars": {
         "count": 14,

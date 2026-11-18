@@ -268,11 +268,11 @@
       "stable": null
     },
     "SvcHub": {
-      "contentCommit": "3c49756e530b24f3bcfd7d84bac4b03a973e05a9",
+      "contentCommit": "a3a0be4cf2621730451d38bd7e59ece339293956",
       "fullName": "LimpidMo/SvcHub",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-09T08:02:00.967Z",
+      "lastSuccessAt": "2026-11-18T01:23:15.169Z",
       "maxVersionCode": 14,
       "message": null,
       "repositoryId": 1353509468,
@@ -411,11 +411,11 @@
       }
     },
     "auriya": {
-      "contentCommit": "cd10b39d93702b6139d5f690246d36449a7b012a",
+      "contentCommit": "eefcf2b58725c20fc47f09af99463c172c269483",
       "fullName": "pavelc4/auriya",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-03T14:03:29.079Z",
+      "lastSuccessAt": "2026-11-18T01:23:15.169Z",
       "maxVersionCode": 870,
       "message": null,
       "repositoryId": 1081222414,
@@ -523,20 +523,20 @@
       "stable": null
     },
     "coloros_wifi_sense": {
-      "contentCommit": "0c4f4662018746cbe91306b0ec337632357b1fb4",
+      "contentCommit": "841c99a9b6ca73dc7df024b5d36b872a2150516f",
       "fullName": "mazemingw/coloros-wifi-sense",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-13T11:34:42.971Z",
-      "maxVersionCode": 8,
+      "lastSuccessAt": "2026-11-18T01:23:15.169Z",
+      "maxVersionCode": 9,
       "message": null,
       "repositoryId": 1449425812,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-12T10:48:27Z",
-        "tag": "v1.5.0",
-        "version": "v1.5.0",
-        "versionCode": 8
+        "publishedAt": "2026-11-18T01:22:36Z",
+        "tag": "v1.6.0",
+        "version": "v1.6.0",
+        "versionCode": 9
       }
     },
     "device_faker": {
