@@ -905,16 +905,16 @@
       "fullName": "maxsteeel/nomount",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T12:08:15.647Z",
-      "maxVersionCode": 720,
-      "message": "stable-fallback: the stable release (versionCode 720) was deleted or marked as prerelease; listing the older v2.2.0 (versionCode 605) until a release with a versionCode above 720 is published.",
+      "lastSuccessAt": "2026-11-19T19:35:35.265Z",
+      "maxVersionCode": 785,
+      "message": null,
       "repositoryId": 1128821046,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-22T16:42:59Z",
-        "tag": "v2.2.0",
-        "version": "v2.2.0 (605)",
-        "versionCode": 605
+        "publishedAt": "2026-11-19T19:35:18Z",
+        "tag": "v2.3.1",
+        "version": "v2.3.1 (785)",
+        "versionCode": 785
       }
     },
     "oh_my_keymint": {
