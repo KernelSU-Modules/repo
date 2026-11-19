@@ -1,0 +1,20 @@
+id: classic_galaxy_sounds
+status: pending
+request:
+  submissionId: u4ecgcsmnb
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1463548631
+    ownerId: 146635971
+    fullName: Kutjaneiro/Classic-galaxy-sounds
+    manifestPath: module.yaml
+  submittedBy: 146635971
+  submittedByLogin: Kutjaneiro
+  submittedAt: 2026-11-19T02:03:51.529Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65258
+  note: This module changes the sounds of latest versions of One UI (8 and 9) such as the UI sounds and adds melodies from older Galaxy phones to calls and alarms. Original copyrighted sounds are not included, it includes an extractor to get the sounds from older firmwares which the user downloads externally.
+createdAt: 2026-11-19T02:03:51.529Z
+updatedAt: 2026-11-19T02:03:51.529Z
