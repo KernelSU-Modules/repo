@@ -934,6 +934,27 @@
         "versionCode": 180
       }
     },
+    "openp2p-tunnel": {
+      "contentCommit": "9fd2a259224953cd2b02815d3f13eaeb62e956ef",
+      "fullName": "AxoNex/openp2p-tunnel",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1464183070,
+      "request": {
+        "checkedAt": "2026-11-19T17:53:04.490Z",
+        "commit": "9fd2a259224953cd2b02815d3f13eaeb62e956ef",
+        "issues": [],
+        "latestTag": "v1.2.0",
+        "ok": true,
+        "releaseId": 451707012,
+        "repositoryId": 1464183070,
+        "submissionId": "mnwknef2z9"
+      },
+      "stable": null
+    },
     "oplus-cloud-block": {
       "contentCommit": "6f985a6304334156130edf88bdf8ca1f2c0a70ea",
       "fullName": "706412584/ColorOS-thermal",
