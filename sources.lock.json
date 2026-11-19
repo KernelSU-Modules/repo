@@ -1880,8 +1880,8 @@
         "versionCode": 50107
       },
       "stars": {
-        "count": 59,
-        "fetchedAt": "2026-11-17T14:43:02.594Z",
+        "count": 61,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "Eikeitsu/CertBridge",
         "repositoryId": 1306329220,
         "verified": "self"
@@ -2445,8 +2445,8 @@
         "versionCode": 30060
       },
       "stars": {
-        "count": 25,
-        "fetchedAt": "2026-11-18T01:23:15.169Z",
+        "count": 26,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "ylh440104/KernelSU-Tuner",
         "repositoryId": 1414095668,
         "verified": "self"
@@ -2668,14 +2668,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "053e8ff62df9d9e9ef97b87226b2c6ac95f93e72",
+          "README.md": "5b9602874feacd9afa7b0a469efabbd622948a71",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "896c813424be189c2fee8cc906e981d1cc6f0132",
-        "fetchedAt": "2026-11-18T11:33:01.829Z",
+        "commit": "9a9fb8688fae6418e2b6b0d18330057f829cf5bf",
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "files": {
-          "README.md": "f641f35a22337d0931c0db4a5320f17895f72a4bbb1251da05adeb371d659e76",
+          "README.md": "7224b95b30224f5c037a92ad68e0c7c0a2d921d669f733b247c85c72ed46b828",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -2685,8 +2685,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-18T11:33:01.829Z",
-        "lastSuccessAt": "2026-11-18T11:33:01.829Z",
+        "lastAttemptAt": "2026-11-19T02:04:18.515Z",
+        "lastSuccessAt": "2026-11-19T02:04:18.515Z",
         "message": null,
         "status": "ok"
       },
@@ -3261,8 +3261,8 @@
         "versionCode": 10619
       },
       "stars": {
-        "count": 235,
-        "fetchedAt": "2026-11-18T03:18:22.025Z",
+        "count": 236,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -4032,8 +4032,8 @@
         "versionCode": 22
       },
       "stars": {
-        "count": 154,
-        "fetchedAt": "2026-11-17T14:43:02.594Z",
+        "count": 160,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -4573,8 +4573,8 @@
         "versionCode": 31
       },
       "stars": {
-        "count": 16,
-        "fetchedAt": "2026-11-17T11:19:38.116Z",
+        "count": 17,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "LeanxModulostk/VanadiumWebviewManager",
         "repositoryId": 1430564726,
         "verified": "self"
@@ -4769,8 +4769,8 @@
         "versionCode": 10600
       },
       "stars": {
-        "count": 9,
-        "fetchedAt": "2026-11-16T00:37:27.675Z",
+        "count": 10,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "Infiniti151/acc-with-webui",
         "repositoryId": 1296470014,
         "verified": "self"
@@ -5523,8 +5523,8 @@
         "versionCode": 870
       },
       "stars": {
-        "count": 39,
-        "fetchedAt": "2026-11-17T18:27:57.012Z",
+        "count": 40,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "pavelc4/auriya",
         "repositoryId": 1081222414,
         "verified": "self"
@@ -7078,8 +7078,8 @@
         "versionCode": 111
       },
       "stars": {
-        "count": 125,
-        "fetchedAt": "2026-11-16T07:33:28.737Z",
+        "count": 126,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "Ylarod/enable-miui-adb",
         "repositoryId": 457318262,
         "verified": "self"
@@ -8311,8 +8311,8 @@
         "versionCode": 602006999
       },
       "stars": {
-        "count": 1845,
-        "fetchedAt": "2026-11-17T14:43:02.594Z",
+        "count": 1850,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
@@ -8324,9 +8324,9 @@
           "README.md": "4c4d18d60061c13db0c9d9ea80b56f4e11420436",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
-          "docs/badges/downloads.svg": "429eaae117be0ec30926f910bec9ed9a8a6bbefc",
+          "docs/badges/downloads.svg": "7d81362dbf5b2a247896310efc279b8e39d2f7b9",
           "docs/badges/release.svg": "f0292404f901478c5538fe79456ec2d9ef2aa374",
-          "docs/badges/stars.svg": "00866f83061df57ac88381220252c26af78d5cea",
+          "docs/badges/stars.svg": "f65f7a10c061dd0b62dfe25f51b0a88732ea24bc",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
           "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
           "docs/screenshots/app-cache.png": "6c9a644eb5fc9aa8d61036867b504362d1962218",
@@ -8346,15 +8346,15 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "be14ef361e2c9820391caa19c016f597cfb013d5",
-        "fetchedAt": "2026-11-17T14:49:09.459Z",
+        "commit": "8c076b4af0887c4e0311604ad0641068712e9d60",
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "files": {
           "README.md": "bb77794222be1e0c3cf71c3b7607ec53adb3f2c591ef74249783229455e0fd0e",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
-          "docs/badges/downloads.svg": "24c96519b04d6270fd3cc72e84cfdf67b627a0b2a319cb783901a0a1d5876716",
+          "docs/badges/downloads.svg": "328dbae1321370ca232891c1c07519b34eaddd9cbd16162bd336f4b9f425efc4",
           "docs/badges/release.svg": "4503da2a58edea286c5e79f57ce9a270fb05a2877939f1eebc369977e8d4d001",
-          "docs/badges/stars.svg": "ec1530fbdeca53e9fa991831a74e36474f61858d978c9532e298586f794644dc",
+          "docs/badges/stars.svg": "be99734329b7a6658542e076ee53133e79aa02b98121224642ced1048c86bfa7",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
           "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
           "docs/screenshots/app-cache.png": "74ec72f4f19a4a5f6ed51c1e1f8e18f2f196a7b14950fe0124db778644838d43",
@@ -8380,8 +8380,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-17T14:49:09.459Z",
-        "lastSuccessAt": "2026-11-17T14:49:09.459Z",
+        "lastAttemptAt": "2026-11-19T02:04:18.515Z",
+        "lastSuccessAt": "2026-11-19T02:04:18.515Z",
         "message": null,
         "status": "ok"
       },
@@ -8796,8 +8796,8 @@
         "versionCode": 236
       },
       "stars": {
-        "count": 26,
-        "fetchedAt": "2026-11-17T14:43:02.594Z",
+        "count": 27,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "yudharn/HyperCool",
         "repositoryId": 1446403674,
         "verified": "self"
@@ -9376,8 +9376,8 @@
         "versionCode": 40005
       },
       "stars": {
-        "count": 42,
-        "fetchedAt": "2026-11-16T02:13:10.202Z",
+        "count": 43,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "cyanmint/lkm4ctr",
         "repositoryId": 1313308146,
         "verified": "self"
@@ -10712,8 +10712,8 @@
         "versionCode": 1100
       },
       "stars": {
-        "count": 1445,
-        "fetchedAt": "2026-11-17T14:43:02.594Z",
+        "count": 1451,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -10910,13 +10910,13 @@
     "oh_my_keymint": {
       "content": {
         "blobs": {
-          "README.md": "39e8ee1ce88f9d07248902f826c8825242824aa4",
+          "README.md": "2de17730a6f8b1fd50b36a224f0148ef974902bd",
           "module.yaml": "a8bd33a5d30a38bfd5d7acb3f1a439d33b3886ca"
         },
-        "commit": "7ef41b037e1ac0554ec6b6d1c38f6db457b00684",
-        "fetchedAt": "2026-11-01T06:52:06.357Z",
+        "commit": "e1b5e67856a2ff49f48ad9d2c71611ef074a3f1e",
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "files": {
-          "README.md": "b489164a1d004dfe8cc109493ca7d1949738676867585f98a83ebca8f9f2a720",
+          "README.md": "09e593168c8939a55b2b59f4d23474cbb723c6477cd027fcf46980b85262b4d7",
           "module.yaml": "2244bb3fe5d6ccba573897bf9b7e4ba8d5519daed68577bcc886873e22101e1f"
         },
         "manifestPath": "module.yaml",
@@ -10925,8 +10925,8 @@
       "fullName": "qwq233/OhMyKeymint",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-06T05:00:52.853Z",
-        "lastSuccessAt": "2026-11-06T05:00:52.853Z",
+        "lastAttemptAt": "2026-11-19T02:04:18.515Z",
+        "lastSuccessAt": "2026-11-19T02:04:18.515Z",
         "message": null,
         "status": "ok"
       },
@@ -11109,8 +11109,8 @@
         "versionCode": 180
       },
       "stars": {
-        "count": 735,
-        "fetchedAt": "2026-11-18T03:18:22.025Z",
+        "count": 736,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
@@ -11481,8 +11481,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4218,
-        "fetchedAt": "2026-11-17T14:43:02.594Z",
+        "count": 4225,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
@@ -13575,8 +13575,8 @@
         "versionCode": 10151
       },
       "stars": {
-        "count": 146,
-        "fetchedAt": "2026-11-17T14:43:02.594Z",
+        "count": 147,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
@@ -14467,8 +14467,8 @@
         "versionCode": 208
       },
       "stars": {
-        "count": 28,
-        "fetchedAt": "2026-11-17T14:43:02.594Z",
+        "count": 30,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
@@ -15112,8 +15112,8 @@
         "versionCode": 424
       },
       "stars": {
-        "count": 113,
-        "fetchedAt": "2026-11-17T16:16:34.316Z",
+        "count": 116,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"
@@ -15333,8 +15333,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 11033,
-        "fetchedAt": "2026-11-17T14:43:02.594Z",
+        "count": 11057,
+        "fetchedAt": "2026-11-19T02:04:18.515Z",
         "fullName": "Dr-TSNG/ZygiskNext",
         "repositoryId": 594330628,
         "verified": "self"
