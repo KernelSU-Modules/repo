@@ -8325,10 +8325,10 @@
     "hypercool": {
       "content": {
         "blobs": {
-          "README.md": "4c4d18d60061c13db0c9d9ea80b56f4e11420436",
+          "README.md": "2a8f75d19af380604981231b50eb8bec64e92447",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
-          "docs/badges/downloads.svg": "7d81362dbf5b2a247896310efc279b8e39d2f7b9",
+          "docs/badges/downloads.svg": "9de4e3c2c23766f6d60497425eddbbbaec4351d4",
           "docs/badges/release.svg": "f0292404f901478c5538fe79456ec2d9ef2aa374",
           "docs/badges/stars.svg": "f65f7a10c061dd0b62dfe25f51b0a88732ea24bc",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
@@ -8350,13 +8350,13 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "8c076b4af0887c4e0311604ad0641068712e9d60",
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "commit": "19958bd6519529a2b719e7b65f93b61bf98fa22b",
+        "fetchedAt": "2026-11-19T13:37:22.413Z",
         "files": {
-          "README.md": "bb77794222be1e0c3cf71c3b7607ec53adb3f2c591ef74249783229455e0fd0e",
+          "README.md": "37507688e97f6dc6718ce2b464cef15ddfa1c6f56ec26515149865d8fe1d72a5",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
-          "docs/badges/downloads.svg": "328dbae1321370ca232891c1c07519b34eaddd9cbd16162bd336f4b9f425efc4",
+          "docs/badges/downloads.svg": "0666e4ce00e7f7a8c7487bee612002ee91df36bf585fb08fed1d98cc50f4cd3e",
           "docs/badges/release.svg": "4503da2a58edea286c5e79f57ce9a270fb05a2877939f1eebc369977e8d4d001",
           "docs/badges/stars.svg": "be99734329b7a6658542e076ee53133e79aa02b98121224642ced1048c86bfa7",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
@@ -8384,8 +8384,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-19T02:04:18.515Z",
-        "lastSuccessAt": "2026-11-19T02:04:18.515Z",
+        "lastAttemptAt": "2026-11-19T13:37:22.413Z",
+        "lastSuccessAt": "2026-11-19T13:37:22.413Z",
         "message": null,
         "status": "ok"
       },
@@ -8800,8 +8800,8 @@
         "versionCode": 236
       },
       "stars": {
-        "count": 27,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 28,
+        "fetchedAt": "2026-11-19T13:37:22.413Z",
         "fullName": "yudharn/HyperCool",
         "repositoryId": 1446403674,
         "verified": "self"
@@ -13639,17 +13639,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-19T06:52:38.384Z",
-        "lastSuccessAt": "2026-11-19T06:52:38.384Z",
+        "lastAttemptAt": "2026-11-19T13:37:22.413Z",
+        "lastSuccessAt": "2026-11-19T13:37:22.413Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 584,
-      "maxVersionCode": 584,
+      "maxStableVersionCode": 585,
+      "maxVersionCode": 585,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:25ac2787e0ffcdae460fb575352907075789476899861db7e745a79ba9c0934f",
+            "id": 767828662,
+            "name": "Sui-v13.5.4.3_585-2d81fb2-release.zip",
+            "sha256": "25ac2787e0ffcdae460fb575352907075789476899861db7e745a79ba9c0934f",
+            "size": 1505597,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v585-2d81fb2/Sui-v13.5.4.3_585-2d81fb2-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (585-2d81fb2-release)`\n- **VersionCode:** `585`\n- **Commit:** [`2d81fb2`](https://github.com/XiaoTong6666/Sui/commit/2d81fb28cadb4b1f13dc43611eeb82bc9c75e1a7)\n- **Build time:** `1m 58s`\n- **SHA256:** `25ac2787e0ffcdae460fb575352907075789476899861db7e745a79ba9c0934f`\n\n## Message\n\n```text\nfix(sui): correct SELinux policy checks and BusyBox watchdog handling, Meow\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v585-2d81fb2",
+          "immutable": true,
+          "name": "v13.5.4.3 (585-2d81fb2-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (585-2d81fb2-release)",
+            "versionCode": "585"
+          },
+          "publishedAt": "2026-11-19T13:36:58Z",
+          "releaseId": 451394145,
+          "tag": "v585-2d81fb2",
+          "tagCommit": "a79124d6d71cbe9184395fa625373614b1d81ebf",
+          "version": "v13.5.4.3 (585-2d81fb2-release)",
+          "versionCode": 585
+        },
         {
           "asset": {
             "digest": "sha256:38a278bed0a02609884319e62a5b53cfe56b69b3bb05c1861484f62ed48e9a54",
@@ -13919,36 +13949,6 @@
           "tagCommit": "5692b3d02fbc9a864babe190754d2914d2230644",
           "version": "v13.5.4.3 (568-d92eb95-release)",
           "versionCode": 568
-        },
-        {
-          "asset": {
-            "digest": "sha256:75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42",
-            "id": 650668299,
-            "name": "Sui-v13.5.4.3_567-ff78053-release.zip",
-            "sha256": "75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42",
-            "size": 1435612,
-            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v567-ff78053/Sui-v13.5.4.3_567-ff78053-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (567-ff78053-release)`\n- **VersionCode:** `567`\n- **Commit:** [`ff78053`](https://github.com/XiaoTong6666/Sui/commit/ff780530053b6a48a5cfd1c82d32a78b70bf3c91)\n- **Build time:** `1m 53s`\n- **SHA256:** `75adcf66efa22f08305bd438d639fc401ab2c8945298851375b0a21d7f2fcd42`\n\n## Message\n\n```text\nfix(rish): read synchronous Binder replies\n\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v567-ff78053",
-          "immutable": true,
-          "name": "v13.5.4.3 (567-ff78053-release)",
-          "prerelease": false,
-          "prop": {
-            "author": "Sui Contributors",
-            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
-            "id": "zygisk-sui",
-            "name": "Zygisk - Sui",
-            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-            "version": "v13.5.4.3 (567-ff78053-release)",
-            "versionCode": "567"
-          },
-          "publishedAt": "2026-10-17T14:23:08Z",
-          "releaseId": 415845222,
-          "tag": "v567-ff78053",
-          "tagCommit": "d6052dd35923f1de18f4629a19eb3b49dde79044",
-          "version": "v13.5.4.3 (567-ff78053-release)",
-          "versionCode": 567
         }
       ],
       "repositoryId": 1415623276,
@@ -14036,21 +14036,25 @@
         "450977018": {
           "checkedAt": "2026-11-19T06:52:38.384Z",
           "ok": true
+        },
+        "451394145": {
+          "checkedAt": "2026-11-19T13:37:22.413Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:38a278bed0a02609884319e62a5b53cfe56b69b3bb05c1861484f62ed48e9a54",
-          "id": 766592450,
-          "name": "Sui-v13.5.4.3_584-6905910-release.zip",
-          "sha256": "38a278bed0a02609884319e62a5b53cfe56b69b3bb05c1861484f62ed48e9a54",
-          "size": 1505782,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v584-6905910/Sui-v13.5.4.3_584-6905910-release.zip"
+          "digest": "sha256:25ac2787e0ffcdae460fb575352907075789476899861db7e745a79ba9c0934f",
+          "id": 767828662,
+          "name": "Sui-v13.5.4.3_585-2d81fb2-release.zip",
+          "sha256": "25ac2787e0ffcdae460fb575352907075789476899861db7e745a79ba9c0934f",
+          "size": 1505597,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v585-2d81fb2/Sui-v13.5.4.3_585-2d81fb2-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (584-6905910-release)`\n- **VersionCode:** `584`\n- **Commit:** [`6905910`](https://github.com/XiaoTong6666/Sui/commit/69059108b81f3494f9b552f51ef1f9133ed5607c)\n- **Build time:** `3m 18s`\n- **SHA256:** `38a278bed0a02609884319e62a5b53cfe56b69b3bb05c1861484f62ed48e9a54`\n\n## Message\n\n```text\nfix(build): Resolve Gradle 9.9.1 buildSrc dependencies, Meow\n\n给 buildSrc 单独配置插件仓库，让 Kotlin DSL 插件依赖优先从 Maven Central 解析，避免插件门户暂时无法提供 Kotlin BOM 时导致 CI 在配置阶段失败喵\n\n保留 Gradle 9.9.1，同时为 buildSrc 普通依赖添加 Maven Central；冷缓存验证和 Debug、Release 打包均通过喵\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v584-6905910",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (585-2d81fb2-release)`\n- **VersionCode:** `585`\n- **Commit:** [`2d81fb2`](https://github.com/XiaoTong6666/Sui/commit/2d81fb28cadb4b1f13dc43611eeb82bc9c75e1a7)\n- **Build time:** `1m 58s`\n- **SHA256:** `25ac2787e0ffcdae460fb575352907075789476899861db7e745a79ba9c0934f`\n\n## Message\n\n```text\nfix(sui): correct SELinux policy checks and BusyBox watchdog handling, Meow\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v585-2d81fb2",
         "immutable": true,
-        "name": "v13.5.4.3 (584-6905910-release)",
+        "name": "v13.5.4.3 (585-2d81fb2-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -14058,19 +14062,19 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (584-6905910-release)",
-          "versionCode": "584"
+          "version": "v13.5.4.3 (585-2d81fb2-release)",
+          "versionCode": "585"
         },
-        "publishedAt": "2026-11-19T06:52:15Z",
-        "releaseId": 450977018,
-        "tag": "v584-6905910",
-        "tagCommit": "a3656a10908fe6a2cf6de20bbac5ad16d1a42d97",
-        "version": "v13.5.4.3 (584-6905910-release)",
-        "versionCode": 584
+        "publishedAt": "2026-11-19T13:36:58Z",
+        "releaseId": 451394145,
+        "tag": "v585-2d81fb2",
+        "tagCommit": "a79124d6d71cbe9184395fa625373614b1d81ebf",
+        "version": "v13.5.4.3 (585-2d81fb2-release)",
+        "versionCode": 585
       },
       "stars": {
-        "count": 18,
-        "fetchedAt": "2026-11-19T06:52:38.384Z",
+        "count": 19,
+        "fetchedAt": "2026-11-19T13:37:22.413Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
