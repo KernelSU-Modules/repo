@@ -171,11 +171,11 @@
       }
     },
     "MagicNet": {
-      "contentCommit": "4945044173d026e57dc901844eda330975589799",
+      "contentCommit": "2d9a25e5391a52f92fbf3b63eeb06be76e421388",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-19T12:34:21.131Z",
+      "lastSuccessAt": "2026-11-19T12:35:34.799Z",
       "maxVersionCode": 10620,
       "message": null,
       "repositoryId": 998453022,
