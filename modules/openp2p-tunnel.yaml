@@ -1,0 +1,20 @@
+id: openp2p-tunnel
+status: pending
+request:
+  submissionId: mnwknef2z9
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1464183070
+    ownerId: 220811304
+    fullName: AxoNex/openp2p-tunnel
+    manifestPath: module.yaml
+  submittedBy: 220811304
+  submittedByLogin: AxoNex
+  submittedAt: 2026-11-19T17:52:42.170Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65277
+  note: 用于在 android 上启动系统级 openp2p 服务，并支持端口转发、组网。
+createdAt: 2026-11-19T17:52:42.170Z
+updatedAt: 2026-11-19T17:52:42.170Z
