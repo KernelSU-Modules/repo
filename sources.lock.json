@@ -1595,8 +1595,8 @@
         "versionCode": 39
       },
       "stars": {
-        "count": 27,
-        "fetchedAt": "2026-11-15T12:46:38.273Z",
+        "count": 28,
+        "fetchedAt": "2026-11-19T17:44:06.023Z",
         "fullName": "f1owkang/CRecordEvolution",
         "repositoryId": 678049636,
         "verified": "self"
@@ -6029,13 +6029,13 @@
     "coloros_wifi_sense": {
       "content": {
         "blobs": {
-          "README.md": "9e6a4896d770c73eac25391557c4fe45d0be8053",
+          "README.md": "642a51180b1251b1b7a960532d775ed6bdcbab67",
           "module.yaml": "b8c5900e2ed1a9d603343a311dfcfeaba1040f2f"
         },
-        "commit": "0f03cb3cea2cf1b070084ebb3433a5c0c6ba9a72",
-        "fetchedAt": "2026-11-18T11:33:01.829Z",
+        "commit": "0c3d34c3e0be124b2d712e31db41ec46a2ea97ee",
+        "fetchedAt": "2026-11-19T17:44:06.023Z",
         "files": {
-          "README.md": "51b026efa0925d802afcc7e59dd2bea638f7f940128d91bf71727d7c05f679cf",
+          "README.md": "8d1152777c9e47f0a801e853f2720b78ca886c5b5a08884dd6994076f0f607cf",
           "module.yaml": "1cb86d574780de5a3e30d8f6bd2f04b88c2ac0019373b99324297a7e6ed167d7"
         },
         "manifestPath": "module.yaml",
@@ -6044,17 +6044,47 @@
       "fullName": "mazemingw/coloros-wifi-sense",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-18T11:33:01.829Z",
-        "lastSuccessAt": "2026-11-18T11:33:01.829Z",
+        "lastAttemptAt": "2026-11-19T17:44:06.023Z",
+        "lastSuccessAt": "2026-11-19T17:44:06.023Z",
         "message": null,
         "status": "ok"
       },
       "id": "coloros_wifi_sense",
       "installationId": 179794143,
-      "maxStableVersionCode": 10,
-      "maxVersionCode": 10,
+      "maxStableVersionCode": 11,
+      "maxVersionCode": 11,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:7de302d4684bd904d45f7e4b4892af2a91a79659a44a3233b54d26126bf4eb8f",
+            "id": 768646081,
+            "name": "coloros-wifi-sense-v1.6.2.zip",
+            "sha256": "7de302d4684bd904d45f7e4b4892af2a91a79659a44a3233b54d26126bf4eb8f",
+            "size": 136853,
+            "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.6.2/coloros-wifi-sense-v1.6.2.zip"
+          },
+          "body": "- 修复开启双 WLAN 后，一直显示“等待连接”、无法自动断开的问题。\n- 双 WLAN 下检测主 Wi-Fi，副连接变化不再打断倒计时。\n",
+          "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.6.2",
+          "immutable": true,
+          "name": "v1.6.2 · 修复双 WLAN 识别",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@NVMEX夜莺",
+            "description": "弱 Wi-Fi 自动断开，支持定时暂停和息屏检测。WebUI 可调阈值、回升余量和倒计时，支持流体云、SSID 暂避、通网检测和仅 5GHz。",
+            "id": "coloros_wifi_sense",
+            "name": "colorOSWIFI感知",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/coloros_wifi_sense/update.json",
+            "version": "v1.6.2",
+            "versionCode": "11"
+          },
+          "publishedAt": "2026-11-19T17:43:38Z",
+          "releaseId": 451702386,
+          "tag": "v1.6.2",
+          "tagCommit": "0c3d34c3e0be124b2d712e31db41ec46a2ea97ee",
+          "version": "v1.6.2",
+          "versionCode": 11
+        },
         {
           "asset": {
             "digest": "sha256:7822cd9ce8dfd3647473493d845a8688b8618284d839ba646960153cfc282f23",
@@ -6189,21 +6219,25 @@
         "449894067": {
           "checkedAt": "2026-11-18T11:33:01.829Z",
           "ok": true
+        },
+        "451702386": {
+          "checkedAt": "2026-11-19T17:44:06.023Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:7822cd9ce8dfd3647473493d845a8688b8618284d839ba646960153cfc282f23",
-          "id": 763148684,
-          "name": "coloros-wifi-sense-v1.6.1.zip",
-          "sha256": "7822cd9ce8dfd3647473493d845a8688b8618284d839ba646960153cfc282f23",
-          "size": 133950,
-          "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.6.1/coloros-wifi-sense-v1.6.1.zip"
+          "digest": "sha256:7de302d4684bd904d45f7e4b4892af2a91a79659a44a3233b54d26126bf4eb8f",
+          "id": 768646081,
+          "name": "coloros-wifi-sense-v1.6.2.zip",
+          "sha256": "7de302d4684bd904d45f7e4b4892af2a91a79659a44a3233b54d26126bf4eb8f",
+          "size": 136853,
+          "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.6.2/coloros-wifi-sense-v1.6.2.zip"
         },
-        "body": "- 暂停时停止弱信号和通网检测，到期自动恢复。\n- 暂停流体云在通知中心静默显示，可点「恢复检测」，遵循流体云总开关。\r\n",
-        "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.6.1",
+        "body": "- 修复开启双 WLAN 后，一直显示“等待连接”、无法自动断开的问题。\n- 双 WLAN 下检测主 Wi-Fi，副连接变化不再打断倒计时。\n",
+        "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.6.2",
         "immutable": true,
-        "name": "ColorOS WIFI感知 v1.6.1",
+        "name": "v1.6.2 · 修复双 WLAN 识别",
         "prerelease": false,
         "prop": {
           "author": "酷安@NVMEX夜莺",
@@ -6211,15 +6245,15 @@
           "id": "coloros_wifi_sense",
           "name": "colorOSWIFI感知",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/coloros_wifi_sense/update.json",
-          "version": "v1.6.1",
-          "versionCode": "10"
+          "version": "v1.6.2",
+          "versionCode": "11"
         },
-        "publishedAt": "2026-11-18T11:32:40Z",
-        "releaseId": 449894067,
-        "tag": "v1.6.1",
-        "tagCommit": "0f03cb3cea2cf1b070084ebb3433a5c0c6ba9a72",
-        "version": "v1.6.1",
-        "versionCode": 10
+        "publishedAt": "2026-11-19T17:43:38Z",
+        "releaseId": 451702386,
+        "tag": "v1.6.2",
+        "tagCommit": "0c3d34c3e0be124b2d712e31db41ec46a2ea97ee",
+        "version": "v1.6.2",
+        "versionCode": 11
       },
       "stars": {
         "count": 14,
@@ -8325,7 +8359,7 @@
     "hypercool": {
       "content": {
         "blobs": {
-          "README.md": "2a8f75d19af380604981231b50eb8bec64e92447",
+          "README.md": "1fc48cae94b2711b409a56e899182edf24f40c3e",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
           "docs/badges/downloads.svg": "9de4e3c2c23766f6d60497425eddbbbaec4351d4",
@@ -8350,10 +8384,10 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "19958bd6519529a2b719e7b65f93b61bf98fa22b",
-        "fetchedAt": "2026-11-19T13:37:22.413Z",
+        "commit": "e774e3afe67a777a1077bbbc05ecf101cad8edce",
+        "fetchedAt": "2026-11-19T17:44:06.023Z",
         "files": {
-          "README.md": "37507688e97f6dc6718ce2b464cef15ddfa1c6f56ec26515149865d8fe1d72a5",
+          "README.md": "a3a1ba73a53c1f68e11d653c5825279a57301a24f85ccd03b6b52f0ce6d8304f",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
           "docs/badges/downloads.svg": "0666e4ce00e7f7a8c7487bee612002ee91df36bf585fb08fed1d98cc50f4cd3e",
@@ -8384,8 +8418,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-19T13:37:22.413Z",
-        "lastSuccessAt": "2026-11-19T13:37:22.413Z",
+        "lastAttemptAt": "2026-11-19T17:44:06.023Z",
+        "lastSuccessAt": "2026-11-19T17:44:06.023Z",
         "message": null,
         "status": "ok"
       },
@@ -11637,8 +11671,8 @@
         "versionCode": 302
       },
       "stars": {
-        "count": 1,
-        "fetchedAt": "2026-11-13T11:32:25.479Z",
+        "count": 2,
+        "fetchedAt": "2026-11-19T17:44:06.023Z",
         "fullName": "LuigiColantuono/Power11",
         "repositoryId": 1435050229,
         "verified": "self"
