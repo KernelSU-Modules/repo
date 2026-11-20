@@ -1242,12 +1242,12 @@
           ".github/images/overview-en.png": "7b7a18154be22b3852ae2807f3cdf29a0def3589",
           ".github/images/settings-en.png": "0bdbf5ea9d3e3107cf13a392bab5b8404bb3f2cd",
           ".github/images/trends-en.png": "1ba4b5cd42ed361c7ed71cf7cb6a5b7fd70aff2f",
-          "README.md": "d785da237c6e4e34392240253b88c6aaba5be32d",
+          "README.md": "5ca8439aae2f1a21fd36df144fff9c1c176a5289",
           "assets/icon.png": "5dc474bb718300203dce63f6f647c0d98cc4a3b6",
           "module.yaml": "af46db6ce9b3521a63f54a2523a3de272490b8a6"
         },
-        "commit": "bc38e59031faa5a7641da0f9452f75a27b8394d0",
-        "fetchedAt": "2026-11-14T12:37:21.288Z",
+        "commit": "7db4535ce05279de6e87971793aa53a4181add10",
+        "fetchedAt": "2026-11-20T15:43:23.150Z",
         "files": {
           ".github/images/history-en.png": "78388c9b30bfd237ed00eef989c3ba4fff7a81031e84428e588fd5d4f9b0cffa",
           ".github/images/how-it-works-en-dark.png": "39c90ed4f3604a2fb0de8341ee656c1ede0b561a7eb8f3fbaff6fb53709d2846",
@@ -1255,7 +1255,7 @@
           ".github/images/overview-en.png": "fa929c6ea48acd0491ca4bbac669d7622ca90b1a141626d5182b1f847cf3cfb3",
           ".github/images/settings-en.png": "2e7e0cf13dae1f5d1533e1219abeafa8e471f1260cde7df5c8291bbf070293ce",
           ".github/images/trends-en.png": "2db2ab33ebfafb66087d6f8d56070adc4a38eaf864d32d376ee71c66f6a5e4c2",
-          "README.md": "e330beb70e4b446da69fd676add43d3a9b00c848be3e2ce9c85315d6b5208ad5",
+          "README.md": "0697eab0d8b711c0a6cb349a4ee2a4ada5da01ecf84b58faf8813b769a7f26d4",
           "assets/icon.png": "ef5a7662da7b1a2debee42ebe7f5b3e2ad28e362adc958828c986c0026128f91",
           "module.yaml": "ebfe31d302a3ceb7f02de8208dc4945730987a2dfff4ca8c586e4b1fa02cf1ea"
         },
@@ -1265,8 +1265,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-15T16:17:20.460Z",
-        "lastSuccessAt": "2026-11-15T16:17:20.460Z",
+        "lastAttemptAt": "2026-11-20T15:43:23.150Z",
+        "lastSuccessAt": "2026-11-20T15:43:23.150Z",
         "message": null,
         "status": "ok"
       },
@@ -8362,8 +8362,8 @@
           "README.md": "e76aa66a38cfc9bd845770bf4f4324bf03f856a1",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
-          "docs/badges/downloads.svg": "9de4e3c2c23766f6d60497425eddbbbaec4351d4",
-          "docs/badges/release.svg": "f0292404f901478c5538fe79456ec2d9ef2aa374",
+          "docs/badges/downloads.svg": "13b67e3a5d3c6396438f82fbc08e944f91bdff53",
+          "docs/badges/release.svg": "6edcecf54785bbcefc752978b4eb028063c53c9e",
           "docs/badges/stars.svg": "f65f7a10c061dd0b62dfe25f51b0a88732ea24bc",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
           "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
@@ -8384,14 +8384,14 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "1bc67ef1277648f34847faa183a5b1ebe8a7a21b",
-        "fetchedAt": "2026-11-20T06:00:46.219Z",
+        "commit": "e0a31fc29a1dc58ff0ba8ebb1296cf699ccc338a",
+        "fetchedAt": "2026-11-20T15:43:23.150Z",
         "files": {
           "README.md": "acbfa8a0d5f7c551eab21afebc783709e34ff3912a4155d8735c9aa82670308b",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
-          "docs/badges/downloads.svg": "0666e4ce00e7f7a8c7487bee612002ee91df36bf585fb08fed1d98cc50f4cd3e",
-          "docs/badges/release.svg": "4503da2a58edea286c5e79f57ce9a270fb05a2877939f1eebc369977e8d4d001",
+          "docs/badges/downloads.svg": "3dea1e7a009cdf2acab5a5f28922ad5e3c1cb7ba89cca68ef05d167b17483454",
+          "docs/badges/release.svg": "3a32205b32c259ec7330cd00ed6d4378dcf78d7e5e04980ecf28822ba4a7d5bd",
           "docs/badges/stars.svg": "be99734329b7a6658542e076ee53133e79aa02b98121224642ced1048c86bfa7",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
           "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
@@ -8418,8 +8418,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-20T06:00:46.219Z",
-        "lastSuccessAt": "2026-11-20T06:00:46.219Z",
+        "lastAttemptAt": "2026-11-20T15:43:23.150Z",
+        "lastSuccessAt": "2026-11-20T15:43:23.150Z",
         "message": null,
         "status": "ok"
       },

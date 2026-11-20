@@ -86,11 +86,11 @@
       }
     },
     "CRecordEvolution": {
-      "contentCommit": "bc38e59031faa5a7641da0f9452f75a27b8394d0",
+      "contentCommit": "7db4535ce05279de6e87971793aa53a4181add10",
       "fullName": "f1owkang/CRecordEvolution",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-15T16:17:20.460Z",
+      "lastSuccessAt": "2026-11-20T15:43:23.150Z",
       "maxVersionCode": 39,
       "message": null,
       "repositoryId": 678049636,
@@ -779,11 +779,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "1bc67ef1277648f34847faa183a5b1ebe8a7a21b",
+      "contentCommit": "e0a31fc29a1dc58ff0ba8ebb1296cf699ccc338a",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-20T06:00:46.219Z",
+      "lastSuccessAt": "2026-11-20T15:43:23.150Z",
       "maxVersionCode": 237,
       "message": null,
       "repositoryId": 1446403674,
@@ -1125,6 +1125,27 @@
         "version": "v2",
         "versionCode": 2
       }
+    },
+    "smart_bypass_charging": {
+      "contentCommit": "6b419c2a274ea04238f296a50dba58c2a030aa41",
+      "fullName": "mhmithu/Smart-Bypass-Charging",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1448741563,
+      "request": {
+        "checkedAt": "2026-11-20T15:43:23.150Z",
+        "commit": "6b419c2a274ea04238f296a50dba58c2a030aa41",
+        "issues": [],
+        "latestTag": "v1.1.0",
+        "ok": true,
+        "releaseId": 448683519,
+        "repositoryId": 1448741563,
+        "submissionId": "hwurtf3d5h"
+      },
+      "stable": null
     },
     "susdock": {
       "contentCommit": "2ddabb7cbb0cad81df153cb87bad86b72779e809",
