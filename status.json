@@ -1147,6 +1147,27 @@
       },
       "stable": null
     },
+    "stopservices": {
+      "contentCommit": "3b97c2ac1c9aeea91f841a2db6986b7194b267ec",
+      "fullName": "LeanxModulostk/Stop_Service",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1465015219,
+      "request": {
+        "checkedAt": "2026-11-20T19:41:57.325Z",
+        "commit": "3b97c2ac1c9aeea91f841a2db6986b7194b267ec",
+        "issues": [],
+        "latestTag": "v1",
+        "ok": true,
+        "releaseId": 453105827,
+        "repositoryId": 1465015219,
+        "submissionId": "guv6vobgu3"
+      },
+      "stable": null
+    },
     "susdock": {
       "contentCommit": "2ddabb7cbb0cad81df153cb87bad86b72779e809",
       "fullName": "Nixie24/susdock",
