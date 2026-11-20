@@ -3265,8 +3265,8 @@
         "versionCode": 10620
       },
       "stars": {
-        "count": 236,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 237,
+        "fetchedAt": "2026-11-20T06:00:46.219Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -8359,7 +8359,7 @@
     "hypercool": {
       "content": {
         "blobs": {
-          "README.md": "52742a4aac9c2520b93a60cf27686ffee130b9bf",
+          "README.md": "e76aa66a38cfc9bd845770bf4f4324bf03f856a1",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
           "docs/badges/downloads.svg": "9de4e3c2c23766f6d60497425eddbbbaec4351d4",
@@ -8384,10 +8384,10 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "7e9fd3f490ac8957d0b96895831bde3610ac21d2",
-        "fetchedAt": "2026-11-20T03:18:31.071Z",
+        "commit": "1bc67ef1277648f34847faa183a5b1ebe8a7a21b",
+        "fetchedAt": "2026-11-20T06:00:46.219Z",
         "files": {
-          "README.md": "784f31c3197f22bc52f02bdb49d1b1cc5ab5c49ffb872084f162f8832c31c13c",
+          "README.md": "acbfa8a0d5f7c551eab21afebc783709e34ff3912a4155d8735c9aa82670308b",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
           "docs/badges/downloads.svg": "0666e4ce00e7f7a8c7487bee612002ee91df36bf585fb08fed1d98cc50f4cd3e",
@@ -8418,17 +8418,48 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-20T03:18:31.071Z",
-        "lastSuccessAt": "2026-11-20T03:18:31.071Z",
+        "lastAttemptAt": "2026-11-20T06:00:46.219Z",
+        "lastSuccessAt": "2026-11-20T06:00:46.219Z",
         "message": null,
         "status": "ok"
       },
       "id": "hypercool",
       "installationId": 179696560,
-      "maxStableVersionCode": 236,
-      "maxVersionCode": 236,
+      "maxStableVersionCode": 237,
+      "maxVersionCode": 237,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:807a2b8acf8144b9a25045433e911265297732e4d5e4f6a745350deea8b95d1c",
+            "id": 770666486,
+            "name": "HyperCool_v2.3.7.zip",
+            "sha256": "807a2b8acf8144b9a25045433e911265297732e4d5e4f6a745350deea8b95d1c",
+            "size": 380354,
+            "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.7/HyperCool_v2.3.7.zip"
+          },
+          "body": "\n- New: Wake sources report: kernel wakeup statistics in plain names (Mobile data, Wi-Fi, Apps and Android, Android system, Alarms and timers, Battery and charging, …), with how much of the time the phone was awake since \"Mark start\", sorting by awake time or wake-ups, and \"Apps and Android\" opening the apps that held wake locks. Read only.\n- New: CPU use now: the busiest processes over 2 seconds as a share of the whole CPU, in plain names; the measurement itself and the root manager are left out, and reading `/proc` uses shell builtins only.\n- New: Screen-off drain check (off by default): each screen-off period of 30 min or more without the charger is logged in Recent activity, with a notification when the drain is high (1 h or more, 2% or more lost, at the rate you pick) and the user app that held the most wake locks when the drain was 1%/h or more.\n- New: `drain_alert`, `drain_alert_rate`, `drain_alert_notify`, `drain_cause` and `drain_cause_min` in the WebUI, read live by the keeper. App wake-lock rows and drain lines also get a \"Block in background\" button.\n- Changed: `stats_reduce` now also turns off activity and foreground-service start logs and the disk stats logging job.\n- Changed: the app wake-lock list reads `dumpsys batterystats --charged` (text, without the battery history), counts only per-uid partial wake locks, and gets package names from `cmd package list packages -U`.\n- Changed: the screen-off drain check is off by default for new installs.\n- Fixed: a charger plugged in during a screen-off period is detected from Android's `battery_status` events (with wake-up checks as a fallback), so those periods are left out even when `drain_cause` is off.\n- Fixed: the drain check reads battery stats in the background with its own per-period mark (`wk.chk.<n>`), so a slow `dumpsys` never holds the keeper and a quick screen-off cannot clear its mark.\n- Fixed: the module description reports \"screen-off keeper running\" when `drain_alert` is the only active keeper feature, and no drain line is logged when the drain check is off.\n\n",
+          "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.7",
+          "immutable": true,
+          "name": "HyperCool v2.3.7",
+          "prerelease": false,
+          "prop": {
+            "author": "Yudharn",
+            "banner": "banner.jpg",
+            "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
+            "id": "hypercool",
+            "name": "HyperCool - Heat & Battery Fix",
+            "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
+            "version": "v2.3.7",
+            "versionCode": "237"
+          },
+          "publishedAt": "2026-11-20T06:00:22Z",
+          "releaseId": 452325330,
+          "tag": "v2.3.7",
+          "tagCommit": "1bc67ef1277648f34847faa183a5b1ebe8a7a21b",
+          "version": "v2.3.7",
+          "versionCode": 237
+        },
         {
           "asset": {
             "digest": "sha256:3511c880f82002c372461e5db2640c6759d1c01b7216f8dba1d4cfa3216d7f3f",
@@ -8800,21 +8831,25 @@
         "448771713": {
           "checkedAt": "2026-11-17T14:49:09.459Z",
           "ok": true
+        },
+        "452325330": {
+          "checkedAt": "2026-11-20T06:00:46.219Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:3511c880f82002c372461e5db2640c6759d1c01b7216f8dba1d4cfa3216d7f3f",
-          "id": 759445972,
-          "name": "HyperCool_v2.3.6.zip",
-          "sha256": "3511c880f82002c372461e5db2640c6759d1c01b7216f8dba1d4cfa3216d7f3f",
-          "size": 361956,
-          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.6/HyperCool_v2.3.6.zip"
+          "digest": "sha256:807a2b8acf8144b9a25045433e911265297732e4d5e4f6a745350deea8b95d1c",
+          "id": 770666486,
+          "name": "HyperCool_v2.3.7.zip",
+          "sha256": "807a2b8acf8144b9a25045433e911265297732e4d5e4f6a745350deea8b95d1c",
+          "size": 380354,
+          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.7/HyperCool_v2.3.7.zip"
         },
-        "body": "\n- Changed: The WebUI now always uses the Mono look. The Mono theme switch is gone, and Colors changes only the accent used by switches, buttons, the active tab and icons; backgrounds and text stay black and white.\n- Changed: Each accent color now has its own dark and light palette. System (Dynamic) uses the wallpaper palette, or the preset closest to the wallpaper color, with Blue as the fallback for a grey wallpaper.\n- Changed: Existing theme settings migrate automatically. Mono on or the old Glacier color becomes Mono, a color chosen with Mono off stays as the accent, new installs follow the system dark/light setting, and installs that already used the WebUI keep the Dark default.\n- New: Tapping \"N unsaved changes\" opens a review with every changed setting and its old to new value before Save.\n- Changed: \"Saved, restart to apply\" hides after 5 seconds; tap the \"Restart to apply\" pill in the header to show the bar again.\n- New: Temperature, idle drain and battery health show a loading placeholder until their first reading arrives.\n- Changed: The \"Applies after restart\" tag now has an icon, the old risk dot is gone, and the risk line is shown in the feature details.\n- New: More feature details explain how the option works, including CPU idle states, UFS power saving, I/O accounting, Wi-Fi/Bluetooth scanning, network standby, telemetry, logging, Battery Saver trigger, refresh rate, animation scale, apply delay, boot notification, network stack tuning, cache-clean notification and background memory work.\n\n",
-        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.6",
+        "body": "\n- New: Wake sources report: kernel wakeup statistics in plain names (Mobile data, Wi-Fi, Apps and Android, Android system, Alarms and timers, Battery and charging, …), with how much of the time the phone was awake since \"Mark start\", sorting by awake time or wake-ups, and \"Apps and Android\" opening the apps that held wake locks. Read only.\n- New: CPU use now: the busiest processes over 2 seconds as a share of the whole CPU, in plain names; the measurement itself and the root manager are left out, and reading `/proc` uses shell builtins only.\n- New: Screen-off drain check (off by default): each screen-off period of 30 min or more without the charger is logged in Recent activity, with a notification when the drain is high (1 h or more, 2% or more lost, at the rate you pick) and the user app that held the most wake locks when the drain was 1%/h or more.\n- New: `drain_alert`, `drain_alert_rate`, `drain_alert_notify`, `drain_cause` and `drain_cause_min` in the WebUI, read live by the keeper. App wake-lock rows and drain lines also get a \"Block in background\" button.\n- Changed: `stats_reduce` now also turns off activity and foreground-service start logs and the disk stats logging job.\n- Changed: the app wake-lock list reads `dumpsys batterystats --charged` (text, without the battery history), counts only per-uid partial wake locks, and gets package names from `cmd package list packages -U`.\n- Changed: the screen-off drain check is off by default for new installs.\n- Fixed: a charger plugged in during a screen-off period is detected from Android's `battery_status` events (with wake-up checks as a fallback), so those periods are left out even when `drain_cause` is off.\n- Fixed: the drain check reads battery stats in the background with its own per-period mark (`wk.chk.<n>`), so a slow `dumpsys` never holds the keeper and a quick screen-off cannot clear its mark.\n- Fixed: the module description reports \"screen-off keeper running\" when `drain_alert` is the only active keeper feature, and no drain line is logged when the drain check is off.\n\n",
+        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.7",
         "immutable": true,
-        "name": "HyperCool v2.3.6",
+        "name": "HyperCool v2.3.7",
         "prerelease": false,
         "prop": {
           "author": "Yudharn",
@@ -8823,15 +8858,15 @@
           "id": "hypercool",
           "name": "HyperCool - Heat & Battery Fix",
           "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
-          "version": "v2.3.6",
-          "versionCode": "236"
+          "version": "v2.3.7",
+          "versionCode": "237"
         },
-        "publishedAt": "2026-11-17T14:48:46Z",
-        "releaseId": 448771713,
-        "tag": "v2.3.6",
-        "tagCommit": "382d2b562ab6730af0127994123285dee7cfd6d1",
-        "version": "v2.3.6",
-        "versionCode": 236
+        "publishedAt": "2026-11-20T06:00:22Z",
+        "releaseId": 452325330,
+        "tag": "v2.3.7",
+        "tagCommit": "1bc67ef1277648f34847faa183a5b1ebe8a7a21b",
+        "version": "v2.3.7",
+        "versionCode": 237
       },
       "stars": {
         "count": 28,
@@ -13751,8 +13786,8 @@
         "versionCode": 10151
       },
       "stars": {
-        "count": 147,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 148,
+        "fetchedAt": "2026-11-20T06:00:46.219Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
