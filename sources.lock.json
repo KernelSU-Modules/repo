@@ -14274,17 +14274,47 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-20T06:24:58.043Z",
-        "lastSuccessAt": "2026-11-20T06:24:58.043Z",
+        "lastAttemptAt": "2026-11-20T08:58:03.818Z",
+        "lastSuccessAt": "2026-11-20T08:58:03.818Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk_fusehide",
       "installationId": 170178853,
-      "maxStableVersionCode": 213,
-      "maxVersionCode": 213,
+      "maxStableVersionCode": 214,
+      "maxVersionCode": 214,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:6a781d59125b629f61b2c381d4bbd0f85a2bd39bb1cda31d35448c7539ec6f5e",
+            "id": 771126684,
+            "name": "FuseHide-1.214_214-15b30cf-release.zip",
+            "sha256": "6a781d59125b629f61b2c381d4bbd0f85a2bd39bb1cda31d35448c7539ec6f5e",
+            "size": 7759570,
+            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v214-15b30cf/FuseHide-1.214_214-15b30cf-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.214`\n- **VersionCode:** `214`\n- **Commit:** [`15b30cf`](https://github.com/XiaoTong6666/FuseHide/commit/15b30cf78c3f831d5d64eca7edd9acef7aadea3e)\n- **Build time:** `6m 08s`\n- **SHA256:** `6a781d59125b629f61b2c381d4bbd0f85a2bd39bb1cda31d35448c7539ec6f5e`\n\n## Message\n\n```text\nfix(config): retry sync after unlock when snapshot is stale, Meow\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v214-15b30cf",
+          "immutable": true,
+          "name": "1.214",
+          "prerelease": false,
+          "prop": {
+            "author": "XiaoTong",
+            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+            "id": "zygisk_fusehide",
+            "name": "Zygisk - FuseHide",
+            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+            "version": "1.214 (214-15b30cf-release)",
+            "versionCode": "214"
+          },
+          "publishedAt": "2026-11-20T08:57:39Z",
+          "releaseId": 452463455,
+          "tag": "v214-15b30cf",
+          "tagCommit": "fd54b7eb52d329ca79ba3d105810ca7b92e6000d",
+          "version": "1.214 (214-15b30cf-release)",
+          "versionCode": 214
+        },
         {
           "asset": {
             "digest": "sha256:a3be11367aff320bdfa4372bfd1a11d4077a164e4f4f254285c833e55775fb05",
@@ -14554,36 +14584,6 @@
           "tagCommit": "380adeb7ce7874a9f0bc126a6ab2a24ef634667d",
           "version": "1.199 (199-a6e1d36-release)",
           "versionCode": 199
-        },
-        {
-          "asset": {
-            "digest": "sha256:a32ffd5ed32a3bc05c129642ee4074d714480931f44516e81be3aabec09b4b6e",
-            "id": 708801657,
-            "name": "FuseHide-1.197_197-c59a62b-release.zip",
-            "sha256": "a32ffd5ed32a3bc05c129642ee4074d714480931f44516e81be3aabec09b4b6e",
-            "size": 7657170,
-            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v197-c59a62b/FuseHide-1.197_197-c59a62b-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.197`\n- **VersionCode:** `197`\n- **Commit:** [`c59a62b`](https://github.com/XiaoTong6666/FuseHide/commit/c59a62b5d8884908aadefee0b82491d0197504b2)\n- **Build time:** `5m 53s`\n- **SHA256:** `a32ffd5ed32a3bc05c129642ee4074d714480931f44516e81be3aabec09b4b6e`\n\n## Message\n\n```text\nfix(native): 补充基于小米17(pudding) hyperos4 4.0.4.0正式版的 MediaProvider 布局适配 (#116)\n\n* fix(native): 先检测目录项 ABI 再缓存挂点计划\n\n* fix(native): 补齐 pudding MediaProvider 原生布局适配\n\n* fix(native): 补齐 pudding 的两个精确符号签名\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v197-c59a62b",
-          "immutable": true,
-          "name": "1.197",
-          "prerelease": false,
-          "prop": {
-            "author": "XiaoTong",
-            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
-            "id": "zygisk_fusehide",
-            "name": "Zygisk - FuseHide",
-            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-            "version": "1.197 (197-c59a62b-release)",
-            "versionCode": "197"
-          },
-          "publishedAt": "2026-11-04T08:27:06Z",
-          "releaseId": 433670222,
-          "tag": "v197-c59a62b",
-          "tagCommit": "c1aa34baaa6319c87dc8131a778af249020836aa",
-          "version": "1.197 (197-c59a62b-release)",
-          "versionCode": 197
         }
       ],
       "repositoryId": 1417162951,
@@ -14669,21 +14669,25 @@
         "452341769": {
           "checkedAt": "2026-11-20T06:24:58.043Z",
           "ok": true
+        },
+        "452463455": {
+          "checkedAt": "2026-11-20T08:58:03.818Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:a3be11367aff320bdfa4372bfd1a11d4077a164e4f4f254285c833e55775fb05",
-          "id": 770726658,
-          "name": "FuseHide-1.213_213-8be0b7e-release.zip",
-          "sha256": "a3be11367aff320bdfa4372bfd1a11d4077a164e4f4f254285c833e55775fb05",
+          "digest": "sha256:6a781d59125b629f61b2c381d4bbd0f85a2bd39bb1cda31d35448c7539ec6f5e",
+          "id": 771126684,
+          "name": "FuseHide-1.214_214-15b30cf-release.zip",
+          "sha256": "6a781d59125b629f61b2c381d4bbd0f85a2bd39bb1cda31d35448c7539ec6f5e",
           "size": 7759570,
-          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v213-8be0b7e/FuseHide-1.213_213-8be0b7e-release.zip"
+          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v214-15b30cf/FuseHide-1.214_214-15b30cf-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.213`\n- **VersionCode:** `213`\n- **Commit:** [`8be0b7e`](https://github.com/XiaoTong6666/FuseHide/commit/8be0b7e492bb5d2c67f536bd23207f9f6c06a205)\n- **Build time:** `4m 16s`\n- **SHA256:** `a3be11367aff320bdfa4372bfd1a11d4077a164e4f4f254285c833e55775fb05`\n\n## Message\n\n```text\nfix(installer): extract Zygisk library via shared helper, Meow\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v213-8be0b7e",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.214`\n- **VersionCode:** `214`\n- **Commit:** [`15b30cf`](https://github.com/XiaoTong6666/FuseHide/commit/15b30cf78c3f831d5d64eca7edd9acef7aadea3e)\n- **Build time:** `6m 08s`\n- **SHA256:** `6a781d59125b629f61b2c381d4bbd0f85a2bd39bb1cda31d35448c7539ec6f5e`\n\n## Message\n\n```text\nfix(config): retry sync after unlock when snapshot is stale, Meow\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v214-15b30cf",
         "immutable": true,
-        "name": "1.213",
+        "name": "1.214",
         "prerelease": false,
         "prop": {
           "author": "XiaoTong",
@@ -14691,15 +14695,15 @@
           "id": "zygisk_fusehide",
           "name": "Zygisk - FuseHide",
           "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-          "version": "1.213 (213-8be0b7e-release)",
-          "versionCode": "213"
+          "version": "1.214 (214-15b30cf-release)",
+          "versionCode": "214"
         },
-        "publishedAt": "2026-11-20T06:24:37Z",
-        "releaseId": 452341769,
-        "tag": "v213-8be0b7e",
-        "tagCommit": "4d926fd5b1a9d507a4c2f35eece16a5d12cc4bad",
-        "version": "1.213 (213-8be0b7e-release)",
-        "versionCode": 213
+        "publishedAt": "2026-11-20T08:57:39Z",
+        "releaseId": 452463455,
+        "tag": "v214-15b30cf",
+        "tagCommit": "fd54b7eb52d329ca79ba3d105810ca7b92e6000d",
+        "version": "1.214 (214-15b30cf-release)",
+        "versionCode": 214
       },
       "stars": {
         "count": 31,
