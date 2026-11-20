@@ -2668,14 +2668,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "9d40063201ce13f6ecabd517c872285434a360ec",
+          "README.md": "fcd69ef70b3b6640da01b8be0ce41c28a261f40b",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "2d9a25e5391a52f92fbf3b63eeb06be76e421388",
-        "fetchedAt": "2026-11-19T12:35:34.799Z",
+        "commit": "63f6fc1408aec8f9b958431532b3d1a89de08b3f",
+        "fetchedAt": "2026-11-20T01:38:24.668Z",
         "files": {
-          "README.md": "cee821305c1781aea96fe63eefd7a3a592c9675d8c9e5269e92e7412339a8850",
+          "README.md": "c90abf829f65baa8e1293c4ed5f59c98af29d6283098a755aa2937b49ad8833a",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -2685,8 +2685,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-19T12:35:34.799Z",
-        "lastSuccessAt": "2026-11-19T12:35:34.799Z",
+        "lastAttemptAt": "2026-11-20T01:38:24.668Z",
+        "lastSuccessAt": "2026-11-20T01:38:24.668Z",
         "message": null,
         "status": "ok"
       },
@@ -12199,13 +12199,13 @@
     "sidewire": {
       "content": {
         "blobs": {
-          "README.md": "690f12c4f574b32ac1378bc3483a65b143b6f35c",
+          "README.md": "785185ccf70a9537d665731301d5cd4f4ae4a45b",
           "module.yaml": "9ce18950e6cae1ae5792b61e67f042a8e78ec422"
         },
-        "commit": "2573960d2d02ac52d886ec58b4df6d879e486e46",
-        "fetchedAt": "2026-11-18T09:30:16.639Z",
+        "commit": "e8778753562c154b86935bf81aea3783bc329b0a",
+        "fetchedAt": "2026-11-20T01:38:24.668Z",
         "files": {
-          "README.md": "9305a1b2cf61354982b797c3fa975264ebdd0e9b13e14127276c792f3fa5f5c1",
+          "README.md": "2f67478636deb2d70529a664043ce91dc45c4941add86cf9a71368d2a3308afc",
           "module.yaml": "07dff387aa3c3fe60ba1d79975ba635372e945af3dad398ffa22865e233b7c83"
         },
         "manifestPath": "module.yaml",
@@ -12214,17 +12214,46 @@
       "fullName": "mzggr0914/sidewire",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-18T09:30:16.639Z",
-        "lastSuccessAt": "2026-11-18T09:30:16.639Z",
+        "lastAttemptAt": "2026-11-20T01:38:24.668Z",
+        "lastSuccessAt": "2026-11-20T01:38:24.668Z",
         "message": null,
         "status": "ok"
       },
       "id": "sidewire",
       "installationId": 173815563,
-      "maxStableVersionCode": 35,
-      "maxVersionCode": 35,
+      "maxStableVersionCode": 36,
+      "maxVersionCode": 36,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:e3c63a7743a30b47f520cbd09d0cba2d18832dd0136bd70d21886ee3aed2ff98",
+            "id": 770004599,
+            "name": "SideWire-KernelSU-v1.1.0-arm64.zip",
+            "sha256": "e3c63a7743a30b47f520cbd09d0cba2d18832dd0136bd70d21886ee3aed2ff98",
+            "size": 1178399,
+            "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.1.0/SideWire-KernelSU-v1.1.0-arm64.zip"
+          },
+          "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.8...v1.1.0",
+          "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.1.0",
+          "immutable": true,
+          "name": "SideWire v1.1.0",
+          "prerelease": false,
+          "prop": {
+            "author": "SideWire contributors",
+            "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
+            "id": "sidewire",
+            "name": "SideWire",
+            "version": "1.1.0",
+            "versionCode": "36"
+          },
+          "publishedAt": "2026-11-20T01:37:59Z",
+          "releaseId": 452163106,
+          "tag": "v1.1.0",
+          "tagCommit": "e8778753562c154b86935bf81aea3783bc329b0a",
+          "version": "1.1.0",
+          "versionCode": 36
+        },
         {
           "asset": {
             "digest": "sha256:7bcced2b7e4504a2cfa189a7913db8b79eb8065c6666d1f2dd6fb82f37fb6565",
@@ -12432,36 +12461,40 @@
         "449761161": {
           "checkedAt": "2026-11-18T09:30:16.639Z",
           "ok": true
+        },
+        "452163106": {
+          "checkedAt": "2026-11-20T01:38:24.668Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:7bcced2b7e4504a2cfa189a7913db8b79eb8065c6666d1f2dd6fb82f37fb6565",
-          "id": 762759003,
-          "name": "SideWire-KernelSU-v1.0.8-arm64.zip",
-          "sha256": "7bcced2b7e4504a2cfa189a7913db8b79eb8065c6666d1f2dd6fb82f37fb6565",
-          "size": 1217661,
-          "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.0.8/SideWire-KernelSU-v1.0.8-arm64.zip"
+          "digest": "sha256:e3c63a7743a30b47f520cbd09d0cba2d18832dd0136bd70d21886ee3aed2ff98",
+          "id": 770004599,
+          "name": "SideWire-KernelSU-v1.1.0-arm64.zip",
+          "sha256": "e3c63a7743a30b47f520cbd09d0cba2d18832dd0136bd70d21886ee3aed2ff98",
+          "size": 1178399,
+          "url": "https://github.com/mzggr0914/sidewire/releases/download/v1.1.0/SideWire-KernelSU-v1.1.0-arm64.zip"
         },
-        "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.7...v1.0.8",
-        "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.0.8",
+        "body": "**Full Changelog**: https://github.com/mzggr0914/sidewire/compare/v1.0.8...v1.1.0",
+        "htmlUrl": "https://github.com/mzggr0914/sidewire/releases/tag/v1.1.0",
         "immutable": true,
-        "name": "SideWire v1.0.8",
+        "name": "SideWire v1.1.0",
         "prerelease": false,
         "prop": {
           "author": "SideWire contributors",
           "description": "Secure native Android bridge with PTY, clipboard, file transfer, multi-device control, app tools, and TCP forwarding.",
           "id": "sidewire",
           "name": "SideWire",
-          "version": "1.0.8",
-          "versionCode": "35"
+          "version": "1.1.0",
+          "versionCode": "36"
         },
-        "publishedAt": "2026-11-18T09:29:41Z",
-        "releaseId": 449761161,
-        "tag": "v1.0.8",
-        "tagCommit": "2573960d2d02ac52d886ec58b4df6d879e486e46",
-        "version": "1.0.8",
-        "versionCode": 35
+        "publishedAt": "2026-11-20T01:37:59Z",
+        "releaseId": 452163106,
+        "tag": "v1.1.0",
+        "tagCommit": "e8778753562c154b86935bf81aea3783bc329b0a",
+        "version": "1.1.0",
+        "versionCode": 36
       },
       "stars": {
         "count": 44,

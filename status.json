@@ -171,11 +171,11 @@
       }
     },
     "MagicNet": {
-      "contentCommit": "2d9a25e5391a52f92fbf3b63eeb06be76e421388",
+      "contentCommit": "63f6fc1408aec8f9b958431532b3d1a89de08b3f",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-19T12:35:34.799Z",
+      "lastSuccessAt": "2026-11-20T01:38:24.668Z",
       "maxVersionCode": 10620,
       "message": null,
       "repositoryId": 998453022,
@@ -1024,20 +1024,20 @@
       }
     },
     "sidewire": {
-      "contentCommit": "2573960d2d02ac52d886ec58b4df6d879e486e46",
+      "contentCommit": "e8778753562c154b86935bf81aea3783bc329b0a",
       "fullName": "mzggr0914/sidewire",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-18T09:30:16.639Z",
-      "maxVersionCode": 35,
+      "lastSuccessAt": "2026-11-20T01:38:24.668Z",
+      "maxVersionCode": 36,
       "message": null,
       "repositoryId": 1354975640,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-18T09:29:41Z",
-        "tag": "v1.0.8",
-        "version": "1.0.8",
-        "versionCode": 35
+        "publishedAt": "2026-11-20T01:37:59Z",
+        "tag": "v1.1.0",
+        "version": "1.1.0",
+        "versionCode": 36
       }
     },
     "smallbattery": {
