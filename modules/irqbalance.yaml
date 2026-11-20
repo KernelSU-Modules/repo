@@ -1,0 +1,19 @@
+id: irqbalance
+status: pending
+request:
+  submissionId: 873tqtcw5b
+  kind: submit
+  source:
+    host: github
+    repositoryId: 817089383
+    ownerId: 105339980
+    fullName: LeanxModulostk/IRQ-Balancer-Configuration
+    manifestPath: module.yaml
+  submittedBy: 105339980
+  submittedByLogin: LeanxModulostk
+  submittedAt: 2026-11-20T03:44:13.515Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65278
+createdAt: 2026-11-20T03:44:13.515Z
+updatedAt: 2026-11-20T03:44:13.515Z
