@@ -543,6 +543,33 @@
       },
       "stable": null
     },
+    "coloros_fullpower": {
+      "contentCommit": "d7da2ce4119800d87c9efc1da1ec126fdd667b6a",
+      "fullName": "MieAiiii/ColorOS_fullpower",
+      "health": "error",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": "prop-missing-field: module.prop is missing a non-empty \"versionCode\".",
+      "repositoryId": 1465068556,
+      "request": {
+        "checkedAt": "2026-11-20T06:48:10.543Z",
+        "commit": "d7da2ce4119800d87c9efc1da1ec126fdd667b6a",
+        "issues": [
+          {
+            "code": "prop-missing-field",
+            "message": "module.prop is missing a non-empty \"versionCode\".",
+            "severity": "error"
+          }
+        ],
+        "latestTag": "v6.0.1",
+        "ok": false,
+        "releaseId": 452355861,
+        "repositoryId": 1465068556,
+        "submissionId": "f71n5i9g01"
+      },
+      "stable": null
+    },
     "coloros_wifi_sense": {
       "contentCommit": "0c3d34c3e0be124b2d712e31db41ec46a2ea97ee",
       "fullName": "mazemingw/coloros-wifi-sense",
