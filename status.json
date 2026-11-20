@@ -1127,7 +1127,7 @@
       }
     },
     "smart_bypass_charging": {
-      "contentCommit": "6b419c2a274ea04238f296a50dba58c2a030aa41",
+      "contentCommit": "ab87e8ec90ea24be1d1aaceb00545ea208aec4e6",
       "fullName": "mhmithu/Smart-Bypass-Charging",
       "health": "ok",
       "installation": "present",
@@ -1136,12 +1136,12 @@
       "message": null,
       "repositoryId": 1448741563,
       "request": {
-        "checkedAt": "2026-11-20T15:43:23.150Z",
-        "commit": "6b419c2a274ea04238f296a50dba58c2a030aa41",
+        "checkedAt": "2026-11-20T19:59:31.120Z",
+        "commit": "ab87e8ec90ea24be1d1aaceb00545ea208aec4e6",
         "issues": [],
-        "latestTag": "v1.1.0",
+        "latestTag": "v1.1.1",
         "ok": true,
-        "releaseId": 448683519,
+        "releaseId": 453123586,
         "repositoryId": 1448741563,
         "submissionId": "hwurtf3d5h"
       },
