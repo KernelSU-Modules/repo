@@ -381,6 +381,27 @@
         "versionCode": 28
       }
     },
+    "ancli": {
+      "contentCommit": "99d55d4c7b3f079872bc05667ebdcc650067ccbc",
+      "fullName": "AHLLX/AnCLI",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1285638838,
+      "request": {
+        "checkedAt": "2026-11-20T11:51:26.935Z",
+        "commit": "99d55d4c7b3f079872bc05667ebdcc650067ccbc",
+        "issues": [],
+        "latestTag": "v1.2.666",
+        "ok": true,
+        "releaseId": 452622335,
+        "repositoryId": 1285638838,
+        "submissionId": "h3hhx4vz67"
+      },
+      "stable": null
+    },
     "android_packages_apps_SamsungServiceMode": {
       "contentCommit": null,
       "fullName": "dasloy1996-droid/android_packages_apps_SamsungServiceMode",
