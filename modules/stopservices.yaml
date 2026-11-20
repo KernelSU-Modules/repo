@@ -1,0 +1,19 @@
+id: stopservices
+status: pending
+request:
+  submissionId: guv6vobgu3
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1465015219
+    ownerId: 105339980
+    fullName: LeanxModulostk/Stop_Service
+    manifestPath: module.yaml
+  submittedBy: 105339980
+  submittedByLogin: LeanxModulostk
+  submittedAt: 2026-11-20T19:41:33.667Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65295
+createdAt: 2026-11-20T19:41:33.667Z
+updatedAt: 2026-11-20T19:41:33.667Z
