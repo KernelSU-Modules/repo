@@ -747,6 +747,27 @@
         "versionCode": 236
       }
     },
+    "irqbalance": {
+      "contentCommit": "f5ec6dc2cd8f5d44c6cd8704978b7f66c5a9f271",
+      "fullName": "LeanxModulostk/IRQ-Balancer-Configuration",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 817089383,
+      "request": {
+        "checkedAt": "2026-11-20T03:44:49.479Z",
+        "commit": "f5ec6dc2cd8f5d44c6cd8704978b7f66c5a9f271",
+        "issues": [],
+        "latestTag": "v5",
+        "ok": true,
+        "releaseId": 452237285,
+        "repositoryId": 817089383,
+        "submissionId": "873tqtcw5b"
+      },
+      "stable": null
+    },
     "kernelsu-tailscaled": {
       "contentCommit": "f53ec850408fac799a91868652dbf8d2282703a6",
       "fullName": "WayneShao/KernelSU-Tailscaled",
