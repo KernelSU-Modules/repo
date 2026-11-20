@@ -1,5 +1,29 @@
 id: smart_bypass_charging
-status: rejected
+status: pending
+request:
+  submissionId: hwurtf3d5h
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1448741563
+    ownerId: 3004318
+    fullName: mhmithu/Smart-Bypass-Charging
+    manifestPath: module.yaml
+  submittedBy: 3004318
+  submittedByLogin: mhmithu
+  submittedAt: 2026-11-20T15:42:45.647Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65294
+  note: |-
+    Hello Reviewers,
+
+    Thank you for reviewing Smart Bypass Charging (v1.1.0). Here is a quick technical overview to assist with your security audit:
+
+    1. 100% Transparent & Auditable Code: This module consists solely of plain-text POSIX shell scripts (`customize.sh`, `service.sh`) and a static Material 3 HTML/CSS/JS interface (`webroot/index.html`). 
+    2. Zero Prebuilt Binaries & Zero Network Calls: It contains no compiled binaries/blobs, no obfuscated code, and makes zero external network requests.
+    3. Safe & Self-Contained Storage: All configuration and cache files (`config.conf`, `games.conf`, `active_switch.conf`) are stored strictly within the module's internal directory (`/data/adb/modules/smart_bypass_charging/`). It does not modify `/system` or clutter `/sdcard`.
+    4. Safe Hardware Fallback: It interacts exclusively with standard Android power_supply sysfs nodes (`/sys/class/power_supply/battery/*`) to manage charging limits and idle/bypass states, and automatically restores default kern
 review:
   submissionId: 5ccu5lwf1b
   kind: submit
@@ -15,4 +39,4 @@ review:
     chatId: -1001860367685
     messageId: 64653
 createdAt: 2026-11-06T22:38:39.859Z
-updatedAt: 2026-11-16T12:15:20.585Z
+updatedAt: 2026-11-20T15:42:45.647Z
