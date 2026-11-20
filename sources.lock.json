@@ -1880,8 +1880,8 @@
         "versionCode": 50107
       },
       "stars": {
-        "count": 61,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 63,
+        "fetchedAt": "2026-11-20T02:54:38.554Z",
         "fullName": "Eikeitsu/CertBridge",
         "repositoryId": 1306329220,
         "verified": "self"
@@ -2445,8 +2445,8 @@
         "versionCode": 30060
       },
       "stars": {
-        "count": 26,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 27,
+        "fetchedAt": "2026-11-20T02:54:38.554Z",
         "fullName": "ylh440104/KernelSU-Tuner",
         "repositoryId": 1414095668,
         "verified": "self"
@@ -4036,8 +4036,8 @@
         "versionCode": 22
       },
       "stars": {
-        "count": 160,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 162,
+        "fetchedAt": "2026-11-20T02:54:38.554Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -4773,8 +4773,8 @@
         "versionCode": 10600
       },
       "stars": {
-        "count": 10,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 11,
+        "fetchedAt": "2026-11-20T02:54:38.554Z",
         "fullName": "Infiniti151/acc-with-webui",
         "repositoryId": 1296470014,
         "verified": "self"
@@ -5527,8 +5527,8 @@
         "versionCode": 870
       },
       "stars": {
-        "count": 40,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 41,
+        "fetchedAt": "2026-11-20T02:54:38.554Z",
         "fullName": "pavelc4/auriya",
         "repositoryId": 1081222414,
         "verified": "self"
@@ -8349,8 +8349,8 @@
         "versionCode": 602006999
       },
       "stars": {
-        "count": 1850,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 1855,
+        "fetchedAt": "2026-11-20T02:54:38.554Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
@@ -9718,16 +9718,16 @@
     "magisk-netbird": {
       "content": {
         "blobs": {
-          "README.md": "4dee6c226ad49dd8aa7c5eac6c8d8c423ee64787",
+          "README.md": "31b2dae8fccebb4e1540604647798913669d9a23",
           "assets/icon.png": "4b5299236cdfdf9e533636d5a53e4b2f196c27f7",
           "docs/kernelsu-webui.jpg": "9825995bd7adb3e3a178f1df4984799f3693c182",
           "docs/netbird-logo.png": "1b2405c07e06ec4e2599fc6f205ba962c6697316",
           "module.yaml": "741634b1072058f3b3a3c426bebed63218d4559b"
         },
-        "commit": "6b6d86e6ae69a7f4dfaced3238da280b5b9199ca",
-        "fetchedAt": "2026-11-11T15:30:47.653Z",
+        "commit": "257e5c7bcd84de44786c8553d7e52c7d36fd5275",
+        "fetchedAt": "2026-11-20T02:54:38.554Z",
         "files": {
-          "README.md": "a902e2eced0e201f55f55953c5a16011925a9fdb54b3e86e56352745299f72a5",
+          "README.md": "f91db18cbfeb3f2a5933c3cea26e789480d8679bd0e1ff6a7f8c49d273d3b826",
           "assets/icon.png": "f02f1e5d4edd4fbef8420d768a555b23a179bf24a86413714d03e409598e136e",
           "docs/kernelsu-webui.jpg": "b069466f6ded92b6db727f80aa54f1aff33418b9a2d0ec59c7d56f4f25b4ce6f",
           "docs/netbird-logo.png": "33d92428742e9c48b58cbb7b62cdd00987c73e37211ab890a0f721c8b35a1dec",
@@ -9739,17 +9739,48 @@
       "fullName": "ahsaboy/magisk-netbird",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-11T15:30:47.653Z",
-        "lastSuccessAt": "2026-11-11T15:30:47.653Z",
+        "lastAttemptAt": "2026-11-20T02:54:38.554Z",
+        "lastSuccessAt": "2026-11-20T02:54:38.554Z",
         "message": null,
         "status": "ok"
       },
       "id": "magisk-netbird",
       "installationId": 171209105,
-      "maxStableVersionCode": 10413,
-      "maxVersionCode": 10413,
+      "maxStableVersionCode": 10500,
+      "maxVersionCode": 10500,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:56f9bdb3b14052b0edb331d003161957abd188753a64fb109f4a35a3557abab1",
+            "id": 770194062,
+            "name": "magisk-netbird-10500-v1.5.0-0.83.1.zip",
+            "sha256": "56f9bdb3b14052b0edb331d003161957abd188753a64fb109f4a35a3557abab1",
+            "size": 49143265,
+            "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.5.0/magisk-netbird-10500-v1.5.0-0.83.1.zip"
+          },
+          "body": "## v1.5.0 — NetBird v0.83.1\n- Added opt-in Android DNS interception for the default network, with a WebUI switch and `netbird.service dns on|off|status|check`. The bundled helper sends peer, custom-zone, and match-domain queries to NetBird, and falls back to the original resolver for names NetBird does not own. DNS interception remains off by default. ([PR #4](https://github.com/ahsaboy/magisk-netbird/pull/4))\n- Added IPv4/IPv6 DNS handling, VPN-aware routing, health-based fallback, and ownership-tracked firewall cleanup. Encrypted DNS and non-default networks remain outside the interception scope. ([PR #4](https://github.com/ahsaboy/magisk-netbird/pull/4))\n- Updated the bundled official NetBird client to v0.83.1 for x86_64, arm64-v8a, and armv7; release packaging verifies upstream SHA-256 checksums.\n- 新增默认关闭的 Android DNS 接管功能，可通过 WebUI 开关或 `netbird.service dns on|off|status|check` 控制。随包提供的 helper 会将 Peer、自定义区域和匹配域名查询交给 NetBird；NetBird 不负责的名称则回退到原解析器。([PR #4](https://github.com/ahsaboy/magisk-netbird/pull/4))\n- 新增 IPv4/IPv6 DNS 处理、兼顾 VPN 的路由、健康检查回退及按归属清理防火墙规则；加密 DNS 和非默认网络不在接管范围内。([PR #4](https://github.com/ahsaboy/magisk-netbird/pull/4))\n- 更新官方 NetBird 客户端至 v0.83.1，覆盖 x86_64、arm64-v8a 和 armv7；发布打包时校验上游 SHA-256。\n",
+          "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.5.0",
+          "immutable": true,
+          "name": "v1.5.0",
+          "prerelease": false,
+          "prop": {
+            "author": "ahsaboy",
+            "description": "NetBird daemon with mobile KernelSU WebUI controls and structured status.",
+            "id": "magisk-netbird",
+            "minMagisk": "20400",
+            "name": "Magisk NetBird",
+            "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/updates/update-arm64-v8a.json",
+            "version": "v1.5.0-0.83.1",
+            "versionCode": "10500"
+          },
+          "publishedAt": "2026-11-20T02:54:16Z",
+          "releaseId": 452210626,
+          "tag": "v1.5.0",
+          "tagCommit": "03ee01371d4a28f3cc6ecfadccc5ca2d8b373710",
+          "version": "v1.5.0-0.83.1",
+          "versionCode": 10500
+        },
         {
           "asset": {
             "digest": "sha256:b58076527ef5bac981a3417887af59e9f43f6e1764754d1713ac980e0e7aa5f8",
@@ -10019,21 +10050,25 @@
         "441875016": {
           "checkedAt": "2026-11-11T15:30:47.653Z",
           "ok": true
+        },
+        "452210626": {
+          "checkedAt": "2026-11-20T02:54:38.554Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:b58076527ef5bac981a3417887af59e9f43f6e1764754d1713ac980e0e7aa5f8",
-          "id": 735974424,
-          "name": "magisk-netbird-10413-v1.4.13-0.82.1.zip",
-          "sha256": "b58076527ef5bac981a3417887af59e9f43f6e1764754d1713ac980e0e7aa5f8",
-          "size": 45255524,
-          "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.4.13/magisk-netbird-10413-v1.4.13-0.82.1.zip"
+          "digest": "sha256:56f9bdb3b14052b0edb331d003161957abd188753a64fb109f4a35a3557abab1",
+          "id": 770194062,
+          "name": "magisk-netbird-10500-v1.5.0-0.83.1.zip",
+          "sha256": "56f9bdb3b14052b0edb331d003161957abd188753a64fb109f4a35a3557abab1",
+          "size": 49143265,
+          "url": "https://github.com/ahsaboy/magisk-netbird/releases/download/v1.5.0/magisk-netbird-10500-v1.5.0-0.83.1.zip"
         },
-        "body": "## v1.4.13 — NetBird v0.82.1\n- Updated the official NetBird client to v0.82.1 for x86_64, arm64-v8a, and armv7; release packaging verifies upstream SHA-256 checksums.\n- Hardened SSH authentication and lifecycle handling: reject username changes during JWT authentication, close handshakes and unauthorized sessions, run SFTP through `su`, and default SSH off for stored configs without a peer key.\n- Fixed userspace firewall handling of unspecified local addresses, prevented forwarded traffic from exiting its ingress interface, and corrected nftables peer-protocol matching behind IPv6 extension headers.\n- Removed peers from the interface when they leave the network map and their lazy connection is idle.\n- 更新官方 NetBird 客户端至 v0.82.1，覆盖 x86_64、arm64-v8a 和 armv7；发布时校验上游 SHA-256。\n- 加固 SSH 认证与会话管理：拒绝 JWT 认证期间变更用户名，关闭握手中及已失去授权的会话，SFTP 通过 `su` 启动；缺少 peer key 的旧配置默认关闭 SSH。\n- 修正用户态防火墙对未指定本地地址的识别，阻止转发流量从入站接口原路发出，并修复 IPv6 扩展头后的 nftables peer 协议匹配。\n- peer 离开 network map 且 lazy connection 空闲时，从接口移除该 peer。\n",
-        "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.4.13",
+        "body": "## v1.5.0 — NetBird v0.83.1\n- Added opt-in Android DNS interception for the default network, with a WebUI switch and `netbird.service dns on|off|status|check`. The bundled helper sends peer, custom-zone, and match-domain queries to NetBird, and falls back to the original resolver for names NetBird does not own. DNS interception remains off by default. ([PR #4](https://github.com/ahsaboy/magisk-netbird/pull/4))\n- Added IPv4/IPv6 DNS handling, VPN-aware routing, health-based fallback, and ownership-tracked firewall cleanup. Encrypted DNS and non-default networks remain outside the interception scope. ([PR #4](https://github.com/ahsaboy/magisk-netbird/pull/4))\n- Updated the bundled official NetBird client to v0.83.1 for x86_64, arm64-v8a, and armv7; release packaging verifies upstream SHA-256 checksums.\n- 新增默认关闭的 Android DNS 接管功能，可通过 WebUI 开关或 `netbird.service dns on|off|status|check` 控制。随包提供的 helper 会将 Peer、自定义区域和匹配域名查询交给 NetBird；NetBird 不负责的名称则回退到原解析器。([PR #4](https://github.com/ahsaboy/magisk-netbird/pull/4))\n- 新增 IPv4/IPv6 DNS 处理、兼顾 VPN 的路由、健康检查回退及按归属清理防火墙规则；加密 DNS 和非默认网络不在接管范围内。([PR #4](https://github.com/ahsaboy/magisk-netbird/pull/4))\n- 更新官方 NetBird 客户端至 v0.83.1，覆盖 x86_64、arm64-v8a 和 armv7；发布打包时校验上游 SHA-256。\n",
+        "htmlUrl": "https://github.com/ahsaboy/magisk-netbird/releases/tag/v1.5.0",
         "immutable": true,
-        "name": "v1.4.13",
+        "name": "v1.5.0",
         "prerelease": false,
         "prop": {
           "author": "ahsaboy",
@@ -10042,15 +10077,15 @@
           "minMagisk": "20400",
           "name": "Magisk NetBird",
           "updateJson": "https://cdn.jsdelivr.net/gh/ahsaboy/magisk-netbird@main/module/updates/update-arm64-v8a.json",
-          "version": "v1.4.13-0.82.1",
-          "versionCode": "10413"
+          "version": "v1.5.0-0.83.1",
+          "versionCode": "10500"
         },
-        "publishedAt": "2026-11-11T15:30:49Z",
-        "releaseId": 441875016,
-        "tag": "v1.4.13",
-        "tagCommit": "6b6d86e6ae69a7f4dfaced3238da280b5b9199ca",
-        "version": "v1.4.13-0.82.1",
-        "versionCode": 10413
+        "publishedAt": "2026-11-20T02:54:16Z",
+        "releaseId": 452210626,
+        "tag": "v1.5.0",
+        "tagCommit": "03ee01371d4a28f3cc6ecfadccc5ca2d8b373710",
+        "version": "v1.5.0-0.83.1",
+        "versionCode": 10500
       },
       "stars": {
         "count": 11,
@@ -11217,8 +11252,8 @@
         "versionCode": 180
       },
       "stars": {
-        "count": 736,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 738,
+        "fetchedAt": "2026-11-20T02:54:38.554Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
@@ -11589,8 +11624,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4225,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 4228,
+        "fetchedAt": "2026-11-20T02:54:38.554Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
@@ -14628,8 +14663,8 @@
         "versionCode": 212
       },
       "stars": {
-        "count": 30,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 31,
+        "fetchedAt": "2026-11-20T02:54:38.554Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
@@ -15494,8 +15529,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 11057,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 11065,
+        "fetchedAt": "2026-11-20T02:54:38.554Z",
         "fullName": "Dr-TSNG/ZygiskNext",
         "repositoryId": 594330628,
         "verified": "self"

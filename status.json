@@ -833,20 +833,20 @@
       }
     },
     "magisk-netbird": {
-      "contentCommit": "6b6d86e6ae69a7f4dfaced3238da280b5b9199ca",
+      "contentCommit": "257e5c7bcd84de44786c8553d7e52c7d36fd5275",
       "fullName": "ahsaboy/magisk-netbird",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-11T15:30:47.653Z",
-      "maxVersionCode": 10413,
+      "lastSuccessAt": "2026-11-20T02:54:38.554Z",
+      "maxVersionCode": 10500,
       "message": null,
       "repositoryId": 1274372941,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-11T15:30:49Z",
-        "tag": "v1.4.13",
-        "version": "v1.4.13-0.82.1",
-        "versionCode": 10413
+        "publishedAt": "2026-11-20T02:54:16Z",
+        "tag": "v1.5.0",
+        "version": "v1.5.0-0.83.1",
+        "versionCode": 10500
       }
     },
     "mirage_forge": {
