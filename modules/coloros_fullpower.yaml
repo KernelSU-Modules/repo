@@ -1,0 +1,20 @@
+id: coloros_fullpower
+status: pending
+request:
+  submissionId: f71n5i9g01
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1465068556
+    ownerId: 79390866
+    fullName: MieAiiii/ColorOS_fullpower
+    manifestPath: module.yaml
+  submittedBy: 79390866
+  submittedByLogin: MieAiiii
+  submittedAt: 2026-11-20T06:47:44.375Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65279
+  note: 首次提交收录。模块功能与 v6.0 相同；v6.0.1 为开启 Release immutability 后重新发布的不可变版本。
+createdAt: 2026-11-20T06:47:44.375Z
+updatedAt: 2026-11-20T06:47:44.375Z
