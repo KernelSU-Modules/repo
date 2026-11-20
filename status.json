@@ -382,7 +382,7 @@
       }
     },
     "ancli": {
-      "contentCommit": "e3da99f7ec45324b5487bacc738f383fa3f39b2e",
+      "contentCommit": "5aca290a9a7d276ab2ba9d24a59fcc54c273f610",
       "fullName": "AHLLX/AnCLI",
       "health": "ok",
       "installation": "present",
@@ -391,12 +391,12 @@
       "message": null,
       "repositoryId": 1285638838,
       "request": {
-        "checkedAt": "2026-11-20T12:40:09.560Z",
-        "commit": "e3da99f7ec45324b5487bacc738f383fa3f39b2e",
+        "checkedAt": "2026-11-20T13:08:38.020Z",
+        "commit": "5aca290a9a7d276ab2ba9d24a59fcc54c273f610",
         "issues": [],
-        "latestTag": "v1.2.612",
+        "latestTag": "v1.2.667",
         "ok": true,
-        "releaseId": 445948111,
+        "releaseId": 452653215,
         "repositoryId": 1285638838,
         "submissionId": "h3hhx4vz67"
       },
