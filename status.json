@@ -73,16 +73,16 @@
       "fullName": "AlirezaParsi/COPG",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T11:53:57.596Z",
-      "maxVersionCode": 772,
+      "lastSuccessAt": "2026-11-21T13:02:05.345Z",
+      "maxVersionCode": 781,
       "message": null,
       "repositoryId": 950100740,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-09T14:41:07Z",
-        "tag": "v7.7.2",
-        "version": "7.7.2",
-        "versionCode": 772
+        "publishedAt": "2026-11-21T13:01:47Z",
+        "tag": "v7.8.1",
+        "version": "7.8.1",
+        "versionCode": 781
       }
     },
     "CRecordEvolution": {
@@ -800,11 +800,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "e0a31fc29a1dc58ff0ba8ebb1296cf699ccc338a",
+      "contentCommit": "c75738176ebb164020b564e3e709fc0d0e87e181",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-20T15:43:23.150Z",
+      "lastSuccessAt": "2026-11-21T13:02:05.345Z",
       "maxVersionCode": 237,
       "message": null,
       "repositoryId": 1446403674,

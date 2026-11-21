@@ -814,17 +814,50 @@
       "fullName": "AlirezaParsi/COPG",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T11:53:57.596Z",
-        "lastSuccessAt": "2026-11-16T11:53:57.596Z",
+        "lastAttemptAt": "2026-11-21T13:02:05.345Z",
+        "lastSuccessAt": "2026-11-21T13:02:05.345Z",
         "message": null,
         "status": "ok"
       },
       "id": "COPG",
       "installationId": 174213522,
-      "maxStableVersionCode": 772,
-      "maxVersionCode": 772,
+      "maxStableVersionCode": 781,
+      "maxVersionCode": 781,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:372b45d55eecfbf9e354c583a841ee9aa1e6adb259934fba7a2f7668a8045728",
+            "id": 775603176,
+            "name": "COPG-v7.8.1.zip",
+            "sha256": "372b45d55eecfbf9e354c583a841ee9aa1e6adb259934fba7a2f7668a8045728",
+            "size": 11549029,
+            "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.8.1/COPG-v7.8.1.zip"
+          },
+          "body": "## COPG v7.8.1\n\n*Two new spoofs (GSF ID and OAID), a new Paper look for the WebUI (now the default), bug reports in one tap, your proxy no longer leaks DNS or your real IP, GPS and mock location keep working when the system returns no fix, turning CPU spoof off reverts to the real CPU, installs work on more broken ROMs, and Russian joins the languages.*\n\n### New spoofs\n*   **GSF ID** (`gsf`, `gsf=<id>`). Per-app Google Services Framework ID, the device anchor that Android ID and IMEI don't cover. Works even on devices that have no GSF ID of their own. Pin an exact ID or hit Randomize in the package editor. PRO, behind the \"use at your own risk\" warning.\n*   **OAID** (`oaid`, `oaid=<uuid>`). Per-app OAID, the advertising ID Chinese ROMs and SDKs use instead of GAID: covers the Huawei, Xiaomi, vivo, OPPO, ASUS and Lenovo providers and the MSA service. PRO, behind the same warning.\n\n### Per-app proxy\n*   **DNS no longer leaks past the proxy.** Name lookups were still going out over your real connection even with an app routed through a proxy, exposing your real IP and region. DNS is now tunnelled through the proxy with the rest of the app's traffic.\n*   **Block IPv6 and custom DNS.** Two new per-proxy options: Block IPv6 (stops a v6 leak around an IPv4 proxy) and a custom DNS resolver field.\n\n### Location\n*   **GPS and Mock Location Hide no longer drop out when there's no fix.** On newer Android the spoof stopped applying when the system handed back no location; it now builds a fix from your set position so the spoofed coordinates keep coming.\n*   **No IPv6 leak from VPN Hide / GPS.** Public IPv6 addresses are no longer exposed through the network interface list.\n\n### CPU spoof\n*   **Turning CPU spoof off reverts to the real CPU.** Disabling CPU spoof for an app used to leave the fake `/proc/cpuinfo` mounted, so it kept reading the spoofed CPU. It now switches back to the real one immediately.\n\n### GPU\n*   **Vulkan GPU name spoof fixed on more devices.** On some Adreno and Mali phones the Vulkan device name stayed real (apps like DevCheck showed the true GPU). It now applies reliably, and Mali's OpenGL driver is spoofed too.\n*   **Spoof OpenGL only, keep Vulkan real.** A new per-app `novk` option fakes the GL renderer but leaves Vulkan untouched, for apps that misbehave when Vulkan is spoofed.\n\n### Install & uninstall\n*   **Device code works on more broken ROMs.** On some ROMs with broken module installation the device code couldn't be generated. The binaries now install under a fixed name and self-heal at boot, so enrolment works on those devices.\n*   **Cleaner uninstall.** Uninstall now clears leftover files from past updates and unmounts any CPU spoof left on `/proc/cpuinfo`.\n\n### WebUI\n*   **New Paper style, now the default.** A flat, quiet design: solid surfaces, one accent color, no glow or gradients, and system values set like a spec sheet. The original look is still there as **Glass** under Settings → Style.\n*   **Mode and Accent.** In Paper, pick Light, Dark, AMOLED or Auto, and any of six accents (Indigo, Blue, Emerald, Ember, Rose, Frost) for each. New installs start on Paper + Light.\n*   **New Glass themes:** COPG, Emerald, Ember, Rose and Nord.\n*   **The license is now a pass.** Settings shows your license as a card with days left (or Lifetime) and its status; tap it to open the activation steps. Free users see a clear \"Unlock PRO\" slot.\n*   **Easier device code sharing.** A real Copy button leads Share, Save file and QR, and confirms when copied. The QR panel no longer shows up empty before you ask for it.\n*   **About** moved into its own sheet, with links to the Telegram group and Releases.\n*   **Full system info on Home.** Long values like the ABI list and Zygisk build now wrap instead of being cut off.\n*   **Cleaner package cards.** Tag labels are gone from the Library; the Android user an entry is scoped to shows in the line above the name.\n*   **Spoofing list in categories.** The package editor's 37 spoof toggles are grouped into Identifiers, Hardware, SIM & Carrier, Network, Location, System & Props and Web & App, each showing how many are on, plus a filter box. Randomize IDs sits at the top.\n*   **Edit together applies exactly what you set.** Bulk-editing several apps now gives every selected app the same spoofs as the form.\n*   **Bug report in one tap.** Settings → Export bug report collects logs, crashes and config into one `.tar.gz` (pick which parts), then shows the file with Copy and Share. License files are never included.\n*   **Faster.** App names load instantly across launches, names and icons refresh on their own when an app updates, long lists scroll smoother, and common actions run in a single shell call.\n*   **Supporter note** on the License card explaining what a license supports.\n\n### Under the hood\n*   **All COPG state in one folder.** Runtime files now live under `/data/adb/.config/COPG`; existing installs are moved there on update.\n*   **App icons survive updates.** Cached icons are carried over, so the Library no longer re-downloads them after updating.\n\n### Translations\n*   **Russian added.** Turkish and Portuguese (Brazil) are complete too, so every language is at full parity with English, including all the new screens above.\n\n### Config\n*   **Free Fire India** (`com.garena.game.ffi`) added to the device list, blocked for ban safety.\n\n---\n---\n**Build Date**: 2026-11-21 13:01:40 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
+          "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.8.1",
+          "immutable": true,
+          "name": "COPG v7.8.1",
+          "prerelease": false,
+          "prop": {
+            "author": "AlirezaParsi",
+            "banner": "banner.png",
+            "description": "Spoof your device for games/apps to unlock new features. Website: https://vendors.copg.my",
+            "id": "COPG",
+            "minMagisk": "20.4",
+            "name": "✨ COPG SPOOF ✨",
+            "support": "https://t.me/theaosp",
+            "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
+            "version": "7.8.1",
+            "versionCode": "781"
+          },
+          "publishedAt": "2026-11-21T13:01:47Z",
+          "releaseId": 453694797,
+          "tag": "v7.8.1",
+          "tagCommit": "62f86c3349f302036753d4d89115e3bd40a236ca",
+          "version": "7.8.1",
+          "versionCode": 781
+        },
         {
           "asset": {
             "digest": "sha256:b20877116c5cc910bad7120bbf3b9658c1d1dbea893a485faeb589d1f9396a90",
@@ -1190,21 +1223,25 @@
         "439247624": {
           "checkedAt": "2026-11-09T14:41:25.598Z",
           "ok": true
+        },
+        "453694797": {
+          "checkedAt": "2026-11-21T13:02:05.345Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:b20877116c5cc910bad7120bbf3b9658c1d1dbea893a485faeb589d1f9396a90",
-          "id": 727820441,
-          "name": "COPG-v7.7.2.zip",
-          "sha256": "b20877116c5cc910bad7120bbf3b9658c1d1dbea893a485faeb589d1f9396a90",
-          "size": 10634913,
-          "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.7.2/COPG-v7.7.2.zip"
+          "digest": "sha256:372b45d55eecfbf9e354c583a841ee9aa1e6adb259934fba7a2f7668a8045728",
+          "id": 775603176,
+          "name": "COPG-v7.8.1.zip",
+          "sha256": "372b45d55eecfbf9e354c583a841ee9aa1e6adb259934fba7a2f7668a8045728",
+          "size": 11549029,
+          "url": "https://github.com/AlirezaParsi/COPG/releases/download/v7.8.1/COPG-v7.8.1.zip"
         },
-        "body": "## COPG v7.7.2\n\n*Protected apps that used to close on launch with COPG installed now work, plus a new device field and more complete translations.*\n\n### Protected apps — fixed\n*   **Some apps closed instantly when COPG was installed, even with no spoof set on them.** A few apps wrapped in certain third-party protectors would detect COPG and exit on launch (untagged apps included). COPG now leaves no trace in those apps unless you actually turn a spoof on, so they launch and stay open normally.\n*   **Extra stealth hardening** for apps that unload COPG after spoofing, so nothing of COPG is left behind for an app to find.\n\n### Device profile\n*   **Separate Device field.** `Build.DEVICE` (the product device codename) is now its own field in the device modal. Leave it blank to keep matching the fingerprint automatically; fill it only if you need a different value.\n\n### Translations\n*   **Arabic, German, Spanish, Indonesian, Thai and Chinese are now complete** — every screen is fully translated.\n\n---\n---\n**Build Date**: 2026-11-09 14:41:01 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
-        "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.7.2",
+        "body": "## COPG v7.8.1\n\n*Two new spoofs (GSF ID and OAID), a new Paper look for the WebUI (now the default), bug reports in one tap, your proxy no longer leaks DNS or your real IP, GPS and mock location keep working when the system returns no fix, turning CPU spoof off reverts to the real CPU, installs work on more broken ROMs, and Russian joins the languages.*\n\n### New spoofs\n*   **GSF ID** (`gsf`, `gsf=<id>`). Per-app Google Services Framework ID, the device anchor that Android ID and IMEI don't cover. Works even on devices that have no GSF ID of their own. Pin an exact ID or hit Randomize in the package editor. PRO, behind the \"use at your own risk\" warning.\n*   **OAID** (`oaid`, `oaid=<uuid>`). Per-app OAID, the advertising ID Chinese ROMs and SDKs use instead of GAID: covers the Huawei, Xiaomi, vivo, OPPO, ASUS and Lenovo providers and the MSA service. PRO, behind the same warning.\n\n### Per-app proxy\n*   **DNS no longer leaks past the proxy.** Name lookups were still going out over your real connection even with an app routed through a proxy, exposing your real IP and region. DNS is now tunnelled through the proxy with the rest of the app's traffic.\n*   **Block IPv6 and custom DNS.** Two new per-proxy options: Block IPv6 (stops a v6 leak around an IPv4 proxy) and a custom DNS resolver field.\n\n### Location\n*   **GPS and Mock Location Hide no longer drop out when there's no fix.** On newer Android the spoof stopped applying when the system handed back no location; it now builds a fix from your set position so the spoofed coordinates keep coming.\n*   **No IPv6 leak from VPN Hide / GPS.** Public IPv6 addresses are no longer exposed through the network interface list.\n\n### CPU spoof\n*   **Turning CPU spoof off reverts to the real CPU.** Disabling CPU spoof for an app used to leave the fake `/proc/cpuinfo` mounted, so it kept reading the spoofed CPU. It now switches back to the real one immediately.\n\n### GPU\n*   **Vulkan GPU name spoof fixed on more devices.** On some Adreno and Mali phones the Vulkan device name stayed real (apps like DevCheck showed the true GPU). It now applies reliably, and Mali's OpenGL driver is spoofed too.\n*   **Spoof OpenGL only, keep Vulkan real.** A new per-app `novk` option fakes the GL renderer but leaves Vulkan untouched, for apps that misbehave when Vulkan is spoofed.\n\n### Install & uninstall\n*   **Device code works on more broken ROMs.** On some ROMs with broken module installation the device code couldn't be generated. The binaries now install under a fixed name and self-heal at boot, so enrolment works on those devices.\n*   **Cleaner uninstall.** Uninstall now clears leftover files from past updates and unmounts any CPU spoof left on `/proc/cpuinfo`.\n\n### WebUI\n*   **New Paper style, now the default.** A flat, quiet design: solid surfaces, one accent color, no glow or gradients, and system values set like a spec sheet. The original look is still there as **Glass** under Settings → Style.\n*   **Mode and Accent.** In Paper, pick Light, Dark, AMOLED or Auto, and any of six accents (Indigo, Blue, Emerald, Ember, Rose, Frost) for each. New installs start on Paper + Light.\n*   **New Glass themes:** COPG, Emerald, Ember, Rose and Nord.\n*   **The license is now a pass.** Settings shows your license as a card with days left (or Lifetime) and its status; tap it to open the activation steps. Free users see a clear \"Unlock PRO\" slot.\n*   **Easier device code sharing.** A real Copy button leads Share, Save file and QR, and confirms when copied. The QR panel no longer shows up empty before you ask for it.\n*   **About** moved into its own sheet, with links to the Telegram group and Releases.\n*   **Full system info on Home.** Long values like the ABI list and Zygisk build now wrap instead of being cut off.\n*   **Cleaner package cards.** Tag labels are gone from the Library; the Android user an entry is scoped to shows in the line above the name.\n*   **Spoofing list in categories.** The package editor's 37 spoof toggles are grouped into Identifiers, Hardware, SIM & Carrier, Network, Location, System & Props and Web & App, each showing how many are on, plus a filter box. Randomize IDs sits at the top.\n*   **Edit together applies exactly what you set.** Bulk-editing several apps now gives every selected app the same spoofs as the form.\n*   **Bug report in one tap.** Settings → Export bug report collects logs, crashes and config into one `.tar.gz` (pick which parts), then shows the file with Copy and Share. License files are never included.\n*   **Faster.** App names load instantly across launches, names and icons refresh on their own when an app updates, long lists scroll smoother, and common actions run in a single shell call.\n*   **Supporter note** on the License card explaining what a license supports.\n\n### Under the hood\n*   **All COPG state in one folder.** Runtime files now live under `/data/adb/.config/COPG`; existing installs are moved there on update.\n*   **App icons survive updates.** Cached icons are carried over, so the Library no longer re-downloads them after updating.\n\n### Translations\n*   **Russian added.** Turkish and Portuguese (Brazil) are complete too, so every language is at full parity with English, including all the new screens above.\n\n### Config\n*   **Free Fire India** (`com.garena.game.ffi`) added to the device list, blocked for ban safety.\n\n---\n---\n**Build Date**: 2026-11-21 13:01:40 UTC\n\nRead the full changelog for all versions in [changelog.md](https://github.com/AlirezaParsi/COPG/blob/JSON/changelog.md)\n",
+        "htmlUrl": "https://github.com/AlirezaParsi/COPG/releases/tag/v7.8.1",
         "immutable": true,
-        "name": "COPG v7.7.2",
+        "name": "COPG v7.8.1",
         "prerelease": false,
         "prop": {
           "author": "AlirezaParsi",
@@ -1215,15 +1252,15 @@
           "name": "✨ COPG SPOOF ✨",
           "support": "https://t.me/theaosp",
           "updateJson": "https://raw.githubusercontent.com/AlirezaParsi/COPG/refs/heads/JSON/update.json",
-          "version": "7.7.2",
-          "versionCode": "772"
+          "version": "7.8.1",
+          "versionCode": "781"
         },
-        "publishedAt": "2026-11-09T14:41:07Z",
-        "releaseId": 439247624,
-        "tag": "v7.7.2",
-        "tagCommit": "d43eddce0ff165fa41bcf85a3597e126cf7eddc1",
-        "version": "7.7.2",
-        "versionCode": 772
+        "publishedAt": "2026-11-21T13:01:47Z",
+        "releaseId": 453694797,
+        "tag": "v7.8.1",
+        "tagCommit": "62f86c3349f302036753d4d89115e3bd40a236ca",
+        "version": "7.8.1",
+        "versionCode": 781
       },
       "stars": {
         "count": 438,
@@ -8362,9 +8399,9 @@
           "README.md": "e76aa66a38cfc9bd845770bf4f4324bf03f856a1",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
-          "docs/badges/downloads.svg": "13b67e3a5d3c6396438f82fbc08e944f91bdff53",
+          "docs/badges/downloads.svg": "3064b71ba8e82873629b8307bbf7324ea7a7b87b",
           "docs/badges/release.svg": "6edcecf54785bbcefc752978b4eb028063c53c9e",
-          "docs/badges/stars.svg": "f65f7a10c061dd0b62dfe25f51b0a88732ea24bc",
+          "docs/badges/stars.svg": "dde986a32cf550350bab9fb73d15003996f8cb0d",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
           "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
           "docs/screenshots/app-cache.png": "6c9a644eb5fc9aa8d61036867b504362d1962218",
@@ -8384,15 +8421,15 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "e0a31fc29a1dc58ff0ba8ebb1296cf699ccc338a",
-        "fetchedAt": "2026-11-20T15:43:23.150Z",
+        "commit": "c75738176ebb164020b564e3e709fc0d0e87e181",
+        "fetchedAt": "2026-11-21T13:02:05.345Z",
         "files": {
           "README.md": "acbfa8a0d5f7c551eab21afebc783709e34ff3912a4155d8735c9aa82670308b",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
-          "docs/badges/downloads.svg": "3dea1e7a009cdf2acab5a5f28922ad5e3c1cb7ba89cca68ef05d167b17483454",
+          "docs/badges/downloads.svg": "bf57df07cd903ecb81008aafb13d3429ed52ae428322458e8cea49f1a4461079",
           "docs/badges/release.svg": "3a32205b32c259ec7330cd00ed6d4378dcf78d7e5e04980ecf28822ba4a7d5bd",
-          "docs/badges/stars.svg": "be99734329b7a6658542e076ee53133e79aa02b98121224642ced1048c86bfa7",
+          "docs/badges/stars.svg": "01a3651ca9baf3546f1265cacb3e0f3c8ae2b3bbd0177f5397760a3f4c678237",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
           "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
           "docs/screenshots/app-cache.png": "74ec72f4f19a4a5f6ed51c1e1f8e18f2f196a7b14950fe0124db778644838d43",
@@ -8418,8 +8455,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-20T15:43:23.150Z",
-        "lastSuccessAt": "2026-11-20T15:43:23.150Z",
+        "lastAttemptAt": "2026-11-21T13:02:05.345Z",
+        "lastSuccessAt": "2026-11-21T13:02:05.345Z",
         "message": null,
         "status": "ok"
       },
