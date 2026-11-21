@@ -817,7 +817,7 @@
       }
     },
     "hyperos-accessibility-fix": {
-      "contentCommit": "0737a7ccb8803ea59e4f018a0b7650f6f66afdab",
+      "contentCommit": "61386b493de6eeade329d6b4aa006e7707a8fa19",
       "fullName": "chkndrp/hyperos-accessibility-fix",
       "health": "ok",
       "installation": "present",
@@ -826,8 +826,8 @@
       "message": null,
       "repositoryId": 1262215473,
       "request": {
-        "checkedAt": "2026-11-21T09:54:07.685Z",
-        "commit": "0737a7ccb8803ea59e4f018a0b7650f6f66afdab",
+        "checkedAt": "2026-11-21T10:15:44.819Z",
+        "commit": "61386b493de6eeade329d6b4aa006e7707a8fa19",
         "issues": [],
         "latestTag": "1.0.5",
         "ok": true,
