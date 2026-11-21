@@ -1,0 +1,25 @@
+id: Clear_Rubbish
+status: pending
+request:
+  submissionId: rdn8clj5fx
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1442603685
+    ownerId: 153012562
+    fullName: yunyu614/AutoPurge-Pro
+    manifestPath: module.yaml
+  submittedBy: 153012562
+  submittedByLogin: yunyu614
+  submittedAt: 2026-11-21T21:26:00.312Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65299
+  note: |-
+    AutoPurge Pro 是一款面向 Android Root 用户的系统清理与自动维护模块，支持垃圾文件清理、文件整理、规则管理、定时任务及 WebUI 配置。
+
+    模块 ID 为 Clear_Rubbish。最新版本为 v4.4.4，已通过 KernelSU 官方模块元数据与安装包预检，GitHub Release 已启用不可变发布。
+
+    文件整理采用移动归档方式，不等同于直接删除；APK 清理仅处理用户配置的下载目录。欢迎审核。
+createdAt: 2026-11-21T21:26:00.312Z
+updatedAt: 2026-11-21T21:26:00.312Z
