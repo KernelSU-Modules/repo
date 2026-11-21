@@ -10152,17 +10152,76 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-21T03:09:10.135Z",
-        "lastSuccessAt": "2026-11-21T03:09:10.135Z",
+        "lastAttemptAt": "2026-11-21T03:17:24.096Z",
+        "lastSuccessAt": "2026-11-21T03:17:24.096Z",
         "message": null,
         "status": "ok"
       },
       "id": "mirage_forge",
       "installationId": 177437801,
       "maxStableVersionCode": 120,
-      "maxVersionCode": 120,
-      "prerelease": null,
+      "maxVersionCode": 999,
+      "prerelease": {
+        "asset": {
+          "digest": "sha256:c490875276943c383824318c0b3c83946c6e105d3bbf2b610f49dd764b27db56",
+          "id": 774255888,
+          "name": "MirageForge-Zygisk-1.3.0-Canary-fbace66.zip",
+          "sha256": "c490875276943c383824318c0b3c83946c6e105d3bbf2b610f49dd764b27db56",
+          "size": 2275027,
+          "url": "https://github.com/jjh138792/MirageForge/releases/download/1.3.0-Canary-fbace66/MirageForge-Zygisk-1.3.0-Canary-fbace66.zip"
+        },
+        "body": "### 🧪 MirageForge Canary Pre-Release (`1.3.0-Canary-fbace66`)\n\n* **构建版本 (Version)**: `1.3.0-Canary-fbace66`\n* **版本号 (versionCode)**: `999` *(锁定 999，屏蔽正式版更新推送)*\n* **触发提交 (Commit)**: `fbace66e2b46b84ed3966502efc2428dd782d968`\n\n#### 📝 本次提交变更\n```text\nfix(ci): 改用 gh release create 发布 Canary Pre-Release 以兼容 Immutable Releases\n```\n",
+        "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.3.0-Canary-fbace66",
+        "immutable": true,
+        "name": "MirageForge 1.3.0-Canary-fbace66",
+        "prerelease": true,
+        "prop": {
+          "author": "jjh138792",
+          "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
+          "id": "mirage_forge",
+          "name": "蜃楼工坊 · MirageForge",
+          "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
+          "version": "1.3.0-Canary-fbace66",
+          "versionCode": "999"
+        },
+        "publishedAt": "2026-11-21T03:16:48Z",
+        "releaseId": 453406488,
+        "tag": "1.3.0-Canary-fbace66",
+        "tagCommit": "fbace66e2b46b84ed3966502efc2428dd782d968",
+        "version": "1.3.0-Canary-fbace66",
+        "versionCode": 999
+      },
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:c490875276943c383824318c0b3c83946c6e105d3bbf2b610f49dd764b27db56",
+            "id": 774255888,
+            "name": "MirageForge-Zygisk-1.3.0-Canary-fbace66.zip",
+            "sha256": "c490875276943c383824318c0b3c83946c6e105d3bbf2b610f49dd764b27db56",
+            "size": 2275027,
+            "url": "https://github.com/jjh138792/MirageForge/releases/download/1.3.0-Canary-fbace66/MirageForge-Zygisk-1.3.0-Canary-fbace66.zip"
+          },
+          "body": "### 🧪 MirageForge Canary Pre-Release (`1.3.0-Canary-fbace66`)\n\n* **构建版本 (Version)**: `1.3.0-Canary-fbace66`\n* **版本号 (versionCode)**: `999` *(锁定 999，屏蔽正式版更新推送)*\n* **触发提交 (Commit)**: `fbace66e2b46b84ed3966502efc2428dd782d968`\n\n#### 📝 本次提交变更\n```text\nfix(ci): 改用 gh release create 发布 Canary Pre-Release 以兼容 Immutable Releases\n```\n",
+          "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.3.0-Canary-fbace66",
+          "immutable": true,
+          "name": "MirageForge 1.3.0-Canary-fbace66",
+          "prerelease": true,
+          "prop": {
+            "author": "jjh138792",
+            "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
+            "id": "mirage_forge",
+            "name": "蜃楼工坊 · MirageForge",
+            "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
+            "version": "1.3.0-Canary-fbace66",
+            "versionCode": "999"
+          },
+          "publishedAt": "2026-11-21T03:16:48Z",
+          "releaseId": 453406488,
+          "tag": "1.3.0-Canary-fbace66",
+          "tagCommit": "fbace66e2b46b84ed3966502efc2428dd782d968",
+          "version": "1.3.0-Canary-fbace66",
+          "versionCode": 999
+        },
         {
           "asset": {
             "digest": "sha256:60bcecf40881c74f3c35a10dbc6a9d8c64a87749ee8164af28f82264664e3e9e",
@@ -10247,6 +10306,10 @@
           "code": "asset-none",
           "message": "Release 1.3.0-Canary-f583d16 has no asset matching \"MirageForge-Zygisk-*.zip\".",
           "ok": false
+        },
+        "453406488": {
+          "checkedAt": "2026-11-21T03:17:24.096Z",
+          "ok": true
         }
       },
       "stable": {
