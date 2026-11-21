@@ -1274,16 +1274,16 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-21T06:22:37.485Z",
+      "lastSuccessAt": "2026-11-21T06:24:00.980Z",
       "maxVersionCode": 587,
-      "message": "stable-fallback: the stable release (versionCode 587) was deleted or marked as prerelease; listing the older v586-a672eb8 (versionCode 586) until a release with a versionCode above 587 is published.",
+      "message": null,
       "repositoryId": 1415623276,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-19T14:38:30Z",
-        "tag": "v586-a672eb8",
-        "version": "v13.5.4.3 (586-a672eb8-release)",
-        "versionCode": 586
+        "publishedAt": "2026-11-21T06:22:05Z",
+        "tag": "v587-ba44dd2",
+        "version": "v13.5.4.3 (587-ba44dd2-release)",
+        "versionCode": 587
       }
     },
     "zygisk_fusehide": {
