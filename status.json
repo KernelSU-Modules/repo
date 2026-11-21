@@ -607,27 +607,21 @@
       "stable": null
     },
     "coloros_fullpower": {
-      "contentCommit": "fb989dfae27834f7b49446e21b022bbb74d52445",
+      "contentCommit": "15e4b89084c1bcf8d76aee4141de5772fd048ed0",
       "fullName": "MieAiiii/ColorOS_fullpower",
-      "health": "error",
+      "health": "ok",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "prop-missing-field: module.prop is missing a non-empty \"versionCode\".",
+      "message": null,
       "repositoryId": 1465068556,
       "request": {
-        "checkedAt": "2026-11-21T18:36:36.456Z",
-        "commit": "fb989dfae27834f7b49446e21b022bbb74d52445",
-        "issues": [
-          {
-            "code": "prop-missing-field",
-            "message": "module.prop is missing a non-empty \"versionCode\".",
-            "severity": "error"
-          }
-        ],
-        "latestTag": "v10.1",
-        "ok": false,
-        "releaseId": 453897701,
+        "checkedAt": "2026-11-21T18:41:28.786Z",
+        "commit": "15e4b89084c1bcf8d76aee4141de5772fd048ed0",
+        "issues": [],
+        "latestTag": "v10.1.1",
+        "ok": true,
+        "releaseId": 453900439,
         "repositoryId": 1465068556,
         "submissionId": "f71n5i9g01"
       },
