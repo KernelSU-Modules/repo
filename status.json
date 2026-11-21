@@ -73,16 +73,16 @@
       "fullName": "AlirezaParsi/COPG",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-21T13:34:16.477Z",
-      "maxVersionCode": 781,
-      "message": "stable-fallback: the stable release (versionCode 781) was deleted or marked as prerelease; listing the older v7.7.2 (versionCode 772) until a release with a versionCode above 781 is published.",
+      "lastSuccessAt": "2026-11-21T14:03:16.389Z",
+      "maxVersionCode": 782,
+      "message": null,
       "repositoryId": 950100740,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-09T14:41:07Z",
-        "tag": "v7.7.2",
-        "version": "7.7.2",
-        "versionCode": 772
+        "publishedAt": "2026-11-21T14:02:51Z",
+        "tag": "v7.8.2",
+        "version": "7.8.2",
+        "versionCode": 782
       }
     },
     "CRecordEvolution": {
