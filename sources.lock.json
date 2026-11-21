@@ -13888,9 +13888,9 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-21T12:18:37.161Z",
-        "lastSuccessAt": "2026-11-21T12:18:37.161Z",
-        "message": "stable-fallback: the stable release (versionCode 587) was deleted or marked as prerelease; listing the older v586-a672eb8 (versionCode 586) until a release with a versionCode above 587 is published.",
+        "lastAttemptAt": "2026-11-21T12:19:54.751Z",
+        "lastSuccessAt": "2026-11-21T12:19:54.751Z",
+        "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
@@ -13899,6 +13899,36 @@
       "maxVersionCode": 587,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:1d6e9e5644df36ecb9444079acc6fd2158c298bc60ed4e5b146e77307e42c8c1",
+            "id": 775487473,
+            "name": "Sui-v13.5.4.3_587-f7dd660-release.zip",
+            "sha256": "1d6e9e5644df36ecb9444079acc6fd2158c298bc60ed4e5b146e77307e42c8c1",
+            "size": 1505875,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v587-f7dd660/Sui-v13.5.4.3_587-f7dd660-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (587-f7dd660-release)`\n- **VersionCode:** `587`\n- **Commit:** [`f7dd660`](https://github.com/XiaoTong6666/Sui/commit/f7dd6608f05288a237f0c5bd0d52f72803de114c)\n- **Build time:** `1m 41s`\n- **SHA256:** `1d6e9e5644df36ecb9444079acc6fd2158c298bc60ed4e5b146e77307e42c8c1`\n\n## Message\n\n```text\nfix: hide legacy Shizuku binder from isolated processes, Meow\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v587-f7dd660",
+          "immutable": true,
+          "name": "v13.5.4.3 (587-f7dd660-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (587-f7dd660-release)",
+            "versionCode": "587"
+          },
+          "publishedAt": "2026-11-21T12:18:17Z",
+          "releaseId": 453670030,
+          "tag": "v587-f7dd660",
+          "tagCommit": "2a8779b8bd55f8a802091523fa956450016f3dd1",
+          "version": "v13.5.4.3 (587-f7dd660-release)",
+          "versionCode": 587
+        },
         {
           "asset": {
             "digest": "sha256:73fafcc49b0b061bf5b7c9f2eba0e0d110e25036dfd54b52b5012dd7cfa05e54",
@@ -14273,23 +14303,23 @@
           "ok": true
         },
         "453670030": {
-          "checkedAt": "2026-11-21T12:18:37.161Z",
+          "checkedAt": "2026-11-21T12:19:54.751Z",
           "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:73fafcc49b0b061bf5b7c9f2eba0e0d110e25036dfd54b52b5012dd7cfa05e54",
-          "id": 768032551,
-          "name": "Sui-v13.5.4.3_586-a672eb8-release.zip",
-          "sha256": "73fafcc49b0b061bf5b7c9f2eba0e0d110e25036dfd54b52b5012dd7cfa05e54",
-          "size": 1505712,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v586-a672eb8/Sui-v13.5.4.3_586-a672eb8-release.zip"
+          "digest": "sha256:1d6e9e5644df36ecb9444079acc6fd2158c298bc60ed4e5b146e77307e42c8c1",
+          "id": 775487473,
+          "name": "Sui-v13.5.4.3_587-f7dd660-release.zip",
+          "sha256": "1d6e9e5644df36ecb9444079acc6fd2158c298bc60ed4e5b146e77307e42c8c1",
+          "size": 1505875,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v587-f7dd660/Sui-v13.5.4.3_587-f7dd660-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (586-a672eb8-release)`\n- **VersionCode:** `586`\n- **Commit:** [`a672eb8`](https://github.com/XiaoTong6666/Sui/commit/a672eb83d6d1ecb533a6d6e04e9f2ad3dec65bd9)\n- **Build time:** `1m 51s`\n- **SHA256:** `73fafcc49b0b061bf5b7c9f2eba0e0d110e25036dfd54b52b5012dd7cfa05e54`\n\n## Message\n\n```text\nfix(sui): handle missing SDK property during early boot, Meow\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v586-a672eb8",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (587-f7dd660-release)`\n- **VersionCode:** `587`\n- **Commit:** [`f7dd660`](https://github.com/XiaoTong6666/Sui/commit/f7dd6608f05288a237f0c5bd0d52f72803de114c)\n- **Build time:** `1m 41s`\n- **SHA256:** `1d6e9e5644df36ecb9444079acc6fd2158c298bc60ed4e5b146e77307e42c8c1`\n\n## Message\n\n```text\nfix: hide legacy Shizuku binder from isolated processes, Meow\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v587-f7dd660",
         "immutable": true,
-        "name": "v13.5.4.3 (586-a672eb8-release)",
+        "name": "v13.5.4.3 (587-f7dd660-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -14297,15 +14327,15 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (586-a672eb8-release)",
-          "versionCode": "586"
+          "version": "v13.5.4.3 (587-f7dd660-release)",
+          "versionCode": "587"
         },
-        "publishedAt": "2026-11-19T14:38:30Z",
-        "releaseId": 451472665,
-        "tag": "v586-a672eb8",
-        "tagCommit": "2d46d34f94327c2cb61ba4e6f20f335c301928e8",
-        "version": "v13.5.4.3 (586-a672eb8-release)",
-        "versionCode": 586
+        "publishedAt": "2026-11-21T12:18:17Z",
+        "releaseId": 453670030,
+        "tag": "v587-f7dd660",
+        "tagCommit": "2a8779b8bd55f8a802091523fa956450016f3dd1",
+        "version": "v13.5.4.3 (587-f7dd660-release)",
+        "versionCode": 587
       },
       "stars": {
         "count": 20,
