@@ -449,7 +449,7 @@
       }
     },
     "autousb": {
-      "contentCommit": "8ee586dfa5daecaedeb666a6211625c380ae0a79",
+      "contentCommit": "0240b0a37f141ba042e58d557c123a69f1a2b440",
       "fullName": "Shuoh118/Auto-USB",
       "health": "ok",
       "installation": "present",
@@ -458,8 +458,8 @@
       "message": null,
       "repositoryId": 1449056776,
       "request": {
-        "checkedAt": "2026-11-21T16:44:47.155Z",
-        "commit": "8ee586dfa5daecaedeb666a6211625c380ae0a79",
+        "checkedAt": "2026-11-21T17:12:47.722Z",
+        "commit": "0240b0a37f141ba042e58d557c123a69f1a2b440",
         "issues": [],
         "latestTag": "1.0.0",
         "ok": true,
@@ -470,7 +470,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "6ffdce2cf6c48a284f9637872efbeef8e92d3021",
+      "contentCommit": "dd01433607ac9839d133565aef71a1e01a21293a",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -479,8 +479,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-21T16:44:47.155Z",
-        "commit": "6ffdce2cf6c48a284f9637872efbeef8e92d3021",
+        "checkedAt": "2026-11-21T17:12:47.722Z",
+        "commit": "dd01433607ac9839d133565aef71a1e01a21293a",
         "issues": [],
         "latestTag": "v0.3.0",
         "ok": true,
