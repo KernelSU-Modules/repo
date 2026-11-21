@@ -13884,17 +13884,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-19T14:38:55.668Z",
-        "lastSuccessAt": "2026-11-19T14:38:55.668Z",
+        "lastAttemptAt": "2026-11-21T06:18:41.902Z",
+        "lastSuccessAt": "2026-11-21T06:18:41.902Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 586,
-      "maxVersionCode": 586,
+      "maxStableVersionCode": 587,
+      "maxVersionCode": 587,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:20f5b760e31a1bba3b88bfc5ed4d4a237cc04f921ed4de75db0c0a8daada2f75",
+            "id": 774636726,
+            "name": "Sui-v13.5.4.3_587-02f687b-release.zip",
+            "sha256": "20f5b760e31a1bba3b88bfc5ed4d4a237cc04f921ed4de75db0c0a8daada2f75",
+            "size": 1505869,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v587-02f687b/Sui-v13.5.4.3_587-02f687b-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (587-02f687b-release)`\n- **VersionCode:** `587`\n- **Commit:** [`02f687b`](https://github.com/XiaoTong6666/Sui/commit/02f687bdbbc1353cc663bfe9774f9cb05d164dbd)\n- **Build time:** `1m 56s`\n- **SHA256:** `20f5b760e31a1bba3b88bfc5ed4d4a237cc04f921ed4de75db0c0a8daada2f75`\n\n## Message\n\n```text\nfix(sui): hide legacy Shizuku binder from isolated processes, Meow\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v587-02f687b",
+          "immutable": true,
+          "name": "v13.5.4.3 (587-02f687b-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (587-02f687b-release)",
+            "versionCode": "587"
+          },
+          "publishedAt": "2026-11-21T06:18:17Z",
+          "releaseId": 453486008,
+          "tag": "v587-02f687b",
+          "tagCommit": "397bbf0b7faf76cfb3e2c42a792ae88d57744b14",
+          "version": "v13.5.4.3 (587-02f687b-release)",
+          "versionCode": 587
+        },
         {
           "asset": {
             "digest": "sha256:73fafcc49b0b061bf5b7c9f2eba0e0d110e25036dfd54b52b5012dd7cfa05e54",
@@ -14164,36 +14194,6 @@
           "tagCommit": "5905d60e2025e889935b72780515895deda4ae11",
           "version": "v13.5.4.3 (571-af5447f-release)",
           "versionCode": 571
-        },
-        {
-          "asset": {
-            "digest": "sha256:00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621",
-            "id": 665245646,
-            "name": "Sui-v13.5.4.3_569-8d2392a-release.zip",
-            "sha256": "00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621",
-            "size": 1454699,
-            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v569-8d2392a/Sui-v13.5.4.3_569-8d2392a-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (569-8d2392a-release)`\n- **VersionCode:** `569`\n- **Commit:** [`8d2392a`](https://github.com/XiaoTong6666/Sui/commit/8d2392a9e4d8a079efa4badeb268c05501a48398)\n- **Build time:** `2m 40s`\n- **SHA256:** `00f17d6ae029be574fe714ffdcada92b003e3b56a38db65589d008a4415ec621`\n\n## Message\n\n```text\nfeat(adb): add selectable Zygisk Next injection backend, Meow\n\n给 ADB Root 菜单加了「ZN 注入」开关，勾选走 Zygisk Next，取消就继续用 Bind Mount，选择会保存到 /data/adb/sui 的标志文件里喵（轻轻拨动开关）\n\n通过官方 ZN API v4 给 adbd 安装 PLT Hook，保留 Root 上下文和 socket 标签处理，不再依赖替换 adbd 可执行文件喵（伸爪检查）\n\n初始化加入状态反馈和失败回滚，后端选择不再判断 Android 版本，注入失败也不会悄悄切回 Bind Mount 喵（收好小尾巴）\n\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v569-8d2392a",
-          "immutable": true,
-          "name": "v13.5.4.3 (569-8d2392a-release)",
-          "prerelease": false,
-          "prop": {
-            "author": "Sui Contributors",
-            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
-            "id": "zygisk-sui",
-            "name": "Zygisk - Sui",
-            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-            "version": "v13.5.4.3 (569-8d2392a-release)",
-            "versionCode": "569"
-          },
-          "publishedAt": "2026-10-22T08:52:15Z",
-          "releaseId": 420494653,
-          "tag": "v569-8d2392a",
-          "tagCommit": "76017740f3aab1b8eb7d1a04f19848154d1381bf",
-          "version": "v13.5.4.3 (569-8d2392a-release)",
-          "versionCode": 569
         }
       ],
       "repositoryId": 1415623276,
@@ -14289,21 +14289,25 @@
         "451472665": {
           "checkedAt": "2026-11-19T14:38:55.668Z",
           "ok": true
+        },
+        "453486008": {
+          "checkedAt": "2026-11-21T06:18:41.902Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:73fafcc49b0b061bf5b7c9f2eba0e0d110e25036dfd54b52b5012dd7cfa05e54",
-          "id": 768032551,
-          "name": "Sui-v13.5.4.3_586-a672eb8-release.zip",
-          "sha256": "73fafcc49b0b061bf5b7c9f2eba0e0d110e25036dfd54b52b5012dd7cfa05e54",
-          "size": 1505712,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v586-a672eb8/Sui-v13.5.4.3_586-a672eb8-release.zip"
+          "digest": "sha256:20f5b760e31a1bba3b88bfc5ed4d4a237cc04f921ed4de75db0c0a8daada2f75",
+          "id": 774636726,
+          "name": "Sui-v13.5.4.3_587-02f687b-release.zip",
+          "sha256": "20f5b760e31a1bba3b88bfc5ed4d4a237cc04f921ed4de75db0c0a8daada2f75",
+          "size": 1505869,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v587-02f687b/Sui-v13.5.4.3_587-02f687b-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (586-a672eb8-release)`\n- **VersionCode:** `586`\n- **Commit:** [`a672eb8`](https://github.com/XiaoTong6666/Sui/commit/a672eb83d6d1ecb533a6d6e04e9f2ad3dec65bd9)\n- **Build time:** `1m 51s`\n- **SHA256:** `73fafcc49b0b061bf5b7c9f2eba0e0d110e25036dfd54b52b5012dd7cfa05e54`\n\n## Message\n\n```text\nfix(sui): handle missing SDK property during early boot, Meow\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v586-a672eb8",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (587-02f687b-release)`\n- **VersionCode:** `587`\n- **Commit:** [`02f687b`](https://github.com/XiaoTong6666/Sui/commit/02f687bdbbc1353cc663bfe9774f9cb05d164dbd)\n- **Build time:** `1m 56s`\n- **SHA256:** `20f5b760e31a1bba3b88bfc5ed4d4a237cc04f921ed4de75db0c0a8daada2f75`\n\n## Message\n\n```text\nfix(sui): hide legacy Shizuku binder from isolated processes, Meow\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v587-02f687b",
         "immutable": true,
-        "name": "v13.5.4.3 (586-a672eb8-release)",
+        "name": "v13.5.4.3 (587-02f687b-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -14311,15 +14315,15 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (586-a672eb8-release)",
-          "versionCode": "586"
+          "version": "v13.5.4.3 (587-02f687b-release)",
+          "versionCode": "587"
         },
-        "publishedAt": "2026-11-19T14:38:30Z",
-        "releaseId": 451472665,
-        "tag": "v586-a672eb8",
-        "tagCommit": "2d46d34f94327c2cb61ba4e6f20f335c301928e8",
-        "version": "v13.5.4.3 (586-a672eb8-release)",
-        "versionCode": 586
+        "publishedAt": "2026-11-21T06:18:17Z",
+        "releaseId": 453486008,
+        "tag": "v587-02f687b",
+        "tagCommit": "397bbf0b7faf76cfb3e2c42a792ae88d57744b14",
+        "version": "v13.5.4.3 (587-02f687b-release)",
+        "versionCode": 587
       },
       "stars": {
         "count": 20,
