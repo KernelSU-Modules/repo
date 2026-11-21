@@ -448,6 +448,27 @@
         "versionCode": 870
       }
     },
+    "big_brother": {
+      "contentCommit": "c995f9af4024b4df7d1db7c9b7732946d2defcde",
+      "fullName": "lihenggui/bigbrother",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1459530172,
+      "request": {
+        "checkedAt": "2026-11-21T03:07:18.196Z",
+        "commit": "c995f9af4024b4df7d1db7c9b7732946d2defcde",
+        "issues": [],
+        "latestTag": "v0.3.0",
+        "ok": true,
+        "releaseId": 453372821,
+        "repositoryId": 1459530172,
+        "submissionId": "scx0u3f7qm"
+      },
+      "stable": null
+    },
     "cacerts_bind_manager": {
       "contentCommit": "97f1b30e6c3acc8025ab92b209d3e2eed3ed0f01",
       "fullName": "jjh138792/System-CA-Manager",
