@@ -470,7 +470,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "32ab905f64204eea60b1c4571a5bdc0683aff9f5",
+      "contentCommit": "62c3f069875f37e2348c67d94ebb902d51f2b54d",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -479,8 +479,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-21T17:54:56.607Z",
-        "commit": "32ab905f64204eea60b1c4571a5bdc0683aff9f5",
+        "checkedAt": "2026-11-21T18:36:36.456Z",
+        "commit": "62c3f069875f37e2348c67d94ebb902d51f2b54d",
         "issues": [],
         "latestTag": "v0.3.0",
         "ok": true,
@@ -607,7 +607,7 @@
       "stable": null
     },
     "coloros_fullpower": {
-      "contentCommit": "abf04f4f9c699a03006d0b438b9387dcab5cbb50",
+      "contentCommit": "fb989dfae27834f7b49446e21b022bbb74d52445",
       "fullName": "MieAiiii/ColorOS_fullpower",
       "health": "error",
       "installation": "present",
@@ -616,8 +616,8 @@
       "message": "prop-missing-field: module.prop is missing a non-empty \"versionCode\".",
       "repositoryId": 1465068556,
       "request": {
-        "checkedAt": "2026-11-21T17:54:56.607Z",
-        "commit": "abf04f4f9c699a03006d0b438b9387dcab5cbb50",
+        "checkedAt": "2026-11-21T18:36:36.456Z",
+        "commit": "fb989dfae27834f7b49446e21b022bbb74d52445",
         "issues": [
           {
             "code": "prop-missing-field",
@@ -625,9 +625,9 @@
             "severity": "error"
           }
         ],
-        "latestTag": "v10.0",
+        "latestTag": "v10.1",
         "ok": false,
-        "releaseId": 453873821,
+        "releaseId": 453897701,
         "repositoryId": 1465068556,
         "submissionId": "f71n5i9g01"
       },
