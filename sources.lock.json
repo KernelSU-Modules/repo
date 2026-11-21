@@ -9047,17 +9047,47 @@
       "fullName": "NativeStar/KernelSUGrantToast",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-01T10:12:29.247Z",
-        "lastSuccessAt": "2026-11-01T10:12:29.247Z",
+        "lastAttemptAt": "2026-11-21T12:38:08.813Z",
+        "lastSuccessAt": "2026-11-21T12:38:08.813Z",
         "message": null,
         "status": "ok"
       },
       "id": "ksuGrantToast",
       "installationId": 171001753,
-      "maxStableVersionCode": 15,
-      "maxVersionCode": 15,
+      "maxStableVersionCode": 16,
+      "maxVersionCode": 16,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:ff255330202a0a12625ec9d7d90faf395dfdf9096f79075aee75627574f5e7a1",
+            "id": 775533545,
+            "name": "KernelSUGrantToast.zip",
+            "sha256": "ff255330202a0a12625ec9d7d90faf395dfdf9096f79075aee75627574f5e7a1",
+            "size": 642554,
+            "url": "https://github.com/NativeStar/KernelSUGrantToast/releases/download/2.5/KernelSUGrantToast.zip"
+          },
+          "body": "新增\"审计\"功能 当弹出提权提醒时写入日志 可在WebUI中查看(相比原始SuLog日志更简单 普通人可以很轻松的阅读 代价是丢失大量信息)\r\n新增俄语翻译by [LegacyFreeman](https://github.com/LegacyFreeman)\r\n尝试优化WebUI启动速度\r\n修复软重启后低概率触发模块描述异常\r\n微调WebUI部分页面的布局\r\n\r\nAdded an \"Audit\" feature that records an audit log whenever a privilege grant toast is shown; the\r\nlog can be viewed in the WebUI (it is simpler than the original SuLog logs and easy for ordinary\r\nusers to read, at the cost of losing a lot of information).\r\nAdded Russian translation by [LegacyFreeman](https://github.com/LegacyFreeman).\r\nAttempted to optimize WebUI startup speed.\r\nFixed a module description anomaly that could rarely occur after a soft reboot.\r\nFine-tuned the layout of some WebUI pages.",
+          "htmlUrl": "https://github.com/NativeStar/KernelSUGrantToast/releases/tag/2.5",
+          "immutable": true,
+          "name": "2.5",
+          "prerelease": false,
+          "prop": {
+            "author": "NativeStar",
+            "description": "(❌Disabled)Show a root granted toast like Magisk.",
+            "id": "ksuGrantToast",
+            "name": "KernelSU Grant Toast",
+            "updateJson": "https://raw.githubusercontent.com/NativeStar/KernelSUGrantToast/master/update.json",
+            "version": "2.5",
+            "versionCode": "16"
+          },
+          "publishedAt": "2026-11-21T12:37:48Z",
+          "releaseId": 453680474,
+          "tag": "2.5",
+          "tagCommit": "b8e99347d83bcda63251e9cae41f3b69259574d6",
+          "version": "2.5",
+          "versionCode": 16
+        },
         {
           "asset": {
             "digest": "sha256:8eb46180c506487f2c7014c75e6eb23cb468427c3d187a502fa5e853ad8bac4f",
@@ -9182,21 +9212,25 @@
         "422604109": {
           "checkedAt": "2026-10-24T08:18:31.280Z",
           "ok": true
+        },
+        "453680474": {
+          "checkedAt": "2026-11-21T12:38:08.813Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:8eb46180c506487f2c7014c75e6eb23cb468427c3d187a502fa5e853ad8bac4f",
-          "id": 671685897,
+          "digest": "sha256:ff255330202a0a12625ec9d7d90faf395dfdf9096f79075aee75627574f5e7a1",
+          "id": 775533545,
           "name": "KernelSUGrantToast.zip",
-          "sha256": "8eb46180c506487f2c7014c75e6eb23cb468427c3d187a502fa5e853ad8bac4f",
-          "size": 291063,
-          "url": "https://github.com/NativeStar/KernelSUGrantToast/releases/download/2.4/KernelSUGrantToast.zip"
+          "sha256": "ff255330202a0a12625ec9d7d90faf395dfdf9096f79075aee75627574f5e7a1",
+          "size": 642554,
+          "url": "https://github.com/NativeStar/KernelSUGrantToast/releases/download/2.5/KernelSUGrantToast.zip"
         },
-        "body": "重写初始化时加载配置的方式\r\n支持设置是否启用WebUI振动反馈\r\n支持在提示提权时使用振动进行提醒 并支持设置振动时长 该功能默认关闭\r\n修复部分配置项在保存时可能出现异常\r\n修复WebUI在初始化时无论是否处于深色模式均会出现短暂白屏\r\n更新依赖项\r\n\r\nRewrote the way the configuration is loaded during initialization.\r\nAdded an option to enable or disable vibration feedback in the WebUI.\r\nAdded support for using vibration as a reminder when a privilege grant toast is shown, with a configurable vibration duration; this feature is disabled by default.\r\nFixed an issue where some configuration items could be saved incorrectly.\r\nFixed a brief white screen in the WebUI during initialization regardless of whether dark mode was enabled.\r\nUpdated dependencies.",
-        "htmlUrl": "https://github.com/NativeStar/KernelSUGrantToast/releases/tag/2.4",
+        "body": "新增\"审计\"功能 当弹出提权提醒时写入日志 可在WebUI中查看(相比原始SuLog日志更简单 普通人可以很轻松的阅读 代价是丢失大量信息)\r\n新增俄语翻译by [LegacyFreeman](https://github.com/LegacyFreeman)\r\n尝试优化WebUI启动速度\r\n修复软重启后低概率触发模块描述异常\r\n微调WebUI部分页面的布局\r\n\r\nAdded an \"Audit\" feature that records an audit log whenever a privilege grant toast is shown; the\r\nlog can be viewed in the WebUI (it is simpler than the original SuLog logs and easy for ordinary\r\nusers to read, at the cost of losing a lot of information).\r\nAdded Russian translation by [LegacyFreeman](https://github.com/LegacyFreeman).\r\nAttempted to optimize WebUI startup speed.\r\nFixed a module description anomaly that could rarely occur after a soft reboot.\r\nFine-tuned the layout of some WebUI pages.",
+        "htmlUrl": "https://github.com/NativeStar/KernelSUGrantToast/releases/tag/2.5",
         "immutable": true,
-        "name": "2.4",
+        "name": "2.5",
         "prerelease": false,
         "prop": {
           "author": "NativeStar",
@@ -9204,15 +9238,15 @@
           "id": "ksuGrantToast",
           "name": "KernelSU Grant Toast",
           "updateJson": "https://raw.githubusercontent.com/NativeStar/KernelSUGrantToast/master/update.json",
-          "version": "2.4",
-          "versionCode": "15"
+          "version": "2.5",
+          "versionCode": "16"
         },
-        "publishedAt": "2026-10-24T08:18:06Z",
-        "releaseId": 422604109,
-        "tag": "2.4",
-        "tagCommit": "4df7947b9581e11e5c43cf6ddfb3ca2fedf11fa3",
-        "version": "2.4",
-        "versionCode": 15
+        "publishedAt": "2026-11-21T12:37:48Z",
+        "releaseId": 453680474,
+        "tag": "2.5",
+        "tagCommit": "b8e99347d83bcda63251e9cae41f3b69259574d6",
+        "version": "2.5",
+        "versionCode": 16
       },
       "stars": {
         "count": 63,

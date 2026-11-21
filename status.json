@@ -880,16 +880,16 @@
       "fullName": "NativeStar/KernelSUGrantToast",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-01T10:12:29.247Z",
-      "maxVersionCode": 15,
+      "lastSuccessAt": "2026-11-21T12:38:08.813Z",
+      "maxVersionCode": 16,
       "message": null,
       "repositoryId": 1205795668,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-24T08:18:06Z",
-        "tag": "2.4",
-        "version": "2.4",
-        "versionCode": 15
+        "publishedAt": "2026-11-21T12:37:48Z",
+        "tag": "2.5",
+        "version": "2.5",
+        "versionCode": 16
       }
     },
     "ksuwebui_demo": {
