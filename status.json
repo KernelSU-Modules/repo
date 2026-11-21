@@ -470,7 +470,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "5d91498c6ce3c79d7f733c59dd177e75aeb12aef",
+      "contentCommit": "520c0679ce9f7f336c76ca8eae2501fe8bed7d52",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -479,8 +479,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-21T17:19:36.920Z",
-        "commit": "5d91498c6ce3c79d7f733c59dd177e75aeb12aef",
+        "checkedAt": "2026-11-21T17:31:22.373Z",
+        "commit": "520c0679ce9f7f336c76ca8eae2501fe8bed7d52",
         "issues": [],
         "latestTag": "v0.3.0",
         "ok": true,
