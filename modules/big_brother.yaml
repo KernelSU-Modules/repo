@@ -1,0 +1,19 @@
+id: big_brother
+status: pending
+request:
+  submissionId: scx0u3f7qm
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1459530172
+    ownerId: 5171312
+    fullName: lihenggui/bigbrother
+    manifestPath: module.yaml
+  submittedBy: 5171312
+  submittedByLogin: lihenggui
+  submittedAt: 2026-11-21T03:06:52.243Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65296
+createdAt: 2026-11-21T03:06:52.243Z
+updatedAt: 2026-11-21T03:06:52.243Z
