@@ -3265,8 +3265,8 @@
         "versionCode": 10620
       },
       "stars": {
-        "count": 237,
-        "fetchedAt": "2026-11-20T06:00:46.219Z",
+        "count": 236,
+        "fetchedAt": "2026-11-21T06:01:06.743Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -10152,8 +10152,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-21T03:17:24.096Z",
-        "lastSuccessAt": "2026-11-21T03:17:24.096Z",
+        "lastAttemptAt": "2026-11-21T06:01:06.743Z",
+        "lastSuccessAt": "2026-11-21T06:01:06.743Z",
         "message": null,
         "status": "ok"
       },
@@ -10309,6 +10309,10 @@
         },
         "453406488": {
           "checkedAt": "2026-11-21T03:17:24.096Z",
+          "ok": true
+        },
+        "453477711": {
+          "checkedAt": "2026-11-21T06:01:06.743Z",
           "ok": true
         }
       },
@@ -13855,8 +13859,8 @@
         "versionCode": 10151
       },
       "stars": {
-        "count": 148,
-        "fetchedAt": "2026-11-20T06:00:46.219Z",
+        "count": 150,
+        "fetchedAt": "2026-11-21T06:01:06.743Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
