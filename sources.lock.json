@@ -8396,7 +8396,7 @@
     "hypercool": {
       "content": {
         "blobs": {
-          "README.md": "e76aa66a38cfc9bd845770bf4f4324bf03f856a1",
+          "README.md": "ef20f0bbfe6d1a8f773cf754d12a7f0595a923ca",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
           "docs/badges/downloads.svg": "3064b71ba8e82873629b8307bbf7324ea7a7b87b",
@@ -8421,10 +8421,10 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "c75738176ebb164020b564e3e709fc0d0e87e181",
-        "fetchedAt": "2026-11-21T13:02:05.345Z",
+        "commit": "e118986a4454e30b508da05826231129d407c9c4",
+        "fetchedAt": "2026-11-21T13:03:11.547Z",
         "files": {
-          "README.md": "acbfa8a0d5f7c551eab21afebc783709e34ff3912a4155d8735c9aa82670308b",
+          "README.md": "00d14d2de9cbd2be80b327cd5ba163f92fe88df75c0f1796dd2d1d02843058d0",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
           "docs/badges/downloads.svg": "bf57df07cd903ecb81008aafb13d3429ed52ae428322458e8cea49f1a4461079",
@@ -8455,8 +8455,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-21T13:02:05.345Z",
-        "lastSuccessAt": "2026-11-21T13:02:05.345Z",
+        "lastAttemptAt": "2026-11-21T13:03:11.547Z",
+        "lastSuccessAt": "2026-11-21T13:03:11.547Z",
         "message": null,
         "status": "ok"
       },
