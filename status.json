@@ -816,6 +816,27 @@
         "versionCode": 237
       }
     },
+    "hyperos-accessibility-fix": {
+      "contentCommit": "0737a7ccb8803ea59e4f018a0b7650f6f66afdab",
+      "fullName": "chkndrp/hyperos-accessibility-fix",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1262215473,
+      "request": {
+        "checkedAt": "2026-11-21T09:54:07.685Z",
+        "commit": "0737a7ccb8803ea59e4f018a0b7650f6f66afdab",
+        "issues": [],
+        "latestTag": "1.0.5",
+        "ok": true,
+        "releaseId": 356469610,
+        "repositoryId": 1262215473,
+        "submissionId": "xf68w682k4"
+      },
+      "stable": null
+    },
     "irqbalance": {
       "contentCommit": "f5ec6dc2cd8f5d44c6cd8704978b7f66c5a9f271",
       "fullName": "LeanxModulostk/IRQ-Balancer-Configuration",
