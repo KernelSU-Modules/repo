@@ -1,5 +1,20 @@
 id: autousb
-status: rejected
+status: pending
+request:
+  submissionId: 8irmnuda27
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1449056776
+    ownerId: 206189022
+    fullName: Shuoh118/Auto-USB
+    manifestPath: module.yaml
+  submittedBy: 206189022
+  submittedByLogin: Shuoh118
+  submittedAt: 2026-11-21T16:44:21.977Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65298
 review:
   submissionId: u7r7vmxpsc
   kind: submit
@@ -15,4 +30,4 @@ review:
     chatId: -1001860367685
     messageId: 64654
 createdAt: 2026-11-07T06:42:56.534Z
-updatedAt: 2026-11-16T12:14:57.482Z
+updatedAt: 2026-11-21T16:44:21.977Z
