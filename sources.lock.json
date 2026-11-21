@@ -10152,8 +10152,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-21T09:49:50.194Z",
-        "lastSuccessAt": "2026-11-21T09:49:50.194Z",
+        "lastAttemptAt": "2026-11-21T09:51:10.774Z",
+        "lastSuccessAt": "2026-11-21T09:51:10.774Z",
         "message": null,
         "status": "ok"
       },
@@ -10312,11 +10312,11 @@
           "ok": true
         },
         "453477711": {
-          "checkedAt": "2026-11-21T09:49:50.194Z",
+          "checkedAt": "2026-11-21T09:51:10.774Z",
           "ok": true
         },
         "453589126": {
-          "checkedAt": "2026-11-21T09:49:50.194Z",
+          "checkedAt": "2026-11-21T09:51:10.774Z",
           "ok": true
         }
       },
