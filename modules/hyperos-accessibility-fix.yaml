@@ -1,0 +1,19 @@
+id: hyperos-accessibility-fix
+status: pending
+request:
+  submissionId: xf68w682k4
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1262215473
+    ownerId: 109487055
+    fullName: chkndrp/hyperos-accessibility-fix
+    manifestPath: module.yaml
+  submittedBy: 109487055
+  submittedByLogin: chkndrp
+  submittedAt: 2026-11-21T09:53:45.406Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65297
+createdAt: 2026-11-21T09:53:45.406Z
+updatedAt: 2026-11-21T09:53:45.406Z
