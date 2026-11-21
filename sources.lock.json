@@ -4773,8 +4773,8 @@
         "versionCode": 10600
       },
       "stars": {
-        "count": 11,
-        "fetchedAt": "2026-11-20T02:54:38.554Z",
+        "count": 12,
+        "fetchedAt": "2026-11-21T09:49:50.194Z",
         "fullName": "Infiniti151/acc-with-webui",
         "repositoryId": 1296470014,
         "verified": "self"
@@ -6999,8 +6999,8 @@
         "versionCode": 155
       },
       "stars": {
-        "count": 474,
-        "fetchedAt": "2026-11-20T06:24:58.043Z",
+        "count": 479,
+        "fetchedAt": "2026-11-21T09:49:50.194Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -10152,8 +10152,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-21T06:02:09.904Z",
-        "lastSuccessAt": "2026-11-21T06:02:09.904Z",
+        "lastAttemptAt": "2026-11-21T09:49:50.194Z",
+        "lastSuccessAt": "2026-11-21T09:49:50.194Z",
         "message": null,
         "status": "ok"
       },
@@ -10312,7 +10312,11 @@
           "ok": true
         },
         "453477711": {
-          "checkedAt": "2026-11-21T06:02:09.904Z",
+          "checkedAt": "2026-11-21T09:49:50.194Z",
+          "ok": true
+        },
+        "453589126": {
+          "checkedAt": "2026-11-21T09:49:50.194Z",
           "ok": true
         }
       },
@@ -10928,8 +10932,8 @@
         "versionCode": 1107
       },
       "stars": {
-        "count": 1458,
-        "fetchedAt": "2026-11-20T06:24:58.043Z",
+        "count": 1460,
+        "fetchedAt": "2026-11-21T09:49:50.194Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
