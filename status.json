@@ -119,6 +119,27 @@
         "versionCode": 50107
       }
     },
+    "Clear_Rubbish": {
+      "contentCommit": "e90906decc4c4284d98ae48a9d0bef29b6c3bb1a",
+      "fullName": "yunyu614/AutoPurge-Pro",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1442603685,
+      "request": {
+        "checkedAt": "2026-11-21T21:26:28.496Z",
+        "commit": "e90906decc4c4284d98ae48a9d0bef29b6c3bb1a",
+        "issues": [],
+        "latestTag": "v4.4.4",
+        "ok": true,
+        "releaseId": 453994155,
+        "repositoryId": 1442603685,
+        "submissionId": "rdn8clj5fx"
+      },
+      "stable": null
+    },
     "FreePPS": {
       "contentCommit": "23fefce4029d7a4e9b5a9c583acd068ac38af46a",
       "fullName": "Seyud/FreePPS_release",
@@ -470,7 +491,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "62c3f069875f37e2348c67d94ebb902d51f2b54d",
+      "contentCommit": "c4b6f259566c3094dadcaa853f25dd78d7336789",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -479,8 +500,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-21T18:36:36.456Z",
-        "commit": "62c3f069875f37e2348c67d94ebb902d51f2b54d",
+        "checkedAt": "2026-11-21T21:26:28.496Z",
+        "commit": "c4b6f259566c3094dadcaa853f25dd78d7336789",
         "issues": [],
         "latestTag": "v0.3.0",
         "ok": true,
