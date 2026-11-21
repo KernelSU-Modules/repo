@@ -10152,8 +10152,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-18T09:30:16.639Z",
-        "lastSuccessAt": "2026-11-18T09:30:16.639Z",
+        "lastAttemptAt": "2026-11-21T03:09:10.135Z",
+        "lastSuccessAt": "2026-11-21T03:09:10.135Z",
         "message": null,
         "status": "ok"
       },
@@ -10241,6 +10241,12 @@
           "message": "Not examined: published before the newest eligible release when the module was bound.",
           "ok": false,
           "skipped": true
+        },
+        "453402969": {
+          "checkedAt": "2026-11-21T03:09:10.135Z",
+          "code": "asset-none",
+          "message": "Release 1.3.0-Canary-f583d16 has no asset matching \"MirageForge-Zygisk-*.zip\".",
+          "ok": false
         }
       },
       "stable": {
