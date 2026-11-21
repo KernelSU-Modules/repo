@@ -817,26 +817,20 @@
       }
     },
     "hyperos-accessibility-fix": {
-      "contentCommit": "f9f92a4ffaf4b0bb871bb42ca798ac359122e889",
+      "contentCommit": "0b2cd374768dd45139d1a5cde7f5da8afcf602b8",
       "fullName": "chkndrp/hyperos-accessibility-fix",
-      "health": "error",
+      "health": "ok",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": "asset-multiple: Release 1.0.6 has 2 assets matching \"hyperos-accessibility-fix*.zip\": hyperos-accessibility-fix-1.0.6.zip, hyperos-accessibility-fix.zip.",
+      "message": null,
       "repositoryId": 1262215473,
       "request": {
-        "checkedAt": "2026-11-21T10:37:38.845Z",
-        "commit": "f9f92a4ffaf4b0bb871bb42ca798ac359122e889",
-        "issues": [
-          {
-            "code": "asset-multiple",
-            "message": "Release 1.0.6 has 2 assets matching \"hyperos-accessibility-fix*.zip\": hyperos-accessibility-fix-1.0.6.zip, hyperos-accessibility-fix.zip.",
-            "severity": "error"
-          }
-        ],
+        "checkedAt": "2026-11-21T11:31:34.913Z",
+        "commit": "0b2cd374768dd45139d1a5cde7f5da8afcf602b8",
+        "issues": [],
         "latestTag": "1.0.6",
-        "ok": false,
+        "ok": true,
         "releaseId": 453614595,
         "repositoryId": 1262215473,
         "submissionId": "xf68w682k4"
