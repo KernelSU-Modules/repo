@@ -448,8 +448,29 @@
         "versionCode": 870
       }
     },
+    "autousb": {
+      "contentCommit": "8ee586dfa5daecaedeb666a6211625c380ae0a79",
+      "fullName": "Shuoh118/Auto-USB",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1449056776,
+      "request": {
+        "checkedAt": "2026-11-21T16:44:47.155Z",
+        "commit": "8ee586dfa5daecaedeb666a6211625c380ae0a79",
+        "issues": [],
+        "latestTag": "1.0.0",
+        "ok": true,
+        "releaseId": 453824788,
+        "repositoryId": 1449056776,
+        "submissionId": "8irmnuda27"
+      },
+      "stable": null
+    },
     "big_brother": {
-      "contentCommit": "c995f9af4024b4df7d1db7c9b7732946d2defcde",
+      "contentCommit": "6ffdce2cf6c48a284f9637872efbeef8e92d3021",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -458,8 +479,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-21T03:07:18.196Z",
-        "commit": "c995f9af4024b4df7d1db7c9b7732946d2defcde",
+        "checkedAt": "2026-11-21T16:44:47.155Z",
+        "commit": "6ffdce2cf6c48a284f9637872efbeef8e92d3021",
         "issues": [],
         "latestTag": "v0.3.0",
         "ok": true,
@@ -800,11 +821,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "387d89b8b05ccf3a2595e5cd5ceff168ce0140f5",
+      "contentCommit": "711dc788369c162429ba64bca9b9afe222992ea9",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-21T13:49:01.990Z",
+      "lastSuccessAt": "2026-11-21T16:44:47.155Z",
       "maxVersionCode": 238,
       "message": null,
       "repositoryId": 1446403674,

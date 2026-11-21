@@ -1636,8 +1636,8 @@
         "versionCode": 39
       },
       "stars": {
-        "count": 28,
-        "fetchedAt": "2026-11-19T17:44:06.023Z",
+        "count": 29,
+        "fetchedAt": "2026-11-21T16:44:47.155Z",
         "fullName": "f1owkang/CRecordEvolution",
         "repositoryId": 678049636,
         "verified": "self"
@@ -1921,8 +1921,8 @@
         "versionCode": 50107
       },
       "stars": {
-        "count": 63,
-        "fetchedAt": "2026-11-20T02:54:38.554Z",
+        "count": 64,
+        "fetchedAt": "2026-11-21T16:44:47.155Z",
         "fullName": "Eikeitsu/CertBridge",
         "repositoryId": 1306329220,
         "verified": "self"
@@ -4618,8 +4618,8 @@
         "versionCode": 31
       },
       "stars": {
-        "count": 17,
-        "fetchedAt": "2026-11-19T02:04:18.515Z",
+        "count": 18,
+        "fetchedAt": "2026-11-21T16:44:47.155Z",
         "fullName": "LeanxModulostk/VanadiumWebviewManager",
         "repositoryId": 1430564726,
         "verified": "self"
@@ -4645,8 +4645,8 @@
       "seen": {},
       "stable": null,
       "stars": {
-        "count": 88,
-        "fetchedAt": "2026-11-16T11:01:27.632Z",
+        "count": 89,
+        "fetchedAt": "2026-11-21T16:44:47.155Z",
         "fullName": "LxyaoX/VexZygisk",
         "repositoryId": 1305247883,
         "verified": "self"
@@ -6440,8 +6440,8 @@
         "versionCode": 20261109
       },
       "stars": {
-        "count": 915,
-        "fetchedAt": "2026-11-20T06:24:58.043Z",
+        "count": 916,
+        "fetchedAt": "2026-11-21T16:44:47.155Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -8400,7 +8400,7 @@
     "hypercool": {
       "content": {
         "blobs": {
-          "README.md": "39cc4bb2aa9603824c4baa753d094780f2ef78ab",
+          "README.md": "97859555bb70541feab0b504f468c6dc8714118d",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
           "docs/badges/downloads.svg": "3064b71ba8e82873629b8307bbf7324ea7a7b87b",
@@ -8425,10 +8425,10 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "387d89b8b05ccf3a2595e5cd5ceff168ce0140f5",
-        "fetchedAt": "2026-11-21T13:49:01.990Z",
+        "commit": "711dc788369c162429ba64bca9b9afe222992ea9",
+        "fetchedAt": "2026-11-21T16:44:47.155Z",
         "files": {
-          "README.md": "822eecc1deeeaa4f784593370d1d95cb464b985d4292fb84728220c7c6e5cef5",
+          "README.md": "ec19f0f87f2e42f7a1d87ece6519fdf552ec7e9c92a2efdf81e65fe4efacfc89",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
           "docs/badges/downloads.svg": "bf57df07cd903ecb81008aafb13d3429ed52ae428322458e8cea49f1a4461079",
@@ -8459,8 +8459,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-21T13:49:01.990Z",
-        "lastSuccessAt": "2026-11-21T13:49:01.990Z",
+        "lastAttemptAt": "2026-11-21T16:44:47.155Z",
+        "lastSuccessAt": "2026-11-21T16:44:47.155Z",
         "message": null,
         "status": "ok"
       },
@@ -10202,8 +10202,8 @@
         "versionCode": 10500
       },
       "stars": {
-        "count": 11,
-        "fetchedAt": "2026-11-14T08:54:37.929Z",
+        "count": 12,
+        "fetchedAt": "2026-11-21T16:44:47.155Z",
         "fullName": "ahsaboy/magisk-netbird",
         "repositoryId": 1274372941,
         "verified": "self"
@@ -12733,8 +12733,8 @@
         "versionCode": 36
       },
       "stars": {
-        "count": 45,
-        "fetchedAt": "2026-11-20T03:18:31.071Z",
+        "count": 46,
+        "fetchedAt": "2026-11-21T16:44:47.155Z",
         "fullName": "mzggr0914/sidewire",
         "repositoryId": 1354975640,
         "verified": "self"
