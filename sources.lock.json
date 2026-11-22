@@ -2877,17 +2877,47 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T17:29:05.659Z",
-        "lastSuccessAt": "2026-11-22T17:29:05.659Z",
+        "lastAttemptAt": "2026-11-22T18:13:18.088Z",
+        "lastSuccessAt": "2026-11-22T18:13:18.088Z",
         "message": null,
         "status": "ok"
       },
       "id": "MagicNet",
       "installationId": 172483675,
-      "maxStableVersionCode": 10620,
-      "maxVersionCode": 10620,
+      "maxStableVersionCode": 10621,
+      "maxVersionCode": 10621,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:f09af95c31fbef55e89e269e254637bd548643bd90b8a4e1fa9062d09abd333a",
+            "id": 779988144,
+            "name": "MagicNet-full.zip",
+            "sha256": "f09af95c31fbef55e89e269e254637bd548643bd90b8a4e1fa9062d09abd333a",
+            "size": 61447585,
+            "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.9.3/MagicNet-full.zip"
+          },
+          "body": "# MagicNet v1.9.3\n\nSource: [a27f2889d236d2ffa36e1970a4d9f9e1a4baab1b](https://github.com/LIghtJUNction/magicnet-android/commit/a27f2889d236d2ffa36e1970a4d9f9e1a4baab1b)\n\nBuilt and verified by the MagicNet release workflow.\n\n\nRecipe snapshot: 4de8ccc8d618f4501747720d384cda7bf90275da\nSource commit: a27f2889d236d2ffa36e1970a4d9f9e1a4baab1b\n\n<!-- magicnet-release run=45049601635 artifact=14766720853 snapshot=4de8ccc8d618f4501747720d384cda7bf90275da -->\n",
+          "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.9.3",
+          "immutable": true,
+          "name": "MagicNet-10621-v1.9.3",
+          "prerelease": false,
+          "prop": {
+            "author": "LIghtJUNction",
+            "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
+            "id": "MagicNet",
+            "name": "MagicNet",
+            "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
+            "version": "v1.9.3",
+            "versionCode": "10621"
+          },
+          "publishedAt": "2026-11-22T18:13:20Z",
+          "releaseId": 454647531,
+          "tag": "v1.9.3",
+          "tagCommit": "4de8ccc8d618f4501747720d384cda7bf90275da",
+          "version": "v1.9.3",
+          "versionCode": 10621
+        },
         {
           "asset": {
             "digest": "sha256:e5cb87c8fa11ca3b5f7c74aa1c6feb03f44a1ac8c905ce28d100ff5985caccf5",
@@ -3157,36 +3187,6 @@
           "tagCommit": "52dd151ec9f448b6e8fee3ae612818500c8c1230",
           "version": "v1.8.3",
           "versionCode": 10611
-        },
-        {
-          "asset": {
-            "digest": "sha256:c8e1258649fbf95b415dfe2d2d3bd0a7b541dd50ede21160ba867af51ff754a9",
-            "id": 698160784,
-            "name": "MagicNet-full.zip",
-            "sha256": "c8e1258649fbf95b415dfe2d2d3bd0a7b541dd50ede21160ba867af51ff754a9",
-            "size": 65459204,
-            "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.8.2/MagicNet-full.zip"
-          },
-          "body": "# MagicNet v1.8.2\n\n本补丁版维护现有 Android root / arm64 实现，整合订阅更新、MCP 隐私边界与手机端可用性修复。\n\n- 为最多五个来源的订阅更新设置独立、有界的批处理预算，避免沿用普通命令 180 秒期限而过早终止；各来源获取、转换及退出后的回滚仍有限时，控制进程退出后的清理预算不随批处理放大。\n- WebUI 正确追踪私密订阅应用任务，保留进行中与失败反馈；增加跨来源同名 WebSocket 节点与退出恢复回归。\n- MCP 通用文件接口拒绝热点恢复记录、应用 UID/包名清单、selector 选择和接口名等私密文件，包括 staging/backup 名称；通用 CLI 拒绝人类热点和应用清单输出。继续使用具名工具及脱敏 JSON 状态，不削弱 canonical 状态接口。\n- 改善窄屏导航、编辑器、终端和应用列表使用体验，并避免空终端按钮被手机底栏遮挡。\n- 同步固定的 sing-box 1.15.0-alpha.13 内核与配置来源，保留 tun/ebpf、事务回滚和最小披露合同。\n\n## 安装与更新\n\n`magicnet_installer.zip`、`MagicNet.zip` 和 `MagicNet-core.zip` 是字节一致的核心包兼容下载名。`MagicNet-full.zip` 包含离线组件；组件 ZIP 不能单独作为模块安装。更新后按管理器提示重启，保留用户配置与订阅。\n\n默认仍为 `tun` / `magicnet0`，只允许显式 `tun|ebpf`；eBPF 依赖设备内核的 cgroup/TC 能力。`SHA256SUMS` 用于完整性校验，不是独立公钥签名。\n\n## 验证范围与限制\n\n源码本地执行 Rust、shell、组件、WebUI 类型/单元/构建与浏览器回归；正式发行须另通过固定提交的官方模块构建、完整质量与 Android/KernelSU 模拟器门槛。发布状态与最终来源 SHA 见主仓库的配方验证记录及 Release 附件 `build-source.json`，不把运行中的工作流写成已通过。\n\n未安装或部署到真机；模拟器和合成订阅测试不证明真实订阅服务、所有网络及长期运行正常。Issue #426 的现场根因仍未证实，保留开放等待脱敏现场复测，不以合并 PR 或发布新版本替代证据。请勿公开订阅 URL、密钥或完整配置。\n\nRecipe commit: 3a1a2fee56f685c17d9e72e2b1553ce5fa4c0fc4\nImplementation commit: 689bd6146b2dfdd481c8e6df395e05509b51593f\n",
-          "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.8.2",
-          "immutable": true,
-          "name": "MagicNet-10610-v1.8.2",
-          "prerelease": false,
-          "prop": {
-            "author": "LIghtJUNction",
-            "description": "[MagicNet]:Android root network module with magicnet0 TUN, sing-box, WebUI, MCP, and DNS leak guard tools. Built with KAM.",
-            "id": "MagicNet",
-            "name": "MagicNet",
-            "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
-            "version": "v1.8.2",
-            "versionCode": "10610"
-          },
-          "publishedAt": "2026-11-01T11:35:27Z",
-          "releaseId": 430540929,
-          "tag": "v1.8.2",
-          "tagCommit": "3a1a2fee56f685c17d9e72e2b1553ce5fa4c0fc4",
-          "version": "v1.8.2",
-          "versionCode": 10610
         }
       ],
       "repositoryId": 998453022,
@@ -3424,21 +3424,25 @@
         "451321203": {
           "checkedAt": "2026-11-19T12:34:21.131Z",
           "ok": true
+        },
+        "454647531": {
+          "checkedAt": "2026-11-22T18:13:18.088Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:e5cb87c8fa11ca3b5f7c74aa1c6feb03f44a1ac8c905ce28d100ff5985caccf5",
-          "id": 767628146,
+          "digest": "sha256:f09af95c31fbef55e89e269e254637bd548643bd90b8a4e1fa9062d09abd333a",
+          "id": 779988144,
           "name": "MagicNet-full.zip",
-          "sha256": "e5cb87c8fa11ca3b5f7c74aa1c6feb03f44a1ac8c905ce28d100ff5985caccf5",
-          "size": 61442927,
-          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.9.2/MagicNet-full.zip"
+          "sha256": "f09af95c31fbef55e89e269e254637bd548643bd90b8a4e1fa9062d09abd333a",
+          "size": 61447585,
+          "url": "https://github.com/LIghtJUNction/MagicNet/releases/download/v1.9.3/MagicNet-full.zip"
         },
-        "body": "# MagicNet v1.9.2\n\nSource: [bd7e33f6234eeac3894b846eba30745104bbaa2c](https://github.com/LIghtJUNction/magicnet-android/commit/bd7e33f6234eeac3894b846eba30745104bbaa2c)\n\nBuilt and verified by the MagicNet release workflow.\n\n\nRecipe snapshot: 441b53c3789d1b38c95a47155ee74d5b9ee37fe3\nSource commit: bd7e33f6234eeac3894b846eba30745104bbaa2c\n\n<!-- magicnet-release run=44517427323 artifact=14529901946 snapshot=441b53c3789d1b38c95a47155ee74d5b9ee37fe3 -->\n",
-        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.9.2",
+        "body": "# MagicNet v1.9.3\n\nSource: [a27f2889d236d2ffa36e1970a4d9f9e1a4baab1b](https://github.com/LIghtJUNction/magicnet-android/commit/a27f2889d236d2ffa36e1970a4d9f9e1a4baab1b)\n\nBuilt and verified by the MagicNet release workflow.\n\n\nRecipe snapshot: 4de8ccc8d618f4501747720d384cda7bf90275da\nSource commit: a27f2889d236d2ffa36e1970a4d9f9e1a4baab1b\n\n<!-- magicnet-release run=45049601635 artifact=14766720853 snapshot=4de8ccc8d618f4501747720d384cda7bf90275da -->\n",
+        "htmlUrl": "https://github.com/LIghtJUNction/MagicNet/releases/tag/v1.9.3",
         "immutable": true,
-        "name": "MagicNet-10620-v1.9.2",
+        "name": "MagicNet-10621-v1.9.3",
         "prerelease": false,
         "prop": {
           "author": "LIghtJUNction",
@@ -3446,15 +3450,15 @@
           "id": "MagicNet",
           "name": "MagicNet",
           "updateJson": "https://raw.githubusercontent.com/LIghtJUNction/MagicNet/main/update.json",
-          "version": "v1.9.2",
-          "versionCode": "10620"
+          "version": "v1.9.3",
+          "versionCode": "10621"
         },
-        "publishedAt": "2026-11-19T12:34:22Z",
-        "releaseId": 451321203,
-        "tag": "v1.9.2",
-        "tagCommit": "441b53c3789d1b38c95a47155ee74d5b9ee37fe3",
-        "version": "v1.9.2",
-        "versionCode": 10620
+        "publishedAt": "2026-11-22T18:13:20Z",
+        "releaseId": 454647531,
+        "tag": "v1.9.3",
+        "tagCommit": "4de8ccc8d618f4501747720d384cda7bf90275da",
+        "version": "v1.9.3",
+        "versionCode": 10621
       },
       "stars": {
         "count": 235,
