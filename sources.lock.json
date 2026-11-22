@@ -4990,17 +4990,48 @@
       "fullName": "Shuoh118/ADB-Disabler",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T13:36:31.070Z",
+        "lastAttemptAt": "2026-11-22T13:38:09.414Z",
         "lastSuccessAt": "2026-11-22T11:27:42.708Z",
         "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-schema)",
         "status": "stale"
       },
       "id": "adbdisabler",
       "installationId": 179488269,
-      "maxStableVersionCode": 10002,
-      "maxVersionCode": 10002,
+      "maxStableVersionCode": 10003,
+      "maxVersionCode": 10003,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:1a8c2350b0a9985e8d5f783ce41fb65c527784dba5ac3ec6e86de86603b5050a",
+            "id": 779182466,
+            "name": "ADB-Disabler-1.0.3.zip",
+            "sha256": "1a8c2350b0a9985e8d5f783ce41fb65c527784dba5ac3ec6e86de86603b5050a",
+            "size": 10102,
+            "url": "https://github.com/Shuoh118/ADB-Disabler/releases/download/1.0.3/ADB-Disabler-1.0.3.zip"
+          },
+          "body": "### ADB Disabler\r\n## 本次更新日志\r\n\r\n- 补齐module.yaml\r\n\r\n开机后关闭 adb 开发者选项和 OEM 解锁\r\n\r\n## 安装\r\n\r\n下载 `ADB-Disabler-1.0.3.zip`，在管理器里刷入，重启。\r\n\r\n- Magisk 20.4+\r\n- KernelSU 0.9.0+\r\n- APatch 10.7+\r\n\r\n## 关闭项\r\n\r\n| 项目 | 时机 |\r\n|---|---|\r\n| adb 开关 | 开机完成后 |\r\n| adbd 进程 | 开机完成后 |\r\n| 开发者选项 | 开机完成后 |\r\n| ro.debuggable | post-fs-data |\r\n| ro.adb.secure | post-fs-data |\r\n| OEM 解锁 | post-fs-data |\r\n| USB 组合 | post-fs-data |\r\n",
+          "htmlUrl": "https://github.com/Shuoh118/ADB-Disabler/releases/tag/1.0.3",
+          "immutable": true,
+          "name": "ADB Disabler v1.0.3",
+          "prerelease": false,
+          "prop": {
+            "actionIcon": "icon.png",
+            "author": "Shuoh118",
+            "description": "Blocks adb,dev options,OEM unlock at boot",
+            "id": "adbdisabler",
+            "name": "ADB Disabler",
+            "version": "1.0.3",
+            "versionCode": "10003",
+            "webuiIcon": "icon.png"
+          },
+          "publishedAt": "2026-11-22T13:37:45Z",
+          "releaseId": 454471372,
+          "tag": "1.0.3",
+          "tagCommit": "7514c185a39631106e9eb1879288fa5e08979a0e",
+          "version": "1.0.3",
+          "versionCode": 10003
+        },
         {
           "asset": {
             "digest": "sha256:c3b666214a3ec85ea7b92025cdc2bc03cd3f3c5f729ae229b04a4c0fb9b1ee3b",
@@ -5104,21 +5135,25 @@
         "454395805": {
           "checkedAt": "2026-11-22T11:27:42.708Z",
           "ok": true
+        },
+        "454471372": {
+          "checkedAt": "2026-11-22T13:38:09.414Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:c3b666214a3ec85ea7b92025cdc2bc03cd3f3c5f729ae229b04a4c0fb9b1ee3b",
-          "id": 778829447,
-          "name": "ADB-Disabler-1.0.2.zip",
-          "sha256": "c3b666214a3ec85ea7b92025cdc2bc03cd3f3c5f729ae229b04a4c0fb9b1ee3b",
-          "size": 10025,
-          "url": "https://github.com/Shuoh118/ADB-Disabler/releases/download/1.0.2/ADB-Disabler-1.0.2.zip"
+          "digest": "sha256:1a8c2350b0a9985e8d5f783ce41fb65c527784dba5ac3ec6e86de86603b5050a",
+          "id": 779182466,
+          "name": "ADB-Disabler-1.0.3.zip",
+          "sha256": "1a8c2350b0a9985e8d5f783ce41fb65c527784dba5ac3ec6e86de86603b5050a",
+          "size": 10102,
+          "url": "https://github.com/Shuoh118/ADB-Disabler/releases/download/1.0.3/ADB-Disabler-1.0.3.zip"
         },
-        "body": "### ADB Disabler\r\n## 本次更新日志\r\n\r\n- 新增模块图标\r\n- 补充build.py的一些东西\r\n\r\n开机后关闭 adb 开发者选项和 OEM 解锁\r\n\r\n## 安装\r\n\r\n下载 `ADB-Disabler-1.0.2.zip`，在管理器里刷入，重启。\r\n\r\n- Magisk 20.4+\r\n- KernelSU 0.9.0+\r\n- APatch 10.7+\r\n\r\n## 关闭项\r\n\r\n| 项目 | 时机 |\r\n|---|---|\r\n| adb 开关 | 开机完成后 |\r\n| adbd 进程 | 开机完成后 |\r\n| 开发者选项 | 开机完成后 |\r\n| ro.debuggable | post-fs-data |\r\n| ro.adb.secure | post-fs-data |\r\n| OEM 解锁 | post-fs-data |\r\n| USB 组合 | post-fs-data |\r\n",
-        "htmlUrl": "https://github.com/Shuoh118/ADB-Disabler/releases/tag/1.0.2",
+        "body": "### ADB Disabler\r\n## 本次更新日志\r\n\r\n- 补齐module.yaml\r\n\r\n开机后关闭 adb 开发者选项和 OEM 解锁\r\n\r\n## 安装\r\n\r\n下载 `ADB-Disabler-1.0.3.zip`，在管理器里刷入，重启。\r\n\r\n- Magisk 20.4+\r\n- KernelSU 0.9.0+\r\n- APatch 10.7+\r\n\r\n## 关闭项\r\n\r\n| 项目 | 时机 |\r\n|---|---|\r\n| adb 开关 | 开机完成后 |\r\n| adbd 进程 | 开机完成后 |\r\n| 开发者选项 | 开机完成后 |\r\n| ro.debuggable | post-fs-data |\r\n| ro.adb.secure | post-fs-data |\r\n| OEM 解锁 | post-fs-data |\r\n| USB 组合 | post-fs-data |\r\n",
+        "htmlUrl": "https://github.com/Shuoh118/ADB-Disabler/releases/tag/1.0.3",
         "immutable": true,
-        "name": "ADB Disabler v1.0.2",
+        "name": "ADB Disabler v1.0.3",
         "prerelease": false,
         "prop": {
           "actionIcon": "icon.png",
@@ -5126,16 +5161,16 @@
           "description": "Blocks adb,dev options,OEM unlock at boot",
           "id": "adbdisabler",
           "name": "ADB Disabler",
-          "version": "1.0.2",
-          "versionCode": "10002",
+          "version": "1.0.3",
+          "versionCode": "10003",
           "webuiIcon": "icon.png"
         },
-        "publishedAt": "2026-11-22T11:27:14Z",
-        "releaseId": 454395805,
-        "tag": "1.0.2",
-        "tagCommit": "39bf202a7ebec6ac2bcb1663b12fa2f9f3f32d1f",
-        "version": "1.0.2",
-        "versionCode": 10002
+        "publishedAt": "2026-11-22T13:37:45Z",
+        "releaseId": 454471372,
+        "tag": "1.0.3",
+        "tagCommit": "7514c185a39631106e9eb1879288fa5e08979a0e",
+        "version": "1.0.3",
+        "versionCode": 10003
       },
       "stars": {
         "count": 2,
