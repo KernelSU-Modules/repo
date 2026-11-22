@@ -10002,8 +10002,8 @@
       "fullName": "vincentng295/Magic_V2Ray",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T08:11:22.611Z",
-        "lastSuccessAt": "2026-11-22T08:11:22.611Z",
+        "lastAttemptAt": "2026-11-22T08:13:06.391Z",
+        "lastSuccessAt": "2026-11-22T08:13:06.391Z",
         "message": "stable-unavailable: the stable release (versionCode 209) was deleted or marked as prerelease and no older release is left; the module is hidden until a release with a versionCode above 209 is published.",
         "status": "ok"
       },
@@ -10202,6 +10202,12 @@
         "454281939": {
           "checkedAt": "2026-11-22T07:39:50.189Z",
           "ok": true
+        },
+        "454297572": {
+          "checkedAt": "2026-11-22T08:13:06.391Z",
+          "code": "version-not-newer",
+          "message": "versionCode 209 was already accepted for this module (the release is gone); versionCodes cannot be reused. Use a versionCode above 209.",
+          "ok": false
         }
       },
       "stable": null,

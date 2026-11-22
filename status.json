@@ -980,7 +980,7 @@
       "fullName": "vincentng295/Magic_V2Ray",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-22T08:11:22.611Z",
+      "lastSuccessAt": "2026-11-22T08:13:06.391Z",
       "maxVersionCode": 209,
       "message": "stable-unavailable: the stable release (versionCode 209) was deleted or marked as prerelease and no older release is left; the module is hidden until a release with a versionCode above 209 is published.",
       "repositoryId": 1256102852,
