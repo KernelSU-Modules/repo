@@ -10002,9 +10002,9 @@
       "fullName": "vincentng295/Magic_V2Ray",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T07:39:50.189Z",
-        "lastSuccessAt": "2026-11-22T07:39:50.189Z",
-        "message": null,
+        "lastAttemptAt": "2026-11-22T08:11:22.611Z",
+        "lastSuccessAt": "2026-11-22T08:11:22.611Z",
+        "message": "stable-unavailable: the stable release (versionCode 209) was deleted or marked as prerelease and no older release is left; the module is hidden until a release with a versionCode above 209 is published.",
         "status": "ok"
       },
       "id": "magic_v2ray",
@@ -10012,39 +10012,7 @@
       "maxStableVersionCode": 209,
       "maxVersionCode": 209,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:5f3a905c3a8619ffbed047a8ae09bf2fda2a2a499c27de2040214762321d6829",
-            "id": 778286619,
-            "name": "magic_v2ray-v3.3.4-stub.zip",
-            "sha256": "5f3a905c3a8619ffbed047a8ae09bf2fda2a2a499c27de2040214762321d6829",
-            "size": 3295,
-            "url": "https://github.com/vincentng295/Magic_V2Ray/releases/download/v3.3.4/magic_v2ray-v3.3.4-stub.zip"
-          },
-          "body": "# Magic V2Ray v3.3.4 Release Notes\n\nFirst release supports `KernelSU-Modules` repo.\n\n---\n\n[Click here for older release notes](https://github.com/vincentng295/Magic_V2Ray/releases)\n",
-          "htmlUrl": "https://github.com/vincentng295/Magic_V2Ray/releases/tag/v3.3.4",
-          "immutable": true,
-          "name": "v3.3.4",
-          "prerelease": false,
-          "prop": {
-            "author": "HuskyDG @vincentng295",
-            "debug": "0",
-            "description": "Installer stub: tap Action to download and install the Magic V2Ray app, which then installs the module.",
-            "id": "magic_v2ray",
-            "name": "Magic V2Ray",
-            "updateJson": "https://vincentng295.github.io/magic-v2ray-site/update.json",
-            "version": "v3.3.4",
-            "versionCode": "209"
-          },
-          "publishedAt": "2026-11-22T07:39:30Z",
-          "releaseId": 454281939,
-          "tag": "v3.3.4",
-          "tagCommit": "64067385287badfc8b907dabcacd0a0ccf94cbb4",
-          "version": "v3.3.4",
-          "versionCode": 209
-        }
-      ],
+      "releases": [],
       "repositoryId": 1256102852,
       "seen": {
         "391651325": {
@@ -10236,37 +10204,7 @@
           "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:5f3a905c3a8619ffbed047a8ae09bf2fda2a2a499c27de2040214762321d6829",
-          "id": 778286619,
-          "name": "magic_v2ray-v3.3.4-stub.zip",
-          "sha256": "5f3a905c3a8619ffbed047a8ae09bf2fda2a2a499c27de2040214762321d6829",
-          "size": 3295,
-          "url": "https://github.com/vincentng295/Magic_V2Ray/releases/download/v3.3.4/magic_v2ray-v3.3.4-stub.zip"
-        },
-        "body": "# Magic V2Ray v3.3.4 Release Notes\n\nFirst release supports `KernelSU-Modules` repo.\n\n---\n\n[Click here for older release notes](https://github.com/vincentng295/Magic_V2Ray/releases)\n",
-        "htmlUrl": "https://github.com/vincentng295/Magic_V2Ray/releases/tag/v3.3.4",
-        "immutable": true,
-        "name": "v3.3.4",
-        "prerelease": false,
-        "prop": {
-          "author": "HuskyDG @vincentng295",
-          "debug": "0",
-          "description": "Installer stub: tap Action to download and install the Magic V2Ray app, which then installs the module.",
-          "id": "magic_v2ray",
-          "name": "Magic V2Ray",
-          "updateJson": "https://vincentng295.github.io/magic-v2ray-site/update.json",
-          "version": "v3.3.4",
-          "versionCode": "209"
-        },
-        "publishedAt": "2026-11-22T07:39:30Z",
-        "releaseId": 454281939,
-        "tag": "v3.3.4",
-        "tagCommit": "64067385287badfc8b907dabcacd0a0ccf94cbb4",
-        "version": "v3.3.4",
-        "versionCode": 209
-      },
+      "stable": null,
       "stars": {
         "count": 67,
         "fetchedAt": "2026-11-22T07:32:12.327Z",
@@ -13530,8 +13468,8 @@
         "versionCode": 400
       },
       "stars": {
-        "count": 7,
-        "fetchedAt": "2026-11-16T18:15:00.058Z",
+        "count": 8,
+        "fetchedAt": "2026-11-22T08:11:22.611Z",
         "fullName": "Nixie24/susdock",
         "repositoryId": 1436993054,
         "verified": "self"
