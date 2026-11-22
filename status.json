@@ -188,11 +188,11 @@
       }
     },
     "MagicNet": {
-      "contentCommit": "63f6fc1408aec8f9b958431532b3d1a89de08b3f",
+      "contentCommit": "54a8b53817ab9cf86a98f639a7a43e4b226891e3",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-20T01:38:24.668Z",
+      "lastSuccessAt": "2026-11-22T17:29:05.659Z",
       "maxVersionCode": 10620,
       "message": null,
       "repositoryId": 998453022,
@@ -466,7 +466,7 @@
       }
     },
     "autousb": {
-      "contentCommit": "d486b3ba0d51b7d95e0ce76f37ad6da7d67fc5a1",
+      "contentCommit": "974247773d31126a83803ba56cd1eb9547b4aeb4",
       "fullName": "Shuoh118/Auto-USB",
       "health": "ok",
       "installation": "present",
@@ -475,8 +475,8 @@
       "message": null,
       "repositoryId": 1449056776,
       "request": {
-        "checkedAt": "2026-11-22T14:08:52.288Z",
-        "commit": "d486b3ba0d51b7d95e0ce76f37ad6da7d67fc5a1",
+        "checkedAt": "2026-11-22T17:29:05.659Z",
+        "commit": "974247773d31126a83803ba56cd1eb9547b4aeb4",
         "issues": [],
         "latestTag": "1.0.2",
         "ok": true,
@@ -487,7 +487,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "32c6332019c5832b1cc23d89efed7eb9f2b04108",
+      "contentCommit": "f1ec653d34138292ed0cfbab2f0c145bdffedd2a",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -496,8 +496,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-22T07:29:20.095Z",
-        "commit": "32c6332019c5832b1cc23d89efed7eb9f2b04108",
+        "checkedAt": "2026-11-22T17:29:05.659Z",
+        "commit": "f1ec653d34138292ed0cfbab2f0c145bdffedd2a",
         "issues": [],
         "latestTag": "v0.3.0",
         "ok": true,
@@ -832,11 +832,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "cf7df19fd5d0e7ecd1de847d0bca3f8c0d52ea61",
+      "contentCommit": "d5ae2af5aabce3de16b66939fb76ea1bacf8099a",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-22T13:36:31.070Z",
+      "lastSuccessAt": "2026-11-22T17:29:05.659Z",
       "maxVersionCode": 238,
       "message": null,
       "repositoryId": 1446403674,
@@ -976,11 +976,11 @@
       }
     },
     "magic_v2ray": {
-      "contentCommit": "db9417d1f67026dceb4996b48122bd85a92ba114",
+      "contentCommit": "6f3cdcffba0ce5a9175d2c53b9894e63baf3ee21",
       "fullName": "vincentng295/Magic_V2Ray",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-22T08:47:41.033Z",
+      "lastSuccessAt": "2026-11-22T17:29:05.659Z",
       "maxVersionCode": 211,
       "message": null,
       "repositoryId": 1256102852,
@@ -1095,7 +1095,7 @@
       }
     },
     "openp2p-tunnel": {
-      "contentCommit": "f01e2de380705b33f1b069e5b903b3512a9ce617",
+      "contentCommit": "b037076e8f40b99b1812cbb086220e57c48480be",
       "fullName": "AxoNex/openp2p-tunnel",
       "health": "ok",
       "installation": "present",
@@ -1104,8 +1104,8 @@
       "message": null,
       "repositoryId": 1464183070,
       "request": {
-        "checkedAt": "2026-11-22T14:08:52.288Z",
-        "commit": "f01e2de380705b33f1b069e5b903b3512a9ce617",
+        "checkedAt": "2026-11-22T17:29:05.659Z",
+        "commit": "b037076e8f40b99b1812cbb086220e57c48480be",
         "issues": [],
         "latestTag": "v1.2.0",
         "ok": true,
@@ -1382,16 +1382,16 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-20T08:58:03.818Z",
-      "maxVersionCode": 214,
+      "lastSuccessAt": "2026-11-22T17:29:05.659Z",
+      "maxVersionCode": 215,
       "message": null,
       "repositoryId": 1417162951,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-20T08:57:39Z",
-        "tag": "v214-15b30cf",
-        "version": "1.214 (214-15b30cf-release)",
-        "versionCode": 214
+        "publishedAt": "2026-11-22T17:28:45Z",
+        "tag": "v215-d21bd79",
+        "version": "1.215 (215-d21bd79-release)",
+        "versionCode": 215
       }
     },
     "zygisknextsu": {

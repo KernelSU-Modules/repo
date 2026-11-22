@@ -1636,8 +1636,8 @@
         "versionCode": 39
       },
       "stars": {
-        "count": 29,
-        "fetchedAt": "2026-11-21T16:44:47.155Z",
+        "count": 30,
+        "fetchedAt": "2026-11-22T17:29:05.659Z",
         "fullName": "f1owkang/CRecordEvolution",
         "repositoryId": 678049636,
         "verified": "self"
@@ -1921,8 +1921,8 @@
         "versionCode": 50107
       },
       "stars": {
-        "count": 64,
-        "fetchedAt": "2026-11-21T16:44:47.155Z",
+        "count": 65,
+        "fetchedAt": "2026-11-22T17:29:05.659Z",
         "fullName": "Eikeitsu/CertBridge",
         "repositoryId": 1306329220,
         "verified": "self"
@@ -2860,14 +2860,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "fcd69ef70b3b6640da01b8be0ce41c28a261f40b",
+          "README.md": "4fd3ad36dcd7d17279c1b6ae0e66a3b2653a54ff",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "63f6fc1408aec8f9b958431532b3d1a89de08b3f",
-        "fetchedAt": "2026-11-20T01:38:24.668Z",
+        "commit": "54a8b53817ab9cf86a98f639a7a43e4b226891e3",
+        "fetchedAt": "2026-11-22T17:29:05.659Z",
         "files": {
-          "README.md": "c90abf829f65baa8e1293c4ed5f59c98af29d6283098a755aa2937b49ad8833a",
+          "README.md": "a9a1110d73c05ffdf72e73c91aafb197eb273b4af291f4c1b2748afda1bc39f2",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -2877,8 +2877,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-20T01:38:24.668Z",
-        "lastSuccessAt": "2026-11-20T01:38:24.668Z",
+        "lastAttemptAt": "2026-11-22T17:29:05.659Z",
+        "lastSuccessAt": "2026-11-22T17:29:05.659Z",
         "message": null,
         "status": "ok"
       },
@@ -3457,8 +3457,8 @@
         "versionCode": 10620
       },
       "stars": {
-        "count": 236,
-        "fetchedAt": "2026-11-21T06:01:06.743Z",
+        "count": 235,
+        "fetchedAt": "2026-11-22T17:29:05.659Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -6700,8 +6700,8 @@
         "versionCode": 20261109
       },
       "stars": {
-        "count": 916,
-        "fetchedAt": "2026-11-21T16:44:47.155Z",
+        "count": 918,
+        "fetchedAt": "2026-11-22T17:29:05.659Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -8660,7 +8660,7 @@
     "hypercool": {
       "content": {
         "blobs": {
-          "README.md": "97859555bb70541feab0b504f468c6dc8714118d",
+          "README.md": "585ad69a3de12aea05dc63398b5cd9a930a00fbc",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
           "docs/badges/downloads.svg": "5b3f3e9873650cb77e67a99c63a49e08814f0aeb",
@@ -8685,10 +8685,10 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "cf7df19fd5d0e7ecd1de847d0bca3f8c0d52ea61",
-        "fetchedAt": "2026-11-22T13:36:31.070Z",
+        "commit": "d5ae2af5aabce3de16b66939fb76ea1bacf8099a",
+        "fetchedAt": "2026-11-22T17:29:05.659Z",
         "files": {
-          "README.md": "ec19f0f87f2e42f7a1d87ece6519fdf552ec7e9c92a2efdf81e65fe4efacfc89",
+          "README.md": "9483e48293b2e25d2981153f733899e10d390f06708d19079d309c1010e763b7",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
           "docs/badges/downloads.svg": "1f49b002a57b99af471514c4747e11010d5e16fc19a68628dc37f853d5cbed1f",
@@ -8719,8 +8719,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T13:36:31.070Z",
-        "lastSuccessAt": "2026-11-22T13:36:31.070Z",
+        "lastAttemptAt": "2026-11-22T17:29:05.659Z",
+        "lastSuccessAt": "2026-11-22T17:29:05.659Z",
         "message": null,
         "status": "ok"
       },
@@ -10093,15 +10093,15 @@
       "content": {
         "blobs": {
           "app/src/main/res/drawable-nodpi/module_icon.png": "a3eff87a00382701a545ffaea10da5e404a8165c",
-          "docs/README.md": "bd6a7f41c3e5314d8b609fdec31d784f62202a43",
+          "docs/README.md": "fc68abb4eb3aa63658b315022e9eb09a368a96f2",
           "docs/images/screenshot_1.jpg": "018e3409a1ab13707443fec9de8731923ad40950",
           "module.yaml": "0f4e3b7035eb1bae857977388740da2bf9dfe15a"
         },
-        "commit": "db9417d1f67026dceb4996b48122bd85a92ba114",
-        "fetchedAt": "2026-11-22T07:32:12.327Z",
+        "commit": "6f3cdcffba0ce5a9175d2c53b9894e63baf3ee21",
+        "fetchedAt": "2026-11-22T17:29:05.659Z",
         "files": {
           "app/src/main/res/drawable-nodpi/module_icon.png": "807cc18fde6f9e5f2c82628fd31867bbccaa5ba12dc0bd7345fb335483266ff9",
-          "docs/README.md": "8f7c77152b921f24d4ff647981fd01f69d37a7826457df12ab495bd7e832b194",
+          "docs/README.md": "bd5f4eb9d90bd37fa1b4419ab200e82848e8aef2e7b6980d007ae618bde5afff",
           "docs/images/screenshot_1.jpg": "5dcc076b0ad0fda2846b6974acad2c9e4a14734c68836bce9da379078e0ec4a9",
           "module.yaml": "db7f8d229d8f2b6fed5042151cdd2e8e23fbabe5c8484b72b28f62921718eec7"
         },
@@ -10111,8 +10111,8 @@
       "fullName": "vincentng295/Magic_V2Ray",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T08:47:41.033Z",
-        "lastSuccessAt": "2026-11-22T08:47:41.033Z",
+        "lastAttemptAt": "2026-11-22T17:29:05.659Z",
+        "lastSuccessAt": "2026-11-22T17:29:05.659Z",
         "message": null,
         "status": "ok"
       },
@@ -15094,17 +15094,47 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-20T08:58:03.818Z",
-        "lastSuccessAt": "2026-11-20T08:58:03.818Z",
+        "lastAttemptAt": "2026-11-22T17:29:05.659Z",
+        "lastSuccessAt": "2026-11-22T17:29:05.659Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk_fusehide",
       "installationId": 170178853,
-      "maxStableVersionCode": 214,
-      "maxVersionCode": 214,
+      "maxStableVersionCode": 215,
+      "maxVersionCode": 215,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:8079479b3989b7a81562c2338691e2cfb19e6ff753b0e30f123e2c344766b417",
+            "id": 779862425,
+            "name": "FuseHide-1.215_215-d21bd79-release.zip",
+            "sha256": "8079479b3989b7a81562c2338691e2cfb19e6ff753b0e30f123e2c344766b417",
+            "size": 7759570,
+            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v215-d21bd79/FuseHide-1.215_215-d21bd79-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.215`\n- **VersionCode:** `215`\n- **Commit:** [`d21bd79`](https://github.com/XiaoTong6666/FuseHide/commit/d21bd7936a78ae3b588350809c84b3d493df020e)\n- **Build time:** `4m 30s`\n- **SHA256:** `8079479b3989b7a81562c2338691e2cfb19e6ff753b0e30f123e2c344766b417`\n\n## Message\n\n```text\nchore(native): keep readdir diagnostics in debug logs, Meow\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v215-d21bd79",
+          "immutable": true,
+          "name": "1.215",
+          "prerelease": false,
+          "prop": {
+            "author": "XiaoTong",
+            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+            "id": "zygisk_fusehide",
+            "name": "Zygisk - FuseHide",
+            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+            "version": "1.215 (215-d21bd79-release)",
+            "versionCode": "215"
+          },
+          "publishedAt": "2026-11-22T17:28:45Z",
+          "releaseId": 454619743,
+          "tag": "v215-d21bd79",
+          "tagCommit": "74134055c4e605805ca0ba477346d573ecd236a6",
+          "version": "1.215 (215-d21bd79-release)",
+          "versionCode": 215
+        },
         {
           "asset": {
             "digest": "sha256:6a781d59125b629f61b2c381d4bbd0f85a2bd39bb1cda31d35448c7539ec6f5e",
@@ -15374,36 +15404,6 @@
           "tagCommit": "896db08c201bb807ab3527d16fc9f2e3b0873e5e",
           "version": "1.201 (201-33b2011-release)",
           "versionCode": 201
-        },
-        {
-          "asset": {
-            "digest": "sha256:9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2",
-            "id": 709600661,
-            "name": "FuseHide-1.199_199-a6e1d36-release.zip",
-            "sha256": "9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2",
-            "size": 7657170,
-            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v199-a6e1d36/FuseHide-1.199_199-a6e1d36-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.199`\n- **VersionCode:** `199`\n- **Commit:** [`a6e1d36`](https://github.com/XiaoTong6666/FuseHide/commit/a6e1d36f2392a70d416d2aafd46c79a7f656cbe7)\n- **Build time:** `5m 10s`\n- **SHA256:** `9f139a59771580ff63455a1bc027a382b7a2ce121217b2387c1ef497c6359ce2`\n\n## Message\n\n```text\nfix(native): enable PAC-aware MediaProvider hooks with exact symbols Meow\n\n在 Zygisk Native Hook adapter 中使用 PAC-SP 处理路径，保留并发安全和备份验证要求，让 Android 17 MediaProvider 的 PACIASP 入口能够进入内联 Hook 流程喵（认真盯着跳板代码）\n\n复用现有 ELF 精确符号解析结果识别字符串参数入口，避免历史 profile 的 RVA 不匹配时连带跳过相关 Hook 喵\n根据目录辅助函数的精确符号和已识别的容器 ABI 选择 DirectoryEntries Hook，同时保留历史 RVA fallback，不引入新的设备白名单或硬编码偏移喵（满意地晃晃尾巴）\n\n同步更新 Dobby 子模块指针，接入新增的 PAC 感知 Hook 实现喵（把代码仔细收好）\n\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v199-a6e1d36",
-          "immutable": true,
-          "name": "1.199",
-          "prerelease": false,
-          "prop": {
-            "author": "XiaoTong",
-            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
-            "id": "zygisk_fusehide",
-            "name": "Zygisk - FuseHide",
-            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-            "version": "1.199 (199-a6e1d36-release)",
-            "versionCode": "199"
-          },
-          "publishedAt": "2026-11-04T13:24:42Z",
-          "releaseId": 433956039,
-          "tag": "v199-a6e1d36",
-          "tagCommit": "380adeb7ce7874a9f0bc126a6ab2a24ef634667d",
-          "version": "1.199 (199-a6e1d36-release)",
-          "versionCode": 199
         }
       ],
       "repositoryId": 1417162951,
@@ -15493,21 +15493,25 @@
         "452463455": {
           "checkedAt": "2026-11-20T08:58:03.818Z",
           "ok": true
+        },
+        "454619743": {
+          "checkedAt": "2026-11-22T17:29:05.659Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:6a781d59125b629f61b2c381d4bbd0f85a2bd39bb1cda31d35448c7539ec6f5e",
-          "id": 771126684,
-          "name": "FuseHide-1.214_214-15b30cf-release.zip",
-          "sha256": "6a781d59125b629f61b2c381d4bbd0f85a2bd39bb1cda31d35448c7539ec6f5e",
+          "digest": "sha256:8079479b3989b7a81562c2338691e2cfb19e6ff753b0e30f123e2c344766b417",
+          "id": 779862425,
+          "name": "FuseHide-1.215_215-d21bd79-release.zip",
+          "sha256": "8079479b3989b7a81562c2338691e2cfb19e6ff753b0e30f123e2c344766b417",
           "size": 7759570,
-          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v214-15b30cf/FuseHide-1.214_214-15b30cf-release.zip"
+          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v215-d21bd79/FuseHide-1.215_215-d21bd79-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.214`\n- **VersionCode:** `214`\n- **Commit:** [`15b30cf`](https://github.com/XiaoTong6666/FuseHide/commit/15b30cf78c3f831d5d64eca7edd9acef7aadea3e)\n- **Build time:** `6m 08s`\n- **SHA256:** `6a781d59125b629f61b2c381d4bbd0f85a2bd39bb1cda31d35448c7539ec6f5e`\n\n## Message\n\n```text\nfix(config): retry sync after unlock when snapshot is stale, Meow\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v214-15b30cf",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.215`\n- **VersionCode:** `215`\n- **Commit:** [`d21bd79`](https://github.com/XiaoTong6666/FuseHide/commit/d21bd7936a78ae3b588350809c84b3d493df020e)\n- **Build time:** `4m 30s`\n- **SHA256:** `8079479b3989b7a81562c2338691e2cfb19e6ff753b0e30f123e2c344766b417`\n\n## Message\n\n```text\nchore(native): keep readdir diagnostics in debug logs, Meow\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v215-d21bd79",
         "immutable": true,
-        "name": "1.214",
+        "name": "1.215",
         "prerelease": false,
         "prop": {
           "author": "XiaoTong",
@@ -15515,19 +15519,19 @@
           "id": "zygisk_fusehide",
           "name": "Zygisk - FuseHide",
           "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-          "version": "1.214 (214-15b30cf-release)",
-          "versionCode": "214"
+          "version": "1.215 (215-d21bd79-release)",
+          "versionCode": "215"
         },
-        "publishedAt": "2026-11-20T08:57:39Z",
-        "releaseId": 452463455,
-        "tag": "v214-15b30cf",
-        "tagCommit": "fd54b7eb52d329ca79ba3d105810ca7b92e6000d",
-        "version": "1.214 (214-15b30cf-release)",
-        "versionCode": 214
+        "publishedAt": "2026-11-22T17:28:45Z",
+        "releaseId": 454619743,
+        "tag": "v215-d21bd79",
+        "tagCommit": "74134055c4e605805ca0ba477346d573ecd236a6",
+        "version": "1.215 (215-d21bd79-release)",
+        "versionCode": 215
       },
       "stars": {
-        "count": 32,
-        "fetchedAt": "2026-11-21T18:36:36.456Z",
+        "count": 34,
+        "fetchedAt": "2026-11-22T17:29:05.659Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
