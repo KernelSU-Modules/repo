@@ -9980,6 +9980,291 @@
         "verified": "self"
       }
     },
+    "magic_v2ray": {
+      "content": {
+        "blobs": {
+          "app/src/main/res/drawable-nodpi/module_icon.png": "a3eff87a00382701a545ffaea10da5e404a8165c",
+          "docs/README.md": "bd6a7f41c3e5314d8b609fdec31d784f62202a43",
+          "docs/images/screenshot_1.jpg": "018e3409a1ab13707443fec9de8731923ad40950",
+          "module.yaml": "0f4e3b7035eb1bae857977388740da2bf9dfe15a"
+        },
+        "commit": "db9417d1f67026dceb4996b48122bd85a92ba114",
+        "fetchedAt": "2026-11-22T07:32:12.327Z",
+        "files": {
+          "app/src/main/res/drawable-nodpi/module_icon.png": "807cc18fde6f9e5f2c82628fd31867bbccaa5ba12dc0bd7345fb335483266ff9",
+          "docs/README.md": "8f7c77152b921f24d4ff647981fd01f69d37a7826457df12ab495bd7e832b194",
+          "docs/images/screenshot_1.jpg": "5dcc076b0ad0fda2846b6974acad2c9e4a14734c68836bce9da379078e0ec4a9",
+          "module.yaml": "db7f8d229d8f2b6fed5042151cdd2e8e23fbabe5c8484b72b28f62921718eec7"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "alpha"
+      },
+      "fullName": "vincentng295/Magic_V2Ray",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-22T07:32:12.327Z",
+        "lastSuccessAt": "2026-11-22T07:32:12.327Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "magic_v2ray",
+      "installationId": 184380681,
+      "maxStableVersionCode": 207,
+      "maxVersionCode": 207,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:41bd3fe5c20c8d5525868fcabea61e07a771f92efb559c354b323622a1ce9034",
+            "id": 778151586,
+            "name": "magic_v2ray-v3.3.3-stub.zip",
+            "sha256": "41bd3fe5c20c8d5525868fcabea61e07a771f92efb559c354b323622a1ce9034",
+            "size": 3291,
+            "url": "https://github.com/vincentng295/Magic_V2Ray/releases/download/v3.3.3/magic_v2ray-v3.3.3-stub.zip"
+          },
+          "body": "# Magic V2Ray v3.3.3 Release Notes\n\nFirst release supports `KernelSU-Modules` repo.\n\n---\n\n[Click here for older release notes](https://github.com/vincentng295/Magic_V2Ray/releases)\n",
+          "htmlUrl": "https://github.com/vincentng295/Magic_V2Ray/releases/tag/v3.3.3",
+          "immutable": true,
+          "name": "v3.3.3",
+          "prerelease": false,
+          "prop": {
+            "author": "HuskyDG @vincentng295",
+            "debug": "0",
+            "description": "Installer stub: tap Action to download and install the Magic V2Ray app, which then installs the module.",
+            "id": "magic_v2ray",
+            "name": "Magic V2Ray",
+            "updateJson": "https://vincentng295.github.io/magic-v2ray-site/update.json",
+            "version": "v3.3.3",
+            "versionCode": "207"
+          },
+          "publishedAt": "2026-11-22T06:41:59Z",
+          "releaseId": 454256270,
+          "tag": "v3.3.3",
+          "tagCommit": "db9417d1f67026dceb4996b48122bd85a92ba114",
+          "version": "v3.3.3",
+          "versionCode": 207
+        }
+      ],
+      "repositoryId": 1256102852,
+      "seen": {
+        "391910177": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392028653": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "392490399": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "395200975": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "397887833": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "402514401": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "404461712": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "408063669": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "409754575": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "412363956": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "421807800": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "425678244": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "428475048": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "430003658": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "438658770": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "439308890": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "440359646": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "441981655": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "442952055": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "444632901": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "445254540": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "445425824": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "445798200": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "446033357": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "446538390": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "448863694": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "451421864": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "453303893": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "453588225": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "454256270": {
+          "checkedAt": "2026-11-22T07:32:12.327Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:41bd3fe5c20c8d5525868fcabea61e07a771f92efb559c354b323622a1ce9034",
+          "id": 778151586,
+          "name": "magic_v2ray-v3.3.3-stub.zip",
+          "sha256": "41bd3fe5c20c8d5525868fcabea61e07a771f92efb559c354b323622a1ce9034",
+          "size": 3291,
+          "url": "https://github.com/vincentng295/Magic_V2Ray/releases/download/v3.3.3/magic_v2ray-v3.3.3-stub.zip"
+        },
+        "body": "# Magic V2Ray v3.3.3 Release Notes\n\nFirst release supports `KernelSU-Modules` repo.\n\n---\n\n[Click here for older release notes](https://github.com/vincentng295/Magic_V2Ray/releases)\n",
+        "htmlUrl": "https://github.com/vincentng295/Magic_V2Ray/releases/tag/v3.3.3",
+        "immutable": true,
+        "name": "v3.3.3",
+        "prerelease": false,
+        "prop": {
+          "author": "HuskyDG @vincentng295",
+          "debug": "0",
+          "description": "Installer stub: tap Action to download and install the Magic V2Ray app, which then installs the module.",
+          "id": "magic_v2ray",
+          "name": "Magic V2Ray",
+          "updateJson": "https://vincentng295.github.io/magic-v2ray-site/update.json",
+          "version": "v3.3.3",
+          "versionCode": "207"
+        },
+        "publishedAt": "2026-11-22T06:41:59Z",
+        "releaseId": 454256270,
+        "tag": "v3.3.3",
+        "tagCommit": "db9417d1f67026dceb4996b48122bd85a92ba114",
+        "version": "v3.3.3",
+        "versionCode": 207
+      },
+      "stars": {
+        "count": 67,
+        "fetchedAt": "2026-11-22T07:32:12.327Z",
+        "fullName": "vincentng295/Magic_V2Ray",
+        "repositoryId": 1256102852,
+        "verified": "self"
+      }
+    },
     "magisk-netbird": {
       "content": {
         "blobs": {
