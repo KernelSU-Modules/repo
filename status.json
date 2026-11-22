@@ -487,7 +487,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "ac2d50410c747a6f2c46cdc00731ae427bd4f5e2",
+      "contentCommit": "249ee9f9ae650eb15d12e3200936b9ecaa15a67d",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -496,8 +496,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-22T18:13:18.088Z",
-        "commit": "ac2d50410c747a6f2c46cdc00731ae427bd4f5e2",
+        "checkedAt": "2026-11-22T20:25:35.712Z",
+        "commit": "249ee9f9ae650eb15d12e3200936b9ecaa15a67d",
         "issues": [],
         "latestTag": "v0.3.0",
         "ok": true,
@@ -832,20 +832,20 @@
       }
     },
     "hypercool": {
-      "contentCommit": "d5ae2af5aabce3de16b66939fb76ea1bacf8099a",
+      "contentCommit": "22a127d0e90f7089e0654e3aee754808f327b93a",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-22T17:29:05.659Z",
-      "maxVersionCode": 238,
+      "lastSuccessAt": "2026-11-22T20:25:35.712Z",
+      "maxVersionCode": 240,
       "message": null,
       "repositoryId": 1446403674,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-21T13:48:41Z",
-        "tag": "v2.3.8",
-        "version": "v2.3.8",
-        "versionCode": 238
+        "publishedAt": "2026-11-22T20:25:10Z",
+        "tag": "v2.4.0",
+        "version": "v2.4.0",
+        "versionCode": 240
       }
     },
     "hyperos-accessibility-fix": {

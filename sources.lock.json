@@ -8664,11 +8664,11 @@
     "hypercool": {
       "content": {
         "blobs": {
-          "README.md": "585ad69a3de12aea05dc63398b5cd9a930a00fbc",
+          "README.md": "561ab7764ba772754b07ed383d717fb760085eca",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
           "docs/badges/downloads.svg": "5b3f3e9873650cb77e67a99c63a49e08814f0aeb",
-          "docs/badges/release.svg": "f0e5853cfcc76c72098c6125eeb223af32d2f014",
+          "docs/badges/release.svg": "990c1f475210976a69f415da792a3cee2831ac2f",
           "docs/badges/stars.svg": "eb970ee52940a311a376daebb62457762594c9cd",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
           "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
@@ -8689,14 +8689,14 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "d5ae2af5aabce3de16b66939fb76ea1bacf8099a",
-        "fetchedAt": "2026-11-22T17:29:05.659Z",
+        "commit": "22a127d0e90f7089e0654e3aee754808f327b93a",
+        "fetchedAt": "2026-11-22T20:25:35.712Z",
         "files": {
-          "README.md": "9483e48293b2e25d2981153f733899e10d390f06708d19079d309c1010e763b7",
+          "README.md": "29ef6a405aeec3263e68343d11347871e730c3bc8ececab413656614c7458706",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
           "docs/badges/downloads.svg": "1f49b002a57b99af471514c4747e11010d5e16fc19a68628dc37f853d5cbed1f",
-          "docs/badges/release.svg": "a3f4dcb0f4b92881d5b2500c524e7c9faee4b94fb73451ac694254e04fe11300",
+          "docs/badges/release.svg": "ad1c45fcbb76589bc8e54901524cddd87281c26eea8e99f139fcd855940bb6b6",
           "docs/badges/stars.svg": "c56c2880606acd157d405855d2d30fadf229c8680056d1c58befa70c721fc520",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
           "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
@@ -8723,17 +8723,48 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T17:29:05.659Z",
-        "lastSuccessAt": "2026-11-22T17:29:05.659Z",
+        "lastAttemptAt": "2026-11-22T20:25:35.712Z",
+        "lastSuccessAt": "2026-11-22T20:25:35.712Z",
         "message": null,
         "status": "ok"
       },
       "id": "hypercool",
       "installationId": 179696560,
-      "maxStableVersionCode": 238,
-      "maxVersionCode": 238,
+      "maxStableVersionCode": 240,
+      "maxVersionCode": 240,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:d633bf3780e719f02dae68e2ceb7e1b5c912f4c307fd7bcd8ffefe7a087c3a75",
+            "id": 780353770,
+            "name": "HyperCool_v2.4.0.zip",
+            "sha256": "d633bf3780e719f02dae68e2ceb7e1b5c912f4c307fd7bcd8ffefe7a087c3a75",
+            "size": 413096,
+            "url": "https://github.com/yudharn/HyperCool/releases/download/v2.4.0/HyperCool_v2.4.0.zip"
+          },
+          "body": "\n- New: Game battery mode — off by default. Games get Android's battery mode with a 60 FPS cap and a lower render resolution, so they run cooler. On Android 13 the games to use are picked from the list; on Android 14+ every installed game is detected automatically.\n- New: Pause charging / bypass charging — off by default. Charging pauses at the temperature or level you pick, or while a game is open, and the charger powers the phone instead. Kernels without a charging switch get bypass through a 0 mA charge current. Qualcomm and MediaTek.\n- New: Battery history and temperature warning — off by default. A 48 h chart of level, temperature and screen-on / screen-off drain on Home, and a notification when the battery gets too hot.\n- New: Leftover app folders — a new one-shot action finds Android/data and Android/obb folders of apps that are no longer installed, shows them and deletes them when you confirm.\n- New: Memory bus frequency cap — off by default, Qualcomm. The RAM and system cache bus stays below its top speed for less heat under heavy load, with a lock so the ROM cannot raise it again.\n- New: Lower screen resolution — off by default. The whole screen is drawn at 90, 80 or 75% with the same sizes on screen; the old values come back when it is turned off.\n- Changed: C-state aware scheduler — Energy Aware Scheduler now also prefers cores that are awake or lightly asleep, on kernels that have the switch.\n- Changed: Charge limit ~80% removed — the Xiaomi night charging limit and its keeper are gone. Use Pause / bypass charging instead; a limit set by an older version is released at the next boot.\n- Changed: More charging-switch candidates: also Samsung (ac / dc charging_enabled, batt_slate_mode, stop_charge), Huawei (huawei_charger), Oplus (oplus_chg, google charger), Nubia (nubia_charge), LG (lge-unified-nodes), Transsion (CCIChargerSwitch, smb1357) and generic nodes; the battery keeper records a switch that leaves the battery Discharging as a cut and rejects it while gaming.\n\n",
+          "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.4.0",
+          "immutable": true,
+          "name": "HyperCool v2.4.0",
+          "prerelease": false,
+          "prop": {
+            "author": "Yudharn",
+            "banner": "banner.jpg",
+            "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
+            "id": "hypercool",
+            "name": "HyperCool - Heat & Battery Fix",
+            "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
+            "version": "v2.4.0",
+            "versionCode": "240"
+          },
+          "publishedAt": "2026-11-22T20:25:10Z",
+          "releaseId": 454726737,
+          "tag": "v2.4.0",
+          "tagCommit": "22a127d0e90f7089e0654e3aee754808f327b93a",
+          "version": "v2.4.0",
+          "versionCode": 240
+        },
         {
           "asset": {
             "digest": "sha256:9b9d7fe53b6b071ea0e17cb0077f23ed9a188a90ad52ff598c527c5ef3c7c310",
@@ -9012,37 +9043,6 @@
           "tagCommit": "10d1a2b9da948c3e0270f47d38555e63ea0ae019",
           "version": "v2.3.0",
           "versionCode": 230
-        },
-        {
-          "asset": {
-            "digest": "sha256:7b22c2501e59092e584afd5d30709032c4193473c5b5e51dcaa59fb6afae196f",
-            "id": 749686694,
-            "name": "HyperCool_v2.2.6.zip",
-            "sha256": "7b22c2501e59092e584afd5d30709032c4193473c5b5e51dcaa59fb6afae196f",
-            "size": 328704,
-            "url": "https://github.com/yudharn/HyperCool/releases/download/v2.2.6/HyperCool_v2.2.6.zip"
-          },
-          "body": "\n- Fixed: the F2FS GC wake-lock timeout overflowed mksh's 32-bit arithmetic and became negative, so the kernel rejected it. The timeout is now written correctly.\n- Fixed: Location could stay off after the screen turned on when the ROM ignored the location command but accepted the `location_mode` fallback. The old mode is now restored immediately if the switch cannot be completed, instead of leaving Location off without a restore record.\n- Fixed: Create bug report reported \"Report failed\" after saving when `boot.log` did not exist yet.\n- Fixed: Auto optimize apps treated battery temperatures below 0 °C as unreadable and stopped with \"too warm\".\n- Fixed: the Max battery preset description claimed that Bluetooth was turned off; the preset only turns Location off. The Bluetooth option now also mentions that a smartwatch or fitness band loses its connection while Bluetooth is off.\n- Fixed: `uninstall.sh` could not find the module files when started as `sh uninstall.sh` from inside the module directory.\n- Changed: the Max battery preset now also sets the Little-core frequency cap to 80%.\n\n",
-          "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.2.6",
-          "immutable": true,
-          "name": "HyperCool v2.2.6",
-          "prerelease": false,
-          "prop": {
-            "author": "Yudharn",
-            "banner": "banner.jpg",
-            "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
-            "id": "hypercool",
-            "name": "HyperCool - Heat & Battery Fix",
-            "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
-            "version": "v2.2.6",
-            "versionCode": "226"
-          },
-          "publishedAt": "2026-11-15T03:27:58Z",
-          "releaseId": 445784005,
-          "tag": "v2.2.6",
-          "tagCommit": "4951fa0acf54bd66eda3afe4137514336a8b35bb",
-          "version": "v2.2.6",
-          "versionCode": 226
         }
       ],
       "repositoryId": 1446403674,
@@ -9144,21 +9144,25 @@
         "453724398": {
           "checkedAt": "2026-11-21T13:49:01.990Z",
           "ok": true
+        },
+        "454726737": {
+          "checkedAt": "2026-11-22T20:25:35.712Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:9b9d7fe53b6b071ea0e17cb0077f23ed9a188a90ad52ff598c527c5ef3c7c310",
-          "id": 775728761,
-          "name": "HyperCool_v2.3.8.zip",
-          "sha256": "9b9d7fe53b6b071ea0e17cb0077f23ed9a188a90ad52ff598c527c5ef3c7c310",
-          "size": 390304,
-          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.8/HyperCool_v2.3.8.zip"
+          "digest": "sha256:d633bf3780e719f02dae68e2ceb7e1b5c912f4c307fd7bcd8ffefe7a087c3a75",
+          "id": 780353770,
+          "name": "HyperCool_v2.4.0.zip",
+          "sha256": "d633bf3780e719f02dae68e2ceb7e1b5c912f4c307fd7bcd8ffefe7a087c3a75",
+          "size": 413096,
+          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.4.0/HyperCool_v2.4.0.zip"
         },
-        "body": "\n- New: Background app hibernation (off by default). User apps and preinstalled apps with launcher icons can be stopped a few minutes after the screen turns off, or closed manually from Home. Stop mode keeps apps asleep until opened; Close background processes only is the gentler option. Charging, protected, in-use, alarm-clock, default, and system-critical apps are skipped.\n- New: `hibernate`, `hibernate_min`, and `hibernate_mode` settings in the WebUI, with hibernation results and skipped-app counts in Recent activity.\n- New: System-background CPU tuning through `bg_sys_uclamp` and `bg_sys_latency`, reducing unnecessary scheduling work while allowing Android background tasks to share awake cores.\n- New: TCP tuning through `x_net_tcp`, selecting the best available congestion control and configuring SACK, ECN, low latency, and timestamps. This option is now part of Faster network connections.\n- Changed: HyperCool (Glacier) is available again as the original accent preset.\n- Changed: Recent activity displays package labels and hibernation keeper status.\n- Changed: The Home screen shows the last measured screen-off drain alongside the current estimate.\n- Changed: The WebUI includes a What's New dialog for the current build.\n- Changed: Routine screen-on keeper entries are no longer written to Recent activity.\n- Fixed: Camera resolver packages such as `com.android.camera2` are excluded from hibernation to avoid stopping the camera on ROMs where the camera uses a resolver package.\n\n",
-        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.8",
+        "body": "\n- New: Game battery mode — off by default. Games get Android's battery mode with a 60 FPS cap and a lower render resolution, so they run cooler. On Android 13 the games to use are picked from the list; on Android 14+ every installed game is detected automatically.\n- New: Pause charging / bypass charging — off by default. Charging pauses at the temperature or level you pick, or while a game is open, and the charger powers the phone instead. Kernels without a charging switch get bypass through a 0 mA charge current. Qualcomm and MediaTek.\n- New: Battery history and temperature warning — off by default. A 48 h chart of level, temperature and screen-on / screen-off drain on Home, and a notification when the battery gets too hot.\n- New: Leftover app folders — a new one-shot action finds Android/data and Android/obb folders of apps that are no longer installed, shows them and deletes them when you confirm.\n- New: Memory bus frequency cap — off by default, Qualcomm. The RAM and system cache bus stays below its top speed for less heat under heavy load, with a lock so the ROM cannot raise it again.\n- New: Lower screen resolution — off by default. The whole screen is drawn at 90, 80 or 75% with the same sizes on screen; the old values come back when it is turned off.\n- Changed: C-state aware scheduler — Energy Aware Scheduler now also prefers cores that are awake or lightly asleep, on kernels that have the switch.\n- Changed: Charge limit ~80% removed — the Xiaomi night charging limit and its keeper are gone. Use Pause / bypass charging instead; a limit set by an older version is released at the next boot.\n- Changed: More charging-switch candidates: also Samsung (ac / dc charging_enabled, batt_slate_mode, stop_charge), Huawei (huawei_charger), Oplus (oplus_chg, google charger), Nubia (nubia_charge), LG (lge-unified-nodes), Transsion (CCIChargerSwitch, smb1357) and generic nodes; the battery keeper records a switch that leaves the battery Discharging as a cut and rejects it while gaming.\n\n",
+        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.4.0",
         "immutable": true,
-        "name": "HyperCool v2.3.8",
+        "name": "HyperCool v2.4.0",
         "prerelease": false,
         "prop": {
           "author": "Yudharn",
@@ -9167,15 +9171,15 @@
           "id": "hypercool",
           "name": "HyperCool - Heat & Battery Fix",
           "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
-          "version": "v2.3.8",
-          "versionCode": "238"
+          "version": "v2.4.0",
+          "versionCode": "240"
         },
-        "publishedAt": "2026-11-21T13:48:41Z",
-        "releaseId": 453724398,
-        "tag": "v2.3.8",
-        "tagCommit": "387d89b8b05ccf3a2595e5cd5ceff168ce0140f5",
-        "version": "v2.3.8",
-        "versionCode": 238
+        "publishedAt": "2026-11-22T20:25:10Z",
+        "releaseId": 454726737,
+        "tag": "v2.4.0",
+        "tagCommit": "22a127d0e90f7089e0654e3aee754808f327b93a",
+        "version": "v2.4.0",
+        "versionCode": 240
       },
       "stars": {
         "count": 31,
