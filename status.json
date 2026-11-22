@@ -980,12 +980,17 @@
       "fullName": "vincentng295/Magic_V2Ray",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-22T08:13:06.391Z",
-      "maxVersionCode": 209,
-      "message": "stable-unavailable: the stable release (versionCode 209) was deleted or marked as prerelease and no older release is left; the module is hidden until a release with a versionCode above 209 is published.",
+      "lastSuccessAt": "2026-11-22T08:47:41.033Z",
+      "maxVersionCode": 211,
+      "message": null,
       "repositoryId": 1256102852,
       "request": null,
-      "stable": null
+      "stable": {
+        "publishedAt": "2026-11-22T08:47:21Z",
+        "tag": "v3.4",
+        "version": "v3.4",
+        "versionCode": 211
+      }
     },
     "magisk-netbird": {
       "contentCommit": "257e5c7bcd84de44786c8553d7e52c7d36fd5275",
