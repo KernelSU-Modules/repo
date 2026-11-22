@@ -491,7 +491,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "630968e3907264532d82170fb894dbcc12ce173d",
+      "contentCommit": "f717b90c1b74878603d8607b29d4141b60c699a5",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -500,8 +500,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-22T02:12:05.308Z",
-        "commit": "630968e3907264532d82170fb894dbcc12ce173d",
+        "checkedAt": "2026-11-22T04:41:21.034Z",
+        "commit": "f717b90c1b74878603d8607b29d4141b60c699a5",
         "issues": [],
         "latestTag": "v0.3.0",
         "ok": true,
@@ -1035,16 +1035,16 @@
       "fullName": "Fanju6/NetProxy-Releases",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-19T06:22:05.094Z",
-      "maxVersionCode": 1107,
+      "lastSuccessAt": "2026-11-22T04:41:21.034Z",
+      "maxVersionCode": 1115,
       "message": null,
       "repositoryId": 1414363922,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-19T06:21:52Z",
-        "tag": "v8.7.1",
-        "version": "v8.7.1",
-        "versionCode": 1107
+        "publishedAt": "2026-11-22T04:40:57Z",
+        "tag": "v8.7.2",
+        "version": "v8.7.2",
+        "versionCode": 1115
       }
     },
     "nomount": {
