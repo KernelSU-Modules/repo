@@ -979,6 +979,27 @@
         "versionCode": 401012
       }
     },
+    "magic_v2ray": {
+      "contentCommit": "db9417d1f67026dceb4996b48122bd85a92ba114",
+      "fullName": "vincentng295/Magic_V2Ray",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1256102852,
+      "request": {
+        "checkedAt": "2026-11-22T06:46:34.313Z",
+        "commit": "db9417d1f67026dceb4996b48122bd85a92ba114",
+        "issues": [],
+        "latestTag": "v3.3.3",
+        "ok": true,
+        "releaseId": 454256270,
+        "repositoryId": 1256102852,
+        "submissionId": "xi3oplizc3"
+      },
+      "stable": null
+    },
     "magisk-netbird": {
       "contentCommit": "257e5c7bcd84de44786c8553d7e52c7d36fd5275",
       "fullName": "ahsaboy/magisk-netbird",
