@@ -1,0 +1,19 @@
+id: unityfix
+status: pending
+request:
+  submissionId: ujzyw4oe63
+  kind: submit
+  source:
+    host: github
+    repositoryId: 586814977
+    ownerId: 105339980
+    fullName: LeanxModulostk/UnityFix
+    manifestPath: module.yaml
+  submittedBy: 105339980
+  submittedByLogin: LeanxModulostk
+  submittedAt: 2026-11-22T02:11:40.478Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65300
+createdAt: 2026-11-22T02:11:40.478Z
+updatedAt: 2026-11-22T02:11:40.478Z
