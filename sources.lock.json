@@ -10002,9 +10002,9 @@
       "fullName": "vincentng295/Magic_V2Ray",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T07:32:12.327Z",
-        "lastSuccessAt": "2026-11-22T07:32:12.327Z",
-        "message": null,
+        "lastAttemptAt": "2026-11-22T07:37:02.580Z",
+        "lastSuccessAt": "2026-11-22T07:37:02.580Z",
+        "message": "stable-unavailable: the stable release (versionCode 207) was deleted or marked as prerelease and no older release is left; the module is hidden until a release with a versionCode above 207 is published.",
         "status": "ok"
       },
       "id": "magic_v2ray",
@@ -10012,41 +10012,15 @@
       "maxStableVersionCode": 207,
       "maxVersionCode": 207,
       "prerelease": null,
-      "releases": [
-        {
-          "asset": {
-            "digest": "sha256:41bd3fe5c20c8d5525868fcabea61e07a771f92efb559c354b323622a1ce9034",
-            "id": 778151586,
-            "name": "magic_v2ray-v3.3.3-stub.zip",
-            "sha256": "41bd3fe5c20c8d5525868fcabea61e07a771f92efb559c354b323622a1ce9034",
-            "size": 3291,
-            "url": "https://github.com/vincentng295/Magic_V2Ray/releases/download/v3.3.3/magic_v2ray-v3.3.3-stub.zip"
-          },
-          "body": "# Magic V2Ray v3.3.3 Release Notes\n\nFirst release supports `KernelSU-Modules` repo.\n\n---\n\n[Click here for older release notes](https://github.com/vincentng295/Magic_V2Ray/releases)\n",
-          "htmlUrl": "https://github.com/vincentng295/Magic_V2Ray/releases/tag/v3.3.3",
-          "immutable": true,
-          "name": "v3.3.3",
-          "prerelease": false,
-          "prop": {
-            "author": "HuskyDG @vincentng295",
-            "debug": "0",
-            "description": "Installer stub: tap Action to download and install the Magic V2Ray app, which then installs the module.",
-            "id": "magic_v2ray",
-            "name": "Magic V2Ray",
-            "updateJson": "https://vincentng295.github.io/magic-v2ray-site/update.json",
-            "version": "v3.3.3",
-            "versionCode": "207"
-          },
-          "publishedAt": "2026-11-22T06:41:59Z",
-          "releaseId": 454256270,
-          "tag": "v3.3.3",
-          "tagCommit": "db9417d1f67026dceb4996b48122bd85a92ba114",
-          "version": "v3.3.3",
-          "versionCode": 207
-        }
-      ],
+      "releases": [],
       "repositoryId": 1256102852,
       "seen": {
+        "391651325": {
+          "checkedAt": "2026-11-22T07:37:02.580Z",
+          "code": "release-not-immutable",
+          "message": "Release v1.14 is not immutable. Enable release immutability and publish a new release.",
+          "ok": false
+        },
         "391910177": {
           "checkedAt": "2026-11-22T07:32:12.327Z",
           "message": "Not examined: published before the newest eligible release when the module was bound.",
@@ -10226,37 +10200,7 @@
           "ok": true
         }
       },
-      "stable": {
-        "asset": {
-          "digest": "sha256:41bd3fe5c20c8d5525868fcabea61e07a771f92efb559c354b323622a1ce9034",
-          "id": 778151586,
-          "name": "magic_v2ray-v3.3.3-stub.zip",
-          "sha256": "41bd3fe5c20c8d5525868fcabea61e07a771f92efb559c354b323622a1ce9034",
-          "size": 3291,
-          "url": "https://github.com/vincentng295/Magic_V2Ray/releases/download/v3.3.3/magic_v2ray-v3.3.3-stub.zip"
-        },
-        "body": "# Magic V2Ray v3.3.3 Release Notes\n\nFirst release supports `KernelSU-Modules` repo.\n\n---\n\n[Click here for older release notes](https://github.com/vincentng295/Magic_V2Ray/releases)\n",
-        "htmlUrl": "https://github.com/vincentng295/Magic_V2Ray/releases/tag/v3.3.3",
-        "immutable": true,
-        "name": "v3.3.3",
-        "prerelease": false,
-        "prop": {
-          "author": "HuskyDG @vincentng295",
-          "debug": "0",
-          "description": "Installer stub: tap Action to download and install the Magic V2Ray app, which then installs the module.",
-          "id": "magic_v2ray",
-          "name": "Magic V2Ray",
-          "updateJson": "https://vincentng295.github.io/magic-v2ray-site/update.json",
-          "version": "v3.3.3",
-          "versionCode": "207"
-        },
-        "publishedAt": "2026-11-22T06:41:59Z",
-        "releaseId": 454256270,
-        "tag": "v3.3.3",
-        "tagCommit": "db9417d1f67026dceb4996b48122bd85a92ba114",
-        "version": "v3.3.3",
-        "versionCode": 207
-      },
+      "stable": null,
       "stars": {
         "count": 67,
         "fetchedAt": "2026-11-22T07:32:12.327Z",
