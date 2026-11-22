@@ -1,0 +1,25 @@
+id: magic_v2ray
+status: pending
+request:
+  submissionId: xi3oplizc3
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1256102852
+    ownerId: 151985750
+    fullName: vincentng295/Magic_V2Ray
+    manifestPath: module.yaml
+  submittedBy: 151985750
+  submittedByLogin: vincentng295
+  submittedAt: 2026-11-22T06:45:26.677Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65301
+  note: |-
+    Magic V2Ray is an open-source (GPL-3.0) system-level transparent proxy for rooted Android, built on Xray-core: https://github.com/vincentng295/Magic_V2Ray
+
+    The catalog ZIP is a small installer stub (module.prop + action.sh + META-INF). Tapping Action downloads the APK of the same version from this GitHub release, verifies its pinned SHA-256, installs it, and opens it. On first launch the app installs the full module (service.sh, xray, helper binaries) into /data/adb/modules/magic_v2ray. APKs are built by GitHub Actions from the source in this repo and attached to the same immutable release.
+
+    Source, build scripts and CI are all public. Releases are published by .github/workflows/ci.yml using the module-release action precheck.
+createdAt: 2026-11-22T06:45:26.677Z
+updatedAt: 2026-11-22T06:45:26.677Z
