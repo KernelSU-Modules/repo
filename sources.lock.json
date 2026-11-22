@@ -4806,14 +4806,14 @@
     "acc": {
       "content": {
         "blobs": {
-          "README.md": "3cb34add4f4ddf1c9e87d3727d1cb81010a5eb5d",
+          "README.md": "8c13b80ae542224157795c96d67a76a09aa5212f",
           "install/icon/webui.png": "7ccf08e2d10443ace2fc0589c408f22939b94eaa",
           "module.yaml": "217c4de4210853cb54c07fba50df2fc12bf66175"
         },
-        "commit": "1c4b794afd8fc30232c33b0499f9fbe3dd60a6f4",
-        "fetchedAt": "2026-11-17T18:27:57.012Z",
+        "commit": "a0ef692c374df62462f0531b6d03892f48693a52",
+        "fetchedAt": "2026-11-22T11:25:50.729Z",
         "files": {
-          "README.md": "afb019d41545b4e5554684a832247ebc51b879242bd45dbd9424de44d534f159",
+          "README.md": "aa8d47193abdfbc7ec6ea0f23f72fc56b0512b4ff09ce3bd88706278778c2697",
           "install/icon/webui.png": "26ef13138d9c44b8b7fdcc741cc921ba51b1c2b40b8764cc609d2715933a8eea",
           "module.yaml": "e2b5b7270353dafb71358e635bcadeaf321aad421239e1f3d55ef6c9c5db1ef9"
         },
@@ -4823,8 +4823,8 @@
       "fullName": "Infiniti151/acc-with-webui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-17T18:27:57.012Z",
-        "lastSuccessAt": "2026-11-17T18:27:57.012Z",
+        "lastAttemptAt": "2026-11-22T11:25:50.729Z",
+        "lastSuccessAt": "2026-11-22T11:25:50.729Z",
         "message": null,
         "status": "ok"
       },
@@ -4975,14 +4975,14 @@
     "adbdisabler": {
       "content": {
         "blobs": {
-          "README.md": "510062184c1f4dcf99eca743fbeb0535f6532cbf",
-          "module.yaml": "9a6991296a935048cc7e059eb62871afdd5c7c2e"
+          "README.md": "1992a939a7866c712c1cd86dcee06a15df8a49c9",
+          "module.yaml": "b10b11d66f17cbe2da4c86f91dabf1dbd0192861"
         },
-        "commit": "07fe0c6ff125de95f981ebb117674541d48b501b",
-        "fetchedAt": "2026-11-16T13:17:01.714Z",
+        "commit": "39bf202a7ebec6ac2bcb1663b12fa2f9f3f32d1f",
+        "fetchedAt": "2026-11-22T11:25:50.729Z",
         "files": {
-          "README.md": "131c3ee57c49514073e093252e488648b8eec0bc61c1484057281f8d05896d33",
-          "module.yaml": "faa1963aaf947c84a30eedf009fe4c3412e3ed98c57673f8970187a7bfa41c8a"
+          "README.md": "84d8b4a38e7910ceaccfd8932d565c76528f08e44b93f02b2cf27e74490bf57f",
+          "module.yaml": "3bd1093387d9395ab2d06b0aa6a9e63e45a3e83cfec331f24f6ccd1b30f5be14"
         },
         "manifestPath": "module.yaml",
         "ref": "main"
@@ -4990,8 +4990,8 @@
       "fullName": "Shuoh118/ADB-Disabler",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T13:17:01.714Z",
-        "lastSuccessAt": "2026-11-16T13:17:01.714Z",
+        "lastAttemptAt": "2026-11-22T11:25:50.729Z",
+        "lastSuccessAt": "2026-11-22T11:25:50.729Z",
         "message": null,
         "status": "ok"
       },

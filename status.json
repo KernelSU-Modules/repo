@@ -331,11 +331,11 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "1c4b794afd8fc30232c33b0499f9fbe3dd60a6f4",
+      "contentCommit": "a0ef692c374df62462f0531b6d03892f48693a52",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-17T18:27:57.012Z",
+      "lastSuccessAt": "2026-11-22T11:25:50.729Z",
       "maxVersionCode": 10600,
       "message": null,
       "repositoryId": 1296470014,
@@ -348,11 +348,11 @@
       }
     },
     "adbdisabler": {
-      "contentCommit": "07fe0c6ff125de95f981ebb117674541d48b501b",
+      "contentCommit": "39bf202a7ebec6ac2bcb1663b12fa2f9f3f32d1f",
       "fullName": "Shuoh118/ADB-Disabler",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T13:17:01.714Z",
+      "lastSuccessAt": "2026-11-22T11:25:50.729Z",
       "maxVersionCode": 10001,
       "message": null,
       "repositoryId": 1449393283,
