@@ -1928,6 +1928,157 @@
         "verified": "self"
       }
     },
+    "Clear_Rubbish": {
+      "content": {
+        "blobs": {
+          "MODULE_DESCRIPTION.md": "a4070613db91e077b26bbb589ef5e578e234bca2",
+          "module.yaml": "13a010fc07db325af0d7c88d0fa718985056f9fc"
+        },
+        "commit": "e90906decc4c4284d98ae48a9d0bef29b6c3bb1a",
+        "fetchedAt": "2026-11-22T07:29:20.095Z",
+        "files": {
+          "MODULE_DESCRIPTION.md": "ff2904b1def22f65d5ff8f0863b5b7e4205db0fe3980c8888eba365268c3e3ff",
+          "module.yaml": "bde1cae4ca8f49be21b6ef2cdafafc9f70c33a596b33023c8588f0bd20a8d201"
+        },
+        "manifestPath": "module.yaml",
+        "ref": "main"
+      },
+      "fullName": "yunyu614/AutoPurge-Pro",
+      "health": {
+        "installation": "present",
+        "lastAttemptAt": "2026-11-22T07:29:20.095Z",
+        "lastSuccessAt": "2026-11-22T07:29:20.095Z",
+        "message": null,
+        "status": "ok"
+      },
+      "id": "Clear_Rubbish",
+      "installationId": 179494625,
+      "maxStableVersionCode": 444,
+      "maxVersionCode": 444,
+      "prerelease": null,
+      "releases": [
+        {
+          "asset": {
+            "digest": "sha256:53d4f8cbd10e1cbd0ad350e88d15feff856c884e7a140d1f9e3ecec94161f661",
+            "id": 776914535,
+            "name": "Clear_Rubbish-444-4.4.4.zip",
+            "sha256": "53d4f8cbd10e1cbd0ad350e88d15feff856c884e7a140d1f9e3ecec94161f661",
+            "size": 3533394,
+            "url": "https://github.com/yunyu614/AutoPurge-Pro/releases/download/v4.4.4/Clear_Rubbish-444-4.4.4.zip"
+          },
+          "body": "# AutoPurge Pro v4.4.4\n\n## 发布说明\n\n- 基于 v4.4.3 已验证的功能构建，不包含清理引擎或 WebUI 功能变更。\n- 更新模块版本元数据：`version=4.4.4`、`versionCode=444`。\n- 本版本用于在启用 GitHub Release immutability 后生成新的、不可变的 KernelSU Modules 收录包。\n- 保留模块 ID `Clear_Rubbish`、现有配置格式和升级路径。\n\n## 安装与升级\n\n下载本 Release 附件中的 `AutoPurge_Pro_v4.4.4.zip`，通过 KernelSU、KernelSU Next、APatch 或兼容的 Root 模块管理器本地安装。升级前建议备份模块配置、名单及统计文件。\n\n## 验证说明\n\n- 包含 v4.4.3 已通过的静态检查、ZIP 构建及作者真机验证基础。\n- 发布工作流会再次运行 KernelSU 官方模块包与元数据校验，并要求 Release 不可变。\n- 本次版本号提升本身不代表新增功能或扩大设备兼容性承诺。\n",
+          "htmlUrl": "https://github.com/yunyu614/AutoPurge-Pro/releases/tag/v4.4.4",
+          "immutable": true,
+          "name": "v4.4.4",
+          "prerelease": false,
+          "prop": {
+            "author": "liancan",
+            "description": "Android Root cleanup, file organization and scheduled maintenance with WebUI",
+            "id": "Clear_Rubbish",
+            "name": "AutoPurge Pro",
+            "version": "4.4.4",
+            "versionCode": "444"
+          },
+          "publishedAt": "2026-11-21T21:23:54Z",
+          "releaseId": 453994155,
+          "tag": "v4.4.4",
+          "tagCommit": "e90906decc4c4284d98ae48a9d0bef29b6c3bb1a",
+          "version": "4.4.4",
+          "versionCode": 444
+        }
+      ],
+      "repositoryId": 1442603685,
+      "seen": {
+        "431148644": {
+          "checkedAt": "2026-11-22T07:29:20.095Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "431540131": {
+          "checkedAt": "2026-11-22T07:29:20.095Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "433637114": {
+          "checkedAt": "2026-11-22T07:29:20.095Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "436149021": {
+          "checkedAt": "2026-11-22T07:29:20.095Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "436264102": {
+          "checkedAt": "2026-11-22T07:29:20.095Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "446780974": {
+          "checkedAt": "2026-11-22T07:29:20.095Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "449552408": {
+          "checkedAt": "2026-11-22T07:29:20.095Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "453978613": {
+          "checkedAt": "2026-11-22T07:29:20.095Z",
+          "message": "Not examined: published before the newest eligible release when the module was bound.",
+          "ok": false,
+          "skipped": true
+        },
+        "453994155": {
+          "checkedAt": "2026-11-22T07:29:20.095Z",
+          "ok": true
+        }
+      },
+      "stable": {
+        "asset": {
+          "digest": "sha256:53d4f8cbd10e1cbd0ad350e88d15feff856c884e7a140d1f9e3ecec94161f661",
+          "id": 776914535,
+          "name": "Clear_Rubbish-444-4.4.4.zip",
+          "sha256": "53d4f8cbd10e1cbd0ad350e88d15feff856c884e7a140d1f9e3ecec94161f661",
+          "size": 3533394,
+          "url": "https://github.com/yunyu614/AutoPurge-Pro/releases/download/v4.4.4/Clear_Rubbish-444-4.4.4.zip"
+        },
+        "body": "# AutoPurge Pro v4.4.4\n\n## 发布说明\n\n- 基于 v4.4.3 已验证的功能构建，不包含清理引擎或 WebUI 功能变更。\n- 更新模块版本元数据：`version=4.4.4`、`versionCode=444`。\n- 本版本用于在启用 GitHub Release immutability 后生成新的、不可变的 KernelSU Modules 收录包。\n- 保留模块 ID `Clear_Rubbish`、现有配置格式和升级路径。\n\n## 安装与升级\n\n下载本 Release 附件中的 `AutoPurge_Pro_v4.4.4.zip`，通过 KernelSU、KernelSU Next、APatch 或兼容的 Root 模块管理器本地安装。升级前建议备份模块配置、名单及统计文件。\n\n## 验证说明\n\n- 包含 v4.4.3 已通过的静态检查、ZIP 构建及作者真机验证基础。\n- 发布工作流会再次运行 KernelSU 官方模块包与元数据校验，并要求 Release 不可变。\n- 本次版本号提升本身不代表新增功能或扩大设备兼容性承诺。\n",
+        "htmlUrl": "https://github.com/yunyu614/AutoPurge-Pro/releases/tag/v4.4.4",
+        "immutable": true,
+        "name": "v4.4.4",
+        "prerelease": false,
+        "prop": {
+          "author": "liancan",
+          "description": "Android Root cleanup, file organization and scheduled maintenance with WebUI",
+          "id": "Clear_Rubbish",
+          "name": "AutoPurge Pro",
+          "version": "4.4.4",
+          "versionCode": "444"
+        },
+        "publishedAt": "2026-11-21T21:23:54Z",
+        "releaseId": 453994155,
+        "tag": "v4.4.4",
+        "tagCommit": "e90906decc4c4284d98ae48a9d0bef29b6c3bb1a",
+        "version": "4.4.4",
+        "versionCode": 444
+      },
+      "stars": {
+        "count": 14,
+        "fetchedAt": "2026-11-22T07:29:20.095Z",
+        "fullName": "yunyu614/AutoPurge-Pro",
+        "repositoryId": 1442603685,
+        "verified": "self"
+      }
+    },
     "FreePPS": {
       "content": {
         "blobs": {

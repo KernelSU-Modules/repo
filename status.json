@@ -124,21 +124,17 @@
       "fullName": "yunyu614/AutoPurge-Pro",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": null,
-      "maxVersionCode": null,
+      "lastSuccessAt": "2026-11-22T07:29:20.095Z",
+      "maxVersionCode": 444,
       "message": null,
       "repositoryId": 1442603685,
-      "request": {
-        "checkedAt": "2026-11-21T21:26:28.496Z",
-        "commit": "e90906decc4c4284d98ae48a9d0bef29b6c3bb1a",
-        "issues": [],
-        "latestTag": "v4.4.4",
-        "ok": true,
-        "releaseId": 453994155,
-        "repositoryId": 1442603685,
-        "submissionId": "rdn8clj5fx"
-      },
-      "stable": null
+      "request": null,
+      "stable": {
+        "publishedAt": "2026-11-21T21:23:54Z",
+        "tag": "v4.4.4",
+        "version": "4.4.4",
+        "versionCode": 444
+      }
     },
     "FreePPS": {
       "contentCommit": "23fefce4029d7a4e9b5a9c583acd068ac38af46a",
@@ -491,7 +487,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "bcafbb806c62bd78401298bab87f5874268ed204",
+      "contentCommit": "32c6332019c5832b1cc23d89efed7eb9f2b04108",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -500,8 +496,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-22T06:44:16.569Z",
-        "commit": "bcafbb806c62bd78401298bab87f5874268ed204",
+        "checkedAt": "2026-11-22T07:29:20.095Z",
+        "commit": "32c6332019c5832b1cc23d89efed7eb9f2b04108",
         "issues": [],
         "latestTag": "v0.3.0",
         "ok": true,
