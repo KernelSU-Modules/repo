@@ -7191,8 +7191,8 @@
         "versionCode": 155
       },
       "stars": {
-        "count": 479,
-        "fetchedAt": "2026-11-21T09:49:50.194Z",
+        "count": 480,
+        "fetchedAt": "2026-11-22T10:58:49.895Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -15438,17 +15438,47 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-17T16:16:34.316Z",
-        "lastSuccessAt": "2026-11-17T16:16:34.316Z",
+        "lastAttemptAt": "2026-11-22T10:58:49.895Z",
+        "lastSuccessAt": "2026-11-22T10:58:49.895Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 424,
-      "maxVersionCode": 424,
+      "maxStableVersionCode": 432,
+      "maxVersionCode": 432,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:c7bfa2fb357f9425d8f6a720ad481935e5bfd5e8a4fc1d66cb525dc01991a5cf",
+            "id": 778759588,
+            "name": "ZNNext-v2.18.0.3-432-ffcf6b8-release.zip",
+            "sha256": "c7bfa2fb357f9425d8f6a720ad481935e5bfd5e8a4fc1d66cb525dc01991a5cf",
+            "size": 6144330,
+            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0.3/ZNNext-v2.18.0.3-432-ffcf6b8-release.zip"
+          },
+          "body": "## What's Changed\n* chore(deps): bump loader/src/external/libarchive from `2d39738` to `b143381` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/205\n* chore(deps): bump nix from 0.31.3 to 0.32.0 in /daemon in the crates group by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/206\n* chore(deps): bump @m3e/web from 2.12.1 to 2.13.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/213\n* chore(deps): bump loader/src/external/frida-gum/src from `79d5c73` to `9d5505c` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/210\n* chore(deps): bump clap from 4.6.7 to 4.6.8 in /daemon in the crates group by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/211\n* chore(deps): bump @m3e/icons from 1.0.23 to 1.0.24 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/212\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.18.0.2...v2.18.0.3\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.18.0.3",
+          "immutable": true,
+          "name": "v2.18.0.3",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "ZNNext",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
+            "version": "v2.18.0.3 (432-ffcf6b8-release)",
+            "versionCode": "432"
+          },
+          "publishedAt": "2026-11-22T10:58:20Z",
+          "releaseId": 454382154,
+          "tag": "v2.18.0.3",
+          "tagCommit": "ffcf6b8395719c11c2d816a46ea0ae4f00a9cfcf",
+          "version": "v2.18.0.3 (432-ffcf6b8-release)",
+          "versionCode": 432
+        },
         {
           "asset": {
             "digest": "sha256:38340b3ce132abf8dc56ee3af1429a728308cc33037c2778219195632172b746",
@@ -15718,36 +15748,6 @@
           "tagCommit": "1aa66b8472d12532faadd1923d1beec4f46eebc5",
           "version": "v2.14.0 (306-1aa66b8-release)",
           "versionCode": 306
-        },
-        {
-          "asset": {
-            "digest": "sha256:ef607c45ce196484a6aeaa8052611e5c13d6ffd92f3e5c0d6999f49fb1844ac5",
-            "id": 720112996,
-            "name": "ZNNext-v2.13.0-304-d2ebd23-release.zip",
-            "sha256": "ef607c45ce196484a6aeaa8052611e5c13d6ffd92f3e5c0d6999f49fb1844ac5",
-            "size": 7276254,
-            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.13.0/ZNNext-v2.13.0-304-d2ebd23-release.zip"
-          },
-          "body": "## What's Changed\n* feat(plthook): add srxhook by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/162\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.12.0...v2.13.0\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.13.0",
-          "immutable": true,
-          "name": "v2.13.0",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "ZNNext",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-            "version": "v2.13.0 (304-d2ebd23-release)",
-            "versionCode": "304"
-          },
-          "publishedAt": "2026-11-07T08:33:25Z",
-          "releaseId": 437442843,
-          "tag": "v2.13.0",
-          "tagCommit": "d2ebd232911089faa5cd269dcd9d695080a15fbb",
-          "version": "v2.13.0 (304-d2ebd23-release)",
-          "versionCode": 304
         }
       ],
       "repositoryId": 1348255159,
@@ -16025,21 +16025,25 @@
         "448885442": {
           "checkedAt": "2026-11-17T16:16:34.316Z",
           "ok": true
+        },
+        "454382154": {
+          "checkedAt": "2026-11-22T10:58:49.895Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:38340b3ce132abf8dc56ee3af1429a728308cc33037c2778219195632172b746",
-          "id": 759742281,
-          "name": "ZNNext-v2.18.0.2-424-770efca-release.zip",
-          "sha256": "38340b3ce132abf8dc56ee3af1429a728308cc33037c2778219195632172b746",
-          "size": 6146217,
-          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0.2/ZNNext-v2.18.0.2-424-770efca-release.zip"
+          "digest": "sha256:c7bfa2fb357f9425d8f6a720ad481935e5bfd5e8a4fc1d66cb525dc01991a5cf",
+          "id": 778759588,
+          "name": "ZNNext-v2.18.0.3-432-ffcf6b8-release.zip",
+          "sha256": "c7bfa2fb357f9425d8f6a720ad481935e5bfd5e8a4fc1d66cb525dc01991a5cf",
+          "size": 6144330,
+          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0.3/ZNNext-v2.18.0.3-432-ffcf6b8-release.zip"
         },
-        "body": "## What's Changed\n* chore(deps): bump loader/src/external/srx_hook/srx_hook from `99e27c0` to `481c45a` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/198\n* chore(deps): bump @m3e/web from 2.12.0 to 2.12.1 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/203\n* chore(deps): bump loader/src/external/frida-gum/src from `00a0528` to `79d5c73` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/204\n* chore(deps): bump loader/src/external/plti from `ffbffaa` to `ba339e9` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/197\n* chore(deps): bump loader/src/external/libarchive from `d0bf2da` to `2d39738` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/199\n* chore(deps): bump motion-v from 2.11.1 to 2.12.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/201\n* chore(deps): bump @material-symbols/font-400 from 0.48.3 to 0.49.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/202\n* chore(deps-dev): bump @vitejs/plugin-vue from 6.0.10 to 6.0.11 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/200\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.18.0.1...v2.18.0.2\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.18.0.2",
+        "body": "## What's Changed\n* chore(deps): bump loader/src/external/libarchive from `2d39738` to `b143381` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/205\n* chore(deps): bump nix from 0.31.3 to 0.32.0 in /daemon in the crates group by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/206\n* chore(deps): bump @m3e/web from 2.12.1 to 2.13.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/213\n* chore(deps): bump loader/src/external/frida-gum/src from `79d5c73` to `9d5505c` by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/210\n* chore(deps): bump clap from 4.6.7 to 4.6.8 in /daemon in the crates group by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/211\n* chore(deps): bump @m3e/icons from 1.0.23 to 1.0.24 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/212\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.18.0.2...v2.18.0.3\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.18.0.3",
         "immutable": true,
-        "name": "v2.18.0.2",
+        "name": "v2.18.0.3",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -16047,19 +16051,19 @@
           "id": "zygisknextsu",
           "name": "ZNNext",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-          "version": "v2.18.0.2 (424-770efca-release)",
-          "versionCode": "424"
+          "version": "v2.18.0.3 (432-ffcf6b8-release)",
+          "versionCode": "432"
         },
-        "publishedAt": "2026-11-17T16:16:12Z",
-        "releaseId": 448885442,
-        "tag": "v2.18.0.2",
-        "tagCommit": "770efca8c4ac2f1ab491962b1529f535807d9c21",
-        "version": "v2.18.0.2 (424-770efca-release)",
-        "versionCode": 424
+        "publishedAt": "2026-11-22T10:58:20Z",
+        "releaseId": 454382154,
+        "tag": "v2.18.0.3",
+        "tagCommit": "ffcf6b8395719c11c2d816a46ea0ae4f00a9cfcf",
+        "version": "v2.18.0.3 (432-ffcf6b8-release)",
+        "versionCode": 432
       },
       "stars": {
-        "count": 117,
-        "fetchedAt": "2026-11-22T02:12:05.308Z",
+        "count": 119,
+        "fetchedAt": "2026-11-22T10:58:49.895Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"
