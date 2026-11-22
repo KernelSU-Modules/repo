@@ -466,7 +466,7 @@
       }
     },
     "autousb": {
-      "contentCommit": "0240b0a37f141ba042e58d557c123a69f1a2b440",
+      "contentCommit": "d486b3ba0d51b7d95e0ce76f37ad6da7d67fc5a1",
       "fullName": "Shuoh118/Auto-USB",
       "health": "ok",
       "installation": "present",
@@ -475,12 +475,12 @@
       "message": null,
       "repositoryId": 1449056776,
       "request": {
-        "checkedAt": "2026-11-21T17:19:36.920Z",
-        "commit": "0240b0a37f141ba042e58d557c123a69f1a2b440",
+        "checkedAt": "2026-11-22T14:08:52.288Z",
+        "commit": "d486b3ba0d51b7d95e0ce76f37ad6da7d67fc5a1",
         "issues": [],
-        "latestTag": "1.0.1",
+        "latestTag": "1.0.2",
         "ok": true,
-        "releaseId": 453846982,
+        "releaseId": 454488903,
         "repositoryId": 1449056776,
         "submissionId": "8irmnuda27"
       },
@@ -1095,7 +1095,7 @@
       }
     },
     "openp2p-tunnel": {
-      "contentCommit": "9fd2a259224953cd2b02815d3f13eaeb62e956ef",
+      "contentCommit": "f01e2de380705b33f1b069e5b903b3512a9ce617",
       "fullName": "AxoNex/openp2p-tunnel",
       "health": "ok",
       "installation": "present",
@@ -1104,8 +1104,8 @@
       "message": null,
       "repositoryId": 1464183070,
       "request": {
-        "checkedAt": "2026-11-19T17:53:04.490Z",
-        "commit": "9fd2a259224953cd2b02815d3f13eaeb62e956ef",
+        "checkedAt": "2026-11-22T14:08:52.288Z",
+        "commit": "f01e2de380705b33f1b069e5b903b3512a9ce617",
         "issues": [],
         "latestTag": "v1.2.0",
         "ok": true,
