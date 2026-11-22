@@ -654,8 +654,8 @@
         "versionCode": 2049
       },
       "stars": {
-        "count": 149,
-        "fetchedAt": "2026-11-21T13:19:01.726Z",
+        "count": 150,
+        "fetchedAt": "2026-11-22T13:36:31.070Z",
         "fullName": "Liliya2727/AZenith",
         "repositoryId": 937420284,
         "verified": "self"
@@ -4990,10 +4990,10 @@
       "fullName": "Shuoh118/ADB-Disabler",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T11:27:42.708Z",
+        "lastAttemptAt": "2026-11-22T13:36:31.070Z",
         "lastSuccessAt": "2026-11-22T11:27:42.708Z",
-        "message": null,
-        "status": "ok"
+        "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-schema)",
+        "status": "stale"
       },
       "id": "adbdisabler",
       "installationId": 179488269,
@@ -8591,9 +8591,9 @@
           "README.md": "97859555bb70541feab0b504f468c6dc8714118d",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
-          "docs/badges/downloads.svg": "f9e86b23bc2025e5917b7d854988e35401758ca0",
+          "docs/badges/downloads.svg": "5b3f3e9873650cb77e67a99c63a49e08814f0aeb",
           "docs/badges/release.svg": "f0e5853cfcc76c72098c6125eeb223af32d2f014",
-          "docs/badges/stars.svg": "44329c0730ee87571cdd213a875424872bfe601a",
+          "docs/badges/stars.svg": "eb970ee52940a311a376daebb62457762594c9cd",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
           "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
           "docs/screenshots/app-cache.png": "6c9a644eb5fc9aa8d61036867b504362d1962218",
@@ -8613,15 +8613,15 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "99126b895bfb8940647e6750683239ebf09192f0",
-        "fetchedAt": "2026-11-22T06:44:16.569Z",
+        "commit": "cf7df19fd5d0e7ecd1de847d0bca3f8c0d52ea61",
+        "fetchedAt": "2026-11-22T13:36:31.070Z",
         "files": {
           "README.md": "ec19f0f87f2e42f7a1d87ece6519fdf552ec7e9c92a2efdf81e65fe4efacfc89",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
-          "docs/badges/downloads.svg": "d91c9451f43fb3114ed6c87315208d88a3ba93442722fd923b5c5923e1c2b7c5",
+          "docs/badges/downloads.svg": "1f49b002a57b99af471514c4747e11010d5e16fc19a68628dc37f853d5cbed1f",
           "docs/badges/release.svg": "a3f4dcb0f4b92881d5b2500c524e7c9faee4b94fb73451ac694254e04fe11300",
-          "docs/badges/stars.svg": "8af07c3b34cd69e4857bd5ea0a0faaf96d08ef912587c1e0502fe7bb19c45f96",
+          "docs/badges/stars.svg": "c56c2880606acd157d405855d2d30fadf229c8680056d1c58befa70c721fc520",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
           "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
           "docs/screenshots/app-cache.png": "74ec72f4f19a4a5f6ed51c1e1f8e18f2f196a7b14950fe0124db778644838d43",
@@ -8647,8 +8647,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T06:44:16.569Z",
-        "lastSuccessAt": "2026-11-22T06:44:16.569Z",
+        "lastAttemptAt": "2026-11-22T13:36:31.070Z",
+        "lastSuccessAt": "2026-11-22T13:36:31.070Z",
         "message": null,
         "status": "ok"
       },
@@ -9102,8 +9102,8 @@
         "versionCode": 238
       },
       "stars": {
-        "count": 30,
-        "fetchedAt": "2026-11-21T21:26:28.496Z",
+        "count": 31,
+        "fetchedAt": "2026-11-22T13:36:31.070Z",
         "fullName": "yudharn/HyperCool",
         "repositoryId": 1446403674,
         "verified": "self"
@@ -10009,8 +10009,8 @@
         "versionCode": 401012
       },
       "stars": {
-        "count": 627,
-        "fetchedAt": "2026-11-21T12:18:37.161Z",
+        "count": 628,
+        "fetchedAt": "2026-11-22T13:36:31.070Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
@@ -10724,8 +10724,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T06:45:29.747Z",
-        "lastSuccessAt": "2026-11-22T06:45:29.747Z",
+        "lastAttemptAt": "2026-11-22T13:36:31.070Z",
+        "lastSuccessAt": "2026-11-22T13:36:31.070Z",
         "message": null,
         "status": "ok"
       },
@@ -10884,15 +10884,19 @@
           "ok": true
         },
         "453477711": {
-          "checkedAt": "2026-11-22T06:45:29.747Z",
+          "checkedAt": "2026-11-22T13:36:31.070Z",
           "ok": true
         },
         "453589126": {
-          "checkedAt": "2026-11-22T06:45:29.747Z",
+          "checkedAt": "2026-11-22T13:36:31.070Z",
           "ok": true
         },
         "454257254": {
-          "checkedAt": "2026-11-22T06:45:29.747Z",
+          "checkedAt": "2026-11-22T13:36:31.070Z",
+          "ok": true
+        },
+        "454472053": {
+          "checkedAt": "2026-11-22T13:36:31.070Z",
           "ok": true
         }
       },
@@ -11766,8 +11770,8 @@
         "versionCode": 785
       },
       "stars": {
-        "count": 719,
-        "fetchedAt": "2026-11-21T12:18:37.161Z",
+        "count": 725,
+        "fetchedAt": "2026-11-22T13:36:31.070Z",
         "fullName": "maxsteeel/nomount",
         "repositoryId": 1128821046,
         "verified": "self"
@@ -12991,8 +12995,8 @@
         "versionCode": 110400701
       },
       "stars": {
-        "count": 34,
-        "fetchedAt": "2026-11-21T12:18:37.161Z",
+        "count": 36,
+        "fetchedAt": "2026-11-22T13:36:31.070Z",
         "fullName": "KyuubiRan/Shellscaled",
         "repositoryId": 1435874117,
         "verified": "self"

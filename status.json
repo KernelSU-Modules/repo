@@ -350,11 +350,11 @@
     "adbdisabler": {
       "contentCommit": "39bf202a7ebec6ac2bcb1663b12fa2f9f3f32d1f",
       "fullName": "Shuoh118/ADB-Disabler",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-22T11:27:42.708Z",
       "maxVersionCode": 10002,
-      "message": null,
+      "message": "content-invalid: module.yaml or a referenced file is invalid on branch \"main\" (manifest-schema)",
       "repositoryId": 1449393283,
       "request": null,
       "stable": {
@@ -832,11 +832,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "99126b895bfb8940647e6750683239ebf09192f0",
+      "contentCommit": "cf7df19fd5d0e7ecd1de847d0bca3f8c0d52ea61",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-22T06:44:16.569Z",
+      "lastSuccessAt": "2026-11-22T13:36:31.070Z",
       "maxVersionCode": 238,
       "message": null,
       "repositoryId": 1446403674,
@@ -1014,7 +1014,7 @@
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-22T06:45:29.747Z",
+      "lastSuccessAt": "2026-11-22T13:36:31.070Z",
       "maxVersionCode": 999,
       "message": null,
       "repositoryId": 1445526027,
