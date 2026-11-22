@@ -491,7 +491,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "f717b90c1b74878603d8607b29d4141b60c699a5",
+      "contentCommit": "bcafbb806c62bd78401298bab87f5874268ed204",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -500,8 +500,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-22T04:41:21.034Z",
-        "commit": "f717b90c1b74878603d8607b29d4141b60c699a5",
+        "checkedAt": "2026-11-22T06:44:16.569Z",
+        "commit": "bcafbb806c62bd78401298bab87f5874268ed204",
         "issues": [],
         "latestTag": "v0.3.0",
         "ok": true,
@@ -836,11 +836,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "711dc788369c162429ba64bca9b9afe222992ea9",
+      "contentCommit": "99126b895bfb8940647e6750683239ebf09192f0",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-21T16:44:47.155Z",
+      "lastSuccessAt": "2026-11-22T06:44:16.569Z",
       "maxVersionCode": 238,
       "message": null,
       "repositoryId": 1446403674,
@@ -1001,7 +1001,7 @@
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-21T09:51:10.774Z",
+      "lastSuccessAt": "2026-11-22T06:44:16.569Z",
       "maxVersionCode": 999,
       "message": null,
       "repositoryId": 1445526027,
