@@ -10873,8 +10873,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T11:54:20.889Z",
-        "lastSuccessAt": "2026-11-23T11:54:20.889Z",
+        "lastAttemptAt": "2026-11-23T11:56:25.298Z",
+        "lastSuccessAt": "2026-11-23T11:56:25.298Z",
         "message": null,
         "status": "ok"
       },
@@ -10893,7 +10893,7 @@
             "size": 2306088,
             "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.1/MirageForge-Zygisk-1.2.1.zip"
           },
-          "body": "# MirageForge 1.2.1\n\n## 新功能\n* 新增屏幕刷新率伪装\n* 新增在线机型模板仓库\n* 新增模板导入分享码\n* vfs节点伪装新增命名空间挂载方式\n## 修复\n* 修复部分情况下崩溃日之误报的问题\n* 修复Vulkan API没有Hook到的问题\n* 修复部分情况应用可能会闪退的问题\n## 改进\n* vfs与graphics两个源代码分成几个小hpp\n* WebUI设置语言更新为容易理解的白话文",
+          "body": "# MirageForge 1.2.1\r\n\r\n## 新功能\r\n* 新增屏幕刷新率伪装\r\n* 新增在线机型模板仓库\r\n* 新增模板导入分享码\r\n* vfs节点伪装新增命名空间挂载方式\r\n## 修复\r\n* 修复部分情况下崩溃日志误报的问题\r\n* 修复Vulkan API没有Hook到的问题\r\n* 修复部分情况应用可能会闪退的问题\r\n## 改进\r\n* vfs与graphics两个源代码分成几个小hpp\r\n* WebUI设置语言更新为容易理解的白话文",
           "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.1",
           "immutable": true,
           "name": "MirageForge 1.2.1",
@@ -11053,7 +11053,7 @@
           "size": 2306088,
           "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.1/MirageForge-Zygisk-1.2.1.zip"
         },
-        "body": "# MirageForge 1.2.1\n\n## 新功能\n* 新增屏幕刷新率伪装\n* 新增在线机型模板仓库\n* 新增模板导入分享码\n* vfs节点伪装新增命名空间挂载方式\n## 修复\n* 修复部分情况下崩溃日之误报的问题\n* 修复Vulkan API没有Hook到的问题\n* 修复部分情况应用可能会闪退的问题\n## 改进\n* vfs与graphics两个源代码分成几个小hpp\n* WebUI设置语言更新为容易理解的白话文",
+        "body": "# MirageForge 1.2.1\r\n\r\n## 新功能\r\n* 新增屏幕刷新率伪装\r\n* 新增在线机型模板仓库\r\n* 新增模板导入分享码\r\n* vfs节点伪装新增命名空间挂载方式\r\n## 修复\r\n* 修复部分情况下崩溃日志误报的问题\r\n* 修复Vulkan API没有Hook到的问题\r\n* 修复部分情况应用可能会闪退的问题\r\n## 改进\r\n* vfs与graphics两个源代码分成几个小hpp\r\n* WebUI设置语言更新为容易理解的白话文",
         "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.1",
         "immutable": true,
         "name": "MirageForge 1.2.1",
