@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "8cd5469964fab7f8f582eacf266ff6812ae82576",
+      "contentCommit": "1dfc7fce1191ccb3fe80050e53d4312a7a121437",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,12 +374,12 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-23T17:37:56.545Z",
-        "commit": "8cd5469964fab7f8f582eacf266ff6812ae82576",
+        "checkedAt": "2026-11-23T20:43:57.017Z",
+        "commit": "1dfc7fce1191ccb3fe80050e53d4312a7a121437",
         "issues": [],
-        "latestTag": "v0.1.1",
+        "latestTag": "v0.1.2",
         "ok": true,
-        "releaseId": 455769112,
+        "releaseId": 455974628,
         "repositoryId": 1468163221,
         "submissionId": "o935jsol3i"
       },
@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "55561ba09156246fb3e207fab931a0113b3fbfad",
+      "contentCommit": "bcd5b9a24425e6aceecd71f1cf0dd45268a62abb",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,8 +517,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-23T18:06:41.333Z",
-        "commit": "55561ba09156246fb3e207fab931a0113b3fbfad",
+        "checkedAt": "2026-11-23T20:43:57.017Z",
+        "commit": "bcd5b9a24425e6aceecd71f1cf0dd45268a62abb",
         "issues": [],
         "latestTag": "v0.4.2",
         "ok": true,
