@@ -10873,8 +10873,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T08:48:30.294Z",
-        "lastSuccessAt": "2026-11-23T08:48:30.294Z",
+        "lastAttemptAt": "2026-11-23T09:19:06.468Z",
+        "lastSuccessAt": "2026-11-23T09:19:06.468Z",
         "message": null,
         "status": "ok"
       },
@@ -10882,67 +10882,8 @@
       "installationId": 177437801,
       "maxStableVersionCode": 120,
       "maxVersionCode": 999,
-      "prerelease": {
-        "asset": {
-          "digest": "sha256:4b30ee7753c37bc98e35955e0eaa3cc32a2754b2692fcd1fc2f2da0215b3705b",
-          "id": 775108277,
-          "name": "MirageForge-Zygisk-1.3.0-Canary-ec5457e.zip",
-          "sha256": "4b30ee7753c37bc98e35955e0eaa3cc32a2754b2692fcd1fc2f2da0215b3705b",
-          "size": 2273783,
-          "url": "https://github.com/jjh138792/MirageForge/releases/download/1.3.0-Canary-ec5457e/MirageForge-Zygisk-1.3.0-Canary-ec5457e.zip"
-        },
-        "body": "### 🧪 MirageForge Canary Pre-Release (`1.3.0-Canary-ec5457e`)\n\n* **构建版本 (Version)**: `1.3.0-Canary-ec5457e`\n* **版本号 (versionCode)**: `999` *(锁定 999，屏蔽正式版更新推送)*\n* **触发提交 (Commit)**: `ec5457ed2b86a2de09aca24b471dcd1d2180a3a6`\n\n#### 📝 本次提交变更\n```text\nfix(core,cli,webui): 严格加固全模块 0 改动隔离并实现全信号真实死亡核验崩溃捕获\n\n- [Crash/Probe] 恢复 SIGSEGV/SIGABRT/SIGBUS/SIGILL/SIGFPE 全信号捕获，优先经由 libsigchain.so 排位在 ART 之后；引入 [PENDING_CRASH] 协议由 Root Companion 核验进程真实死亡 (EOF <= 8s) 后再落盘，彻底根治非致命信号误报\n- [Zero-Touch] 严格隔离 Build 与 GL：关闭 Build 时绝不 mmap 属性区或 Hook __system_property_*；关闭 GL 时绝不伪装 /sys/class/kgsl GPU 节点\n- [Zero-Touch] 移除 VFS 阶段多余的 dlopen(libmeminfo.so)；将 VERSION.CODENAME / PREVIEW_SDK_INT 与全分区 SDK/first_api_level 属性全部收归 sdkSpoof 开关管辖\n```\n",
-        "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.3.0-Canary-ec5457e",
-        "immutable": true,
-        "name": "MirageForge 1.3.0-Canary-ec5457e",
-        "prerelease": true,
-        "prop": {
-          "author": "jjh138792",
-          "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
-          "id": "mirage_forge",
-          "name": "蜃楼工坊 · MirageForge",
-          "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
-          "version": "1.3.0-Canary-ec5457e",
-          "versionCode": "999"
-        },
-        "publishedAt": "2026-11-21T09:49:24Z",
-        "releaseId": 453589126,
-        "tag": "1.3.0-Canary-ec5457e",
-        "tagCommit": "ec5457ed2b86a2de09aca24b471dcd1d2180a3a6",
-        "version": "1.3.0-Canary-ec5457e",
-        "versionCode": 999
-      },
+      "prerelease": null,
       "releases": [
-        {
-          "asset": {
-            "digest": "sha256:4b30ee7753c37bc98e35955e0eaa3cc32a2754b2692fcd1fc2f2da0215b3705b",
-            "id": 775108277,
-            "name": "MirageForge-Zygisk-1.3.0-Canary-ec5457e.zip",
-            "sha256": "4b30ee7753c37bc98e35955e0eaa3cc32a2754b2692fcd1fc2f2da0215b3705b",
-            "size": 2273783,
-            "url": "https://github.com/jjh138792/MirageForge/releases/download/1.3.0-Canary-ec5457e/MirageForge-Zygisk-1.3.0-Canary-ec5457e.zip"
-          },
-          "body": "### 🧪 MirageForge Canary Pre-Release (`1.3.0-Canary-ec5457e`)\n\n* **构建版本 (Version)**: `1.3.0-Canary-ec5457e`\n* **版本号 (versionCode)**: `999` *(锁定 999，屏蔽正式版更新推送)*\n* **触发提交 (Commit)**: `ec5457ed2b86a2de09aca24b471dcd1d2180a3a6`\n\n#### 📝 本次提交变更\n```text\nfix(core,cli,webui): 严格加固全模块 0 改动隔离并实现全信号真实死亡核验崩溃捕获\n\n- [Crash/Probe] 恢复 SIGSEGV/SIGABRT/SIGBUS/SIGILL/SIGFPE 全信号捕获，优先经由 libsigchain.so 排位在 ART 之后；引入 [PENDING_CRASH] 协议由 Root Companion 核验进程真实死亡 (EOF <= 8s) 后再落盘，彻底根治非致命信号误报\n- [Zero-Touch] 严格隔离 Build 与 GL：关闭 Build 时绝不 mmap 属性区或 Hook __system_property_*；关闭 GL 时绝不伪装 /sys/class/kgsl GPU 节点\n- [Zero-Touch] 移除 VFS 阶段多余的 dlopen(libmeminfo.so)；将 VERSION.CODENAME / PREVIEW_SDK_INT 与全分区 SDK/first_api_level 属性全部收归 sdkSpoof 开关管辖\n```\n",
-          "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.3.0-Canary-ec5457e",
-          "immutable": true,
-          "name": "MirageForge 1.3.0-Canary-ec5457e",
-          "prerelease": true,
-          "prop": {
-            "author": "jjh138792",
-            "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
-            "id": "mirage_forge",
-            "name": "蜃楼工坊 · MirageForge",
-            "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
-            "version": "1.3.0-Canary-ec5457e",
-            "versionCode": "999"
-          },
-          "publishedAt": "2026-11-21T09:49:24Z",
-          "releaseId": 453589126,
-          "tag": "1.3.0-Canary-ec5457e",
-          "tagCommit": "ec5457ed2b86a2de09aca24b471dcd1d2180a3a6",
-          "version": "1.3.0-Canary-ec5457e",
-          "versionCode": 999
-        },
         {
           "asset": {
             "digest": "sha256:60bcecf40881c74f3c35a10dbc6a9d8c64a87749ee8164af28f82264664e3e9e",
@@ -11041,15 +10982,15 @@
           "ok": true
         },
         "454257254": {
-          "checkedAt": "2026-11-23T08:48:30.294Z",
+          "checkedAt": "2026-11-23T09:19:06.468Z",
           "ok": true
         },
         "454472053": {
-          "checkedAt": "2026-11-23T08:48:30.294Z",
+          "checkedAt": "2026-11-23T09:19:06.468Z",
           "ok": true
         },
         "454859986": {
-          "checkedAt": "2026-11-23T08:48:30.294Z",
+          "checkedAt": "2026-11-23T09:19:06.468Z",
           "ok": true
         },
         "455168240": {
@@ -11057,6 +10998,10 @@
           "code": "version-not-newer",
           "message": "versionCode 999 was already accepted for this module (the release is gone); versionCodes cannot be reused. Use a versionCode above 999.",
           "ok": false
+        },
+        "455200359": {
+          "checkedAt": "2026-11-23T09:19:06.468Z",
+          "ok": true
         }
       },
       "stable": {
