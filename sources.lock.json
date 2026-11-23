@@ -689,8 +689,8 @@
         "versionCode": 2049
       },
       "stars": {
-        "count": 150,
-        "fetchedAt": "2026-11-22T13:36:31.070Z",
+        "count": 151,
+        "fetchedAt": "2026-11-23T23:06:35.934Z",
         "fullName": "Liliya2727/AZenith",
         "repositoryId": 937420284,
         "verified": "self"
@@ -822,8 +822,8 @@
         "versionCode": 9
       },
       "stars": {
-        "count": 16,
-        "fetchedAt": "2026-11-16T08:58:51.970Z",
+        "count": 17,
+        "fetchedAt": "2026-11-23T23:06:35.934Z",
         "fullName": "LeanxModulostk/Bye-Blur",
         "repositoryId": 744575047,
         "verified": "self"
@@ -5500,8 +5500,8 @@
         "versionCode": 28
       },
       "stars": {
-        "count": 106,
-        "fetchedAt": "2026-11-17T18:27:57.012Z",
+        "count": 107,
+        "fetchedAt": "2026-11-23T23:06:35.934Z",
         "fullName": "Dr-TSNG/altdb",
         "repositoryId": 1368146952,
         "verified": "self"
@@ -10873,8 +10873,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T12:10:43.883Z",
-        "lastSuccessAt": "2026-11-23T12:10:43.883Z",
+        "lastAttemptAt": "2026-11-23T23:06:35.934Z",
+        "lastSuccessAt": "2026-11-23T23:06:35.934Z",
         "message": null,
         "status": "ok"
       },
@@ -10893,7 +10893,7 @@
             "size": 2306088,
             "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.1/MirageForge-Zygisk-1.2.1.zip"
           },
-          "body": "# MirageForge 1.2.1\r\n\r\n## 新功能\r\n* 新增屏幕刷新率伪装\r\n* 新增在线机型模板仓库\r\n* 新增模板导入分享码\r\n* vfs节点伪装新增命名空间挂载方式\r\n## 修复\r\n* 修复部分情况下崩溃日志误报的问题\r\n* 修复Vulkan API没有Hook到的问题\r\n* 修复部分情况应用可能会闪退的问题\r\n## 改进\r\n* vfs与graphics两个源代码分成几个小hpp\r\n* WebUI设置语言更新为容易理解的白话文",
+          "body": "# MirageForge 1.2.1\r\n\r\n## 新功能\r\n* 新增屏幕刷新率伪装\r\n* 新增在线机型模板仓库\r\n* 新增模板导入分享码\r\n* vfs节点伪装新增命名空间挂载方式\r\n## 修复\r\n* 修复部分情况下崩溃日志误报的问题\r\n* 修复Vulkan API没有Hook到的问题\r\n* 修复部分情况应用可能会闪退的问题\r\n## 改进\r\n* vfs与graphics两个源代码分成几个小hpp\r\n* WebUI设置语言更新为容易理解的白话文\r\n* 移除dpi伪装（因为根本就没有伪装成功）",
           "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.1",
           "immutable": true,
           "name": "MirageForge 1.2.1",
@@ -11059,7 +11059,7 @@
           "size": 2306088,
           "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.1/MirageForge-Zygisk-1.2.1.zip"
         },
-        "body": "# MirageForge 1.2.1\r\n\r\n## 新功能\r\n* 新增屏幕刷新率伪装\r\n* 新增在线机型模板仓库\r\n* 新增模板导入分享码\r\n* vfs节点伪装新增命名空间挂载方式\r\n## 修复\r\n* 修复部分情况下崩溃日志误报的问题\r\n* 修复Vulkan API没有Hook到的问题\r\n* 修复部分情况应用可能会闪退的问题\r\n## 改进\r\n* vfs与graphics两个源代码分成几个小hpp\r\n* WebUI设置语言更新为容易理解的白话文",
+        "body": "# MirageForge 1.2.1\r\n\r\n## 新功能\r\n* 新增屏幕刷新率伪装\r\n* 新增在线机型模板仓库\r\n* 新增模板导入分享码\r\n* vfs节点伪装新增命名空间挂载方式\r\n## 修复\r\n* 修复部分情况下崩溃日志误报的问题\r\n* 修复Vulkan API没有Hook到的问题\r\n* 修复部分情况应用可能会闪退的问题\r\n## 改进\r\n* vfs与graphics两个源代码分成几个小hpp\r\n* WebUI设置语言更新为容易理解的白话文\r\n* 移除dpi伪装（因为根本就没有伪装成功）",
         "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.1",
         "immutable": true,
         "name": "MirageForge 1.2.1",
@@ -13487,8 +13487,8 @@
         "versionCode": 36
       },
       "stars": {
-        "count": 46,
-        "fetchedAt": "2026-11-21T16:44:47.155Z",
+        "count": 47,
+        "fetchedAt": "2026-11-23T23:06:35.934Z",
         "fullName": "mzggr0914/sidewire",
         "repositoryId": 1354975640,
         "verified": "self"
@@ -14144,8 +14144,8 @@
         "versionCode": 102
       },
       "stars": {
-        "count": 64,
-        "fetchedAt": "2026-11-20T11:51:26.935Z",
+        "count": 65,
+        "fetchedAt": "2026-11-23T23:06:35.934Z",
         "fullName": "FLYCOM-E/ClearBox",
         "repositoryId": 983784625,
         "verified": "self"
