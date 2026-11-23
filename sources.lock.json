@@ -1956,8 +1956,8 @@
         "versionCode": 50107
       },
       "stars": {
-        "count": 65,
-        "fetchedAt": "2026-11-22T17:29:05.659Z",
+        "count": 66,
+        "fetchedAt": "2026-11-23T17:31:52.806Z",
         "fullName": "Eikeitsu/CertBridge",
         "repositoryId": 1306329220,
         "verified": "self"
@@ -3496,8 +3496,8 @@
         "versionCode": 10621
       },
       "stars": {
-        "count": 235,
-        "fetchedAt": "2026-11-22T17:29:05.659Z",
+        "count": 236,
+        "fetchedAt": "2026-11-23T17:31:52.806Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -6773,8 +6773,8 @@
         "versionCode": 20261109
       },
       "stars": {
-        "count": 918,
-        "fetchedAt": "2026-11-22T17:29:05.659Z",
+        "count": 921,
+        "fetchedAt": "2026-11-23T17:31:52.806Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -8736,9 +8736,9 @@
           "README.md": "561ab7764ba772754b07ed383d717fb760085eca",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
-          "docs/badges/downloads.svg": "5b3f3e9873650cb77e67a99c63a49e08814f0aeb",
+          "docs/badges/downloads.svg": "46368826dc052d981a7c5ef2245e280dff7803f3",
           "docs/badges/release.svg": "990c1f475210976a69f415da792a3cee2831ac2f",
-          "docs/badges/stars.svg": "eb970ee52940a311a376daebb62457762594c9cd",
+          "docs/badges/stars.svg": "99f36d9d48607e8bb798543994a9e844ad4ea0ae",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
           "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
           "docs/screenshots/app-cache.png": "6c9a644eb5fc9aa8d61036867b504362d1962218",
@@ -8758,15 +8758,15 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "22a127d0e90f7089e0654e3aee754808f327b93a",
-        "fetchedAt": "2026-11-22T20:25:35.712Z",
+        "commit": "ed90b4461d2b1349398561f5793fb7cf3c338f6b",
+        "fetchedAt": "2026-11-23T17:31:52.806Z",
         "files": {
           "README.md": "29ef6a405aeec3263e68343d11347871e730c3bc8ececab413656614c7458706",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
-          "docs/badges/downloads.svg": "1f49b002a57b99af471514c4747e11010d5e16fc19a68628dc37f853d5cbed1f",
+          "docs/badges/downloads.svg": "542972cac7715dbc31ba25866476832fe8f36648b51fe4517db767d1e1cf23af",
           "docs/badges/release.svg": "ad1c45fcbb76589bc8e54901524cddd87281c26eea8e99f139fcd855940bb6b6",
-          "docs/badges/stars.svg": "c56c2880606acd157d405855d2d30fadf229c8680056d1c58befa70c721fc520",
+          "docs/badges/stars.svg": "fb86701c457890eb6e41473302172752287f25ca1853f67e1ae923246acefd5b",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
           "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
           "docs/screenshots/app-cache.png": "74ec72f4f19a4a5f6ed51c1e1f8e18f2f196a7b14950fe0124db778644838d43",
@@ -8792,8 +8792,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T20:25:35.712Z",
-        "lastSuccessAt": "2026-11-22T20:25:35.712Z",
+        "lastAttemptAt": "2026-11-23T17:31:52.806Z",
+        "lastSuccessAt": "2026-11-23T17:31:52.806Z",
         "message": null,
         "status": "ok"
       },
@@ -9251,8 +9251,8 @@
         "versionCode": 240
       },
       "stars": {
-        "count": 31,
-        "fetchedAt": "2026-11-22T13:36:31.070Z",
+        "count": 33,
+        "fetchedAt": "2026-11-23T17:31:52.806Z",
         "fullName": "yudharn/HyperCool",
         "repositoryId": 1446403674,
         "verified": "self"
@@ -10158,8 +10158,8 @@
         "versionCode": 401012
       },
       "stars": {
-        "count": 628,
-        "fetchedAt": "2026-11-22T13:36:31.070Z",
+        "count": 630,
+        "fetchedAt": "2026-11-23T17:31:52.806Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
@@ -11081,8 +11081,8 @@
         "versionCode": 1210
       },
       "stars": {
-        "count": 5,
-        "fetchedAt": "2026-11-19T11:42:47.819Z",
+        "count": 6,
+        "fetchedAt": "2026-11-23T17:31:52.806Z",
         "fullName": "jjh138792/MirageForge",
         "repositoryId": 1445526027,
         "verified": "self"
@@ -11920,8 +11920,8 @@
         "versionCode": 785
       },
       "stars": {
-        "count": 725,
-        "fetchedAt": "2026-11-22T13:36:31.070Z",
+        "count": 731,
+        "fetchedAt": "2026-11-23T17:31:52.806Z",
         "fullName": "maxsteeel/nomount",
         "repositoryId": 1128821046,
         "verified": "self"
@@ -12190,17 +12190,47 @@
       "fullName": "706412584/ColorOS-thermal",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T07:33:28.737Z",
-        "lastSuccessAt": "2026-11-16T07:33:28.737Z",
+        "lastAttemptAt": "2026-11-23T17:31:52.806Z",
+        "lastSuccessAt": "2026-11-23T17:31:52.806Z",
         "message": null,
         "status": "ok"
       },
       "id": "oplus-cloud-block",
       "installationId": 178620842,
-      "maxStableVersionCode": 185,
-      "maxVersionCode": 185,
+      "maxStableVersionCode": 186,
+      "maxVersionCode": 186,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:dccd365b08d9581a2c6d0ee86dbae562240f712e6aafde7c066de6d02307ce6f",
+            "id": 783886098,
+            "name": "oplus-cloud-block-v01.7.75.zip",
+            "sha256": "dccd365b08d9581a2c6d0ee86dbae562240f712e6aafde7c066de6d02307ce6f",
+            "size": 153928,
+            "url": "https://github.com/706412584/ColorOS-thermal/releases/download/v01.7.75/oplus-cloud-block-v01.7.75.zip"
+          },
+          "body": "游戏热预算（大核稳健档+防掉帧变暗）默认开启；修复智能日常档位从未生效；新增脚本进程清理；温控面板改版\n\n见 CHANGELOG.md",
+          "htmlUrl": "https://github.com/706412584/ColorOS-thermal/releases/tag/v01.7.75",
+          "immutable": true,
+          "name": "ColorOS 温控与云控 v01.7.75",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@谋事在人成事在天",
+            "description": "ColorOS/一加系列通用工具：①解除出厂 CPU 频率上限（高通机型大核 58%→100%，两层天花板；天玑机型解除被厂商钉死的频率，均带温度保护与一键还原）②拦截 OTA/系统静默更新/云控（云控按组件拦截，不影响账号登录与游戏联运）③内存/CPU 面板与一键清理 ④云控残留清理（可回滚）⑤游戏记录（每局帧率/1% Low/CPU·GPU 频率/温度/耗电）⑥可选智能调和与显式规则线程 affinity（默认关闭，收益需实测）。点开 WebUI 使用，重启后自动重新生效。",
+            "id": "oplus-cloud-block",
+            "name": "ColorOS 温控与云控",
+            "updateJson": "https://gitee.com/wu-yongchengsvip/oplus-thermal/raw/master/update.json",
+            "version": "01.7.75",
+            "versionCode": "186"
+          },
+          "publishedAt": "2026-11-23T17:31:10Z",
+          "releaseId": 455762007,
+          "tag": "v01.7.75",
+          "tagCommit": "8c07d48841fb0d45319f2d6da8f79c5d4c975f8e",
+          "version": "01.7.75",
+          "versionCode": 186
+        },
         {
           "asset": {
             "digest": "sha256:f8d8095cd8d37dfb3b54ae3ad8eb77605db6871496a65e64fb4940aac68e3c92",
@@ -12289,21 +12319,25 @@
         "446725386": {
           "checkedAt": "2026-11-16T07:33:28.737Z",
           "ok": true
+        },
+        "455762007": {
+          "checkedAt": "2026-11-23T17:31:52.806Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:f8d8095cd8d37dfb3b54ae3ad8eb77605db6871496a65e64fb4940aac68e3c92",
-          "id": 753913352,
-          "name": "oplus-cloud-block-v01.7.74.zip",
-          "sha256": "f8d8095cd8d37dfb3b54ae3ad8eb77605db6871496a65e64fb4940aac68e3c92",
-          "size": 138225,
-          "url": "https://github.com/706412584/ColorOS-thermal/releases/download/v01.7.74/oplus-cloud-block-v01.7.74.zip"
+          "digest": "sha256:dccd365b08d9581a2c6d0ee86dbae562240f712e6aafde7c066de6d02307ce6f",
+          "id": 783886098,
+          "name": "oplus-cloud-block-v01.7.75.zip",
+          "sha256": "dccd365b08d9581a2c6d0ee86dbae562240f712e6aafde7c066de6d02307ce6f",
+          "size": 153928,
+          "url": "https://github.com/706412584/ColorOS-thermal/releases/download/v01.7.75/oplus-cloud-block-v01.7.75.zip"
         },
-        "body": "中大核限频提示、面板自动刷新与无 WebUI 数字菜单\n\n见 CHANGELOG.md",
-        "htmlUrl": "https://github.com/706412584/ColorOS-thermal/releases/tag/v01.7.74",
+        "body": "游戏热预算（大核稳健档+防掉帧变暗）默认开启；修复智能日常档位从未生效；新增脚本进程清理；温控面板改版\n\n见 CHANGELOG.md",
+        "htmlUrl": "https://github.com/706412584/ColorOS-thermal/releases/tag/v01.7.75",
         "immutable": true,
-        "name": "ColorOS 温控与云控 v01.7.74",
+        "name": "ColorOS 温控与云控 v01.7.75",
         "prerelease": false,
         "prop": {
           "author": "酷安@谋事在人成事在天",
@@ -12311,15 +12345,15 @@
           "id": "oplus-cloud-block",
           "name": "ColorOS 温控与云控",
           "updateJson": "https://gitee.com/wu-yongchengsvip/oplus-thermal/raw/master/update.json",
-          "version": "01.7.74",
-          "versionCode": "185"
+          "version": "01.7.75",
+          "versionCode": "186"
         },
-        "publishedAt": "2026-11-16T07:33:08Z",
-        "releaseId": 446725386,
-        "tag": "v01.7.74",
-        "tagCommit": "c2021e5fb923b78cc6e32aba8f275224f14430ef",
-        "version": "01.7.74",
-        "versionCode": 185
+        "publishedAt": "2026-11-23T17:31:10Z",
+        "releaseId": 455762007,
+        "tag": "v01.7.75",
+        "tagCommit": "8c07d48841fb0d45319f2d6da8f79c5d4c975f8e",
+        "version": "01.7.75",
+        "versionCode": 186
       },
       "stars": {
         "count": 4,
@@ -16293,8 +16327,8 @@
         "versionCode": 432
       },
       "stars": {
-        "count": 119,
-        "fetchedAt": "2026-11-22T10:58:49.895Z",
+        "count": 120,
+        "fetchedAt": "2026-11-23T17:31:52.806Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"

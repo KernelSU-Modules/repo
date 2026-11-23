@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "73ede7db85ae6220a20071a12c17a955d80d49d9",
+      "contentCommit": "8cd5469964fab7f8f582eacf266ff6812ae82576",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-23T07:49:51.803Z",
-        "commit": "73ede7db85ae6220a20071a12c17a955d80d49d9",
+        "checkedAt": "2026-11-23T17:31:52.806Z",
+        "commit": "8cd5469964fab7f8f582eacf266ff6812ae82576",
         "issues": [],
         "latestTag": "v0.1.0",
         "ok": true,
@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "cd10f0aced4d3f0e6bab21f566541de10a1ec92b",
+      "contentCommit": "51b69704e7cb1b05df49c23b21a449974cfe239a",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,8 +517,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-23T07:23:44.320Z",
-        "commit": "cd10f0aced4d3f0e6bab21f566541de10a1ec92b",
+        "checkedAt": "2026-11-23T17:31:52.806Z",
+        "commit": "51b69704e7cb1b05df49c23b21a449974cfe239a",
         "issues": [],
         "latestTag": "v0.4.1",
         "ok": true,
@@ -853,11 +853,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "22a127d0e90f7089e0654e3aee754808f327b93a",
+      "contentCommit": "ed90b4461d2b1349398561f5793fb7cf3c338f6b",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-22T20:25:35.712Z",
+      "lastSuccessAt": "2026-11-23T17:31:52.806Z",
       "maxVersionCode": 240,
       "message": null,
       "repositoryId": 1446403674,
@@ -1141,16 +1141,16 @@
       "fullName": "706412584/ColorOS-thermal",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T07:33:28.737Z",
-      "maxVersionCode": 185,
+      "lastSuccessAt": "2026-11-23T17:31:52.806Z",
+      "maxVersionCode": 186,
       "message": null,
       "repositoryId": 1445900163,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-16T07:33:08Z",
-        "tag": "v01.7.74",
-        "version": "01.7.74",
-        "versionCode": 185
+        "publishedAt": "2026-11-23T17:31:10Z",
+        "tag": "v01.7.75",
+        "version": "01.7.75",
+        "versionCode": 186
       }
     },
     "playintegrityfix": {
