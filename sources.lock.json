@@ -400,8 +400,8 @@
         "versionCode": 13501
       },
       "stars": {
-        "count": 3,
-        "fetchedAt": "2026-11-20T06:48:10.543Z",
+        "count": 4,
+        "fetchedAt": "2026-11-23T11:33:36.483Z",
         "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
         "repositoryId": 1428389721,
         "verified": "self"
@@ -1681,14 +1681,14 @@
     "CertBridge": {
       "content": {
         "blobs": {
-          "README.zh-CN.md": "b4fe13a841e0ea9d0a08362ab0114d01193bd1f0",
+          "README.zh-CN.md": "aa5ec12fcf24cc5046973423bd7b4c7d757bfb55",
           "module.yaml": "68025c6143ce7a5f3f12a68507b46852a50a3f8a",
           "module/icon.png": "fc563aa2474302367cb14d32a5f2fa9092167925"
         },
-        "commit": "5487b58937039a8e9910525b397188222d8acdb0",
-        "fetchedAt": "2026-10-11T17:51:03.255Z",
+        "commit": "358929bdba0011e0d5eaf0dd62c16aad44a5eb37",
+        "fetchedAt": "2026-11-23T11:33:36.483Z",
         "files": {
-          "README.zh-CN.md": "ba28c2b2bfce3a7d7eac8f65316545106175851617a9bb37df9afde5c0243701",
+          "README.zh-CN.md": "83163ae3fc103a056e95cbb08c18b5a8af51ef79196f4d79c58cf77dd6ae7c07",
           "module.yaml": "e70e0ba0a5d18b7beb59b9290a9b464f27b9c5c7d0a8ac287e180388ee126fc0",
           "module/icon.png": "2ed88922ec2dff12ce35d4270040f728cc779af18338c3fe739ece71dd4ccad5"
         },
@@ -1698,8 +1698,8 @@
       "fullName": "Eikeitsu/CertBridge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-11T17:51:03.255Z",
-        "lastSuccessAt": "2026-10-11T17:51:03.255Z",
+        "lastAttemptAt": "2026-11-23T11:33:36.483Z",
+        "lastSuccessAt": "2026-11-23T11:33:36.483Z",
         "message": null,
         "status": "ok"
       },
@@ -7373,8 +7373,8 @@
         "versionCode": 155
       },
       "stars": {
-        "count": 480,
-        "fetchedAt": "2026-11-22T10:58:49.895Z",
+        "count": 484,
+        "fetchedAt": "2026-11-23T11:33:36.483Z",
         "fullName": "eltavine/Duck-ToolBox",
         "repositoryId": 1196357682,
         "verified": "self"
@@ -8723,8 +8723,8 @@
         "versionCode": 602006999
       },
       "stars": {
-        "count": 1859,
-        "fetchedAt": "2026-11-22T03:18:15.733Z",
+        "count": 1860,
+        "fetchedAt": "2026-11-23T11:33:36.483Z",
         "fullName": "Hybrid-Mount/meta-hybrid_mount",
         "repositoryId": 1103029590,
         "verified": "self"
@@ -10873,8 +10873,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T09:20:29.065Z",
-        "lastSuccessAt": "2026-11-23T09:20:29.065Z",
+        "lastAttemptAt": "2026-11-23T11:33:36.483Z",
+        "lastSuccessAt": "2026-11-23T11:33:36.483Z",
         "message": null,
         "status": "ok"
       },
@@ -10882,67 +10882,8 @@
       "installationId": 177437801,
       "maxStableVersionCode": 120,
       "maxVersionCode": 999,
-      "prerelease": {
-        "asset": {
-          "digest": "sha256:574ae5b83b9ad762e27590115ef9328bd6db51c7c22d990a1f357726e8921cfb",
-          "id": 778155724,
-          "name": "MirageForge-Zygisk-1.3.0-Canary-dbc4411.zip",
-          "sha256": "574ae5b83b9ad762e27590115ef9328bd6db51c7c22d990a1f357726e8921cfb",
-          "size": 2301717,
-          "url": "https://github.com/jjh138792/MirageForge/releases/download/1.3.0-Canary-dbc4411/MirageForge-Zygisk-1.3.0-Canary-dbc4411.zip"
-        },
-        "body": "### 🧪 MirageForge Canary Pre-Release (`1.3.0-Canary-dbc4411`)\n\n* **构建版本 (Version)**: `1.3.0-Canary-dbc4411`\n* **版本号 (versionCode)**: `999` *(锁定 999，屏蔽正式版更新推送)*\n* **触发提交 (Commit)**: `dbc441126ecd44f215e133b610d029b3b2c59ecd`\n\n#### 📝 本次提交变更\n```text\nfeat(vfs,seccomp): 引入私有 Mount NS 内核级 VFS 与 SECCOMP_RET_USER_NOTIF 进程外仲裁器\n\n- [VFS/MountNS] 新增 vfs/mount_ns_engine.hpp，由 Root Companion 经单线程 fork+setns 切入目标应用专属 Mount NS，通过 MS_PRIVATE 隔离与匿名 tmpfs (system_file) 静默只读 Bind-Mount 硬件节点并 MNT_DETACH 拆卸，0 延迟且零 memfd 痕迹\n- [Seccomp/UNotif] 彻底废弃进程内 SIGSYS 与 pipe2 管道，重写 vfs/seccomp_svc.hpp 为 SECCOMP_RET_USER_NOTIF + SCM_RIGHTS 移交 Root 仲裁线程 (process_vm_writev)，仅拦截非 libc 裸 uname/sysinfo，彻底消除 SigCgt 暴露与启动拖慢\n- [Stealth] 豁免 libpairipcore.so 自身 GOT/PLT 改写，避免触发 PairIP 完整性校验自毁；在 proc_cloak.hpp 同步清洗 mountinfo 中的匿名 tmpfs 绑定项\n```\n",
-        "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.3.0-Canary-dbc4411",
-        "immutable": true,
-        "name": "MirageForge 1.3.0-Canary-dbc4411",
-        "prerelease": true,
-        "prop": {
-          "author": "jjh138792",
-          "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
-          "id": "mirage_forge",
-          "name": "蜃楼工坊 · MirageForge",
-          "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
-          "version": "1.3.0-Canary-dbc4411",
-          "versionCode": "999"
-        },
-        "publishedAt": "2026-11-22T06:43:55Z",
-        "releaseId": 454257254,
-        "tag": "1.3.0-Canary-dbc4411",
-        "tagCommit": "dbc441126ecd44f215e133b610d029b3b2c59ecd",
-        "version": "1.3.0-Canary-dbc4411",
-        "versionCode": 999
-      },
+      "prerelease": null,
       "releases": [
-        {
-          "asset": {
-            "digest": "sha256:574ae5b83b9ad762e27590115ef9328bd6db51c7c22d990a1f357726e8921cfb",
-            "id": 778155724,
-            "name": "MirageForge-Zygisk-1.3.0-Canary-dbc4411.zip",
-            "sha256": "574ae5b83b9ad762e27590115ef9328bd6db51c7c22d990a1f357726e8921cfb",
-            "size": 2301717,
-            "url": "https://github.com/jjh138792/MirageForge/releases/download/1.3.0-Canary-dbc4411/MirageForge-Zygisk-1.3.0-Canary-dbc4411.zip"
-          },
-          "body": "### 🧪 MirageForge Canary Pre-Release (`1.3.0-Canary-dbc4411`)\n\n* **构建版本 (Version)**: `1.3.0-Canary-dbc4411`\n* **版本号 (versionCode)**: `999` *(锁定 999，屏蔽正式版更新推送)*\n* **触发提交 (Commit)**: `dbc441126ecd44f215e133b610d029b3b2c59ecd`\n\n#### 📝 本次提交变更\n```text\nfeat(vfs,seccomp): 引入私有 Mount NS 内核级 VFS 与 SECCOMP_RET_USER_NOTIF 进程外仲裁器\n\n- [VFS/MountNS] 新增 vfs/mount_ns_engine.hpp，由 Root Companion 经单线程 fork+setns 切入目标应用专属 Mount NS，通过 MS_PRIVATE 隔离与匿名 tmpfs (system_file) 静默只读 Bind-Mount 硬件节点并 MNT_DETACH 拆卸，0 延迟且零 memfd 痕迹\n- [Seccomp/UNotif] 彻底废弃进程内 SIGSYS 与 pipe2 管道，重写 vfs/seccomp_svc.hpp 为 SECCOMP_RET_USER_NOTIF + SCM_RIGHTS 移交 Root 仲裁线程 (process_vm_writev)，仅拦截非 libc 裸 uname/sysinfo，彻底消除 SigCgt 暴露与启动拖慢\n- [Stealth] 豁免 libpairipcore.so 自身 GOT/PLT 改写，避免触发 PairIP 完整性校验自毁；在 proc_cloak.hpp 同步清洗 mountinfo 中的匿名 tmpfs 绑定项\n```\n",
-          "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.3.0-Canary-dbc4411",
-          "immutable": true,
-          "name": "MirageForge 1.3.0-Canary-dbc4411",
-          "prerelease": true,
-          "prop": {
-            "author": "jjh138792",
-            "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
-            "id": "mirage_forge",
-            "name": "蜃楼工坊 · MirageForge",
-            "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
-            "version": "1.3.0-Canary-dbc4411",
-            "versionCode": "999"
-          },
-          "publishedAt": "2026-11-22T06:43:55Z",
-          "releaseId": 454257254,
-          "tag": "1.3.0-Canary-dbc4411",
-          "tagCommit": "dbc441126ecd44f215e133b610d029b3b2c59ecd",
-          "version": "1.3.0-Canary-dbc4411",
-          "versionCode": 999
-        },
         {
           "asset": {
             "digest": "sha256:60bcecf40881c74f3c35a10dbc6a9d8c64a87749ee8164af28f82264664e3e9e",

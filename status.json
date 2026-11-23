@@ -103,11 +103,11 @@
       }
     },
     "CertBridge": {
-      "contentCommit": "5487b58937039a8e9910525b397188222d8acdb0",
+      "contentCommit": "358929bdba0011e0d5eaf0dd62c16aad44a5eb37",
       "fullName": "Eikeitsu/CertBridge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-11T17:51:03.255Z",
+      "lastSuccessAt": "2026-11-23T11:33:36.483Z",
       "maxVersionCode": 50107,
       "message": null,
       "repositoryId": 1306329220,
@@ -1035,7 +1035,7 @@
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-23T09:20:29.065Z",
+      "lastSuccessAt": "2026-11-23T11:33:36.483Z",
       "maxVersionCode": 999,
       "message": null,
       "repositoryId": 1445526027,
