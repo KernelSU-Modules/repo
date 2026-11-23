@@ -6174,10 +6174,10 @@
       "fullName": "klmmlk/KernelSU-ClipShield",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T11:57:40.679Z",
-        "lastSuccessAt": "2026-10-14T02:23:36.998Z",
-        "message": "github-unavailable: temporary GitHub error while reading the repository; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-23T12:10:43.883Z",
+        "lastSuccessAt": "2026-11-23T12:10:43.883Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "clipshield",
       "installationId": 171057853,
@@ -10873,8 +10873,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T11:56:25.298Z",
-        "lastSuccessAt": "2026-11-23T11:56:25.298Z",
+        "lastAttemptAt": "2026-11-23T12:10:43.883Z",
+        "lastSuccessAt": "2026-11-23T12:10:43.883Z",
         "message": null,
         "status": "ok"
       },
@@ -11042,6 +11042,12 @@
         "455355982": {
           "checkedAt": "2026-11-23T11:54:20.889Z",
           "ok": true
+        },
+        "455375104": {
+          "checkedAt": "2026-11-23T12:10:43.883Z",
+          "code": "version-not-newer",
+          "message": "versionCode 1210 is already used by the release 1.2.1. Publish a new release with a versionCode above 1210.",
+          "ok": false
         }
       },
       "stable": {
