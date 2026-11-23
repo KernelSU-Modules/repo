@@ -15185,17 +15185,47 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T08:31:10.014Z",
-        "lastSuccessAt": "2026-11-23T08:31:10.014Z",
+        "lastAttemptAt": "2026-11-23T09:10:04.002Z",
+        "lastSuccessAt": "2026-11-23T09:10:04.002Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk_fusehide",
       "installationId": 170178853,
-      "maxStableVersionCode": 220,
-      "maxVersionCode": 220,
+      "maxStableVersionCode": 221,
+      "maxVersionCode": 221,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:4bd187db213e059cc068a5aaa49ac8482bf29c4df4e43a64645188776af7cc88",
+            "id": 782270073,
+            "name": "FuseHide-1.221_221-caffd6f-release.zip",
+            "sha256": "4bd187db213e059cc068a5aaa49ac8482bf29c4df4e43a64645188776af7cc88",
+            "size": 7948826,
+            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v221-caffd6f/FuseHide-1.221_221-caffd6f-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.221`\n- **VersionCode:** `221`\n- **Commit:** [`caffd6f`](https://github.com/XiaoTong6666/FuseHide/commit/caffd6fe4f4e82be2f322929fa6f7da274164e90)\n- **Build time:** `6m 09s`\n- **SHA256:** `4bd187db213e059cc068a5aaa49ac8482bf29c4df4e43a64645188776af7cc88`\n\n## Message\n\n```text\nfix(icon): preserve adaptive splash icon masking, Meow\n\n让启动画面直接使用现有的 AdaptiveIconDrawable，自适应系统的圆形与圆角方形遮罩，避免把完整方形矢量图当作启动图标而造成边缘裁切喵\n\n将启动图标的额外背景设为透明，避免系统背景层覆盖自适应图标自身的圆角，同时保持日间与夜间主题行为一致，不影响桌面图标和原有矢量资源（轻轻收好爪子）喵\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v221-caffd6f",
+          "immutable": true,
+          "name": "1.221",
+          "prerelease": false,
+          "prop": {
+            "author": "XiaoTong",
+            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+            "id": "zygisk_fusehide",
+            "name": "Zygisk - FuseHide",
+            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+            "version": "1.221 (221-caffd6f-release)",
+            "versionCode": "221"
+          },
+          "publishedAt": "2026-11-23T09:09:36Z",
+          "releaseId": 455190975,
+          "tag": "v221-caffd6f",
+          "tagCommit": "a04b38b03e2a2f807c87c0bcd1eca1207be0ba0f",
+          "version": "1.221 (221-caffd6f-release)",
+          "versionCode": 221
+        },
         {
           "asset": {
             "digest": "sha256:e5bbf0385fb6dee69e7ffc50e1a00dfdd637ac44d21a5311ca935da982e69983",
@@ -15465,36 +15495,6 @@
           "tagCommit": "378c6d1d41e0f5449d2a0e9778928b81083dbd63",
           "version": "1.212 (212-c3020ab-release)",
           "versionCode": 212
-        },
-        {
-          "asset": {
-            "digest": "sha256:bf2ea09bc703c485891135228c156654b05071acc782cd5bf291d8cb74cc86aa",
-            "id": 759525229,
-            "name": "FuseHide-1.208_208-0379a9c-release.zip",
-            "sha256": "bf2ea09bc703c485891135228c156654b05071acc782cd5bf291d8cb74cc86aa",
-            "size": 7759570,
-            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v208-0379a9c/FuseHide-1.208_208-0379a9c-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.208`\n- **VersionCode:** `208`\n- **Commit:** [`0379a9c`](https://github.com/XiaoTong6666/FuseHide/commit/0379a9c09fce633c7c57e641613fe92beb6ec906)\n- **Build time:** `6m 59s`\n- **SHA256:** `bf2ea09bc703c485891135228c156654b05071acc782cd5bf291d8cb74cc86aa`\n\n## Message\n\n```text\nfix(native): stabilize FUSE inode lifecycle and rename tracking, Meow\n\nMediaProvider 的 FUSE inode 实际使用 node* 指针作为身份，节点销毁后地址复用可能让新目录继承旧路径和隐藏标记喵\n为 pf_forget、pf_forget_multi 与 NodeTracker::NodeDeleted 接入精确符号 Hook，把真正的跟踪状态回收放在节点销毁时，避免部分 forget 提前清掉仍存活的 inode 喵（认真守着节点的生命周期）\n\n让可信的 lstat、readdir 和成功 lookup 及时纠正 inode 路径，并在返回 ENOENT 前重新验证历史隐藏标记，避免可见目录误继承旧的隐藏状态喵（伸爪把过期记录拨开）\n\n普通 rename 成功后先迁移存活 inode 的路径与隐藏状态，再向内核发送成功回复，同时清理被覆盖的目标记录喵\n将 UID 规则解析移到 Session 锁外，重新加锁后检查规则快照与路径版本，无法确认身份时保守清理，不擅自迁移旧标记喵（竖起耳朵盯紧并发变化）\n\n为路径子树和近期父目录建立有序索引，只遍历实际受影响的 inode 与 UID，并统一节点退休时的清理逻辑，减少全表扫描和重复处理喵（满意地晃晃尾巴）\n\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v208-0379a9c",
-          "immutable": true,
-          "name": "1.208",
-          "prerelease": false,
-          "prop": {
-            "author": "XiaoTong",
-            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
-            "id": "zygisk_fusehide",
-            "name": "Zygisk - FuseHide",
-            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-            "version": "1.208 (208-0379a9c-release)",
-            "versionCode": "208"
-          },
-          "publishedAt": "2026-11-17T15:11:29Z",
-          "releaseId": 448800964,
-          "tag": "v208-0379a9c",
-          "tagCommit": "73a32dcf2eb03377ec0970e2cebd8e02dad2d6db",
-          "version": "1.208 (208-0379a9c-release)",
-          "versionCode": 208
         }
       ],
       "repositoryId": 1417162951,
@@ -15612,21 +15612,25 @@
         "455155021": {
           "checkedAt": "2026-11-23T08:31:10.014Z",
           "ok": true
+        },
+        "455190975": {
+          "checkedAt": "2026-11-23T09:10:04.002Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:e5bbf0385fb6dee69e7ffc50e1a00dfdd637ac44d21a5311ca935da982e69983",
-          "id": 782154816,
-          "name": "FuseHide-1.220_220-0976471-release.zip",
-          "sha256": "e5bbf0385fb6dee69e7ffc50e1a00dfdd637ac44d21a5311ca935da982e69983",
-          "size": 7952978,
-          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v220-0976471/FuseHide-1.220_220-0976471-release.zip"
+          "digest": "sha256:4bd187db213e059cc068a5aaa49ac8482bf29c4df4e43a64645188776af7cc88",
+          "id": 782270073,
+          "name": "FuseHide-1.221_221-caffd6f-release.zip",
+          "sha256": "4bd187db213e059cc068a5aaa49ac8482bf29c4df4e43a64645188776af7cc88",
+          "size": 7948826,
+          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v221-caffd6f/FuseHide-1.221_221-caffd6f-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.220`\n- **VersionCode:** `220`\n- **Commit:** [`0976471`](https://github.com/XiaoTong6666/FuseHide/commit/0976471d2975d8a7a2d9b12e97c214e7d17dd7e0)\n- **Build time:** `4m 57s`\n- **SHA256:** `e5bbf0385fb6dee69e7ffc50e1a00dfdd637ac44d21a5311ca935da982e69983`\n\n## Message\n\n```text\nfeat(settings): add launcher icon visibility toggle, Meow\n\n为桌面入口新增独立的 LauncherAlias，并让 MainActivity 保持可用，通过 PackageManager 切换组件启用状态，实现无需重启或重新安装的图标显示控制喵\n\n在设置页增加隐藏桌面图标开关，直接根据实际组件状态更新界面，并补充中英文提示与 Compose 状态回调，默认保持桌面图标可见喵\n\n保留 Xposed 模块设置、Android 应用信息及应用偏好设置入口，避免隐藏启动器图标后无法进入应用，同时提示部分新版 Android 启动器仍可能展示系统生成的应用信息入口（轻轻整理好设置页面）喵\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v220-0976471",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.221`\n- **VersionCode:** `221`\n- **Commit:** [`caffd6f`](https://github.com/XiaoTong6666/FuseHide/commit/caffd6fe4f4e82be2f322929fa6f7da274164e90)\n- **Build time:** `6m 09s`\n- **SHA256:** `4bd187db213e059cc068a5aaa49ac8482bf29c4df4e43a64645188776af7cc88`\n\n## Message\n\n```text\nfix(icon): preserve adaptive splash icon masking, Meow\n\n让启动画面直接使用现有的 AdaptiveIconDrawable，自适应系统的圆形与圆角方形遮罩，避免把完整方形矢量图当作启动图标而造成边缘裁切喵\n\n将启动图标的额外背景设为透明，避免系统背景层覆盖自适应图标自身的圆角，同时保持日间与夜间主题行为一致，不影响桌面图标和原有矢量资源（轻轻收好爪子）喵\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v221-caffd6f",
         "immutable": true,
-        "name": "1.220",
+        "name": "1.221",
         "prerelease": false,
         "prop": {
           "author": "XiaoTong",
@@ -15634,15 +15638,15 @@
           "id": "zygisk_fusehide",
           "name": "Zygisk - FuseHide",
           "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-          "version": "1.220 (220-0976471-release)",
-          "versionCode": "220"
+          "version": "1.221 (221-caffd6f-release)",
+          "versionCode": "221"
         },
-        "publishedAt": "2026-11-23T08:30:47Z",
-        "releaseId": 455155021,
-        "tag": "v220-0976471",
-        "tagCommit": "8f9b1367226987545f831fe4ef7a663b35c63a4e",
-        "version": "1.220 (220-0976471-release)",
-        "versionCode": 220
+        "publishedAt": "2026-11-23T09:09:36Z",
+        "releaseId": 455190975,
+        "tag": "v221-caffd6f",
+        "tagCommit": "a04b38b03e2a2f807c87c0bcd1eca1207be0ba0f",
+        "version": "1.221 (221-caffd6f-release)",
+        "versionCode": 221
       },
       "stars": {
         "count": 34,
