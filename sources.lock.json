@@ -10873,8 +10873,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T08:45:57.177Z",
-        "lastSuccessAt": "2026-11-23T08:45:57.177Z",
+        "lastAttemptAt": "2026-11-23T08:47:15.477Z",
+        "lastSuccessAt": "2026-11-23T08:47:15.477Z",
         "message": null,
         "status": "ok"
       },
@@ -10882,67 +10882,8 @@
       "installationId": 177437801,
       "maxStableVersionCode": 120,
       "maxVersionCode": 999,
-      "prerelease": {
-        "asset": {
-          "digest": "sha256:6337b5825397e41ae26b9387a9239ab4cdb0b2313569a72bf250c8eb4b49448a",
-          "id": 774599663,
-          "name": "MirageForge-Zygisk-1.3.0-Canary-aa36a93.zip",
-          "sha256": "6337b5825397e41ae26b9387a9239ab4cdb0b2313569a72bf250c8eb4b49448a",
-          "size": 2275796,
-          "url": "https://github.com/jjh138792/MirageForge/releases/download/1.3.0-Canary-aa36a93/MirageForge-Zygisk-1.3.0-Canary-aa36a93.zip"
-        },
-        "body": "### 🧪 MirageForge Canary Pre-Release (`1.3.0-Canary-aa36a93`)\n\n* **构建版本 (Version)**: `1.3.0-Canary-aa36a93`\n* **版本号 (versionCode)**: `999` *(锁定 999，屏蔽正式版更新推送)*\n* **触发提交 (Commit)**: `aa36a93068b3af1d18a722298ca0dc2366bf1673`\n\n#### 📝 本次提交变更\n```text\nfix(seccomp,webui): 绕过 libsigchain 直接注册内核 SIGSYS、适配 MTE 16B 粒度与数字 PID 状态隐匿，同步 VFS/SVC 开关联动\n```\n",
-        "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.3.0-Canary-aa36a93",
-        "immutable": true,
-        "name": "MirageForge 1.3.0-Canary-aa36a93",
-        "prerelease": true,
-        "prop": {
-          "author": "jjh138792",
-          "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
-          "id": "mirage_forge",
-          "name": "蜃楼工坊 · MirageForge",
-          "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
-          "version": "1.3.0-Canary-aa36a93",
-          "versionCode": "999"
-        },
-        "publishedAt": "2026-11-21T06:00:46Z",
-        "releaseId": 453477711,
-        "tag": "1.3.0-Canary-aa36a93",
-        "tagCommit": "aa36a93068b3af1d18a722298ca0dc2366bf1673",
-        "version": "1.3.0-Canary-aa36a93",
-        "versionCode": 999
-      },
+      "prerelease": null,
       "releases": [
-        {
-          "asset": {
-            "digest": "sha256:6337b5825397e41ae26b9387a9239ab4cdb0b2313569a72bf250c8eb4b49448a",
-            "id": 774599663,
-            "name": "MirageForge-Zygisk-1.3.0-Canary-aa36a93.zip",
-            "sha256": "6337b5825397e41ae26b9387a9239ab4cdb0b2313569a72bf250c8eb4b49448a",
-            "size": 2275796,
-            "url": "https://github.com/jjh138792/MirageForge/releases/download/1.3.0-Canary-aa36a93/MirageForge-Zygisk-1.3.0-Canary-aa36a93.zip"
-          },
-          "body": "### 🧪 MirageForge Canary Pre-Release (`1.3.0-Canary-aa36a93`)\n\n* **构建版本 (Version)**: `1.3.0-Canary-aa36a93`\n* **版本号 (versionCode)**: `999` *(锁定 999，屏蔽正式版更新推送)*\n* **触发提交 (Commit)**: `aa36a93068b3af1d18a722298ca0dc2366bf1673`\n\n#### 📝 本次提交变更\n```text\nfix(seccomp,webui): 绕过 libsigchain 直接注册内核 SIGSYS、适配 MTE 16B 粒度与数字 PID 状态隐匿，同步 VFS/SVC 开关联动\n```\n",
-          "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.3.0-Canary-aa36a93",
-          "immutable": true,
-          "name": "MirageForge 1.3.0-Canary-aa36a93",
-          "prerelease": true,
-          "prop": {
-            "author": "jjh138792",
-            "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
-            "id": "mirage_forge",
-            "name": "蜃楼工坊 · MirageForge",
-            "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
-            "version": "1.3.0-Canary-aa36a93",
-            "versionCode": "999"
-          },
-          "publishedAt": "2026-11-21T06:00:46Z",
-          "releaseId": 453477711,
-          "tag": "1.3.0-Canary-aa36a93",
-          "tagCommit": "aa36a93068b3af1d18a722298ca0dc2366bf1673",
-          "version": "1.3.0-Canary-aa36a93",
-          "versionCode": 999
-        },
         {
           "asset": {
             "digest": "sha256:60bcecf40881c74f3c35a10dbc6a9d8c64a87749ee8164af28f82264664e3e9e",
@@ -11037,19 +10978,19 @@
           "ok": true
         },
         "453589126": {
-          "checkedAt": "2026-11-23T08:45:57.177Z",
+          "checkedAt": "2026-11-23T08:47:15.477Z",
           "ok": true
         },
         "454257254": {
-          "checkedAt": "2026-11-23T08:45:57.177Z",
+          "checkedAt": "2026-11-23T08:47:15.477Z",
           "ok": true
         },
         "454472053": {
-          "checkedAt": "2026-11-23T08:45:57.177Z",
+          "checkedAt": "2026-11-23T08:47:15.477Z",
           "ok": true
         },
         "454859986": {
-          "checkedAt": "2026-11-23T08:45:57.177Z",
+          "checkedAt": "2026-11-23T08:47:15.477Z",
           "ok": true
         },
         "455168240": {
