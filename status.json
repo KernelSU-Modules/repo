@@ -364,6 +364,27 @@
         "versionCode": 10004
       }
     },
+    "adblocker": {
+      "contentCommit": "73ede7db85ae6220a20071a12c17a955d80d49d9",
+      "fullName": "lihenggui/ADBlocker",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1468163221,
+      "request": {
+        "checkedAt": "2026-11-23T07:49:51.803Z",
+        "commit": "73ede7db85ae6220a20071a12c17a955d80d49d9",
+        "issues": [],
+        "latestTag": "v0.1.0",
+        "ok": true,
+        "releaseId": 455115308,
+        "repositoryId": 1468163221,
+        "submissionId": "o935jsol3i"
+      },
+      "stable": null
+    },
     "aegis_firewall": {
       "contentCommit": "9366066031750ed2332cf45580b4a043e2bbd7d1",
       "fullName": "kreza6173-pixel/aegis-firewall",
