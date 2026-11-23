@@ -14641,17 +14641,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-21T12:19:54.751Z",
-        "lastSuccessAt": "2026-11-21T12:19:54.751Z",
+        "lastAttemptAt": "2026-11-23T08:35:19.449Z",
+        "lastSuccessAt": "2026-11-23T08:35:19.449Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 587,
-      "maxVersionCode": 587,
+      "maxStableVersionCode": 589,
+      "maxVersionCode": 589,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:58bd8a3e546da2e26994c7ea4d56eddd986552383ee179cd2debf37cf6b3e9a2",
+            "id": 782166992,
+            "name": "Sui-v13.5.4.3_589-cb157fa-release.zip",
+            "sha256": "58bd8a3e546da2e26994c7ea4d56eddd986552383ee179cd2debf37cf6b3e9a2",
+            "size": 1505878,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v589-cb157fa/Sui-v13.5.4.3_589-cb157fa-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (589-cb157fa-release)`\n- **VersionCode:** `589`\n- **Commit:** [`cb157fa`](https://github.com/XiaoTong6666/Sui/commit/cb157fac663b6ff6f3b9bc58e75c07a8f76a1956)\n- **Build time:** `3m 27s`\n- **SHA256:** `58bd8a3e546da2e26994c7ea4d56eddd986552383ee179cd2debf37cf6b3e9a2`\n\n## Message\n\n```text\nbuild(deps): bump gradle-wrapper from 9.9.1 to 9.9.2 (#153)\n\nBumps [gradle-wrapper](https://github.com/gradle/gradle) from 9.9.1 to 9.9.2.\n- [Release notes](https://github.com/gradle/gradle/releases)\n- [Commits](https://github.com/gradle/gradle/compare/v9.9.1...v9.9.2)\n\n---\nupdated-dependencies:\n- dependency-name: gradle-wrapper\n  dependency-version: 9.9.2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v589-cb157fa",
+          "immutable": true,
+          "name": "v13.5.4.3 (589-cb157fa-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (589-cb157fa-release)",
+            "versionCode": "589"
+          },
+          "publishedAt": "2026-11-23T08:34:56Z",
+          "releaseId": 455158607,
+          "tag": "v589-cb157fa",
+          "tagCommit": "bd818d0bdcc8662b03fb8bf433d870c5aa8dc73b",
+          "version": "v13.5.4.3 (589-cb157fa-release)",
+          "versionCode": 589
+        },
         {
           "asset": {
             "digest": "sha256:1d6e9e5644df36ecb9444079acc6fd2158c298bc60ed4e5b146e77307e42c8c1",
@@ -14921,36 +14951,6 @@
           "tagCommit": "fc38f6bd4f5c3bce403c013c1de265aea1748125",
           "version": "v13.5.4.3 (573-cab27cf-release)",
           "versionCode": 573
-        },
-        {
-          "asset": {
-            "digest": "sha256:fcf9ad2b3f9ff4ccee62d43bed4b6abe71ff71ddb89acbb1485148873bcb5270",
-            "id": 674741157,
-            "name": "Sui-v13.5.4.3_571-af5447f-release.zip",
-            "sha256": "fcf9ad2b3f9ff4ccee62d43bed4b6abe71ff71ddb89acbb1485148873bcb5270",
-            "size": 1456818,
-            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v571-af5447f/Sui-v13.5.4.3_571-af5447f-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (571-af5447f-release)`\n- **VersionCode:** `571`\n- **Commit:** [`af5447f`](https://github.com/XiaoTong6666/Sui/commit/af5447f4313e2abc15fc36e729ac0f296da95d2c)\n- **Build time:** `2m 33s`\n- **SHA256:** `fcf9ad2b3f9ff4ccee62d43bed4b6abe71ff71ddb89acbb1485148873bcb5270`\n\n## Message\n\n```text\nfix(native): Isolate C++ exit handlers from Bionic, Meow\n\n为 libsui.so 接入本地 __cxa_atexit/__cxa_finalize，避免将模块析构记录写入 Bionic 全局表喵（当然znlinker也会替我们处理这些了喵）\n\nCo-authored-by: 5ec1cff <56485584+5ec1cff@users.noreply.github.com>\n\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v571-af5447f",
-          "immutable": true,
-          "name": "v13.5.4.3 (571-af5447f-release)",
-          "prerelease": false,
-          "prop": {
-            "author": "Sui Contributors",
-            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
-            "id": "zygisk-sui",
-            "name": "Zygisk - Sui",
-            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-            "version": "v13.5.4.3 (571-af5447f-release)",
-            "versionCode": "571"
-          },
-          "publishedAt": "2026-10-25T10:25:26Z",
-          "releaseId": 423320677,
-          "tag": "v571-af5447f",
-          "tagCommit": "5905d60e2025e889935b72780515895deda4ae11",
-          "version": "v13.5.4.3 (571-af5447f-release)",
-          "versionCode": 571
         }
       ],
       "repositoryId": 1415623276,
@@ -15058,21 +15058,25 @@
         "453670030": {
           "checkedAt": "2026-11-21T12:19:54.751Z",
           "ok": true
+        },
+        "455158607": {
+          "checkedAt": "2026-11-23T08:35:19.449Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:1d6e9e5644df36ecb9444079acc6fd2158c298bc60ed4e5b146e77307e42c8c1",
-          "id": 775487473,
-          "name": "Sui-v13.5.4.3_587-f7dd660-release.zip",
-          "sha256": "1d6e9e5644df36ecb9444079acc6fd2158c298bc60ed4e5b146e77307e42c8c1",
-          "size": 1505875,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v587-f7dd660/Sui-v13.5.4.3_587-f7dd660-release.zip"
+          "digest": "sha256:58bd8a3e546da2e26994c7ea4d56eddd986552383ee179cd2debf37cf6b3e9a2",
+          "id": 782166992,
+          "name": "Sui-v13.5.4.3_589-cb157fa-release.zip",
+          "sha256": "58bd8a3e546da2e26994c7ea4d56eddd986552383ee179cd2debf37cf6b3e9a2",
+          "size": 1505878,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v589-cb157fa/Sui-v13.5.4.3_589-cb157fa-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (587-f7dd660-release)`\n- **VersionCode:** `587`\n- **Commit:** [`f7dd660`](https://github.com/XiaoTong6666/Sui/commit/f7dd6608f05288a237f0c5bd0d52f72803de114c)\n- **Build time:** `1m 41s`\n- **SHA256:** `1d6e9e5644df36ecb9444079acc6fd2158c298bc60ed4e5b146e77307e42c8c1`\n\n## Message\n\n```text\nfix: hide legacy Shizuku binder from isolated processes, Meow\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v587-f7dd660",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (589-cb157fa-release)`\n- **VersionCode:** `589`\n- **Commit:** [`cb157fa`](https://github.com/XiaoTong6666/Sui/commit/cb157fac663b6ff6f3b9bc58e75c07a8f76a1956)\n- **Build time:** `3m 27s`\n- **SHA256:** `58bd8a3e546da2e26994c7ea4d56eddd986552383ee179cd2debf37cf6b3e9a2`\n\n## Message\n\n```text\nbuild(deps): bump gradle-wrapper from 9.9.1 to 9.9.2 (#153)\n\nBumps [gradle-wrapper](https://github.com/gradle/gradle) from 9.9.1 to 9.9.2.\n- [Release notes](https://github.com/gradle/gradle/releases)\n- [Commits](https://github.com/gradle/gradle/compare/v9.9.1...v9.9.2)\n\n---\nupdated-dependencies:\n- dependency-name: gradle-wrapper\n  dependency-version: 9.9.2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v589-cb157fa",
         "immutable": true,
-        "name": "v13.5.4.3 (587-f7dd660-release)",
+        "name": "v13.5.4.3 (589-cb157fa-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -15080,19 +15084,19 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (587-f7dd660-release)",
-          "versionCode": "587"
+          "version": "v13.5.4.3 (589-cb157fa-release)",
+          "versionCode": "589"
         },
-        "publishedAt": "2026-11-21T12:18:17Z",
-        "releaseId": 453670030,
-        "tag": "v587-f7dd660",
-        "tagCommit": "2a8779b8bd55f8a802091523fa956450016f3dd1",
-        "version": "v13.5.4.3 (587-f7dd660-release)",
-        "versionCode": 587
+        "publishedAt": "2026-11-23T08:34:56Z",
+        "releaseId": 455158607,
+        "tag": "v589-cb157fa",
+        "tagCommit": "bd818d0bdcc8662b03fb8bf433d870c5aa8dc73b",
+        "version": "v13.5.4.3 (589-cb157fa-release)",
+        "versionCode": 589
       },
       "stars": {
-        "count": 22,
-        "fetchedAt": "2026-11-23T02:20:48.200Z",
+        "count": 23,
+        "fetchedAt": "2026-11-23T08:35:19.449Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
