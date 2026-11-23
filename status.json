@@ -496,12 +496,12 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-23T02:54:00.259Z",
+        "checkedAt": "2026-11-23T03:00:18.096Z",
         "commit": "8f7054652c7c589af41dd581b92cd9d720c7e012",
         "issues": [],
-        "latestTag": "v0.3.0",
+        "latestTag": "v0.4.0",
         "ok": true,
-        "releaseId": 453372821,
+        "releaseId": 454937871,
         "repositoryId": 1459530172,
         "submissionId": "scx0u3f7qm"
       },
