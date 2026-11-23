@@ -1035,16 +1035,16 @@
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-23T11:34:56.067Z",
-      "maxVersionCode": 999,
+      "lastSuccessAt": "2026-11-23T11:54:20.889Z",
+      "maxVersionCode": 1210,
       "message": null,
       "repositoryId": 1445526027,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-12T05:16:19Z",
-        "tag": "1.2.0",
-        "version": "1.2.0",
-        "versionCode": 120
+        "publishedAt": "2026-11-23T11:54:00Z",
+        "tag": "1.2.1",
+        "version": "1.2.1",
+        "versionCode": 1210
       }
     },
     "motion_cues_port": {

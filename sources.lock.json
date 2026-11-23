@@ -10873,17 +10873,47 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T11:34:56.067Z",
-        "lastSuccessAt": "2026-11-23T11:34:56.067Z",
+        "lastAttemptAt": "2026-11-23T11:54:20.889Z",
+        "lastSuccessAt": "2026-11-23T11:54:20.889Z",
         "message": null,
         "status": "ok"
       },
       "id": "mirage_forge",
       "installationId": 177437801,
-      "maxStableVersionCode": 120,
-      "maxVersionCode": 999,
+      "maxStableVersionCode": 1210,
+      "maxVersionCode": 1210,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:b816ca3f08b1572c20f82ebda392fc74f128984c2a82aa61c3d3a5c9f31f74e8",
+            "id": 782747283,
+            "name": "MirageForge-Zygisk-1.2.1.zip",
+            "sha256": "b816ca3f08b1572c20f82ebda392fc74f128984c2a82aa61c3d3a5c9f31f74e8",
+            "size": 2306088,
+            "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.1/MirageForge-Zygisk-1.2.1.zip"
+          },
+          "body": "# MirageForge 1.2.1\n\n## 新功能\n* 新增屏幕刷新率伪装\n* 新增在线机型模板仓库\n* 新增模板导入分享码\n* vfs节点伪装新增命名空间挂载方式\n## 修复\n* 修复部分情况下崩溃日之误报的问题\n* 修复Vulkan API没有Hook到的问题\n* 修复部分情况应用可能会闪退的问题\n## 改进\n* vfs与graphics两个源代码分成几个小hpp\n* WebUI设置语言更新为容易理解的白话文",
+          "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.1",
+          "immutable": true,
+          "name": "MirageForge 1.2.1",
+          "prerelease": false,
+          "prop": {
+            "author": "jjh138792",
+            "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
+            "id": "mirage_forge",
+            "name": "蜃楼工坊 · MirageForge",
+            "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
+            "version": "1.2.1",
+            "versionCode": "1210"
+          },
+          "publishedAt": "2026-11-23T11:54:00Z",
+          "releaseId": 455355982,
+          "tag": "1.2.1",
+          "tagCommit": "6b9b5444ef0c6e63098e17365504f69be7387dd9",
+          "version": "1.2.1",
+          "versionCode": 1210
+        },
         {
           "asset": {
             "digest": "sha256:60bcecf40881c74f3c35a10dbc6a9d8c64a87749ee8164af28f82264664e3e9e",
@@ -11008,21 +11038,25 @@
           "code": "version-not-newer",
           "message": "versionCode 999 was already accepted for this module (the release is gone); versionCodes cannot be reused. Use a versionCode above 999.",
           "ok": false
+        },
+        "455355982": {
+          "checkedAt": "2026-11-23T11:54:20.889Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:60bcecf40881c74f3c35a10dbc6a9d8c64a87749ee8164af28f82264664e3e9e",
-          "id": 738176207,
-          "name": "MirageForge-Zygisk-1.2.0.zip",
-          "sha256": "60bcecf40881c74f3c35a10dbc6a9d8c64a87749ee8164af28f82264664e3e9e",
-          "size": 2181768,
-          "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.0/MirageForge-Zygisk-1.2.0.zip"
+          "digest": "sha256:b816ca3f08b1572c20f82ebda392fc74f128984c2a82aa61c3d3a5c9f31f74e8",
+          "id": 782747283,
+          "name": "MirageForge-Zygisk-1.2.1.zip",
+          "sha256": "b816ca3f08b1572c20f82ebda392fc74f128984c2a82aa61c3d3a5c9f31f74e8",
+          "size": 2306088,
+          "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.1/MirageForge-Zygisk-1.2.1.zip"
         },
-        "body": "## MirageForge v1.2.0\r\n> 注：有些功能参考device_faker\r\n- **核心安全**：虚拟属性池升级为 `r--p` 只读匿名 `mmap` 内存页，反射字典在 `postAppSpecialize` 后阅后即焚，防堆内存特征扫描\r\n- **伪装扩展**：新增 `Build.BOARD`、`Build.SOC_MODEL`、`DISPLAY_ID`、`INCREMENTAL`、`SECURITY_PATCH`、SELinux app 域受限属性区与按应用独立 DPI 缩放\r\n- **液态玻璃 WebUI**：引入球面法线光学折射透镜与二阶胡克定律弹簧阻尼导航球（支持长按放大与阻尼拖拽），新增日/夜/跟随系统三态平滑切换\r\n- **零 Shell Fork**：接入 KernelSU `pm`/`io` 原生接口，包枚举与配置读写零子进程开销\r\n- **版本统一**：全端动态读取 `module.prop` 版本号，彻底消除硬编码\r\n",
-        "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.0",
+        "body": "# MirageForge 1.2.1\n\n## 新功能\n* 新增屏幕刷新率伪装\n* 新增在线机型模板仓库\n* 新增模板导入分享码\n* vfs节点伪装新增命名空间挂载方式\n## 修复\n* 修复部分情况下崩溃日之误报的问题\n* 修复Vulkan API没有Hook到的问题\n* 修复部分情况应用可能会闪退的问题\n## 改进\n* vfs与graphics两个源代码分成几个小hpp\n* WebUI设置语言更新为容易理解的白话文",
+        "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.1",
         "immutable": true,
-        "name": "MirageForge 1.2.0",
+        "name": "MirageForge 1.2.1",
         "prerelease": false,
         "prop": {
           "author": "jjh138792",
@@ -11030,15 +11064,15 @@
           "id": "mirage_forge",
           "name": "蜃楼工坊 · MirageForge",
           "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
-          "version": "1.2.0",
-          "versionCode": "120"
+          "version": "1.2.1",
+          "versionCode": "1210"
         },
-        "publishedAt": "2026-11-12T05:16:19Z",
-        "releaseId": 442524626,
-        "tag": "1.2.0",
-        "tagCommit": "dfedf87755a36cf0758003d8db2a810e7d87c737",
-        "version": "1.2.0",
-        "versionCode": 120
+        "publishedAt": "2026-11-23T11:54:00Z",
+        "releaseId": 455355982,
+        "tag": "1.2.1",
+        "tagCommit": "6b9b5444ef0c6e63098e17365504f69be7387dd9",
+        "version": "1.2.1",
+        "versionCode": 1210
       },
       "stars": {
         "count": 5,
