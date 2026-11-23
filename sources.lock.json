@@ -4845,14 +4845,14 @@
     "acc": {
       "content": {
         "blobs": {
-          "README.md": "8c13b80ae542224157795c96d67a76a09aa5212f",
+          "README.md": "a145c3a9878b3f7abccd5835254e902af76fa3cd",
           "install/icon/webui.png": "7ccf08e2d10443ace2fc0589c408f22939b94eaa",
           "module.yaml": "217c4de4210853cb54c07fba50df2fc12bf66175"
         },
-        "commit": "a0ef692c374df62462f0531b6d03892f48693a52",
-        "fetchedAt": "2026-11-22T11:25:50.729Z",
+        "commit": "ffe0cfca5f86afe16695b1425e9fb305a9550b4b",
+        "fetchedAt": "2026-11-23T11:34:56.067Z",
         "files": {
-          "README.md": "aa8d47193abdfbc7ec6ea0f23f72fc56b0512b4ff09ce3bd88706278778c2697",
+          "README.md": "9ec38ba78e787390311b47634cfb9fdd8ab06e72c48cc7f55c98efcc0c7132e8",
           "install/icon/webui.png": "26ef13138d9c44b8b7fdcc741cc921ba51b1c2b40b8764cc609d2715933a8eea",
           "module.yaml": "e2b5b7270353dafb71358e635bcadeaf321aad421239e1f3d55ef6c9c5db1ef9"
         },
@@ -4862,8 +4862,8 @@
       "fullName": "Infiniti151/acc-with-webui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T11:25:50.729Z",
-        "lastSuccessAt": "2026-11-22T11:25:50.729Z",
+        "lastAttemptAt": "2026-11-23T11:34:56.067Z",
+        "lastSuccessAt": "2026-11-23T11:34:56.067Z",
         "message": null,
         "status": "ok"
       },
@@ -10873,8 +10873,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T11:33:36.483Z",
-        "lastSuccessAt": "2026-11-23T11:33:36.483Z",
+        "lastAttemptAt": "2026-11-23T11:34:56.067Z",
+        "lastSuccessAt": "2026-11-23T11:34:56.067Z",
         "message": null,
         "status": "ok"
       },
@@ -11002,6 +11002,12 @@
         "455200359": {
           "checkedAt": "2026-11-23T09:20:29.065Z",
           "ok": true
+        },
+        "455336978": {
+          "checkedAt": "2026-11-23T11:34:56.067Z",
+          "code": "version-not-newer",
+          "message": "versionCode 999 was already accepted for this module (the release is gone); versionCodes cannot be reused. Use a versionCode above 999.",
+          "ok": false
         }
       },
       "stable": {

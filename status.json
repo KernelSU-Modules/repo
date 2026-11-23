@@ -331,11 +331,11 @@
       "stable": null
     },
     "acc": {
-      "contentCommit": "a0ef692c374df62462f0531b6d03892f48693a52",
+      "contentCommit": "ffe0cfca5f86afe16695b1425e9fb305a9550b4b",
       "fullName": "Infiniti151/acc-with-webui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-22T11:25:50.729Z",
+      "lastSuccessAt": "2026-11-23T11:34:56.067Z",
       "maxVersionCode": 10600,
       "message": null,
       "repositoryId": 1296470014,
@@ -1035,7 +1035,7 @@
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-23T11:33:36.483Z",
+      "lastSuccessAt": "2026-11-23T11:34:56.067Z",
       "maxVersionCode": 999,
       "message": null,
       "repositoryId": 1445526027,
