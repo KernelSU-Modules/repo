@@ -1403,16 +1403,16 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-23T07:43:23.150Z",
-      "maxVersionCode": 219,
+      "lastSuccessAt": "2026-11-23T08:31:10.014Z",
+      "maxVersionCode": 220,
       "message": null,
       "repositoryId": 1417162951,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-23T07:41:47Z",
-        "tag": "v219-518b820",
-        "version": "1.219 (219-518b820-release)",
-        "versionCode": 219
+        "publishedAt": "2026-11-23T08:30:47Z",
+        "tag": "v220-0976471",
+        "version": "1.220 (220-0976471-release)",
+        "versionCode": 220
       }
     },
     "zygisknextsu": {
