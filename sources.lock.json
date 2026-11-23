@@ -15116,9 +15116,9 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T07:42:04.923Z",
-        "lastSuccessAt": "2026-11-23T07:42:04.923Z",
-        "message": "stable-fallback: the stable release (versionCode 219) was deleted or marked as prerelease; listing the older v218-11d7059 (versionCode 218) until a release with a versionCode above 219 is published.",
+        "lastAttemptAt": "2026-11-23T07:43:23.150Z",
+        "lastSuccessAt": "2026-11-23T07:43:23.150Z",
+        "message": null,
         "status": "ok"
       },
       "id": "zygisk_fusehide",
@@ -15127,6 +15127,36 @@
       "maxVersionCode": 219,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:d6166f1dee733213199b067d37079fb80f8c985e688ed660e3c7c84355d5d7d6",
+            "id": 782017829,
+            "name": "FuseHide-1.219_219-518b820-release.zip",
+            "sha256": "d6166f1dee733213199b067d37079fb80f8c985e688ed660e3c7c84355d5d7d6",
+            "size": 7952978,
+            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v219-518b820/FuseHide-1.219_219-518b820-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.219`\n- **VersionCode:** `219`\n- **Commit:** [`518b820`](https://github.com/XiaoTong6666/FuseHide/commit/518b820457366774bb828d4872d95711502d0139)\n- **Build time:** `5m 52s`\n- **SHA256:** `d6166f1dee733213199b067d37079fb80f8c985e688ed660e3c7c84355d5d7d6`\n\n## Message\n\n```text\nfeat(settings): support runtime release diagnostics and refine UI labels, Meow\n\n调整“当前 UI 风格”信息行的主副标题层级，让标题以主要文字样式显示，MIUIX 和 Material 作为次要信息显示喵\n\n新增独立持久化的详细调试日志开关，通过受信任的配置 Provider、定向广播及 JNI 将状态同步到 MediaProvider，开启或关闭日志时不改变隐藏规则及其缓存状态喵\n\n将 Native FUSE 诊断从编译期常量调整为运行时原子开关，使 Release 默认关闭详细日志、启用时仍可记录 lookup、readdir、inode 及错误路径信息，同时在关闭时跳过日志参数求值和详细日志采样（认真检查每一处热路径）喵\n\n补全 Xposed 与 Zygisk 两种注入后端的 Native 方法注册，使用签名权限限制日志刷新广播，并将系统解锁事件作为非导出接收器处理，确保跨进程状态同步可靠喵\n\n在日志输出前后保存和恢复 errno，避免诊断代码影响 libc 与 FUSE 包装器的错误语义，并保留已有的必要错误和警告日志（轻轻收好爪子）喵\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v219-518b820",
+          "immutable": true,
+          "name": "1.219",
+          "prerelease": false,
+          "prop": {
+            "author": "XiaoTong",
+            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+            "id": "zygisk_fusehide",
+            "name": "Zygisk - FuseHide",
+            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+            "version": "1.219 (219-518b820-release)",
+            "versionCode": "219"
+          },
+          "publishedAt": "2026-11-23T07:41:47Z",
+          "releaseId": 455114872,
+          "tag": "v219-518b820",
+          "tagCommit": "2e49afcd9db57e9988d315ea28a6ef6abb2bc5dc",
+          "version": "1.219 (219-518b820-release)",
+          "versionCode": 219
+        },
         {
           "asset": {
             "digest": "sha256:9a1e6697346c32cb2f495d216f16b6fafee7ce046d4ca80bac169fce94e01cf1",
@@ -15507,23 +15537,23 @@
           "ok": true
         },
         "455114872": {
-          "checkedAt": "2026-11-23T07:42:04.923Z",
+          "checkedAt": "2026-11-23T07:43:23.150Z",
           "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:9a1e6697346c32cb2f495d216f16b6fafee7ce046d4ca80bac169fce94e01cf1",
-          "id": 781463626,
-          "name": "FuseHide-1.218_218-11d7059-release.zip",
-          "sha256": "9a1e6697346c32cb2f495d216f16b6fafee7ce046d4ca80bac169fce94e01cf1",
-          "size": 7801426,
-          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v218-11d7059/FuseHide-1.218_218-11d7059-release.zip"
+          "digest": "sha256:d6166f1dee733213199b067d37079fb80f8c985e688ed660e3c7c84355d5d7d6",
+          "id": 782017829,
+          "name": "FuseHide-1.219_219-518b820-release.zip",
+          "sha256": "d6166f1dee733213199b067d37079fb80f8c985e688ed660e3c7c84355d5d7d6",
+          "size": 7952978,
+          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v219-518b820/FuseHide-1.219_219-518b820-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.218`\n- **VersionCode:** `218`\n- **Commit:** [`11d7059`](https://github.com/XiaoTong6666/FuseHide/commit/11d70590bbd05914f7b62b3fa991c1a3bba8c16a)\n- **Build time:** `4m 07s`\n- **SHA256:** `9a1e6697346c32cb2f495d216f16b6fafee7ce046d4ca80bac169fce94e01cf1`\n\n## Message\n\n```text\nfix(icon): restore refined logo and update themed icon, Meow\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v218-11d7059",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.219`\n- **VersionCode:** `219`\n- **Commit:** [`518b820`](https://github.com/XiaoTong6666/FuseHide/commit/518b820457366774bb828d4872d95711502d0139)\n- **Build time:** `5m 52s`\n- **SHA256:** `d6166f1dee733213199b067d37079fb80f8c985e688ed660e3c7c84355d5d7d6`\n\n## Message\n\n```text\nfeat(settings): support runtime release diagnostics and refine UI labels, Meow\n\n调整“当前 UI 风格”信息行的主副标题层级，让标题以主要文字样式显示，MIUIX 和 Material 作为次要信息显示喵\n\n新增独立持久化的详细调试日志开关，通过受信任的配置 Provider、定向广播及 JNI 将状态同步到 MediaProvider，开启或关闭日志时不改变隐藏规则及其缓存状态喵\n\n将 Native FUSE 诊断从编译期常量调整为运行时原子开关，使 Release 默认关闭详细日志、启用时仍可记录 lookup、readdir、inode 及错误路径信息，同时在关闭时跳过日志参数求值和详细日志采样（认真检查每一处热路径）喵\n\n补全 Xposed 与 Zygisk 两种注入后端的 Native 方法注册，使用签名权限限制日志刷新广播，并将系统解锁事件作为非导出接收器处理，确保跨进程状态同步可靠喵\n\n在日志输出前后保存和恢复 errno，避免诊断代码影响 libc 与 FUSE 包装器的错误语义，并保留已有的必要错误和警告日志（轻轻收好爪子）喵\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v219-518b820",
         "immutable": true,
-        "name": "1.218",
+        "name": "1.219",
         "prerelease": false,
         "prop": {
           "author": "XiaoTong",
@@ -15531,15 +15561,15 @@
           "id": "zygisk_fusehide",
           "name": "Zygisk - FuseHide",
           "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-          "version": "1.218 (218-11d7059-release)",
-          "versionCode": "218"
+          "version": "1.219 (219-518b820-release)",
+          "versionCode": "219"
         },
-        "publishedAt": "2026-11-23T04:06:00Z",
-        "releaseId": 454973886,
-        "tag": "v218-11d7059",
-        "tagCommit": "afbc8c8d2ec9eeee121788c68487a2e882e1d0d5",
-        "version": "1.218 (218-11d7059-release)",
-        "versionCode": 218
+        "publishedAt": "2026-11-23T07:41:47Z",
+        "releaseId": 455114872,
+        "tag": "v219-518b820",
+        "tagCommit": "2e49afcd9db57e9988d315ea28a6ef6abb2bc5dc",
+        "version": "1.219 (219-518b820-release)",
+        "versionCode": 219
       },
       "stars": {
         "count": 34,
