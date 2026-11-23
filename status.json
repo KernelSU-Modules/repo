@@ -645,20 +645,20 @@
       "stable": null
     },
     "coloros_wifi_sense": {
-      "contentCommit": "0c3d34c3e0be124b2d712e31db41ec46a2ea97ee",
+      "contentCommit": "23b863e9f509933b8f23de0d1dc9be85b189b8ff",
       "fullName": "mazemingw/coloros-wifi-sense",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-19T17:44:06.023Z",
-      "maxVersionCode": 11,
+      "lastSuccessAt": "2026-11-23T02:20:48.200Z",
+      "maxVersionCode": 12,
       "message": null,
       "repositoryId": 1449425812,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-19T17:43:38Z",
-        "tag": "v1.6.2",
-        "version": "v1.6.2",
-        "versionCode": 11
+        "publishedAt": "2026-11-23T02:20:24Z",
+        "tag": "v1.7.0",
+        "version": "v1.7.0",
+        "versionCode": 12
       }
     },
     "device_faker": {

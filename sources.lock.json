@@ -6334,13 +6334,13 @@
     "coloros_wifi_sense": {
       "content": {
         "blobs": {
-          "README.md": "642a51180b1251b1b7a960532d775ed6bdcbab67",
+          "README.md": "aa9b9b4c0601ed25e87f8991f6cbbf31c4862d4c",
           "module.yaml": "b8c5900e2ed1a9d603343a311dfcfeaba1040f2f"
         },
-        "commit": "0c3d34c3e0be124b2d712e31db41ec46a2ea97ee",
-        "fetchedAt": "2026-11-19T17:44:06.023Z",
+        "commit": "23b863e9f509933b8f23de0d1dc9be85b189b8ff",
+        "fetchedAt": "2026-11-23T02:20:48.200Z",
         "files": {
-          "README.md": "8d1152777c9e47f0a801e853f2720b78ca886c5b5a08884dd6994076f0f607cf",
+          "README.md": "36fa5ecd11f0ea2850d0350b7c002fdcc658fad73e6b7ad2c4a450328ce82b69",
           "module.yaml": "1cb86d574780de5a3e30d8f6bd2f04b88c2ac0019373b99324297a7e6ed167d7"
         },
         "manifestPath": "module.yaml",
@@ -6349,17 +6349,47 @@
       "fullName": "mazemingw/coloros-wifi-sense",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-19T17:44:06.023Z",
-        "lastSuccessAt": "2026-11-19T17:44:06.023Z",
+        "lastAttemptAt": "2026-11-23T02:20:48.200Z",
+        "lastSuccessAt": "2026-11-23T02:20:48.200Z",
         "message": null,
         "status": "ok"
       },
       "id": "coloros_wifi_sense",
       "installationId": 179794143,
-      "maxStableVersionCode": 11,
-      "maxVersionCode": 11,
+      "maxStableVersionCode": 12,
+      "maxVersionCode": 12,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:72c4aac4b06c3dfc610305c40aee81310c0366ca8b3b8cb26251e224575a4144",
+            "id": 781209369,
+            "name": "coloros-wifi-sense-v1.7.0.zip",
+            "sha256": "72c4aac4b06c3dfc610305c40aee81310c0366ca8b3b8cb26251e224575a4144",
+            "size": 141595,
+            "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.7.0/coloros-wifi-sense-v1.7.0.zip"
+          },
+          "body": "- 增加 Wi-Fi 冷却例外名单，车机等网络重新连接后，可以直接重新判断弱信号。\n- 整理 Web 面板，合并常用设置，将较少使用的选项折叠显示。\n",
+          "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.7.0",
+          "immutable": true,
+          "name": "v1.7.0 · 冷却例外与面板整理",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@NVMEX夜莺",
+            "description": "弱 Wi-Fi 自动断开，支持定时暂停和息屏检测。WebUI 可调阈值、回升余量和倒计时，支持流体云、SSID 暂避、通网检测和仅 5GHz。",
+            "id": "coloros_wifi_sense",
+            "name": "colorOSWIFI感知",
+            "updateJson": "https://modules.kernelsu.org/api/v1/modules/coloros_wifi_sense/update.json",
+            "version": "v1.7.0",
+            "versionCode": "12"
+          },
+          "publishedAt": "2026-11-23T02:20:24Z",
+          "releaseId": 454916806,
+          "tag": "v1.7.0",
+          "tagCommit": "23b863e9f509933b8f23de0d1dc9be85b189b8ff",
+          "version": "v1.7.0",
+          "versionCode": 12
+        },
         {
           "asset": {
             "digest": "sha256:7de302d4684bd904d45f7e4b4892af2a91a79659a44a3233b54d26126bf4eb8f",
@@ -6528,21 +6558,25 @@
         "451702386": {
           "checkedAt": "2026-11-19T17:44:06.023Z",
           "ok": true
+        },
+        "454916806": {
+          "checkedAt": "2026-11-23T02:20:48.200Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:7de302d4684bd904d45f7e4b4892af2a91a79659a44a3233b54d26126bf4eb8f",
-          "id": 768646081,
-          "name": "coloros-wifi-sense-v1.6.2.zip",
-          "sha256": "7de302d4684bd904d45f7e4b4892af2a91a79659a44a3233b54d26126bf4eb8f",
-          "size": 136853,
-          "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.6.2/coloros-wifi-sense-v1.6.2.zip"
+          "digest": "sha256:72c4aac4b06c3dfc610305c40aee81310c0366ca8b3b8cb26251e224575a4144",
+          "id": 781209369,
+          "name": "coloros-wifi-sense-v1.7.0.zip",
+          "sha256": "72c4aac4b06c3dfc610305c40aee81310c0366ca8b3b8cb26251e224575a4144",
+          "size": 141595,
+          "url": "https://github.com/mazemingw/coloros-wifi-sense/releases/download/v1.7.0/coloros-wifi-sense-v1.7.0.zip"
         },
-        "body": "- 修复开启双 WLAN 后，一直显示“等待连接”、无法自动断开的问题。\n- 双 WLAN 下检测主 Wi-Fi，副连接变化不再打断倒计时。\n",
-        "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.6.2",
+        "body": "- 增加 Wi-Fi 冷却例外名单，车机等网络重新连接后，可以直接重新判断弱信号。\n- 整理 Web 面板，合并常用设置，将较少使用的选项折叠显示。\n",
+        "htmlUrl": "https://github.com/mazemingw/coloros-wifi-sense/releases/tag/v1.7.0",
         "immutable": true,
-        "name": "v1.6.2 · 修复双 WLAN 识别",
+        "name": "v1.7.0 · 冷却例外与面板整理",
         "prerelease": false,
         "prop": {
           "author": "酷安@NVMEX夜莺",
@@ -6550,15 +6584,15 @@
           "id": "coloros_wifi_sense",
           "name": "colorOSWIFI感知",
           "updateJson": "https://modules.kernelsu.org/api/v1/modules/coloros_wifi_sense/update.json",
-          "version": "v1.6.2",
-          "versionCode": "11"
+          "version": "v1.7.0",
+          "versionCode": "12"
         },
-        "publishedAt": "2026-11-19T17:43:38Z",
-        "releaseId": 451702386,
-        "tag": "v1.6.2",
-        "tagCommit": "0c3d34c3e0be124b2d712e31db41ec46a2ea97ee",
-        "version": "v1.6.2",
-        "versionCode": 11
+        "publishedAt": "2026-11-23T02:20:24Z",
+        "releaseId": 454916806,
+        "tag": "v1.7.0",
+        "tagCommit": "23b863e9f509933b8f23de0d1dc9be85b189b8ff",
+        "version": "v1.7.0",
+        "versionCode": 12
       },
       "stars": {
         "count": 15,
@@ -15081,8 +15115,8 @@
         "versionCode": 587
       },
       "stars": {
-        "count": 21,
-        "fetchedAt": "2026-11-21T21:26:28.496Z",
+        "count": 22,
+        "fetchedAt": "2026-11-23T02:20:48.200Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
