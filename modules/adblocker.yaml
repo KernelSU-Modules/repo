@@ -1,0 +1,19 @@
+id: adblocker
+status: pending
+request:
+  submissionId: o935jsol3i
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1468163221
+    ownerId: 5171312
+    fullName: lihenggui/ADBlocker
+    manifestPath: module.yaml
+  submittedBy: 5171312
+  submittedByLogin: lihenggui
+  submittedAt: 2026-11-23T07:49:24.976Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65302
+createdAt: 2026-11-23T07:49:24.976Z
+updatedAt: 2026-11-23T07:49:24.976Z
