@@ -6174,10 +6174,10 @@
       "fullName": "klmmlk/KernelSU-ClipShield",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-14T02:23:36.998Z",
+        "lastAttemptAt": "2026-11-23T11:57:40.679Z",
         "lastSuccessAt": "2026-10-14T02:23:36.998Z",
-        "message": null,
-        "status": "ok"
+        "message": "github-unavailable: temporary GitHub error while reading the repository; will retry",
+        "status": "stale"
       },
       "id": "clipshield",
       "installationId": 171057853,
