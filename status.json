@@ -18,20 +18,20 @@
       }
     },
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "f331523d9ec3696e52240728931fd6da7d2a1d99",
+      "contentCommit": "5b4ffb9c9f712aafd5b4eaa5f519023f3be85d76",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-16T12:13:46.309Z",
-      "maxVersionCode": 13401,
+      "lastSuccessAt": "2026-11-23T06:17:01.988Z",
+      "maxVersionCode": 13501,
       "message": null,
       "repositoryId": 1428389721,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-12T12:13:56Z",
-        "tag": "v1.2.14",
-        "version": "v1.2.14",
-        "versionCode": 13401
+        "publishedAt": "2026-11-23T06:16:35Z",
+        "tag": "v1.2.15",
+        "version": "v1.2.15",
+        "versionCode": 13501
       }
     },
     "AZenith": {

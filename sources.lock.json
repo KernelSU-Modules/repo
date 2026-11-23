@@ -170,17 +170,17 @@
     "AD_Killer_By_NFQUEUE": {
       "content": {
         "blobs": {
-          "README.md": "58df75acffe2016f794f71d3711e968b43d42c72",
+          "README.md": "22be8afdd4ef744054df273139f2110f0767bba5",
           "docs/screenshots/apps.png": "48135b54232fc5174761e02a064332d2a61d9820",
           "docs/screenshots/overview.png": "2148fcd07ca6873c1a1468ee081c8d0c32b1e785",
           "docs/screenshots/rules.png": "ce6e822ee0cf0a2dfdcecbb9323ed1eaccca0fcc",
           "docs/screenshots/settings.png": "35326caf59cf944b68c1032727c35016082d508e",
           "module.yaml": "5168ceb0bfc60baa53d89ed9be24d527a5388f6a"
         },
-        "commit": "f331523d9ec3696e52240728931fd6da7d2a1d99",
-        "fetchedAt": "2026-11-16T12:13:46.309Z",
+        "commit": "5b4ffb9c9f712aafd5b4eaa5f519023f3be85d76",
+        "fetchedAt": "2026-11-23T06:17:01.988Z",
         "files": {
-          "README.md": "5d85952d8eb92f8812b9cfe3cda6bb23e10eeabf7b74855737d7605ded194be6",
+          "README.md": "ccb3ef3dc3c5750495daf04baf3a7f2bccf269777701bd3db1d16cf2135024cb",
           "docs/screenshots/apps.png": "fe6c8b1d5a608a7d42e29c414dd87643fadfcdbdc6b8e9be2a60e158494f34d9",
           "docs/screenshots/overview.png": "02adf89df97ab8fcbb49b260159c5e506159f12b4ec524678bb8d07bcc118d63",
           "docs/screenshots/rules.png": "e1554c624c32a874331f9e86e2289d011ee942886324fca4060c3425b24dfd4d",
@@ -193,17 +193,48 @@
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-16T12:13:46.309Z",
-        "lastSuccessAt": "2026-11-16T12:13:46.309Z",
+        "lastAttemptAt": "2026-11-23T06:17:01.988Z",
+        "lastSuccessAt": "2026-11-23T06:17:01.988Z",
         "message": null,
         "status": "ok"
       },
       "id": "AD_Killer_By_NFQUEUE",
       "installationId": 174143190,
-      "maxStableVersionCode": 13401,
-      "maxVersionCode": 13401,
+      "maxStableVersionCode": 13501,
+      "maxVersionCode": 13501,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:3982cc6b294a096dfe8f16dbcf9bbf9c745cbadc78176cf0dd5a0505a760fb5a",
+            "id": 781787531,
+            "name": "AD_Killer_By_NFQUEUE-v1.2.15.zip",
+            "sha256": "3982cc6b294a096dfe8f16dbcf9bbf9c745cbadc78176cf0dd5a0505a760fb5a",
+            "size": 817933,
+            "url": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/download/v1.2.15/AD_Killer_By_NFQUEUE-v1.2.15.zip"
+          },
+          "body": "# v1.2.15 · 规则来源扩展与合并优化\n\n- 普通规则来源扩展至 20 个，新增 HaGeZi Light、AdRules DNS、hostsVN Threat、banad，以及 anti-AD、oisd、1Hosts、StevenBlack 的 Hosts 列表；乘风来源切换为视频规则。\n- “仅 Hosts”模式支持多源并集；最终黑白名单按域名去重计数，保留精确与后缀规则各自的匹配行为。\n- 升级迁移保留用户停用状态，处理旧地址与新地址重复、来源数量及配置大小上限；迁移仅执行一次，不覆盖后续修改。\n- 更新 Vite、Rollup 与 Vue 构建插件，补充来源迁移和多源规则一致性回归。\n\n**升级保留规则、来源、应用名单和设置；卸载默认删除本模块全部数据，包括日志和下载缓存。** 安装后请自行软重启，再检查守护和规则生效状态。\n",
+          "htmlUrl": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/tag/v1.2.15",
+          "immutable": true,
+          "name": "v1.2.15",
+          "prerelease": false,
+          "prop": {
+            "author": "fengwenhua",
+            "description": "基于 Linux 内核 NFQUEUE 的系统级去广告模块。纯 C++ 实现,规则源可自定义,无运行期外部依赖。",
+            "id": "AD_Killer_By_NFQUEUE",
+            "name": "AD Killer (by NFQUEUE)",
+            "releaseChannel": "stable",
+            "updateJson": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/latest/download/update.json",
+            "version": "v1.2.15",
+            "versionCode": "13501"
+          },
+          "publishedAt": "2026-11-23T06:16:35Z",
+          "releaseId": 455051557,
+          "tag": "v1.2.15",
+          "tagCommit": "5b4ffb9c9f712aafd5b4eaa5f519023f3be85d76",
+          "version": "v1.2.15",
+          "versionCode": 13501
+        },
         {
           "asset": {
             "digest": "sha256:ae28e823c2e5d3cee30b833dcb7ec98bc433dc28d63efac7099ac8f0656ce88b",
@@ -331,21 +362,25 @@
         "442897754": {
           "checkedAt": "2026-11-16T12:13:46.309Z",
           "ok": true
+        },
+        "455051557": {
+          "checkedAt": "2026-11-23T06:17:01.988Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:ae28e823c2e5d3cee30b833dcb7ec98bc433dc28d63efac7099ac8f0656ce88b",
-          "id": 739361917,
-          "name": "AD_Killer_By_NFQUEUE-v1.2.14.zip",
-          "sha256": "ae28e823c2e5d3cee30b833dcb7ec98bc433dc28d63efac7099ac8f0656ce88b",
-          "size": 813069,
-          "url": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/download/v1.2.14/AD_Killer_By_NFQUEUE-v1.2.14.zip"
+          "digest": "sha256:3982cc6b294a096dfe8f16dbcf9bbf9c745cbadc78176cf0dd5a0505a760fb5a",
+          "id": 781787531,
+          "name": "AD_Killer_By_NFQUEUE-v1.2.15.zip",
+          "sha256": "3982cc6b294a096dfe8f16dbcf9bbf9c745cbadc78176cf0dd5a0505a760fb5a",
+          "size": 817933,
+          "url": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/download/v1.2.15/AD_Killer_By_NFQUEUE-v1.2.15.zip"
         },
-        "body": "# v1.2.14 · 规则同步进度与更新体验\n\n- 模块更新改为确认目标版本后，连续完成下载、校验和安装；全程显示状态，完成后提示手动软重启。\n- 概览显示并发同步进度、逐源结果与重试次数；来源列表精简状态说明，增加“需要处理”筛选和详细原因。\n- 设置新增同步时间间隔，默认 30 分钟：再次手动同步复用有效成功缓存，失败来源继续下载；不会自动定时同步。\n- 设置新增每源失败重试次数，默认 2 次（首次失败后额外重试），支持 0–5 次；并发数仍默认 10、最高 20。\n- 失败来源不再阻止其余来源准备缓存；继续保持全部启用来源通过后整体更新，失败时保留完整旧规则。\n\n**升级保留规则、来源、应用名单和设置；卸载默认删除本模块全部数据，包括日志和下载缓存。** 安装后请自行软重启，再检查守护和规则生效状态。\n",
-        "htmlUrl": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/tag/v1.2.14",
+        "body": "# v1.2.15 · 规则来源扩展与合并优化\n\n- 普通规则来源扩展至 20 个，新增 HaGeZi Light、AdRules DNS、hostsVN Threat、banad，以及 anti-AD、oisd、1Hosts、StevenBlack 的 Hosts 列表；乘风来源切换为视频规则。\n- “仅 Hosts”模式支持多源并集；最终黑白名单按域名去重计数，保留精确与后缀规则各自的匹配行为。\n- 升级迁移保留用户停用状态，处理旧地址与新地址重复、来源数量及配置大小上限；迁移仅执行一次，不覆盖后续修改。\n- 更新 Vite、Rollup 与 Vue 构建插件，补充来源迁移和多源规则一致性回归。\n\n**升级保留规则、来源、应用名单和设置；卸载默认删除本模块全部数据，包括日志和下载缓存。** 安装后请自行软重启，再检查守护和规则生效状态。\n",
+        "htmlUrl": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/tag/v1.2.15",
         "immutable": true,
-        "name": "v1.2.14",
+        "name": "v1.2.15",
         "prerelease": false,
         "prop": {
           "author": "fengwenhua",
@@ -354,15 +389,15 @@
           "name": "AD Killer (by NFQUEUE)",
           "releaseChannel": "stable",
           "updateJson": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/latest/download/update.json",
-          "version": "v1.2.14",
-          "versionCode": "13401"
+          "version": "v1.2.15",
+          "versionCode": "13501"
         },
-        "publishedAt": "2026-11-12T12:13:56Z",
-        "releaseId": 442897754,
-        "tag": "v1.2.14",
-        "tagCommit": "0d9fb31d3aef5acb236026d22fc813a640d71a27",
-        "version": "v1.2.14",
-        "versionCode": 13401
+        "publishedAt": "2026-11-23T06:16:35Z",
+        "releaseId": 455051557,
+        "tag": "v1.2.15",
+        "tagCommit": "5b4ffb9c9f712aafd5b4eaa5f519023f3be85d76",
+        "version": "v1.2.15",
+        "versionCode": 13501
       },
       "stars": {
         "count": 3,
@@ -11665,8 +11700,8 @@
         "versionCode": 1115
       },
       "stars": {
-        "count": 1461,
-        "fetchedAt": "2026-11-22T04:41:21.034Z",
+        "count": 1469,
+        "fetchedAt": "2026-11-23T06:17:01.988Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
