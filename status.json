@@ -374,12 +374,12 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-23T17:31:52.806Z",
+        "checkedAt": "2026-11-23T17:37:56.545Z",
         "commit": "8cd5469964fab7f8f582eacf266ff6812ae82576",
         "issues": [],
-        "latestTag": "v0.1.0",
+        "latestTag": "v0.1.1",
         "ok": true,
-        "releaseId": 455115308,
+        "releaseId": 455769112,
         "repositoryId": 1468163221,
         "submissionId": "o935jsol3i"
       },
