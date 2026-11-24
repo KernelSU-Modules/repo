@@ -239,11 +239,11 @@
       }
     },
     "QSC_Battery": {
-      "contentCommit": "01a74170c68e7a994960a63bfbe49575a7c86aa0",
+      "contentCommit": "dfc37925961e156ca6bf179046fa6e41eb3a9dca",
       "fullName": "Eikeitsu/QSC-Battery",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-12T03:46:14.857Z",
+      "lastSuccessAt": "2026-11-24T04:08:23.092Z",
       "maxVersionCode": 2026101201,
       "message": null,
       "repositoryId": 1302628725,
@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "6bdf02c4a291945288a3ae16b7c3cdee6fdbd823",
+      "contentCommit": "a4234674fa7ba8019ee072537599d3d3f6a7bd6a",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,12 +374,12 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-24T01:22:09.910Z",
-        "commit": "6bdf02c4a291945288a3ae16b7c3cdee6fdbd823",
+        "checkedAt": "2026-11-24T04:08:23.092Z",
+        "commit": "a4234674fa7ba8019ee072537599d3d3f6a7bd6a",
         "issues": [],
-        "latestTag": "v0.1.3",
+        "latestTag": "v0.1.4",
         "ok": true,
-        "releaseId": 456194405,
+        "releaseId": 456294433,
         "repositoryId": 1468163221,
         "submissionId": "o935jsol3i"
       },
@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "e5041589a616e66c528031517708c5480c3774d5",
+      "contentCommit": "d98c5ce3ca56ecec2588b572db5b19dc6e72f162",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,8 +517,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-24T03:00:34.412Z",
-        "commit": "e5041589a616e66c528031517708c5480c3774d5",
+        "checkedAt": "2026-11-24T04:08:23.092Z",
+        "commit": "d98c5ce3ca56ecec2588b572db5b19dc6e72f162",
         "issues": [],
         "latestTag": "v0.4.2",
         "ok": true,

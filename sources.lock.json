@@ -3759,7 +3759,7 @@
     "QSC_Battery": {
       "content": {
         "blobs": {
-          "README.md": "3357d6ee6a857d884123be361756a61546966d4c",
+          "README.md": "8d4a9549641d726f4b7474983c1cd4e7e2b2fcbc",
           "docs/public/screenshots/webui-config.png": "ac1e7a925a022253604a389c9b93886ccdb8e7e5",
           "docs/public/screenshots/webui-log.png": "68ac03da74bbad0f76a172e72e63d34afbcdf0b9",
           "docs/public/screenshots/webui-more.png": "e53f0bc60883b04d02d1d624679d695b2dc94b7f",
@@ -3767,10 +3767,10 @@
           "module.yaml": "9ccd1e17007d6f35fef08d4c529189e98875dc8e",
           "module/icon.png": "4be08ff11dff3a0cf150c2b0ff5879e4baddfc5c"
         },
-        "commit": "01a74170c68e7a994960a63bfbe49575a7c86aa0",
-        "fetchedAt": "2026-10-12T03:46:14.857Z",
+        "commit": "dfc37925961e156ca6bf179046fa6e41eb3a9dca",
+        "fetchedAt": "2026-11-24T04:08:23.092Z",
         "files": {
-          "README.md": "6f310301ba94d3ce6209e0bc93796fda3e5ea002eee178bac9522be17856d88c",
+          "README.md": "1e0b2c2c8627824ad83ba2c60797bd4f8133133022ec909b7f9708c00793fbc1",
           "docs/public/screenshots/webui-config.png": "ba01d1c8d4cd5c19f5e73b477c9c26da901bf0e2bdf4d7abf2d5cd910f7dfb39",
           "docs/public/screenshots/webui-log.png": "e708ff14eddd1e019d4105c24346474ffe4186ddeec9e18b45ffcf95e67f3cf7",
           "docs/public/screenshots/webui-more.png": "8ab4ef031b11cfad07b510448230044c15c1aa87ac5eb87e5cb10347aafcec8a",
@@ -3784,8 +3784,8 @@
       "fullName": "Eikeitsu/QSC-Battery",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-12T03:46:14.857Z",
-        "lastSuccessAt": "2026-10-12T03:46:14.857Z",
+        "lastAttemptAt": "2026-11-24T04:08:23.092Z",
+        "lastSuccessAt": "2026-11-24T04:08:23.092Z",
         "message": null,
         "status": "ok"
       },
