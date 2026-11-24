@@ -1420,16 +1420,16 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-24T12:12:36.777Z",
-      "maxVersionCode": 440,
+      "lastSuccessAt": "2026-11-24T13:09:42.850Z",
+      "maxVersionCode": 442,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-24T12:12:11Z",
-        "tag": "v2.19.0",
-        "version": "v2.19.0 (440-3d5c8e9-release)",
-        "versionCode": 440
+        "publishedAt": "2026-11-24T13:09:20Z",
+        "tag": "v2.20.0",
+        "version": "v2.20.0 (442-c15b67b-release)",
+        "versionCode": 442
       }
     },
     "zygisksu": {
