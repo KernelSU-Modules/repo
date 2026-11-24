@@ -170,17 +170,17 @@
     "AD_Killer_By_NFQUEUE": {
       "content": {
         "blobs": {
-          "README.md": "22be8afdd4ef744054df273139f2110f0767bba5",
+          "README.md": "c7088790ace351df1147cf7e82ffcbf9a9fd5fa7",
           "docs/screenshots/apps.png": "48135b54232fc5174761e02a064332d2a61d9820",
           "docs/screenshots/overview.png": "2148fcd07ca6873c1a1468ee081c8d0c32b1e785",
           "docs/screenshots/rules.png": "ce6e822ee0cf0a2dfdcecbb9323ed1eaccca0fcc",
           "docs/screenshots/settings.png": "35326caf59cf944b68c1032727c35016082d508e",
           "module.yaml": "5168ceb0bfc60baa53d89ed9be24d527a5388f6a"
         },
-        "commit": "5b4ffb9c9f712aafd5b4eaa5f519023f3be85d76",
-        "fetchedAt": "2026-11-23T06:17:01.988Z",
+        "commit": "02df816f00a2b3178c1e9f7198574623f23a5527",
+        "fetchedAt": "2026-11-24T05:21:15.306Z",
         "files": {
-          "README.md": "ccb3ef3dc3c5750495daf04baf3a7f2bccf269777701bd3db1d16cf2135024cb",
+          "README.md": "9aca969c9c79847ad7ecfba537e5fd74e9a27a26ed59532fb95f4b4295cedf21",
           "docs/screenshots/apps.png": "fe6c8b1d5a608a7d42e29c414dd87643fadfcdbdc6b8e9be2a60e158494f34d9",
           "docs/screenshots/overview.png": "02adf89df97ab8fcbb49b260159c5e506159f12b4ec524678bb8d07bcc118d63",
           "docs/screenshots/rules.png": "e1554c624c32a874331f9e86e2289d011ee942886324fca4060c3425b24dfd4d",
@@ -193,8 +193,8 @@
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T06:17:01.988Z",
-        "lastSuccessAt": "2026-11-23T06:17:01.988Z",
+        "lastAttemptAt": "2026-11-24T05:21:15.306Z",
+        "lastSuccessAt": "2026-11-24T05:21:15.306Z",
         "message": null,
         "status": "ok"
       },

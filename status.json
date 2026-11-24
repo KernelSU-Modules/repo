@@ -18,11 +18,11 @@
       }
     },
     "AD_Killer_By_NFQUEUE": {
-      "contentCommit": "5b4ffb9c9f712aafd5b4eaa5f519023f3be85d76",
+      "contentCommit": "02df816f00a2b3178c1e9f7198574623f23a5527",
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-23T06:17:01.988Z",
+      "lastSuccessAt": "2026-11-24T05:21:15.306Z",
       "maxVersionCode": 13501,
       "message": null,
       "repositoryId": 1428389721,
@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "a4234674fa7ba8019ee072537599d3d3f6a7bd6a",
+      "contentCommit": "10bb5393cee3ac2ecb0083b2186800eca70017eb",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,12 +374,12 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-24T04:08:23.092Z",
-        "commit": "a4234674fa7ba8019ee072537599d3d3f6a7bd6a",
+        "checkedAt": "2026-11-24T05:21:15.306Z",
+        "commit": "10bb5393cee3ac2ecb0083b2186800eca70017eb",
         "issues": [],
-        "latestTag": "v0.1.4",
+        "latestTag": "v0.1.5",
         "ok": true,
-        "releaseId": 456294433,
+        "releaseId": 456338565,
         "repositoryId": 1468163221,
         "submissionId": "o935jsol3i"
       },
@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "d98c5ce3ca56ecec2588b572db5b19dc6e72f162",
+      "contentCommit": "33cd8239d20ae46c96f27e904117c8221aa74c86",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,8 +517,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-24T04:08:23.092Z",
-        "commit": "d98c5ce3ca56ecec2588b572db5b19dc6e72f162",
+        "checkedAt": "2026-11-24T05:21:15.306Z",
+        "commit": "33cd8239d20ae46c96f27e904117c8221aa74c86",
         "issues": [],
         "latestTag": "v0.4.2",
         "ok": true,
