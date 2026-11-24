@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "0811591ce5b589f5a966c96aa1e3ee1997807773",
+      "contentCommit": "e5041589a616e66c528031517708c5480c3774d5",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,8 +517,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-24T01:22:09.910Z",
-        "commit": "0811591ce5b589f5a966c96aa1e3ee1997807773",
+        "checkedAt": "2026-11-24T03:00:34.412Z",
+        "commit": "e5041589a616e66c528031517708c5480c3774d5",
         "issues": [],
         "latestTag": "v0.4.2",
         "ok": true,
@@ -1031,11 +1031,11 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "ce48d90228a651b37c5c1c7bd2b34e5fd4984653",
+      "contentCommit": "7617d58663b8028015f57e7e5e0a27fee0fdf740",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-24T01:22:09.910Z",
+      "lastSuccessAt": "2026-11-24T03:00:34.412Z",
       "maxVersionCode": 1210,
       "message": null,
       "repositoryId": 1445526027,
