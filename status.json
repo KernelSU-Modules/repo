@@ -586,11 +586,11 @@
     "clipshield": {
       "contentCommit": "d8f93a074897019af9a91320864a00c59c55b0bc",
       "fullName": "klmmlk/KernelSU-ClipShield",
-      "health": "stale",
+      "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-23T12:10:43.883Z",
+      "lastSuccessAt": "2026-11-24T01:23:46.192Z",
       "maxVersionCode": 7,
-      "message": "github-unavailable: temporary GitHub error while reading the repository; will retry",
+      "message": null,
       "repositoryId": 1417109515,
       "request": null,
       "stable": {
