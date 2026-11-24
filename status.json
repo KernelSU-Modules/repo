@@ -243,16 +243,16 @@
       "fullName": "Eikeitsu/QSC-Battery",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-24T04:08:23.092Z",
-      "maxVersionCode": 2026101201,
+      "lastSuccessAt": "2026-11-24T09:05:07.365Z",
+      "maxVersionCode": 2026112401,
       "message": null,
       "repositoryId": 1302628725,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-12T03:39:23Z",
-        "tag": "v2026.10.12",
-        "version": "2026.10.12",
-        "versionCode": 2026101201
+        "publishedAt": "2026-11-24T09:04:48Z",
+        "tag": "v2026.11.24",
+        "version": "2026.11.24",
+        "versionCode": 2026112401
       }
     },
     "ReSuSFS": {
