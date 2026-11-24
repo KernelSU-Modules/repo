@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "9644f825ffc5d54b11d4534a568a66b21bfc1202",
+      "contentCommit": "bcf824ba4f2162ea0f6e9b06ce3f39a3b86bc971",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-24T06:36:14.211Z",
-        "commit": "9644f825ffc5d54b11d4534a568a66b21bfc1202",
+        "checkedAt": "2026-11-24T07:24:48.412Z",
+        "commit": "bcf824ba4f2162ea0f6e9b06ce3f39a3b86bc971",
         "issues": [],
         "latestTag": "v0.1.5",
         "ok": true,
@@ -997,11 +997,11 @@
       }
     },
     "magic_v2ray": {
-      "contentCommit": "6f3cdcffba0ce5a9175d2c53b9894e63baf3ee21",
+      "contentCommit": "73f2df674ebb1e031f58d622a77c7ca4c3583aae",
       "fullName": "vincentng295/Magic_V2Ray",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-22T17:29:05.659Z",
+      "lastSuccessAt": "2026-11-24T07:24:48.412Z",
       "maxVersionCode": 211,
       "message": null,
       "repositoryId": 1256102852,
@@ -1369,16 +1369,16 @@
       "fullName": "Rouyashiki/YukiZygisk",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-23T10:19:04.206Z",
-      "maxVersionCode": 10158,
+      "lastSuccessAt": "2026-11-24T07:24:48.412Z",
+      "maxVersionCode": 10159,
       "message": null,
       "repositoryId": 1297024368,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-23T10:18:30Z",
-        "tag": "ci-45154188178",
-        "version": "v0.5.0-10158",
-        "versionCode": 10158
+        "publishedAt": "2026-11-24T07:24:28Z",
+        "tag": "ci-45347236241",
+        "version": "v0.5.0-10159",
+        "versionCode": 10159
       }
     },
     "zygisk-sui": {
