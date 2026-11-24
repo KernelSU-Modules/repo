@@ -4038,8 +4038,8 @@
         "versionCode": 2026101201
       },
       "stars": {
-        "count": 71,
-        "fetchedAt": "2026-11-23T03:18:26.150Z",
+        "count": 73,
+        "fetchedAt": "2026-11-24T03:21:54.153Z",
         "fullName": "Eikeitsu/QSC-Battery",
         "repositoryId": 1302628725,
         "verified": "self"
@@ -4267,8 +4267,8 @@
         "versionCode": 22
       },
       "stars": {
-        "count": 168,
-        "fetchedAt": "2026-11-23T03:18:26.150Z",
+        "count": 169,
+        "fetchedAt": "2026-11-24T03:21:54.153Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -10857,15 +10857,15 @@
           ".github/logo.png": "69a5399b0353886699c2ac24136ccc024acb891d",
           "README.md": "176b77adbb2c5da5b120ea1cab99a5e1babfa7be",
           "module.yaml": "e8aa44dd3b8f0584742886f4abcb776e765fc6bc",
-          "webui/public/mirageforge-logo.svg": "ab663dd05861c628adf49d4aad0ebed8fe85768e"
+          "webui/public/mirageforge-logo.svg": "0a4386b301c4ff1c5050db5911a0b5b4f82459e5"
         },
-        "commit": "ce48d90228a651b37c5c1c7bd2b34e5fd4984653",
-        "fetchedAt": "2026-11-24T03:18:20.845Z",
+        "commit": "fd9e65a95d85299444d67923944dc4fe0d53ad8f",
+        "fetchedAt": "2026-11-24T03:21:54.153Z",
         "files": {
           ".github/logo.png": "bf87da9eba197fa767a10921920d77d783fb3dc6f1b46513975f5ea6defa1f2d",
           "README.md": "18d3977b27781f6f9644d1681192b94cf1c250109b195661d6509283a02ce155",
           "module.yaml": "e84f417a435685063136750153b739ff81119024da473a63b074a8bcc7701c7f",
-          "webui/public/mirageforge-logo.svg": "82d43251ac75b5bade3db5aa538013c7eea593d27220303e2730d0afdb7737a9"
+          "webui/public/mirageforge-logo.svg": "9fe580c17fdffb567bb6233c5c3efe53a25505884d8be962f98416f576d3ba52"
         },
         "manifestPath": "module.yaml",
         "ref": "main"
@@ -10873,8 +10873,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-24T03:18:20.845Z",
-        "lastSuccessAt": "2026-11-24T03:18:20.845Z",
+        "lastAttemptAt": "2026-11-24T03:21:54.153Z",
+        "lastSuccessAt": "2026-11-24T03:21:54.153Z",
         "message": null,
         "status": "ok"
       },
@@ -12575,8 +12575,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4244,
-        "fetchedAt": "2026-11-23T03:18:26.150Z",
+        "count": 4251,
+        "fetchedAt": "2026-11-24T03:21:54.153Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
@@ -16554,8 +16554,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 11130,
-        "fetchedAt": "2026-11-23T03:18:26.150Z",
+        "count": 11142,
+        "fetchedAt": "2026-11-24T03:21:54.153Z",
         "fullName": "Dr-TSNG/ZygiskNext",
         "repositoryId": 594330628,
         "verified": "self"
