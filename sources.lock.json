@@ -193,17 +193,48 @@
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-24T05:21:15.306Z",
-        "lastSuccessAt": "2026-11-24T05:21:15.306Z",
+        "lastAttemptAt": "2026-11-24T06:34:50.595Z",
+        "lastSuccessAt": "2026-11-24T06:34:50.595Z",
         "message": null,
         "status": "ok"
       },
       "id": "AD_Killer_By_NFQUEUE",
       "installationId": 174143190,
-      "maxStableVersionCode": 13501,
-      "maxVersionCode": 13501,
+      "maxStableVersionCode": 13601,
+      "maxVersionCode": 13601,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:b7627ec6ab5a857f640bfd8b762deca73c4ad0b2fa888e5059bc9e94addd8f27",
+            "id": 786008705,
+            "name": "AD_Killer_By_NFQUEUE-v1.2.16.zip",
+            "sha256": "b7627ec6ab5a857f640bfd8b762deca73c4ad0b2fa888e5059bc9e94addd8f27",
+            "size": 828331,
+            "url": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/download/v1.2.16/AD_Killer_By_NFQUEUE-v1.2.16.zip"
+          },
+          "body": "# v1.2.16 · 来源界面与同步可靠性优化\n\n- 来源显示真实名称，名称与链接分层，支持展开和复制完整地址；窄屏操作按钮改为两列。\n- 已知 GitHub 规则来源增加 CDN 与原地址回退，实际下载地址可查；切换通道共用重试次数和总预算，避免跨地址误用缓存校验信息。\n- 新安装默认使用完整 HaGeZi Pro，只下载一份 Pro；升级保留原配方与启停，可显式选择完整 Pro 或兼容旧版，保存并同步后生效。\n- 两种 HaGeZi 配方缓存隔离，失败时保留旧规则；保留 Light 的后缀覆盖，修复旧缓存警告被成功标记掩盖的问题。\n\n**升级保留规则、来源、应用名单和设置；卸载默认删除本模块全部数据，包括日志和下载缓存。** 安装后请自行软重启，再检查守护和规则生效状态。\n",
+          "htmlUrl": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/tag/v1.2.16",
+          "immutable": true,
+          "name": "v1.2.16",
+          "prerelease": false,
+          "prop": {
+            "author": "fengwenhua",
+            "description": "基于 Linux 内核 NFQUEUE 的系统级去广告模块。纯 C++ 实现,规则源可自定义,无运行期外部依赖。",
+            "id": "AD_Killer_By_NFQUEUE",
+            "name": "AD Killer (by NFQUEUE)",
+            "releaseChannel": "stable",
+            "updateJson": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/latest/download/update.json",
+            "version": "v1.2.16",
+            "versionCode": "13601"
+          },
+          "publishedAt": "2026-11-24T06:34:27Z",
+          "releaseId": 456380322,
+          "tag": "v1.2.16",
+          "tagCommit": "7e9306c166dea9d68a47127e63d2c4fff8b34187",
+          "version": "v1.2.16",
+          "versionCode": 13601
+        },
         {
           "asset": {
             "digest": "sha256:3982cc6b294a096dfe8f16dbcf9bbf9c745cbadc78176cf0dd5a0505a760fb5a",
@@ -366,21 +397,25 @@
         "455051557": {
           "checkedAt": "2026-11-23T06:17:01.988Z",
           "ok": true
+        },
+        "456380322": {
+          "checkedAt": "2026-11-24T06:34:50.595Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:3982cc6b294a096dfe8f16dbcf9bbf9c745cbadc78176cf0dd5a0505a760fb5a",
-          "id": 781787531,
-          "name": "AD_Killer_By_NFQUEUE-v1.2.15.zip",
-          "sha256": "3982cc6b294a096dfe8f16dbcf9bbf9c745cbadc78176cf0dd5a0505a760fb5a",
-          "size": 817933,
-          "url": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/download/v1.2.15/AD_Killer_By_NFQUEUE-v1.2.15.zip"
+          "digest": "sha256:b7627ec6ab5a857f640bfd8b762deca73c4ad0b2fa888e5059bc9e94addd8f27",
+          "id": 786008705,
+          "name": "AD_Killer_By_NFQUEUE-v1.2.16.zip",
+          "sha256": "b7627ec6ab5a857f640bfd8b762deca73c4ad0b2fa888e5059bc9e94addd8f27",
+          "size": 828331,
+          "url": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/download/v1.2.16/AD_Killer_By_NFQUEUE-v1.2.16.zip"
         },
-        "body": "# v1.2.15 · 规则来源扩展与合并优化\n\n- 普通规则来源扩展至 20 个，新增 HaGeZi Light、AdRules DNS、hostsVN Threat、banad，以及 anti-AD、oisd、1Hosts、StevenBlack 的 Hosts 列表；乘风来源切换为视频规则。\n- “仅 Hosts”模式支持多源并集；最终黑白名单按域名去重计数，保留精确与后缀规则各自的匹配行为。\n- 升级迁移保留用户停用状态，处理旧地址与新地址重复、来源数量及配置大小上限；迁移仅执行一次，不覆盖后续修改。\n- 更新 Vite、Rollup 与 Vue 构建插件，补充来源迁移和多源规则一致性回归。\n\n**升级保留规则、来源、应用名单和设置；卸载默认删除本模块全部数据，包括日志和下载缓存。** 安装后请自行软重启，再检查守护和规则生效状态。\n",
-        "htmlUrl": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/tag/v1.2.15",
+        "body": "# v1.2.16 · 来源界面与同步可靠性优化\n\n- 来源显示真实名称，名称与链接分层，支持展开和复制完整地址；窄屏操作按钮改为两列。\n- 已知 GitHub 规则来源增加 CDN 与原地址回退，实际下载地址可查；切换通道共用重试次数和总预算，避免跨地址误用缓存校验信息。\n- 新安装默认使用完整 HaGeZi Pro，只下载一份 Pro；升级保留原配方与启停，可显式选择完整 Pro 或兼容旧版，保存并同步后生效。\n- 两种 HaGeZi 配方缓存隔离，失败时保留旧规则；保留 Light 的后缀覆盖，修复旧缓存警告被成功标记掩盖的问题。\n\n**升级保留规则、来源、应用名单和设置；卸载默认删除本模块全部数据，包括日志和下载缓存。** 安装后请自行软重启，再检查守护和规则生效状态。\n",
+        "htmlUrl": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/tag/v1.2.16",
         "immutable": true,
-        "name": "v1.2.15",
+        "name": "v1.2.16",
         "prerelease": false,
         "prop": {
           "author": "fengwenhua",
@@ -389,15 +424,15 @@
           "name": "AD Killer (by NFQUEUE)",
           "releaseChannel": "stable",
           "updateJson": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/latest/download/update.json",
-          "version": "v1.2.15",
-          "versionCode": "13501"
+          "version": "v1.2.16",
+          "versionCode": "13601"
         },
-        "publishedAt": "2026-11-23T06:16:35Z",
-        "releaseId": 455051557,
-        "tag": "v1.2.15",
-        "tagCommit": "5b4ffb9c9f712aafd5b4eaa5f519023f3be85d76",
-        "version": "v1.2.15",
-        "versionCode": 13501
+        "publishedAt": "2026-11-24T06:34:27Z",
+        "releaseId": 456380322,
+        "tag": "v1.2.16",
+        "tagCommit": "7e9306c166dea9d68a47127e63d2c4fff8b34187",
+        "version": "v1.2.16",
+        "versionCode": 13601
       },
       "stars": {
         "count": 4,
@@ -11703,8 +11738,8 @@
         "versionCode": 1115
       },
       "stars": {
-        "count": 1469,
-        "fetchedAt": "2026-11-23T06:17:01.988Z",
+        "count": 1472,
+        "fetchedAt": "2026-11-24T06:34:50.595Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
