@@ -1,0 +1,19 @@
+id: leanspoof
+status: pending
+request:
+  submissionId: os45764yob
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1469726951
+    ownerId: 105339980
+    fullName: LeanxModulostk/LeanSpoof
+    manifestPath: module.yaml
+  submittedBy: 105339980
+  submittedByLogin: LeanxModulostk
+  submittedAt: 2026-11-24T17:16:01.643Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65303
+createdAt: 2026-11-24T17:16:01.643Z
+updatedAt: 2026-11-24T17:16:01.643Z
