@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "1dfc7fce1191ccb3fe80050e53d4312a7a121437",
+      "contentCommit": "6bdf02c4a291945288a3ae16b7c3cdee6fdbd823",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,12 +374,12 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-23T20:43:57.017Z",
-        "commit": "1dfc7fce1191ccb3fe80050e53d4312a7a121437",
+        "checkedAt": "2026-11-24T01:22:09.910Z",
+        "commit": "6bdf02c4a291945288a3ae16b7c3cdee6fdbd823",
         "issues": [],
-        "latestTag": "v0.1.2",
+        "latestTag": "v0.1.3",
         "ok": true,
-        "releaseId": 455974628,
+        "releaseId": 456194405,
         "repositoryId": 1468163221,
         "submissionId": "o935jsol3i"
       },
@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "e4b857ee47ed580aa7a7a21288237c44717e599e",
+      "contentCommit": "0811591ce5b589f5a966c96aa1e3ee1997807773",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,8 +517,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-23T23:06:35.934Z",
-        "commit": "e4b857ee47ed580aa7a7a21288237c44717e599e",
+        "checkedAt": "2026-11-24T01:22:09.910Z",
+        "commit": "0811591ce5b589f5a966c96aa1e3ee1997807773",
         "issues": [],
         "latestTag": "v0.4.2",
         "ok": true,
@@ -586,11 +586,11 @@
     "clipshield": {
       "contentCommit": "d8f93a074897019af9a91320864a00c59c55b0bc",
       "fullName": "klmmlk/KernelSU-ClipShield",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-23T12:10:43.883Z",
       "maxVersionCode": 7,
-      "message": null,
+      "message": "github-unavailable: temporary GitHub error while reading the repository; will retry",
       "repositoryId": 1417109515,
       "request": null,
       "stable": {
@@ -1031,11 +1031,11 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "74bd8718f0c0bbbd60437d26d6253b861de3a385",
+      "contentCommit": "ce48d90228a651b37c5c1c7bd2b34e5fd4984653",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-23T23:06:35.934Z",
+      "lastSuccessAt": "2026-11-24T01:22:09.910Z",
       "maxVersionCode": 1210,
       "message": null,
       "repositoryId": 1445526027,

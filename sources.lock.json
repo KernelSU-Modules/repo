@@ -1671,8 +1671,8 @@
         "versionCode": 39
       },
       "stars": {
-        "count": 30,
-        "fetchedAt": "2026-11-22T17:29:05.659Z",
+        "count": 31,
+        "fetchedAt": "2026-11-24T01:22:09.910Z",
         "fullName": "f1owkang/CRecordEvolution",
         "repositoryId": 678049636,
         "verified": "self"
@@ -2107,8 +2107,8 @@
         "versionCode": 444
       },
       "stars": {
-        "count": 14,
-        "fetchedAt": "2026-11-22T07:29:20.095Z",
+        "count": 15,
+        "fetchedAt": "2026-11-24T01:22:09.910Z",
         "fullName": "yunyu614/AutoPurge-Pro",
         "repositoryId": 1442603685,
         "verified": "self"
@@ -2214,8 +2214,8 @@
         "versionCode": 20260821
       },
       "stars": {
-        "count": 320,
-        "fetchedAt": "2026-11-17T16:16:34.316Z",
+        "count": 321,
+        "fetchedAt": "2026-11-24T01:22:09.910Z",
         "fullName": "Seyud/FreePPS",
         "repositoryId": 1063205512,
         "requested": "Seyud/FreePPS",
@@ -6174,10 +6174,10 @@
       "fullName": "klmmlk/KernelSU-ClipShield",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T12:10:43.883Z",
+        "lastAttemptAt": "2026-11-24T01:22:09.910Z",
         "lastSuccessAt": "2026-11-23T12:10:43.883Z",
-        "message": null,
-        "status": "ok"
+        "message": "github-unavailable: temporary GitHub error while reading the repository; will retry",
+        "status": "stale"
       },
       "id": "clipshield",
       "installationId": 171057853,
@@ -10855,15 +10855,15 @@
       "content": {
         "blobs": {
           ".github/logo.png": "69a5399b0353886699c2ac24136ccc024acb891d",
-          "README.md": "1f5b3a57c3282535aab9ccc560c566634e350ebc",
+          "README.md": "176b77adbb2c5da5b120ea1cab99a5e1babfa7be",
           "module.yaml": "e8aa44dd3b8f0584742886f4abcb776e765fc6bc",
           "webui/public/mirageforge-logo.svg": "ab663dd05861c628adf49d4aad0ebed8fe85768e"
         },
-        "commit": "74bd8718f0c0bbbd60437d26d6253b861de3a385",
-        "fetchedAt": "2026-11-18T09:30:16.639Z",
+        "commit": "ce48d90228a651b37c5c1c7bd2b34e5fd4984653",
+        "fetchedAt": "2026-11-24T01:22:09.910Z",
         "files": {
           ".github/logo.png": "bf87da9eba197fa767a10921920d77d783fb3dc6f1b46513975f5ea6defa1f2d",
-          "README.md": "48d2e03adff0ae6f650340f7f41cddc705ce4b3d8b9fb48b70d7ada288f66144",
+          "README.md": "18d3977b27781f6f9644d1681192b94cf1c250109b195661d6509283a02ce155",
           "module.yaml": "e84f417a435685063136750153b739ff81119024da473a63b074a8bcc7701c7f",
           "webui/public/mirageforge-logo.svg": "82d43251ac75b5bade3db5aa538013c7eea593d27220303e2730d0afdb7737a9"
         },
@@ -10873,8 +10873,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T23:06:35.934Z",
-        "lastSuccessAt": "2026-11-23T23:06:35.934Z",
+        "lastAttemptAt": "2026-11-24T01:22:09.910Z",
+        "lastSuccessAt": "2026-11-24T01:22:09.910Z",
         "message": null,
         "status": "ok"
       },
