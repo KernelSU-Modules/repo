@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "e04374f113f02069ff9b14f44b254ab290c23ab8",
+      "contentCommit": "4237fa4e90b13aaf26002b2ae1e370039db0316e",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-24T08:15:54.677Z",
-        "commit": "e04374f113f02069ff9b14f44b254ab290c23ab8",
+        "checkedAt": "2026-11-24T17:16:35.339Z",
+        "commit": "4237fa4e90b13aaf26002b2ae1e370039db0316e",
         "issues": [],
         "latestTag": "v0.1.7",
         "ok": true,
@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "33cd8239d20ae46c96f27e904117c8221aa74c86",
+      "contentCommit": "db93e8c0696341465d5e252dc1914da518200634",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,8 +517,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-24T05:21:15.306Z",
-        "commit": "33cd8239d20ae46c96f27e904117c8221aa74c86",
+        "checkedAt": "2026-11-24T17:16:35.339Z",
+        "commit": "db93e8c0696341465d5e252dc1914da518200634",
         "issues": [],
         "latestTag": "v0.4.2",
         "ok": true,
@@ -853,11 +853,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "ed90b4461d2b1349398561f5793fb7cf3c338f6b",
+      "contentCommit": "5bc6d01f0d5c54e1ecfee2d4bbbd481fe64e3705",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-23T17:31:52.806Z",
+      "lastSuccessAt": "2026-11-24T17:16:35.339Z",
       "maxVersionCode": 240,
       "message": null,
       "repositoryId": 1446403674,
@@ -961,6 +961,27 @@
         "version": "v3.3.0",
         "versionCode": 330
       }
+    },
+    "leanspoof": {
+      "contentCommit": "229750d25d491a7bf63d3c15f9b38f0e77c85c6b",
+      "fullName": "LeanxModulostk/LeanSpoof",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1469726951,
+      "request": {
+        "checkedAt": "2026-11-24T17:16:35.339Z",
+        "commit": "229750d25d491a7bf63d3c15f9b38f0e77c85c6b",
+        "issues": [],
+        "latestTag": "v1",
+        "ok": true,
+        "releaseId": 457085615,
+        "repositoryId": 1469726951,
+        "submissionId": "os45764yob"
+      },
+      "stable": null
     },
     "lkm4ctr": {
       "contentCommit": "d033555d2d7f9c302b45d787ebcbbe9faed434fc",

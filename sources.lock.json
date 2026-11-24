@@ -4907,8 +4907,8 @@
       "seen": {},
       "stable": null,
       "stars": {
-        "count": 89,
-        "fetchedAt": "2026-11-21T16:44:47.155Z",
+        "count": 90,
+        "fetchedAt": "2026-11-24T17:16:35.339Z",
         "fullName": "LxyaoX/VexZygisk",
         "repositoryId": 1305247883,
         "verified": "self"
@@ -5076,8 +5076,8 @@
         "versionCode": 10600
       },
       "stars": {
-        "count": 12,
-        "fetchedAt": "2026-11-21T09:49:50.194Z",
+        "count": 13,
+        "fetchedAt": "2026-11-24T17:16:35.339Z",
         "fullName": "Infiniti151/acc-with-webui",
         "repositoryId": 1296470014,
         "verified": "self"
@@ -7776,8 +7776,8 @@
         "versionCode": 100
       },
       "stars": {
-        "count": 4,
-        "fetchedAt": "2026-11-06T14:37:39.293Z",
+        "count": 5,
+        "fetchedAt": "2026-11-24T17:16:35.339Z",
         "fullName": "KernelSU-Modules/example-module",
         "repositoryId": 1413800395,
         "verified": "self"
@@ -8810,7 +8810,7 @@
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
           "docs/badges/downloads.svg": "46368826dc052d981a7c5ef2245e280dff7803f3",
           "docs/badges/release.svg": "990c1f475210976a69f415da792a3cee2831ac2f",
-          "docs/badges/stars.svg": "99f36d9d48607e8bb798543994a9e844ad4ea0ae",
+          "docs/badges/stars.svg": "e0d5f18dccff0710417a370e776cf80b4c831125",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
           "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
           "docs/screenshots/app-cache.png": "6c9a644eb5fc9aa8d61036867b504362d1962218",
@@ -8830,15 +8830,15 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "ed90b4461d2b1349398561f5793fb7cf3c338f6b",
-        "fetchedAt": "2026-11-23T17:31:52.806Z",
+        "commit": "5bc6d01f0d5c54e1ecfee2d4bbbd481fe64e3705",
+        "fetchedAt": "2026-11-24T17:16:35.339Z",
         "files": {
           "README.md": "29ef6a405aeec3263e68343d11347871e730c3bc8ececab413656614c7458706",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
           "docs/badges/downloads.svg": "542972cac7715dbc31ba25866476832fe8f36648b51fe4517db767d1e1cf23af",
           "docs/badges/release.svg": "ad1c45fcbb76589bc8e54901524cddd87281c26eea8e99f139fcd855940bb6b6",
-          "docs/badges/stars.svg": "fb86701c457890eb6e41473302172752287f25ca1853f67e1ae923246acefd5b",
+          "docs/badges/stars.svg": "e66aa12b12304f6ebd0d7af90de8b351e11d2d096e46351dabdb9d5d54e4c7da",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
           "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
           "docs/screenshots/app-cache.png": "74ec72f4f19a4a5f6ed51c1e1f8e18f2f196a7b14950fe0124db778644838d43",
@@ -8864,8 +8864,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T17:31:52.806Z",
-        "lastSuccessAt": "2026-11-23T17:31:52.806Z",
+        "lastAttemptAt": "2026-11-24T17:16:35.339Z",
+        "lastSuccessAt": "2026-11-24T17:16:35.339Z",
         "message": null,
         "status": "ok"
       },
@@ -9323,8 +9323,8 @@
         "versionCode": 240
       },
       "stars": {
-        "count": 33,
-        "fetchedAt": "2026-11-23T17:31:52.806Z",
+        "count": 34,
+        "fetchedAt": "2026-11-24T17:16:35.339Z",
         "fullName": "yudharn/HyperCool",
         "repositoryId": 1446403674,
         "verified": "self"
@@ -15766,8 +15766,8 @@
         "versionCode": 221
       },
       "stars": {
-        "count": 34,
-        "fetchedAt": "2026-11-22T17:29:05.659Z",
+        "count": 35,
+        "fetchedAt": "2026-11-24T17:16:35.339Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
