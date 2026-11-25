@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "55f7fa0b5c4d85838fa94302869e34746f3e57cd",
+      "contentCommit": "76573826768b668d0f20a0af535a747e88d5eba1",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-25T07:06:30.610Z",
-        "commit": "55f7fa0b5c4d85838fa94302869e34746f3e57cd",
+        "checkedAt": "2026-11-25T07:13:36.321Z",
+        "commit": "76573826768b668d0f20a0af535a747e88d5eba1",
         "issues": [],
         "latestTag": "v0.1.9",
         "ok": true,
@@ -1022,16 +1022,16 @@
       "fullName": "vincentng295/Magic_V2Ray",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-24T07:24:48.412Z",
-      "maxVersionCode": 211,
+      "lastSuccessAt": "2026-11-25T07:13:36.321Z",
+      "maxVersionCode": 213,
       "message": null,
       "repositoryId": 1256102852,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-22T08:47:21Z",
-        "tag": "v3.4",
-        "version": "v3.4",
-        "versionCode": 211
+        "publishedAt": "2026-11-25T07:13:14Z",
+        "tag": "v4.0",
+        "version": "v4.0",
+        "versionCode": 213
       }
     },
     "magisk-netbird": {

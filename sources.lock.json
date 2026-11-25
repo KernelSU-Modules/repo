@@ -10295,17 +10295,48 @@
       "fullName": "vincentng295/Magic_V2Ray",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-24T07:24:48.412Z",
-        "lastSuccessAt": "2026-11-24T07:24:48.412Z",
+        "lastAttemptAt": "2026-11-25T07:13:36.321Z",
+        "lastSuccessAt": "2026-11-25T07:13:36.321Z",
         "message": null,
         "status": "ok"
       },
       "id": "magic_v2ray",
       "installationId": 184380681,
-      "maxStableVersionCode": 211,
-      "maxVersionCode": 211,
+      "maxStableVersionCode": 213,
+      "maxVersionCode": 213,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:6fa701222baf03d13f176383307114a4ee73ff4c02f06802a35af5a72d010aa9",
+            "id": 790491638,
+            "name": "magic_v2ray-v4.0-stub.zip",
+            "sha256": "6fa701222baf03d13f176383307114a4ee73ff4c02f06802a35af5a72d010aa9",
+            "size": 3292,
+            "url": "https://github.com/vincentng295/Magic_V2Ray/releases/download/v4.0/magic_v2ray-v4.0-stub.zip"
+          },
+          "body": "# Magic V2Ray v4.0 Release Notes\n\n### Highlights\n\n- **Hotspot sharing without Shizuku**: share your proxy over hotspot using Wireless debugging (ADB) pairing and a built-in `app_process` helper.\n- **Multi-hop proxy chains**: build chains of 2-16 hops.\n- **In-app updates**: download, verify and install new APKs directly from the app.\n- **External API level 2**: permission-gated node access for other apps.\n\n### Added\n\n- **ADB-based hotspot sharing (no Shizuku required)**\n  - Wireless debugging pairing and an `app_process` helper, with ADB status and pairing controls in the Web UI and notification-based pairing.\n  - Optional persistent ADB TCP mode that reconnects without re-pairing after the first wireless ADB connection. It can be disabled in settings, and a warning is shown that the port is reachable on networks the phone joins.\n  - Configurable ADB TCP port: random or custom, persisted, validated from 1024 to 65535, and used for reconnections. The current port is shown on the pairing screen.\n  - Localized setup, status and TCP-mode guidance.\n- **Multi-hop proxy chains**\n  - Create and configure chains with 2-16 hops, including dynamic hop selection and Xray outbound routing.\n  - Duplicate nodes are allowed in a chain.\n  - Legacy two-hop chain URIs are still supported.\n  - Updated chain display, log export and plaintext checks for hop lists.\n- **In-app APK update installation**\n  - Downloads and verifies update APKs securely, then installs them through `PackageInstaller`.\n  - Handles install permissions and shows progress in the Web UI.\n  - Update info is now fetched without cache.\n- **External API level 2**\n  - Permission-gated node access: anonymous or full access, granted by user consent.\n  - New provider methods for listing nodes and getting the active node, plus access management.\n  - `connect` now supports direct, chained and node-ID URIs.\n  - Added an English API guide documenting level 2 node access and special connect URIs.\n- **Happy Eyeballs (RFC 8305)** for proxy and direct `freedom` outbounds, with interleaved address families and bounded concurrent connection attempts.\n- **More ALPN and TLS fingerprint presets**: common choices added, custom ALPN values are preserved when editing, and MASQUE ALPN defaults to `h3`.\n- **WebView navigation**: Android Back now dismisses the active modal and revisits previous tabs before sending the app to the background.\n\n### Changed\n\n- **Native HTTP bridge**: WebUI requests, downloads and probes no longer use shell-based `curl`. SOCKS routing is preserved, request limits and redirect schemes are enforced, and insecure TLS stays opt-in per subscription.\n- **Native subscription updater**: the shell-based hourly updater is replaced by a stoppable native worker that downloads, decodes, caches and publishes changed subscriptions for the WebUI. Legacy updater processes are cleaned up, and host tests cover decoding, hashing and update behavior.\n- **Geo-IP lookup** now queries `api.ip.sb` and `ipwho.is` in parallel, normalizes the responses, prefers the first complete result and keeps a valid partial result as a fallback.\n- **MASQUE URI handling** synced with v2rayNG.\n- **Documentation**: translated READMEs and API guides moved into locale directories. All README translations now explain that KernelSU ZIP downloads are installers, not APKs, and link to the Releases page for APK downloads.\n\n### Fixed\n\n- **Hotspot Binder handoff reliability**: the helper Binder is delivered through a synchronous `ContentProvider` call with broadcast fallbacks, and `adb shell` reads are bounded so detached helpers can no longer leave startup waiting indefinitely.\n- **ROM-specific provider call signatures**: the correct `IContentProvider.call` overload is selected (preferring `AttributionSource`, falling back to the one with the most parameters) to avoid the deprecated Android 12 variant that forwards an invalid authority. The reflected method is logged, and plausible authority argument positions are tried.\n- **Hotspot broadcasts** are now sent through `IActivityManager` first, with `Context` as a fallback, because bare `app_process` callers may lack an application thread and broadcasts could fail or be dropped.\n- **Wireless debugging connections**: the TLS connect port is discovered through system properties and mDNS before falling back to library discovery. Early shell stream closure is tolerated, while replies indicating an unexpected shell UID are still rejected.\n- **ADB pairing flow**: refreshed pairing screen and notifications with localized strings and status feedback. mDNS service resolution is serialized for Android versions that allow only one resolve request at a time.\n- **System DNS leaks for local hosts**: reserved local names are excluded from system DNS queries, and dial probes resolve using configured or known local addresses, falling back to loopback.\n\n### Notes\n\n- Hotspot sharing via ADB requires Wireless debugging (Android 11+).\n- KernelSU ZIP downloads are installers, not APKs. Download the APK from the repository Releases page.\n\n---\n\n[Click here for older release notes](https://github.com/vincentng295/Magic_V2Ray/releases)\n",
+          "htmlUrl": "https://github.com/vincentng295/Magic_V2Ray/releases/tag/v4.0",
+          "immutable": true,
+          "name": "v4.0",
+          "prerelease": false,
+          "prop": {
+            "author": "HuskyDG @vincentng295",
+            "debug": "0",
+            "description": "Installer stub: tap Action to download and install the Magic V2Ray app, which then installs the module.",
+            "id": "magic_v2ray",
+            "name": "Magic V2Ray",
+            "updateJson": "https://vincentng295.github.io/magic-v2ray-site/update.json",
+            "version": "v4.0",
+            "versionCode": "213"
+          },
+          "publishedAt": "2026-11-25T07:13:14Z",
+          "releaseId": 457765182,
+          "tag": "v4.0",
+          "tagCommit": "5f729d782518fe3b649ac387e22edf5453df3de8",
+          "version": "v4.0",
+          "versionCode": 213
+        },
         {
           "asset": {
             "digest": "sha256:7aafb465ee9cf810f2bde7d41be6890d70aa50b9f462ae873b920707db8ea080",
@@ -10537,21 +10568,25 @@
         "454314154": {
           "checkedAt": "2026-11-22T08:47:41.033Z",
           "ok": true
+        },
+        "457765182": {
+          "checkedAt": "2026-11-25T07:13:36.321Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:7aafb465ee9cf810f2bde7d41be6890d70aa50b9f462ae873b920707db8ea080",
-          "id": 778439165,
-          "name": "magic_v2ray-v3.4-stub.zip",
-          "sha256": "7aafb465ee9cf810f2bde7d41be6890d70aa50b9f462ae873b920707db8ea080",
-          "size": 3291,
-          "url": "https://github.com/vincentng295/Magic_V2Ray/releases/download/v3.4/magic_v2ray-v3.4-stub.zip"
+          "digest": "sha256:6fa701222baf03d13f176383307114a4ee73ff4c02f06802a35af5a72d010aa9",
+          "id": 790491638,
+          "name": "magic_v2ray-v4.0-stub.zip",
+          "sha256": "6fa701222baf03d13f176383307114a4ee73ff4c02f06802a35af5a72d010aa9",
+          "size": 3292,
+          "url": "https://github.com/vincentng295/Magic_V2Ray/releases/download/v4.0/magic_v2ray-v4.0-stub.zip"
         },
-        "body": "# Magic V2Ray v3.4 Release Notes\n\nFirst release supports `KernelSU-Modules` repo.\n\n---\n\n[Click here for older release notes](https://github.com/vincentng295/Magic_V2Ray/releases)\n",
-        "htmlUrl": "https://github.com/vincentng295/Magic_V2Ray/releases/tag/v3.4",
+        "body": "# Magic V2Ray v4.0 Release Notes\n\n### Highlights\n\n- **Hotspot sharing without Shizuku**: share your proxy over hotspot using Wireless debugging (ADB) pairing and a built-in `app_process` helper.\n- **Multi-hop proxy chains**: build chains of 2-16 hops.\n- **In-app updates**: download, verify and install new APKs directly from the app.\n- **External API level 2**: permission-gated node access for other apps.\n\n### Added\n\n- **ADB-based hotspot sharing (no Shizuku required)**\n  - Wireless debugging pairing and an `app_process` helper, with ADB status and pairing controls in the Web UI and notification-based pairing.\n  - Optional persistent ADB TCP mode that reconnects without re-pairing after the first wireless ADB connection. It can be disabled in settings, and a warning is shown that the port is reachable on networks the phone joins.\n  - Configurable ADB TCP port: random or custom, persisted, validated from 1024 to 65535, and used for reconnections. The current port is shown on the pairing screen.\n  - Localized setup, status and TCP-mode guidance.\n- **Multi-hop proxy chains**\n  - Create and configure chains with 2-16 hops, including dynamic hop selection and Xray outbound routing.\n  - Duplicate nodes are allowed in a chain.\n  - Legacy two-hop chain URIs are still supported.\n  - Updated chain display, log export and plaintext checks for hop lists.\n- **In-app APK update installation**\n  - Downloads and verifies update APKs securely, then installs them through `PackageInstaller`.\n  - Handles install permissions and shows progress in the Web UI.\n  - Update info is now fetched without cache.\n- **External API level 2**\n  - Permission-gated node access: anonymous or full access, granted by user consent.\n  - New provider methods for listing nodes and getting the active node, plus access management.\n  - `connect` now supports direct, chained and node-ID URIs.\n  - Added an English API guide documenting level 2 node access and special connect URIs.\n- **Happy Eyeballs (RFC 8305)** for proxy and direct `freedom` outbounds, with interleaved address families and bounded concurrent connection attempts.\n- **More ALPN and TLS fingerprint presets**: common choices added, custom ALPN values are preserved when editing, and MASQUE ALPN defaults to `h3`.\n- **WebView navigation**: Android Back now dismisses the active modal and revisits previous tabs before sending the app to the background.\n\n### Changed\n\n- **Native HTTP bridge**: WebUI requests, downloads and probes no longer use shell-based `curl`. SOCKS routing is preserved, request limits and redirect schemes are enforced, and insecure TLS stays opt-in per subscription.\n- **Native subscription updater**: the shell-based hourly updater is replaced by a stoppable native worker that downloads, decodes, caches and publishes changed subscriptions for the WebUI. Legacy updater processes are cleaned up, and host tests cover decoding, hashing and update behavior.\n- **Geo-IP lookup** now queries `api.ip.sb` and `ipwho.is` in parallel, normalizes the responses, prefers the first complete result and keeps a valid partial result as a fallback.\n- **MASQUE URI handling** synced with v2rayNG.\n- **Documentation**: translated READMEs and API guides moved into locale directories. All README translations now explain that KernelSU ZIP downloads are installers, not APKs, and link to the Releases page for APK downloads.\n\n### Fixed\n\n- **Hotspot Binder handoff reliability**: the helper Binder is delivered through a synchronous `ContentProvider` call with broadcast fallbacks, and `adb shell` reads are bounded so detached helpers can no longer leave startup waiting indefinitely.\n- **ROM-specific provider call signatures**: the correct `IContentProvider.call` overload is selected (preferring `AttributionSource`, falling back to the one with the most parameters) to avoid the deprecated Android 12 variant that forwards an invalid authority. The reflected method is logged, and plausible authority argument positions are tried.\n- **Hotspot broadcasts** are now sent through `IActivityManager` first, with `Context` as a fallback, because bare `app_process` callers may lack an application thread and broadcasts could fail or be dropped.\n- **Wireless debugging connections**: the TLS connect port is discovered through system properties and mDNS before falling back to library discovery. Early shell stream closure is tolerated, while replies indicating an unexpected shell UID are still rejected.\n- **ADB pairing flow**: refreshed pairing screen and notifications with localized strings and status feedback. mDNS service resolution is serialized for Android versions that allow only one resolve request at a time.\n- **System DNS leaks for local hosts**: reserved local names are excluded from system DNS queries, and dial probes resolve using configured or known local addresses, falling back to loopback.\n\n### Notes\n\n- Hotspot sharing via ADB requires Wireless debugging (Android 11+).\n- KernelSU ZIP downloads are installers, not APKs. Download the APK from the repository Releases page.\n\n---\n\n[Click here for older release notes](https://github.com/vincentng295/Magic_V2Ray/releases)\n",
+        "htmlUrl": "https://github.com/vincentng295/Magic_V2Ray/releases/tag/v4.0",
         "immutable": true,
-        "name": "v3.4",
+        "name": "v4.0",
         "prerelease": false,
         "prop": {
           "author": "HuskyDG @vincentng295",
@@ -10560,19 +10595,19 @@
           "id": "magic_v2ray",
           "name": "Magic V2Ray",
           "updateJson": "https://vincentng295.github.io/magic-v2ray-site/update.json",
-          "version": "v3.4",
-          "versionCode": "211"
+          "version": "v4.0",
+          "versionCode": "213"
         },
-        "publishedAt": "2026-11-22T08:47:21Z",
-        "releaseId": 454314154,
-        "tag": "v3.4",
-        "tagCommit": "6e40838855af574dafdd48e0f46970112fc8eb48",
-        "version": "v3.4",
-        "versionCode": 211
+        "publishedAt": "2026-11-25T07:13:14Z",
+        "releaseId": 457765182,
+        "tag": "v4.0",
+        "tagCommit": "5f729d782518fe3b649ac387e22edf5453df3de8",
+        "version": "v4.0",
+        "versionCode": 213
       },
       "stars": {
-        "count": 69,
-        "fetchedAt": "2026-11-24T12:12:36.777Z",
+        "count": 70,
+        "fetchedAt": "2026-11-25T07:13:36.321Z",
         "fullName": "vincentng295/Magic_V2Ray",
         "repositoryId": 1256102852,
         "verified": "self"
