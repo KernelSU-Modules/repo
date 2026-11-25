@@ -420,7 +420,7 @@
       }
     },
     "ancli": {
-      "contentCommit": "27edba43a8386bc627ea191d95e7e4e26f82d693",
+      "contentCommit": "b7ba1e0ec98a37914c61df78ab068f3b9d61a1b1",
       "fullName": "AHLLX/AnCLI",
       "health": "ok",
       "installation": "present",
@@ -429,12 +429,12 @@
       "message": null,
       "repositoryId": 1285638838,
       "request": {
-        "checkedAt": "2026-11-25T17:06:28.648Z",
-        "commit": "27edba43a8386bc627ea191d95e7e4e26f82d693",
+        "checkedAt": "2026-11-25T18:05:00.451Z",
+        "commit": "b7ba1e0ec98a37914c61df78ab068f3b9d61a1b1",
         "issues": [],
-        "latestTag": "v1.2.668",
+        "latestTag": "v1.2.669",
         "ok": true,
-        "releaseId": 458398349,
+        "releaseId": 458464517,
         "repositoryId": 1285638838,
         "submissionId": "h3hhx4vz67"
       },
@@ -1302,7 +1302,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "3193f2284cf94ba0d0eea60f10d69b533e65c5fa",
+      "contentCommit": "fa4265459c84068bc32510badfe5b757bf0eba24",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1311,8 +1311,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-25T17:07:45.660Z",
-        "commit": "3193f2284cf94ba0d0eea60f10d69b533e65c5fa",
+        "checkedAt": "2026-11-25T18:05:00.451Z",
+        "commit": "fa4265459c84068bc32510badfe5b757bf0eba24",
         "issues": [],
         "latestTag": "v0.10.41",
         "ok": true,
