@@ -3566,8 +3566,8 @@
         "versionCode": 10621
       },
       "stars": {
-        "count": 236,
-        "fetchedAt": "2026-11-23T17:31:52.806Z",
+        "count": 237,
+        "fetchedAt": "2026-11-25T03:40:20.811Z",
         "fullName": "LIghtJUNction/MagicNet",
         "repositoryId": 998453022,
         "verified": "self"
@@ -4145,8 +4145,8 @@
         "versionCode": 2026112401
       },
       "stars": {
-        "count": 73,
-        "fetchedAt": "2026-11-24T03:21:54.153Z",
+        "count": 75,
+        "fetchedAt": "2026-11-25T03:40:20.811Z",
         "fullName": "Eikeitsu/QSC-Battery",
         "repositoryId": 1302628725,
         "verified": "self"
@@ -4374,8 +4374,8 @@
         "versionCode": 22
       },
       "stars": {
-        "count": 169,
-        "fetchedAt": "2026-11-24T03:21:54.153Z",
+        "count": 172,
+        "fetchedAt": "2026-11-25T03:40:20.811Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -10980,8 +10980,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T03:20:37.548Z",
-        "lastSuccessAt": "2026-11-25T03:20:37.548Z",
+        "lastAttemptAt": "2026-11-25T03:40:20.811Z",
+        "lastSuccessAt": "2026-11-25T03:40:20.811Z",
         "message": null,
         "status": "ok"
       },
@@ -11176,6 +11176,12 @@
         },
         "457609766": {
           "checkedAt": "2026-11-25T03:20:37.548Z",
+          "code": "version-not-newer",
+          "message": "versionCode 1210 is already used by the release 1.2.1. Publish a new release with a versionCode above 1210.",
+          "ok": false
+        },
+        "457622446": {
+          "checkedAt": "2026-11-25T03:40:20.811Z",
           "code": "version-not-newer",
           "message": "versionCode 1210 is already used by the release 1.2.1. Publish a new release with a versionCode above 1210.",
           "ok": false
@@ -12700,8 +12706,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4251,
-        "fetchedAt": "2026-11-24T03:21:54.153Z",
+        "count": 4252,
+        "fetchedAt": "2026-11-25T03:40:20.811Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
@@ -14845,8 +14851,8 @@
         "versionCode": 10159
       },
       "stars": {
-        "count": 156,
-        "fetchedAt": "2026-11-23T07:01:18.865Z",
+        "count": 157,
+        "fetchedAt": "2026-11-25T03:40:20.811Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
@@ -16691,8 +16697,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 11142,
-        "fetchedAt": "2026-11-24T03:21:54.153Z",
+        "count": 11160,
+        "fetchedAt": "2026-11-25T03:40:20.811Z",
         "fullName": "Dr-TSNG/ZygiskNext",
         "repositoryId": 594330628,
         "verified": "self"
