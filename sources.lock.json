@@ -10980,8 +10980,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T06:20:22.339Z",
-        "lastSuccessAt": "2026-11-25T06:20:22.339Z",
+        "lastAttemptAt": "2026-11-25T07:06:30.610Z",
+        "lastSuccessAt": "2026-11-25T07:06:30.610Z",
         "message": null,
         "status": "ok"
       },
@@ -11206,6 +11206,12 @@
         },
         "457725101": {
           "checkedAt": "2026-11-25T06:20:22.339Z",
+          "code": "version-not-newer",
+          "message": "versionCode 1210 is already used by the release 1.2.1. Publish a new release with a versionCode above 1210.",
+          "ok": false
+        },
+        "457759423": {
+          "checkedAt": "2026-11-25T07:06:30.610Z",
           "code": "version-not-newer",
           "message": "versionCode 1210 is already used by the release 1.2.1. Publish a new release with a versionCode above 1210.",
           "ok": false
@@ -11858,8 +11864,8 @@
         "versionCode": 1115
       },
       "stars": {
-        "count": 1472,
-        "fetchedAt": "2026-11-24T06:34:50.595Z",
+        "count": 1477,
+        "fetchedAt": "2026-11-25T07:06:30.610Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
