@@ -10980,8 +10980,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T05:03:57.753Z",
-        "lastSuccessAt": "2026-11-25T05:03:57.753Z",
+        "lastAttemptAt": "2026-11-25T05:55:15.755Z",
+        "lastSuccessAt": "2026-11-25T05:55:15.755Z",
         "message": null,
         "status": "ok"
       },
@@ -11188,6 +11188,12 @@
         },
         "457674497": {
           "checkedAt": "2026-11-25T05:03:57.753Z",
+          "code": "version-not-newer",
+          "message": "versionCode 1210 is already used by the release 1.2.1. Publish a new release with a versionCode above 1210.",
+          "ok": false
+        },
+        "457707677": {
+          "checkedAt": "2026-11-25T05:55:15.755Z",
           "code": "version-not-newer",
           "message": "versionCode 1210 is already used by the release 1.2.1. Publish a new release with a versionCode above 1210.",
           "ok": false
