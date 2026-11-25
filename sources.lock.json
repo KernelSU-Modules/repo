@@ -1411,8 +1411,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:27:49.205Z",
-        "lastSuccessAt": "2026-11-25T11:27:49.205Z",
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
         "message": null,
         "status": "ok"
       },
@@ -1717,6 +1717,12 @@
         },
         "458018628": {
           "checkedAt": "2026-11-25T11:27:49.205Z",
+          "code": "version-not-newer",
+          "message": "versionCode 39 is already used by the release v1.3.10. Publish a new release with a versionCode above 39.",
+          "ok": false
+        },
+        "458026690": {
+          "checkedAt": "2026-11-25T11:38:39.579Z",
           "code": "version-not-newer",
           "message": "versionCode 39 is already used by the release v1.3.10. Publish a new release with a versionCode above 39.",
           "ok": false
@@ -12206,10 +12212,10 @@
       "fullName": "qwq233/OhMyKeymint",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-22T09:25:57.877Z",
-        "message": "github-unavailable: network error or timeout while reading module.yaml; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "oh_my_keymint",
       "installationId": 170250658,
@@ -12424,8 +12430,8 @@
         "versionCode": 182
       },
       "stars": {
-        "count": 752,
-        "fetchedAt": "2026-11-24T12:12:36.777Z",
+        "count": 758,
+        "fetchedAt": "2026-11-25T11:38:39.579Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
@@ -12451,10 +12457,10 @@
       "fullName": "706412584/ColorOS-thermal",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-25T05:18:40.334Z",
-        "message": "github-unavailable: network error or timeout while reading module.yaml; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "oplus-cloud-block",
       "installationId": 178620842,
@@ -12678,10 +12684,10 @@
       "fullName": "KOWX712/PlayIntegrityFix",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-10-17T14:23:28.718Z",
-        "message": "github-unavailable: network error or timeout while reading module.yaml; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "playintegrityfix",
       "installationId": 170623663,
@@ -12864,8 +12870,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4252,
-        "fetchedAt": "2026-11-25T03:40:20.811Z",
+        "count": 4253,
+        "fetchedAt": "2026-11-25T11:38:39.579Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
@@ -12893,10 +12899,10 @@
       "fullName": "LuigiColantuono/Power11",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-13T11:32:25.479Z",
-        "message": "github-unavailable: network error or timeout while reading the repository; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "power11",
       "installationId": 175658617,
@@ -13014,10 +13020,10 @@
       "fullName": "KyuubiRan/Shellscaled",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-21T14:04:31.204Z",
-        "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "shellscaled",
       "installationId": 176083809,
@@ -13499,10 +13505,10 @@
       "fullName": "mzggr0914/sidewire",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-20T03:18:31.071Z",
-        "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "sidewire",
       "installationId": 173815563,
@@ -13809,10 +13815,10 @@
       "fullName": "LeanxModulostk/SmallBattery",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-17T18:27:57.012Z",
-        "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "smallbattery",
       "installationId": 181726682,
@@ -13928,10 +13934,10 @@
       "fullName": "Nixie24/susdock",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-07T15:17:23.498Z",
-        "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "susdock",
       "installationId": 176155633,
@@ -14119,9 +14125,9 @@
       "fullName": "Nixie24/susdock",
       "health": {
         "installation": "missing",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
         "lastSuccessAt": "2026-10-22T15:16:40.084Z",
-        "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
+        "message": "installation-missing: the KernelSU Modules App is not installed on the repository; using the last synced data",
         "status": "stale"
       },
       "id": "susfs4ksu_lkm",
@@ -14188,10 +14194,10 @@
       "fullName": "PEMessage/tailscale-bindhosts",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-11T12:56:51.210Z",
-        "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "tailscale-bindhosts",
       "installationId": 178853777,
@@ -14293,10 +14299,10 @@
       "fullName": "FLYCOM-E/ClearBox",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-16T00:53:12.083Z",
-        "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "wipe_cache",
       "installationId": 170625483,
@@ -14468,10 +14474,10 @@
       "fullName": "Rouyashiki/YukiZygisk",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-24T07:24:48.412Z",
-        "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "yukizygisk",
       "installationId": 170233846,
@@ -15009,8 +15015,8 @@
         "versionCode": 10159
       },
       "stars": {
-        "count": 157,
-        "fetchedAt": "2026-11-25T03:40:20.811Z",
+        "count": 158,
+        "fetchedAt": "2026-11-25T11:38:39.579Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
@@ -15034,10 +15040,10 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-23T08:35:19.449Z",
-        "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
@@ -15488,8 +15494,8 @@
         "versionCode": 589
       },
       "stars": {
-        "count": 23,
-        "fetchedAt": "2026-11-23T08:35:19.449Z",
+        "count": 24,
+        "fetchedAt": "2026-11-25T11:38:39.579Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
@@ -15513,10 +15519,10 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-23T09:10:04.002Z",
-        "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "zygisk_fusehide",
       "installationId": 170178853,
@@ -16002,10 +16008,10 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-25T11:23:51.766Z",
-        "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": null,
+        "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
@@ -16663,10 +16669,10 @@
       "fullName": "Dr-TSNG/ZygiskNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:32:24.898Z",
-        "lastSuccessAt": "2026-11-16T12:08:15.647Z",
-        "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
-        "status": "stale"
+        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
+        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "message": "stable-unavailable: the stable release (versionCode 880) was deleted or marked as prerelease and no older release is left; the module is hidden until a release with a versionCode above 880 is published.",
+        "status": "ok"
       },
       "id": "zygisksu",
       "installationId": 171730441,
@@ -16859,8 +16865,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 11160,
-        "fetchedAt": "2026-11-25T03:40:20.811Z",
+        "count": 11166,
+        "fetchedAt": "2026-11-25T11:38:39.579Z",
         "fullName": "Dr-TSNG/ZygiskNext",
         "repositoryId": 594330628,
         "verified": "self"
