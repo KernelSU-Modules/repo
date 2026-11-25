@@ -11578,17 +11578,48 @@
       "fullName": "Fanju6/NetProxy-Releases",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T04:41:21.034Z",
-        "lastSuccessAt": "2026-11-22T04:41:21.034Z",
+        "lastAttemptAt": "2026-11-25T07:31:37.425Z",
+        "lastSuccessAt": "2026-11-25T07:31:37.425Z",
         "message": null,
         "status": "ok"
       },
       "id": "netproxy",
       "installationId": 170175059,
-      "maxStableVersionCode": 1115,
-      "maxVersionCode": 1115,
+      "maxStableVersionCode": 1128,
+      "maxVersionCode": 1128,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:7d9396ac6d81113b1c0d357319e6ff5460f009afe820fe5174f8dd5d1032e02d",
+            "id": 790544558,
+            "name": "netproxy-1128-v8.7.3.zip",
+            "sha256": "7d9396ac6d81113b1c0d357319e6ff5460f009afe820fe5174f8dd5d1032e02d",
+            "size": 28062712,
+            "url": "https://github.com/Fanju6/NetProxy-Releases/releases/download/v8.7.3/netproxy-1128-v8.7.3.zip"
+          },
+          "body": "## 版本 8.7.3（2026-11-25）\n\n### 代理与策略组\n\n- 服务停止时，代理页会标出 Selector 的默认节点，也可以直接换一个节点供下次启动使用。运行时切换节点会同步保存默认值，不重载服务。URLTest 仍由核心自动选择。\n- 内核更新到 sing-box reF1nd 的 `reF1nd-testing-next` 快照（`77c0dbbe`），修复 Selector 将订阅节点设为默认值后冷启动失败的问题。若订阅更新后默认节点已不存在，但资源仍有效，核心会回退到可用成员。\n\n### 入站与系统兼容\n\n- 全新安装或选择「仅保留节点与订阅」时，默认使用 TUN 接管本机流量，不默认接管热点或 USB 网络共享。保留现有数据升级时，继续使用原有接管后端和设置。\n- 新增 Google 联网兼容，适用于受支持的 ColorOS 16、红魔、努比亚和中兴固件。开机或模块热激活后自动检查，不依赖管理器或代理启动，不清空共享防火墙规则。\n\n### 稳定性\n\n- 修复配置事务恢复可能重新启动已明确停止的服务的问题；服务状态文件损坏时不再误报为正常停服。\n- 完善诊断包的 TLS 私钥脱敏，并限制诊断归档大小。\n- 同步 MIUIX Glass 0.9.5-beta04，优化模糊和弹层表现；减少策略组刷新与订阅更新中的重复工作。\n\n### 升级说明\n\n- 从 8.7.x 升级可选「保留现有数据」。建议使用模块包内附的管理器一并更新，本版不会用默认配置覆盖已保存的节点、策略组或路由。\n- 从 8.6.2 或更早版本直升，请先备份并遵循 [8.7.0 的升级说明](https://github.com/Fanju6/NetProxy-Magisk/releases/tag/v8.7.0)。\n\n* * *\n\n\n[源码提交](https://github.com/Fanju6/NetProxy-Magisk/commit/d62d843db9548514545c782da5fc3e1be67c0085)\n\nSHA-256: `7d9396ac6d81113b1c0d357319e6ff5460f009afe820fe5174f8dd5d1032e02d`\n",
+          "htmlUrl": "https://github.com/Fanju6/NetProxy-Releases/releases/tag/v8.7.3",
+          "immutable": true,
+          "name": "v8.7.3",
+          "prerelease": false,
+          "prop": {
+            "author": "Fanju",
+            "description": "基于 sing-box 内核的透明代理工具",
+            "id": "netproxy",
+            "name": "NetProxy",
+            "updateJson": "https://github.com/Fanju6/NetProxy-Magisk/releases/latest/download/update.json",
+            "version": "v8.7.3",
+            "versionCode": "1128",
+            "webuiIcon": "webroot/netproxy/favicon.svg"
+          },
+          "publishedAt": "2026-11-25T07:31:14Z",
+          "releaseId": 457780127,
+          "tag": "v8.7.3",
+          "tagCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
+          "version": "v8.7.3",
+          "versionCode": 1128
+        },
         {
           "asset": {
             "digest": "sha256:b85bd4554f689723c2ab95bfcc3e4e5585975ddb7ffa672f94605ff61817543f",
@@ -11871,21 +11902,25 @@
         "454206029": {
           "checkedAt": "2026-11-22T04:41:21.034Z",
           "ok": true
+        },
+        "457780127": {
+          "checkedAt": "2026-11-25T07:31:37.425Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:b85bd4554f689723c2ab95bfcc3e4e5585975ddb7ffa672f94605ff61817543f",
-          "id": 777890065,
-          "name": "netproxy-1115-v8.7.2.zip",
-          "sha256": "b85bd4554f689723c2ab95bfcc3e4e5585975ddb7ffa672f94605ff61817543f",
-          "size": 27804816,
-          "url": "https://github.com/Fanju6/NetProxy-Releases/releases/download/v8.7.2/netproxy-1115-v8.7.2.zip"
+          "digest": "sha256:7d9396ac6d81113b1c0d357319e6ff5460f009afe820fe5174f8dd5d1032e02d",
+          "id": 790544558,
+          "name": "netproxy-1128-v8.7.3.zip",
+          "sha256": "7d9396ac6d81113b1c0d357319e6ff5460f009afe820fe5174f8dd5d1032e02d",
+          "size": 28062712,
+          "url": "https://github.com/Fanju6/NetProxy-Releases/releases/download/v8.7.3/netproxy-1128-v8.7.3.zip"
         },
-        "body": "## 版本 8.7.2（2026-11-22）\n\n### 代理与策略组\n\n- 默认配置只保留 `Proxy` 和 `Auto` 两个策略组。`Proxy` 默认选择 `Auto`，导入节点后可自动选择；没有节点时，需代理的流量仍会被拦截。原有内置分流的默认出口不变。\n- 可在「代理 → 管理策略组 → 按订阅创建」为已有节点的订阅创建独立策略组。新增组不复制节点，也不会自动改动路由。\n- 代理页直接显示原生标签；少量策略组均分标签栏，较多时仍可横向滚动。停服时直接显示已配置的成员，不再插入提示行。\n\n### Android 管理器\n\n- 修复冷启动或从其他页面切回仪表盘时误跳到代理页的问题。\n- 手动测速结果会在退出并重进管理器后恢复显示；sing-box 重启后不会沿用旧结果。\n- 同步 MIUIX Glass 0.9.5-beta03，适配顶栏折叠和搜索浮层行为。\n\n### 升级说明\n\n- 从 8.7.0 或 8.7.1 升级可选「保留现有数据」。已有策略组、默认成员和路由不会被新版默认配置替换；不必为使用新版而重置配置。\n- 从 8.6.2 或更早版本直升，请先备份并遵循 [8.7.0 的升级说明](https://github.com/Fanju6/NetProxy-Magisk/releases/tag/v8.7.0)。\n\n* * *\n\n\n[源码提交](https://github.com/Fanju6/NetProxy-Magisk/commit/f7fbf81a8ea913b9043fd8b348ce1d147429da64)\n\nSHA-256: `b85bd4554f689723c2ab95bfcc3e4e5585975ddb7ffa672f94605ff61817543f`\n",
-        "htmlUrl": "https://github.com/Fanju6/NetProxy-Releases/releases/tag/v8.7.2",
+        "body": "## 版本 8.7.3（2026-11-25）\n\n### 代理与策略组\n\n- 服务停止时，代理页会标出 Selector 的默认节点，也可以直接换一个节点供下次启动使用。运行时切换节点会同步保存默认值，不重载服务。URLTest 仍由核心自动选择。\n- 内核更新到 sing-box reF1nd 的 `reF1nd-testing-next` 快照（`77c0dbbe`），修复 Selector 将订阅节点设为默认值后冷启动失败的问题。若订阅更新后默认节点已不存在，但资源仍有效，核心会回退到可用成员。\n\n### 入站与系统兼容\n\n- 全新安装或选择「仅保留节点与订阅」时，默认使用 TUN 接管本机流量，不默认接管热点或 USB 网络共享。保留现有数据升级时，继续使用原有接管后端和设置。\n- 新增 Google 联网兼容，适用于受支持的 ColorOS 16、红魔、努比亚和中兴固件。开机或模块热激活后自动检查，不依赖管理器或代理启动，不清空共享防火墙规则。\n\n### 稳定性\n\n- 修复配置事务恢复可能重新启动已明确停止的服务的问题；服务状态文件损坏时不再误报为正常停服。\n- 完善诊断包的 TLS 私钥脱敏，并限制诊断归档大小。\n- 同步 MIUIX Glass 0.9.5-beta04，优化模糊和弹层表现；减少策略组刷新与订阅更新中的重复工作。\n\n### 升级说明\n\n- 从 8.7.x 升级可选「保留现有数据」。建议使用模块包内附的管理器一并更新，本版不会用默认配置覆盖已保存的节点、策略组或路由。\n- 从 8.6.2 或更早版本直升，请先备份并遵循 [8.7.0 的升级说明](https://github.com/Fanju6/NetProxy-Magisk/releases/tag/v8.7.0)。\n\n* * *\n\n\n[源码提交](https://github.com/Fanju6/NetProxy-Magisk/commit/d62d843db9548514545c782da5fc3e1be67c0085)\n\nSHA-256: `7d9396ac6d81113b1c0d357319e6ff5460f009afe820fe5174f8dd5d1032e02d`\n",
+        "htmlUrl": "https://github.com/Fanju6/NetProxy-Releases/releases/tag/v8.7.3",
         "immutable": true,
-        "name": "v8.7.2",
+        "name": "v8.7.3",
         "prerelease": false,
         "prop": {
           "author": "Fanju",
@@ -11893,16 +11928,16 @@
           "id": "netproxy",
           "name": "NetProxy",
           "updateJson": "https://github.com/Fanju6/NetProxy-Magisk/releases/latest/download/update.json",
-          "version": "v8.7.2",
-          "versionCode": "1115",
+          "version": "v8.7.3",
+          "versionCode": "1128",
           "webuiIcon": "webroot/netproxy/favicon.svg"
         },
-        "publishedAt": "2026-11-22T04:40:57Z",
-        "releaseId": 454206029,
-        "tag": "v8.7.2",
+        "publishedAt": "2026-11-25T07:31:14Z",
+        "releaseId": 457780127,
+        "tag": "v8.7.3",
         "tagCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
-        "version": "v8.7.2",
-        "versionCode": 1115
+        "version": "v8.7.3",
+        "versionCode": 1128
       },
       "stars": {
         "count": 1477,
