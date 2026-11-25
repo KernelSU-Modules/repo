@@ -188,11 +188,11 @@
       }
     },
     "MagicNet": {
-      "contentCommit": "efa5d2b6601e359b47d36f4d72c09b8effe89f59",
+      "contentCommit": "ef24ce30de68f6e46d99f6c54736c004b372c71f",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-22T18:14:25.013Z",
+      "lastSuccessAt": "2026-11-25T11:23:51.766Z",
       "maxVersionCode": 10621,
       "message": null,
       "repositoryId": 998453022,
@@ -1441,16 +1441,16 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-24T13:09:42.850Z",
-      "maxVersionCode": 442,
+      "lastSuccessAt": "2026-11-25T11:23:51.766Z",
+      "maxVersionCode": 445,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-24T13:09:20Z",
-        "tag": "v2.20.0",
-        "version": "v2.20.0 (442-c15b67b-release)",
-        "versionCode": 442
+        "publishedAt": "2026-11-25T11:23:27Z",
+        "tag": "v2.20.1",
+        "version": "v2.20.1 (445-e86fc56-release)",
+        "versionCode": 445
       }
     },
     "zygisksu": {
