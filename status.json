@@ -22,16 +22,16 @@
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-24T06:34:50.595Z",
-      "maxVersionCode": 13601,
+      "lastSuccessAt": "2026-11-25T01:47:03.100Z",
+      "maxVersionCode": 13701,
       "message": null,
       "repositoryId": 1428389721,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-24T06:34:27Z",
-        "tag": "v1.2.16",
-        "version": "v1.2.16",
-        "versionCode": 13601
+        "publishedAt": "2026-11-25T01:46:45Z",
+        "tag": "v1.2.17",
+        "version": "v1.2.17",
+        "versionCode": 13701
       }
     },
     "AZenith": {
@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "c686822dd0fb737c10030bc2d29f5b20f3888d36",
+      "contentCommit": "cf6d9bd60ef8dca71d571f272d7071676845f1be",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-25T00:10:08.693Z",
-        "commit": "c686822dd0fb737c10030bc2d29f5b20f3888d36",
+        "checkedAt": "2026-11-25T01:47:03.100Z",
+        "commit": "cf6d9bd60ef8dca71d571f272d7071676845f1be",
         "issues": [],
         "latestTag": "v0.1.9",
         "ok": true,

@@ -193,17 +193,48 @@
       "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-24T06:34:50.595Z",
-        "lastSuccessAt": "2026-11-24T06:34:50.595Z",
+        "lastAttemptAt": "2026-11-25T01:47:03.100Z",
+        "lastSuccessAt": "2026-11-25T01:47:03.100Z",
         "message": null,
         "status": "ok"
       },
       "id": "AD_Killer_By_NFQUEUE",
       "installationId": 174143190,
-      "maxStableVersionCode": 13601,
-      "maxVersionCode": 13601,
+      "maxStableVersionCode": 13701,
+      "maxVersionCode": 13701,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:e22e3bb330e8bf65898bae07846a01373bce8acfac30ba720ff4fca5a901c313",
+            "id": 789628951,
+            "name": "AD_Killer_By_NFQUEUE-v1.2.17.zip",
+            "sha256": "e22e3bb330e8bf65898bae07846a01373bce8acfac30ba720ff4fca5a901c313",
+            "size": 828351,
+            "url": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/download/v1.2.17/AD_Killer_By_NFQUEUE-v1.2.17.zip"
+          },
+          "body": "# v1.2.17 · 前端构建依赖维护\n\n- 合并 Dependabot PR #6，将前端构建依赖 Rollup 从 4.68.2 更新至 4.68.7，并同步锁定对应平台包。\n- 本次为构建依赖维护，沿用 v1.2.16 的广告拦截、规则同步和完整 HaGeZi Pro 功能。\n\n**升级保留规则、来源、应用名单和设置；卸载默认删除本模块全部数据，包括日志和下载缓存。** 安装后请自行软重启，再检查守护和规则生效状态。\n",
+          "htmlUrl": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/tag/v1.2.17",
+          "immutable": true,
+          "name": "v1.2.17",
+          "prerelease": false,
+          "prop": {
+            "author": "fengwenhua",
+            "description": "基于 Linux 内核 NFQUEUE 的系统级去广告模块。纯 C++ 实现,规则源可自定义,无运行期外部依赖。",
+            "id": "AD_Killer_By_NFQUEUE",
+            "name": "AD Killer (by NFQUEUE)",
+            "releaseChannel": "stable",
+            "updateJson": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/latest/download/update.json",
+            "version": "v1.2.17",
+            "versionCode": "13701"
+          },
+          "publishedAt": "2026-11-25T01:46:45Z",
+          "releaseId": 457547392,
+          "tag": "v1.2.17",
+          "tagCommit": "26b59273a135c84efe55c9489f95c48f085f9e1f",
+          "version": "v1.2.17",
+          "versionCode": 13701
+        },
         {
           "asset": {
             "digest": "sha256:b7627ec6ab5a857f640bfd8b762deca73c4ad0b2fa888e5059bc9e94addd8f27",
@@ -401,21 +432,25 @@
         "456380322": {
           "checkedAt": "2026-11-24T06:34:50.595Z",
           "ok": true
+        },
+        "457547392": {
+          "checkedAt": "2026-11-25T01:47:03.100Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:b7627ec6ab5a857f640bfd8b762deca73c4ad0b2fa888e5059bc9e94addd8f27",
-          "id": 786008705,
-          "name": "AD_Killer_By_NFQUEUE-v1.2.16.zip",
-          "sha256": "b7627ec6ab5a857f640bfd8b762deca73c4ad0b2fa888e5059bc9e94addd8f27",
-          "size": 828331,
-          "url": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/download/v1.2.16/AD_Killer_By_NFQUEUE-v1.2.16.zip"
+          "digest": "sha256:e22e3bb330e8bf65898bae07846a01373bce8acfac30ba720ff4fca5a901c313",
+          "id": 789628951,
+          "name": "AD_Killer_By_NFQUEUE-v1.2.17.zip",
+          "sha256": "e22e3bb330e8bf65898bae07846a01373bce8acfac30ba720ff4fca5a901c313",
+          "size": 828351,
+          "url": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/download/v1.2.17/AD_Killer_By_NFQUEUE-v1.2.17.zip"
         },
-        "body": "# v1.2.16 · 来源界面与同步可靠性优化\n\n- 来源显示真实名称，名称与链接分层，支持展开和复制完整地址；窄屏操作按钮改为两列。\n- 已知 GitHub 规则来源增加 CDN 与原地址回退，实际下载地址可查；切换通道共用重试次数和总预算，避免跨地址误用缓存校验信息。\n- 新安装默认使用完整 HaGeZi Pro，只下载一份 Pro；升级保留原配方与启停，可显式选择完整 Pro 或兼容旧版，保存并同步后生效。\n- 两种 HaGeZi 配方缓存隔离，失败时保留旧规则；保留 Light 的后缀覆盖，修复旧缓存警告被成功标记掩盖的问题。\n\n**升级保留规则、来源、应用名单和设置；卸载默认删除本模块全部数据，包括日志和下载缓存。** 安装后请自行软重启，再检查守护和规则生效状态。\n",
-        "htmlUrl": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/tag/v1.2.16",
+        "body": "# v1.2.17 · 前端构建依赖维护\n\n- 合并 Dependabot PR #6，将前端构建依赖 Rollup 从 4.68.2 更新至 4.68.7，并同步锁定对应平台包。\n- 本次为构建依赖维护，沿用 v1.2.16 的广告拦截、规则同步和完整 HaGeZi Pro 功能。\n\n**升级保留规则、来源、应用名单和设置；卸载默认删除本模块全部数据，包括日志和下载缓存。** 安装后请自行软重启，再检查守护和规则生效状态。\n",
+        "htmlUrl": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/tag/v1.2.17",
         "immutable": true,
-        "name": "v1.2.16",
+        "name": "v1.2.17",
         "prerelease": false,
         "prop": {
           "author": "fengwenhua",
@@ -424,19 +459,19 @@
           "name": "AD Killer (by NFQUEUE)",
           "releaseChannel": "stable",
           "updateJson": "https://github.com/fengwenhua/AD_Killer_By_NFQUEUE/releases/latest/download/update.json",
-          "version": "v1.2.16",
-          "versionCode": "13601"
+          "version": "v1.2.17",
+          "versionCode": "13701"
         },
-        "publishedAt": "2026-11-24T06:34:27Z",
-        "releaseId": 456380322,
-        "tag": "v1.2.16",
-        "tagCommit": "7e9306c166dea9d68a47127e63d2c4fff8b34187",
-        "version": "v1.2.16",
-        "versionCode": 13601
+        "publishedAt": "2026-11-25T01:46:45Z",
+        "releaseId": 457547392,
+        "tag": "v1.2.17",
+        "tagCommit": "26b59273a135c84efe55c9489f95c48f085f9e1f",
+        "version": "v1.2.17",
+        "versionCode": 13701
       },
       "stars": {
-        "count": 5,
-        "fetchedAt": "2026-11-24T12:12:36.777Z",
+        "count": 6,
+        "fetchedAt": "2026-11-25T01:47:03.100Z",
         "fullName": "fengwenhua/AD_Killer_By_NFQUEUE",
         "repositoryId": 1428389721,
         "verified": "self"
@@ -1706,8 +1741,8 @@
         "versionCode": 39
       },
       "stars": {
-        "count": 31,
-        "fetchedAt": "2026-11-24T01:22:09.910Z",
+        "count": 32,
+        "fetchedAt": "2026-11-25T01:47:03.100Z",
         "fullName": "f1owkang/CRecordEvolution",
         "repositoryId": 678049636,
         "verified": "self"
