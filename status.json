@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "76573826768b668d0f20a0af535a747e88d5eba1",
+      "contentCommit": "efea524f26196a17648946d6c41d92cb9db15e04",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-25T11:38:39.579Z",
-        "commit": "76573826768b668d0f20a0af535a747e88d5eba1",
+        "checkedAt": "2026-11-25T17:06:28.648Z",
+        "commit": "efea524f26196a17648946d6c41d92cb9db15e04",
         "issues": [],
         "latestTag": "v0.1.10",
         "ok": true,
@@ -420,7 +420,7 @@
       }
     },
     "ancli": {
-      "contentCommit": "5aca290a9a7d276ab2ba9d24a59fcc54c273f610",
+      "contentCommit": "27edba43a8386bc627ea191d95e7e4e26f82d693",
       "fullName": "AHLLX/AnCLI",
       "health": "ok",
       "installation": "present",
@@ -429,12 +429,12 @@
       "message": null,
       "repositoryId": 1285638838,
       "request": {
-        "checkedAt": "2026-11-25T11:38:39.579Z",
-        "commit": "5aca290a9a7d276ab2ba9d24a59fcc54c273f610",
+        "checkedAt": "2026-11-25T17:06:28.648Z",
+        "commit": "27edba43a8386bc627ea191d95e7e4e26f82d693",
         "issues": [],
-        "latestTag": "v1.2.667",
+        "latestTag": "v1.2.668",
         "ok": true,
-        "releaseId": 452653215,
+        "releaseId": 458398349,
         "repositoryId": 1285638838,
         "submissionId": "h3hhx4vz67"
       },
@@ -1302,7 +1302,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "437246a63a302a2d279732ce28e548383708b28b",
+      "contentCommit": "b5754c0c88d6d328d7dfca5e2652ca95dba6440f",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1311,8 +1311,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-25T15:16:48.682Z",
-        "commit": "437246a63a302a2d279732ce28e548383708b28b",
+        "checkedAt": "2026-11-25T17:06:28.648Z",
+        "commit": "b5754c0c88d6d328d7dfca5e2652ca95dba6440f",
         "issues": [],
         "latestTag": "v0.10.41",
         "ok": true,
