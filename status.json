@@ -1052,20 +1052,20 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "fd9e65a95d85299444d67923944dc4fe0d53ad8f",
+      "contentCommit": "bd518a17ebd2dfe1ca14f155b68048e663ca70b6",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-25T07:35:08.754Z",
-      "maxVersionCode": 1210,
+      "lastSuccessAt": "2026-11-25T12:11:20.693Z",
+      "maxVersionCode": 1220,
       "message": null,
       "repositoryId": 1445526027,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-23T11:54:00Z",
-        "tag": "1.2.1",
-        "version": "1.2.1",
-        "versionCode": 1210
+        "publishedAt": "2026-11-25T12:10:37Z",
+        "tag": "1.2.2",
+        "version": "1.2.2",
+        "versionCode": 1220
       }
     },
     "motion_cues_port": {

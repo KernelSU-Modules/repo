@@ -5625,8 +5625,8 @@
         "versionCode": 28
       },
       "stars": {
-        "count": 107,
-        "fetchedAt": "2026-11-23T23:06:35.934Z",
+        "count": 106,
+        "fetchedAt": "2026-11-25T12:11:20.693Z",
         "fullName": "Dr-TSNG/altdb",
         "repositoryId": 1368146952,
         "verified": "self"
@@ -11015,15 +11015,15 @@
       "content": {
         "blobs": {
           ".github/logo.png": "69a5399b0353886699c2ac24136ccc024acb891d",
-          "README.md": "176b77adbb2c5da5b120ea1cab99a5e1babfa7be",
+          "README.md": "23f962e12aa3b863c46870cfd6cdbdb768817e20",
           "module.yaml": "e8aa44dd3b8f0584742886f4abcb776e765fc6bc",
           "webui/public/mirageforge-logo.svg": "0a4386b301c4ff1c5050db5911a0b5b4f82459e5"
         },
-        "commit": "fd9e65a95d85299444d67923944dc4fe0d53ad8f",
-        "fetchedAt": "2026-11-24T03:21:54.153Z",
+        "commit": "bd518a17ebd2dfe1ca14f155b68048e663ca70b6",
+        "fetchedAt": "2026-11-25T12:11:20.693Z",
         "files": {
           ".github/logo.png": "bf87da9eba197fa767a10921920d77d783fb3dc6f1b46513975f5ea6defa1f2d",
-          "README.md": "18d3977b27781f6f9644d1681192b94cf1c250109b195661d6509283a02ce155",
+          "README.md": "f6426f95367ae623ce88c24b111a697d8d7454c9b624a4b8db060df8f1df837e",
           "module.yaml": "e84f417a435685063136750153b739ff81119024da473a63b074a8bcc7701c7f",
           "webui/public/mirageforge-logo.svg": "9fe580c17fdffb567bb6233c5c3efe53a25505884d8be962f98416f576d3ba52"
         },
@@ -11033,17 +11033,47 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T07:35:08.754Z",
-        "lastSuccessAt": "2026-11-25T07:35:08.754Z",
+        "lastAttemptAt": "2026-11-25T12:11:20.693Z",
+        "lastSuccessAt": "2026-11-25T12:11:20.693Z",
         "message": null,
         "status": "ok"
       },
       "id": "mirage_forge",
       "installationId": 177437801,
-      "maxStableVersionCode": 1210,
-      "maxVersionCode": 1210,
+      "maxStableVersionCode": 1220,
+      "maxVersionCode": 1220,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:fd25741a6c50b32fef71d1b4bd0d8f094d864ac60fa4a58674e12f40bc7c4e26",
+            "id": 791409072,
+            "name": "MirageForge-Zygisk-1.2.2.zip",
+            "sha256": "fd25741a6c50b32fef71d1b4bd0d8f094d864ac60fa4a58674e12f40bc7c4e26",
+            "size": 2428904,
+            "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.2/MirageForge-Zygisk-1.2.2.zip"
+          },
+          "body": "## MirageForge v1.2.2\n\n### 核心底层引擎升级\n- **全新 COW Prop Spoof（写时复制私有属性覆写）**：在目标应用子进程内通过 `MAP_PRIVATE | MAP_FIXED` 将命中的系统属性区转为进程私有页并原地改写，完成后立即恢复 `r--p` 只读权限，绕过属性 PLT Hook 检测且对宿主机与其他应用保持 0 污染；与「伪装系统属性」建立三层强联动，关闭时自动同步释放。\n- **6 大伪装能力细粒度拆分（严守 0 改动原则）**：拆分并独立控制 `伪装系统属性`、`COW Prop Spoof`、`伪装CPU`、`伪装GPU`、`伪装内存信息`、`伪装CPU/GPU文件节点`，未开启的子模块绝不挂载 Hook 或注入节点；老版本 `routes.db` 与 `config.json` 升级后自动无损迁移至 13 列格式。\n- **Rust CLI 能力扩展**：\n  - 新增 `device-info --json`，自动探测宿主设备型号、Android/内核版本、CPU 分簇、GPU 及当前活跃 Root 管理器（KernelSU / APatch / Magisk）与 Zygisk 实现（ReZygisk / Zygisk Next / NeoZygisk / Magisk Zygisk）。\n  - 新增 `clone-device`，一键采集本机完整 `getprop`、每簇 `cpufreq` 频点表与内存/GPU 规格直接铸造模板。\n  - 探针新增独立清空崩溃日志（`probe clear-crashes`）与一键导出排障诊断包（`probe bundle`）。\n\n### 全新 4 主页界面与交互架构\n- **重构为「首页 / 模板 / 应用 / 设置」4 主页体系**：支持方向性水平滑动切页，拆分模块化 Store 与样式体系。\n- **首页**：新增顶部品牌宣传栏（含 OTA 更新提示条）、实时设备与 Root/Zygisk 环境信息卡片、模块生效统计卡片及探针/更新快捷入口。\n- **模板**：顶部聚合 `在线模板`、`新建模板`、`导入/导出`（整合 `mf://` 分享口令、`build.prop` 属性炼金、一键克隆本机与备份导出）；模板卡片新增 **`生效应用`** 管理面板；编辑页升级为 **5 大分类宫格 + FLIP 几何全屏张开动画**（点击左上角 `←` 原路收缩返回），并内置硬件一致性体检。\n- **应用**：改为带图标的整齐长条列表，每条下方直出当前伪装模板与活跃能力标签；点击进入独立全屏编辑页，顶部切换模板、下方提供 6 大**左侧独立开关**（灰=关 / 主题色=开）及折叠式屏幕高刷与高阶排障选项。\n- **设置**：统一收口主题模式、5 套主题强调色、底栏形态（悬浮灵动栏 / 贴底常规栏）、液态玻璃质感、三语切换、MountNS / COW Prop 全局默认策略（支持一键同步至全部已配置应用）与诊断包导出。\n\n### 真·光学四层液态玻璃与果冻物理引擎\n- **四层光学折射架构**：基于 `userSpaceOnUse` 像素级 SDF 重写折射滤镜——`z:0` 底栏全域拉伸+柔焦、`z:1` 静止泡（压在图标下层，只拉伸柔和模糊背景而不扭曲图标）、`z:2` 锐利图标文字、`z:3` 交互水晶泡（0 模糊、仅外圈弧壁 Snell 弯曲拉伸），彻底消除偏移、发灰与明暗跳变。\n- **体积守恒 Q 弹果冻物理引擎 (`JellySpring`)**：采用高精度子步进求解与独立果冻形变振荡器，支持按压回弹、拖动水滴拉伸、边界撞墙压扁与刹停余震；「仅毛玻璃」模式彻底独立隔离为纯净统一磨砂效果。\n\n### 修复与适配\n- 探针页新增独立「清空崩溃」按钮与顶部一键导出诊断包入口。\n",
+          "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.2",
+          "immutable": true,
+          "name": "MirageForge 1.2.2",
+          "prerelease": false,
+          "prop": {
+            "author": "jjh138792",
+            "description": "千面万象，一念幻化 —— 基于 Zygisk 的应用级多机型伪装引擎。",
+            "id": "mirage_forge",
+            "name": "蜃楼工坊 · MirageForge",
+            "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
+            "version": "1.2.2",
+            "versionCode": "1220"
+          },
+          "publishedAt": "2026-11-25T12:10:37Z",
+          "releaseId": 458063419,
+          "tag": "1.2.2",
+          "tagCommit": "bd518a17ebd2dfe1ca14f155b68048e663ca70b6",
+          "version": "1.2.2",
+          "versionCode": 1220
+        },
         {
           "asset": {
             "digest": "sha256:b816ca3f08b1572c20f82ebda392fc74f128984c2a82aa61c3d3a5c9f31f74e8",
@@ -11280,21 +11310,25 @@
           "code": "version-not-newer",
           "message": "versionCode 1210 is already used by the release 1.2.1. Publish a new release with a versionCode above 1210.",
           "ok": false
+        },
+        "458063419": {
+          "checkedAt": "2026-11-25T12:11:20.693Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:b816ca3f08b1572c20f82ebda392fc74f128984c2a82aa61c3d3a5c9f31f74e8",
-          "id": 782747283,
-          "name": "MirageForge-Zygisk-1.2.1.zip",
-          "sha256": "b816ca3f08b1572c20f82ebda392fc74f128984c2a82aa61c3d3a5c9f31f74e8",
-          "size": 2306088,
-          "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.1/MirageForge-Zygisk-1.2.1.zip"
+          "digest": "sha256:fd25741a6c50b32fef71d1b4bd0d8f094d864ac60fa4a58674e12f40bc7c4e26",
+          "id": 791409072,
+          "name": "MirageForge-Zygisk-1.2.2.zip",
+          "sha256": "fd25741a6c50b32fef71d1b4bd0d8f094d864ac60fa4a58674e12f40bc7c4e26",
+          "size": 2428904,
+          "url": "https://github.com/jjh138792/MirageForge/releases/download/1.2.2/MirageForge-Zygisk-1.2.2.zip"
         },
-        "body": "# MirageForge 1.2.1\r\n\r\n## 新功能\r\n* 新增屏幕刷新率伪装\r\n* 新增在线机型模板仓库\r\n* 新增模板导入分享码\r\n* vfs节点伪装新增命名空间挂载方式\r\n## 修复\r\n* 修复部分情况下崩溃日志误报的问题\r\n* 修复Vulkan API没有Hook到的问题\r\n* 修复部分情况应用可能会闪退的问题\r\n## 改进\r\n* vfs与graphics两个源代码分成几个小hpp\r\n* WebUI设置语言更新为容易理解的白话文\r\n* 移除dpi伪装（因为根本就没有伪装成功）",
-        "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.1",
+        "body": "## MirageForge v1.2.2\n\n### 核心底层引擎升级\n- **全新 COW Prop Spoof（写时复制私有属性覆写）**：在目标应用子进程内通过 `MAP_PRIVATE | MAP_FIXED` 将命中的系统属性区转为进程私有页并原地改写，完成后立即恢复 `r--p` 只读权限，绕过属性 PLT Hook 检测且对宿主机与其他应用保持 0 污染；与「伪装系统属性」建立三层强联动，关闭时自动同步释放。\n- **6 大伪装能力细粒度拆分（严守 0 改动原则）**：拆分并独立控制 `伪装系统属性`、`COW Prop Spoof`、`伪装CPU`、`伪装GPU`、`伪装内存信息`、`伪装CPU/GPU文件节点`，未开启的子模块绝不挂载 Hook 或注入节点；老版本 `routes.db` 与 `config.json` 升级后自动无损迁移至 13 列格式。\n- **Rust CLI 能力扩展**：\n  - 新增 `device-info --json`，自动探测宿主设备型号、Android/内核版本、CPU 分簇、GPU 及当前活跃 Root 管理器（KernelSU / APatch / Magisk）与 Zygisk 实现（ReZygisk / Zygisk Next / NeoZygisk / Magisk Zygisk）。\n  - 新增 `clone-device`，一键采集本机完整 `getprop`、每簇 `cpufreq` 频点表与内存/GPU 规格直接铸造模板。\n  - 探针新增独立清空崩溃日志（`probe clear-crashes`）与一键导出排障诊断包（`probe bundle`）。\n\n### 全新 4 主页界面与交互架构\n- **重构为「首页 / 模板 / 应用 / 设置」4 主页体系**：支持方向性水平滑动切页，拆分模块化 Store 与样式体系。\n- **首页**：新增顶部品牌宣传栏（含 OTA 更新提示条）、实时设备与 Root/Zygisk 环境信息卡片、模块生效统计卡片及探针/更新快捷入口。\n- **模板**：顶部聚合 `在线模板`、`新建模板`、`导入/导出`（整合 `mf://` 分享口令、`build.prop` 属性炼金、一键克隆本机与备份导出）；模板卡片新增 **`生效应用`** 管理面板；编辑页升级为 **5 大分类宫格 + FLIP 几何全屏张开动画**（点击左上角 `←` 原路收缩返回），并内置硬件一致性体检。\n- **应用**：改为带图标的整齐长条列表，每条下方直出当前伪装模板与活跃能力标签；点击进入独立全屏编辑页，顶部切换模板、下方提供 6 大**左侧独立开关**（灰=关 / 主题色=开）及折叠式屏幕高刷与高阶排障选项。\n- **设置**：统一收口主题模式、5 套主题强调色、底栏形态（悬浮灵动栏 / 贴底常规栏）、液态玻璃质感、三语切换、MountNS / COW Prop 全局默认策略（支持一键同步至全部已配置应用）与诊断包导出。\n\n### 真·光学四层液态玻璃与果冻物理引擎\n- **四层光学折射架构**：基于 `userSpaceOnUse` 像素级 SDF 重写折射滤镜——`z:0` 底栏全域拉伸+柔焦、`z:1` 静止泡（压在图标下层，只拉伸柔和模糊背景而不扭曲图标）、`z:2` 锐利图标文字、`z:3` 交互水晶泡（0 模糊、仅外圈弧壁 Snell 弯曲拉伸），彻底消除偏移、发灰与明暗跳变。\n- **体积守恒 Q 弹果冻物理引擎 (`JellySpring`)**：采用高精度子步进求解与独立果冻形变振荡器，支持按压回弹、拖动水滴拉伸、边界撞墙压扁与刹停余震；「仅毛玻璃」模式彻底独立隔离为纯净统一磨砂效果。\n\n### 修复与适配\n- 探针页新增独立「清空崩溃」按钮与顶部一键导出诊断包入口。\n",
+        "htmlUrl": "https://github.com/jjh138792/MirageForge/releases/tag/1.2.2",
         "immutable": true,
-        "name": "MirageForge 1.2.1",
+        "name": "MirageForge 1.2.2",
         "prerelease": false,
         "prop": {
           "author": "jjh138792",
@@ -11302,19 +11336,19 @@
           "id": "mirage_forge",
           "name": "蜃楼工坊 · MirageForge",
           "updateJson": "https://raw.githubusercontent.com/jjh138792/MirageForge/main/update.json",
-          "version": "1.2.1",
-          "versionCode": "1210"
+          "version": "1.2.2",
+          "versionCode": "1220"
         },
-        "publishedAt": "2026-11-23T11:54:00Z",
-        "releaseId": 455355982,
-        "tag": "1.2.1",
-        "tagCommit": "6b9b5444ef0c6e63098e17365504f69be7387dd9",
-        "version": "1.2.1",
-        "versionCode": 1210
+        "publishedAt": "2026-11-25T12:10:37Z",
+        "releaseId": 458063419,
+        "tag": "1.2.2",
+        "tagCommit": "bd518a17ebd2dfe1ca14f155b68048e663ca70b6",
+        "version": "1.2.2",
+        "versionCode": 1220
       },
       "stars": {
-        "count": 7,
-        "fetchedAt": "2026-11-25T00:10:08.693Z",
+        "count": 8,
+        "fetchedAt": "2026-11-25T12:11:20.693Z",
         "fullName": "jjh138792/MirageForge",
         "repositoryId": 1445526027,
         "verified": "self"
