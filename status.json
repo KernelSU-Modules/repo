@@ -1301,6 +1301,27 @@
       },
       "stable": null
     },
+    "ssmcp": {
+      "contentCommit": "437246a63a302a2d279732ce28e548383708b28b",
+      "fullName": "LIghtJUNction/ssmcp",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1459020791,
+      "request": {
+        "checkedAt": "2026-11-25T15:16:48.682Z",
+        "commit": "437246a63a302a2d279732ce28e548383708b28b",
+        "issues": [],
+        "latestTag": "v0.10.41",
+        "ok": true,
+        "releaseId": 458266843,
+        "repositoryId": 1459020791,
+        "submissionId": "ojozpu2jdc"
+      },
+      "stable": null
+    },
     "stopservices": {
       "contentCommit": "3b97c2ac1c9aeea91f841a2db6986b7194b267ec",
       "fullName": "LeanxModulostk/Stop_Service",
