@@ -1,0 +1,19 @@
+id: ssmcp
+status: pending
+request:
+  submissionId: ojozpu2jdc
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1459020791
+    ownerId: 106986785
+    fullName: LIghtJUNction/ssmcp
+    manifestPath: module.yaml
+  submittedBy: 106986785
+  submittedByLogin: LIghtJUNction
+  submittedAt: 2026-11-25T15:16:18.770Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65305
+createdAt: 2026-11-25T15:16:18.770Z
+updatedAt: 2026-11-25T15:16:18.770Z
