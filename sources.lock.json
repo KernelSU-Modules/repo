@@ -1388,12 +1388,12 @@
           ".github/images/overview-en.png": "7b7a18154be22b3852ae2807f3cdf29a0def3589",
           ".github/images/settings-en.png": "0bdbf5ea9d3e3107cf13a392bab5b8404bb3f2cd",
           ".github/images/trends-en.png": "1ba4b5cd42ed361c7ed71cf7cb6a5b7fd70aff2f",
-          "README.md": "5ca8439aae2f1a21fd36df144fff9c1c176a5289",
+          "README.md": "9e904e79e2a33c17d3a6ce9fb848a441d0641fb2",
           "assets/icon.png": "5dc474bb718300203dce63f6f647c0d98cc4a3b6",
           "module.yaml": "af46db6ce9b3521a63f54a2523a3de272490b8a6"
         },
-        "commit": "7db4535ce05279de6e87971793aa53a4181add10",
-        "fetchedAt": "2026-11-20T15:43:23.150Z",
+        "commit": "75b226d4d989b0f61efad326347f80be61a71b39",
+        "fetchedAt": "2026-11-25T11:26:30.739Z",
         "files": {
           ".github/images/history-en.png": "78388c9b30bfd237ed00eef989c3ba4fff7a81031e84428e588fd5d4f9b0cffa",
           ".github/images/how-it-works-en-dark.png": "39c90ed4f3604a2fb0de8341ee656c1ede0b561a7eb8f3fbaff6fb53709d2846",
@@ -1401,7 +1401,7 @@
           ".github/images/overview-en.png": "fa929c6ea48acd0491ca4bbac669d7622ca90b1a141626d5182b1f847cf3cfb3",
           ".github/images/settings-en.png": "2e7e0cf13dae1f5d1533e1219abeafa8e471f1260cde7df5c8291bbf070293ce",
           ".github/images/trends-en.png": "2db2ab33ebfafb66087d6f8d56070adc4a38eaf864d32d376ee71c66f6a5e4c2",
-          "README.md": "0697eab0d8b711c0a6cb349a4ee2a4ada5da01ecf84b58faf8813b769a7f26d4",
+          "README.md": "effe1a374f967a11933688ec6fde42e8266d9b5d339dd3b4eef62eb3832006c5",
           "assets/icon.png": "ef5a7662da7b1a2debee42ebe7f5b3e2ad28e362adc958828c986c0026128f91",
           "module.yaml": "ebfe31d302a3ceb7f02de8208dc4945730987a2dfff4ca8c586e4b1fa02cf1ea"
         },
@@ -1411,8 +1411,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-20T15:43:23.150Z",
-        "lastSuccessAt": "2026-11-20T15:43:23.150Z",
+        "lastAttemptAt": "2026-11-25T11:26:30.739Z",
+        "lastSuccessAt": "2026-11-25T11:26:30.739Z",
         "message": null,
         "status": "ok"
       },
@@ -1705,6 +1705,12 @@
         },
         "446187724": {
           "checkedAt": "2026-11-15T16:17:20.460Z",
+          "code": "version-not-newer",
+          "message": "versionCode 39 is already used by the release v1.3.10. Publish a new release with a versionCode above 39.",
+          "ok": false
+        },
+        "458016858": {
+          "checkedAt": "2026-11-25T11:26:30.739Z",
           "code": "version-not-newer",
           "message": "versionCode 39 is already used by the release v1.3.10. Publish a new release with a versionCode above 39.",
           "ok": false
