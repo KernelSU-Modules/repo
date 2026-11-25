@@ -1,0 +1,19 @@
+id: chargebypasscap
+status: pending
+request:
+  submissionId: v8egkvj9k4
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1437404105
+    ownerId: 991353
+    fullName: 9M2PJU/ChargeBypassCap
+    manifestPath: module.yaml
+  submittedBy: 991353
+  submittedByLogin: 9M2PJU
+  submittedAt: 2026-11-25T15:12:39.372Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65304
+createdAt: 2026-11-25T15:12:39.372Z
+updatedAt: 2026-11-25T15:12:39.372Z
