@@ -545,6 +545,27 @@
         "versionCode": 100
       }
     },
+    "chargebypasscap": {
+      "contentCommit": "9569ba05034cda746676bc92081f46716d2762a2",
+      "fullName": "9M2PJU/ChargeBypassCap",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1437404105,
+      "request": {
+        "checkedAt": "2026-11-25T15:13:08.981Z",
+        "commit": "9569ba05034cda746676bc92081f46716d2762a2",
+        "issues": [],
+        "latestTag": "v1.15",
+        "ok": true,
+        "releaseId": 433645948,
+        "repositoryId": 1437404105,
+        "submissionId": "v8egkvj9k4"
+      },
+      "stable": null
+    },
     "chargebypasscap-pmi": {
       "contentCommit": "01d0a20984ab7e11c0f47ac9012b90e302af4065",
       "fullName": "9M2PJU/ChargeBypassCap-PMI",
@@ -853,11 +874,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "5bc6d01f0d5c54e1ecfee2d4bbbd481fe64e3705",
+      "contentCommit": "8e5f34add10cb17d675fe3dd705041f7e59668e5",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-24T17:16:35.339Z",
+      "lastSuccessAt": "2026-11-25T15:13:08.981Z",
       "maxVersionCode": 240,
       "message": null,
       "repositoryId": 1446403674,
