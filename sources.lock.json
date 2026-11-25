@@ -10945,8 +10945,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-24T12:46:03.694Z",
-        "lastSuccessAt": "2026-11-24T12:46:03.694Z",
+        "lastAttemptAt": "2026-11-25T00:10:08.693Z",
+        "lastSuccessAt": "2026-11-25T00:10:08.693Z",
         "message": null,
         "status": "ok"
       },
@@ -11132,6 +11132,12 @@
           "code": "version-not-newer",
           "message": "versionCode 1210 is already used by the release 1.2.1. Publish a new release with a versionCode above 1210.",
           "ok": false
+        },
+        "457486043": {
+          "checkedAt": "2026-11-25T00:10:08.693Z",
+          "code": "version-not-newer",
+          "message": "versionCode 1210 is already used by the release 1.2.1. Publish a new release with a versionCode above 1210.",
+          "ok": false
         }
       },
       "stable": {
@@ -11165,8 +11171,8 @@
         "versionCode": 1210
       },
       "stars": {
-        "count": 6,
-        "fetchedAt": "2026-11-23T17:31:52.806Z",
+        "count": 7,
+        "fetchedAt": "2026-11-25T00:10:08.693Z",
         "fullName": "jjh138792/MirageForge",
         "repositoryId": 1445526027,
         "verified": "self"

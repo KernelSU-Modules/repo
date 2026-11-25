@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "065532f86e6e09d7bb0bc4d3e90a3023aa8cd38c",
+      "contentCommit": "c686822dd0fb737c10030bc2d29f5b20f3888d36",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-24T22:20:42.580Z",
-        "commit": "065532f86e6e09d7bb0bc4d3e90a3023aa8cd38c",
+        "checkedAt": "2026-11-25T00:10:08.693Z",
+        "commit": "c686822dd0fb737c10030bc2d29f5b20f3888d36",
         "issues": [],
         "latestTag": "v0.1.9",
         "ok": true,
@@ -1056,7 +1056,7 @@
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-24T12:46:03.694Z",
+      "lastSuccessAt": "2026-11-25T00:10:08.693Z",
       "maxVersionCode": 1210,
       "message": null,
       "repositoryId": 1445526027,
