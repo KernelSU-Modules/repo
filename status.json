@@ -365,21 +365,27 @@
       }
     },
     "adblocker": {
-      "contentCommit": "76573826768b668d0f20a0af535a747e88d5eba1",
+      "contentCommit": null,
       "fullName": "lihenggui/ADBlocker",
-      "health": "ok",
+      "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": null,
+      "message": "repo-not-found: github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-25T08:03:38.271Z",
-        "commit": "76573826768b668d0f20a0af535a747e88d5eba1",
-        "issues": [],
-        "latestTag": "v0.1.10",
-        "ok": true,
-        "releaseId": 457807499,
+        "checkedAt": "2026-11-25T11:32:24.898Z",
+        "commit": null,
+        "issues": [
+          {
+            "code": "repo-not-found",
+            "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
+            "severity": "error"
+          }
+        ],
+        "latestTag": null,
+        "ok": false,
+        "releaseId": null,
         "repositoryId": 1468163221,
         "submissionId": "o935jsol3i"
       },
@@ -420,21 +426,27 @@
       }
     },
     "ancli": {
-      "contentCommit": "5aca290a9a7d276ab2ba9d24a59fcc54c273f610",
+      "contentCommit": null,
       "fullName": "AHLLX/AnCLI",
-      "health": "ok",
+      "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": null,
+      "message": "repo-not-found: github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1285638838,
       "request": {
-        "checkedAt": "2026-11-20T13:08:38.020Z",
-        "commit": "5aca290a9a7d276ab2ba9d24a59fcc54c273f610",
-        "issues": [],
-        "latestTag": "v1.2.667",
-        "ok": true,
-        "releaseId": 452653215,
+        "checkedAt": "2026-11-25T11:32:24.898Z",
+        "commit": null,
+        "issues": [
+          {
+            "code": "repo-not-found",
+            "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
+            "severity": "error"
+          }
+        ],
+        "latestTag": null,
+        "ok": false,
+        "releaseId": null,
         "repositoryId": 1285638838,
         "submissionId": "h3hhx4vz67"
       },
@@ -487,42 +499,54 @@
       }
     },
     "autousb": {
-      "contentCommit": "974247773d31126a83803ba56cd1eb9547b4aeb4",
+      "contentCommit": null,
       "fullName": "Shuoh118/Auto-USB",
-      "health": "ok",
+      "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": null,
+      "message": "repo-not-found: github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1449056776,
       "request": {
-        "checkedAt": "2026-11-22T17:29:05.659Z",
-        "commit": "974247773d31126a83803ba56cd1eb9547b4aeb4",
-        "issues": [],
-        "latestTag": "1.0.2",
-        "ok": true,
-        "releaseId": 454488903,
+        "checkedAt": "2026-11-25T11:32:24.898Z",
+        "commit": null,
+        "issues": [
+          {
+            "code": "repo-not-found",
+            "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
+            "severity": "error"
+          }
+        ],
+        "latestTag": null,
+        "ok": false,
+        "releaseId": null,
         "repositoryId": 1449056776,
         "submissionId": "8irmnuda27"
       },
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "db93e8c0696341465d5e252dc1914da518200634",
+      "contentCommit": null,
       "fullName": "lihenggui/bigbrother",
-      "health": "ok",
+      "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": null,
+      "message": "repo-not-found: github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-24T17:16:35.339Z",
-        "commit": "db93e8c0696341465d5e252dc1914da518200634",
-        "issues": [],
-        "latestTag": "v0.4.2",
-        "ok": true,
-        "releaseId": 455800215,
+        "checkedAt": "2026-11-25T11:32:24.898Z",
+        "commit": null,
+        "issues": [
+          {
+            "code": "repo-not-found",
+            "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
+            "severity": "error"
+          }
+        ],
+        "latestTag": null,
+        "ok": false,
+        "releaseId": null,
         "repositoryId": 1459530172,
         "submissionId": "scx0u3f7qm"
       },
@@ -563,21 +587,27 @@
       }
     },
     "classic_galaxy_sounds": {
-      "contentCommit": "19448f9d0d50fb6799d85e6846aa15ed62f34241",
+      "contentCommit": null,
       "fullName": "Kutjaneiro/Classic-galaxy-sounds",
-      "health": "ok",
+      "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": null,
+      "message": "repo-not-found: github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1463548631,
       "request": {
-        "checkedAt": "2026-11-19T02:04:18.515Z",
-        "commit": "19448f9d0d50fb6799d85e6846aa15ed62f34241",
-        "issues": [],
-        "latestTag": "v1.0.3",
-        "ok": true,
-        "releaseId": 450781698,
+        "checkedAt": "2026-11-25T11:32:24.898Z",
+        "commit": null,
+        "issues": [
+          {
+            "code": "repo-not-found",
+            "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
+            "severity": "error"
+          }
+        ],
+        "latestTag": null,
+        "ok": false,
+        "releaseId": null,
         "repositoryId": 1463548631,
         "submissionId": "u4ecgcsmnb"
       },
@@ -621,7 +651,7 @@
       "contentCommit": null,
       "fullName": "muort521/clouddrive2_ksu_magisk",
       "health": "error",
-      "installation": "missing",
+      "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
       "message": "repo-not-found: The KernelSU Modules App is not installed on the requested repository.",
@@ -645,21 +675,27 @@
       "stable": null
     },
     "coloros_fullpower": {
-      "contentCommit": "15e4b89084c1bcf8d76aee4141de5772fd048ed0",
+      "contentCommit": null,
       "fullName": "MieAiiii/ColorOS_fullpower",
-      "health": "ok",
+      "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": null,
+      "message": "repo-not-found: github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1465068556,
       "request": {
-        "checkedAt": "2026-11-21T18:41:28.786Z",
-        "commit": "15e4b89084c1bcf8d76aee4141de5772fd048ed0",
-        "issues": [],
-        "latestTag": "v10.1.1",
-        "ok": true,
-        "releaseId": 453900439,
+        "checkedAt": "2026-11-25T11:32:24.898Z",
+        "commit": null,
+        "issues": [
+          {
+            "code": "repo-not-found",
+            "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
+            "severity": "error"
+          }
+        ],
+        "latestTag": null,
+        "ok": false,
+        "releaseId": null,
         "repositoryId": 1465068556,
         "submissionId": "f71n5i9g01"
       },
@@ -870,21 +906,27 @@
       }
     },
     "hyperos-accessibility-fix": {
-      "contentCommit": "0b2cd374768dd45139d1a5cde7f5da8afcf602b8",
+      "contentCommit": null,
       "fullName": "chkndrp/hyperos-accessibility-fix",
-      "health": "ok",
+      "health": "error",
       "installation": "present",
       "lastSuccessAt": null,
       "maxVersionCode": null,
-      "message": null,
+      "message": "repo-not-found: github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1262215473,
       "request": {
-        "checkedAt": "2026-11-21T11:31:34.913Z",
-        "commit": "0b2cd374768dd45139d1a5cde7f5da8afcf602b8",
-        "issues": [],
-        "latestTag": "1.0.6",
-        "ok": true,
-        "releaseId": 453614595,
+        "checkedAt": "2026-11-25T11:32:24.898Z",
+        "commit": null,
+        "issues": [
+          {
+            "code": "repo-not-found",
+            "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
+            "severity": "error"
+          }
+        ],
+        "latestTag": null,
+        "ok": false,
+        "releaseId": null,
         "repositoryId": 1262215473,
         "submissionId": "xf68w682k4"
       },
@@ -1122,11 +1164,11 @@
     "oh_my_keymint": {
       "contentCommit": "e1b5e67856a2ff49f48ad9d2c71611ef074a3f1e",
       "fullName": "qwq233/OhMyKeymint",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-22T09:25:57.877Z",
       "maxVersionCode": 182,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while reading module.yaml; will retry",
       "repositoryId": 1068442938,
       "request": null,
       "stable": {
@@ -1160,11 +1202,11 @@
     "oplus-cloud-block": {
       "contentCommit": "6f985a6304334156130edf88bdf8ca1f2c0a70ea",
       "fullName": "706412584/ColorOS-thermal",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-25T05:18:40.334Z",
       "maxVersionCode": 187,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while reading module.yaml; will retry",
       "repositoryId": 1445900163,
       "request": null,
       "stable": {
@@ -1177,11 +1219,11 @@
     "playintegrityfix": {
       "contentCommit": "cc06c31e1de8c6d4d25e48c62c2dbc3995979fc3",
       "fullName": "KOWX712/PlayIntegrityFix",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-10-17T14:23:28.718Z",
       "maxVersionCode": 490,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while reading module.yaml; will retry",
       "repositoryId": 908441330,
       "request": null,
       "stable": {
@@ -1194,11 +1236,11 @@
     "power11": {
       "contentCommit": "e823276c975d794e8e515f302cec28c39f8d8fa0",
       "fullName": "LuigiColantuono/Power11",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-13T11:32:25.479Z",
       "maxVersionCode": 302,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while reading the repository; will retry",
       "repositoryId": 1435050229,
       "request": null,
       "stable": {
@@ -1211,11 +1253,11 @@
     "shellscaled": {
       "contentCommit": "1b0d9799e3a55e4a985421fb19bfb3979509c5f8",
       "fullName": "KyuubiRan/Shellscaled",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-21T14:04:31.204Z",
       "maxVersionCode": 110400701,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1435874117,
       "request": null,
       "stable": {
@@ -1228,11 +1270,11 @@
     "sidewire": {
       "contentCommit": "750c21b8afc310e15efaf1ab346b59913580a37d",
       "fullName": "mzggr0914/sidewire",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-20T03:18:31.071Z",
       "maxVersionCode": 36,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1354975640,
       "request": null,
       "stable": {
@@ -1245,11 +1287,11 @@
     "smallbattery": {
       "contentCommit": "a038c0a3b1eb93e3cdc08d06e0553cd246a80d91",
       "fullName": "LeanxModulostk/SmallBattery",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-17T18:27:57.012Z",
       "maxVersionCode": 2,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 681883979,
       "request": null,
       "stable": {
@@ -1304,11 +1346,11 @@
     "susdock": {
       "contentCommit": "2ddabb7cbb0cad81df153cb87bad86b72779e809",
       "fullName": "Nixie24/susdock",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-07T15:17:23.498Z",
       "maxVersionCode": 400,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1436993054,
       "request": null,
       "stable": {
@@ -1325,7 +1367,7 @@
       "installation": "missing",
       "lastSuccessAt": "2026-10-22T15:16:40.084Z",
       "maxVersionCode": 201,
-      "message": "installation-missing: the KernelSU Modules App is not installed on the repository; using the last synced data",
+      "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1411850723,
       "request": null,
       "stable": null
@@ -1333,11 +1375,11 @@
     "tailscale-bindhosts": {
       "contentCommit": "4799494b910c78566bc8ef24457cb9967d3852fe",
       "fullName": "PEMessage/tailscale-bindhosts",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-11T12:56:51.210Z",
       "maxVersionCode": 1,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1445398567,
       "request": null,
       "stable": {
@@ -1371,11 +1413,11 @@
     "wipe_cache": {
       "contentCommit": "a8de1f7f6d70121d154a5a290261e53546bd2742",
       "fullName": "FLYCOM-E/ClearBox",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-16T00:53:12.083Z",
       "maxVersionCode": 102,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 983784625,
       "request": null,
       "stable": {
@@ -1388,11 +1430,11 @@
     "yukizygisk": {
       "contentCommit": "2a767ad8f6de824895596619a16ff55eb2b0e58f",
       "fullName": "Rouyashiki/YukiZygisk",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-24T07:24:48.412Z",
       "maxVersionCode": 10159,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1297024368,
       "request": null,
       "stable": {
@@ -1405,11 +1447,11 @@
     "zygisk-sui": {
       "contentCommit": "6186ced54a86bcd0ab17237f53801e3e2409bda7",
       "fullName": "XiaoTong6666/zygisk-sui",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-23T08:35:19.449Z",
       "maxVersionCode": 589,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1415623276,
       "request": null,
       "stable": {
@@ -1422,11 +1464,11 @@
     "zygisk_fusehide": {
       "contentCommit": "896db08c201bb807ab3527d16fc9f2e3b0873e5e",
       "fullName": "XiaoTong6666/zygisk_fusehide",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-23T09:10:04.002Z",
       "maxVersionCode": 221,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1417162951,
       "request": null,
       "stable": {
@@ -1439,11 +1481,11 @@
     "zygisknextsu": {
       "contentCommit": "770efca8c4ac2f1ab491962b1529f535807d9c21",
       "fullName": "VeryBaaad/ZNNext",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-25T11:23:51.766Z",
       "maxVersionCode": 445,
-      "message": null,
+      "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
@@ -1456,11 +1498,11 @@
     "zygisksu": {
       "contentCommit": "a638ed1d6a60f8cd732b07223a95fcadf7ec09f2",
       "fullName": "Dr-TSNG/ZygiskNext",
-      "health": "ok",
+      "health": "stale",
       "installation": "present",
       "lastSuccessAt": "2026-11-16T12:08:15.647Z",
       "maxVersionCode": 880,
-      "message": "stable-unavailable: the stable release (versionCode 880) was deleted or marked as prerelease and no older release is left; the module is hidden until a release with a versionCode above 880 is published.",
+      "message": "github-unavailable: network error or timeout while looking up the App installation; will retry",
       "repositoryId": 594330628,
       "request": null,
       "stable": null
