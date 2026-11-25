@@ -6363,8 +6363,8 @@
         "versionCode": 7
       },
       "stars": {
-        "count": 10,
-        "fetchedAt": "2026-11-17T02:45:18.589Z",
+        "count": 11,
+        "fetchedAt": "2026-11-25T03:20:37.548Z",
         "fullName": "klmmlk/KernelSU-ClipShield",
         "repositoryId": 1417109515,
         "verified": "self"
@@ -10980,8 +10980,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T00:10:08.693Z",
-        "lastSuccessAt": "2026-11-25T00:10:08.693Z",
+        "lastAttemptAt": "2026-11-25T03:20:37.548Z",
+        "lastSuccessAt": "2026-11-25T03:20:37.548Z",
         "message": null,
         "status": "ok"
       },
@@ -11170,6 +11170,12 @@
         },
         "457486043": {
           "checkedAt": "2026-11-25T00:10:08.693Z",
+          "code": "version-not-newer",
+          "message": "versionCode 1210 is already used by the release 1.2.1. Publish a new release with a versionCode above 1210.",
+          "ok": false
+        },
+        "457609766": {
+          "checkedAt": "2026-11-25T03:20:37.548Z",
           "code": "version-not-newer",
           "message": "versionCode 1210 is already used by the release 1.2.1. Publish a new release with a versionCode above 1210.",
           "ok": false
