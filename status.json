@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "cf6d9bd60ef8dca71d571f272d7071676845f1be",
+      "contentCommit": "c29a1b3f71517672fb3b1d13db2fbb41f1a9f0db",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-25T01:47:03.100Z",
-        "commit": "cf6d9bd60ef8dca71d571f272d7071676845f1be",
+        "checkedAt": "2026-11-25T03:18:31.147Z",
+        "commit": "c29a1b3f71517672fb3b1d13db2fbb41f1a9f0db",
         "issues": [],
         "latestTag": "v0.1.9",
         "ok": true,
