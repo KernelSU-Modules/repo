@@ -12333,17 +12333,47 @@
       "fullName": "706412584/ColorOS-thermal",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T17:31:52.806Z",
-        "lastSuccessAt": "2026-11-23T17:31:52.806Z",
+        "lastAttemptAt": "2026-11-25T05:18:40.334Z",
+        "lastSuccessAt": "2026-11-25T05:18:40.334Z",
         "message": null,
         "status": "ok"
       },
       "id": "oplus-cloud-block",
       "installationId": 178620842,
-      "maxStableVersionCode": 186,
-      "maxVersionCode": 186,
+      "maxStableVersionCode": 187,
+      "maxVersionCode": 187,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:eafd68bd51e9be22caffd6152250576e9279e394c3ba5355448fc35813c4c90e",
+            "id": 790175490,
+            "name": "oplus-cloud-block-v01.7.76.zip",
+            "sha256": "eafd68bd51e9be22caffd6152250576e9279e394c3ba5355448fc35813c4c90e",
+            "size": 168486,
+            "url": "https://github.com/706412584/ColorOS-thermal/releases/download/v01.7.76/oplus-cloud-block-v01.7.76.zip"
+          },
+          "body": "内存面板新增 root 脚本限制（按路径规则、退出/删规则自动恢复）；修复保持无线调试反复断连；守护自动重启、游戏识别现场日志、仅游戏合并指定应用\n\n见 CHANGELOG.md",
+          "htmlUrl": "https://github.com/706412584/ColorOS-thermal/releases/tag/v01.7.76",
+          "immutable": true,
+          "name": "ColorOS 温控与云控 v01.7.76",
+          "prerelease": false,
+          "prop": {
+            "author": "酷安@谋事在人成事在天",
+            "description": "ColorOS/一加系列通用工具：①解除出厂 CPU 频率上限（高通机型大核 58%→100%，两层天花板；天玑机型解除被厂商钉死的频率，均带温度保护与一键还原）②拦截 OTA/系统静默更新/云控（云控按组件拦截，不影响账号登录与游戏联运）③内存/CPU 面板与一键清理、root 脚本自动限制与恢复 ④云控残留清理（可回滚）⑤游戏记录（每局帧率/1% Low/CPU·GPU 频率/温度/耗电）⑥可选智能调和与显式规则线程 affinity（默认关闭，收益需实测）。点开 WebUI 使用，重启后自动重新生效。",
+            "id": "oplus-cloud-block",
+            "name": "ColorOS 温控与云控",
+            "updateJson": "https://gitee.com/wu-yongchengsvip/oplus-thermal/raw/master/update.json",
+            "version": "01.7.76",
+            "versionCode": "187"
+          },
+          "publishedAt": "2026-11-25T05:18:18Z",
+          "releaseId": 457683644,
+          "tag": "v01.7.76",
+          "tagCommit": "e01fd17b1829b9b20260e04c24314b0fc6033895",
+          "version": "01.7.76",
+          "versionCode": 187
+        },
         {
           "asset": {
             "digest": "sha256:dccd365b08d9581a2c6d0ee86dbae562240f712e6aafde7c066de6d02307ce6f",
@@ -12466,37 +12496,41 @@
         "455762007": {
           "checkedAt": "2026-11-23T17:31:52.806Z",
           "ok": true
+        },
+        "457683644": {
+          "checkedAt": "2026-11-25T05:18:40.334Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:dccd365b08d9581a2c6d0ee86dbae562240f712e6aafde7c066de6d02307ce6f",
-          "id": 783886098,
-          "name": "oplus-cloud-block-v01.7.75.zip",
-          "sha256": "dccd365b08d9581a2c6d0ee86dbae562240f712e6aafde7c066de6d02307ce6f",
-          "size": 153928,
-          "url": "https://github.com/706412584/ColorOS-thermal/releases/download/v01.7.75/oplus-cloud-block-v01.7.75.zip"
+          "digest": "sha256:eafd68bd51e9be22caffd6152250576e9279e394c3ba5355448fc35813c4c90e",
+          "id": 790175490,
+          "name": "oplus-cloud-block-v01.7.76.zip",
+          "sha256": "eafd68bd51e9be22caffd6152250576e9279e394c3ba5355448fc35813c4c90e",
+          "size": 168486,
+          "url": "https://github.com/706412584/ColorOS-thermal/releases/download/v01.7.76/oplus-cloud-block-v01.7.76.zip"
         },
-        "body": "游戏热预算（大核稳健档+防掉帧变暗）默认开启；修复智能日常档位从未生效；新增脚本进程清理；温控面板改版\n\n见 CHANGELOG.md",
-        "htmlUrl": "https://github.com/706412584/ColorOS-thermal/releases/tag/v01.7.75",
+        "body": "内存面板新增 root 脚本限制（按路径规则、退出/删规则自动恢复）；修复保持无线调试反复断连；守护自动重启、游戏识别现场日志、仅游戏合并指定应用\n\n见 CHANGELOG.md",
+        "htmlUrl": "https://github.com/706412584/ColorOS-thermal/releases/tag/v01.7.76",
         "immutable": true,
-        "name": "ColorOS 温控与云控 v01.7.75",
+        "name": "ColorOS 温控与云控 v01.7.76",
         "prerelease": false,
         "prop": {
           "author": "酷安@谋事在人成事在天",
-          "description": "ColorOS/一加系列通用工具：①解除出厂 CPU 频率上限（高通机型大核 58%→100%，两层天花板；天玑机型解除被厂商钉死的频率，均带温度保护与一键还原）②拦截 OTA/系统静默更新/云控（云控按组件拦截，不影响账号登录与游戏联运）③内存/CPU 面板与一键清理 ④云控残留清理（可回滚）⑤游戏记录（每局帧率/1% Low/CPU·GPU 频率/温度/耗电）⑥可选智能调和与显式规则线程 affinity（默认关闭，收益需实测）。点开 WebUI 使用，重启后自动重新生效。",
+          "description": "ColorOS/一加系列通用工具：①解除出厂 CPU 频率上限（高通机型大核 58%→100%，两层天花板；天玑机型解除被厂商钉死的频率，均带温度保护与一键还原）②拦截 OTA/系统静默更新/云控（云控按组件拦截，不影响账号登录与游戏联运）③内存/CPU 面板与一键清理、root 脚本自动限制与恢复 ④云控残留清理（可回滚）⑤游戏记录（每局帧率/1% Low/CPU·GPU 频率/温度/耗电）⑥可选智能调和与显式规则线程 affinity（默认关闭，收益需实测）。点开 WebUI 使用，重启后自动重新生效。",
           "id": "oplus-cloud-block",
           "name": "ColorOS 温控与云控",
           "updateJson": "https://gitee.com/wu-yongchengsvip/oplus-thermal/raw/master/update.json",
-          "version": "01.7.75",
-          "versionCode": "186"
+          "version": "01.7.76",
+          "versionCode": "187"
         },
-        "publishedAt": "2026-11-23T17:31:10Z",
-        "releaseId": 455762007,
-        "tag": "v01.7.75",
-        "tagCommit": "8c07d48841fb0d45319f2d6da8f79c5d4c975f8e",
-        "version": "01.7.75",
-        "versionCode": 186
+        "publishedAt": "2026-11-25T05:18:18Z",
+        "releaseId": 457683644,
+        "tag": "v01.7.76",
+        "tagCommit": "e01fd17b1829b9b20260e04c24314b0fc6033895",
+        "version": "01.7.76",
+        "versionCode": 187
       },
       "stars": {
         "count": 5,

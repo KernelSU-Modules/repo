@@ -1162,16 +1162,16 @@
       "fullName": "706412584/ColorOS-thermal",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-23T17:31:52.806Z",
-      "maxVersionCode": 186,
+      "lastSuccessAt": "2026-11-25T05:18:40.334Z",
+      "maxVersionCode": 187,
       "message": null,
       "repositoryId": 1445900163,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-23T17:31:10Z",
-        "tag": "v01.7.75",
-        "version": "01.7.75",
-        "versionCode": 186
+        "publishedAt": "2026-11-25T05:18:18Z",
+        "tag": "v01.7.76",
+        "version": "01.7.76",
+        "versionCode": 187
       }
     },
     "playintegrityfix": {
