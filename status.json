@@ -403,11 +403,11 @@
       }
     },
     "altdb": {
-      "contentCommit": "21bd64aa746746b8e697f0cbfb752391c478c71f",
+      "contentCommit": "d6b997c6020df0a3a59bc1433a3949a56d3d5b18",
       "fullName": "Dr-TSNG/altdb",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-18T05:46:54.288Z",
+      "lastSuccessAt": "2026-11-26T07:25:00.535Z",
       "maxVersionCode": 28,
       "message": null,
       "repositoryId": 1368146952,
@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "4269c346927a7b1aae79f89800da39683c9c7e3a",
+      "contentCommit": "9960332b2f67ffff045b22a7cce28908e4c49a07",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,8 +517,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-26T06:20:20.138Z",
-        "commit": "4269c346927a7b1aae79f89800da39683c9c7e3a",
+        "checkedAt": "2026-11-26T07:25:00.535Z",
+        "commit": "9960332b2f67ffff045b22a7cce28908e4c49a07",
         "issues": [],
         "latestTag": "v0.4.2",
         "ok": true,
@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "ba48f2c95881f61184b5d2291509820989ab3c07",
+      "contentCommit": "2f20e7740bc59f86467aef019f8bde410ac7cde6",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,12 +1332,12 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-26T03:16:25.217Z",
-        "commit": "ba48f2c95881f61184b5d2291509820989ab3c07",
+        "checkedAt": "2026-11-26T07:25:00.535Z",
+        "commit": "2f20e7740bc59f86467aef019f8bde410ac7cde6",
         "issues": [],
-        "latestTag": "v0.10.41",
+        "latestTag": "v0.10.48",
         "ok": true,
-        "releaseId": 458266843,
+        "releaseId": 459078362,
         "repositoryId": 1459020791,
         "submissionId": "ojozpu2jdc"
       },

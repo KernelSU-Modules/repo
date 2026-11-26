@@ -5563,14 +5563,14 @@
     "altdb": {
       "content": {
         "blobs": {
-          "README.md": "5af33b8c5c1bcf5bf9b8d5d5eed05b920d2114ed",
-          "module.yaml": "d2b2287089a0d681223c9a532ca3381fc877cf59"
+          "README.md": "268793d71b4a51c070ec84d1b7eb7ed0d44ff65b",
+          "module.yaml": "d66c0fad94667615f999563bfc5103915e34f3e7"
         },
-        "commit": "21bd64aa746746b8e697f0cbfb752391c478c71f",
-        "fetchedAt": "2026-10-18T05:46:09.207Z",
+        "commit": "d6b997c6020df0a3a59bc1433a3949a56d3d5b18",
+        "fetchedAt": "2026-11-26T07:25:00.535Z",
         "files": {
-          "README.md": "6131219f852da3fb87a1718c155f29e19cfd2fbdd101ad96a1a66f090032dc90",
-          "module.yaml": "5c6cf82f7bb8c26ac2ba50ba16bd8d64f8dcb93bf8ca07db96d53921192818e8"
+          "README.md": "b9a9d94c7dd18629f5f2a0d07d326c6e6ff8438113f3b3f4237edd42d5ade261",
+          "module.yaml": "2b9fde7ed6d68f6be3fbf425b0ed96a540d457a9a7c45f7c94b13fe602edb45d"
         },
         "manifestPath": "module.yaml",
         "ref": "master"
@@ -5578,8 +5578,8 @@
       "fullName": "Dr-TSNG/altdb",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-10-18T05:46:54.288Z",
-        "lastSuccessAt": "2026-10-18T05:46:54.288Z",
+        "lastAttemptAt": "2026-11-26T07:25:00.535Z",
+        "lastSuccessAt": "2026-11-26T07:25:00.535Z",
         "message": null,
         "status": "ok"
       },
@@ -5701,8 +5701,8 @@
         "versionCode": 28
       },
       "stars": {
-        "count": 106,
-        "fetchedAt": "2026-11-25T12:11:20.693Z",
+        "count": 107,
+        "fetchedAt": "2026-11-26T07:25:00.535Z",
         "fullName": "Dr-TSNG/altdb",
         "repositoryId": 1368146952,
         "verified": "self"
@@ -10700,8 +10700,8 @@
         "versionCode": 213
       },
       "stars": {
-        "count": 70,
-        "fetchedAt": "2026-11-25T07:13:36.321Z",
+        "count": 71,
+        "fetchedAt": "2026-11-26T07:25:00.535Z",
         "fullName": "vincentng295/Magic_V2Ray",
         "repositoryId": 1256102852,
         "verified": "self"
@@ -12074,8 +12074,8 @@
         "versionCode": 1128
       },
       "stars": {
-        "count": 1477,
-        "fetchedAt": "2026-11-25T07:06:30.610Z",
+        "count": 1483,
+        "fetchedAt": "2026-11-26T07:25:00.535Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -14017,8 +14017,8 @@
         "versionCode": 2
       },
       "stars": {
-        "count": 25,
-        "fetchedAt": "2026-11-22T03:18:15.733Z",
+        "count": 26,
+        "fetchedAt": "2026-11-26T07:25:00.535Z",
         "fullName": "LeanxModulostk/SmallBattery",
         "repositoryId": 681883979,
         "verified": "self"
@@ -16093,8 +16093,8 @@
         "versionCode": 221
       },
       "stars": {
-        "count": 35,
-        "fetchedAt": "2026-11-24T17:16:35.339Z",
+        "count": 36,
+        "fetchedAt": "2026-11-26T07:25:00.535Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
