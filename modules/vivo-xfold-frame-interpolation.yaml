@@ -1,0 +1,20 @@
+id: vivo-xfold-frame-interpolation
+status: pending
+request:
+  submissionId: pocxiu4b7f
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1473008677
+    ownerId: 170798140
+    fullName: Zircon10086/vivo-xfold-frame-interpolation
+    manifestPath: module.yaml
+  submittedBy: 170798140
+  submittedByLogin: Zircon10086
+  submittedAt: 2026-11-26T12:24:58.436Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65307
+  note: 给 vivo X Fold 系列补上游戏帧率插值（MEMC）能力的 KernelSU 模块。
+createdAt: 2026-11-26T12:24:58.436Z
+updatedAt: 2026-11-26T12:24:58.436Z
