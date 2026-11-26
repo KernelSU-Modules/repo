@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "db93e8c0696341465d5e252dc1914da518200634",
+      "contentCommit": "aa6e39e94f004790ee2851dc8e71921e136a9124",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,8 +517,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-25T11:38:39.579Z",
-        "commit": "db93e8c0696341465d5e252dc1914da518200634",
+        "checkedAt": "2026-11-26T05:10:33.158Z",
+        "commit": "aa6e39e94f004790ee2851dc8e71921e136a9124",
         "issues": [],
         "latestTag": "v0.4.2",
         "ok": true,
@@ -929,6 +929,27 @@
         "releaseId": 452237285,
         "repositoryId": 817089383,
         "submissionId": "873tqtcw5b"
+      },
+      "stable": null
+    },
+    "k60_sms_guard": {
+      "contentCommit": "25f5a5543adaf9343dba38d0148a73081528e9a8",
+      "fullName": "liyan173/K60-SMS-Guard",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1472691205,
+      "request": {
+        "checkedAt": "2026-11-26T05:10:33.158Z",
+        "commit": "25f5a5543adaf9343dba38d0148a73081528e9a8",
+        "issues": [],
+        "latestTag": "v1.0.0",
+        "ok": true,
+        "releaseId": 458980835,
+        "repositoryId": 1472691205,
+        "submissionId": "ga9btmz3gu"
       },
       "stable": null
     },
