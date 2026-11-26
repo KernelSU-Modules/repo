@@ -6244,8 +6244,8 @@
         "versionCode": 100
       },
       "stars": {
-        "count": 0,
-        "fetchedAt": "2026-11-01T11:30:58.490Z",
+        "count": 1,
+        "fetchedAt": "2026-11-26T16:41:59.717Z",
         "fullName": "jjh138792/System-CA-Manager",
         "repositoryId": 1441594416,
         "verified": "self"
@@ -13969,8 +13969,8 @@
         "versionCode": 36
       },
       "stars": {
-        "count": 47,
-        "fetchedAt": "2026-11-23T23:06:35.934Z",
+        "count": 48,
+        "fetchedAt": "2026-11-26T16:41:59.717Z",
         "fullName": "mzggr0914/sidewire",
         "repositoryId": 1354975640,
         "verified": "self"
@@ -16197,17 +16197,47 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T14:29:56.170Z",
-        "lastSuccessAt": "2026-11-25T14:29:56.170Z",
+        "lastAttemptAt": "2026-11-26T16:41:59.717Z",
+        "lastSuccessAt": "2026-11-26T16:41:59.717Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 451,
-      "maxVersionCode": 451,
+      "maxStableVersionCode": 454,
+      "maxVersionCode": 454,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:04bcac0d742d507ed82bb8924c6f57e65ac54f4d68ecf51b958e2ab5b9c75409",
+            "id": 796797568,
+            "name": "ZNNext-v2.22.0-454-95e2d0a-release.zip",
+            "sha256": "04bcac0d742d507ed82bb8924c6f57e65ac54f4d68ecf51b958e2ab5b9c75409",
+            "size": 6334215,
+            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.22.0/ZNNext-v2.22.0-454-95e2d0a-release.zip"
+          },
+          "body": "## What's Changed\n* chore(deps): bump @m3e/web from 2.13.5 to 2.13.6 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/230\n* Add Russian (ru) locale to WebUI by @LegacyFreeman in https://github.com/VeryBaaad/ZNNext/pull/227\n\n## New Contributors\n* @LegacyFreeman made their first contribution in https://github.com/VeryBaaad/ZNNext/pull/227\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.21.0...v2.22.0\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.22.0",
+          "immutable": true,
+          "name": "v2.22.0",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "ZNNext",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
+            "version": "v2.22.0 (454-95e2d0a-release)",
+            "versionCode": "454"
+          },
+          "publishedAt": "2026-11-26T16:41:37Z",
+          "releaseId": 459672974,
+          "tag": "v2.22.0",
+          "tagCommit": "95e2d0a0b6c81c689069f7a2b476d8870d84e122",
+          "version": "v2.22.0 (454-95e2d0a-release)",
+          "versionCode": 454
+        },
         {
           "asset": {
             "digest": "sha256:dddfc5a117915958264713654c0d9e4d6742a7ca1d706303a27b85e4917d8935",
@@ -16477,36 +16507,6 @@
           "tagCommit": "a5d3ce6ebd5cf56579f338c59a5d257a829fbeb4",
           "version": "v2.18.0 (406-a5d3ce6-release)",
           "versionCode": 406
-        },
-        {
-          "asset": {
-            "digest": "sha256:2c49bbe6a8db26ac3cb7496f10d9049a41b1166fdbab6c56977049c4b4590f38",
-            "id": 750016368,
-            "name": "ZNNext-v2.17.0-402-fdd9111-release.zip",
-            "sha256": "2c49bbe6a8db26ac3cb7496f10d9049a41b1166fdbab6c56977049c4b4590f38",
-            "size": 9969352,
-            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.17.0/ZNNext-v2.17.0-402-fdd9111-release.zip"
-          },
-          "body": "## What's Changed\n* feat: add hot update by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/194\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.16.0.1...v2.17.0\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.17.0",
-          "immutable": true,
-          "name": "v2.17.0",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "ZNNext",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-            "version": "v2.17.0 (402-fdd9111-release)",
-            "versionCode": "402"
-          },
-          "publishedAt": "2026-11-15T06:03:16Z",
-          "releaseId": 445847384,
-          "tag": "v2.17.0",
-          "tagCommit": "fdd91110ff9f7c1886778e56c195121c33ce0414",
-          "version": "v2.17.0 (402-fdd9111-release)",
-          "versionCode": 402
         }
       ],
       "repositoryId": 1348255159,
@@ -16808,21 +16808,25 @@
         "458228686": {
           "checkedAt": "2026-11-25T14:29:56.170Z",
           "ok": true
+        },
+        "459672974": {
+          "checkedAt": "2026-11-26T16:41:59.717Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:dddfc5a117915958264713654c0d9e4d6742a7ca1d706303a27b85e4917d8935",
-          "id": 791881281,
-          "name": "ZNNext-v2.21.0-451-eed9487-release.zip",
-          "sha256": "dddfc5a117915958264713654c0d9e4d6742a7ca1d706303a27b85e4917d8935",
-          "size": 6330406,
-          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.21.0/ZNNext-v2.21.0-451-eed9487-release.zip"
+          "digest": "sha256:04bcac0d742d507ed82bb8924c6f57e65ac54f4d68ecf51b958e2ab5b9c75409",
+          "id": 796797568,
+          "name": "ZNNext-v2.22.0-454-95e2d0a-release.zip",
+          "sha256": "04bcac0d742d507ed82bb8924c6f57e65ac54f4d68ecf51b958e2ab5b9c75409",
+          "size": 6334215,
+          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.22.0/ZNNext-v2.22.0-454-95e2d0a-release.zip"
         },
-        "body": "## What's Changed\n* feat(inline): add srx_inline_hook by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/226\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.20.2...v2.21.0\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.21.0",
+        "body": "## What's Changed\n* chore(deps): bump @m3e/web from 2.13.5 to 2.13.6 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/230\n* Add Russian (ru) locale to WebUI by @LegacyFreeman in https://github.com/VeryBaaad/ZNNext/pull/227\n\n## New Contributors\n* @LegacyFreeman made their first contribution in https://github.com/VeryBaaad/ZNNext/pull/227\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.21.0...v2.22.0\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.22.0",
         "immutable": true,
-        "name": "v2.21.0",
+        "name": "v2.22.0",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -16830,15 +16834,15 @@
           "id": "zygisknextsu",
           "name": "ZNNext",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-          "version": "v2.21.0 (451-eed9487-release)",
-          "versionCode": "451"
+          "version": "v2.22.0 (454-95e2d0a-release)",
+          "versionCode": "454"
         },
-        "publishedAt": "2026-11-25T14:29:32Z",
-        "releaseId": 458228686,
-        "tag": "v2.21.0",
-        "tagCommit": "eed948778176741e7044b5f4c3e229c83f8d4ed3",
-        "version": "v2.21.0 (451-eed9487-release)",
-        "versionCode": 451
+        "publishedAt": "2026-11-26T16:41:37Z",
+        "releaseId": 459672974,
+        "tag": "v2.22.0",
+        "tagCommit": "95e2d0a0b6c81c689069f7a2b476d8870d84e122",
+        "version": "v2.22.0 (454-95e2d0a-release)",
+        "versionCode": 454
       },
       "stars": {
         "count": 123,

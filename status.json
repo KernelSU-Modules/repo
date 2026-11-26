@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "dbfe18b23582e658231ce6ac2eaf871a5583e923",
+      "contentCommit": "c25989ae2afb61185f4f752396a9c1b2fa50d1bf",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-26T15:22:05.390Z",
-        "commit": "dbfe18b23582e658231ce6ac2eaf871a5583e923",
+        "checkedAt": "2026-11-26T16:41:59.717Z",
+        "commit": "c25989ae2afb61185f4f752396a9c1b2fa50d1bf",
         "issues": [],
         "latestTag": "v0.1.12",
         "ok": true,
@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "48b876e8fb32bba56a434ce2b52714bd854057a9",
+      "contentCommit": "3b68426d52ecc2f57f6be745145e4bf46296213d",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,8 +1332,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-26T15:43:16.519Z",
-        "commit": "48b876e8fb32bba56a434ce2b52714bd854057a9",
+        "checkedAt": "2026-11-26T16:41:59.717Z",
+        "commit": "3b68426d52ecc2f57f6be745145e4bf46296213d",
         "issues": [],
         "latestTag": "v0.10.54",
         "ok": true,
@@ -1525,16 +1525,16 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-25T14:29:56.170Z",
-      "maxVersionCode": 451,
+      "lastSuccessAt": "2026-11-26T16:41:59.717Z",
+      "maxVersionCode": 454,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-25T14:29:32Z",
-        "tag": "v2.21.0",
-        "version": "v2.21.0 (451-eed9487-release)",
-        "versionCode": 451
+        "publishedAt": "2026-11-26T16:41:37Z",
+        "tag": "v2.22.0",
+        "version": "v2.22.0 (454-95e2d0a-release)",
+        "versionCode": 454
       }
     },
     "zygisksu": {
