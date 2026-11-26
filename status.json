@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "0253d3a1ec9137e31b3a651475db4b07e7da9496",
+      "contentCommit": "8de0da8227c938674b0380501b4fc80ac569b9c9",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-26T17:12:03.993Z",
-        "commit": "0253d3a1ec9137e31b3a651475db4b07e7da9496",
+        "checkedAt": "2026-11-26T17:32:38.667Z",
+        "commit": "8de0da8227c938674b0380501b4fc80ac569b9c9",
         "issues": [],
         "latestTag": "v0.1.12",
         "ok": true,
@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "afd391076b51a26d8e2b68c5d67e555e2e9bca65",
+      "contentCommit": "bf61e1bea6c9ed236de209df3f6065107ed54da4",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,8 +1332,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-26T17:13:11.438Z",
-        "commit": "afd391076b51a26d8e2b68c5d67e555e2e9bca65",
+        "checkedAt": "2026-11-26T17:32:38.667Z",
+        "commit": "bf61e1bea6c9ed236de209df3f6065107ed54da4",
         "issues": [],
         "latestTag": "v0.10.54",
         "ok": true,
