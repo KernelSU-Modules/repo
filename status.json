@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "c25989ae2afb61185f4f752396a9c1b2fa50d1bf",
+      "contentCommit": "0253d3a1ec9137e31b3a651475db4b07e7da9496",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-26T16:41:59.717Z",
-        "commit": "c25989ae2afb61185f4f752396a9c1b2fa50d1bf",
+        "checkedAt": "2026-11-26T17:12:03.993Z",
+        "commit": "0253d3a1ec9137e31b3a651475db4b07e7da9496",
         "issues": [],
         "latestTag": "v0.1.12",
         "ok": true,
@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "bcb034ad42e64a09e44ae40c426339833b94c477",
+      "contentCommit": "4c0d35e039d02de4a7edf5ab8d0cc5d1f8258c62",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,12 +517,12 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-26T15:22:05.390Z",
-        "commit": "bcb034ad42e64a09e44ae40c426339833b94c477",
+        "checkedAt": "2026-11-26T17:12:03.993Z",
+        "commit": "4c0d35e039d02de4a7edf5ab8d0cc5d1f8258c62",
         "issues": [],
-        "latestTag": "v0.4.2",
+        "latestTag": "v0.5.0",
         "ok": true,
-        "releaseId": 455800215,
+        "releaseId": 459703465,
         "repositoryId": 1459530172,
         "submissionId": "scx0u3f7qm"
       },
@@ -891,7 +891,7 @@
       }
     },
     "hyperos-accessibility-fix": {
-      "contentCommit": "b7afcba8e083b0d69a927c92cafd1e9af1a5b007",
+      "contentCommit": "9fc47bd22593eddb0ae85dd8971db3be76a3f9f7",
       "fullName": "chkndrp/hyperos-accessibility-fix",
       "health": "ok",
       "installation": "present",
@@ -900,8 +900,8 @@
       "message": null,
       "repositoryId": 1262215473,
       "request": {
-        "checkedAt": "2026-11-26T16:43:11.346Z",
-        "commit": "b7afcba8e083b0d69a927c92cafd1e9af1a5b007",
+        "checkedAt": "2026-11-26T17:12:03.993Z",
+        "commit": "9fc47bd22593eddb0ae85dd8971db3be76a3f9f7",
         "issues": [],
         "latestTag": "1.0.6",
         "ok": true,
@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "1a7bd2078c2682ba7dc7b3947ede1be2d630000c",
+      "contentCommit": "b4981b72fd42d083a8ba4698e8fd70d9835a8468",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,8 +1332,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-26T16:43:11.346Z",
-        "commit": "1a7bd2078c2682ba7dc7b3947ede1be2d630000c",
+        "checkedAt": "2026-11-26T17:12:03.993Z",
+        "commit": "b4981b72fd42d083a8ba4698e8fd70d9835a8468",
         "issues": [],
         "latestTag": "v0.10.54",
         "ok": true,
