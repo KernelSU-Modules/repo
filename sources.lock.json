@@ -160,8 +160,8 @@
         "versionCode": 20261110
       },
       "stars": {
-        "count": 17,
-        "fetchedAt": "2026-11-17T14:43:02.594Z",
+        "count": 18,
+        "fetchedAt": "2026-11-26T03:16:25.217Z",
         "fullName": "xiaoji0308/Steps",
         "repositoryId": 1423140380,
         "verified": "self"
@@ -3847,7 +3847,7 @@
     "QSC_Battery": {
       "content": {
         "blobs": {
-          "README.md": "8d4a9549641d726f4b7474983c1cd4e7e2b2fcbc",
+          "README.md": "fd6f1a45ebc6fa1167cc3c7456e60d1bad6b74fb",
           "docs/public/screenshots/webui-config.png": "ac1e7a925a022253604a389c9b93886ccdb8e7e5",
           "docs/public/screenshots/webui-log.png": "68ac03da74bbad0f76a172e72e63d34afbcdf0b9",
           "docs/public/screenshots/webui-more.png": "e53f0bc60883b04d02d1d624679d695b2dc94b7f",
@@ -3855,10 +3855,10 @@
           "module.yaml": "9ccd1e17007d6f35fef08d4c529189e98875dc8e",
           "module/icon.png": "4be08ff11dff3a0cf150c2b0ff5879e4baddfc5c"
         },
-        "commit": "dfc37925961e156ca6bf179046fa6e41eb3a9dca",
-        "fetchedAt": "2026-11-24T04:08:23.092Z",
+        "commit": "f2d191b12285fa60f3c0c30e816935463d004aa6",
+        "fetchedAt": "2026-11-26T03:16:25.217Z",
         "files": {
-          "README.md": "1e0b2c2c8627824ad83ba2c60797bd4f8133133022ec909b7f9708c00793fbc1",
+          "README.md": "63e9bddccdb6d18bfcfb9e2ef268b557ed72c2eada63d8bf2d60bde72376f233",
           "docs/public/screenshots/webui-config.png": "ba01d1c8d4cd5c19f5e73b477c9c26da901bf0e2bdf4d7abf2d5cd910f7dfb39",
           "docs/public/screenshots/webui-log.png": "e708ff14eddd1e019d4105c24346474ffe4186ddeec9e18b45ffcf95e67f3cf7",
           "docs/public/screenshots/webui-more.png": "8ab4ef031b11cfad07b510448230044c15c1aa87ac5eb87e5cb10347aafcec8a",
@@ -3872,8 +3872,8 @@
       "fullName": "Eikeitsu/QSC-Battery",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-24T09:05:07.365Z",
-        "lastSuccessAt": "2026-11-24T09:05:07.365Z",
+        "lastAttemptAt": "2026-11-26T03:16:25.217Z",
+        "lastSuccessAt": "2026-11-26T03:16:25.217Z",
         "message": null,
         "status": "ok"
       },
@@ -4163,8 +4163,8 @@
         "versionCode": 2026112401
       },
       "stars": {
-        "count": 75,
-        "fetchedAt": "2026-11-25T03:40:20.811Z",
+        "count": 77,
+        "fetchedAt": "2026-11-26T03:16:25.217Z",
         "fullName": "Eikeitsu/QSC-Battery",
         "repositoryId": 1302628725,
         "verified": "self"
@@ -9990,8 +9990,8 @@
         "versionCode": 40005
       },
       "stars": {
-        "count": 46,
-        "fetchedAt": "2026-11-24T22:20:42.580Z",
+        "count": 47,
+        "fetchedAt": "2026-11-26T03:16:25.217Z",
         "fullName": "cyanmint/lkm4ctr",
         "repositoryId": 1313308146,
         "verified": "self"
@@ -12691,8 +12691,8 @@
         "versionCode": 187
       },
       "stars": {
-        "count": 5,
-        "fetchedAt": "2026-11-24T18:14:07.139Z",
+        "count": 6,
+        "fetchedAt": "2026-11-26T03:16:25.217Z",
         "fullName": "706412584/ColorOS-thermal",
         "repositoryId": 1445900163,
         "verified": "self"

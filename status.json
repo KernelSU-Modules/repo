@@ -239,11 +239,11 @@
       }
     },
     "QSC_Battery": {
-      "contentCommit": "dfc37925961e156ca6bf179046fa6e41eb3a9dca",
+      "contentCommit": "f2d191b12285fa60f3c0c30e816935463d004aa6",
       "fullName": "Eikeitsu/QSC-Battery",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-24T09:05:07.365Z",
+      "lastSuccessAt": "2026-11-26T03:16:25.217Z",
       "maxVersionCode": 2026112401,
       "message": null,
       "repositoryId": 1302628725,
@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "d0ed97da9941f036e2e2be7ef8dfc7d75ba50091",
+      "contentCommit": "a8ea8ed8dd18e336012f764b26d77ea07643829a",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,12 +374,12 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-25T22:34:23.732Z",
-        "commit": "d0ed97da9941f036e2e2be7ef8dfc7d75ba50091",
+        "checkedAt": "2026-11-26T03:16:25.217Z",
+        "commit": "a8ea8ed8dd18e336012f764b26d77ea07643829a",
         "issues": [],
-        "latestTag": "v0.1.11",
+        "latestTag": "v0.1.12",
         "ok": true,
-        "releaseId": 458722964,
+        "releaseId": 458903663,
         "repositoryId": 1468163221,
         "submissionId": "o935jsol3i"
       },
@@ -1302,7 +1302,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "dc0e3408e9ed8672598d6d1492899031e6cb308e",
+      "contentCommit": "ba48f2c95881f61184b5d2291509820989ab3c07",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1311,8 +1311,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-25T22:34:23.732Z",
-        "commit": "dc0e3408e9ed8672598d6d1492899031e6cb308e",
+        "checkedAt": "2026-11-26T03:16:25.217Z",
+        "commit": "ba48f2c95881f61184b5d2291509820989ab3c07",
         "issues": [],
         "latestTag": "v0.10.41",
         "ok": true,
