@@ -107,16 +107,16 @@
       "fullName": "Eikeitsu/CertBridge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-23T11:33:36.483Z",
-      "maxVersionCode": 50107,
+      "lastSuccessAt": "2026-11-26T06:20:20.138Z",
+      "maxVersionCode": 50200,
       "message": null,
       "repositoryId": 1306329220,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-11T16:18:27Z",
-        "tag": "v5.1.2",
-        "version": "v5.1.2",
-        "versionCode": 50107
+        "publishedAt": "2026-11-26T06:19:58Z",
+        "tag": "v5.2.0",
+        "version": "v5.2.0",
+        "versionCode": 50200
       }
     },
     "Clear_Rubbish": {
@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "aa6e39e94f004790ee2851dc8e71921e136a9124",
+      "contentCommit": "4269c346927a7b1aae79f89800da39683c9c7e3a",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,8 +517,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-26T05:10:33.158Z",
-        "commit": "aa6e39e94f004790ee2851dc8e71921e136a9124",
+        "checkedAt": "2026-11-26T06:20:20.138Z",
+        "commit": "4269c346927a7b1aae79f89800da39683c9c7e3a",
         "issues": [],
         "latestTag": "v0.4.2",
         "ok": true,

@@ -1786,17 +1786,52 @@
       "fullName": "Eikeitsu/CertBridge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-23T11:33:36.483Z",
-        "lastSuccessAt": "2026-11-23T11:33:36.483Z",
+        "lastAttemptAt": "2026-11-26T06:20:20.138Z",
+        "lastSuccessAt": "2026-11-26T06:20:20.138Z",
         "message": null,
         "status": "ok"
       },
       "id": "CertBridge",
       "installationId": 170267359,
-      "maxStableVersionCode": 50107,
-      "maxVersionCode": 50107,
+      "maxStableVersionCode": 50200,
+      "maxVersionCode": 50200,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:aca762d04efce8c0ad7ec07483a6597a78a420d4ff28d382058320589f54962e",
+            "id": 794584743,
+            "name": "CertBridge_v5.2.0_arm64.zip",
+            "sha256": "aca762d04efce8c0ad7ec07483a6597a78a420d4ff28d382058320589f54962e",
+            "size": 5622549,
+            "url": "https://github.com/Eikeitsu/CertBridge/releases/download/v5.2.0/CertBridge_v5.2.0_arm64.zip"
+          },
+          "body": "## 更新说明\n\n> Reqable 近期的更新将增强模式列入了VIP功能，所以开启抓包会显示未知应用，此问题与证书桥模块无关\n\n- **修复安装易失败**：热更新改为 `set_perm` / `t_module` 之后再启动；清理 `modules_update` 须见 `.cb_install_ready` 且 `module.prop` 与本轮一致；新开刷包会先停旧 worker，避免误删暂存导致管理器报 `module.prop` 丢失\n- **安装写 conf 防 NUL**：`$MODPATH/config/certs.conf` 不再 `sed -i`（与 `user.conf` 同 awk→tmp→mv）；启动自愈含 NUL 的 conf\n- **优化 [#39](https://github.com/Eikeitsu/CertBridge/issues/39)**：开机减 fork（`${var##*/}`、整目录 `cp -a`、日志少子 shell）；APEX 按 mount id 去重无版本 / `@版本` cacerts\n- **修复 [#38](https://github.com/Eikeitsu/CertBridge/issues/38)**：AdGuard Personal → 系统自定义、Intermediate → 用户库；安装 / 同步 / 预设成对写入；手动导入与热挂载用户区 / `all` 均不把 Intermediate 提进系统库\n- **体验 [#40](https://github.com/Eikeitsu/CertBridge/issues/40)**：运行正常时模块 `description` 字面 `\\n` 双行（计数 + 证书名）；异常仍单行；`module.prop` 用 ENVIRON 写入，避免 awk 解成真换行\n- **Reqable 证书新文件名**：兼容新版本Reqable证书 `reqable-ca.crt`（仍支持旧版证书 `reqable-root.crt`）\n- **SukiSU Nova**：识别 `com.sukisu.nova`（兼容旧 `ultra`）；Root 探测与 WebUI「打开管理器」已跟上\n- **安装导入更稳（Android 14+ / 17）**：Reqable / ProxyPin 补 `/data/data`、`user_ce`、无 `certificate/`、`app_flutter/` 与 Download；隔离 mount ns 下经 init / 目标进程 root 再探\n- **隐藏登记跟进 ksud**：优先当场 `umount add`（可选 `save` / `umount-config`），SuSFS 仅可选；登记 flags 改 0（上游对 `MNT_DETACH` 会 -39）；CLI 风格本 boot 缓存；去掉已弃用 `add_sus_mount`\n- **apex 挂载从 init 拆走**：boot_completed 后 zygote 侧改 private 再卸 init；`/proc/1/mountinfo` 不再留该 tmpfs；已跑 App 需强停。进程内是否卸掉仍看 umount / 排除名单\n- **安装音量键**：打包保证 `volkey-*` 可执行，装机再 `chmod`，减少回退 `getevent` 弹出系统音量条\n- **WebUI 减卡顿**：静默刷新默认不跑 `sync_apps`；App 标签按缺失包查询；优先 `bridge.toast`；Hide / Certs / Log / More 共用 `use*PageModel`\n- **内部整理**：删未接入的 `AppShell` / 旧入口；隐藏探测去掉恒返别名；安装摘要 i18n；文档 / 隐藏页改中性表述\n\n\n**Full Changelog**: https://github.com/Eikeitsu/CertBridge/compare/v5.1.2...v5.2.0",
+          "htmlUrl": "https://github.com/Eikeitsu/CertBridge/releases/tag/v5.2.0",
+          "immutable": true,
+          "name": "issues fix",
+          "prerelease": false,
+          "prop": {
+            "actionIcon": "icon.png",
+            "author": "许小墨",
+            "banner": "banner.png",
+            "description": "[arm64|内置 OpenSSL] 系统信任抓包 CA。兼容 Magisk / KernelSU / APatch",
+            "id": "CertBridge",
+            "maxApi": "36",
+            "minApi": "24",
+            "name": "证书桥 (arm64)",
+            "updateJson": "https://eikeitsu.github.io/CertBridge/update.json",
+            "version": "v5.2.0",
+            "versionCode": "50200",
+            "webuiIcon": "icon.png"
+          },
+          "publishedAt": "2026-11-26T06:19:58Z",
+          "releaseId": 459031738,
+          "tag": "v5.2.0",
+          "tagCommit": "0d52906d1fd78e51ea97ffe1668f830fb6f6c188",
+          "version": "v5.2.0",
+          "versionCode": 50200
+        },
         {
           "asset": {
             "digest": "sha256:f7d338bd25d57cf2310464fdf7b1fa2619ff071e5e2630d3ad8da520e76d5d87",
@@ -2006,21 +2041,25 @@
         "409778436": {
           "checkedAt": "2026-10-11T17:51:03.255Z",
           "ok": true
+        },
+        "459031738": {
+          "checkedAt": "2026-11-26T06:20:20.138Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:f7d338bd25d57cf2310464fdf7b1fa2619ff071e5e2630d3ad8da520e76d5d87",
-          "id": 631201084,
-          "name": "CertBridge_v5.1.2_arm64.zip",
-          "sha256": "f7d338bd25d57cf2310464fdf7b1fa2619ff071e5e2630d3ad8da520e76d5d87",
-          "size": 5606814,
-          "url": "https://github.com/Eikeitsu/CertBridge/releases/download/v5.1.2/CertBridge_v5.1.2_arm64.zip"
+          "digest": "sha256:aca762d04efce8c0ad7ec07483a6597a78a420d4ff28d382058320589f54962e",
+          "id": 794584743,
+          "name": "CertBridge_v5.2.0_arm64.zip",
+          "sha256": "aca762d04efce8c0ad7ec07483a6597a78a420d4ff28d382058320589f54962e",
+          "size": 5622549,
+          "url": "https://github.com/Eikeitsu/CertBridge/releases/download/v5.2.0/CertBridge_v5.2.0_arm64.zip"
         },
-        "body": "## 更新说明\n\n- **KernelSU Next 模块横幅**：`module.prop` 增加 `banner=banner.png`，打包打入根目录背景图（管理器模块卡片背景）\n- **KernelSU Modules 清单**：仓库根目录增加 `module.yaml`（`assetPattern` 指向 `CertBridge_*_arm64.zip`）\n- **修复 Found KSU 回归**：收回会放大痕迹的探测——`hide_allow=0` 时 status 不再跑 ksud/SuSFS CLI；`detect_root_impl` 只报 Root 大类；默认不执行 `ksud -V`（需 `CERTBRIDGE_PROBE_KSUD=1`）；Action 只用大类；`--quick` 跳过 flavor。另减开机 nsenter：`late_inject=0` 时状态校验读 mountinfo；orphan / generation_busy 少进 ns；隐藏登记默认不扫 zygote\n\n\n**Full Changelog**: https://github.com/Eikeitsu/CertBridge/compare/v5.1.1...v5.1.2",
-        "htmlUrl": "https://github.com/Eikeitsu/CertBridge/releases/tag/v5.1.2",
+        "body": "## 更新说明\n\n> Reqable 近期的更新将增强模式列入了VIP功能，所以开启抓包会显示未知应用，此问题与证书桥模块无关\n\n- **修复安装易失败**：热更新改为 `set_perm` / `t_module` 之后再启动；清理 `modules_update` 须见 `.cb_install_ready` 且 `module.prop` 与本轮一致；新开刷包会先停旧 worker，避免误删暂存导致管理器报 `module.prop` 丢失\n- **安装写 conf 防 NUL**：`$MODPATH/config/certs.conf` 不再 `sed -i`（与 `user.conf` 同 awk→tmp→mv）；启动自愈含 NUL 的 conf\n- **优化 [#39](https://github.com/Eikeitsu/CertBridge/issues/39)**：开机减 fork（`${var##*/}`、整目录 `cp -a`、日志少子 shell）；APEX 按 mount id 去重无版本 / `@版本` cacerts\n- **修复 [#38](https://github.com/Eikeitsu/CertBridge/issues/38)**：AdGuard Personal → 系统自定义、Intermediate → 用户库；安装 / 同步 / 预设成对写入；手动导入与热挂载用户区 / `all` 均不把 Intermediate 提进系统库\n- **体验 [#40](https://github.com/Eikeitsu/CertBridge/issues/40)**：运行正常时模块 `description` 字面 `\\n` 双行（计数 + 证书名）；异常仍单行；`module.prop` 用 ENVIRON 写入，避免 awk 解成真换行\n- **Reqable 证书新文件名**：兼容新版本Reqable证书 `reqable-ca.crt`（仍支持旧版证书 `reqable-root.crt`）\n- **SukiSU Nova**：识别 `com.sukisu.nova`（兼容旧 `ultra`）；Root 探测与 WebUI「打开管理器」已跟上\n- **安装导入更稳（Android 14+ / 17）**：Reqable / ProxyPin 补 `/data/data`、`user_ce`、无 `certificate/`、`app_flutter/` 与 Download；隔离 mount ns 下经 init / 目标进程 root 再探\n- **隐藏登记跟进 ksud**：优先当场 `umount add`（可选 `save` / `umount-config`），SuSFS 仅可选；登记 flags 改 0（上游对 `MNT_DETACH` 会 -39）；CLI 风格本 boot 缓存；去掉已弃用 `add_sus_mount`\n- **apex 挂载从 init 拆走**：boot_completed 后 zygote 侧改 private 再卸 init；`/proc/1/mountinfo` 不再留该 tmpfs；已跑 App 需强停。进程内是否卸掉仍看 umount / 排除名单\n- **安装音量键**：打包保证 `volkey-*` 可执行，装机再 `chmod`，减少回退 `getevent` 弹出系统音量条\n- **WebUI 减卡顿**：静默刷新默认不跑 `sync_apps`；App 标签按缺失包查询；优先 `bridge.toast`；Hide / Certs / Log / More 共用 `use*PageModel`\n- **内部整理**：删未接入的 `AppShell` / 旧入口；隐藏探测去掉恒返别名；安装摘要 i18n；文档 / 隐藏页改中性表述\n\n\n**Full Changelog**: https://github.com/Eikeitsu/CertBridge/compare/v5.1.2...v5.2.0",
+        "htmlUrl": "https://github.com/Eikeitsu/CertBridge/releases/tag/v5.2.0",
         "immutable": true,
-        "name": "KSU Module",
+        "name": "issues fix",
         "prerelease": false,
         "prop": {
           "actionIcon": "icon.png",
@@ -2032,16 +2071,16 @@
           "minApi": "24",
           "name": "证书桥 (arm64)",
           "updateJson": "https://eikeitsu.github.io/CertBridge/update.json",
-          "version": "v5.1.2",
-          "versionCode": "50107",
+          "version": "v5.2.0",
+          "versionCode": "50200",
           "webuiIcon": "icon.png"
         },
-        "publishedAt": "2026-10-11T16:18:27Z",
-        "releaseId": 409778436,
-        "tag": "v5.1.2",
-        "tagCommit": "cd0fe66ad9e83937a589f3f6591037409b18d569",
-        "version": "v5.1.2",
-        "versionCode": 50107
+        "publishedAt": "2026-11-26T06:19:58Z",
+        "releaseId": 459031738,
+        "tag": "v5.2.0",
+        "tagCommit": "0d52906d1fd78e51ea97ffe1668f830fb6f6c188",
+        "version": "v5.2.0",
+        "versionCode": 50200
       },
       "stars": {
         "count": 69,
