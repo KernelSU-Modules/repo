@@ -2799,8 +2799,8 @@
         "versionCode": 30060
       },
       "stars": {
-        "count": 29,
-        "fetchedAt": "2026-11-25T11:23:51.766Z",
+        "count": 30,
+        "fetchedAt": "2026-11-26T12:07:06.269Z",
         "fullName": "ylh440104/KernelSU-Tuner",
         "repositoryId": 1414095668,
         "verified": "self"
@@ -3022,14 +3022,14 @@
     "MagicNet": {
       "content": {
         "blobs": {
-          "README.md": "ea49bc9090edb4a0cf35acaf6c71a1330e748ce8",
+          "README.md": "e42a147873ceb6fcd0b40674b527188fd7d77239",
           "icon.png": "926257fcbd9316dcfe7844695071347395680fdb",
           "module.yaml": "f465bff455fc03751f2fff8d8f00b082127c0d5d"
         },
-        "commit": "801952483f7705effd219d368f7c650774c9d23c",
-        "fetchedAt": "2026-11-26T08:20:22.370Z",
+        "commit": "e1e9af0ae0e989ae3dd9a3fc3384a7e15aef3170",
+        "fetchedAt": "2026-11-26T12:07:06.269Z",
         "files": {
-          "README.md": "efd5d26d8ec06fb184b9bc2a47d98d28b8df8fc44975b9563f2bb8cbd2fcaa46",
+          "README.md": "1d439b2faaa03a0fd958bda95d5050465a4f5533a67adbf51e8985aacbcc4149",
           "icon.png": "3c34d4d23d484c3b39b56cec30a58911cb3cb01c090fb054883aa3b0dea6bf1e",
           "module.yaml": "5f9e544c585e35d408fc6484cbe95e0d74faaf923f1cb8cb2fa322da48177a48"
         },
@@ -3039,8 +3039,8 @@
       "fullName": "LIghtJUNction/MagicNet",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-26T08:20:22.370Z",
-        "lastSuccessAt": "2026-11-26T08:20:22.370Z",
+        "lastAttemptAt": "2026-11-26T12:07:06.269Z",
+        "lastSuccessAt": "2026-11-26T12:07:06.269Z",
         "message": null,
         "status": "ok"
       },
@@ -12540,8 +12540,8 @@
         "versionCode": 182
       },
       "stars": {
-        "count": 758,
-        "fetchedAt": "2026-11-25T11:38:39.579Z",
+        "count": 766,
+        "fetchedAt": "2026-11-26T12:07:06.269Z",
         "fullName": "qwq233/OhMyKeymint",
         "repositoryId": 1068442938,
         "verified": "self"
@@ -12980,8 +12980,8 @@
         "versionCode": 490
       },
       "stars": {
-        "count": 4253,
-        "fetchedAt": "2026-11-25T11:38:39.579Z",
+        "count": 4262,
+        "fetchedAt": "2026-11-26T12:07:06.269Z",
         "fullName": "KOWX712/PlayIntegrityFix",
         "repositoryId": 908441330,
         "verified": "self"
@@ -15125,8 +15125,8 @@
         "versionCode": 10159
       },
       "stars": {
-        "count": 158,
-        "fetchedAt": "2026-11-25T11:38:39.579Z",
+        "count": 160,
+        "fetchedAt": "2026-11-26T12:07:06.269Z",
         "fullName": "Rouyashiki/YukiZygisk",
         "repositoryId": 1297024368,
         "verified": "self"
@@ -16766,8 +16766,8 @@
         "versionCode": 451
       },
       "stars": {
-        "count": 122,
-        "fetchedAt": "2026-11-25T11:23:51.766Z",
+        "count": 123,
+        "fetchedAt": "2026-11-26T12:07:06.269Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"
@@ -16987,8 +16987,8 @@
       },
       "stable": null,
       "stars": {
-        "count": 11166,
-        "fetchedAt": "2026-11-25T11:38:39.579Z",
+        "count": 11182,
+        "fetchedAt": "2026-11-26T12:07:06.269Z",
         "fullName": "Dr-TSNG/ZygiskNext",
         "repositoryId": 594330628,
         "verified": "self"

@@ -188,11 +188,11 @@
       }
     },
     "MagicNet": {
-      "contentCommit": "801952483f7705effd219d368f7c650774c9d23c",
+      "contentCommit": "e1e9af0ae0e989ae3dd9a3fc3384a7e15aef3170",
       "fullName": "LIghtJUNction/MagicNet",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-26T08:20:22.370Z",
+      "lastSuccessAt": "2026-11-26T12:07:06.269Z",
       "maxVersionCode": 10621,
       "message": null,
       "repositoryId": 998453022,
@@ -420,7 +420,7 @@
       }
     },
     "ancli": {
-      "contentCommit": "b7ba1e0ec98a37914c61df78ab068f3b9d61a1b1",
+      "contentCommit": "3fa089ed8b9696d7de4e7120e48bca39fe858a8a",
       "fullName": "AHLLX/AnCLI",
       "health": "ok",
       "installation": "present",
@@ -429,12 +429,12 @@
       "message": null,
       "repositoryId": 1285638838,
       "request": {
-        "checkedAt": "2026-11-25T18:05:00.451Z",
-        "commit": "b7ba1e0ec98a37914c61df78ab068f3b9d61a1b1",
+        "checkedAt": "2026-11-26T12:07:06.269Z",
+        "commit": "3fa089ed8b9696d7de4e7120e48bca39fe858a8a",
         "issues": [],
-        "latestTag": "v1.2.669",
+        "latestTag": "v1.2.670",
         "ok": true,
-        "releaseId": 458464517,
+        "releaseId": 459360639,
         "repositoryId": 1285638838,
         "submissionId": "h3hhx4vz67"
       },
@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "e214a933776014da5c608e41601b69253160529c",
+      "contentCommit": "5b7e1c4a63fb7ef7636e231d0eb9f6b525e82179",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,8 +1332,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-26T10:10:12.343Z",
-        "commit": "e214a933776014da5c608e41601b69253160529c",
+        "checkedAt": "2026-11-26T12:07:06.269Z",
+        "commit": "5b7e1c4a63fb7ef7636e231d0eb9f6b525e82179",
         "issues": [],
         "latestTag": "v0.10.54",
         "ok": true,
