@@ -1,0 +1,19 @@
+id: k60_sms_guard
+status: pending
+request:
+  submissionId: ga9btmz3gu
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1472691205
+    ownerId: 131543653
+    fullName: liyan173/K60-SMS-Guard
+    manifestPath: module.yaml
+  submittedBy: 131543653
+  submittedByLogin: liyan173
+  submittedAt: 2026-11-26T05:10:09.856Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65306
+createdAt: 2026-11-26T05:10:09.856Z
+updatedAt: 2026-11-26T05:10:09.856Z
