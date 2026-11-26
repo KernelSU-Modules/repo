@@ -3872,17 +3872,50 @@
       "fullName": "Eikeitsu/QSC-Battery",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-26T03:16:25.217Z",
-        "lastSuccessAt": "2026-11-26T03:16:25.217Z",
+        "lastAttemptAt": "2026-11-26T03:38:51.117Z",
+        "lastSuccessAt": "2026-11-26T03:38:51.117Z",
         "message": null,
         "status": "ok"
       },
       "id": "QSC_Battery",
       "installationId": 170267359,
-      "maxStableVersionCode": 2026112401,
-      "maxVersionCode": 2026112401,
+      "maxStableVersionCode": 2026112601,
+      "maxVersionCode": 2026112601,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:bb310adff8e564a579b4e310a39f84b6ccd759a360cca375c39ba9d40dc86e6c",
+            "id": 794183984,
+            "name": "QSC-Battery_v2026.11.26-full.zip",
+            "sha256": "bb310adff8e564a579b4e310a39f84b6ccd759a360cca375c39ba9d40dc86e6c",
+            "size": 4686532,
+            "url": "https://github.com/Eikeitsu/QSC-Battery/releases/download/v2026.11.26/QSC-Battery_v2026.11.26-full.zip"
+          },
+          "body": "## 下载哪个？\n\n- **多数人**：`QSC-Battery_v*-full.zip`（双守护 + WebUI，可内嵌伴侣 APP；在线更新也指向它）\n- **只要脚本、包要小**：`…-lite.zip`（无 WebUI / 无内嵌 APK / 无守护）\n- **其它模块包**：`-rust` / `-c` 只带对应守护；`-sh` 有 WebUI、守护可后装\n- **`QSC-Battery_v*.apk`**：伴侣 APP；非 lite 模块刷入时也可选装，不必单独下\n- **`qscd-rust-*` / `qscd-c-*`**：事件守护单文件；一般由 full 自带或 WebUI 下载，**不要当模块刷**\n\n完整说明：[安装与升级](https://eikeitsu.github.io/QSC-Battery/guide/install.html)\n\n## 更新说明\n\n- **修复 [#6](https://github.com/Eikeitsu/QSC-Battery/issues/6)**：`.ch_curr_session_fail` 去重写入 + 体积上限（启动清异常膨胀）；服务加单实例锁，避免多守护叠跑放大写盘\n- **体验 [#3](https://github.com/Eikeitsu/QSC-Battery/issues/3)**：电流显示改为充电为正/放电为负；切回概览跳过过勤状态刷新；「动态简介 / 拔线还原 / 自动拔插」补例句说明\n- **APP 充电动效**：充电动画重做，新增两套充电动画，可在主题外观页面切换\n- **修复 K90U 假未插电**：MCA 充电常 `online=0`/掉 VBUS，恢复 `present+充电态` 与有条件 dumpsys 旁证；电流 mA/µA 归一，避免真在充却显示未插电\n- **修复 K90U 不能停充**：`Not charging`+负向大电流不再误判「已停住」；节点 hold 但仍在充时拉黑 MCA 改试 `xm_power`；补 `/sys/class/xm_power/.../handle_state` 探测；`mca_ineffective` 默认也跳过无效 MCA\n- **防 DeepPark 漏停充**：端口漏判「未插电」但 `|I|≥150mA` 仍在充时，禁止 lean/深睡跳过满轮（K90U 曾因此 80% 一路充到 100%）\n- **ColorOS**：文档补节点 ABI 与机型表；`mmi_charging_enable` class/virtual 同 inode 只写一次；停充成功即收工；拔线冷却 180s；稳态重申 ≥120s（缓解过夜假拔线/反复停充发热）\n- **修复 conf 变「二进制」**：Magisk 目录上 `sed -i` 偶发写出大段 NUL；`config/power/notify` 启动自愈；shell/安装合并/APP/WebUI/qscd 改 awk→tmp→mv 公共原子写，清掉 conf 上的 `sed -i`\n- **WebUI 二级页返回保留滚动**：系统返回键/手势与顶栏返回一样，回到设置等 Hub 时恢复进入前滚动位置\n\n<!-- qsc:versionCode=2026112601 -->\nversionCode=2026112601\n\n\n**Full Changelog**: https://github.com/Eikeitsu/QSC-Battery/compare/v2026.11.24...v2026.11.26",
+          "htmlUrl": "https://github.com/Eikeitsu/QSC-Battery/releases/tag/v2026.11.26",
+          "immutable": true,
+          "name": "K90U and issues fix",
+          "prerelease": false,
+          "prop": {
+            "actionIcon": "icon.png",
+            "author": "top大佬, 许小墨",
+            "banner": "banner.png",
+            "description": "[🔎启动中 | 等待开机就绪] 电量/温度停充；电流控制为安装时可选。配置：config/config.conf，日志：data/log.log。",
+            "id": "QSC_Battery",
+            "name": "充电控制",
+            "updateJson": "https://eikeitsu.github.io/QSC-Battery/update.json",
+            "version": "2026.11.26",
+            "versionCode": "2026112601",
+            "webuiIcon": "icon.png"
+          },
+          "publishedAt": "2026-11-26T03:38:28Z",
+          "releaseId": 458921395,
+          "tag": "v2026.11.26",
+          "tagCommit": "f2d191b12285fa60f3c0c30e816935463d004aa6",
+          "version": "2026.11.26",
+          "versionCode": 2026112601
+        },
         {
           "asset": {
             "digest": "sha256:a9ed9110321e0a4fcd6d834264cd1d1c3945dddb177004ffef319856795f7033",
@@ -4127,21 +4160,25 @@
         "456515889": {
           "checkedAt": "2026-11-24T09:05:07.365Z",
           "ok": true
+        },
+        "458921395": {
+          "checkedAt": "2026-11-26T03:38:51.117Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:a9ed9110321e0a4fcd6d834264cd1d1c3945dddb177004ffef319856795f7033",
-          "id": 786437116,
-          "name": "QSC-Battery_v2026.11.24-full.zip",
-          "sha256": "a9ed9110321e0a4fcd6d834264cd1d1c3945dddb177004ffef319856795f7033",
-          "size": 4630840,
-          "url": "https://github.com/Eikeitsu/QSC-Battery/releases/download/v2026.11.24/QSC-Battery_v2026.11.24-full.zip"
+          "digest": "sha256:bb310adff8e564a579b4e310a39f84b6ccd759a360cca375c39ba9d40dc86e6c",
+          "id": 794183984,
+          "name": "QSC-Battery_v2026.11.26-full.zip",
+          "sha256": "bb310adff8e564a579b4e310a39f84b6ccd759a360cca375c39ba9d40dc86e6c",
+          "size": 4686532,
+          "url": "https://github.com/Eikeitsu/QSC-Battery/releases/download/v2026.11.26/QSC-Battery_v2026.11.26-full.zip"
         },
-        "body": "## 下载哪个？\n\n- **多数人**：`QSC-Battery_v*-full.zip`（双守护 + WebUI，可内嵌伴侣 APP；在线更新也指向它）\n- **只要脚本、包要小**：`…-lite.zip`（无 WebUI / 无内嵌 APK / 无守护）\n- **其它模块包**：`-rust` / `-c` 只带对应守护；`-sh` 有 WebUI、守护可后装\n- **`QSC-Battery_v*.apk`**：伴侣 APP；非 lite 模块刷入时也可选装，不必单独下\n- **`qscd-rust-*` / `qscd-c-*`**：事件守护单文件；一般由 full 自带或 WebUI 下载，**不要当模块刷**\n\n完整说明：[安装与升级](https://eikeitsu.github.io/QSC-Battery/guide/install.html)\n\n## 更新说明\n\n> 增加小米17Pro适配，其它机型自测，控制节点可能相同\n\n- **插电停充过夜更稳**：停充稳态少写节点；假停充宽限更长、清标记有冷却；充电事件同类约 45s 去抖\n- **低电防护（冷门，默关）**：未插电低电提醒 / 倒计时关机，以及过温关机；关时主路径零额外开销。建议启用 15% / 5% / 55°C；低电关机需开机满约 15 分钟。旧键 `shut_down` 迁为 `low_batt_shutdown`\n- **首页配置档快捷切换（APP）**：主题设置可开「首页显示配置档」；点卡片切换「我的 → 配置档」里已保存的档位\n- **机型适配**：OPlus 补 `class`/`virtual` 双路径与 `charge_behaviour`；扫描排除易误伤的 `handle_stop_charging`；小米 `xm_power` 支持 `qsc`/`micharge` 双投票停充与重申；诊断按权限位标 `writable`，并列出 xm_power 接口\n- **DeepPark v2 待机**：去掉常驻 heartbeat 子进程；均衡深睡 3600s、强力 7200s；默认开夜间省电；息屏驻停停 worker、清假 viewing。Rust `watch` 最长 14400s；诊断增加驻停唤醒相关字段\n- **简介更省、打开仍即时**：无人看管理器列表时电量数字最多约 15 分钟写一次（状态突变仍立刻）；亮屏少读亮度；无 XP 时 dumpsys 空闲探测放宽。打开管理器仍马上刷电量\n- **SukiSU Nova**：识别 `com.sukisu.nova`（兼容旧 `ultra`）；简介在看表、WebUI「打开管理器」、XP 边沿包名已跟上\n- **热更新卡死修复**：接管失败不再误留「请重启 / 开关灰」；无更新源不锁开关；探测与机型档案改后台，避免主循环迟迟不跑导致超时。失败原因写进简介且不被默认文案盖掉\n- **安装音量键**：打包保证 `volkey` 可执行，装机再 `chmod`，减少无 +x 回退 `getevent` 弹出系统音量条\n- **内部整理**：开关条目统一解析；停充热路径少 fork、多用已缓存配置；WebUI 状态轮询减卡顿；Action 测开关 / 刷新复用 snapshot；WebUI 与 shell 数值钳位口径对齐\n\n<!-- qsc:versionCode=2026112401 -->\nversionCode=2026112401\n\n\n**Full Changelog**: https://github.com/Eikeitsu/QSC-Battery/compare/v2026.10.12...v2026.11.24",
-        "htmlUrl": "https://github.com/Eikeitsu/QSC-Battery/releases/tag/v2026.11.24",
+        "body": "## 下载哪个？\n\n- **多数人**：`QSC-Battery_v*-full.zip`（双守护 + WebUI，可内嵌伴侣 APP；在线更新也指向它）\n- **只要脚本、包要小**：`…-lite.zip`（无 WebUI / 无内嵌 APK / 无守护）\n- **其它模块包**：`-rust` / `-c` 只带对应守护；`-sh` 有 WebUI、守护可后装\n- **`QSC-Battery_v*.apk`**：伴侣 APP；非 lite 模块刷入时也可选装，不必单独下\n- **`qscd-rust-*` / `qscd-c-*`**：事件守护单文件；一般由 full 自带或 WebUI 下载，**不要当模块刷**\n\n完整说明：[安装与升级](https://eikeitsu.github.io/QSC-Battery/guide/install.html)\n\n## 更新说明\n\n- **修复 [#6](https://github.com/Eikeitsu/QSC-Battery/issues/6)**：`.ch_curr_session_fail` 去重写入 + 体积上限（启动清异常膨胀）；服务加单实例锁，避免多守护叠跑放大写盘\n- **体验 [#3](https://github.com/Eikeitsu/QSC-Battery/issues/3)**：电流显示改为充电为正/放电为负；切回概览跳过过勤状态刷新；「动态简介 / 拔线还原 / 自动拔插」补例句说明\n- **APP 充电动效**：充电动画重做，新增两套充电动画，可在主题外观页面切换\n- **修复 K90U 假未插电**：MCA 充电常 `online=0`/掉 VBUS，恢复 `present+充电态` 与有条件 dumpsys 旁证；电流 mA/µA 归一，避免真在充却显示未插电\n- **修复 K90U 不能停充**：`Not charging`+负向大电流不再误判「已停住」；节点 hold 但仍在充时拉黑 MCA 改试 `xm_power`；补 `/sys/class/xm_power/.../handle_state` 探测；`mca_ineffective` 默认也跳过无效 MCA\n- **防 DeepPark 漏停充**：端口漏判「未插电」但 `|I|≥150mA` 仍在充时，禁止 lean/深睡跳过满轮（K90U 曾因此 80% 一路充到 100%）\n- **ColorOS**：文档补节点 ABI 与机型表；`mmi_charging_enable` class/virtual 同 inode 只写一次；停充成功即收工；拔线冷却 180s；稳态重申 ≥120s（缓解过夜假拔线/反复停充发热）\n- **修复 conf 变「二进制」**：Magisk 目录上 `sed -i` 偶发写出大段 NUL；`config/power/notify` 启动自愈；shell/安装合并/APP/WebUI/qscd 改 awk→tmp→mv 公共原子写，清掉 conf 上的 `sed -i`\n- **WebUI 二级页返回保留滚动**：系统返回键/手势与顶栏返回一样，回到设置等 Hub 时恢复进入前滚动位置\n\n<!-- qsc:versionCode=2026112601 -->\nversionCode=2026112601\n\n\n**Full Changelog**: https://github.com/Eikeitsu/QSC-Battery/compare/v2026.11.24...v2026.11.26",
+        "htmlUrl": "https://github.com/Eikeitsu/QSC-Battery/releases/tag/v2026.11.26",
         "immutable": true,
-        "name": "小米17Pro",
+        "name": "K90U and issues fix",
         "prerelease": false,
         "prop": {
           "actionIcon": "icon.png",
@@ -4151,16 +4188,16 @@
           "id": "QSC_Battery",
           "name": "充电控制",
           "updateJson": "https://eikeitsu.github.io/QSC-Battery/update.json",
-          "version": "2026.11.24",
-          "versionCode": "2026112401",
+          "version": "2026.11.26",
+          "versionCode": "2026112601",
           "webuiIcon": "icon.png"
         },
-        "publishedAt": "2026-11-24T09:04:48Z",
-        "releaseId": 456515889,
-        "tag": "v2026.11.24",
-        "tagCommit": "76aa820a787cdc44361a789ed0c02bc08a818ca8",
-        "version": "2026.11.24",
-        "versionCode": 2026112401
+        "publishedAt": "2026-11-26T03:38:28Z",
+        "releaseId": 458921395,
+        "tag": "v2026.11.26",
+        "tagCommit": "f2d191b12285fa60f3c0c30e816935463d004aa6",
+        "version": "2026.11.26",
+        "versionCode": 2026112601
       },
       "stars": {
         "count": 77,
