@@ -5215,14 +5215,14 @@
     "adbdisabler": {
       "content": {
         "blobs": {
-          "README.md": "11512010a69b5fa2149609984e3082c398175582",
+          "README.md": "6c8471106d24cbbf8a6210b302fc2c4291a266d0",
           "icon.png": "817783387052396d8ba5e42c85c82036a60c655f",
           "module.yaml": "3d1cab23c89e74c9a1e4ad37efc8ef9e9e9b4054"
         },
-        "commit": "252ffa945007b6dda9471f77217a3d8ef94e340c",
-        "fetchedAt": "2026-11-22T13:48:38.371Z",
+        "commit": "d0381ca234b3b018f10ad57f9839faaa4b99c3c9",
+        "fetchedAt": "2026-11-26T14:27:13.033Z",
         "files": {
-          "README.md": "b078d1b3f17a99bd8c3dbc7b64d65cc4a7791cfd08a182810d83d93a9fe530a6",
+          "README.md": "ae24839175c511459627169d3c9c0b18859e0a7181d32fb224d928ca8c28ab5d",
           "icon.png": "e7734a970891d0f7eba81e96ad2f7c0720d6679e8d7645d04d732316fe765ab6",
           "module.yaml": "d17e61fea17a89a85efa59797fddaec44a2dc6b7a944dcec6268e7cc65d14cd2"
         },
@@ -5232,8 +5232,8 @@
       "fullName": "Shuoh118/ADB-Disabler",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-22T13:48:38.371Z",
-        "lastSuccessAt": "2026-11-22T13:48:38.371Z",
+        "lastAttemptAt": "2026-11-26T14:27:13.033Z",
+        "lastSuccessAt": "2026-11-26T14:27:13.033Z",
         "message": null,
         "status": "ok"
       },

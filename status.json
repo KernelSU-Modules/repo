@@ -348,11 +348,11 @@
       }
     },
     "adbdisabler": {
-      "contentCommit": "252ffa945007b6dda9471f77217a3d8ef94e340c",
+      "contentCommit": "d0381ca234b3b018f10ad57f9839faaa4b99c3c9",
       "fullName": "Shuoh118/ADB-Disabler",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-22T13:48:38.371Z",
+      "lastSuccessAt": "2026-11-26T14:27:13.033Z",
       "maxVersionCode": 10004,
       "message": null,
       "repositoryId": 1449393283,
