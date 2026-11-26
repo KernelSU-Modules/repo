@@ -487,7 +487,7 @@
       }
     },
     "autousb": {
-      "contentCommit": "974247773d31126a83803ba56cd1eb9547b4aeb4",
+      "contentCommit": "f5442873729d5284de8d4d10d40ae3cd0f0435a5",
       "fullName": "Shuoh118/Auto-USB",
       "health": "ok",
       "installation": "present",
@@ -496,8 +496,8 @@
       "message": null,
       "repositoryId": 1449056776,
       "request": {
-        "checkedAt": "2026-11-25T11:38:39.579Z",
-        "commit": "974247773d31126a83803ba56cd1eb9547b4aeb4",
+        "checkedAt": "2026-11-26T14:08:10.892Z",
+        "commit": "f5442873729d5284de8d4d10d40ae3cd0f0435a5",
         "issues": [],
         "latestTag": "1.0.2",
         "ok": true,
@@ -874,11 +874,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "8e5f34add10cb17d675fe3dd705041f7e59668e5",
+      "contentCommit": "b1072b8d3f4300e9074e5c2a8fd08f89483694e2",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-25T15:13:08.981Z",
+      "lastSuccessAt": "2026-11-26T14:08:10.892Z",
       "maxVersionCode": 240,
       "message": null,
       "repositoryId": 1446403674,
@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "472bc3bd998270cb0eee664e383a50e127aa3ce5",
+      "contentCommit": "1a513072aef61d39ecdcde85b21ea40feb3ce211",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,8 +1332,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-26T12:40:02.612Z",
-        "commit": "472bc3bd998270cb0eee664e383a50e127aa3ce5",
+        "checkedAt": "2026-11-26T14:08:10.892Z",
+        "commit": "1a513072aef61d39ecdcde85b21ea40feb3ce211",
         "issues": [],
         "latestTag": "v0.10.54",
         "ok": true,
