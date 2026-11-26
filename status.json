@@ -891,7 +891,7 @@
       }
     },
     "hyperos-accessibility-fix": {
-      "contentCommit": "0b2cd374768dd45139d1a5cde7f5da8afcf602b8",
+      "contentCommit": "b7afcba8e083b0d69a927c92cafd1e9af1a5b007",
       "fullName": "chkndrp/hyperos-accessibility-fix",
       "health": "ok",
       "installation": "present",
@@ -900,8 +900,8 @@
       "message": null,
       "repositoryId": 1262215473,
       "request": {
-        "checkedAt": "2026-11-25T11:38:39.579Z",
-        "commit": "0b2cd374768dd45139d1a5cde7f5da8afcf602b8",
+        "checkedAt": "2026-11-26T16:43:11.346Z",
+        "commit": "b7afcba8e083b0d69a927c92cafd1e9af1a5b007",
         "issues": [],
         "latestTag": "1.0.6",
         "ok": true,
@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "3b68426d52ecc2f57f6be745145e4bf46296213d",
+      "contentCommit": "1a7bd2078c2682ba7dc7b3947ede1be2d630000c",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,8 +1332,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-26T16:41:59.717Z",
-        "commit": "3b68426d52ecc2f57f6be745145e4bf46296213d",
+        "checkedAt": "2026-11-26T16:43:11.346Z",
+        "commit": "1a7bd2078c2682ba7dc7b3947ede1be2d630000c",
         "issues": [],
         "latestTag": "v0.10.54",
         "ok": true,
