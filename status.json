@@ -86,20 +86,20 @@
       }
     },
     "CRecordEvolution": {
-      "contentCommit": "75b226d4d989b0f61efad326347f80be61a71b39",
+      "contentCommit": "6519ef731db831f8649e8c51480b82a91a35b04a",
       "fullName": "f1owkang/CRecordEvolution",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-25T11:38:39.579Z",
-      "maxVersionCode": 39,
+      "lastSuccessAt": "2026-11-26T15:22:05.390Z",
+      "maxVersionCode": 40,
       "message": null,
       "repositoryId": 678049636,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-14T12:36:58Z",
-        "tag": "v1.3.10",
-        "version": "1.3.10",
-        "versionCode": 39
+        "publishedAt": "2026-11-26T15:21:43Z",
+        "tag": "v1.4.0",
+        "version": "1.4.0",
+        "versionCode": 40
       }
     },
     "CertBridge": {
@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "a8ea8ed8dd18e336012f764b26d77ea07643829a",
+      "contentCommit": "dbfe18b23582e658231ce6ac2eaf871a5583e923",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-26T03:16:25.217Z",
-        "commit": "a8ea8ed8dd18e336012f764b26d77ea07643829a",
+        "checkedAt": "2026-11-26T15:22:05.390Z",
+        "commit": "dbfe18b23582e658231ce6ac2eaf871a5583e923",
         "issues": [],
         "latestTag": "v0.1.12",
         "ok": true,
@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "9960332b2f67ffff045b22a7cce28908e4c49a07",
+      "contentCommit": "bcb034ad42e64a09e44ae40c426339833b94c477",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,8 +517,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-26T07:25:00.535Z",
-        "commit": "9960332b2f67ffff045b22a7cce28908e4c49a07",
+        "checkedAt": "2026-11-26T15:22:05.390Z",
+        "commit": "bcb034ad42e64a09e44ae40c426339833b94c477",
         "issues": [],
         "latestTag": "v0.4.2",
         "ok": true,
@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "1a513072aef61d39ecdcde85b21ea40feb3ce211",
+      "contentCommit": "c893c26bc791544148cdeb977f3c5f4d599f7ae1",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,8 +1332,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-26T14:08:10.892Z",
-        "commit": "1a513072aef61d39ecdcde85b21ea40feb3ce211",
+        "checkedAt": "2026-11-26T15:22:05.390Z",
+        "commit": "c893c26bc791544148cdeb977f3c5f4d599f7ae1",
         "issues": [],
         "latestTag": "v0.10.54",
         "ok": true,
