@@ -15221,17 +15221,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
-        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "lastAttemptAt": "2026-11-26T15:43:16.519Z",
+        "lastSuccessAt": "2026-11-26T15:43:16.519Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 589,
-      "maxVersionCode": 589,
+      "maxStableVersionCode": 590,
+      "maxVersionCode": 590,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:fc7363c6815b3f76ac7b55c0fc0b4687a858cea72269e9193f44af6ae3741c25",
+            "id": 796569512,
+            "name": "Sui-v13.5.4.3_590-6844d95-release.zip",
+            "sha256": "fc7363c6815b3f76ac7b55c0fc0b4687a858cea72269e9193f44af6ae3741c25",
+            "size": 1505877,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v590-6844d95/Sui-v13.5.4.3_590-6844d95-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (590-6844d95-release)`\n- **VersionCode:** `590`\n- **Commit:** [`6844d95`](https://github.com/XiaoTong6666/Sui/commit/6844d95bd44deb17c4bd0119c816908c421c3562)\n- **Build time:** `2m 38s`\n- **SHA256:** `fc7363c6815b3f76ac7b55c0fc0b4687a858cea72269e9193f44af6ae3741c25`\n\n## Message\n\n```text\nbuild(deps): bump agp from 9.5.2 to 9.5.3 (#157)\n\nBumps `agp` from 9.5.2 to 9.5.3.\n\nUpdates `com.android.application` from 9.5.2 to 9.5.3\n\nUpdates `com.android.library` from 9.5.2 to 9.5.3\n\n---\nupdated-dependencies:\n- dependency-name: com.android.application\n  dependency-version: 9.5.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n- dependency-name: com.android.library\n  dependency-version: 9.5.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v590-6844d95",
+          "immutable": true,
+          "name": "v13.5.4.3 (590-6844d95-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (590-6844d95-release)",
+            "versionCode": "590"
+          },
+          "publishedAt": "2026-11-26T15:42:52Z",
+          "releaseId": 459610117,
+          "tag": "v590-6844d95",
+          "tagCommit": "5923da5b90b9252d249339f91ce0c0589cfbca8e",
+          "version": "v13.5.4.3 (590-6844d95-release)",
+          "versionCode": 590
+        },
         {
           "asset": {
             "digest": "sha256:58bd8a3e546da2e26994c7ea4d56eddd986552383ee179cd2debf37cf6b3e9a2",
@@ -15501,36 +15531,6 @@
           "tagCommit": "669ab215369456585db74f581e24f7f0633f2d48",
           "version": "v13.5.4.3 (574-746c06c-release)",
           "versionCode": 574
-        },
-        {
-          "asset": {
-            "digest": "sha256:645aa8a50462774b9e67a8fb62f8b263d9457e83c8f2136771653cfb3046a99a",
-            "id": 691038654,
-            "name": "Sui-v13.5.4.3_573-cab27cf-release.zip",
-            "sha256": "645aa8a50462774b9e67a8fb62f8b263d9457e83c8f2136771653cfb3046a99a",
-            "size": 1452813,
-            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v573-cab27cf/Sui-v13.5.4.3_573-cab27cf-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (573-cab27cf-release)`\n- **VersionCode:** `573`\n- **Commit:** [`cab27cf`](https://github.com/XiaoTong6666/Sui/commit/cab27cf1a4c019c9c7f52b15391eb91ae86ad2fb)\n- **Build time:** `4m 12s`\n- **SHA256:** `645aa8a50462774b9e67a8fb62f8b263d9457e83c8f2136771653cfb3046a99a`\n\n## Message\n\n```text\nbuild(deps): bump agp from 9.4.1 to 9.5.0 (#140)\n\nBumps `agp` from 9.4.1 to 9.5.0.\n\nUpdates `com.android.application` from 9.4.1 to 9.5.0\n\nUpdates `com.android.library` from 9.4.1 to 9.5.0\n\n---\nupdated-dependencies:\n- dependency-name: com.android.application\n  dependency-version: 9.5.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n- dependency-name: com.android.library\n  dependency-version: 9.5.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\n\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v573-cab27cf",
-          "immutable": true,
-          "name": "v13.5.4.3 (573-cab27cf-release)",
-          "prerelease": false,
-          "prop": {
-            "author": "Sui Contributors",
-            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
-            "id": "zygisk-sui",
-            "name": "Zygisk - Sui",
-            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-            "version": "v13.5.4.3 (573-cab27cf-release)",
-            "versionCode": "573"
-          },
-          "publishedAt": "2026-10-30T05:23:47Z",
-          "releaseId": 428681317,
-          "tag": "v573-cab27cf",
-          "tagCommit": "fc38f6bd4f5c3bce403c013c1de265aea1748125",
-          "version": "v13.5.4.3 (573-cab27cf-release)",
-          "versionCode": 573
         }
       ],
       "repositoryId": 1415623276,
@@ -15642,21 +15642,25 @@
         "455158607": {
           "checkedAt": "2026-11-23T08:35:19.449Z",
           "ok": true
+        },
+        "459610117": {
+          "checkedAt": "2026-11-26T15:43:16.519Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:58bd8a3e546da2e26994c7ea4d56eddd986552383ee179cd2debf37cf6b3e9a2",
-          "id": 782166992,
-          "name": "Sui-v13.5.4.3_589-cb157fa-release.zip",
-          "sha256": "58bd8a3e546da2e26994c7ea4d56eddd986552383ee179cd2debf37cf6b3e9a2",
-          "size": 1505878,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v589-cb157fa/Sui-v13.5.4.3_589-cb157fa-release.zip"
+          "digest": "sha256:fc7363c6815b3f76ac7b55c0fc0b4687a858cea72269e9193f44af6ae3741c25",
+          "id": 796569512,
+          "name": "Sui-v13.5.4.3_590-6844d95-release.zip",
+          "sha256": "fc7363c6815b3f76ac7b55c0fc0b4687a858cea72269e9193f44af6ae3741c25",
+          "size": 1505877,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v590-6844d95/Sui-v13.5.4.3_590-6844d95-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (589-cb157fa-release)`\n- **VersionCode:** `589`\n- **Commit:** [`cb157fa`](https://github.com/XiaoTong6666/Sui/commit/cb157fac663b6ff6f3b9bc58e75c07a8f76a1956)\n- **Build time:** `3m 27s`\n- **SHA256:** `58bd8a3e546da2e26994c7ea4d56eddd986552383ee179cd2debf37cf6b3e9a2`\n\n## Message\n\n```text\nbuild(deps): bump gradle-wrapper from 9.9.1 to 9.9.2 (#153)\n\nBumps [gradle-wrapper](https://github.com/gradle/gradle) from 9.9.1 to 9.9.2.\n- [Release notes](https://github.com/gradle/gradle/releases)\n- [Commits](https://github.com/gradle/gradle/compare/v9.9.1...v9.9.2)\n\n---\nupdated-dependencies:\n- dependency-name: gradle-wrapper\n  dependency-version: 9.9.2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v589-cb157fa",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (590-6844d95-release)`\n- **VersionCode:** `590`\n- **Commit:** [`6844d95`](https://github.com/XiaoTong6666/Sui/commit/6844d95bd44deb17c4bd0119c816908c421c3562)\n- **Build time:** `2m 38s`\n- **SHA256:** `fc7363c6815b3f76ac7b55c0fc0b4687a858cea72269e9193f44af6ae3741c25`\n\n## Message\n\n```text\nbuild(deps): bump agp from 9.5.2 to 9.5.3 (#157)\n\nBumps `agp` from 9.5.2 to 9.5.3.\n\nUpdates `com.android.application` from 9.5.2 to 9.5.3\n\nUpdates `com.android.library` from 9.5.2 to 9.5.3\n\n---\nupdated-dependencies:\n- dependency-name: com.android.application\n  dependency-version: 9.5.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n- dependency-name: com.android.library\n  dependency-version: 9.5.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v590-6844d95",
         "immutable": true,
-        "name": "v13.5.4.3 (589-cb157fa-release)",
+        "name": "v13.5.4.3 (590-6844d95-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -15664,15 +15668,15 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (589-cb157fa-release)",
-          "versionCode": "589"
+          "version": "v13.5.4.3 (590-6844d95-release)",
+          "versionCode": "590"
         },
-        "publishedAt": "2026-11-23T08:34:56Z",
-        "releaseId": 455158607,
-        "tag": "v589-cb157fa",
-        "tagCommit": "bd818d0bdcc8662b03fb8bf433d870c5aa8dc73b",
-        "version": "v13.5.4.3 (589-cb157fa-release)",
-        "versionCode": 589
+        "publishedAt": "2026-11-26T15:42:52Z",
+        "releaseId": 459610117,
+        "tag": "v590-6844d95",
+        "tagCommit": "5923da5b90b9252d249339f91ce0c0589cfbca8e",
+        "version": "v13.5.4.3 (590-6844d95-release)",
+        "versionCode": 590
       },
       "stars": {
         "count": 24,

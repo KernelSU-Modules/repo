@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "c893c26bc791544148cdeb977f3c5f4d599f7ae1",
+      "contentCommit": "48b876e8fb32bba56a434ce2b52714bd854057a9",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,8 +1332,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-26T15:22:05.390Z",
-        "commit": "c893c26bc791544148cdeb977f3c5f4d599f7ae1",
+        "checkedAt": "2026-11-26T15:43:16.519Z",
+        "commit": "48b876e8fb32bba56a434ce2b52714bd854057a9",
         "issues": [],
         "latestTag": "v0.10.54",
         "ok": true,
@@ -1491,16 +1491,16 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-25T11:38:39.579Z",
-      "maxVersionCode": 589,
+      "lastSuccessAt": "2026-11-26T15:43:16.519Z",
+      "maxVersionCode": 590,
       "message": null,
       "repositoryId": 1415623276,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-23T08:34:56Z",
-        "tag": "v589-cb157fa",
-        "version": "v13.5.4.3 (589-cb157fa-release)",
-        "versionCode": 589
+        "publishedAt": "2026-11-26T15:42:52Z",
+        "tag": "v590-6844d95",
+        "version": "v13.5.4.3 (590-6844d95-release)",
+        "versionCode": 590
       }
     },
     "zygisk_fusehide": {
