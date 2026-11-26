@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "5b7e1c4a63fb7ef7636e231d0eb9f6b525e82179",
+      "contentCommit": "450f6b5bc3ededcf7a52c0ab91d1af089e97b4c3",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,8 +1332,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-26T12:07:06.269Z",
-        "commit": "5b7e1c4a63fb7ef7636e231d0eb9f6b525e82179",
+        "checkedAt": "2026-11-26T12:25:27.935Z",
+        "commit": "450f6b5bc3ededcf7a52c0ab91d1af089e97b4c3",
         "issues": [],
         "latestTag": "v0.10.54",
         "ok": true,
@@ -1428,6 +1428,27 @@
         "releaseId": 454133171,
         "repositoryId": 586814977,
         "submissionId": "ujzyw4oe63"
+      },
+      "stable": null
+    },
+    "vivo-xfold-frame-interpolation": {
+      "contentCommit": "df4ee19dec061c4303d87f418e9a64431ef98a08",
+      "fullName": "Zircon10086/vivo-xfold-frame-interpolation",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1473008677,
+      "request": {
+        "checkedAt": "2026-11-26T12:25:27.935Z",
+        "commit": "df4ee19dec061c4303d87f418e9a64431ef98a08",
+        "issues": [],
+        "latestTag": "v1.7.2",
+        "ok": true,
+        "releaseId": 459364997,
+        "repositoryId": 1473008677,
+        "submissionId": "pocxiu4b7f"
       },
       "stable": null
     },
