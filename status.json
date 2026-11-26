@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "f3d6e7103962ffea8295a966c7bd0bd004cd3f14",
+      "contentCommit": "e36d298ec1c990ed38b18fa616de533a00d88146",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,8 +1332,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-26T08:49:51.653Z",
-        "commit": "f3d6e7103962ffea8295a966c7bd0bd004cd3f14",
+        "checkedAt": "2026-11-26T09:39:21.710Z",
+        "commit": "e36d298ec1c990ed38b18fa616de533a00d88146",
         "issues": [],
         "latestTag": "v0.10.48",
         "ok": true,
@@ -1487,16 +1487,16 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-25T11:38:39.579Z",
-      "maxVersionCode": 221,
+      "lastSuccessAt": "2026-11-26T09:39:21.710Z",
+      "maxVersionCode": 222,
       "message": null,
       "repositoryId": 1417162951,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-23T09:09:36Z",
-        "tag": "v221-caffd6f",
-        "version": "1.221 (221-caffd6f-release)",
-        "versionCode": 221
+        "publishedAt": "2026-11-26T09:38:59Z",
+        "tag": "v222-53997de",
+        "version": "1.222 (222-53997de-release)",
+        "versionCode": 222
       }
     },
     "zygisknextsu": {

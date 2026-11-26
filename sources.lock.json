@@ -15629,17 +15629,47 @@
       "fullName": "XiaoTong6666/zygisk_fusehide",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
-        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "lastAttemptAt": "2026-11-26T09:39:21.710Z",
+        "lastSuccessAt": "2026-11-26T09:39:21.710Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk_fusehide",
       "installationId": 170178853,
-      "maxStableVersionCode": 221,
-      "maxVersionCode": 221,
+      "maxStableVersionCode": 222,
+      "maxVersionCode": 222,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:0047c4f27d721c477324635362a5ffdbdbd78b539627c05d7ea531304bec2769",
+            "id": 795194762,
+            "name": "FuseHide-1.222_222-53997de-release.zip",
+            "sha256": "0047c4f27d721c477324635362a5ffdbdbd78b539627c05d7ea531304bec2769",
+            "size": 7952922,
+            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v222-53997de/FuseHide-1.222_222-53997de-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.222`\n- **VersionCode:** `222`\n- **Commit:** [`53997de`](https://github.com/XiaoTong6666/FuseHide/commit/53997dede89a372cd3a7ba2769fadf44f3b92543)\n- **Build time:** `6m 09s`\n- **SHA256:** `0047c4f27d721c477324635362a5ffdbdbd78b539627c05d7ea531304bec2769`\n\n## Message\n\n```text\nrefactor(icon): refine circular geometry and symmetric eye, Meow\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v222-53997de",
+          "immutable": true,
+          "name": "1.222",
+          "prerelease": false,
+          "prop": {
+            "author": "XiaoTong",
+            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
+            "id": "zygisk_fusehide",
+            "name": "Zygisk - FuseHide",
+            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
+            "version": "1.222 (222-53997de-release)",
+            "versionCode": "222"
+          },
+          "publishedAt": "2026-11-26T09:38:59Z",
+          "releaseId": 459205556,
+          "tag": "v222-53997de",
+          "tagCommit": "ad4878aa624b636facd1ac26109c3e050893d82a",
+          "version": "1.222 (222-53997de-release)",
+          "versionCode": 222
+        },
         {
           "asset": {
             "digest": "sha256:4bd187db213e059cc068a5aaa49ac8482bf29c4df4e43a64645188776af7cc88",
@@ -15909,36 +15939,6 @@
           "tagCommit": "4d926fd5b1a9d507a4c2f35eece16a5d12cc4bad",
           "version": "1.213 (213-8be0b7e-release)",
           "versionCode": 213
-        },
-        {
-          "asset": {
-            "digest": "sha256:32ed87ee3ffac4b824a3d3fdbc6b29b1a48e0bfc4a0c56dca72c60da69c8cee5",
-            "id": 768095438,
-            "name": "FuseHide-1.212_212-c3020ab-release.zip",
-            "sha256": "32ed87ee3ffac4b824a3d3fdbc6b29b1a48e0bfc4a0c56dca72c60da69c8cee5",
-            "size": 7759570,
-            "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v212-c3020ab/FuseHide-1.212_212-c3020ab-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.212`\n- **VersionCode:** `212`\n- **Commit:** [`c3020ab`](https://github.com/XiaoTong6666/FuseHide/commit/c3020ab9a2a1cd9c1b3101ef9d3483dc1595f288)\n- **Build time:** `4m 50s`\n- **SHA256:** `32ed87ee3ffac4b824a3d3fdbc6b29b1a48e0bfc4a0c56dca72c60da69c8cee5`\n\n## Message\n\n```text\nrefactor(native): modularize FUSE wrappers and root snapshots, Meow\n\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v212-c3020ab",
-          "immutable": true,
-          "name": "1.212",
-          "prerelease": false,
-          "prop": {
-            "author": "XiaoTong",
-            "description": "Hide /sdcard paths per-UID in the MediaProvider FUSE daemon via Zygisk",
-            "id": "zygisk_fusehide",
-            "name": "Zygisk - FuseHide",
-            "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-            "version": "1.212 (212-c3020ab-release)",
-            "versionCode": "212"
-          },
-          "publishedAt": "2026-11-19T14:55:54Z",
-          "releaseId": 451495472,
-          "tag": "v212-c3020ab",
-          "tagCommit": "378c6d1d41e0f5449d2a0e9778928b81083dbd63",
-          "version": "1.212 (212-c3020ab-release)",
-          "versionCode": 212
         }
       ],
       "repositoryId": 1417162951,
@@ -16060,21 +16060,25 @@
         "455190975": {
           "checkedAt": "2026-11-23T09:10:04.002Z",
           "ok": true
+        },
+        "459205556": {
+          "checkedAt": "2026-11-26T09:39:21.710Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:4bd187db213e059cc068a5aaa49ac8482bf29c4df4e43a64645188776af7cc88",
-          "id": 782270073,
-          "name": "FuseHide-1.221_221-caffd6f-release.zip",
-          "sha256": "4bd187db213e059cc068a5aaa49ac8482bf29c4df4e43a64645188776af7cc88",
-          "size": 7948826,
-          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v221-caffd6f/FuseHide-1.221_221-caffd6f-release.zip"
+          "digest": "sha256:0047c4f27d721c477324635362a5ffdbdbd78b539627c05d7ea531304bec2769",
+          "id": 795194762,
+          "name": "FuseHide-1.222_222-53997de-release.zip",
+          "sha256": "0047c4f27d721c477324635362a5ffdbdbd78b539627c05d7ea531304bec2769",
+          "size": 7952922,
+          "url": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/download/v222-53997de/FuseHide-1.222_222-53997de-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.221`\n- **VersionCode:** `221`\n- **Commit:** [`caffd6f`](https://github.com/XiaoTong6666/FuseHide/commit/caffd6fe4f4e82be2f322929fa6f7da274164e90)\n- **Build time:** `6m 09s`\n- **SHA256:** `4bd187db213e059cc068a5aaa49ac8482bf29c4df4e43a64645188776af7cc88`\n\n## Message\n\n```text\nfix(icon): preserve adaptive splash icon masking, Meow\n\n让启动画面直接使用现有的 AdaptiveIconDrawable，自适应系统的圆形与圆角方形遮罩，避免把完整方形矢量图当作启动图标而造成边缘裁切喵\n\n将启动图标的额外背景设为透明，避免系统背景层覆盖自适应图标自身的圆角，同时保持日间与夜间主题行为一致，不影响桌面图标和原有矢量资源（轻轻收好爪子）喵\n\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v221-caffd6f",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/FuseHide) 构建产物喵\n\n- **Version:** `1.222`\n- **VersionCode:** `222`\n- **Commit:** [`53997de`](https://github.com/XiaoTong6666/FuseHide/commit/53997dede89a372cd3a7ba2769fadf44f3b92543)\n- **Build time:** `6m 09s`\n- **SHA256:** `0047c4f27d721c477324635362a5ffdbdbd78b539627c05d7ea531304bec2769`\n\n## Message\n\n```text\nrefactor(icon): refine circular geometry and symmetric eye, Meow\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk_fusehide/releases/tag/v222-53997de",
         "immutable": true,
-        "name": "1.221",
+        "name": "1.222",
         "prerelease": false,
         "prop": {
           "author": "XiaoTong",
@@ -16082,15 +16086,15 @@
           "id": "zygisk_fusehide",
           "name": "Zygisk - FuseHide",
           "updateJson": "https://raw.githubusercontent.com/XiaoTong6666/FuseHide/pages/fusehide_zygisk.json",
-          "version": "1.221 (221-caffd6f-release)",
-          "versionCode": "221"
+          "version": "1.222 (222-53997de-release)",
+          "versionCode": "222"
         },
-        "publishedAt": "2026-11-23T09:09:36Z",
-        "releaseId": 455190975,
-        "tag": "v221-caffd6f",
-        "tagCommit": "a04b38b03e2a2f807c87c0bcd1eca1207be0ba0f",
-        "version": "1.221 (221-caffd6f-release)",
-        "versionCode": 221
+        "publishedAt": "2026-11-26T09:38:59Z",
+        "releaseId": 459205556,
+        "tag": "v222-53997de",
+        "tagCommit": "ad4878aa624b636facd1ac26109c3e050893d82a",
+        "version": "1.222 (222-53997de-release)",
+        "versionCode": 222
       },
       "stars": {
         "count": 36,
