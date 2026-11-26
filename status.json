@@ -352,16 +352,16 @@
       "fullName": "Shuoh118/ADB-Disabler",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-26T14:27:13.033Z",
-      "maxVersionCode": 10004,
+      "lastSuccessAt": "2026-11-26T14:28:36.846Z",
+      "maxVersionCode": 10100,
       "message": null,
       "repositoryId": 1449393283,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-22T13:48:22Z",
-        "tag": "1.0.4",
-        "version": "1.0.4",
-        "versionCode": 10004
+        "publishedAt": "2026-11-26T14:28:02Z",
+        "tag": "1.1.0",
+        "version": "1.1.0",
+        "versionCode": 10100
       }
     },
     "adblocker": {
