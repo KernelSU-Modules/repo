@@ -878,16 +878,16 @@
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-26T14:08:10.892Z",
-      "maxVersionCode": 240,
+      "lastSuccessAt": "2026-11-27T03:30:00.113Z",
+      "maxVersionCode": 241,
       "message": null,
       "repositoryId": 1446403674,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-22T20:25:10Z",
-        "tag": "v2.4.0",
-        "version": "v2.4.0",
-        "versionCode": 240
+        "publishedAt": "2026-11-27T03:29:30Z",
+        "tag": "v2.4.1",
+        "version": "v2.4.1",
+        "versionCode": 241
       }
     },
     "hyperos-accessibility-fix": {
