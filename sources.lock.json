@@ -9064,17 +9064,48 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-27T03:30:00.113Z",
-        "lastSuccessAt": "2026-11-27T03:30:00.113Z",
+        "lastAttemptAt": "2026-11-27T13:13:01.217Z",
+        "lastSuccessAt": "2026-11-27T13:13:01.217Z",
         "message": null,
         "status": "ok"
       },
       "id": "hypercool",
       "installationId": 179696560,
-      "maxStableVersionCode": 241,
-      "maxVersionCode": 241,
+      "maxStableVersionCode": 242,
+      "maxVersionCode": 242,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:61526471272aad72a2e98b1bfd0259a7a615774e9ca11f8767b83418365a6b79",
+            "id": 800551750,
+            "name": "HyperCool_v2.4.2.zip",
+            "sha256": "61526471272aad72a2e98b1bfd0259a7a615774e9ca11f8767b83418365a6b79",
+            "size": 424059,
+            "url": "https://github.com/yudharn/HyperCool/releases/download/v2.4.2/HyperCool_v2.4.2.zip"
+          },
+          "body": "\n- Fixed: Bluetooth and NFC are put back reliably after a screen-off. The radio restore read its save file on stdin, so a `settings get` inside the loop could consume the next line: the Bluetooth entry after Location and the NFC entry after mobile data were skipped, and the emptied save file lost them, leaving those radios off. The save files are now read on fd 3, so every entry is handled; the same fix covers the fallback used at boot, on Revert and when the module is disabled.\n- Fixed: Heat guard's `settings get` no longer reads the keeper's stdin.\n\n",
+          "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.4.2",
+          "immutable": true,
+          "name": "HyperCool v2.4.2",
+          "prerelease": false,
+          "prop": {
+            "author": "Yudharn",
+            "banner": "banner.jpg",
+            "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
+            "id": "hypercool",
+            "name": "HyperCool - Heat & Battery Fix",
+            "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
+            "version": "v2.4.2",
+            "versionCode": "242"
+          },
+          "publishedAt": "2026-11-27T13:12:33Z",
+          "releaseId": 460619152,
+          "tag": "v2.4.2",
+          "tagCommit": "7cf8f78312f0f13310de2a8510d2703a82801ae6",
+          "version": "v2.4.2",
+          "versionCode": 242
+        },
         {
           "asset": {
             "digest": "sha256:16b7a82da026100a7071b602b312a7c92495601076d32822c61b3451f39151ba",
@@ -9353,37 +9384,6 @@
           "tagCommit": "25861e7e3cd13e240c51ef304fcfac7f12f57a59",
           "version": "v2.3.2",
           "versionCode": 232
-        },
-        {
-          "asset": {
-            "digest": "sha256:9b60105587a950d104edd544b7382c2d7d345af0ed480593423052d0fbcc86da",
-            "id": 750697967,
-            "name": "HyperCool_v2.3.1.zip",
-            "sha256": "9b60105587a950d104edd544b7382c2d7d345af0ed480593423052d0fbcc86da",
-            "size": 333819,
-            "url": "https://github.com/yudharn/HyperCool/releases/download/v2.3.1/HyperCool_v2.3.1.zip"
-          },
-          "body": "\n- WebUI: the Mono theme status pills are neutral now, the applied state uses the normal text colour, and the partial state uses a dashed outline. Added matching warning/ok state colours for the Mono theme.\n- WebUI: the Extra block I/O tuning card now opens its details panel, so \"What it changes\" is visible.\n- WebUI: Clean cache and Clean RAM now use the primary button style.\n\n",
-          "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.3.1",
-          "immutable": true,
-          "name": "HyperCool v2.3.1",
-          "prerelease": false,
-          "prop": {
-            "author": "Yudharn",
-            "banner": "banner.jpg",
-            "description": "Heat and battery fix for Android - Device: Qualcomm | MediaTek (one-shot at boot, only tiny opt-in keepers). Configure in WebUI, then reboot. Telegram Channel: @ModuleArchives.",
-            "id": "hypercool",
-            "name": "HyperCool - Heat & Battery Fix",
-            "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
-            "version": "v2.3.1",
-            "versionCode": "231"
-          },
-          "publishedAt": "2026-11-15T10:56:06Z",
-          "releaseId": 445989626,
-          "tag": "v2.3.1",
-          "tagCommit": "15a45d33a3eef62f53bb67f56b0bcab975686d04",
-          "version": "v2.3.1",
-          "versionCode": 231
         }
       ],
       "repositoryId": 1446403674,
@@ -9493,21 +9493,25 @@
         "460132223": {
           "checkedAt": "2026-11-27T03:30:00.113Z",
           "ok": true
+        },
+        "460619152": {
+          "checkedAt": "2026-11-27T13:13:01.217Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:16b7a82da026100a7071b602b312a7c92495601076d32822c61b3451f39151ba",
-          "id": 798805602,
-          "name": "HyperCool_v2.4.1.zip",
-          "sha256": "16b7a82da026100a7071b602b312a7c92495601076d32822c61b3451f39151ba",
-          "size": 423927,
-          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.4.1/HyperCool_v2.4.1.zip"
+          "digest": "sha256:61526471272aad72a2e98b1bfd0259a7a615774e9ca11f8767b83418365a6b79",
+          "id": 800551750,
+          "name": "HyperCool_v2.4.2.zip",
+          "sha256": "61526471272aad72a2e98b1bfd0259a7a615774e9ca11f8767b83418365a6b79",
+          "size": 424059,
+          "url": "https://github.com/yudharn/HyperCool/releases/download/v2.4.2/HyperCool_v2.4.2.zip"
         },
-        "body": "\n- New: 5G off during screen-off and heat — off by default, Android 12 or newer. After the screen has been off for the minutes you pick (1–60), and / or while Heat guard cools the phone, 5G is switched off and 4G kept. Only the NR type is taken out of the SIM's allowed network types (the same setting as Settings > SIM); every other type is kept and read back. Never during a call or while the hotspot / USB tethering is on: it waits and tries again every minute. A network type you change yourself meanwhile is kept, and 5G comes back at screen-on, at cool-down, at boot, on Revert and on uninstall. New settings `nr_off`, `nr_off_soff`, `nr_off_min` and `nr_off_heat`.\n- New: Lower refresh rate for chosen apps — off by default. While one of the apps you list is on screen, the refresh rate is capped at the rate you pick (30–120 Hz, default 60, limited to the panel's modes in the WebUI). Works with Adaptive refresh rate, or on its own: then the rate the ROM had comes back when you leave the app. The app in front is checked on each touch and a moment after it, at most once a second, so watching a video costs nothing. Heat guard can still go lower. New settings `rr_app`, `rr_app_pkgs` and `rr_app_hz`.\n- New: Temperature warning says why — the warning now names the busiest app (CPU over 2 s, apps at 10% of a core or more, otherwise the busiest process at 25% or more), the GPU load (30% or more), the charging power in watts, the screen state and how fast it heated up. New setting `temp_warn_cause`.\n- New: Early temperature warning — off by default. Warns at 3 °C in 5 minutes from 4 °C below the limit instead of only at the limit; the next warning comes after it was 3 °C below where the early warning went out, and the limit still warns once more. New setting `temp_warn_rise`.\n- Changed: Heat guard's \"Battery hot\" line says \"5G off\" when the 5G trigger is active, and the module description reports \"screen-off keeper running\" when 5G off is the only screen-off feature that is on.\n- Changed: What's New shows this build, and the README lists the new options.\n- Fixed: 5G and the ROM refresh values left by a keeper that was killed are put back at boot, on Revert, when the module is disabled and on uninstall.\n- Fixed: wishes of keepers from before a boot are cleared, so 5G is not switched off on a stale wish.\n- Fixed: the screen-off keeper puts 5G back at screen-on even when a call or tethering blocked it earlier, and tries again until it succeeds.\n- Fixed: the refresh rate is written again when Heat guard's cap appears or goes, so the two keepers do not leave a stale value behind.\n- Fixed: an app-only refresh keeper stops when its own setting is turned off, and Keeper status shows its mode, the chosen app count and whether an app cap is active.\n\n",
-        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.4.1",
+        "body": "\n- Fixed: Bluetooth and NFC are put back reliably after a screen-off. The radio restore read its save file on stdin, so a `settings get` inside the loop could consume the next line: the Bluetooth entry after Location and the NFC entry after mobile data were skipped, and the emptied save file lost them, leaving those radios off. The save files are now read on fd 3, so every entry is handled; the same fix covers the fallback used at boot, on Revert and when the module is disabled.\n- Fixed: Heat guard's `settings get` no longer reads the keeper's stdin.\n\n",
+        "htmlUrl": "https://github.com/yudharn/HyperCool/releases/tag/v2.4.2",
         "immutable": true,
-        "name": "HyperCool v2.4.1",
+        "name": "HyperCool v2.4.2",
         "prerelease": false,
         "prop": {
           "author": "Yudharn",
@@ -9516,15 +9520,15 @@
           "id": "hypercool",
           "name": "HyperCool - Heat & Battery Fix",
           "updateJson": "https://raw.githubusercontent.com/yudharn/HyperCool/master/update.json",
-          "version": "v2.4.1",
-          "versionCode": "241"
+          "version": "v2.4.2",
+          "versionCode": "242"
         },
-        "publishedAt": "2026-11-27T03:29:30Z",
-        "releaseId": 460132223,
-        "tag": "v2.4.1",
-        "tagCommit": "f6954da82bf055411e33dfd97f2c6896b9be1202",
-        "version": "v2.4.1",
-        "versionCode": 241
+        "publishedAt": "2026-11-27T13:12:33Z",
+        "releaseId": 460619152,
+        "tag": "v2.4.2",
+        "tagCommit": "7cf8f78312f0f13310de2a8510d2703a82801ae6",
+        "version": "v2.4.2",
+        "versionCode": 242
       },
       "stars": {
         "count": 37,
