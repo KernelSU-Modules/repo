@@ -11219,8 +11219,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-27T05:26:35.169Z",
-        "lastSuccessAt": "2026-11-27T05:26:35.169Z",
+        "lastAttemptAt": "2026-11-27T11:03:41.981Z",
+        "lastSuccessAt": "2026-11-27T11:03:41.981Z",
         "message": null,
         "status": "ok"
       },
@@ -11503,6 +11503,12 @@
         },
         "460200651": {
           "checkedAt": "2026-11-27T05:26:35.169Z",
+          "code": "version-not-newer",
+          "message": "versionCode 1220 is already used by the release 1.2.2. Publish a new release with a versionCode above 1220.",
+          "ok": false
+        },
+        "460491292": {
+          "checkedAt": "2026-11-27T11:03:41.981Z",
           "code": "version-not-newer",
           "message": "versionCode 1220 is already used by the release 1.2.2. Publish a new release with a versionCode above 1220.",
           "ok": false
@@ -14706,8 +14712,8 @@
         "versionCode": 102
       },
       "stars": {
-        "count": 65,
-        "fetchedAt": "2026-11-23T23:06:35.934Z",
+        "count": 67,
+        "fetchedAt": "2026-11-27T11:03:41.981Z",
         "fullName": "FLYCOM-E/ClearBox",
         "repositoryId": 983784625,
         "verified": "self"
@@ -15767,8 +15773,8 @@
         "versionCode": 595
       },
       "stars": {
-        "count": 24,
-        "fetchedAt": "2026-11-25T11:38:39.579Z",
+        "count": 25,
+        "fetchedAt": "2026-11-27T11:03:41.981Z",
         "fullName": "XiaoTong6666/zygisk-sui",
         "repositoryId": 1415623276,
         "verified": "self"
