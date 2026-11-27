@@ -1495,16 +1495,16 @@
       "fullName": "Rouyashiki/YukiZygisk",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-25T11:38:39.579Z",
-      "maxVersionCode": 10159,
+      "lastSuccessAt": "2026-11-27T09:06:59.020Z",
+      "maxVersionCode": 10162,
       "message": null,
       "repositoryId": 1297024368,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-24T07:24:28Z",
-        "tag": "ci-45347236241",
-        "version": "v0.5.0-10159",
-        "versionCode": 10159
+        "publishedAt": "2026-11-27T09:06:32Z",
+        "tag": "ci-45970261862",
+        "version": "v0.5.0-10162",
+        "versionCode": 10162
       }
     },
     "zygisk-sui": {
