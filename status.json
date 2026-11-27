@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "8de0da8227c938674b0380501b4fc80ac569b9c9",
+      "contentCommit": "7fd8f400a846e44b3eb66fd06b294786f7ba27f6",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-26T17:32:38.667Z",
-        "commit": "8de0da8227c938674b0380501b4fc80ac569b9c9",
+        "checkedAt": "2026-11-27T00:16:18.751Z",
+        "commit": "7fd8f400a846e44b3eb66fd06b294786f7ba27f6",
         "issues": [],
         "latestTag": "v0.1.12",
         "ok": true,
@@ -508,7 +508,7 @@
       "stable": null
     },
     "big_brother": {
-      "contentCommit": "4c0d35e039d02de4a7edf5ab8d0cc5d1f8258c62",
+      "contentCommit": "1fdf5795fdf5bdeffe842dcaa71c0a786e9d40d1",
       "fullName": "lihenggui/bigbrother",
       "health": "ok",
       "installation": "present",
@@ -517,8 +517,8 @@
       "message": null,
       "repositoryId": 1459530172,
       "request": {
-        "checkedAt": "2026-11-26T17:12:03.993Z",
-        "commit": "4c0d35e039d02de4a7edf5ab8d0cc5d1f8258c62",
+        "checkedAt": "2026-11-27T00:16:18.751Z",
+        "commit": "1fdf5795fdf5bdeffe842dcaa71c0a786e9d40d1",
         "issues": [],
         "latestTag": "v0.5.0",
         "ok": true,
@@ -1132,16 +1132,16 @@
       "fullName": "Fanju6/NetProxy-Releases",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-25T07:31:37.425Z",
-      "maxVersionCode": 1128,
+      "lastSuccessAt": "2026-11-27T00:16:18.751Z",
+      "maxVersionCode": 1134,
       "message": null,
       "repositoryId": 1414363922,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-25T07:31:14Z",
-        "tag": "v8.7.3",
-        "version": "v8.7.3",
-        "versionCode": 1128
+        "publishedAt": "2026-11-27T00:15:54Z",
+        "tag": "v8.7.4",
+        "version": "v8.7.4",
+        "versionCode": 1134
       }
     },
     "nomount": {
@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "bf61e1bea6c9ed236de209df3f6065107ed54da4",
+      "contentCommit": "06589508c997cebad313405070d83db8568dd294",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,8 +1332,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-26T17:32:38.667Z",
-        "commit": "bf61e1bea6c9ed236de209df3f6065107ed54da4",
+        "checkedAt": "2026-11-27T00:16:18.751Z",
+        "commit": "06589508c997cebad313405070d83db8568dd294",
         "issues": [],
         "latestTag": "v0.10.54",
         "ok": true,

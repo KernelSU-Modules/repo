@@ -759,8 +759,8 @@
         "versionCode": 2049
       },
       "stars": {
-        "count": 152,
-        "fetchedAt": "2026-11-25T22:34:23.732Z",
+        "count": 154,
+        "fetchedAt": "2026-11-27T00:16:18.751Z",
         "fullName": "Liliya2727/AZenith",
         "repositoryId": 937420284,
         "verified": "self"
@@ -1372,8 +1372,8 @@
         "versionCode": 782
       },
       "stars": {
-        "count": 440,
-        "fetchedAt": "2026-11-25T11:23:51.766Z",
+        "count": 439,
+        "fetchedAt": "2026-11-27T00:16:18.751Z",
         "fullName": "AlirezaParsi/COPG",
         "repositoryId": 950100740,
         "verified": "self"
@@ -2117,8 +2117,8 @@
         "versionCode": 50200
       },
       "stars": {
-        "count": 69,
-        "fetchedAt": "2026-11-25T22:34:23.732Z",
+        "count": 70,
+        "fetchedAt": "2026-11-27T00:16:18.751Z",
         "fullName": "Eikeitsu/CertBridge",
         "repositoryId": 1306329220,
         "verified": "self"
@@ -5043,8 +5043,8 @@
         "versionCode": 31
       },
       "stars": {
-        "count": 18,
-        "fetchedAt": "2026-11-21T16:44:47.155Z",
+        "count": 19,
+        "fetchedAt": "2026-11-27T00:16:18.751Z",
         "fullName": "LeanxModulostk/VanadiumWebviewManager",
         "repositoryId": 1430564726,
         "verified": "self"
@@ -5070,8 +5070,8 @@
       "seen": {},
       "stable": null,
       "stars": {
-        "count": 90,
-        "fetchedAt": "2026-11-24T17:16:35.339Z",
+        "count": 91,
+        "fetchedAt": "2026-11-27T00:16:18.751Z",
         "fullName": "LxyaoX/VexZygisk",
         "repositoryId": 1305247883,
         "verified": "self"
@@ -7045,8 +7045,8 @@
         "versionCode": 20261109
       },
       "stars": {
-        "count": 926,
-        "fetchedAt": "2026-11-25T22:34:23.732Z",
+        "count": 929,
+        "fetchedAt": "2026-11-27T00:16:18.751Z",
         "fullName": "Seyud/device_faker",
         "repositoryId": 1086377826,
         "requested": "Seyud/device_faker",
@@ -10430,8 +10430,8 @@
         "versionCode": 401012
       },
       "stars": {
-        "count": 635,
-        "fetchedAt": "2026-11-25T22:34:23.732Z",
+        "count": 638,
+        "fetchedAt": "2026-11-27T00:16:18.751Z",
         "fullName": "Tools-cx-app/meta-magic_mount-rs",
         "repositoryId": 1154057975,
         "requested": "Tools-cx-app/meta-magic_mount-rs",
@@ -11783,17 +11783,48 @@
       "fullName": "Fanju6/NetProxy-Releases",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T07:31:37.425Z",
-        "lastSuccessAt": "2026-11-25T07:31:37.425Z",
+        "lastAttemptAt": "2026-11-27T00:16:18.751Z",
+        "lastSuccessAt": "2026-11-27T00:16:18.751Z",
         "message": null,
         "status": "ok"
       },
       "id": "netproxy",
       "installationId": 170175059,
-      "maxStableVersionCode": 1128,
-      "maxVersionCode": 1128,
+      "maxStableVersionCode": 1134,
+      "maxVersionCode": 1134,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:72dde971fd9ab6b3f4692953251f386e5fb6845cbf28d6abcc4631a4f64608a0",
+            "id": 798254866,
+            "name": "netproxy-1134-v8.7.4.zip",
+            "sha256": "72dde971fd9ab6b3f4692953251f386e5fb6845cbf28d6abcc4631a4f64608a0",
+            "size": 28085826,
+            "url": "https://github.com/Fanju6/NetProxy-Releases/releases/download/v8.7.4/netproxy-1134-v8.7.4.zip"
+          },
+          "body": "## 版本 8.7.4（2026-11-27）\n\n### 路由规则\n\n- 路由规则按「应用」「域名、IP 与端口」「高级规则」分组显示，每条规则直接展示匹配对象和流量去向。分组只影响列表展示，不改变内核的匹配顺序。\n- 新增或编辑规则改用底部 Glass 弹窗。可搜索并多选已安装应用，也可手动填写包名；删除入口移到编辑弹窗右上角，需二次确认。复杂原生规则仍可用 JSON 编辑。\n\n### 日志与稳定性\n\n- 服务启动失败时，日志会尽可能指出内核配置错误、进程退出或最后一次就绪检查的具体原因，不再一律显示「等待服务就绪失败」。\n- 统一服务日志与内核日志的卡片样式；清空日志后仍可滚动收起标题栏。\n- 修复三键导航模式下，资源页面的底部弹窗可能被系统导航栏遮挡的问题。\n- 更新内置广告拦截、AI、中国 IP 和非中国地域规则集，以及 AndroidX 依赖。\n\n### 升级说明\n\n- 从 8.7.x 升级可选「保留现有数据」。建议一并更新模块内附的管理器，已有节点、策略组和路由无需重新配置。\n- 从 8.6.2 或更早版本直升，请先备份并遵循 [8.7.0 的升级说明](https://github.com/Fanju6/NetProxy-Magisk/releases/tag/v8.7.0)。\n\n* * *\n\n\n[源码提交](https://github.com/Fanju6/NetProxy-Magisk/commit/9b5a94d6858f92775958994bdc4fc988205c3c4c)\n\nSHA-256: `72dde971fd9ab6b3f4692953251f386e5fb6845cbf28d6abcc4631a4f64608a0`\n",
+          "htmlUrl": "https://github.com/Fanju6/NetProxy-Releases/releases/tag/v8.7.4",
+          "immutable": true,
+          "name": "v8.7.4",
+          "prerelease": false,
+          "prop": {
+            "author": "Fanju",
+            "description": "基于 sing-box 内核的透明代理工具",
+            "id": "netproxy",
+            "name": "NetProxy",
+            "updateJson": "https://github.com/Fanju6/NetProxy-Magisk/releases/latest/download/update.json",
+            "version": "v8.7.4",
+            "versionCode": "1134",
+            "webuiIcon": "webroot/netproxy/favicon.svg"
+          },
+          "publishedAt": "2026-11-27T00:15:54Z",
+          "releaseId": 460022238,
+          "tag": "v8.7.4",
+          "tagCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
+          "version": "v8.7.4",
+          "versionCode": 1134
+        },
         {
           "asset": {
             "digest": "sha256:7d9396ac6d81113b1c0d357319e6ff5460f009afe820fe5174f8dd5d1032e02d",
@@ -12111,21 +12142,25 @@
         "457780127": {
           "checkedAt": "2026-11-25T07:31:37.425Z",
           "ok": true
+        },
+        "460022238": {
+          "checkedAt": "2026-11-27T00:16:18.751Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:7d9396ac6d81113b1c0d357319e6ff5460f009afe820fe5174f8dd5d1032e02d",
-          "id": 790544558,
-          "name": "netproxy-1128-v8.7.3.zip",
-          "sha256": "7d9396ac6d81113b1c0d357319e6ff5460f009afe820fe5174f8dd5d1032e02d",
-          "size": 28062712,
-          "url": "https://github.com/Fanju6/NetProxy-Releases/releases/download/v8.7.3/netproxy-1128-v8.7.3.zip"
+          "digest": "sha256:72dde971fd9ab6b3f4692953251f386e5fb6845cbf28d6abcc4631a4f64608a0",
+          "id": 798254866,
+          "name": "netproxy-1134-v8.7.4.zip",
+          "sha256": "72dde971fd9ab6b3f4692953251f386e5fb6845cbf28d6abcc4631a4f64608a0",
+          "size": 28085826,
+          "url": "https://github.com/Fanju6/NetProxy-Releases/releases/download/v8.7.4/netproxy-1134-v8.7.4.zip"
         },
-        "body": "## 版本 8.7.3（2026-11-25）\n\n### 代理与策略组\n\n- 服务停止时，代理页会标出 Selector 的默认节点，也可以直接换一个节点供下次启动使用。运行时切换节点会同步保存默认值，不重载服务。URLTest 仍由核心自动选择。\n- 内核更新到 sing-box reF1nd 的 `reF1nd-testing-next` 快照（`77c0dbbe`），修复 Selector 将订阅节点设为默认值后冷启动失败的问题。若订阅更新后默认节点已不存在，但资源仍有效，核心会回退到可用成员。\n\n### 入站与系统兼容\n\n- 全新安装或选择「仅保留节点与订阅」时，默认使用 TUN 接管本机流量，不默认接管热点或 USB 网络共享。保留现有数据升级时，继续使用原有接管后端和设置。\n- 新增 Google 联网兼容，适用于受支持的 ColorOS 16、红魔、努比亚和中兴固件。开机或模块热激活后自动检查，不依赖管理器或代理启动，不清空共享防火墙规则。\n\n### 稳定性\n\n- 修复配置事务恢复可能重新启动已明确停止的服务的问题；服务状态文件损坏时不再误报为正常停服。\n- 完善诊断包的 TLS 私钥脱敏，并限制诊断归档大小。\n- 同步 MIUIX Glass 0.9.5-beta04，优化模糊和弹层表现；减少策略组刷新与订阅更新中的重复工作。\n\n### 升级说明\n\n- 从 8.7.x 升级可选「保留现有数据」。建议使用模块包内附的管理器一并更新，本版不会用默认配置覆盖已保存的节点、策略组或路由。\n- 从 8.6.2 或更早版本直升，请先备份并遵循 [8.7.0 的升级说明](https://github.com/Fanju6/NetProxy-Magisk/releases/tag/v8.7.0)。\n\n* * *\n\n\n[源码提交](https://github.com/Fanju6/NetProxy-Magisk/commit/d62d843db9548514545c782da5fc3e1be67c0085)\n\nSHA-256: `7d9396ac6d81113b1c0d357319e6ff5460f009afe820fe5174f8dd5d1032e02d`\n",
-        "htmlUrl": "https://github.com/Fanju6/NetProxy-Releases/releases/tag/v8.7.3",
+        "body": "## 版本 8.7.4（2026-11-27）\n\n### 路由规则\n\n- 路由规则按「应用」「域名、IP 与端口」「高级规则」分组显示，每条规则直接展示匹配对象和流量去向。分组只影响列表展示，不改变内核的匹配顺序。\n- 新增或编辑规则改用底部 Glass 弹窗。可搜索并多选已安装应用，也可手动填写包名；删除入口移到编辑弹窗右上角，需二次确认。复杂原生规则仍可用 JSON 编辑。\n\n### 日志与稳定性\n\n- 服务启动失败时，日志会尽可能指出内核配置错误、进程退出或最后一次就绪检查的具体原因，不再一律显示「等待服务就绪失败」。\n- 统一服务日志与内核日志的卡片样式；清空日志后仍可滚动收起标题栏。\n- 修复三键导航模式下，资源页面的底部弹窗可能被系统导航栏遮挡的问题。\n- 更新内置广告拦截、AI、中国 IP 和非中国地域规则集，以及 AndroidX 依赖。\n\n### 升级说明\n\n- 从 8.7.x 升级可选「保留现有数据」。建议一并更新模块内附的管理器，已有节点、策略组和路由无需重新配置。\n- 从 8.6.2 或更早版本直升，请先备份并遵循 [8.7.0 的升级说明](https://github.com/Fanju6/NetProxy-Magisk/releases/tag/v8.7.0)。\n\n* * *\n\n\n[源码提交](https://github.com/Fanju6/NetProxy-Magisk/commit/9b5a94d6858f92775958994bdc4fc988205c3c4c)\n\nSHA-256: `72dde971fd9ab6b3f4692953251f386e5fb6845cbf28d6abcc4631a4f64608a0`\n",
+        "htmlUrl": "https://github.com/Fanju6/NetProxy-Releases/releases/tag/v8.7.4",
         "immutable": true,
-        "name": "v8.7.3",
+        "name": "v8.7.4",
         "prerelease": false,
         "prop": {
           "author": "Fanju",
@@ -12133,16 +12168,16 @@
           "id": "netproxy",
           "name": "NetProxy",
           "updateJson": "https://github.com/Fanju6/NetProxy-Magisk/releases/latest/download/update.json",
-          "version": "v8.7.3",
-          "versionCode": "1128",
+          "version": "v8.7.4",
+          "versionCode": "1134",
           "webuiIcon": "webroot/netproxy/favicon.svg"
         },
-        "publishedAt": "2026-11-25T07:31:14Z",
-        "releaseId": 457780127,
-        "tag": "v8.7.3",
+        "publishedAt": "2026-11-27T00:15:54Z",
+        "releaseId": 460022238,
+        "tag": "v8.7.4",
         "tagCommit": "91b9bff82167ea1c0e90c67411c590203ca8e89d",
-        "version": "v8.7.3",
-        "versionCode": 1128
+        "version": "v8.7.4",
+        "versionCode": 1134
       },
       "stars": {
         "count": 1483,
@@ -12368,8 +12403,8 @@
         "versionCode": 785
       },
       "stars": {
-        "count": 738,
-        "fetchedAt": "2026-11-25T22:34:23.732Z",
+        "count": 745,
+        "fetchedAt": "2026-11-27T00:16:18.751Z",
         "fullName": "maxsteeel/nomount",
         "repositoryId": 1128821046,
         "verified": "self"
@@ -13661,8 +13696,8 @@
         "versionCode": 110400701
       },
       "stars": {
-        "count": 38,
-        "fetchedAt": "2026-11-25T22:34:23.732Z",
+        "count": 39,
+        "fetchedAt": "2026-11-27T00:16:18.751Z",
         "fullName": "KyuubiRan/Shellscaled",
         "repositoryId": 1435874117,
         "verified": "self"
