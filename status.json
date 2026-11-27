@@ -1272,7 +1272,7 @@
       }
     },
     "rkp_mfr_auto": {
-      "contentCommit": "ade4547bdcd98a47c618d54c2323c035df988b60",
+      "contentCommit": "80a2bf7d826f9c44cdc9432130bdab3bdc274af8",
       "fullName": "Najip/RKP-Mfr-Auto-Match",
       "health": "ok",
       "installation": "present",
@@ -1281,8 +1281,8 @@
       "message": null,
       "repositoryId": 1473831144,
       "request": {
-        "checkedAt": "2026-11-27T17:55:08.206Z",
-        "commit": "ade4547bdcd98a47c618d54c2323c035df988b60",
+        "checkedAt": "2026-11-27T17:59:46.022Z",
+        "commit": "80a2bf7d826f9c44cdc9432130bdab3bdc274af8",
         "issues": [],
         "latestTag": "v0.3.1",
         "ok": true,
