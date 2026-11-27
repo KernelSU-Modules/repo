@@ -15266,17 +15266,47 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-27T05:26:35.169Z",
-        "lastSuccessAt": "2026-11-27T05:26:35.169Z",
+        "lastAttemptAt": "2026-11-27T05:38:46.256Z",
+        "lastSuccessAt": "2026-11-27T05:38:46.256Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisk-sui",
       "installationId": 170178853,
-      "maxStableVersionCode": 590,
-      "maxVersionCode": 590,
+      "maxStableVersionCode": 595,
+      "maxVersionCode": 595,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:98529a5faab1fd4af2eeeb6f5ce44c416e30142a0fccc041f8920e205e305059",
+            "id": 799138853,
+            "name": "Sui-v13.5.4.3_595-9857c07-release.zip",
+            "sha256": "98529a5faab1fd4af2eeeb6f5ce44c416e30142a0fccc041f8920e205e305059",
+            "size": 1608246,
+            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v595-9857c07/Sui-v13.5.4.3_595-9857c07-release.zip"
+          },
+          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (595-9857c07-release)`\n- **VersionCode:** `595`\n- **Commit:** [`9857c07`](https://github.com/XiaoTong6666/Sui/commit/9857c07c5e21bc7c74ab20691d1e628393821ad2)\n- **Build time:** `4m 22s`\n- **SHA256:** `98529a5faab1fd4af2eeeb6f5ce44c416e30142a0fccc041f8920e205e305059`\n\n## Message\n\n```text\nrefactor(module): replace boot scripts with native supervisor, Meow\n\n把原来 Shell 脚本里的启动和监控逻辑迁移到 Native Supervisor 了喵，日志采集和应用信息刷新还有 ADB Root 准备也一起接管了喵~\n\n移除了 post-fs-data.sh，service.sh 只保留启动入口喵（终于不用维护那么多 Shell 代码啦，开心地挥挥爪子）\n\nRoot 和 Shell Server 使用独立进程组管理，Supervisor 通过文件锁保证单实例运行喵，还加上了启动超时和退避重试喵，旧进程组没完全退出之前不会启动新的 Server Pair，也不会阻塞整个监控循环喵\n\n顺便整理了进程扫描和子进程回收逻辑，复用已有的 Helper，SystemUI 和 Settings 的应用信息发生变化时也会分别处理喵\n\n另外...整理了模块安装和卸载流程，调整了 Root 实现识别逻辑，模块模板目录也改成了 module 喵（收拾完一大堆代码后软趴趴地摊成猫饼喵~）\n\n```\n",
+          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v595-9857c07",
+          "immutable": true,
+          "name": "v13.5.4.3 (595-9857c07-release)",
+          "prerelease": false,
+          "prop": {
+            "author": "Sui Contributors",
+            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+            "id": "zygisk-sui",
+            "name": "Zygisk - Sui",
+            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
+            "version": "v13.5.4.3 (595-9857c07-release)",
+            "versionCode": "595"
+          },
+          "publishedAt": "2026-11-27T05:38:26Z",
+          "releaseId": 460207653,
+          "tag": "v595-9857c07",
+          "tagCommit": "a48105c21b05142e779b89e6da8ac0414d199614",
+          "version": "v13.5.4.3 (595-9857c07-release)",
+          "versionCode": 595
+        },
         {
           "asset": {
             "digest": "sha256:fc7363c6815b3f76ac7b55c0fc0b4687a858cea72269e9193f44af6ae3741c25",
@@ -15546,36 +15576,6 @@
           "tagCommit": "6576b12a70baf51f8d8950b4a8f44956115af216",
           "version": "v13.5.4.3 (576-3af0920-release)",
           "versionCode": 576
-        },
-        {
-          "asset": {
-            "digest": "sha256:047364c1f474cdc68e0f28ea2a71e872410395b310f8af9d860b4d9bf0b66637",
-            "id": 704922578,
-            "name": "Sui-v13.5.4.3_574-746c06c-release.zip",
-            "sha256": "047364c1f474cdc68e0f28ea2a71e872410395b310f8af9d860b4d9bf0b66637",
-            "size": 1452599,
-            "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v574-746c06c/Sui-v13.5.4.3_574-746c06c-release.zip"
-          },
-          "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (574-746c06c-release)`\n- **VersionCode:** `574`\n- **Commit:** [`746c06c`](https://github.com/XiaoTong6666/Sui/commit/746c06c66a9fa19ba4bb469a0657c108a10e3fae)\n- **Build time:** `1m 33s`\n- **SHA256:** `047364c1f474cdc68e0f28ea2a71e872410395b310f8af9d860b4d9bf0b66637`\n\n## Message\n\n```text\nfix(bridge): Stop Zygote restarts, Meow #141\n\n删掉 Binder 注册失败自动重启 Zygote ，但保留重试\n\n```\n",
-          "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v574-746c06c",
-          "immutable": true,
-          "name": "v13.5.4.3 (574-746c06c-release)",
-          "prerelease": false,
-          "prop": {
-            "author": "Sui Contributors",
-            "description": "Fork by XiaoTong.\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
-            "id": "zygisk-sui",
-            "name": "Zygisk - Sui",
-            "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-            "version": "v13.5.4.3 (574-746c06c-release)",
-            "versionCode": "574"
-          },
-          "publishedAt": "2026-11-03T08:44:14Z",
-          "releaseId": 432448996,
-          "tag": "v574-746c06c",
-          "tagCommit": "669ab215369456585db74f581e24f7f0633f2d48",
-          "version": "v13.5.4.3 (574-746c06c-release)",
-          "versionCode": 574
         }
       ],
       "repositoryId": 1415623276,
@@ -15691,21 +15691,25 @@
         "459610117": {
           "checkedAt": "2026-11-26T15:43:16.519Z",
           "ok": true
+        },
+        "460207653": {
+          "checkedAt": "2026-11-27T05:38:46.256Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:fc7363c6815b3f76ac7b55c0fc0b4687a858cea72269e9193f44af6ae3741c25",
-          "id": 796569512,
-          "name": "Sui-v13.5.4.3_590-6844d95-release.zip",
-          "sha256": "fc7363c6815b3f76ac7b55c0fc0b4687a858cea72269e9193f44af6ae3741c25",
-          "size": 1505877,
-          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v590-6844d95/Sui-v13.5.4.3_590-6844d95-release.zip"
+          "digest": "sha256:98529a5faab1fd4af2eeeb6f5ce44c416e30142a0fccc041f8920e205e305059",
+          "id": 799138853,
+          "name": "Sui-v13.5.4.3_595-9857c07-release.zip",
+          "sha256": "98529a5faab1fd4af2eeeb6f5ce44c416e30142a0fccc041f8920e205e305059",
+          "size": 1608246,
+          "url": "https://github.com/XiaoTong6666/zygisk-sui/releases/download/v595-9857c07/Sui-v13.5.4.3_595-9857c07-release.zip"
         },
-        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (590-6844d95-release)`\n- **VersionCode:** `590`\n- **Commit:** [`6844d95`](https://github.com/XiaoTong6666/Sui/commit/6844d95bd44deb17c4bd0119c816908c421c3562)\n- **Build time:** `2m 38s`\n- **SHA256:** `fc7363c6815b3f76ac7b55c0fc0b4687a858cea72269e9193f44af6ae3741c25`\n\n## Message\n\n```text\nbuild(deps): bump agp from 9.5.2 to 9.5.3 (#157)\n\nBumps `agp` from 9.5.2 to 9.5.3.\n\nUpdates `com.android.application` from 9.5.2 to 9.5.3\n\nUpdates `com.android.library` from 9.5.2 to 9.5.3\n\n---\nupdated-dependencies:\n- dependency-name: com.android.application\n  dependency-version: 9.5.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n- dependency-name: com.android.library\n  dependency-version: 9.5.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <xiaotong6666@users.noreply.github.com>\n```\n",
-        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v590-6844d95",
+        "body": "同步自 [主仓库](https://github.com/XiaoTong6666/Sui) 构建产物喵\n\n- **Version:** `v13.5.4.3 (595-9857c07-release)`\n- **VersionCode:** `595`\n- **Commit:** [`9857c07`](https://github.com/XiaoTong6666/Sui/commit/9857c07c5e21bc7c74ab20691d1e628393821ad2)\n- **Build time:** `4m 22s`\n- **SHA256:** `98529a5faab1fd4af2eeeb6f5ce44c416e30142a0fccc041f8920e205e305059`\n\n## Message\n\n```text\nrefactor(module): replace boot scripts with native supervisor, Meow\n\n把原来 Shell 脚本里的启动和监控逻辑迁移到 Native Supervisor 了喵，日志采集和应用信息刷新还有 ADB Root 准备也一起接管了喵~\n\n移除了 post-fs-data.sh，service.sh 只保留启动入口喵（终于不用维护那么多 Shell 代码啦，开心地挥挥爪子）\n\nRoot 和 Shell Server 使用独立进程组管理，Supervisor 通过文件锁保证单实例运行喵，还加上了启动超时和退避重试喵，旧进程组没完全退出之前不会启动新的 Server Pair，也不会阻塞整个监控循环喵\n\n顺便整理了进程扫描和子进程回收逻辑，复用已有的 Helper，SystemUI 和 Settings 的应用信息发生变化时也会分别处理喵\n\n另外...整理了模块安装和卸载流程，调整了 Root 实现识别逻辑，模块模板目录也改成了 module 喵（收拾完一大堆代码后软趴趴地摊成猫饼喵~）\n\n```\n",
+        "htmlUrl": "https://github.com/XiaoTong6666/zygisk-sui/releases/tag/v595-9857c07",
         "immutable": true,
-        "name": "v13.5.4.3 (590-6844d95-release)",
+        "name": "v13.5.4.3 (595-9857c07-release)",
         "prerelease": false,
         "prop": {
           "author": "Sui Contributors",
@@ -15713,15 +15717,15 @@
           "id": "zygisk-sui",
           "name": "Zygisk - Sui",
           "updateJson": "https://xiaotong6666.github.io/Sui/sui_zygisk.json",
-          "version": "v13.5.4.3 (590-6844d95-release)",
-          "versionCode": "590"
+          "version": "v13.5.4.3 (595-9857c07-release)",
+          "versionCode": "595"
         },
-        "publishedAt": "2026-11-26T15:42:52Z",
-        "releaseId": 459610117,
-        "tag": "v590-6844d95",
-        "tagCommit": "5923da5b90b9252d249339f91ce0c0589cfbca8e",
-        "version": "v13.5.4.3 (590-6844d95-release)",
-        "versionCode": 590
+        "publishedAt": "2026-11-27T05:38:26Z",
+        "releaseId": 460207653,
+        "tag": "v595-9857c07",
+        "tagCommit": "a48105c21b05142e779b89e6da8ac0414d199614",
+        "version": "v13.5.4.3 (595-9857c07-release)",
+        "versionCode": 595
       },
       "stars": {
         "count": 24,
