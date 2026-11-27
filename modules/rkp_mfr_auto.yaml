@@ -1,0 +1,20 @@
+id: rkp_mfr_auto
+status: pending
+request:
+  submissionId: 59vwezcfvc
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1473831144
+    ownerId: 8416702
+    fullName: Najip/RKP-Mfr-Auto-Match
+    manifestPath: module.yaml
+  submittedBy: 8416702
+  submittedByLogin: Najip
+  submittedAt: 2026-11-27T08:39:18.454Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65308
+  note: Reads the manufacturer (map[3]) from the active RKP keybox at boot and matches manufacturer props automatically, with a Zygisk library to restore stock manufacturer for camera apps and user-whitelisted apps via WebUI. Original idea credited to dlagia.
+createdAt: 2026-11-27T08:39:18.454Z
+updatedAt: 2026-11-27T08:39:18.454Z
