@@ -3046,8 +3046,8 @@
         "versionCode": 62
       },
       "stars": {
-        "count": 24,
-        "fetchedAt": "2026-11-17T14:43:02.594Z",
+        "count": 25,
+        "fetchedAt": "2026-11-27T05:26:35.169Z",
         "fullName": "starlifezzz/Logd_Disabler_ColorOS16",
         "repositoryId": 1214139400,
         "verified": "self"
@@ -4502,8 +4502,8 @@
         "versionCode": 22
       },
       "stars": {
-        "count": 173,
-        "fetchedAt": "2026-11-26T03:40:42.109Z",
+        "count": 176,
+        "fetchedAt": "2026-11-27T05:26:35.169Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -5634,13 +5634,13 @@
     "altdb": {
       "content": {
         "blobs": {
-          "README.md": "268793d71b4a51c070ec84d1b7eb7ed0d44ff65b",
+          "README.md": "f014cfbf33a40a7364468ad66fc4feeb1b995d3f",
           "module.yaml": "d66c0fad94667615f999563bfc5103915e34f3e7"
         },
-        "commit": "d6b997c6020df0a3a59bc1433a3949a56d3d5b18",
-        "fetchedAt": "2026-11-26T07:25:00.535Z",
+        "commit": "c66fb17de61f7532c9e828927f9b112516424864",
+        "fetchedAt": "2026-11-27T05:26:35.169Z",
         "files": {
-          "README.md": "b9a9d94c7dd18629f5f2a0d07d326c6e6ff8438113f3b3f4237edd42d5ade261",
+          "README.md": "98d416e3356990879249665ed387dfd81af54878b7f1c807659c5eeae1161f51",
           "module.yaml": "2b9fde7ed6d68f6be3fbf425b0ed96a540d457a9a7c45f7c94b13fe602edb45d"
         },
         "manifestPath": "module.yaml",
@@ -5649,8 +5649,8 @@
       "fullName": "Dr-TSNG/altdb",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-26T07:25:00.535Z",
-        "lastSuccessAt": "2026-11-26T07:25:00.535Z",
+        "lastAttemptAt": "2026-11-27T05:26:35.169Z",
+        "lastSuccessAt": "2026-11-27T05:26:35.169Z",
         "message": null,
         "status": "ok"
       },
@@ -9907,8 +9907,8 @@
         "versionCode": 16
       },
       "stars": {
-        "count": 63,
-        "fetchedAt": "2026-11-16T15:23:41.682Z",
+        "count": 64,
+        "fetchedAt": "2026-11-27T05:26:35.169Z",
         "fullName": "NativeStar/KernelSUGrantToast",
         "repositoryId": 1205795668,
         "verified": "self"
@@ -11184,8 +11184,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T12:11:20.693Z",
-        "lastSuccessAt": "2026-11-25T12:11:20.693Z",
+        "lastAttemptAt": "2026-11-27T05:26:35.169Z",
+        "lastSuccessAt": "2026-11-27T05:26:35.169Z",
         "message": null,
         "status": "ok"
       },
@@ -11465,6 +11465,12 @@
         "458063419": {
           "checkedAt": "2026-11-25T12:11:20.693Z",
           "ok": true
+        },
+        "460200651": {
+          "checkedAt": "2026-11-27T05:26:35.169Z",
+          "code": "version-not-newer",
+          "message": "versionCode 1220 is already used by the release 1.2.2. Publish a new release with a versionCode above 1220.",
+          "ok": false
         }
       },
       "stable": {
@@ -11498,8 +11504,8 @@
         "versionCode": 1220
       },
       "stars": {
-        "count": 10,
-        "fetchedAt": "2026-11-26T12:25:27.935Z",
+        "count": 11,
+        "fetchedAt": "2026-11-27T05:26:35.169Z",
         "fullName": "jjh138792/MirageForge",
         "repositoryId": 1445526027,
         "verified": "self"
@@ -15245,13 +15251,13 @@
     "zygisk-sui": {
       "content": {
         "blobs": {
-          "README.md": "2c40f75eb4b11f69e426996dd8bf7a5713d1ce99",
+          "README.md": "f955d588c2a2ab1cf68aba2a121c4405ad43a822",
           "module.yaml": "ad758b968ea1e8d8867ef92ff03e329101b3e6ef"
         },
-        "commit": "6186ced54a86bcd0ab17237f53801e3e2409bda7",
-        "fetchedAt": "2026-10-12T22:51:29.746Z",
+        "commit": "7e81d65338c4e44f63f3a23ed6db3d62e04c19e6",
+        "fetchedAt": "2026-11-27T05:26:35.169Z",
         "files": {
-          "README.md": "ea8b8588e87971c318a73eeb49b1a5ba28e40a0f42c927b31b99573a677b2ed6",
+          "README.md": "fd65b0b890036f608a46d7470b4f6b34577ec40bcc4b2f685531f484f99be1a3",
           "module.yaml": "d1e9193afee95fec3797548d7575f6f94fa23350b0d1e5cdbf28df5ff5b6050a"
         },
         "manifestPath": "module.yaml",
@@ -15260,8 +15266,8 @@
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-26T15:43:16.519Z",
-        "lastSuccessAt": "2026-11-26T15:43:16.519Z",
+        "lastAttemptAt": "2026-11-27T05:26:35.169Z",
+        "lastSuccessAt": "2026-11-27T05:26:35.169Z",
         "message": null,
         "status": "ok"
       },

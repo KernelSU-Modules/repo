@@ -403,11 +403,11 @@
       }
     },
     "altdb": {
-      "contentCommit": "d6b997c6020df0a3a59bc1433a3949a56d3d5b18",
+      "contentCommit": "c66fb17de61f7532c9e828927f9b112516424864",
       "fullName": "Dr-TSNG/altdb",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-26T07:25:00.535Z",
+      "lastSuccessAt": "2026-11-27T05:26:35.169Z",
       "maxVersionCode": 28,
       "message": null,
       "repositoryId": 1368146952,
@@ -1098,7 +1098,7 @@
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-25T12:11:20.693Z",
+      "lastSuccessAt": "2026-11-27T05:26:35.169Z",
       "maxVersionCode": 1220,
       "message": null,
       "repositoryId": 1445526027,
@@ -1487,11 +1487,11 @@
       }
     },
     "zygisk-sui": {
-      "contentCommit": "6186ced54a86bcd0ab17237f53801e3e2409bda7",
+      "contentCommit": "7e81d65338c4e44f63f3a23ed6db3d62e04c19e6",
       "fullName": "XiaoTong6666/zygisk-sui",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-26T15:43:16.519Z",
+      "lastSuccessAt": "2026-11-27T05:26:35.169Z",
       "maxVersionCode": 590,
       "message": null,
       "repositoryId": 1415623276,
