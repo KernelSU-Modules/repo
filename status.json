@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "323c8de3a31c334bdde57a2145860b377e72224e",
+      "contentCommit": "0cf9c8e336b2b7affb68fc0fdc99673636b86c36",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-27T16:30:50.387Z",
-        "commit": "323c8de3a31c334bdde57a2145860b377e72224e",
+        "checkedAt": "2026-11-27T22:42:02.710Z",
+        "commit": "0cf9c8e336b2b7affb68fc0fdc99673636b86c36",
         "issues": [],
         "latestTag": "v0.1.12",
         "ok": true,
@@ -1272,7 +1272,7 @@
       }
     },
     "rkp_mfr_auto": {
-      "contentCommit": "b389e5cba9b5bcdacfb1e820c6e462ab2093ac0d",
+      "contentCommit": "90dbd8fae9e09efa595a873fd62f0a37790f1862",
       "fullName": "Najip/RKP-Mfr-Auto-Match",
       "health": "ok",
       "installation": "present",
@@ -1281,8 +1281,8 @@
       "message": null,
       "repositoryId": 1473831144,
       "request": {
-        "checkedAt": "2026-11-27T18:10:51.809Z",
-        "commit": "b389e5cba9b5bcdacfb1e820c6e462ab2093ac0d",
+        "checkedAt": "2026-11-27T22:42:02.710Z",
+        "commit": "90dbd8fae9e09efa595a873fd62f0a37790f1862",
         "issues": [],
         "latestTag": "v0.3.1",
         "ok": true,
@@ -1365,7 +1365,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "b14df6913cb0ea9412a6f029d05a054e73122b64",
+      "contentCommit": "cfe79c2d49c6478eb737355bc3aa4f0b31552f64",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1374,8 +1374,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-27T03:18:19.664Z",
-        "commit": "b14df6913cb0ea9412a6f029d05a054e73122b64",
+        "checkedAt": "2026-11-27T22:42:02.710Z",
+        "commit": "cfe79c2d49c6478eb737355bc3aa4f0b31552f64",
         "issues": [],
         "latestTag": "v0.10.54",
         "ok": true,
