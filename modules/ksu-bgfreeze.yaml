@@ -1,0 +1,19 @@
+id: ksu-bgfreeze
+status: pending
+request:
+  submissionId: ss444abfla
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1474387514
+    ownerId: 32679742
+    fullName: q2333gh/ksu-bgfreeze
+    manifestPath: module.yaml
+  submittedBy: 32679742
+  submittedByLogin: q2333gh
+  submittedAt: 2026-11-27T12:21:07.734Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65314
+createdAt: 2026-11-27T12:21:07.734Z
+updatedAt: 2026-11-27T12:21:07.734Z
