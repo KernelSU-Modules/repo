@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "6f7a5461a7333cdc8e551c0efa72e0d610f02633",
+      "contentCommit": "323c8de3a31c334bdde57a2145860b377e72224e",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-27T16:05:09.920Z",
-        "commit": "6f7a5461a7333cdc8e551c0efa72e0d610f02633",
+        "checkedAt": "2026-11-27T16:30:50.387Z",
+        "commit": "323c8de3a31c334bdde57a2145860b377e72224e",
         "issues": [],
         "latestTag": "v0.1.12",
         "ok": true,
@@ -1272,7 +1272,7 @@
       }
     },
     "rkp_mfr_auto": {
-      "contentCommit": "f9c22421322fe7a0a9faaa49885c49c78e2d6c6a",
+      "contentCommit": "10b7448d0991891a16cff8cf4edef35878856025",
       "fullName": "Najip/RKP-Mfr-Auto-Match",
       "health": "ok",
       "installation": "present",
@@ -1281,8 +1281,8 @@
       "message": null,
       "repositoryId": 1473831144,
       "request": {
-        "checkedAt": "2026-11-27T12:30:08.380Z",
-        "commit": "f9c22421322fe7a0a9faaa49885c49c78e2d6c6a",
+        "checkedAt": "2026-11-27T16:30:50.387Z",
+        "commit": "10b7448d0991891a16cff8cf4edef35878856025",
         "issues": [],
         "latestTag": "v0.3.1",
         "ok": true,
