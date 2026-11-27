@@ -874,11 +874,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "b1072b8d3f4300e9074e5c2a8fd08f89483694e2",
+      "contentCommit": "37f4a217b862eeeea9b5e403b49e884375a932df",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-27T13:13:01.217Z",
+      "lastSuccessAt": "2026-11-27T14:36:16.999Z",
       "maxVersionCode": 242,
       "message": null,
       "repositoryId": 1446403674,
@@ -971,7 +971,7 @@
       }
     },
     "ksu-bgfreeze": {
-      "contentCommit": "a09727706d9564987d4d82df5c5f573803c34567",
+      "contentCommit": "ebdca4b7353287c2390d2a7b8543650d062ff159",
       "fullName": "q2333gh/ksu-bgfreeze",
       "health": "ok",
       "installation": "present",
@@ -980,8 +980,8 @@
       "message": null,
       "repositoryId": 1474387514,
       "request": {
-        "checkedAt": "2026-11-27T13:14:18.877Z",
-        "commit": "a09727706d9564987d4d82df5c5f573803c34567",
+        "checkedAt": "2026-11-27T14:36:16.999Z",
+        "commit": "ebdca4b7353287c2390d2a7b8543650d062ff159",
         "issues": [],
         "latestTag": "v0.3.1",
         "ok": true,
@@ -1567,16 +1567,16 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-26T16:41:59.717Z",
-      "maxVersionCode": 454,
+      "lastSuccessAt": "2026-11-27T14:36:16.999Z",
+      "maxVersionCode": 458,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-26T16:41:37Z",
-        "tag": "v2.22.0",
-        "version": "v2.22.0 (454-95e2d0a-release)",
-        "versionCode": 454
+        "publishedAt": "2026-11-27T14:35:55Z",
+        "tag": "v2.22.0.1",
+        "version": "v2.22.0.1 (458-952f9de-release)",
+        "versionCode": 458
       }
     },
     "zygisksu": {

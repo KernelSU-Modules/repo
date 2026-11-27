@@ -2375,8 +2375,8 @@
         "versionCode": 20260821
       },
       "stars": {
-        "count": 323,
-        "fetchedAt": "2026-11-26T12:25:27.935Z",
+        "count": 324,
+        "fetchedAt": "2026-11-27T14:36:16.999Z",
         "fullName": "Seyud/FreePPS",
         "repositoryId": 1063205512,
         "requested": "Seyud/FreePPS",
@@ -9008,9 +9008,9 @@
           "README.md": "116f272408c46ffc4494e49b004a9fea402ff483",
           "banner.jpg": "e5d921c5ffb52fb78b4d09bc9e87d03d96675e2f",
           "docs/badges/android.svg": "8d00e779e4cb8df999628edb7b6f3403eb0ca81b",
-          "docs/badges/downloads.svg": "e00b7922694c9b91ec681136ca2fae99c901c417",
-          "docs/badges/release.svg": "990c1f475210976a69f415da792a3cee2831ac2f",
-          "docs/badges/stars.svg": "5bd9721f741ada312b1199168b3086b2ac30c6cb",
+          "docs/badges/downloads.svg": "4148f257ddfd9c7cba8c3163fef9c1e189547290",
+          "docs/badges/release.svg": "141747089575541f4857e258688ad93577871450",
+          "docs/badges/stars.svg": "0d521bd3f4a134b9802b88f8fae2a8603a3820ce",
           "docs/badges/telegram.svg": "58c2a13cc9f7496000903ed488b0d041b04ebb5c",
           "docs/screenshots/advanced.png": "ba730408f2e262b189a25ff1f27b31ef44efbdd6",
           "docs/screenshots/app-cache.png": "6c9a644eb5fc9aa8d61036867b504362d1962218",
@@ -9030,15 +9030,15 @@
           "icon.png": "ef54eccb2e57b4a3f6a4000205c2d1a2f88e9803",
           "module.yaml": "463e61ec7a937a827698f1e8ad7e0ce14475ecec"
         },
-        "commit": "b1072b8d3f4300e9074e5c2a8fd08f89483694e2",
-        "fetchedAt": "2026-11-26T14:08:10.892Z",
+        "commit": "37f4a217b862eeeea9b5e403b49e884375a932df",
+        "fetchedAt": "2026-11-27T14:36:16.999Z",
         "files": {
           "README.md": "540b6ccec2708166dcac2c03cda3c744afe45d32fa9f99e2e1587ef0558dc971",
           "banner.jpg": "c0f56903a89ab462a8e3538ff81b7d459122834e5c41aae827261000b4fc843b",
           "docs/badges/android.svg": "62165f0be274f220066fb6cd66ce591e767341853a3158cf0074be578c5277b1",
-          "docs/badges/downloads.svg": "bc328f6185c025e781db12b3d8e9f61a0a32cef9b6db7f1609e3c184cb4feb0a",
-          "docs/badges/release.svg": "ad1c45fcbb76589bc8e54901524cddd87281c26eea8e99f139fcd855940bb6b6",
-          "docs/badges/stars.svg": "762d5947c86d294f6a16ab6a007d56b09239eda83a3750099f491ea33dc63654",
+          "docs/badges/downloads.svg": "69f3385ba90ce350be17ecc9c5989bd77b35715f9a0ed6634bede411949f34ba",
+          "docs/badges/release.svg": "1335eb283b54d74524ae629502a2bfec131d67db68b5a040f494897398f00091",
+          "docs/badges/stars.svg": "7ee2bb425ddf0f36ae28eab7ca9bcc6f1eedd00b94ebf99af30d80f66fc06c29",
           "docs/badges/telegram.svg": "ea8191048dafffa0c11f5b11eb6437420734a9ab1f7bd4161f89f1d2c9ef83ff",
           "docs/screenshots/advanced.png": "220787f992830f27f19b68cf3369821ad9b87e3333d21bf7b465744035878194",
           "docs/screenshots/app-cache.png": "74ec72f4f19a4a5f6ed51c1e1f8e18f2f196a7b14950fe0124db778644838d43",
@@ -9064,8 +9064,8 @@
       "fullName": "yudharn/HyperCool",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-27T13:13:01.217Z",
-        "lastSuccessAt": "2026-11-27T13:13:01.217Z",
+        "lastAttemptAt": "2026-11-27T14:36:16.999Z",
+        "lastSuccessAt": "2026-11-27T14:36:16.999Z",
         "message": null,
         "status": "ok"
       },
@@ -9531,8 +9531,8 @@
         "versionCode": 242
       },
       "stars": {
-        "count": 37,
-        "fetchedAt": "2026-11-27T08:39:43.857Z",
+        "count": 38,
+        "fetchedAt": "2026-11-27T14:36:16.999Z",
         "fullName": "yudharn/HyperCool",
         "repositoryId": 1446403674,
         "verified": "self"
@@ -16301,17 +16301,47 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-26T16:41:59.717Z",
-        "lastSuccessAt": "2026-11-26T16:41:59.717Z",
+        "lastAttemptAt": "2026-11-27T14:36:16.999Z",
+        "lastSuccessAt": "2026-11-27T14:36:16.999Z",
         "message": null,
         "status": "ok"
       },
       "id": "zygisknextsu",
       "installationId": 170184418,
-      "maxStableVersionCode": 454,
-      "maxVersionCode": 454,
+      "maxStableVersionCode": 458,
+      "maxVersionCode": 458,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:cd07fcc82001fb8543df1e3330226ef74139c137a242d76900b0c5d39b64238a",
+            "id": 800833221,
+            "name": "ZNNext-v2.22.0.1-458-952f9de-release.zip",
+            "sha256": "cd07fcc82001fb8543df1e3330226ef74139c137a242d76900b0c5d39b64238a",
+            "size": 6336729,
+            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.22.0.1/ZNNext-v2.22.0.1-458-952f9de-release.zip"
+          },
+          "body": "## What's Changed\n* chore(deps): bump @vueuse/core from 15.0.0 to 15.1.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/236\n* chore(deps): bump @m3e/web from 2.13.6 to 2.13.7 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/235\n* feat(riscv64): enable yukiplt for hooking by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/231\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.22.0...v2.22.0.1\n",
+          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.22.0.1",
+          "immutable": true,
+          "name": "v2.22.0.1",
+          "prerelease": false,
+          "prop": {
+            "author": "VeryBaaad",
+            "description": "Standalone Zygisk Next module loader.",
+            "id": "zygisknextsu",
+            "name": "ZNNext",
+            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
+            "version": "v2.22.0.1 (458-952f9de-release)",
+            "versionCode": "458"
+          },
+          "publishedAt": "2026-11-27T14:35:55Z",
+          "releaseId": 460711900,
+          "tag": "v2.22.0.1",
+          "tagCommit": "952f9de9a702654504653510369d663d8dd0a3a3",
+          "version": "v2.22.0.1 (458-952f9de-release)",
+          "versionCode": 458
+        },
         {
           "asset": {
             "digest": "sha256:04bcac0d742d507ed82bb8924c6f57e65ac54f4d68ecf51b958e2ab5b9c75409",
@@ -16581,36 +16611,6 @@
           "tagCommit": "14c2bdd24cfd335b0d12aaa0c71a6538547f7a7b",
           "version": "v2.18.0.1 (409-14c2bdd-release)",
           "versionCode": 409
-        },
-        {
-          "asset": {
-            "digest": "sha256:2c594191caa1923933d1a5b98ebbb174ca00960f50027e615050af772752124f",
-            "id": 750639666,
-            "name": "ZNNext-v2.18.0-406-a5d3ce6-release.zip",
-            "sha256": "2c594191caa1923933d1a5b98ebbb174ca00960f50027e615050af772752124f",
-            "size": 11368756,
-            "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.18.0/ZNNext-v2.18.0-406-a5d3ce6-release.zip"
-          },
-          "body": "## What's Changed\n* feat(inlinehook): add SandHook by @VeryBaaad in https://github.com/VeryBaaad/ZNNext/pull/196\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.17.0...v2.18.0\n",
-          "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.18.0",
-          "immutable": true,
-          "name": "v2.18.0",
-          "prerelease": false,
-          "prop": {
-            "author": "VeryBaaad",
-            "description": "Standalone Zygisk Next module loader.",
-            "id": "zygisknextsu",
-            "name": "ZNNext",
-            "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-            "version": "v2.18.0 (406-a5d3ce6-release)",
-            "versionCode": "406"
-          },
-          "publishedAt": "2026-11-15T10:32:18Z",
-          "releaseId": 445976571,
-          "tag": "v2.18.0",
-          "tagCommit": "a5d3ce6ebd5cf56579f338c59a5d257a829fbeb4",
-          "version": "v2.18.0 (406-a5d3ce6-release)",
-          "versionCode": 406
         }
       ],
       "repositoryId": 1348255159,
@@ -16916,21 +16916,25 @@
         "459672974": {
           "checkedAt": "2026-11-26T16:41:59.717Z",
           "ok": true
+        },
+        "460711900": {
+          "checkedAt": "2026-11-27T14:36:16.999Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:04bcac0d742d507ed82bb8924c6f57e65ac54f4d68ecf51b958e2ab5b9c75409",
-          "id": 796797568,
-          "name": "ZNNext-v2.22.0-454-95e2d0a-release.zip",
-          "sha256": "04bcac0d742d507ed82bb8924c6f57e65ac54f4d68ecf51b958e2ab5b9c75409",
-          "size": 6334215,
-          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.22.0/ZNNext-v2.22.0-454-95e2d0a-release.zip"
+          "digest": "sha256:cd07fcc82001fb8543df1e3330226ef74139c137a242d76900b0c5d39b64238a",
+          "id": 800833221,
+          "name": "ZNNext-v2.22.0.1-458-952f9de-release.zip",
+          "sha256": "cd07fcc82001fb8543df1e3330226ef74139c137a242d76900b0c5d39b64238a",
+          "size": 6336729,
+          "url": "https://github.com/VeryBaaad/ZNNext/releases/download/v2.22.0.1/ZNNext-v2.22.0.1-458-952f9de-release.zip"
         },
-        "body": "## What's Changed\n* chore(deps): bump @m3e/web from 2.13.5 to 2.13.6 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/230\n* Add Russian (ru) locale to WebUI by @LegacyFreeman in https://github.com/VeryBaaad/ZNNext/pull/227\n\n## New Contributors\n* @LegacyFreeman made their first contribution in https://github.com/VeryBaaad/ZNNext/pull/227\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.21.0...v2.22.0\n",
-        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.22.0",
+        "body": "## What's Changed\n* chore(deps): bump @vueuse/core from 15.0.0 to 15.1.0 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/236\n* chore(deps): bump @m3e/web from 2.13.6 to 2.13.7 in /webui by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/235\n* feat(riscv64): enable yukiplt for hooking by @dependabot[bot] in https://github.com/VeryBaaad/ZNNext/pull/231\n\n\n**Full Changelog**: https://github.com/VeryBaaad/ZNNext/compare/v2.22.0...v2.22.0.1\n",
+        "htmlUrl": "https://github.com/VeryBaaad/ZNNext/releases/tag/v2.22.0.1",
         "immutable": true,
-        "name": "v2.22.0",
+        "name": "v2.22.0.1",
         "prerelease": false,
         "prop": {
           "author": "VeryBaaad",
@@ -16938,15 +16942,15 @@
           "id": "zygisknextsu",
           "name": "ZNNext",
           "updateJson": "https://raw.githubusercontent.com/VeryBaaad/ZNNext/refs/heads/update/update.json",
-          "version": "v2.22.0 (454-95e2d0a-release)",
-          "versionCode": "454"
+          "version": "v2.22.0.1 (458-952f9de-release)",
+          "versionCode": "458"
         },
-        "publishedAt": "2026-11-26T16:41:37Z",
-        "releaseId": 459672974,
-        "tag": "v2.22.0",
-        "tagCommit": "95e2d0a0b6c81c689069f7a2b476d8870d84e122",
-        "version": "v2.22.0 (454-95e2d0a-release)",
-        "versionCode": 454
+        "publishedAt": "2026-11-27T14:35:55Z",
+        "releaseId": 460711900,
+        "tag": "v2.22.0.1",
+        "tagCommit": "952f9de9a702654504653510369d663d8dd0a3a3",
+        "version": "v2.22.0.1 (458-952f9de-release)",
+        "versionCode": 458
       },
       "stars": {
         "count": 123,
