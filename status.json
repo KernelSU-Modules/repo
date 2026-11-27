@@ -970,6 +970,27 @@
         "versionCode": 20000017
       }
     },
+    "ksu-bgfreeze": {
+      "contentCommit": "7c6a9d252d3fdf9b5c051c139d57d18e9e92f2aa",
+      "fullName": "q2333gh/ksu-bgfreeze",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1474387514,
+      "request": {
+        "checkedAt": "2026-11-27T12:21:34.649Z",
+        "commit": "7c6a9d252d3fdf9b5c051c139d57d18e9e92f2aa",
+        "issues": [],
+        "latestTag": "v0.3.1",
+        "ok": true,
+        "releaseId": 460563194,
+        "repositoryId": 1474387514,
+        "submissionId": "ss444abfla"
+      },
+      "stable": null
+    },
     "ksuGrantToast": {
       "contentCommit": "f824d0e3b7f10da76c4adc91b3585c38ece6371f",
       "fullName": "NativeStar/KernelSUGrantToast",
