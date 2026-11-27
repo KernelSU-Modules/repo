@@ -1323,7 +1323,7 @@
       "stable": null
     },
     "ssmcp": {
-      "contentCommit": "06589508c997cebad313405070d83db8568dd294",
+      "contentCommit": "b14df6913cb0ea9412a6f029d05a054e73122b64",
       "fullName": "LIghtJUNction/ssmcp",
       "health": "ok",
       "installation": "present",
@@ -1332,8 +1332,8 @@
       "message": null,
       "repositoryId": 1459020791,
       "request": {
-        "checkedAt": "2026-11-27T00:16:18.751Z",
-        "commit": "06589508c997cebad313405070d83db8568dd294",
+        "checkedAt": "2026-11-27T03:18:19.664Z",
+        "commit": "b14df6913cb0ea9412a6f029d05a054e73122b64",
         "issues": [],
         "latestTag": "v0.10.54",
         "ok": true,
