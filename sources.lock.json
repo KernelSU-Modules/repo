@@ -4914,8 +4914,8 @@
         "versionCode": 14
       },
       "stars": {
-        "count": 36,
-        "fetchedAt": "2026-11-26T15:22:05.390Z",
+        "count": 37,
+        "fetchedAt": "2026-11-27T16:05:09.920Z",
         "fullName": "LimpidMo/SvcHub",
         "repositoryId": 1353509468,
         "verified": "self"
@@ -11194,8 +11194,8 @@
         "versionCode": 10501
       },
       "stars": {
-        "count": 11,
-        "fetchedAt": "2026-11-23T07:42:04.923Z",
+        "count": 12,
+        "fetchedAt": "2026-11-27T16:05:09.920Z",
         "fullName": "ahsaboy/magisk-netbird",
         "repositoryId": 1274372941,
         "verified": "self"
@@ -16286,13 +16286,13 @@
     "zygisknextsu": {
       "content": {
         "blobs": {
-          "README.md": "b67d56218dbc8f86acf29d6834f22906de9abd8b",
+          "README.md": "06634e8aa60338196bf99f54f90921ab645b1908",
           "module.yaml": "e247ea24daaf8b0479da70584df9834166993095"
         },
-        "commit": "eed948778176741e7044b5f4c3e229c83f8d4ed3",
-        "fetchedAt": "2026-11-25T14:29:56.170Z",
+        "commit": "e18b6b5a14880e0c1574957f9e9e3d5cba4b13c2",
+        "fetchedAt": "2026-11-27T16:05:09.920Z",
         "files": {
-          "README.md": "6bae3db2775ec8c5a5a503784b9f82b5b72c4d5fc59638340852c0035d858e96",
+          "README.md": "ba70e5f7cc65d2222a339d6d72f26c43414086e14b7180677fe432b79910ec40",
           "module.yaml": "54bdb455d9d9ceb3235387c12ac566e4e98f1c8e55a4a0320dcdddded8b71c1b"
         },
         "manifestPath": "module.yaml",
@@ -16301,8 +16301,8 @@
       "fullName": "VeryBaaad/ZNNext",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-27T14:36:16.999Z",
-        "lastSuccessAt": "2026-11-27T14:36:16.999Z",
+        "lastAttemptAt": "2026-11-27T16:05:09.920Z",
+        "lastSuccessAt": "2026-11-27T16:05:09.920Z",
         "message": null,
         "status": "ok"
       },
@@ -16953,8 +16953,8 @@
         "versionCode": 458
       },
       "stars": {
-        "count": 123,
-        "fetchedAt": "2026-11-26T12:07:06.269Z",
+        "count": 122,
+        "fetchedAt": "2026-11-27T16:05:09.920Z",
         "fullName": "VeryBaaad/ZNNext",
         "repositoryId": 1348255159,
         "verified": "self"

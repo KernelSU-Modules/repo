@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "7fd8f400a846e44b3eb66fd06b294786f7ba27f6",
+      "contentCommit": "6f7a5461a7333cdc8e551c0efa72e0d610f02633",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-27T00:16:18.751Z",
-        "commit": "7fd8f400a846e44b3eb66fd06b294786f7ba27f6",
+        "checkedAt": "2026-11-27T16:05:09.920Z",
+        "commit": "6f7a5461a7333cdc8e551c0efa72e0d610f02633",
         "issues": [],
         "latestTag": "v0.1.12",
         "ok": true,
@@ -1563,11 +1563,11 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "eed948778176741e7044b5f4c3e229c83f8d4ed3",
+      "contentCommit": "e18b6b5a14880e0c1574957f9e9e3d5cba4b13c2",
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-27T14:36:16.999Z",
+      "lastSuccessAt": "2026-11-27T16:05:09.920Z",
       "maxVersionCode": 458,
       "message": null,
       "repositoryId": 1348255159,
