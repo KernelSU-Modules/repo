@@ -86,11 +86,11 @@
       }
     },
     "CRecordEvolution": {
-      "contentCommit": "6519ef731db831f8649e8c51480b82a91a35b04a",
+      "contentCommit": "2ab2305ccf025bc5194581b058121c9c403418e4",
       "fullName": "f1owkang/CRecordEvolution",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-26T15:22:05.390Z",
+      "lastSuccessAt": "2026-11-27T08:39:43.857Z",
       "maxVersionCode": 40,
       "message": null,
       "repositoryId": 678049636,
@@ -349,10 +349,10 @@
     },
     "adbdisabler": {
       "contentCommit": "d0381ca234b3b018f10ad57f9839faaa4b99c3c9",
-      "fullName": "Shuoh118/ADB-Disabler",
+      "fullName": "Shuos118/ADB-Disabler",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-26T14:28:36.846Z",
+      "lastSuccessAt": "2026-11-27T08:39:43.857Z",
       "maxVersionCode": 10100,
       "message": null,
       "repositoryId": 1449393283,
@@ -488,7 +488,7 @@
     },
     "autousb": {
       "contentCommit": "f5442873729d5284de8d4d10d40ae3cd0f0435a5",
-      "fullName": "Shuoh118/Auto-USB",
+      "fullName": "Shuos118/Auto-USB",
       "health": "ok",
       "installation": "present",
       "lastSuccessAt": null,
@@ -1249,6 +1249,27 @@
         "version": "v3.0.2",
         "versionCode": 302
       }
+    },
+    "rkp_mfr_auto": {
+      "contentCommit": "1edb278e9e086b88c3efe25569a4f111bb2464e2",
+      "fullName": "Najip/RKP-Mfr-Auto-Match",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1473831144,
+      "request": {
+        "checkedAt": "2026-11-27T08:39:43.857Z",
+        "commit": "1edb278e9e086b88c3efe25569a4f111bb2464e2",
+        "issues": [],
+        "latestTag": "v0.3.1",
+        "ok": true,
+        "releaseId": 460331542,
+        "repositoryId": 1473831144,
+        "submissionId": "59vwezcfvc"
+      },
+      "stable": null
     },
     "shellscaled": {
       "contentCommit": "1b0d9799e3a55e4a985421fb19bfb3979509c5f8",

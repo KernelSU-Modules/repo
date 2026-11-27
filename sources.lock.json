@@ -1388,12 +1388,12 @@
           ".github/images/overview-en.png": "3471985dcbc462b0f960096e005c46f21ae3ade9",
           ".github/images/settings-en.png": "b7dc75c01c559cd33be870bd5cb17d9c15280f88",
           ".github/images/trends-en.png": "20628c19f3b6d09a211dee89d1b1e327df8e686d",
-          "README.md": "cfc0487151e8a9bfc135e89f9d0c2ea1d229c704",
+          "README.md": "b446296aefb7c579ded29e85d31cd8b0cd066d5f",
           "assets/icon.png": "5dc474bb718300203dce63f6f647c0d98cc4a3b6",
           "module.yaml": "af46db6ce9b3521a63f54a2523a3de272490b8a6"
         },
-        "commit": "6519ef731db831f8649e8c51480b82a91a35b04a",
-        "fetchedAt": "2026-11-26T15:22:05.390Z",
+        "commit": "2ab2305ccf025bc5194581b058121c9c403418e4",
+        "fetchedAt": "2026-11-27T08:39:43.857Z",
         "files": {
           ".github/images/history-en.png": "02899d4484d56f1ff808d7030034777e4de615e9c04ab9ff3c094a7d20621a3f",
           ".github/images/how-it-works-en-dark.png": "39c90ed4f3604a2fb0de8341ee656c1ede0b561a7eb8f3fbaff6fb53709d2846",
@@ -1401,7 +1401,7 @@
           ".github/images/overview-en.png": "8fb222defca54b3145a8b2e71e23d181ffe05791a52000673bc3b56baad9f2f2",
           ".github/images/settings-en.png": "351e73d3f06cc0f41f4a5a23e48b2472519811d3c53821fd4e5b9296ce704fc6",
           ".github/images/trends-en.png": "5f5e32c283b8d42f54f486409a9fd2469ba1c0c3fd404cbe796fb5cdcc559240",
-          "README.md": "5b5de74a47b4d32da3d67115d3606fa15f70ee3a5fe84d30d351a2977c3f08e7",
+          "README.md": "05863c0e9af515edb55deddee114319faea5a97277d7c18ae937c1c1c7e2e0dd",
           "assets/icon.png": "ef5a7662da7b1a2debee42ebe7f5b3e2ad28e362adc958828c986c0026128f91",
           "module.yaml": "ebfe31d302a3ceb7f02de8208dc4945730987a2dfff4ca8c586e4b1fa02cf1ea"
         },
@@ -1411,8 +1411,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-26T15:22:05.390Z",
-        "lastSuccessAt": "2026-11-26T15:22:05.390Z",
+        "lastAttemptAt": "2026-11-27T08:39:43.857Z",
+        "lastSuccessAt": "2026-11-27T08:39:43.857Z",
         "message": null,
         "status": "ok"
       },
@@ -5263,11 +5263,11 @@
         "manifestPath": "module.yaml",
         "ref": "main"
       },
-      "fullName": "Shuoh118/ADB-Disabler",
+      "fullName": "Shuos118/ADB-Disabler",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-26T14:28:36.846Z",
-        "lastSuccessAt": "2026-11-26T14:28:36.846Z",
+        "lastAttemptAt": "2026-11-27T08:39:43.857Z",
+        "lastSuccessAt": "2026-11-27T08:39:43.857Z",
         "message": null,
         "status": "ok"
       },
@@ -5522,8 +5522,8 @@
       },
       "stars": {
         "count": 2,
-        "fetchedAt": "2026-11-21T21:26:28.496Z",
-        "fullName": "Shuoh118/ADB-Disabler",
+        "fetchedAt": "2026-11-27T08:39:43.857Z",
+        "fullName": "Shuos118/ADB-Disabler",
         "repositoryId": 1449393283,
         "verified": "self"
       }
@@ -9527,8 +9527,8 @@
         "versionCode": 241
       },
       "stars": {
-        "count": 36,
-        "fetchedAt": "2026-11-25T15:13:08.981Z",
+        "count": 37,
+        "fetchedAt": "2026-11-27T08:39:43.857Z",
         "fullName": "yudharn/HyperCool",
         "repositoryId": 1446403674,
         "verified": "self"
@@ -10775,8 +10775,8 @@
         "versionCode": 213
       },
       "stars": {
-        "count": 71,
-        "fetchedAt": "2026-11-26T07:25:00.535Z",
+        "count": 73,
+        "fetchedAt": "2026-11-27T08:39:43.857Z",
         "fullName": "vincentng295/Magic_V2Ray",
         "repositoryId": 1256102852,
         "verified": "self"
@@ -12225,8 +12225,8 @@
         "versionCode": 1134
       },
       "stars": {
-        "count": 1483,
-        "fetchedAt": "2026-11-26T07:25:00.535Z",
+        "count": 1486,
+        "fetchedAt": "2026-11-27T08:39:43.857Z",
         "fullName": "Fanju6/NetProxy-Magisk",
         "repositoryId": 981411467,
         "requested": "Fanju6/NetProxy-Magisk",
@@ -16256,8 +16256,8 @@
         "versionCode": 222
       },
       "stars": {
-        "count": 36,
-        "fetchedAt": "2026-11-26T07:25:00.535Z",
+        "count": 38,
+        "fetchedAt": "2026-11-27T08:39:43.857Z",
         "fullName": "XiaoTong6666/zygisk_fusehide",
         "repositoryId": 1417162951,
         "verified": "self"
