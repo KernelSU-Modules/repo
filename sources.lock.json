@@ -4955,8 +4955,8 @@
         "versionCode": 14
       },
       "stars": {
-        "count": 37,
-        "fetchedAt": "2026-11-27T16:05:09.920Z",
+        "count": 39,
+        "fetchedAt": "2026-11-28T15:35:39.179Z",
         "fullName": "LimpidMo/SvcHub",
         "repositoryId": 1353509468,
         "verified": "self"
@@ -13972,13 +13972,13 @@
     "sidewire": {
       "content": {
         "blobs": {
-          "README.md": "3eb11b10657860703e8cde4dd3b1c07459736cbe",
+          "README.md": "c604dac2ff1714d71b53bde15494ce8e762b3180",
           "module.yaml": "9ce18950e6cae1ae5792b61e67f042a8e78ec422"
         },
-        "commit": "750c21b8afc310e15efaf1ab346b59913580a37d",
-        "fetchedAt": "2026-11-20T03:18:31.071Z",
+        "commit": "a209c8a128373c6b3f9d57bdcde4af8ee98b3f49",
+        "fetchedAt": "2026-11-28T15:35:39.179Z",
         "files": {
-          "README.md": "d02735f80031bc18d51668fe5158929c26fc34724eabf304126c7b3651b35491",
+          "README.md": "7438f4b4d92e4fa91c3c16b75da01664124039bb3ce50f75bde904a153703523",
           "module.yaml": "07dff387aa3c3fe60ba1d79975ba635372e945af3dad398ffa22865e233b7c83"
         },
         "manifestPath": "module.yaml",
@@ -13987,8 +13987,8 @@
       "fullName": "mzggr0914/sidewire",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T11:38:39.579Z",
-        "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+        "lastAttemptAt": "2026-11-28T15:35:39.179Z",
+        "lastSuccessAt": "2026-11-28T15:35:39.179Z",
         "message": null,
         "status": "ok"
       },
@@ -14582,8 +14582,8 @@
         "versionCode": 400
       },
       "stars": {
-        "count": 8,
-        "fetchedAt": "2026-11-22T08:11:22.611Z",
+        "count": 9,
+        "fetchedAt": "2026-11-28T15:35:39.179Z",
         "fullName": "Nixie24/susdock",
         "repositoryId": 1436993054,
         "verified": "self"

@@ -1373,11 +1373,11 @@
       }
     },
     "sidewire": {
-      "contentCommit": "750c21b8afc310e15efaf1ab346b59913580a37d",
+      "contentCommit": "a209c8a128373c6b3f9d57bdcde4af8ee98b3f49",
       "fullName": "mzggr0914/sidewire",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-25T11:38:39.579Z",
+      "lastSuccessAt": "2026-11-28T15:35:39.179Z",
       "maxVersionCode": 36,
       "message": null,
       "repositoryId": 1354975640,
