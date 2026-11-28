@@ -1106,20 +1106,20 @@
       }
     },
     "magic_mount_rs": {
-      "contentCommit": "f01a8a9dafc8cea3c9af38edaac51fa993cea629",
+      "contentCommit": "fe0d35f6a36abf224acb43540e85b61d95b224f5",
       "fullName": "Tools-cx-app/meta-magic_mount-rs",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-28T08:06:47.538Z",
-      "maxVersionCode": 401012,
+      "lastSuccessAt": "2026-11-28T08:49:30.867Z",
+      "maxVersionCode": 402000,
       "message": null,
       "repositoryId": 1154057975,
       "request": null,
       "stable": {
-        "publishedAt": "2026-10-30T21:41:55Z",
-        "tag": "v4.1.12",
-        "version": "v4.1.12-959",
-        "versionCode": 401012
+        "publishedAt": "2026-11-28T08:49:12Z",
+        "tag": "v4.2.0",
+        "version": "v4.2.0-980",
+        "versionCode": 402000
       }
     },
     "magic_v2ray": {
