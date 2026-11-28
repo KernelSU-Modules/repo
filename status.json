@@ -1127,16 +1127,16 @@
       "fullName": "vincentng295/Magic_V2Ray",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-28T07:50:31.207Z",
-      "maxVersionCode": 213,
+      "lastSuccessAt": "2026-11-28T13:52:28.131Z",
+      "maxVersionCode": 215,
       "message": null,
       "repositoryId": 1256102852,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-25T07:13:14Z",
-        "tag": "v4.0",
-        "version": "v4.0",
-        "versionCode": 213
+        "publishedAt": "2026-11-28T13:52:10Z",
+        "tag": "v5.0",
+        "version": "v5.0",
+        "versionCode": 215
       }
     },
     "magisk-netbird": {
