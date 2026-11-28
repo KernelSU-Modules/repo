@@ -1,0 +1,19 @@
+id: deadhand
+status: pending
+request:
+  submissionId: fdbcz13s5q
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1331346728
+    ownerId: 80125987
+    fullName: VD171/deadhand
+    manifestPath: module.yaml
+  submittedBy: 80125987
+  submittedByLogin: VD171
+  submittedAt: 2026-11-28T00:01:07.046Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65321
+createdAt: 2026-11-28T00:01:07.046Z
+updatedAt: 2026-11-28T00:01:07.046Z
