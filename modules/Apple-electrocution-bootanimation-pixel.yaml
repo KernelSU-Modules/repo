@@ -1,0 +1,19 @@
+id: Apple-electrocution-bootanimation-pixel
+status: pending
+request:
+  submissionId: a37vc05hud
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1368176586
+    ownerId: 198333738
+    fullName: axy0n-qli/Apple-electrocution-bootanimation-pixel
+    manifestPath: module.yaml
+  submittedBy: 198333738
+  submittedByLogin: axy0n-qli
+  submittedAt: 2026-11-28T08:06:21.701Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65322
+createdAt: 2026-11-28T08:06:21.701Z
+updatedAt: 2026-11-28T08:06:21.701Z
