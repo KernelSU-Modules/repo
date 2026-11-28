@@ -51,6 +51,27 @@
         "versionCode": 2049
       }
     },
+    "Apple-electrocution-bootanimation-pixel": {
+      "contentCommit": "206ea3e1c99795d8bc6b8524ff609d37d54d8c6a",
+      "fullName": "axy0n-qli/Apple-electrocution-bootanimation-pixel",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1368176586,
+      "request": {
+        "checkedAt": "2026-11-28T08:06:47.538Z",
+        "commit": "206ea3e1c99795d8bc6b8524ff609d37d54d8c6a",
+        "issues": [],
+        "latestTag": "v1.0.3",
+        "ok": true,
+        "releaseId": 461395238,
+        "repositoryId": 1368176586,
+        "submissionId": "a37vc05hud"
+      },
+      "stable": null
+    },
     "ByeBlur": {
       "contentCommit": "1d70bc71b34caba4e689c4e8d59e2bfcb4fa1927",
       "fullName": "LeanxModulostk/Bye-Blur",
@@ -1085,11 +1106,11 @@
       }
     },
     "magic_mount_rs": {
-      "contentCommit": "f9cfa8b598e8f38eaa63c75cc2bee9b4d03be26f",
+      "contentCommit": "f01a8a9dafc8cea3c9af38edaac51fa993cea629",
       "fullName": "Tools-cx-app/meta-magic_mount-rs",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-10-31T03:18:20.361Z",
+      "lastSuccessAt": "2026-11-28T08:06:47.538Z",
       "maxVersionCode": 401012,
       "message": null,
       "repositoryId": 1154057975,
