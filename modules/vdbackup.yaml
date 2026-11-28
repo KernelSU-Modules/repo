@@ -1,0 +1,19 @@
+id: vdbackup
+status: pending
+request:
+  submissionId: 2dtlxdp9sx
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1444762742
+    ownerId: 80125987
+    fullName: VD171/VD-Backup
+    manifestPath: module.yaml
+  submittedBy: 80125987
+  submittedByLogin: VD171
+  submittedAt: 2026-11-28T14:00:06.313Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65324
+createdAt: 2026-11-28T14:00:06.313Z
+updatedAt: 2026-11-28T14:00:06.313Z
