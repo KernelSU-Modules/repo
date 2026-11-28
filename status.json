@@ -1,11 +1,11 @@
 {
   "modules": {
     "A-STEPS": {
-      "contentCommit": "865145eb20232f9c7dc8ff68885aa2de92b91f5b",
+      "contentCommit": "c498eb8fad7117b2da72cb045e7cabd9e513a3a3",
       "fullName": "xiaoji0308/Steps",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-13T11:33:30.324Z",
+      "lastSuccessAt": "2026-11-28T07:50:31.207Z",
       "maxVersionCode": 20261110,
       "message": null,
       "repositoryId": 1423140380,
@@ -365,7 +365,7 @@
       }
     },
     "adblocker": {
-      "contentCommit": "a898f3adec4b69f94b45ad05dc822bc0ca13a23c",
+      "contentCommit": "148e19f79a1a4d832a93f49f7be2c35fa91f42e0",
       "fullName": "lihenggui/ADBlocker",
       "health": "ok",
       "installation": "present",
@@ -374,8 +374,8 @@
       "message": null,
       "repositoryId": 1468163221,
       "request": {
-        "checkedAt": "2026-11-28T00:23:46.293Z",
-        "commit": "a898f3adec4b69f94b45ad05dc822bc0ca13a23c",
+        "checkedAt": "2026-11-28T07:50:31.207Z",
+        "commit": "148e19f79a1a4d832a93f49f7be2c35fa91f42e0",
         "issues": [],
         "latestTag": "v0.1.12",
         "ok": true,
@@ -992,7 +992,7 @@
       }
     },
     "ksu-bgfreeze": {
-      "contentCommit": "a7d2a8c18dc97cd0e668fbc41533029593d77a54",
+      "contentCommit": "31879d0b9e923225893163dd27d49dd9f45e0258",
       "fullName": "q2333gh/ksu-bgfreeze",
       "health": "ok",
       "installation": "present",
@@ -1001,8 +1001,8 @@
       "message": null,
       "repositoryId": 1474387514,
       "request": {
-        "checkedAt": "2026-11-28T03:49:41.384Z",
-        "commit": "a7d2a8c18dc97cd0e668fbc41533029593d77a54",
+        "checkedAt": "2026-11-28T07:50:31.207Z",
+        "commit": "31879d0b9e923225893163dd27d49dd9f45e0258",
         "issues": [],
         "latestTag": "v0.6.8",
         "ok": true,
@@ -1102,11 +1102,11 @@
       }
     },
     "magic_v2ray": {
-      "contentCommit": "73f2df674ebb1e031f58d622a77c7ca4c3583aae",
+      "contentCommit": "c2c0864462e126161468755a8036493ef03e5873",
       "fullName": "vincentng295/Magic_V2Ray",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-25T07:13:36.321Z",
+      "lastSuccessAt": "2026-11-28T07:50:31.207Z",
       "maxVersionCode": 213,
       "message": null,
       "repositoryId": 1256102852,
@@ -1136,11 +1136,11 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "bd518a17ebd2dfe1ca14f155b68048e663ca70b6",
+      "contentCommit": "8e3d2e544ba1604b17c81ec3d8b5a2fd9e4d944f",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-28T04:32:50.416Z",
+      "lastSuccessAt": "2026-11-28T07:50:31.207Z",
       "maxVersionCode": 1300,
       "message": null,
       "repositoryId": 1445526027,
@@ -1293,7 +1293,7 @@
       }
     },
     "rkp_mfr_auto": {
-      "contentCommit": "cd94ed72752f26d8d9fec7bf937cc09ef656fab8",
+      "contentCommit": "550c9bdeaeca9f8a35bbbc8dc86d0a1aa44a444e",
       "fullName": "Najip/RKP-Mfr-Auto-Match",
       "health": "ok",
       "installation": "present",
@@ -1302,8 +1302,8 @@
       "message": null,
       "repositoryId": 1473831144,
       "request": {
-        "checkedAt": "2026-11-28T03:53:58.158Z",
-        "commit": "cd94ed72752f26d8d9fec7bf937cc09ef656fab8",
+        "checkedAt": "2026-11-28T07:50:31.207Z",
+        "commit": "550c9bdeaeca9f8a35bbbc8dc86d0a1aa44a444e",
         "issues": [],
         "latestTag": "v0.4.0",
         "ok": true,

@@ -3,14 +3,14 @@
     "A-STEPS": {
       "content": {
         "blobs": {
-          "README.md": "494c883e6b800f85c98e2734970a88f67e43d6af",
-          "module.yaml": "8cf87a86259d321371c529ec4a95f6de1bc2f785"
+          "README.md": "89f1eb7f2be2563a99cbea218f33948c086b2e40",
+          "module.yaml": "8df93996c08cc8d533b1616d3b9f980a1ae55fc0"
         },
-        "commit": "865145eb20232f9c7dc8ff68885aa2de92b91f5b",
-        "fetchedAt": "2026-11-13T11:33:30.324Z",
+        "commit": "c498eb8fad7117b2da72cb045e7cabd9e513a3a3",
+        "fetchedAt": "2026-11-28T07:50:31.207Z",
         "files": {
-          "README.md": "1d69ee0096f80e76085812d797e6981fd93c55aa4dfc1985c472141942a4e647",
-          "module.yaml": "eaaea186985b0ea6f3c03a24dd1c29a5b8bec58e5ce3d9d6abf78c386b0f4506"
+          "README.md": "af979d8a1114a70f8e413e8cc1dbb5bb5ee061c8c0a313e375d72085374de5c1",
+          "module.yaml": "6841d6c60bd5463a72e3e5d4a6f3418fe5d8584c31144481d39594b966e23283"
         },
         "manifestPath": "module.yaml",
         "ref": "main"
@@ -18,8 +18,8 @@
       "fullName": "xiaoji0308/Steps",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-13T11:33:30.324Z",
-        "lastSuccessAt": "2026-11-13T11:33:30.324Z",
+        "lastAttemptAt": "2026-11-28T07:50:31.207Z",
+        "lastSuccessAt": "2026-11-28T07:50:31.207Z",
         "message": null,
         "status": "ok"
       },
@@ -2833,8 +2833,8 @@
         "versionCode": 30060
       },
       "stars": {
-        "count": 30,
-        "fetchedAt": "2026-11-26T12:07:06.269Z",
+        "count": 29,
+        "fetchedAt": "2026-11-28T07:50:31.207Z",
         "fullName": "ylh440104/KernelSU-Tuner",
         "repositoryId": 1414095668,
         "verified": "self"
@@ -4502,8 +4502,8 @@
         "versionCode": 22
       },
       "stars": {
-        "count": 176,
-        "fetchedAt": "2026-11-27T05:26:35.169Z",
+        "count": 178,
+        "fetchedAt": "2026-11-28T07:50:31.207Z",
         "fullName": "ahmed-alnassif/ReSuSFS",
         "repositoryId": 1352101411,
         "verified": "self"
@@ -10452,15 +10452,15 @@
           "app/src/main/res/drawable-nodpi/module_icon.png": "a3eff87a00382701a545ffaea10da5e404a8165c",
           "docs/README.md": "d397e67eb825b576b2a3675c663792d5502b6c7e",
           "docs/images/screenshot_1.jpg": "018e3409a1ab13707443fec9de8731923ad40950",
-          "module.yaml": "0f4e3b7035eb1bae857977388740da2bf9dfe15a"
+          "module.yaml": "8671b25a5347da8061432d9c1d3447c56fdc18e5"
         },
-        "commit": "73f2df674ebb1e031f58d622a77c7ca4c3583aae",
-        "fetchedAt": "2026-11-24T07:24:48.412Z",
+        "commit": "c2c0864462e126161468755a8036493ef03e5873",
+        "fetchedAt": "2026-11-28T07:50:31.207Z",
         "files": {
           "app/src/main/res/drawable-nodpi/module_icon.png": "807cc18fde6f9e5f2c82628fd31867bbccaa5ba12dc0bd7345fb335483266ff9",
           "docs/README.md": "6467ec630ed3b1ecfc702aa3cfdc1c855b369ffa686598d7f3d25d5cb22b8cbd",
           "docs/images/screenshot_1.jpg": "5dcc076b0ad0fda2846b6974acad2c9e4a14734c68836bce9da379078e0ec4a9",
-          "module.yaml": "db7f8d229d8f2b6fed5042151cdd2e8e23fbabe5c8484b72b28f62921718eec7"
+          "module.yaml": "b97cae2c6716dd7fcb3199b9ca22376cc08312f2b27c3f3cc54d475424db6751"
         },
         "manifestPath": "module.yaml",
         "ref": "alpha"
@@ -10468,8 +10468,8 @@
       "fullName": "vincentng295/Magic_V2Ray",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-25T07:13:36.321Z",
-        "lastSuccessAt": "2026-11-25T07:13:36.321Z",
+        "lastAttemptAt": "2026-11-28T07:50:31.207Z",
+        "lastSuccessAt": "2026-11-28T07:50:31.207Z",
         "message": null,
         "status": "ok"
       },
@@ -11205,15 +11205,15 @@
       "content": {
         "blobs": {
           ".github/logo.png": "69a5399b0353886699c2ac24136ccc024acb891d",
-          "README.md": "23f962e12aa3b863c46870cfd6cdbdb768817e20",
+          "README.md": "5ba5f13d8143a155747e6978fbd39245326b8eb4",
           "module.yaml": "e8aa44dd3b8f0584742886f4abcb776e765fc6bc",
           "webui/public/mirageforge-logo.svg": "0a4386b301c4ff1c5050db5911a0b5b4f82459e5"
         },
-        "commit": "bd518a17ebd2dfe1ca14f155b68048e663ca70b6",
-        "fetchedAt": "2026-11-25T12:11:20.693Z",
+        "commit": "8e3d2e544ba1604b17c81ec3d8b5a2fd9e4d944f",
+        "fetchedAt": "2026-11-28T07:50:31.207Z",
         "files": {
           ".github/logo.png": "bf87da9eba197fa767a10921920d77d783fb3dc6f1b46513975f5ea6defa1f2d",
-          "README.md": "f6426f95367ae623ce88c24b111a697d8d7454c9b624a4b8db060df8f1df837e",
+          "README.md": "802b01f2c257e5c3a6aadd6e4076d2a78d7330ae7eb1d6cff69be1c58c2d510c",
           "module.yaml": "e84f417a435685063136750153b739ff81119024da473a63b074a8bcc7701c7f",
           "webui/public/mirageforge-logo.svg": "9fe580c17fdffb567bb6233c5c3efe53a25505884d8be962f98416f576d3ba52"
         },
@@ -11223,8 +11223,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-28T04:32:50.416Z",
-        "lastSuccessAt": "2026-11-28T04:32:50.416Z",
+        "lastAttemptAt": "2026-11-28T07:50:31.207Z",
+        "lastSuccessAt": "2026-11-28T07:50:31.207Z",
         "message": null,
         "status": "ok"
       },
