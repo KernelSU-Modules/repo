@@ -992,7 +992,7 @@
       }
     },
     "ksu-bgfreeze": {
-      "contentCommit": "6788bdfbc631fa350fab4eae1b87074f8df37e90",
+      "contentCommit": "ac8eeab920760007dce1264bdc34912a10bc8836",
       "fullName": "q2333gh/ksu-bgfreeze",
       "health": "ok",
       "installation": "present",
@@ -1001,8 +1001,8 @@
       "message": null,
       "repositoryId": 1474387514,
       "request": {
-        "checkedAt": "2026-11-28T01:27:28.460Z",
-        "commit": "6788bdfbc631fa350fab4eae1b87074f8df37e90",
+        "checkedAt": "2026-11-28T01:32:56.901Z",
+        "commit": "ac8eeab920760007dce1264bdc34912a10bc8836",
         "issues": [],
         "latestTag": "v0.6.2",
         "ok": true,
@@ -1140,7 +1140,7 @@
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-27T11:43:42.285Z",
+      "lastSuccessAt": "2026-11-28T01:32:56.901Z",
       "maxVersionCode": 1220,
       "message": null,
       "repositoryId": 1445526027,
