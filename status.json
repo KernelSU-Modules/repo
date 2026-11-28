@@ -992,7 +992,7 @@
       }
     },
     "ksu-bgfreeze": {
-      "contentCommit": "6d0a38e735726a07f80419bec4dded6e0143782f",
+      "contentCommit": "1e2cf08540fbb6968033a190838ace34c31e460c",
       "fullName": "q2333gh/ksu-bgfreeze",
       "health": "ok",
       "installation": "present",
@@ -1001,8 +1001,8 @@
       "message": null,
       "repositoryId": 1474387514,
       "request": {
-        "checkedAt": "2026-11-28T03:23:24.197Z",
-        "commit": "6d0a38e735726a07f80419bec4dded6e0143782f",
+        "checkedAt": "2026-11-28T03:25:53.584Z",
+        "commit": "1e2cf08540fbb6968033a190838ace34c31e460c",
         "issues": [],
         "latestTag": "v0.6.6",
         "ok": true,
