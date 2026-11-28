@@ -703,6 +703,27 @@
         "versionCode": 12
       }
     },
+    "deadhand": {
+      "contentCommit": "f08a8dd440d211466685f4eda024f51a0fccb52f",
+      "fullName": "VD171/deadhand",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1331346728,
+      "request": {
+        "checkedAt": "2026-11-28T00:01:32.235Z",
+        "commit": "f08a8dd440d211466685f4eda024f51a0fccb52f",
+        "issues": [],
+        "latestTag": "v0.3.1",
+        "ok": true,
+        "releaseId": 461167864,
+        "repositoryId": 1331346728,
+        "submissionId": "fdbcz13s5q"
+      },
+      "stable": null
+    },
     "device_faker": {
       "contentCommit": "a3a1a8aaba8cacef6e3545b061a9b2a8133f4aa5",
       "fullName": "Seyud/device_faker_release",
@@ -1272,7 +1293,7 @@
       }
     },
     "rkp_mfr_auto": {
-      "contentCommit": "bbec76598e65e7ef04a86d21493e8fd9b5d0c0a4",
+      "contentCommit": "54c59a78ebf1ece900704762a507214e9fd80e6d",
       "fullName": "Najip/RKP-Mfr-Auto-Match",
       "health": "ok",
       "installation": "present",
@@ -1281,8 +1302,8 @@
       "message": null,
       "repositoryId": 1473831144,
       "request": {
-        "checkedAt": "2026-11-27T23:48:25.966Z",
-        "commit": "bbec76598e65e7ef04a86d21493e8fd9b5d0c0a4",
+        "checkedAt": "2026-11-28T00:01:32.235Z",
+        "commit": "54c59a78ebf1ece900704762a507214e9fd80e6d",
         "issues": [],
         "latestTag": "v0.3.1",
         "ok": true,
