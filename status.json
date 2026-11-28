@@ -916,11 +916,11 @@
       }
     },
     "hypercool": {
-      "contentCommit": "37f4a217b862eeeea9b5e403b49e884375a932df",
+      "contentCommit": "3480efaf5ab8d9ed48e0a1b209c16aace631e36e",
       "fullName": "yudharn/HyperCool",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-27T14:36:16.999Z",
+      "lastSuccessAt": "2026-11-28T13:30:11.692Z",
       "maxVersionCode": 242,
       "message": null,
       "repositoryId": 1446403674,
@@ -1605,20 +1605,20 @@
       }
     },
     "zygisknextsu": {
-      "contentCommit": "e18b6b5a14880e0c1574957f9e9e3d5cba4b13c2",
+      "contentCommit": "68d895370255e5d67a9b4baced3a42aec949fdae",
       "fullName": "VeryBaaad/ZNNext",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-27T16:05:09.920Z",
-      "maxVersionCode": 458,
+      "lastSuccessAt": "2026-11-28T13:30:11.692Z",
+      "maxVersionCode": 500,
       "message": null,
       "repositoryId": 1348255159,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-27T14:35:55Z",
-        "tag": "v2.22.0.1",
-        "version": "v2.22.0.1 (458-952f9de-release)",
-        "versionCode": 458
+        "publishedAt": "2026-11-28T13:29:52Z",
+        "tag": "v2.22.2.2",
+        "version": "v2.22.2.2 (500-68d8953-release)",
+        "versionCode": 500
       }
     },
     "zygisksu": {
