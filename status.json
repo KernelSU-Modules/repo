@@ -992,7 +992,7 @@
       }
     },
     "ksu-bgfreeze": {
-      "contentCommit": "3dcf2a96d05eb59bf874cc601d8744936791f5ca",
+      "contentCommit": "6d0a38e735726a07f80419bec4dded6e0143782f",
       "fullName": "q2333gh/ksu-bgfreeze",
       "health": "ok",
       "installation": "present",
@@ -1001,12 +1001,12 @@
       "message": null,
       "repositoryId": 1474387514,
       "request": {
-        "checkedAt": "2026-11-28T02:04:10.047Z",
-        "commit": "3dcf2a96d05eb59bf874cc601d8744936791f5ca",
+        "checkedAt": "2026-11-28T03:23:24.197Z",
+        "commit": "6d0a38e735726a07f80419bec4dded6e0143782f",
         "issues": [],
-        "latestTag": "v0.6.5",
+        "latestTag": "v0.6.6",
         "ok": true,
-        "releaseId": 461231294,
+        "releaseId": 461269149,
         "repositoryId": 1474387514,
         "submissionId": "ss444abfla"
       },
@@ -1293,7 +1293,7 @@
       }
     },
     "rkp_mfr_auto": {
-      "contentCommit": "cd82487f617ea24a873962e2b8d014e41f2a79fa",
+      "contentCommit": "8ecca1e7a0f6c3183b5edf3b3cd7b443e453984f",
       "fullName": "Najip/RKP-Mfr-Auto-Match",
       "health": "ok",
       "installation": "present",
@@ -1302,8 +1302,8 @@
       "message": null,
       "repositoryId": 1473831144,
       "request": {
-        "checkedAt": "2026-11-28T00:23:46.293Z",
-        "commit": "cd82487f617ea24a873962e2b8d014e41f2a79fa",
+        "checkedAt": "2026-11-28T03:23:24.197Z",
+        "commit": "8ecca1e7a0f6c3183b5edf3b3cd7b443e453984f",
         "issues": [],
         "latestTag": "v0.3.1",
         "ok": true,
