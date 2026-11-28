@@ -1,0 +1,19 @@
+id: COPG-VD
+status: pending
+request:
+  submissionId: jfr1a5wzew
+  kind: submit
+  source:
+    host: github
+    repositoryId: 1120312669
+    ownerId: 80125987
+    fullName: VD171/COPG-VD
+    manifestPath: module.yaml
+  submittedBy: 80125987
+  submittedByLogin: VD171
+  submittedAt: 2026-11-28T13:59:59.197Z
+  telegram:
+    chatId: -1001860367685
+    messageId: 65323
+createdAt: 2026-11-28T13:59:59.197Z
+updatedAt: 2026-11-28T13:59:59.197Z
