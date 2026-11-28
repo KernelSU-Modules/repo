@@ -18,17 +18,48 @@
       "fullName": "xiaoji0308/Steps",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-28T07:50:31.207Z",
-        "lastSuccessAt": "2026-11-28T07:50:31.207Z",
+        "lastAttemptAt": "2026-11-28T07:56:19.627Z",
+        "lastSuccessAt": "2026-11-28T07:56:19.627Z",
         "message": null,
         "status": "ok"
       },
       "id": "A-STEPS",
       "installationId": 172438629,
-      "maxStableVersionCode": 20261110,
-      "maxVersionCode": 20261110,
+      "maxStableVersionCode": 20261128,
+      "maxVersionCode": 20261128,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:5ee41eaecd92e7ae47e564a1f029f1a884695031fc57538ac5d698ef001999ac",
+            "id": 803737283,
+            "name": "26.1128.zip",
+            "sha256": "5ee41eaecd92e7ae47e564a1f029f1a884695031fc57538ac5d698ef001999ac",
+            "size": 131682,
+            "url": "https://github.com/xiaoji0308/Steps/releases/download/1128/26.1128.zip"
+          },
+          "body": "拟步［HyperOS］\r\n在小米 / 红米 / POCO（HyperOS）上，基于系统计步库模拟步数，让第三方应用读取到自然、可追溯的步数数据。\r\n总步数 = 真实步数 + 模块写入，每一条写入都记进账本，随时可查、可撤销。\r\n\r\n模块信息\r\n  名称：拟步［HyperOS］\r\n  标识：A-STEPS\r\n作者：酷安 @浠浠浠\r\n  适用：小米 / 红米 / POCO，HyperOS\r\n  环境：Magisk / KernelSU（WebUI 管理）\r\n  数据目录：/data/adb/拟步/\r\n\r\n主要功能\r\n  1. 开机服务守护，无需核心破解、无需 App 后台，低 CPU 占用；多种写入通道自动探测\r\n  2. 三种配速：手动（随机 / 固定步数）、自动、倍数跟随；活动曲线支持均匀 / 上班 / 夜跑\r\n  3. 每日目标与随机目标、达标自动停止、24 点后自动重新运行、指定星期独立计划\r\n  4. 秒级「写入间隔」与「每条间隔」、合并写入、息屏停写 / 亮屏一次性补写、低电量暂停\r\n  5. 一键增加步数、撤销补写；开始 / 停止 / 增加等危险操作均为弹窗二次确认\r\n  6. 完整账本与运行日志、查看全部、七日步数曲线、今日轨迹、距离与热量估算\r\n  7. 自检诊断、一键导出报告到 Download/拟步\r\n  8. 更新检测 4 条线路自动优选，「更新与交流」卡片直达发布页与群组\r\n\r\n界面\r\n  6 套风格自由切换：清新 / 经典 / 尺规 / 云母 / 便当格 / 新粗野，支持明暗模式；\r\n  另有「星轨」独立界面（深空轨道可视化），配置与数据完全同步。\r\n  42 项参数集中在 WebUI 配置页，保存即生效，无关设置按条件自动隐藏。\r\n\r\n安装\r\n  在 Magisk / KernelSU 中刷入，完成后重启一次；更新后建议重启，\r\n  或在「配置 → 运行控制」点「重启全部进程」以系统级方式重建后台进程。\r\n  升级保留运行日志与账本，配置需重新设置。\r\n\r\n注意\r\n  仅支持小米全系设备；请勿冻结电量与性能，保持设备时间与网络时间同步。\r\n  使用本模块造成的账号异常等后果由使用者自行承担，请勿用于商用。\r\n交流群：https://t.me/Stepsxxx\r\n  酷安：https://www.coolapk.com/u/1547334\r\n\r\n版权所有 © 酷安浠浠浠 · 保留所有权利\r\n未经授权，禁止修改、反编译、二次打包或再分发本模块。\r\n<img width=\"1080\" height=\"2400\" alt=\"1000142516\" src=\"https://github.com/user-attachments/assets/59d8b26b-9ad4-4aa7-bba2-82992d6eb33e\" />\r\n<img width=\"1080\" height=\"2400\" alt=\"1000142517\" src=\"https://github.com/user-attachments/assets/5023d3ff-eacf-478a-b164-55bc06299673\" />\r\n<img width=\"1080\" height=\"2400\" alt=\"1000142518\" src=\"https://github.com/user-attachments/assets/4f75b082-b657-4992-bafd-8501a6cdf2e6\" />\r\n",
+          "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1128",
+          "immutable": true,
+          "name": "拟步-26.1128",
+          "prerelease": false,
+          "prop": {
+            "author": "浠浠浠",
+            "description": "拟步 · 智能步数与步数管理",
+            "id": "A-STEPS",
+            "name": "拟步[HyperOS]",
+            "updateJson": "https://raw.githubusercontent.com/xiaoji0308/Steps/main/ksu-update.json",
+            "version": "1128",
+            "versionCode": "20261128",
+            "webuiIcon": "webroot/icon.svg"
+          },
+          "publishedAt": "2026-11-28T07:55:40Z",
+          "releaseId": 461391668,
+          "tag": "1128",
+          "tagCommit": "c498eb8fad7117b2da72cb045e7cabd9e513a3a3",
+          "version": "1128",
+          "versionCode": 20261128
+        },
         {
           "asset": {
             "digest": "sha256:37b4dde57c76c3b4c3b374e676e39fe7ea015ede4db9c07448c7c6fab26cd55d",
@@ -126,38 +157,42 @@
         "439898121": {
           "checkedAt": "2026-11-13T11:33:30.324Z",
           "ok": true
+        },
+        "461391668": {
+          "checkedAt": "2026-11-28T07:56:19.627Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:37b4dde57c76c3b4c3b374e676e39fe7ea015ede4db9c07448c7c6fab26cd55d",
-          "id": 729895023,
-          "name": "26.1110.zip",
-          "sha256": "37b4dde57c76c3b4c3b374e676e39fe7ea015ede4db9c07448c7c6fab26cd55d",
-          "size": 61224,
-          "url": "https://github.com/xiaoji0308/Steps/releases/download/1110/26.1110.zip"
+          "digest": "sha256:5ee41eaecd92e7ae47e564a1f029f1a884695031fc57538ac5d698ef001999ac",
+          "id": 803737283,
+          "name": "26.1128.zip",
+          "sha256": "5ee41eaecd92e7ae47e564a1f029f1a884695031fc57538ac5d698ef001999ac",
+          "size": 131682,
+          "url": "https://github.com/xiaoji0308/Steps/releases/download/1128/26.1128.zip"
         },
-        "body": "26.1110\r\n    重构底层逻辑解决启动后未检测到进程，系统拦截等\r\n    增加多种写入方式以支持更多的运行环境\r\n    自动续跑：因达到目标步数或活跃时间结束而停止后，调高目标值或延长活跃结束时间，即可自动恢复运行。\r\n    日志按类型着色，一眼分清\r\n    守护进程未运行时，首页会给出提示以及解决方法\r\n26.1108\r\n    内容调整：移除 1104—1106 版本中的相关内容。\r\n    版本重构：重新调整设计与结构，重新进行模块重构。\r\n    UI 优化：新增多套 UI 设计方案，共计 6 套不同风格。\r\n    UI 切换功能：新增 UI 切换选项，根据个人喜好自由选择不同的界面风格\r\n<img width=\"1080\" height=\"1658\" alt=\"IMG_20261110_110529\" src=\"https://github.com/user-attachments/assets/037fae33-6abb-473f-af07-3a2ea6803253\" />",
-        "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1110",
+        "body": "拟步［HyperOS］\r\n在小米 / 红米 / POCO（HyperOS）上，基于系统计步库模拟步数，让第三方应用读取到自然、可追溯的步数数据。\r\n总步数 = 真实步数 + 模块写入，每一条写入都记进账本，随时可查、可撤销。\r\n\r\n模块信息\r\n  名称：拟步［HyperOS］\r\n  标识：A-STEPS\r\n作者：酷安 @浠浠浠\r\n  适用：小米 / 红米 / POCO，HyperOS\r\n  环境：Magisk / KernelSU（WebUI 管理）\r\n  数据目录：/data/adb/拟步/\r\n\r\n主要功能\r\n  1. 开机服务守护，无需核心破解、无需 App 后台，低 CPU 占用；多种写入通道自动探测\r\n  2. 三种配速：手动（随机 / 固定步数）、自动、倍数跟随；活动曲线支持均匀 / 上班 / 夜跑\r\n  3. 每日目标与随机目标、达标自动停止、24 点后自动重新运行、指定星期独立计划\r\n  4. 秒级「写入间隔」与「每条间隔」、合并写入、息屏停写 / 亮屏一次性补写、低电量暂停\r\n  5. 一键增加步数、撤销补写；开始 / 停止 / 增加等危险操作均为弹窗二次确认\r\n  6. 完整账本与运行日志、查看全部、七日步数曲线、今日轨迹、距离与热量估算\r\n  7. 自检诊断、一键导出报告到 Download/拟步\r\n  8. 更新检测 4 条线路自动优选，「更新与交流」卡片直达发布页与群组\r\n\r\n界面\r\n  6 套风格自由切换：清新 / 经典 / 尺规 / 云母 / 便当格 / 新粗野，支持明暗模式；\r\n  另有「星轨」独立界面（深空轨道可视化），配置与数据完全同步。\r\n  42 项参数集中在 WebUI 配置页，保存即生效，无关设置按条件自动隐藏。\r\n\r\n安装\r\n  在 Magisk / KernelSU 中刷入，完成后重启一次；更新后建议重启，\r\n  或在「配置 → 运行控制」点「重启全部进程」以系统级方式重建后台进程。\r\n  升级保留运行日志与账本，配置需重新设置。\r\n\r\n注意\r\n  仅支持小米全系设备；请勿冻结电量与性能，保持设备时间与网络时间同步。\r\n  使用本模块造成的账号异常等后果由使用者自行承担，请勿用于商用。\r\n交流群：https://t.me/Stepsxxx\r\n  酷安：https://www.coolapk.com/u/1547334\r\n\r\n版权所有 © 酷安浠浠浠 · 保留所有权利\r\n未经授权，禁止修改、反编译、二次打包或再分发本模块。\r\n<img width=\"1080\" height=\"2400\" alt=\"1000142516\" src=\"https://github.com/user-attachments/assets/59d8b26b-9ad4-4aa7-bba2-82992d6eb33e\" />\r\n<img width=\"1080\" height=\"2400\" alt=\"1000142517\" src=\"https://github.com/user-attachments/assets/5023d3ff-eacf-478a-b164-55bc06299673\" />\r\n<img width=\"1080\" height=\"2400\" alt=\"1000142518\" src=\"https://github.com/user-attachments/assets/4f75b082-b657-4992-bafd-8501a6cdf2e6\" />\r\n",
+        "htmlUrl": "https://github.com/xiaoji0308/Steps/releases/tag/1128",
         "immutable": true,
-        "name": "智能步数管理26.1110（重要更新）",
+        "name": "拟步-26.1128",
         "prerelease": false,
         "prop": {
           "author": "浠浠浠",
-          "description": "自动增加步数",
+          "description": "拟步 · 智能步数与步数管理",
           "id": "A-STEPS",
-          "name": "A-智能步数管理［HyperOS］",
+          "name": "拟步[HyperOS]",
           "updateJson": "https://raw.githubusercontent.com/xiaoji0308/Steps/main/ksu-update.json",
-          "version": "1110",
-          "versionCode": "20261110",
+          "version": "1128",
+          "versionCode": "20261128",
           "webuiIcon": "webroot/icon.svg"
         },
-        "publishedAt": "2026-11-10T03:07:15Z",
-        "releaseId": 439898121,
-        "tag": "1110",
-        "tagCommit": "0055511a2f3601e4d6db195c663f98b913771a3d",
-        "version": "1110",
-        "versionCode": 20261110
+        "publishedAt": "2026-11-28T07:55:40Z",
+        "releaseId": 461391668,
+        "tag": "1128",
+        "tagCommit": "c498eb8fad7117b2da72cb045e7cabd9e513a3a3",
+        "version": "1128",
+        "versionCode": 20261128
       },
       "stars": {
         "count": 18,

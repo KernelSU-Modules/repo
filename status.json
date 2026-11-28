@@ -5,16 +5,16 @@
       "fullName": "xiaoji0308/Steps",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-28T07:50:31.207Z",
-      "maxVersionCode": 20261110,
+      "lastSuccessAt": "2026-11-28T07:56:19.627Z",
+      "maxVersionCode": 20261128,
       "message": null,
       "repositoryId": 1423140380,
       "request": null,
       "stable": {
-        "publishedAt": "2026-11-10T03:07:15Z",
-        "tag": "1110",
-        "version": "1110",
-        "versionCode": 20261110
+        "publishedAt": "2026-11-28T07:55:40Z",
+        "tag": "1128",
+        "version": "1128",
+        "versionCode": 20261128
       }
     },
     "AD_Killer_By_NFQUEUE": {
