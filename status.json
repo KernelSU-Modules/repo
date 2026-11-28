@@ -106,6 +106,27 @@
         "versionCode": 782
       }
     },
+    "COPG-VD": {
+      "contentCommit": "6c8c3c98057c5b50f82668a7b126b23f4d181422",
+      "fullName": "VD171/COPG-VD",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1120312669,
+      "request": {
+        "checkedAt": "2026-11-28T14:00:29.027Z",
+        "commit": "6c8c3c98057c5b50f82668a7b126b23f4d181422",
+        "issues": [],
+        "latestTag": "v6.19-vd",
+        "ok": true,
+        "releaseId": 459703430,
+        "repositoryId": 1120312669,
+        "submissionId": "jfr1a5wzew"
+      },
+      "stable": null
+    },
     "CRecordEvolution": {
       "contentCommit": "2ab2305ccf025bc5194581b058121c9c403418e4",
       "fullName": "f1owkang/CRecordEvolution",
@@ -1512,6 +1533,27 @@
         "releaseId": 454133171,
         "repositoryId": 586814977,
         "submissionId": "ujzyw4oe63"
+      },
+      "stable": null
+    },
+    "vdbackup": {
+      "contentCommit": "aca6f777539adea6551ee3a23ed0d34e5cc699e5",
+      "fullName": "VD171/VD-Backup",
+      "health": "ok",
+      "installation": "present",
+      "lastSuccessAt": null,
+      "maxVersionCode": null,
+      "message": null,
+      "repositoryId": 1444762742,
+      "request": {
+        "checkedAt": "2026-11-28T14:00:29.027Z",
+        "commit": "aca6f777539adea6551ee3a23ed0d34e5cc699e5",
+        "issues": [],
+        "latestTag": "v1.19",
+        "ok": true,
+        "releaseId": 460723341,
+        "repositoryId": 1444762742,
+        "submissionId": "2dtlxdp9sx"
       },
       "stable": null
     },
