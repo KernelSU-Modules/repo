@@ -10545,17 +10545,48 @@
       "fullName": "vincentng295/Magic_V2Ray",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-28T13:52:28.131Z",
-        "lastSuccessAt": "2026-11-28T13:52:28.131Z",
+        "lastAttemptAt": "2026-11-28T15:09:09.591Z",
+        "lastSuccessAt": "2026-11-28T15:09:09.591Z",
         "message": null,
         "status": "ok"
       },
       "id": "magic_v2ray",
       "installationId": 184380681,
-      "maxStableVersionCode": 215,
-      "maxVersionCode": 215,
+      "maxStableVersionCode": 217,
+      "maxVersionCode": 217,
       "prerelease": null,
       "releases": [
+        {
+          "asset": {
+            "digest": "sha256:795f9a0120ebf36b55699c2e5421c172c47e47806e5fb9d8efc95f67fa71a970",
+            "id": 804969931,
+            "name": "magic_v2ray-v5.0.1-stub.zip",
+            "sha256": "795f9a0120ebf36b55699c2e5421c172c47e47806e5fb9d8efc95f67fa71a970",
+            "size": 3456,
+            "url": "https://github.com/vincentng295/Magic_V2Ray/releases/download/v5.0.1/magic_v2ray-v5.0.1-stub.zip"
+          },
+          "body": "# Magic V2Ray v5.0.1 Release Notes\n\nFix UI\n\n## Magic V2Ray v5.0 Release Notes\n\n### Highlights\n\n- **XDRIVE transport**: tunnel VLESS traffic through a shared cloud-drive folder (Google Drive, S3, ...), with the required mux enabled automatically.\n- **Process-based routing**: route traffic by Android app (package name or \"unknown apps\"), backed by a built-in UID lookup server.\n- **External API level 3**: unlimited routing rules and hosts, file-based overrides, custom geo databases and `policygroup://` connections.\n- **32-bit Android support**: new `armeabi-v7a` and `x86` builds alongside `arm64-v8a` and `x86_64`.\n\n### Added\n\n- **XDRIVE transport (VLESS only)**\n  - New `xdrive` network in the node editor with service (`google-drive`, `s3`, `template`, `local`), remote folder, secret keys and raw XDriveObject JSON (`extra`) fields. FinalMask is supported as usual.\n  - Share links parse and serialize the XDRIVE settings (`service`, `folder`, `secrets`, `extra`).\n  - XDRIVE requires VLESS with encryption; mux is always enabled for these nodes, regardless of the global mux setting. Requires Xray-core v26.11.8 or newer.\n  - Localized labels and hints (English, Chinese, Traditional Chinese, Vietnamese, Russian).\n- **Process-based routing rules**\n  - Match apps by package name or by unknown-app status, with an installed-app picker. Packages are resolved to UIDs when Xray rules are generated.\n  - Process conditions are supported in rule editing, summaries and JSON import/export.\n  - Android connection-owner UID lookups are served over a private local socket for Xray's process matching, kept alive together with Xray. A UID-based process finder is registered for routing process rules.\n  - A warning is shown when a process rule may not work (Android below 10, or RouteOnly disabled).\n- **Source address and port routing rules**: match source IP and port across the editor, Xray configuration and External API, with import/export and documentation support. A default block rule is added for excluded apps.\n- **External API level 3**\n  - Unlimited routing rules and hosts, overrides loaded from granted content URIs, and consent-gated custom geo databases used for a session.\n  - **Policy groups**: session-only `policygroup://` connections with 2-256 nodes and Xray balancing strategies, including node access handling, confirmation prompts and active-node reporting.\n  - Process selectors in routing overrides accept Android package names and `__unknown_apps__`.\n  - **Per-app activity logs**: connection and node-access requests are recorded per app and shown in Access permissions. Always-allowed apps are no longer prompted when their settings change, and the consent dialogs are simplified.\n  - API documentation and translations updated for all of the above.\n- **Headless external connects**: approved external connection requests run in a hidden WebView hosted by a short-lived foreground service when the app has no screen, avoiding a flash of `MainActivity`. Falls back to the existing UI flow when headless setup is unavailable.\n- **32-bit ABIs**: `armeabi-v7a` and `x86` binaries are built and packaged next to the 64-bit ones. Installer selection, CI artifacts and release metadata cover all four architectures.\n- **Touch-friendly drag reordering** for categories and routing rules using pointer-based drag handles, with localized accessibility labels. Category order is persisted and routing-rule saves are debounced.\n- **Unsaved changes prompt**: leaving Traffic or Network settings with unapplied changes offers apply, discard or stay.\n- **Root mode** can now try the `adb testtun` hotspot for testing.\n\n### Changed\n\n- **WebUI sync**: the UI refreshes when it becomes visible, and live WebUI sessions are notified after Quick Settings tile or notification actions change the proxy state (with a delayed ping for teardown).\n- **Observatory delay tests** now exclude handshakes.\n- **Mux is now written at the outbound level** (`outbound.mux`), where Xray reads it. Previously it was emitted under `streamSettings`, so it may not have taken effect for regular nodes.\n\n### Fixed\n\n- **Excluded-app bypass**: IPv4 and IPv6 filter rules now reject excluded UIDs that send traffic through `xraytun0`, closing a bypass of the mangle-based exclusion. The hook and chain lifecycle is managed, with iptables tests covering add, remove and teardown.\n\n### Notes\n\n- XDRIVE needs Xray-core v26.11.8 or newer, plus VLESS encryption on both ends.\n- Process-based routing works best on Android 10 or newer with RouteOnly enabled.\n\n---\n\n[Click here for older release notes](https://github.com/vincentng295/Magic_V2Ray/releases)\n",
+          "htmlUrl": "https://github.com/vincentng295/Magic_V2Ray/releases/tag/v5.0.1",
+          "immutable": true,
+          "name": "v5.0.1",
+          "prerelease": false,
+          "prop": {
+            "author": "HuskyDG @vincentng295",
+            "debug": "0",
+            "description": "Installer stub: tap Action to download and install the Magic V2Ray app, which then installs the module.",
+            "id": "magic_v2ray",
+            "name": "Magic V2Ray",
+            "updateJson": "https://vincentng295.github.io/magic-v2ray-site/update.json",
+            "version": "v5.0.1",
+            "versionCode": "217"
+          },
+          "publishedAt": "2026-11-28T15:08:44Z",
+          "releaseId": 461642481,
+          "tag": "v5.0.1",
+          "tagCommit": "84a28c7f44cc47b77f8f81e664ca8330248f4a78",
+          "version": "v5.0.1",
+          "versionCode": 217
+        },
         {
           "asset": {
             "digest": "sha256:544c7181a3123cc21683fabdb3fdee61baa2bc36495fa08fcef92955b66f3cf4",
@@ -10857,21 +10888,25 @@
         "461593484": {
           "checkedAt": "2026-11-28T13:52:28.131Z",
           "ok": true
+        },
+        "461642481": {
+          "checkedAt": "2026-11-28T15:09:09.591Z",
+          "ok": true
         }
       },
       "stable": {
         "asset": {
-          "digest": "sha256:544c7181a3123cc21683fabdb3fdee61baa2bc36495fa08fcef92955b66f3cf4",
-          "id": 804738638,
-          "name": "magic_v2ray-v5.0-stub.zip",
-          "sha256": "544c7181a3123cc21683fabdb3fdee61baa2bc36495fa08fcef92955b66f3cf4",
-          "size": 3444,
-          "url": "https://github.com/vincentng295/Magic_V2Ray/releases/download/v5.0/magic_v2ray-v5.0-stub.zip"
+          "digest": "sha256:795f9a0120ebf36b55699c2e5421c172c47e47806e5fb9d8efc95f67fa71a970",
+          "id": 804969931,
+          "name": "magic_v2ray-v5.0.1-stub.zip",
+          "sha256": "795f9a0120ebf36b55699c2e5421c172c47e47806e5fb9d8efc95f67fa71a970",
+          "size": 3456,
+          "url": "https://github.com/vincentng295/Magic_V2Ray/releases/download/v5.0.1/magic_v2ray-v5.0.1-stub.zip"
         },
-        "body": "# Magic V2Ray v5.0 Release Notes\n\n### Highlights\n\n- **XDRIVE transport**: tunnel VLESS traffic through a shared cloud-drive folder (Google Drive, S3, ...), with the required mux enabled automatically.\n- **Process-based routing**: route traffic by Android app (package name or \"unknown apps\"), backed by a built-in UID lookup server.\n- **External API level 3**: unlimited routing rules and hosts, file-based overrides, custom geo databases and `policygroup://` connections.\n- **32-bit Android support**: new `armeabi-v7a` and `x86` builds alongside `arm64-v8a` and `x86_64`.\n\n### Added\n\n- **XDRIVE transport (VLESS only)**\n  - New `xdrive` network in the node editor with service (`google-drive`, `s3`, `template`, `local`), remote folder, secret keys and raw XDriveObject JSON (`extra`) fields. FinalMask is supported as usual.\n  - Share links parse and serialize the XDRIVE settings (`service`, `folder`, `secrets`, `extra`).\n  - XDRIVE requires VLESS with encryption; mux is always enabled for these nodes, regardless of the global mux setting. Requires Xray-core v26.11.8 or newer.\n  - Localized labels and hints (English, Chinese, Traditional Chinese, Vietnamese, Russian).\n- **Process-based routing rules**\n  - Match apps by package name or by unknown-app status, with an installed-app picker. Packages are resolved to UIDs when Xray rules are generated.\n  - Process conditions are supported in rule editing, summaries and JSON import/export.\n  - Android connection-owner UID lookups are served over a private local socket for Xray's process matching, kept alive together with Xray. A UID-based process finder is registered for routing process rules.\n  - A warning is shown when a process rule may not work (Android below 10, or RouteOnly disabled).\n- **Source address and port routing rules**: match source IP and port across the editor, Xray configuration and External API, with import/export and documentation support. A default block rule is added for excluded apps.\n- **External API level 3**\n  - Unlimited routing rules and hosts, overrides loaded from granted content URIs, and consent-gated custom geo databases used for a session.\n  - **Policy groups**: session-only `policygroup://` connections with 2-256 nodes and Xray balancing strategies, including node access handling, confirmation prompts and active-node reporting.\n  - Process selectors in routing overrides accept Android package names and `__unknown_apps__`.\n  - **Per-app activity logs**: connection and node-access requests are recorded per app and shown in Access permissions. Always-allowed apps are no longer prompted when their settings change, and the consent dialogs are simplified.\n  - API documentation and translations updated for all of the above.\n- **Headless external connects**: approved external connection requests run in a hidden WebView hosted by a short-lived foreground service when the app has no screen, avoiding a flash of `MainActivity`. Falls back to the existing UI flow when headless setup is unavailable.\n- **32-bit ABIs**: `armeabi-v7a` and `x86` binaries are built and packaged next to the 64-bit ones. Installer selection, CI artifacts and release metadata cover all four architectures.\n- **Touch-friendly drag reordering** for categories and routing rules using pointer-based drag handles, with localized accessibility labels. Category order is persisted and routing-rule saves are debounced.\n- **Unsaved changes prompt**: leaving Traffic or Network settings with unapplied changes offers apply, discard or stay.\n- **Root mode** can now try the `adb testtun` hotspot for testing.\n\n### Changed\n\n- **WebUI sync**: the UI refreshes when it becomes visible, and live WebUI sessions are notified after Quick Settings tile or notification actions change the proxy state (with a delayed ping for teardown).\n- **Observatory delay tests** now exclude handshakes.\n- **Mux is now written at the outbound level** (`outbound.mux`), where Xray reads it. Previously it was emitted under `streamSettings`, so it may not have taken effect for regular nodes.\n\n### Fixed\n\n- **Excluded-app bypass**: IPv4 and IPv6 filter rules now reject excluded UIDs that send traffic through `xraytun0`, closing a bypass of the mangle-based exclusion. The hook and chain lifecycle is managed, with iptables tests covering add, remove and teardown.\n\n### Notes\n\n- XDRIVE needs Xray-core v26.11.8 or newer, plus VLESS encryption on both ends.\n- Process-based routing works best on Android 10 or newer with RouteOnly enabled.\n\n---\n\n[Click here for older release notes](https://github.com/vincentng295/Magic_V2Ray/releases)\n",
-        "htmlUrl": "https://github.com/vincentng295/Magic_V2Ray/releases/tag/v5.0",
+        "body": "# Magic V2Ray v5.0.1 Release Notes\n\nFix UI\n\n## Magic V2Ray v5.0 Release Notes\n\n### Highlights\n\n- **XDRIVE transport**: tunnel VLESS traffic through a shared cloud-drive folder (Google Drive, S3, ...), with the required mux enabled automatically.\n- **Process-based routing**: route traffic by Android app (package name or \"unknown apps\"), backed by a built-in UID lookup server.\n- **External API level 3**: unlimited routing rules and hosts, file-based overrides, custom geo databases and `policygroup://` connections.\n- **32-bit Android support**: new `armeabi-v7a` and `x86` builds alongside `arm64-v8a` and `x86_64`.\n\n### Added\n\n- **XDRIVE transport (VLESS only)**\n  - New `xdrive` network in the node editor with service (`google-drive`, `s3`, `template`, `local`), remote folder, secret keys and raw XDriveObject JSON (`extra`) fields. FinalMask is supported as usual.\n  - Share links parse and serialize the XDRIVE settings (`service`, `folder`, `secrets`, `extra`).\n  - XDRIVE requires VLESS with encryption; mux is always enabled for these nodes, regardless of the global mux setting. Requires Xray-core v26.11.8 or newer.\n  - Localized labels and hints (English, Chinese, Traditional Chinese, Vietnamese, Russian).\n- **Process-based routing rules**\n  - Match apps by package name or by unknown-app status, with an installed-app picker. Packages are resolved to UIDs when Xray rules are generated.\n  - Process conditions are supported in rule editing, summaries and JSON import/export.\n  - Android connection-owner UID lookups are served over a private local socket for Xray's process matching, kept alive together with Xray. A UID-based process finder is registered for routing process rules.\n  - A warning is shown when a process rule may not work (Android below 10, or RouteOnly disabled).\n- **Source address and port routing rules**: match source IP and port across the editor, Xray configuration and External API, with import/export and documentation support. A default block rule is added for excluded apps.\n- **External API level 3**\n  - Unlimited routing rules and hosts, overrides loaded from granted content URIs, and consent-gated custom geo databases used for a session.\n  - **Policy groups**: session-only `policygroup://` connections with 2-256 nodes and Xray balancing strategies, including node access handling, confirmation prompts and active-node reporting.\n  - Process selectors in routing overrides accept Android package names and `__unknown_apps__`.\n  - **Per-app activity logs**: connection and node-access requests are recorded per app and shown in Access permissions. Always-allowed apps are no longer prompted when their settings change, and the consent dialogs are simplified.\n  - API documentation and translations updated for all of the above.\n- **Headless external connects**: approved external connection requests run in a hidden WebView hosted by a short-lived foreground service when the app has no screen, avoiding a flash of `MainActivity`. Falls back to the existing UI flow when headless setup is unavailable.\n- **32-bit ABIs**: `armeabi-v7a` and `x86` binaries are built and packaged next to the 64-bit ones. Installer selection, CI artifacts and release metadata cover all four architectures.\n- **Touch-friendly drag reordering** for categories and routing rules using pointer-based drag handles, with localized accessibility labels. Category order is persisted and routing-rule saves are debounced.\n- **Unsaved changes prompt**: leaving Traffic or Network settings with unapplied changes offers apply, discard or stay.\n- **Root mode** can now try the `adb testtun` hotspot for testing.\n\n### Changed\n\n- **WebUI sync**: the UI refreshes when it becomes visible, and live WebUI sessions are notified after Quick Settings tile or notification actions change the proxy state (with a delayed ping for teardown).\n- **Observatory delay tests** now exclude handshakes.\n- **Mux is now written at the outbound level** (`outbound.mux`), where Xray reads it. Previously it was emitted under `streamSettings`, so it may not have taken effect for regular nodes.\n\n### Fixed\n\n- **Excluded-app bypass**: IPv4 and IPv6 filter rules now reject excluded UIDs that send traffic through `xraytun0`, closing a bypass of the mangle-based exclusion. The hook and chain lifecycle is managed, with iptables tests covering add, remove and teardown.\n\n### Notes\n\n- XDRIVE needs Xray-core v26.11.8 or newer, plus VLESS encryption on both ends.\n- Process-based routing works best on Android 10 or newer with RouteOnly enabled.\n\n---\n\n[Click here for older release notes](https://github.com/vincentng295/Magic_V2Ray/releases)\n",
+        "htmlUrl": "https://github.com/vincentng295/Magic_V2Ray/releases/tag/v5.0.1",
         "immutable": true,
-        "name": "v5.0",
+        "name": "v5.0.1",
         "prerelease": false,
         "prop": {
           "author": "HuskyDG @vincentng295",
@@ -10880,15 +10915,15 @@
           "id": "magic_v2ray",
           "name": "Magic V2Ray",
           "updateJson": "https://vincentng295.github.io/magic-v2ray-site/update.json",
-          "version": "v5.0",
-          "versionCode": "215"
+          "version": "v5.0.1",
+          "versionCode": "217"
         },
-        "publishedAt": "2026-11-28T13:52:10Z",
-        "releaseId": 461593484,
-        "tag": "v5.0",
-        "tagCommit": "64173ae33f7c96701b12950217769e1075d6453a",
-        "version": "v5.0",
-        "versionCode": 215
+        "publishedAt": "2026-11-28T15:08:44Z",
+        "releaseId": 461642481,
+        "tag": "v5.0.1",
+        "tagCommit": "84a28c7f44cc47b77f8f81e664ca8330248f4a78",
+        "version": "v5.0.1",
+        "versionCode": 217
       },
       "stars": {
         "count": 74,
