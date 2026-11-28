@@ -111,7 +111,7 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-27T08:39:43.857Z",
+      "lastSuccessAt": "2026-11-28T12:12:09.358Z",
       "maxVersionCode": 40,
       "message": null,
       "repositoryId": 678049636,
@@ -1157,11 +1157,11 @@
       }
     },
     "mirage_forge": {
-      "contentCommit": "8e3d2e544ba1604b17c81ec3d8b5a2fd9e4d944f",
+      "contentCommit": "a3d932878374d758f1959837435ddd0c38841ed3",
       "fullName": "jjh138792/MirageForge",
       "health": "ok",
       "installation": "present",
-      "lastSuccessAt": "2026-11-28T07:50:31.207Z",
+      "lastSuccessAt": "2026-11-28T12:12:09.358Z",
       "maxVersionCode": 1300,
       "message": null,
       "repositoryId": 1445526027,
@@ -1314,7 +1314,7 @@
       }
     },
     "rkp_mfr_auto": {
-      "contentCommit": "550c9bdeaeca9f8a35bbbc8dc86d0a1aa44a444e",
+      "contentCommit": "707d7771799800656bd74cab4a1e04a0c5ce6416",
       "fullName": "Najip/RKP-Mfr-Auto-Match",
       "health": "ok",
       "installation": "present",
@@ -1323,8 +1323,8 @@
       "message": null,
       "repositoryId": 1473831144,
       "request": {
-        "checkedAt": "2026-11-28T07:50:31.207Z",
-        "commit": "550c9bdeaeca9f8a35bbbc8dc86d0a1aa44a444e",
+        "checkedAt": "2026-11-28T12:12:09.358Z",
+        "commit": "707d7771799800656bd74cab4a1e04a0c5ce6416",
         "issues": [],
         "latestTag": "v0.4.0",
         "ok": true,

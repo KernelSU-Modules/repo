@@ -1446,8 +1446,8 @@
       "fullName": "f1owkang/CRecordEvolution",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-27T08:39:43.857Z",
-        "lastSuccessAt": "2026-11-27T08:39:43.857Z",
+        "lastAttemptAt": "2026-11-28T12:12:09.358Z",
+        "lastSuccessAt": "2026-11-28T12:12:09.358Z",
         "message": null,
         "status": "ok"
       },
@@ -1795,6 +1795,12 @@
         "459585886": {
           "checkedAt": "2026-11-26T15:22:05.390Z",
           "ok": true
+        },
+        "461533708": {
+          "checkedAt": "2026-11-28T12:12:09.358Z",
+          "code": "version-not-newer",
+          "message": "versionCode 40 is already used by the release v1.4.0. Publish a new release with a versionCode above 40.",
+          "ok": false
         }
       },
       "stable": {
@@ -10850,8 +10856,8 @@
         "versionCode": 213
       },
       "stars": {
-        "count": 73,
-        "fetchedAt": "2026-11-27T08:39:43.857Z",
+        "count": 74,
+        "fetchedAt": "2026-11-28T12:12:09.358Z",
         "fullName": "vincentng295/Magic_V2Ray",
         "repositoryId": 1256102852,
         "verified": "self"
@@ -11276,15 +11282,15 @@
       "content": {
         "blobs": {
           ".github/logo.png": "69a5399b0353886699c2ac24136ccc024acb891d",
-          "README.md": "5ba5f13d8143a155747e6978fbd39245326b8eb4",
+          "README.md": "b01092fc6d590cc686b4f2c050733d549e4d08f0",
           "module.yaml": "e8aa44dd3b8f0584742886f4abcb776e765fc6bc",
           "webui/public/mirageforge-logo.svg": "0a4386b301c4ff1c5050db5911a0b5b4f82459e5"
         },
-        "commit": "8e3d2e544ba1604b17c81ec3d8b5a2fd9e4d944f",
-        "fetchedAt": "2026-11-28T07:50:31.207Z",
+        "commit": "a3d932878374d758f1959837435ddd0c38841ed3",
+        "fetchedAt": "2026-11-28T12:12:09.358Z",
         "files": {
           ".github/logo.png": "bf87da9eba197fa767a10921920d77d783fb3dc6f1b46513975f5ea6defa1f2d",
-          "README.md": "802b01f2c257e5c3a6aadd6e4076d2a78d7330ae7eb1d6cff69be1c58c2d510c",
+          "README.md": "28e28b63f51f1649d525bec2e037a58580d24a1388d6d3fe72f2476b61da105a",
           "module.yaml": "e84f417a435685063136750153b739ff81119024da473a63b074a8bcc7701c7f",
           "webui/public/mirageforge-logo.svg": "9fe580c17fdffb567bb6233c5c3efe53a25505884d8be962f98416f576d3ba52"
         },
@@ -11294,8 +11300,8 @@
       "fullName": "jjh138792/MirageForge",
       "health": {
         "installation": "present",
-        "lastAttemptAt": "2026-11-28T07:50:31.207Z",
-        "lastSuccessAt": "2026-11-28T07:50:31.207Z",
+        "lastAttemptAt": "2026-11-28T12:12:09.358Z",
+        "lastSuccessAt": "2026-11-28T12:12:09.358Z",
         "message": null,
         "status": "ok"
       },
@@ -13063,8 +13069,8 @@
         "versionCode": 187
       },
       "stars": {
-        "count": 6,
-        "fetchedAt": "2026-11-26T03:16:25.217Z",
+        "count": 7,
+        "fetchedAt": "2026-11-28T12:12:09.358Z",
         "fullName": "706412584/ColorOS-thermal",
         "repositoryId": 1445900163,
         "verified": "self"
